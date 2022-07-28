@@ -8,9 +8,7 @@ const router = express.Router()
 router.use('/restaurants', restaurantsRoutes)
 
 router.get("/", (req, res) => {
-  res.json({ message: "OK" });
-});
+  res.json({ message: 'OK' })   
+})
 
-
-
-module.exports = router
+module.exports =  router
