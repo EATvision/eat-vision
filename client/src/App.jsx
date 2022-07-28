@@ -9,7 +9,9 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React Router!</h1>
+      <h1 className="text-3xl font-bold underline">
+        Welcome to React Router!
+      </h1>
       <Routes>
         <Route path="/" element={<Navigate replace to="/restaurants" />} />
         <Route path="/restaurants" element={<RestaurantsPage />} />
@@ -18,7 +20,7 @@ function App() {
           path="*"
           element={(
             <main style={{ padding: '1rem' }}>
-              <p>There's nothing here!</p>
+              <p>There&apos;s nothing here!</p>
             </main>
           )}
         />
