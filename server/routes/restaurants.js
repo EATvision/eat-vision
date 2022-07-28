@@ -10,7 +10,7 @@ const allRestaurants = restaurants.select({ view: "Grid view" });
 router.get("/", (_req, res) => {
   allRestaurants.all((_err, records) => {
     const restaurantsData = records.map((r) => ({
-      name_id: r.get("name_id"),
+      r_id: r.get("r_id"),
       display_name: r.get("display_name"),
       logo_url: r.get("logo_url"),
       locale: r.get("locale"),
