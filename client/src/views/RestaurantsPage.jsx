@@ -41,7 +41,7 @@ function RestaurantsPage() {
                     className="w-full h-full object-center object-fit group-hover:opacity-75"
                   />
                 </div>
-                <h3 className="mt-4 text-sm text-gray-700">{restaurant.display_name}</h3>
+                <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{restaurant.display_name}</h3>
               </Link>
 
             ))}
