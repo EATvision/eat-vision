@@ -1,10 +1,10 @@
-import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import React from 'react'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
-import RestaurantsPage from './views/RestaurantsPage';
-import RestaurantPage from './views/RestaurantPage';
+import RestaurantsPage from './views/RestaurantsPage'
+import RestaurantPage from './views/RestaurantPage'
 
-import './App.css';
+import './App.css'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         />
       </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
