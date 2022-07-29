@@ -1,14 +1,31 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { useRestaurantById } from '../hooks/restaurants'
 
 function RestaurantPage() {
-  const params = useParams()
+  const { restaurantId } = useParams()
+  const { t, i18n } = useTranslation()
+
+  const { restaurant, isLoading, isError } = useRestaurantById(restaurantId)
+
+  React.useEffect(() => {
+    if (restaurant) {
+      i18n.changeLanguage(restaurant.locale)
+    }
+  }, [restaurant])
+
+  if (isLoading) return <div>LOADING</div>
+  if (isError) return <div>ERROR</div>
 
   return (
-    <h2>
-      restaurant
-      {params.restaurantId}
-    </h2>
+    <>
+      <h1>{t('Welcome to React')}</h1>
+      <h2>
+        restaurant
+        {restaurantId}
+      </h2>
+    </>
   )
 }
 

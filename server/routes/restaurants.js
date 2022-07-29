@@ -20,4 +20,23 @@ router.get("/", (_req, res) => {
   });
 });
 
+router.get("/:restaurantId", (req, res) => {
+  const { params: { restaurantId } } = req
+
+  restaurants
+  .select({ view: "Grid view", filterByFormula: `{r_id} = "${restaurantId}"` })
+  .all((_err, records) => {
+    const restaurantData = records.map(r => ({
+      r_id: r.get("r_id"),
+      display_name: r.get("display_name"),
+      logo_url: r.get("logo_url"),
+      locale: r.get("locale"),
+    }));
+    res.send(restaurantData[0])
+
+  }, function done(error) {
+  })
+
+});
+
 module.exports = router

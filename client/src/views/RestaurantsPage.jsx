@@ -1,24 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import useSWR from 'swr'
+import { useTranslation } from 'react-i18next'
 
-const fetcher = (...args) => fetch(...args).then((res) => res.json())
-
-const useRestaurants = () => {
-  const { data, error } = useSWR('/api/restaurants', fetcher)
-
-  return {
-    restaurants: data,
-    isLoading: !error && !data,
-    isError: error,
-  }
-}
+import { useRestaurants } from '../hooks/restaurants'
 
 function RestaurantsPage() {
+  const { i18n } = useTranslation()
   const { restaurants, isLoading, isError } = useRestaurants()
+
+  const handleClickRestaurant = (restaurant) => () => i18n.changeLanguage(restaurant.locale)
 
   if (isLoading) return <div>LOADING</div>
   if (isError) return <div>ERROR</div>
+
   return (
     <main>
       <h2>Restaurants list</h2>
@@ -33,6 +27,7 @@ function RestaurantsPage() {
                 className="group flex flex-col"
                 to={`/restaurants/${restaurant.r_id}`}
                 key={restaurant.r_id}
+                onClick={handleClickRestaurant(restaurant)}
               >
                 <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8  flex-1">
                   <img
