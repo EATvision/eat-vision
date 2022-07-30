@@ -16,7 +16,7 @@ export default {
   do_you_have_restrictions_etc: 'האם יש לך מגבלות מזון, \n או מוצרים שתרצו להימנע מהם?',
   to_show_only_relevant_dishes: 'כדי להראות רק את המנות הרלוונטיות לך',
   choose_relevant_options: 'בחרו את כל האפשרויות הרלוונטיות',
-  i_have_a_specific_diet: 'הדיאטה שלי',
+  i_have_a_specific_diet: 'יש לי דיאטה ספציפית',
   i_try_to_avoid_or_reduce: 'מנסה להמנע או להפחית מזונות מסויימים',
   im_allergic: 'יש לי אלרגיה',
   i_simply_hate_eating: 'דברים שלא מתקרבים לצלחת שלי',

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+
 import { useRestaurantById } from '../hooks/restaurants'
 
 function RestaurantPage() {
@@ -25,6 +26,7 @@ function RestaurantPage() {
       </h2>
 
       <Outlet />
+
     </>
   )
 }
