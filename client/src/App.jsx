@@ -3,19 +3,21 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 
 import RestaurantsPage from './views/RestaurantsPage'
 import RestaurantPage from './views/RestaurantPage'
+import FiltersPage from './views/FiltersPage'
+import MenuPage from './views/MenuPage'
 
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Welcome to React Router!
-      </h1>
       <Routes>
         <Route path="/" element={<Navigate replace to="/restaurants" />} />
         <Route path="/restaurants" element={<RestaurantsPage />} />
-        <Route path="/restaurants/:restaurantId" element={<RestaurantPage />} />
+        <Route path="/restaurants/:restaurantId" element={<RestaurantPage />}>
+          <Route path="filters" element={<FiltersPage />} />
+          <Route path="menu" element={<MenuPage />} />
+        </Route>
         <Route
           path="*"
           element={(
