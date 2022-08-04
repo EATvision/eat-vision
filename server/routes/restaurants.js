@@ -4,11 +4,91 @@ const router = Router();
 const airtable = require('airtable')
 const base = airtable.base("appOPszbMpOH0ySIC");
 
-const restaurants = base("tblZl6c3RepInX9BV");
-const allRestaurants = restaurants.select({ view: "Grid view" });
+const data = {
+  restaurants: [],
+  menus: [],
+  dishes: [],
+  ingredientGroups: [],
+  ingredients: [],
+  diets: [],
+}
+
+//restaurants
+base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
+  const restaurantsData = records.map((r) => ({
+    id: r.id,
+    display_name: r.get("display_name"),
+    logo_url: r.get("logo_url"),
+    locale: r.get("locale"),
+  }));
+
+  data.restaurants = restaurantsData;
+});
+
+//menus
+base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
+  const menusData = records.map((r) => ({
+    id: r.id,
+    restaurants: r.get("restaurants"),
+    dishes: r.get("Dishes"),
+  }));
+
+  data.menus  = menusData;
+});
+
+//dishes
+base("tblVODysxidY4YSJy").select({ view: "Grid view" }).all((_err, records) => {
+  const dishesData = records.map((r) => ({
+    id: r.id,
+    menus: r.get("menus"),
+    name: r.get("name"),
+    ingredients: r.get("ingredients(mandatory)"),
+  }));
+
+  data.dishes  = dishesData;
+});
+
+//ingredientGroups
+base("tblr8FqxXM1TjvFnQ").select({ view: "Grid view" }).all((_err, records) => {
+  const ingredientGroupsData = records.map((r) => ({
+    id: r.id,
+    display_name: r.get("display_name"),
+    sub_groups: r.get("sub_groups"),
+  }));
+
+  data.ingredientGroups  = ingredientGroupsData;
+});
+
+//ingredients
+base("tblygXPmVmWOVn2af").select({ view: "Grid view" }).all((_err, records) => {
+  const ingredientsData = records.map((r) => ({
+    id: r.id,
+    name: r.get("name"),
+    display_name: r.get("display_name"),
+    ingredients: r.get("ingredients(mandatory)"),
+    included_in_groups: r.get("included_in_groups"),
+  }));
+
+  data.ingredients  = ingredientsData;
+});
+
+//diets
+base("tblnzfOFoOdidnxnZ").select({ view: "Grid view" }).all((_err, records) => {
+  const dietsData = records.map((r) => ({
+    id: r.id,
+    name: r.get("name"),
+    excluded_groups: r.get("excluded_groups"),
+  }));
+
+  data.diets  = dietsData;
+});
+
+
+
+
 
 router.get("/", (_req, res) => {
-  allRestaurants.all((_err, records) => {
+   base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
     const restaurantsData = records.map((r) => ({
       id: r.id,
       display_name: r.get("display_name"),
@@ -23,9 +103,7 @@ router.get("/", (_req, res) => {
 router.get("/:restaurantId", (req, res) => {
   const { params: { restaurantId } } = req
 
-  restaurants
-  .select({ view: "Grid view" })
-  .all((_err, records) => {
+  base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
     const restaurantData = records.find(r => (r.id === restaurantId));
     
     res.send({
@@ -42,12 +120,7 @@ router.get("/:restaurantId", (req, res) => {
 router.get("/:restaurantId/menus", (req, res) => {
   const { params: { restaurantId } } = req
 
-  const menus = base("tbl9JON90N2fzyNik")
-
-  menus.select({ view: "Grid view" }).all((err, records) => {
-    if (err) { console.error(err); return; }
-
-    const relevanceMenus = records.reduce((result, record) => {
+  const relevanceMenus = data.menus.reduce((result, record) => {
       if (record.get('restaurants') && record.get('restaurants').includes(restaurantId)) {
         return [ ...result, {
           id: record.id,
@@ -56,38 +129,14 @@ router.get("/:restaurantId/menus", (req, res) => {
       }
       return result
   }, []);
-
-    res.send(relevanceMenus)
-  })
+  res.send(relevanceMenus)
 });
 
 router.get("/:restaurantId/menus/:menuId/dishes/search", (req, res) => {
   const { params: { restaurantId, menuId }, body: filters } = req
 
-  const dishes = base("tblVODysxidY4YSJy")
-  // const ingredients = base('tblygXPmVmWOVn2af')
-  
-  // ingredients.select({ view: "Grid view" }).all((err, ingredientsRecords) => {
-  //       if (err) { console.error(err); return; }
-  // })
 
-  dishes.select({ view: "Grid view" }).all((err, dishesRecords) => {
-    if (err) { console.error(err); return; }
-
-          const relevantDishes = dishesRecords.reduce((result, disheRecord) => {
-            if (
-              disheRecord.get('restaurants') && disheRecord.get('restaurants').includes(restaurantId) &&
-              disheRecord.get('menus') && disheRecord.get('menus').includes(menuId)      
-            ) {
-              return [ ...result, {
-                id: disheRecord.id,
-                ingredients: disheRecord.get('ingredients(mandatory)')
-              }]
-            }
-            return result
-        }, []);
-        res.send(relevantDishes)
-    })  
+  res.send(relevantDishes)
 });
 
 module.exports = router
