@@ -13,11 +13,14 @@ function FiltersPage({ filters, setFilters }) {
   const { t } = useTranslation()
 
   const [filterType, setFilterType] = React.useState(null)
+  const [totalDishes, setTotalDishes] = React.useState([])
+  const [filteredDishes, setFilteredDishes] = React.useState([])
 
   React.useEffect(() => {
     const getRelevantDishes = async () => {
-      const relevantDishes = await axios.post(`api/restaurants/${restaurantId}/menus/${menuId}/dishes/search`, {})
-      console.log(relevantDishes)
+      const { data: { totalDishes: updatedTotalDishes, filteredDishes: updatedFilteredDishes } } = await axios.post(`/api/restaurants/${restaurantId}/menus/${menuId}/dishes/search`, filters)
+      setTotalDishes(updatedTotalDishes)
+      setFilteredDishes(updatedFilteredDishes)
     }
     getRelevantDishes()
   }, [filters])
@@ -48,6 +51,12 @@ function FiltersPage({ filters, setFilters }) {
         <MainBtn label={t('i_simply_hate_eating')} onClick={handleClickFilterType(<DietsSelector />)} />
 
         <MainBtn label={t('no_limitations')} onClick={handleClickFilterType(<DietsSelector />)} />
+
+      </div>
+
+      <div className="w-full bg-purple-500 text-white">
+        <div>{t('dishes')}</div>
+        <div>{`${filteredDishes.length}/${totalDishes.length}`}</div>
 
       </div>
 

@@ -31,13 +31,3 @@ export const useRestaurantMenusById = (restaurantId) => {
     isError: error,
   }
 }
-
-// export const useDishes = (restaurantId, menuId, filters) => {
-//   const { data, error } = useSWR('/api/restaurants', fetcher)
-
-//   return {
-//     restaurants: data,
-//     isLoading: !error && !data,
-//     isError: error,
-//   }
-// }

@@ -44,7 +44,7 @@ base("tblVODysxidY4YSJy").select({ view: "Grid view" }).all((_err, records) => {
     id: r.id,
     menus: r.get("menus"),
     name: r.get("name"),
-    ingredients: r.get("ingredients(mandatory)"),
+    ingredients: r.get("ingredients_mandatory"),
   }));
 
   data.dishes  = dishesData;
@@ -127,14 +127,19 @@ router.get("/:restaurantId/menus", (req, res) => {
   res.send(relevanceMenus)
 });
 
-router.get("/:restaurantId/menus/:menuId/dishes/search", (req, res) => {
+router.post("/:restaurantId/menus/:menuId/dishes/search", (req, res) => {
   const { params: { restaurantId, menuId }, body: filters } = req
 
-  const relevantDishes = dishes.filter(dish => {
+  const totalDishes = data.dishes.filter(dish => {
     const isDishInMenu = dish?.menus?.includes(menuId)
     return isDishInMenu
   })
-  res.send(relevantDishes)
+
+  const filteredDishes = totalDishes.filter(dish => {
+    return true
+  })
+
+  res.send({ totalDishes, filteredDishes })
 });
 
 module.exports = router
