@@ -1,9 +1,18 @@
 import React from 'react'
+import { Outlet, useParams } from 'react-router-dom'
 
 function MenuPage() {
+  const { menuId } = useParams()
   return (
     <div>
-      Menu PAGE
+
+      <h2>
+        MENU:
+        {' '}
+        {menuId}
+      </h2>
+      <Outlet />
+
     </div>
   )
 }

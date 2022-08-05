@@ -29,6 +29,8 @@ base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
 base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
   const menusData = records.map((r) => ({
     id: r.id,
+    display_name: r.get("display_name"),
+    working_hours: r.get("working_hours"),
     restaurants: r.get("restaurants"),
     dishes: r.get("Dishes"),
   }));
@@ -111,6 +113,7 @@ router.get("/:restaurantId", (req, res) => {
       display_name: restaurantData.get("display_name"),
       logo_url: restaurantData.get("logo_url"),
       locale: restaurantData.get("locale"),
+      menus: restaurantData.get("Menus"),
     })
 
   }, function done(error) {
@@ -120,22 +123,17 @@ router.get("/:restaurantId", (req, res) => {
 router.get("/:restaurantId/menus", (req, res) => {
   const { params: { restaurantId } } = req
 
-  const relevanceMenus = data.menus.reduce((result, record) => {
-      if (record.get('restaurants') && record.get('restaurants').includes(restaurantId)) {
-        return [ ...result, {
-          id: record.id,
-          dishes: record.get('Dishes')
-        }]
-      }
-      return result
-  }, []);
+  const relevanceMenus = data.menus.filter(menu => menu?.restaurants?.includes(restaurantId))
   res.send(relevanceMenus)
 });
 
 router.get("/:restaurantId/menus/:menuId/dishes/search", (req, res) => {
   const { params: { restaurantId, menuId }, body: filters } = req
 
-
+  const relevantDishes = dishes.filter(dish => {
+    const isDishInMenu = dish?.menus?.includes(menuId)
+    return isDishInMenu
+  })
   res.send(relevantDishes)
 });
 

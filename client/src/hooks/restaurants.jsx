@@ -13,10 +13,20 @@ export const useRestaurants = () => {
 }
 
 export const useRestaurantById = (restaurantId) => {
-  const { data, error } = useSWR(`/api/restaurants/${restaurantId}`, fetcher)
+  const { data, error } = useSWR(restaurantId && `/api/restaurants/${restaurantId}`, fetcher)
 
   return {
     restaurant: data,
+    isLoading: !error && !data,
+    isError: error,
+  }
+}
+
+export const useRestaurantMenusById = (restaurantId) => {
+  const { data, error } = useSWR(restaurantId && `/api/restaurants/${restaurantId}/menus`, fetcher)
+
+  return {
+    menus: data,
     isLoading: !error && !data,
     isError: error,
   }

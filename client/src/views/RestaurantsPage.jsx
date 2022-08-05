@@ -25,7 +25,7 @@ function RestaurantsPage() {
             {restaurants.map((restaurant) => (
               <Link
                 className="group flex flex-col"
-                to={`/restaurants/${restaurant.id}`}
+                to={`/restaurants/${restaurant.id}/menus`}
                 key={restaurant.id}
                 onClick={handleClickRestaurant(restaurant)}
               >

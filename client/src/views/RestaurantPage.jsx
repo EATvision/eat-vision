@@ -22,6 +22,8 @@ function RestaurantPage() {
   return (
     <>
       <h2>
+        RESTAURANT:
+        {' '}
         {restaurantId}
       </h2>
 

@@ -1,14 +1,26 @@
 import { useTranslation } from 'react-i18next'
+import axios from 'axios'
 import React from 'react'
 import ReactModal from 'react-modal'
+import { useParams } from 'react-router-dom'
 
 import MainBtn from '../components/MainBtn'
 import DietsSelector from '../components/DietsSelector'
 
 function FiltersPage({ filters, setFilters }) {
+  const { restaurantId, menuId } = useParams()
+
   const { t } = useTranslation()
 
   const [filterType, setFilterType] = React.useState(null)
+
+  React.useEffect(() => {
+    const getRelevantDishes = async () => {
+      const relevantDishes = await axios.post(`api/restaurants/${restaurantId}/menus/${menuId}/dishes/search`, {})
+      console.log(relevantDishes)
+    }
+    getRelevantDishes()
+  }, [filters])
 
   const handleClickFilterType = (type) => () => {
     setFilterType(type)
