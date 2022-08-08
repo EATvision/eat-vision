@@ -47,6 +47,12 @@ base("tblVODysxidY4YSJy").select({ view: "Grid view" }).all((_err, records) => {
     menus: r.get("menus"),
     name: r.get("name"),
     ingredients: r.get("ingredients_mandatory"),
+    long_description: r.get("long_description"),    
+    short_description: r.get("short_description"),
+    photo_url: r.get("photo_url"),
+    price: r.get("price"),
+    categories: r.get("categories"),
+
     }
   }), {});
 
@@ -125,6 +131,31 @@ router.get("/:restaurantId", (req, res) => {
       locale: restaurantData.get("locale"),
       menus: restaurantData.get("Menus"),
     })
+
+  }, function done(error) {
+  })
+});
+
+router.get("/:restaurantId/categories", (req, res) => {
+  const { params: { restaurantId } } = req
+
+  base("tblkCqIh4FIs6rVXE").select({ view: "Grid view" }).all((_err, records) => {
+    const categoriesData = records.reduce((result, r) => {
+      if (r.get('restaurant')?.includes(restaurantId)) {
+        return {
+          ...result, 
+          [r.id]: {
+            id: r.id,
+            display_name: r.get("display_name"),
+            name: r.get("name"),
+            position: r.get("position"),
+          }
+        }
+      }
+      return result
+    }, {});
+    
+    res.send(categoriesData)
 
   }, function done(error) {
   })
