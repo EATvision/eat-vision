@@ -9,7 +9,7 @@ const data = {
   menus: [],
   dishes: [],
   ingredientGroups: [],
-  ingredients: [],
+  ingredients: {},
   diets: [],
 }
 
@@ -40,36 +40,46 @@ base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
 
 //dishes
 base("tblVODysxidY4YSJy").select({ view: "Grid view" }).all((_err, records) => {
-  const dishesData = records.map((r) => ({
+  const dishesData = records.reduce((result, r) => ({
+    ...result,
+    [r.id]: {
     id: r.id,
     menus: r.get("menus"),
     name: r.get("name"),
     ingredients: r.get("ingredients_mandatory"),
-  }));
+    }
+  }), {});
 
   data.dishes  = dishesData;
 });
 
 //ingredientGroups
 base("tblr8FqxXM1TjvFnQ").select({ view: "Grid view" }).all((_err, records) => {
-  const ingredientGroupsData = records.map((r) => ({
-    id: r.id,
-    display_name: r.get("display_name"),
-    sub_groups: r.get("sub_groups"),
-  }));
+  const ingredientGroupsData = records.reduce((result, r) => ({
+    ...result,
+    [r.id]: {
+      id: r.id,
+      display_name: r.get("display_name"),
+      sub_groups: r.get("sub_groups"),
+      parent_groups: r.get("parent_groups"),
+    }
+  }), {});
 
   data.ingredientGroups  = ingredientGroupsData;
 });
 
 //ingredients
 base("tblygXPmVmWOVn2af").select({ view: "Grid view" }).all((_err, records) => {
-  const ingredientsData = records.map((r) => ({
-    id: r.id,
-    name: r.get("name"),
-    display_name: r.get("display_name"),
-    ingredients: r.get("ingredients(mandatory)"),
-    included_in_groups: r.get("included_in_groups"),
-  }));
+  const ingredientsData = records.reduce((result, r) => ({
+    ...result,
+    [r.id]: {
+      id: r.id,
+      name: r.get("name"),
+      display_name: r.get("display_name"),
+      ingredients: r.get("ingredients(mandatory)"),
+      included_in_groups: r.get("included_in_groups"),
+    }
+  }), {});
 
   data.ingredients  = ingredientsData;
 });
@@ -130,16 +140,48 @@ router.get("/:restaurantId/menus", (req, res) => {
 router.post("/:restaurantId/menus/:menuId/dishes/search", (req, res) => {
   const { params: { restaurantId, menuId }, body: filters } = req
 
-  const totalDishes = data.dishes.filter(dish => {
+  const relevantDiets = filters.diets.map(diet => data.diets.find(dataDiet => dataDiet.name === diet))
+
+  const totalDishes = Object.values(data.dishes).filter(dish => {
     const isDishInMenu = dish?.menus?.includes(menuId)
     return isDishInMenu
   })
 
   const filteredDishes = totalDishes.filter(dish => {
-    return true
+    const dishIngredients = dish.ingredients?.map(ingredientId => (data.ingredients[ingredientId]))
+    const isDishAllowedInDiets = !dishIngredients?.some(ingredient => (
+      ingredient?.included_in_groups?.some(group => {
+        let parentGroups = []
+        setResultParentGroupsOfGroupId(parentGroups, group)
+        return parentGroups.some(parentGroup => (
+          relevantDiets?.some(diet => diet?.excluded_groups.includes(parentGroup))
+        ))
+      })
+    ))
+    
+    
+    
+    
+    
+    // !relevantDiets.some(relevantDiet => (
+    //   relevantDiet?.excluded_groups?.some(excludedGroup => (
+    //     dishIngredients?.some(ingredient => (
+    //       ingredient?.included_in_groups?.includes(excludedGroup)
+    //     ))
+    //   ))
+    // ))
+    return isDishAllowedInDiets
   })
 
   res.send({ totalDishes, filteredDishes })
 });
+
+const setResultParentGroupsOfGroupId = (result, groupId) => {
+  while (!result.includes(groupId)) {
+    result.push(groupId)
+    data.ingredientGroups?.[groupId]?.parent_groups?.forEach(parentGroupId => setResultParentGroupsOfGroupId(result, parentGroupId))
+  }
+}
+
 
 module.exports = router

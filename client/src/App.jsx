@@ -3,6 +3,7 @@ import {
   Routes, Route, Navigate,
 } from 'react-router-dom'
 
+import DishesPage from './views/DishesPage'
 import RestaurantsPage from './views/RestaurantsPage'
 import RestaurantPage from './views/RestaurantPage'
 import GreetingPage from './views/GreetingPage'
@@ -16,6 +17,7 @@ import './App.css'
 
 function App() {
   const [filters, setFilters] = React.useState(defaultFilters)
+  const [dishes, setDishes] = React.useState({ total: [], filtered: [] })
 
   return (
     <div className="App">
@@ -24,10 +26,10 @@ function App() {
         <Route path="/restaurants" element={<RestaurantsPage />} />
         <Route path="/restaurants/:restaurantId" element={<RestaurantPage />}>
           <Route path="menus" element={<MenusPage />} />
-          <Route path="menus/:menuId" element={<MenuPage />}>
+          <Route path="menus/:menuId" element={<MenuPage filters={filters} setDishes={setDishes} />}>
             <Route index element={<GreetingPage />} />
-            <Route path="filters" element={<FiltersPage filters={filters} setFilters={setFilters} />} />
-            {/* <Route path="filtered" element={<FilteredMenuPage filters={filters} />} /> */}
+            <Route path="filters" element={<FiltersPage dishes={dishes} filters={filters} setFilters={setFilters} />} />
+            <Route path="dishes" element={<DishesPage filters={filters} dishes={dishes} setDishes={setDishes} />} />
           </Route>
         </Route>
         <Route

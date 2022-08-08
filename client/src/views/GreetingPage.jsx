@@ -24,7 +24,7 @@ function GreetingPage({ setFilters }) {
 
       <Link
         className="group flex flex-col"
-        to="menu"
+        to="dishes"
         onClick={handleClickSkipToFullMenu}
       >
         <MainBtn label={t('skip_to_full_menu')} />
