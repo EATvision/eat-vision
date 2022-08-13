@@ -3,6 +3,7 @@ import {
   Routes, Route, Navigate,
 } from 'react-router-dom'
 
+import i18next from 'i18next'
 import DishesPage from './views/DishesPage'
 import RestaurantsPage from './views/RestaurantsPage'
 import RestaurantPage from './views/RestaurantPage'
@@ -16,6 +17,8 @@ import './App.css'
 function App() {
   const [filters, setFilters] = React.useState(defaultFilters)
   const [dishes, setDishes] = React.useState({ total: [], filtered: [] })
+
+  document.body.dir = i18next.dir()
 
   return (
     <div className="App">

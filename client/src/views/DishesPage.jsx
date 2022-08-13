@@ -57,7 +57,7 @@ function FilteredMenuPage({ dishes }) {
       </h2>
 
       <div className="sticky-top text-sm">
-        <ul className="nav menu-sidebar bg-black text-white">
+        <ul className="nav menu-sidebar bg-black text-white overflow-auto whitespace-nowrap">
           {
             orderedCategories.map((category, index) => (
               <li key={category.id} className="py-2 mx-1 inline-block">

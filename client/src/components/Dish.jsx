@@ -9,7 +9,7 @@ export default function Dish({ data }) {
           src={data.photo_url}
           alt=""
         />
-        <div className="p-6 flex flex-col justify-start">
+        <div className="p-6 flex flex-col justify-start w-80">
           <div className="text-gray-900 text-xl font-medium mb-2 ">{data.name}</div>
           <p className="text-gray-700 text-base mb-4">
             {data.short_description}
