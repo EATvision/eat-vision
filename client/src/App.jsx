@@ -10,9 +10,7 @@ import GreetingPage from './views/GreetingPage'
 import FiltersPage from './views/FiltersPage'
 import MenusPage from './views/MenusPage'
 import MenuPage from './views/MenuPage'
-
 import { defaultFilters } from './utils/filters'
-
 import './App.css'
 
 function App() {

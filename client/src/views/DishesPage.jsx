@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import useScrollSpy from 'react-use-scrollspy'
 
 import { useRestaurantDishesCategories } from '../hooks/restaurants'
 
@@ -10,7 +11,23 @@ function FilteredMenuPage({ dishes }) {
   const { restaurantId } = useParams()
   const { t } = useTranslation()
 
+  const sectionRefs = [
+    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null),
+  ]
   const { categories, isLoading } = useRestaurantDishesCategories(restaurantId)
+
+  const activeSection = useScrollSpy({
+    sectionElementRefs: sectionRefs,
+    offsetPx: -80,
+  })
 
   const defaultCategories = Object.keys(categories || {}).reduce((result, c) => ({
     ...result,
@@ -39,18 +56,22 @@ function FilteredMenuPage({ dishes }) {
         FILTERED MENU
       </h2>
 
-      <div>
-        {
-          orderedCategories.map((category) => (
-            <a href={`#${category.id}`}>{category.display_name}</a>
-          ))
-        }
+      <div className="sticky-top text-sm">
+        <ul className="nav menu-sidebar bg-black text-white">
+          {
+            orderedCategories.map((category, index) => (
+              <li key={category.id} className="py-2 mx-1 inline-block">
+                <a className={`nav-link ${activeSection === index ? 'font-bold' : ''}`} href={`#${category.id}`}>{category.display_name}</a>
+              </li>
+            ))
+          }
+        </ul>
       </div>
 
-      <div className="container">
+      <div className="container relative overflow-auto mx-auto">
         {
-          orderedCategories?.map((category) => (
-            <div key={category.id} id={category.id}>
+          orderedCategories?.map((category, index) => (
+            <div className="container mx-auto" key={category.id} id={category.id} ref={sectionRefs[index]}>
               <h2>{category?.display_name}</h2>
               {
                 orderedDishesByCategoryId?.[category.id]?.map((dish) => (

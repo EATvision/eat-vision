@@ -3,14 +3,14 @@ import React from 'react'
 export default function Dish({ data }) {
   return (
     <div className="flex justify-center mb-4 flex-1">
-      <div className="flex flex-col md:flex-row md:max-w-xl md:w-xl rounded-lg bg-white shadow-lg">
+      <div className="flex flex-row max-w-xlw-xl rounded-lg bg-white shadow-lg">
         <img
-          className="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+          className="h-auto object-cover w-48 rounded-t-lg rounded-none rounded-l-lg"
           src={data.photo_url}
           alt=""
         />
         <div className="p-6 flex flex-col justify-start">
-          <h5 className="text-gray-900 text-xl font-medium mb-2">{data.display_name}</h5>
+          <div className="text-gray-900 text-xl font-medium mb-2 ">{data.name}</div>
           <p className="text-gray-700 text-base mb-4">
             {data.short_description}
           </p>
