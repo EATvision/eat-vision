@@ -7,7 +7,7 @@ import { useRestaurantDishesCategories } from '../hooks/restaurants'
 
 import Dish from '../components/Dish'
 
-function FilteredMenuPage({ dishes }) {
+function DishesPage({ dishes }) {
   const { restaurantId } = useParams()
   const { t } = useTranslation()
 
@@ -27,10 +27,10 @@ function FilteredMenuPage({ dishes }) {
     offsetPx: -80,
   })
 
-  const defaultCategories = Object.keys(categories || {}).reduce((result, c) => ({
+  const defaultCategories = categories?.reduce((result, c) => ({
     ...result,
-    [c]: [],
-  }), {})
+    [c.id]: [],
+  }), {}) || {}
 
   const orderedCategories = [...Object.values(categories || {}).sort((a, b) => a.position - b.position), { id: 'no_category', display_name: t('other') }]
 
@@ -85,4 +85,4 @@ function FilteredMenuPage({ dishes }) {
   )
 }
 
-export default FilteredMenuPage
+export default DishesPage

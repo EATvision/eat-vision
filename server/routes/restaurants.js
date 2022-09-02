@@ -1,218 +1,213 @@
 const { Router } = require("express");
 const router = Router();
+// const fs = require("fs")
 
-const airtable = require('airtable')
-const base = airtable.base("appOPszbMpOH0ySIC");
+const restaurants = require("../data/restaurants.json")
+const menus = require("../data/menus.json")
+const dishes = require("../data/dishes.json")
+const diets = require("../data/diets.json")
+const categories = require("../data/categories.json")
+const ingredients = require("../data/ingredients.json")
 
-const data = {
-  restaurants: [],
-  menus: [],
-  dishes: [],
-  ingredientGroups: [],
-  ingredients: {},
-  diets: [],
-}
 
-//restaurants
-base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
-  const restaurantsData = records.map((r) => ({
-    id: r.id,
-    display_name: r.get("display_name"),
-    logo_url: r.get("logo_url"),
-    locale: r.get("locale"),
-  }));
+// const airtable = require('airtable')
+// const base = airtable.base("appOPszbMpOH0ySIC");
 
-  data.restaurants = restaurantsData;
-});
+// const data = {
+//   restaurants: [],
+//   menus: [],
+//   dishes: [],
+//   ingredientGroups: [],
+//   ingredients: {},
+//   diets: [],
+// }
 
-//menus
-base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
-  const menusData = records.map((r) => ({
-    id: r.id,
-    display_name: r.get("display_name"),
-    working_hours: r.get("working_hours"),
-    restaurants: r.get("restaurants"),
-    dishes: r.get("Dishes"),
-  }));
+// //restaurants
+// base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
+//   const restaurantsData = records.map((r) => ({
+//     id: r.id,
+//     display_name: r.get("display_name"),
+//     logo_url: r.get("logo_url"),
+//     locale: r.get("locale"),
+//   }));
 
-  data.menus = menusData;
-});
+//   data.restaurants = restaurantsData;
+// });
 
-//dishes
-base("tblVODysxidY4YSJy").select({ view: "Grid view" }).all((_err, records) => {
-  const dishesData = records.reduce((result, r) => ({
-    ...result,
-    [r.id]: {
-      id: r.id,
-      menus: r.get("menus"),
-      name: r.get("name"),
-      ingredients: r.get("ingredients_mandatory"),
-      long_description: r.get("long_description"),
-      short_description: r.get("short_description"),
-      photo_url: r.get("photo_url"),
-      price: r.get("price"),
-      categories: r.get("categories"),
+// //menus
+// base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
+//   const menusData = records.map((r) => ({
+//     id: r.id,
+//     display_name: r.get("display_name"),
+//     working_hours: r.get("working_hours"),
+//     restaurants: r.get("restaurants"),
+//     dishes: r.get("Dishes"),
+//   }));
 
-    }
-  }), {});
+//   data.menus = menusData;
+// });
 
-  data.dishes = dishesData;
-});
+// //dishes
+// base("tblVODysxidY4YSJy").select({ view: "Grid view" }).all((_err, records) => {
+//   const dishesData = records.reduce((result, r) => ([
+//     ...result,
+//     {
+//       id: r.id,
+//       menus: r.get("menus"),
+//       name: r.get("name"),
+//       ingredients: r.get("ingredients_mandatory"),
+//       long_description: r.get("long_description"),
+//       short_description: r.get("short_description"),
+//       photo_url: r.get("photo_url"),
+//       price: r.get("price"),
+//       categories: r.get("categories"),
 
-//ingredientGroups
-base("tblr8FqxXM1TjvFnQ").select({ view: "Grid view" }).all((_err, records) => {
-  const ingredientGroupsData = records.reduce((result, r) => ({
-    ...result,
-    [r.id]: {
-      id: r.id,
-      display_name: r.get("display_name"),
-      sub_groups: r.get("sub_groups"),
-      parent_groups: r.get("parent_groups"),
-    }
-  }), {});
+//     }
+//   ]), []);
 
-  data.ingredientGroups = ingredientGroupsData;
-});
+//   data.dishes = dishesData;
+// });
 
-//ingredients
-base("tblygXPmVmWOVn2af").select({ view: "Grid view" }).all((_err, records) => {
-  const ingredientsData = records.reduce((result, r) => ({
-    ...result,
-    [r.id]: {
-      id: r.id,
-      name: r.get("name"),
-      display_name: r.get("display_name"),
-      ingredients: r.get("ingredients(mandatory)"),
-      included_in_groups: r.get("included_in_groups"),
-    }
-  }), {});
+// //ingredientGroups
+// base("tblr8FqxXM1TjvFnQ").select({ view: "Grid view" }).all((_err, records) => {
+//   const ingredientGroupsData = records.reduce((result, r) => ({
+//     ...result,
+//     [r.id]: {
+//       id: r.id,
+//       display_name: r.get("display_name"),
+//       sub_groups: r.get("sub_groups"),
+//       parent_groups: r.get("parent_groups"),
+//     }
+//   }), {});
 
-  data.ingredients = ingredientsData;
-});
+//   data.ingredientGroups = ingredientGroupsData;
+// });
 
-//diets
-base("tblnzfOFoOdidnxnZ").select({ view: "Grid view" }).all((_err, records) => {
-  const dietsData = records.map((r) => ({
-    id: r.id,
-    name: r.get("name"),
-    excluded_groups: r.get("excluded_groups"),
-  }));
+// //ingredients
+// base("tblygXPmVmWOVn2af").select({ view: "Grid view" }).all((_err, records) => {
 
-  data.diets = dietsData;
-});
+//   const ingredientsData = records.reduce((result, r) => ({
+//     ...result,
+//     [r.id]: {
+//       id: r.id,
+//       name: r.get("name"),
+//       display_name: r.get("display_name"),
+//       ingredients: r.get("ingredients(mandatory)"),
+//       included_in_groups: r.get("included_in_groups"),
+//     }
+//   }), {});
+
+//   data.ingredients = ingredientsData;
+// });
+
+// //diets
+// base("tblnzfOFoOdidnxnZ").select({ view: "Grid view" }).all((_err, records) => {
+//   const dietsData = records.map((r) => ({
+//     id: r.id,
+//     name: r.get("name"),
+//     excluded_groups: r.get("excluded_groups"),
+//   }));
+
+//   data.diets = dietsData;
+// });
 
 
 
 
 
 router.get("/", (_req, res) => {
-  base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
-    const restaurantsData = records.map((r) => ({
-      id: r.id,
-      display_name: r.get("display_name"),
-      logo_url: r.get("logo_url"),
-      locale: r.get("locale"),
-    }));
+  res.send(restaurants);
+});
 
-    res.send(restaurantsData);
-  });
+router.get("/ingredients", (_req, res) => {
+  res.send(ingredients);
 });
 
 router.get("/:restaurantId", (req, res) => {
+  // fs.writeFileSync('./a.json', JSON.stringify(Object.values(data.dishes).filter(a => a.menus?.includes('<restaurant id>'))))
   const { params: { restaurantId } } = req
-
-  base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
-    const restaurantData = records.find(r => (r.id === restaurantId));
-
-    res.send({
-      id: restaurantData.id,
-      display_name: restaurantData.get("display_name"),
-      logo_url: restaurantData.get("logo_url"),
-      locale: restaurantData.get("locale"),
-      menus: restaurantData.get("Menus"),
-    })
-
-  }, function done(error) {
-  })
+  res.send(restaurants.find(restaurant => restaurant.id === restaurantId))
 });
 
 router.get("/:restaurantId/categories", (req, res) => {
-  const { params: { restaurantId } } = req
+  res.send(categories)
+  // const { params: { restaurantId } } = req
 
-  base("tblkCqIh4FIs6rVXE").select({ view: "Grid view" }).all((_err, records) => {
-    const categoriesData = records.reduce((result, r) => {
-      if (r.get('restaurant')?.includes(restaurantId)) {
-        return {
-          ...result,
-          [r.id]: {
-            id: r.id,
-            display_name: r.get("display_name"),
-            name: r.get("name"),
-            position: r.get("position"),
-          }
-        }
-      }
-      return result
-    }, {});
 
-    res.send(categoriesData)
+  // base("tblkCqIh4FIs6rVXE").select({ view: "Grid view" }).all((_err, records) => {
+  //   const categoriesData = records.reduce((result, r) => {
+  //     if (r.get('restaurant')?.includes(restaurantId)) {
+  //       return [
+  //         ...result,
+  //         {
+  //           id: r.id,
+  //           display_name: r.get("display_name"),
+  //           name: r.get("name"),
+  //           position: r.get("position"),
+  //         }
+  //       ]
+  //     }
+  //     return result
+  //   }, []);
 
-  }, function done(error) {
-  })
+  //   res.send(categoriesData)
+
+  // }, function done(error) {
+  // })
 });
 
 router.get("/:restaurantId/menus", (req, res) => {
   const { params: { restaurantId } } = req
 
-  const relevanceMenus = data.menus.filter(menu => menu?.restaurants?.includes(restaurantId))
+  const relevanceMenus = menus.filter(menu => menu?.restaurants?.includes(restaurantId))
   res.send(relevanceMenus)
 });
 
 router.post("/:restaurantId/menus/:menuId/dishes/search", (req, res) => {
   const { params: { restaurantId, menuId }, body: filters } = req
 
-  const relevantDiets = filters.diets.map(diet => data.diets.find(dataDiet => dataDiet.name === diet))
+  // const relevantDiets = filters.diets.map(diet => data.diets.find(dataDiet => dataDiet.name === diet))
 
-  const totalDishes = Object.values(data.dishes).filter(dish => {
-    const isDishInMenu = dish?.menus?.includes(menuId)
-    return isDishInMenu
-  })
+  // const totalDishes = Object.values(data.dishes).filter(dish => {
+  //   const isDishInMenu = dish?.menus?.includes(menuId)
+  //   return isDishInMenu
+  // })
 
-  const filteredDishes = totalDishes.filter(dish => {
-    const dishIngredients = dish.ingredients?.map(ingredientId => (data.ingredients[ingredientId]))
-    const isDishAllowedInDiets = !dishIngredients?.some(ingredient => (
-      ingredient?.included_in_groups?.some(group => {
-        let parentGroups = []
-        setResultParentGroupsOfGroupId(parentGroups, group)
-        return parentGroups.some(parentGroup => (
-          relevantDiets?.some(diet => diet?.excluded_groups.includes(parentGroup))
-        ))
-      })
-    ))
-
-
+  // const filteredDishes = totalDishes.filter(dish => {
+  //   const dishIngredients = dish.ingredients?.map(ingredientId => (data.ingredients[ingredientId]))
+  //   const isDishAllowedInDiets = !dishIngredients?.some(ingredient => (
+  //     ingredient?.included_in_groups?.some(group => {
+  //       let parentGroups = []
+  //       setResultParentGroupsOfGroupId(parentGroups, group)
+  //       return parentGroups.some(parentGroup => (
+  //         relevantDiets?.some(diet => diet?.excluded_groups.includes(parentGroup))
+  //       ))
+  //     })
+  //   ))
 
 
 
-    // !relevantDiets.some(relevantDiet => (
-    //   relevantDiet?.excluded_groups?.some(excludedGroup => (
-    //     dishIngredients?.some(ingredient => (
-    //       ingredient?.included_in_groups?.includes(excludedGroup)
-    //     ))
-    //   ))
-    // ))
-    return isDishAllowedInDiets
-  })
 
-  res.send({ totalDishes, filteredDishes })
+
+  // !relevantDiets.some(relevantDiet => (
+  //   relevantDiet?.excluded_groups?.some(excludedGroup => (
+  //     dishIngredients?.some(ingredient => (
+  //       ingredient?.included_in_groups?.includes(excludedGroup)
+  //     ))
+  //   ))
+  //   // ))
+  //   return isDishAllowedInDiets
+  // })
+
+  res.send({ totalDishes: dishes, filteredDishes: dishes })
 });
 
-const setResultParentGroupsOfGroupId = (result, groupId) => {
-  while (!result.includes(groupId)) {
-    result.push(groupId)
-    data.ingredientGroups?.[groupId]?.parent_groups?.forEach(parentGroupId => setResultParentGroupsOfGroupId(result, parentGroupId))
-  }
-}
+// const setResultParentGroupsOfGroupId = (result, groupId) => {
+//   while (!result.includes(groupId)) {
+//     result.push(groupId)
+//     data.ingredientGroups?.[groupId]?.parent_groups?.forEach(parentGroupId => setResultParentGroupsOfGroupId(result, parentGroupId))
+//   }
+// }
 
 
 module.exports = router
