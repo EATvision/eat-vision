@@ -28,11 +28,13 @@ const fuse = new Fuse(ingredients, options);
 router.get("/", (req, res) => {
   const { query } = req
 
-  console.log(query)
+  let filteredIngredients = ingredients.slice(0, 10)
+  if ('ids' in query) {
+    filteredIngredients = query.ids.length ? query.ids.split(',').map(id => ingredients.find(ingredient => ingredient.id === id)) : []
+  } else if (query?.q?.length) {
+    filteredIngredients = fuse.search(query.q).map(i => i.item)
+  }
 
-  const filteredIngredients = query?.q?.length
-    ? fuse.search(query.q)
-    : ingredients.slice(0, 10)
 
   res.send(filteredIngredients);
 });

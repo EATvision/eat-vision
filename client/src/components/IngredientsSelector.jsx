@@ -1,21 +1,62 @@
 import { t } from 'i18next'
+import axios from 'axios'
 import React from 'react'
+import AsyncSelect from 'react-select/async'
 
-import { useIngredients } from '../hooks/ingredients'
+const loadOptions = async (inputValue) => {
+  const { data } = await axios.get(`/api/ingredients?q=${inputValue}`)
+  return data
+}
+
+const getIngredientsByIds = async (ids) => {
+  const { data } = await axios.get(`/api/ingredients?ids=${ids.join(',')}`)
+  return data
+}
 
 function DietsSelector({ filters, setFilters }) {
-  const [search, setSearch] = React.useState('')
+  const [avoidedIngredients, setAvoidedIngredients] = React.useState([])
 
-  const { ingredients, isLoading, isError } = useIngredients(search)
+  React.useEffect(() => {
+    const setIngredients = async () => {
+      const data = await getIngredientsByIds(filters.avoid)
+      setAvoidedIngredients(data)
+    }
+    setIngredients()
+  }, [filters])
 
-  if (isError) return <div>{JSON.stringify(isError)}</div>
+  // const { ingredients, isLoading, isError } = useIngredients(search)
+
+  const handleInputChange = (newValue) => {
+    const inputValue = newValue.replace(/\W/g, '')
+    return inputValue
+  }
+
+  const handleChangeIngredients = (value) => {
+    setAvoidedIngredients(value)
+    setFilters((currFilters) => ({ ...currFilters, avoid: value.map((v) => v.id) }))
+  }
+
+  // if (isError) return <div>{JSON.stringify(isError)}</div>
   return (
     <div>
       <h1 className="text-center text-4xl font-bold mb-2">{t('my_diet')}</h1>
       <h2 className="text-center text-2xl text-gray-300">{t('choose_relevant_options')}</h2>
 
+      <AsyncSelect
+        defaultOptions
+        value={avoidedIngredients}
+        onChange={handleChangeIngredients}
+        isMulti
+        cacheOptions
+        loadOptions={loadOptions}
+        onInputChange={handleInputChange}
+        getOptionLabel={(e) => e.display_name}
+        getOptionValue={(e) => e.id}
+        closeMenuOnSelect={false}
+      />
+
       <div className="flex flex-col w-1/2 mx-auto m-auto mt-4">
-        {
+        {/* {
           isLoading
             ? <div>LOADING</div>
             : (
@@ -27,7 +68,7 @@ function DietsSelector({ filters, setFilters }) {
                 }
               </div>
             )
-        }
+        } */}
       </div>
     </div>
   )
