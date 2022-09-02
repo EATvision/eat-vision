@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 import MainFilterBtn from '../components/MainFilterBtn'
 import DietsSelector from '../components/DietsSelector'
+import IngredientsSelector from '../components/IngredientsSelector'
 
 function FiltersPage({
   filters, setFilters, dishes, setDishes,
@@ -34,11 +35,7 @@ function FiltersPage({
       <div className="w-1/2 flex flex-col mx-auto">
         <MainFilterBtn label={t('i_have_a_specific_diet')} onClick={handleClickFilterType('diets')} active={filters.diets.length > 0} />
 
-        <MainFilterBtn label={t('i_try_to_avoid_or_reduce')} onClick={handleClickFilterType(<DietsSelector />)} />
-
-        <MainFilterBtn label={t('im_allergic')} onClick={handleClickFilterType(<DietsSelector />)} />
-
-        <MainFilterBtn label={t('i_simply_hate_eating')} onClick={handleClickFilterType(<DietsSelector />)} />
+        <MainFilterBtn label={t('i_dont_eat_specific_foods')} onClick={handleClickFilterType('avoid')} active={filters.avoid.length > 0} />
 
         <MainFilterBtn
           label={t('no_limitations')}
@@ -64,6 +61,11 @@ function FiltersPage({
             {
               filterType === 'diets'
               && <DietsSelector filters={filters} setFilters={setFilters} />
+            }
+
+            {
+              filterType === 'avoid'
+              && <IngredientsSelector filters={filters} setFilters={setFilters} />
             }
           </div>
           <div className="group flex flex-row mt-auto">

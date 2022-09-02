@@ -12,14 +12,12 @@ function FilteredMenuPage({ dishes }) {
   const { t } = useTranslation()
 
   const sectionRefs = [
-    React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
+    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
     React.useRef(null), React.useRef(null), React.useRef(null),
   ]
   const { categories, isLoading } = useRestaurantDishesCategories(restaurantId)

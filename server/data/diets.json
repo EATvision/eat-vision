@@ -1,0 +1,153 @@
+[
+  {
+    "id": "recMjHTqUgfSmCBlb",
+    "name": "Gluten Free",
+    "excluded_groups": [
+      "recFT7HcHE1peDXgt"
+    ]
+  },
+  {
+    "id": "reckLIcVmNMH7KDDX",
+    "name": "Hallal",
+    "excluded_groups": [
+      "rec9bvIO7mct5Gqjy",
+      "recvsQHWxd0ypF4dF"
+    ]
+  },
+  {
+    "id": "recFHQL3fPM1XGz9C",
+    "name": "High Protein"
+  },
+  {
+    "id": "recfKw3uLAKQmDDsK",
+    "name": "Ketogenic"
+  },
+  {
+    "id": "recvnYRFCYey9aUuC",
+    "name": "Kosher",
+    "excluded_groups": [
+      "recvsQHWxd0ypF4dF",
+      "recLnAt7BBNehuKg6"
+    ]
+  },
+  {
+    "id": "recihT2b4W67mHRNo",
+    "name": "Lactose Free",
+    "excluded_groups": [
+      "recnQudnJoV1IBL2A"
+    ]
+  },
+  {
+    "id": "recnKrDp8s2qpgr6h",
+    "name": "Low Calorie"
+  },
+  {
+    "id": "recY4MwgQrdNXlee4",
+    "name": "Low Carb"
+  },
+  {
+    "id": "recnEsVjf6UXfUc4S",
+    "name": "No Sugar",
+    "excluded_groups": [
+      "recUe1tT0MLYbNBnB"
+    ]
+  },
+  {
+    "id": "rec7UFoUWDdJbSJ9a",
+    "name": "Paleo"
+  },
+  {
+    "id": "recn0aDzRQOZF27Bc",
+    "name": "Pregnancy diet",
+    "excluded_groups": [
+      "recqB4ukMOHCwWVx3",
+      "recLnAt7BBNehuKg6",
+      "rec9bvIO7mct5Gqjy"
+    ]
+  },
+  {
+    "id": "rec3UBqUcXrSlH0fI",
+    "name": "Raw Food"
+  },
+  {
+    "id": "rec6KbDDZx692MlWX",
+    "name": "Vegan",
+    "excluded_groups": [
+      "recbnPdp60prgO6VU",
+      "recJo1Ir4BFQQnlDP",
+      "recnQudnJoV1IBL2A",
+      "recFwIpBTavl65Vgk",
+      "recwkmhPXLG1bBABU",
+      "recPKphL2NkoIUwTK",
+      "recLnAt7BBNehuKg6"
+    ]
+  },
+  {
+    "id": "rec7djijn0YtTJBaU",
+    "name": "Vegetarian",
+    "excluded_groups": [
+      "recbnPdp60prgO6VU",
+      "recFwIpBTavl65Vgk",
+      "recwkmhPXLG1bBABU",
+      "recLnAt7BBNehuKg6",
+      "recPKphL2NkoIUwTK"
+    ]
+  },
+  {
+    "id": "reciY00yNYvPnt1B2",
+    "name": "צמחונית",
+    "excluded_groups": [
+      "reccJcbEVjFklwLXO",
+      "recqmf1RVm12yrfJy",
+      "recQfhCrKFIHD30hT",
+      "recSGWzWmeFHW79eT",
+      "recjIbsyIZEXw9SIc"
+    ]
+  },
+  {
+    "id": "rec4y8EXhh6XwzBIv",
+    "name": "טבעונית",
+    "excluded_groups": [
+      "reccJcbEVjFklwLXO",
+      "recDdor96n7HoIDHa",
+      "recehbTjRFROIcK9C",
+      "recqmf1RVm12yrfJy",
+      "recQfhCrKFIHD30hT",
+      "recSGWzWmeFHW79eT",
+      "rechzXyFHRKnvPeRU",
+      "recjIbsyIZEXw9SIc"
+    ]
+  },
+  {
+    "id": "recU1tkDaRMeYR295",
+    "name": "תזונת הריון ",
+    "excluded_groups": [
+      "rec5BXVNp3Pvn5ngw",
+      "rec0SMjoCkj9lsnsA",
+      "rec8DdLIKaDOKutR4",
+      "recjIbsyIZEXw9SIc",
+      "reculeQsIcJ0GjKhu"
+    ]
+  },
+  {
+    "id": "rec5lkWDf8VxYt2pP",
+    "name": "ללא לקטוז",
+    "excluded_groups": [
+      "recehbTjRFROIcK9C"
+    ]
+  },
+  {
+    "id": "rec2G8vL9LF8GVTGU",
+    "name": "ללא סוכר ",
+    "excluded_groups": [
+      "recNXfBWyiMjLM1Wc"
+    ]
+  },
+  {
+    "id": "recSPoq3w185qKdJ5",
+    "name": "ללא גלוטן ",
+    "excluded_groups": [
+      "recnf0lMOXSMRF9GR"
+    ]
+  }
+]

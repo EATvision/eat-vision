@@ -35,7 +35,7 @@ base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
     dishes: r.get("Dishes"),
   }));
 
-  data.menus  = menusData;
+  data.menus = menusData;
 });
 
 //dishes
@@ -43,20 +43,20 @@ base("tblVODysxidY4YSJy").select({ view: "Grid view" }).all((_err, records) => {
   const dishesData = records.reduce((result, r) => ({
     ...result,
     [r.id]: {
-    id: r.id,
-    menus: r.get("menus"),
-    name: r.get("name"),
-    ingredients: r.get("ingredients_mandatory"),
-    long_description: r.get("long_description"),    
-    short_description: r.get("short_description"),
-    photo_url: r.get("photo_url"),
-    price: r.get("price"),
-    categories: r.get("categories"),
+      id: r.id,
+      menus: r.get("menus"),
+      name: r.get("name"),
+      ingredients: r.get("ingredients_mandatory"),
+      long_description: r.get("long_description"),
+      short_description: r.get("short_description"),
+      photo_url: r.get("photo_url"),
+      price: r.get("price"),
+      categories: r.get("categories"),
 
     }
   }), {});
 
-  data.dishes  = dishesData;
+  data.dishes = dishesData;
 });
 
 //ingredientGroups
@@ -71,7 +71,7 @@ base("tblr8FqxXM1TjvFnQ").select({ view: "Grid view" }).all((_err, records) => {
     }
   }), {});
 
-  data.ingredientGroups  = ingredientGroupsData;
+  data.ingredientGroups = ingredientGroupsData;
 });
 
 //ingredients
@@ -87,7 +87,7 @@ base("tblygXPmVmWOVn2af").select({ view: "Grid view" }).all((_err, records) => {
     }
   }), {});
 
-  data.ingredients  = ingredientsData;
+  data.ingredients = ingredientsData;
 });
 
 //diets
@@ -98,7 +98,7 @@ base("tblnzfOFoOdidnxnZ").select({ view: "Grid view" }).all((_err, records) => {
     excluded_groups: r.get("excluded_groups"),
   }));
 
-  data.diets  = dietsData;
+  data.diets = dietsData;
 });
 
 
@@ -106,7 +106,7 @@ base("tblnzfOFoOdidnxnZ").select({ view: "Grid view" }).all((_err, records) => {
 
 
 router.get("/", (_req, res) => {
-   base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
+  base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
     const restaurantsData = records.map((r) => ({
       id: r.id,
       display_name: r.get("display_name"),
@@ -123,7 +123,7 @@ router.get("/:restaurantId", (req, res) => {
 
   base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
     const restaurantData = records.find(r => (r.id === restaurantId));
-    
+
     res.send({
       id: restaurantData.id,
       display_name: restaurantData.get("display_name"),
@@ -143,7 +143,7 @@ router.get("/:restaurantId/categories", (req, res) => {
     const categoriesData = records.reduce((result, r) => {
       if (r.get('restaurant')?.includes(restaurantId)) {
         return {
-          ...result, 
+          ...result,
           [r.id]: {
             id: r.id,
             display_name: r.get("display_name"),
@@ -154,7 +154,7 @@ router.get("/:restaurantId/categories", (req, res) => {
       }
       return result
     }, {});
-    
+
     res.send(categoriesData)
 
   }, function done(error) {
@@ -189,11 +189,11 @@ router.post("/:restaurantId/menus/:menuId/dishes/search", (req, res) => {
         ))
       })
     ))
-    
-    
-    
-    
-    
+
+
+
+
+
     // !relevantDiets.some(relevantDiet => (
     //   relevantDiet?.excluded_groups?.some(excludedGroup => (
     //     dishIngredients?.some(ingredient => (
