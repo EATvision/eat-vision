@@ -7,7 +7,6 @@ const menus = require("../data/menus.json")
 const dishes = require("../data/dishes.json")
 const diets = require("../data/diets.json")
 const categories = require("../data/categories.json")
-const ingredients = require("../data/ingredients.json")
 
 
 // const airtable = require('airtable')
@@ -117,10 +116,6 @@ const ingredients = require("../data/ingredients.json")
 
 router.get("/", (_req, res) => {
   res.send(restaurants);
-});
-
-router.get("/ingredients", (_req, res) => {
-  res.send(ingredients);
 });
 
 router.get("/:restaurantId", (req, res) => {
