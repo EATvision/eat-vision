@@ -24,6 +24,16 @@
       ],
       "envFile": "${workspaceFolder}/.env",
       "program": "${workspaceFolder}\\server\\scripts\\importRawData.js"
+    },
+        {
+      "type": "node",
+      "request": "launch",
+      "name": "Migrate raw data to new data format",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "program": "${workspaceFolder}\\server\\scripts\\migrateRawDataToNewData.js"
     }
   ]
 }
