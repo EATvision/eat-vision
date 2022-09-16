@@ -2,11 +2,11 @@ const { Router } = require("express");
 const router = Router();
 // const fs = require("fs")
 
-const restaurants = require("../data/restaurants.json")
-const menus = require("../data/menus.json")
-const dishes = require("../data/dishes.json")
-const diets = require("../data/diets.json")
-const categories = require("../data/categories.json")
+const restaurants = require("../data/old/restaurants.json")
+const menus = require("../data/old/menus.json")
+const dishes = require("../data/old/dishes.json")
+const diets = require("../data/old/diets.json")
+const categories = require("../data/old/categories.json")
 
 
 // const airtable = require('airtable')

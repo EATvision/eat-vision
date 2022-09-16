@@ -9,9 +9,7 @@ const ingredients = [
   {
     _id: '<uuid>',
     name: '',
-    included_in_diets: ['<diet_id>'],
     excluded_in_diets: ['<diet_id>'],
-    tags: ['<ingredient_id>']
   },
 ]
 
@@ -22,17 +20,20 @@ const dishes = [
     description: '',
     image_url: '',
     category: '<category_id>', // if no category, not displayed in menu!
-    ingredients: {
-      base:
+    recipe: {
+      basic:
         [
-          { type: ('ingredient' || 'dish'), _id: '<_id>' }
+          { type: ('ingredient' || 'dish'), _id: '<_id>', price: 0 }
         ],
       exludable:
         [
-          { type: ('ingredient' || 'dish'), _id: '<_id>' }
+          { type: ('ingredient' || 'dish'), _id: '<_id>', price: 0 }
         ],
       changable:
         [
+          [
+            { type: ('ingredient' || 'dish'), _id: '<_id>', price: Number() }
+          ],
           [
             { type: ('ingredient' || 'dish'), _id: '<_id>', price: Number() }
           ]
@@ -40,6 +41,7 @@ const dishes = [
       addable:
         [
           { type: ('ingredient' || 'dish'), _id: '<_id>', price: Number() }
+
         ],
     },
   },
@@ -48,7 +50,8 @@ const dishes = [
 const categories = [
   {
     _id: '<uuid>',
-    name: ''
+    name: '',
+    order: Number()
   }
 ]
 
@@ -57,6 +60,7 @@ const menus = [
     _id: '<uuid>',
     dishes: ['<dish_id>'],
     categories: ['<category_id>'],
+    menus: [],
     available_hours: [{ from: '<datetime>', to: '<datetime>' }]
   }
 ]
@@ -65,7 +69,7 @@ const kitchens = [
   {
     _id: '<uuid>',
     menus: ['<menu_id>'],
-    restaurant_logo: '',
-    restaurant_url: ''
+    logo: '',
+    url: ''
   }
 ]
