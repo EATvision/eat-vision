@@ -50,7 +50,7 @@ function DietsSelector({ filters, setFilters }) {
         cacheOptions
         loadOptions={loadOptions}
         onInputChange={handleInputChange}
-        getOptionLabel={(e) => e.display_name}
+        getOptionLabel={(e) => e.name}
         getOptionValue={(e) => e.id}
         closeMenuOnSelect={false}
       />
@@ -63,7 +63,7 @@ function DietsSelector({ filters, setFilters }) {
               <div>
                 {
                   ingredients.map((ingredient) => (
-                    <div key={ingredient.id}>{ingredient.display_name}</div>
+                    <div key={ingredient.id}>{ingredient.name}</div>
                   ))
                 }
               </div>

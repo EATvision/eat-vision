@@ -43,7 +43,7 @@ function MenusPage() {
             to={`/kitchens/${kitchenId}/menus/${menu.id}`}
             key={kitchenId}
           >
-            <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{menu.display_name}</h3>
+            <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{menu.name}</h3>
           </Link>
         ))
     }

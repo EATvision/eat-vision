@@ -32,8 +32,8 @@ export const useKitchenMenusById = (kitchenId) => {
   }
 }
 
-export const useKitchenDishesCategories = (kitchenId) => {
-  const { data, error } = useSWR(`/api/kitchens/${kitchenId}/categories`, fetcher)
+export const useKitchenDishesCategories = (kitchenId, menuId) => {
+  const { data, error } = useSWR(`/api/kitchens/${kitchenId}/menus/${menuId}/categories`, fetcher)
 
   return {
     categories: data,

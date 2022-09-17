@@ -27,6 +27,14 @@ router.get("/:kitchenId/menus", (req, res) => {
   res.send(relevanceMenus)
 });
 
+router.get("/:kitchenId/menus/:menuId/categories", (req, res) => {
+  const { params: { kitchenId, menuId } } = req
+
+  const relevanceMenu = menus.find(menu => menu?.id === menuId)
+  const relevantCategories = categories.filter(category => relevanceMenu?.categories?.includes(category.id))
+  res.send(relevantCategories)
+});
+
 router.post("/:kitchenId/menus/:menuId/dishes/search", (req, res) => {
   const { params: { kitchenId, menuId }, body: filters } = req
   res.send({ totalDishes: dishes, filteredDishes: dishes })

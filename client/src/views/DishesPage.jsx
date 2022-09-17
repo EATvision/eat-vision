@@ -8,7 +8,7 @@ import { useKitchenDishesCategories } from '../hooks/kitchens'
 import Dish from '../components/Dish'
 
 function DishesPage({ dishes }) {
-  const { kitchenId } = useParams()
+  const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
 
   const sectionRefs = [
@@ -20,7 +20,7 @@ function DishesPage({ dishes }) {
     React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
     React.useRef(null), React.useRef(null), React.useRef(null),
   ]
-  const { categories, isLoading } = useKitchenDishesCategories(kitchenId)
+  const { categories, isLoading } = useKitchenDishesCategories(kitchenId, menuId)
 
   const activeSection = useScrollSpy({
     sectionElementRefs: sectionRefs,
@@ -32,7 +32,7 @@ function DishesPage({ dishes }) {
     [c.id]: [],
   }), {}) || {}
 
-  const orderedCategories = [...Object.values(categories || {}).sort((a, b) => a.position - b.position), { id: 'no_category', display_name: t('other') }]
+  const orderedCategories = [...Object.values(categories || {}).sort((a, b) => a.position - b.position), { id: 'no_category', name: t('other') }]
 
   const orderedDishesByCategoryId = React.useMemo(
     () => (categories ? dishes.filtered.reduce((result, d) => {
@@ -59,7 +59,7 @@ function DishesPage({ dishes }) {
           {
             orderedCategories.map((category, index) => (
               <li key={category.id} className="py-2 mx-1 inline-block">
-                <a className={`nav-link ${activeSection === index ? 'font-bold' : ''}`} href={`#${category.id}`}>{category.display_name}</a>
+                <a className={`nav-link ${activeSection === index ? 'font-bold' : ''}`} href={`#${category.id}`}>{category.name}</a>
               </li>
             ))
           }
@@ -70,7 +70,7 @@ function DishesPage({ dishes }) {
         {
           orderedCategories?.map((category, index) => (
             <div className="container mx-auto" key={category.id} id={category.id} ref={sectionRefs[index]}>
-              <h2>{category?.display_name}</h2>
+              <h2>{category?.name}</h2>
               {
                 orderedDishesByCategoryId?.[category.id]?.map((dish) => (
                   <Dish key={dish.id} data={dish} />
