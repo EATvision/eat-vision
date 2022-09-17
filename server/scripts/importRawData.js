@@ -59,6 +59,7 @@ base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
     startDate: r.get("start_date"),
     endDate: r.get("end_date"),
     categories: r.get("categories"),
+    dishes: r.get("Dishes"),
   }));
   menus = data
 });
@@ -74,6 +75,7 @@ base("tblkCqIh4FIs6rVXE").select({ view: "Grid view" }).all((_err, records) => {
     id: r.getId(),
     name: r.get("display_name"),
     position: r.get("position"),
+    dishes: r.get("Dishes"),
   }));
   categories = data
 });
