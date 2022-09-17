@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import useScrollSpy from 'react-use-scrollspy'
 
-import { useKitchenDishesCategories } from '../hooks/kitchens'
+import { useKitchenCategoriesByMenu } from '../hooks/kitchens'
 
 import Dish from '../components/Dish'
 
@@ -20,7 +20,7 @@ function DishesPage({ dishes }) {
     React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
     React.useRef(null), React.useRef(null), React.useRef(null),
   ]
-  const { categories, isLoading } = useKitchenDishesCategories(kitchenId, menuId)
+  const { categories, isLoading } = useKitchenCategoriesByMenu(kitchenId, menuId)
 
   const activeSection = useScrollSpy({
     sectionElementRefs: sectionRefs,
