@@ -7,13 +7,22 @@ const kitchens = require(('../../server/data/raw/kitchens.json'))
 const diets = require(('../../server/data/raw/diets.json'))
 const ingredients = require(('../../server/data/raw/ingredients.json'))
 const categories = require(('../../server/data/raw/categories.json'))
+const menus = require(('../../server/data/raw/menus.json'))
+const locations = require(('../../server/data/raw/locations.json'))
+const workingHours = require(('../../server/data/raw/working_hours.json'))
+
 const dishes = require(('../../server/data/raw/dishes.json'))
 
 const recipes = require(('../../server/data/raw/recipes.json'))
 const choices_ingredients = require(('../../server/data/raw/choices_ingredients.json'))
 const choices_subdishes = require(('../../server/data/raw/choices_subdishes.json'))
 
-const ingredientsById = keyBy(ingredients, 'id')
+const modifiedIngredients = ingredients.map(ing => ({
+  ...ing,
+  isSearchable: ingredients.isSearchable === 'TRUE' ? true : false
+}))
+
+const ingredientsById = keyBy(modifiedIngredients, 'id')
 const recipesById = keyBy(recipes, 'id')
 const choicesIngredientsById = keyBy(choices_ingredients, 'id')
 const choicesSubDishesById = keyBy(choices_subdishes, 'id')
@@ -167,12 +176,16 @@ const modifiedDishes = dishes.map(dish => {
 
 fs.writeFileSync('./server/data/new/kitchens.json', JSON.stringify(kitchens))
 fs.writeFileSync('./server/data/new/diets.json', JSON.stringify(diets))
+fs.writeFileSync('./server/data/new/menus.json', JSON.stringify(menus))
+fs.writeFileSync('./server/data/new/locations.json', JSON.stringify(locations))
+fs.writeFileSync('./server/data/new/workingHours.json', JSON.stringify(workingHours))
+
 fs.writeFileSync('./server/data/new/categories.json', JSON.stringify(categories))
 
 const transformStreamIngredients = JSONStream.stringify();
 const outputStreamIngredients = fs.createWriteStream('./server/data/new/ingredients.json');
 transformStreamIngredients.pipe(outputStreamIngredients);
-modifiedDishes.forEach(transformStreamIngredients.write);
+modifiedIngredients.forEach(transformStreamIngredients.write);
 transformStreamIngredients.end();
 
 outputStreamIngredients.on(
@@ -194,3 +207,5 @@ outputStreamDishes.on(
     console.log("Done");
   }
 );
+
+console.log('done')

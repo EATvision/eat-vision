@@ -9,199 +9,199 @@ airtable.configure({
 
 const base = airtable.base("appOPszbMpOH0ySIC");
 
-// //kitchens
-// let kitchens = []
-// base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     display_name: r.get("display_name"),
-//     image: r.get("image"),
-//     site_url: r.get("site_url"),
-//     intentions: r.get("intentions"),
-//     location: r.get("location"),
-//     working_hours: r.get("working_hours"),
-//     Menus: r.get("Menus"),
-//   }));
-//   kitchens = data
-// });
+//kitchens
+let kitchens = []
+base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    name: r.get("display_name"),
+    image: r.get("image"),
+    website: r.get("site_url"),
+    intentions: r.get("intentions"),
+    location: r.get("location"),
+    workingHours: r.get("working_hours"),
+    menus: r.get("Menus"),
+  }));
+  kitchens = data
+});
 
 // setTimeout(() => {
 //   fs.writeFileSync('./server/data/raw/kitchens.json', JSON.stringify(kitchens))
 // }, 10000)
 
-// //locations
-// let locations = []
-// base("tblNdngecQWNjn6E0").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     country: r.get("country"),
-//     city: r.get("city"),
-//     street_address: r.get("street_address"),
-//     post_code: r.get("post_code"),
-//     Restaurant: r.get("Restaurant"),
-//   }));
-//   locations = data
-// });
+//locations
+let locations = []
+base("tblNdngecQWNjn6E0").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    country: r.get("country"),
+    city: r.get("city"),
+    streetAddress: r.get("street_address"),
+    postCode: r.get("post_code"),
+    restaurant: r.get("Restaurant"),
+  }));
+  locations = data
+});
 
-// setTimeout(() => {
-//   fs.writeFileSync('./server/data/raw/locations.json', JSON.stringify(locations))
-// }, 10000)
+setTimeout(() => {
+  fs.writeFileSync('./server/data/raw/locations.json', JSON.stringify(locations))
+}, 10000)
 
-// //menus
-// let menus = []
-// base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     restaurants: r.get("restaurants"),
-//     display_name: r.get("display_name"),
-//     description: r.get("description"),
-//     working_hours: r.get("working_hours"),
-//     start_date: r.get("start_date"),
-//     end_date: r.get("end_date"),
-//     categories: r.get("categories"),
-//   }));
-//   menus = data
-// });
+//menus
+let menus = []
+base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    restaurants: r.get("restaurants"),
+    name: r.get("display_name"),
+    description: r.get("description"),
+    workingHours: r.get("working_hours"),
+    startDate: r.get("start_date"),
+    endDate: r.get("end_date"),
+    categories: r.get("categories"),
+  }));
+  menus = data
+});
 
-// setTimeout(() => {
-//   fs.writeFileSync('./server/data/raw/menus.json', JSON.stringify(menus))
-// }, 10000)
+setTimeout(() => {
+  fs.writeFileSync('./server/data/raw/menus.json', JSON.stringify(menus))
+}, 10000)
 
-// //categories
-// let categories = []
-// base("tblkCqIh4FIs6rVXE").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     display_name: r.get("display_name"),
-//     position: r.get("position"),
-//   }));
-//   categories = data
-// });
+//categories
+let categories = []
+base("tblkCqIh4FIs6rVXE").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    name: r.get("display_name"),
+    position: r.get("position"),
+  }));
+  categories = data
+});
 
-// setTimeout(() => {
-//   fs.writeFileSync('./server/data/raw/categories.json', JSON.stringify(categories))
-// }, 10000)
+setTimeout(() => {
+  fs.writeFileSync('./server/data/raw/categories.json', JSON.stringify(categories))
+}, 10000)
 
-// //workingHours
-// let working_hours = []
-// base("tbl6IbHA11rj3xQ4r").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     day: r.get("day"),
-//     start: r.get("start"),
-//     end: r.get("end"),
-//   }));
-//   working_hours = data
-// });
+//workingHours
+let working_hours = []
+base("tbl6IbHA11rj3xQ4r").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    day: r.get("day"),
+    start: r.get("start"),
+    end: r.get("end"),
+  }));
+  working_hours = data
+});
 
-// setTimeout(() => {
-//   fs.writeFileSync('./server/data/raw/working_hours.json', JSON.stringify(working_hours))
-// }, 10000)
+setTimeout(() => {
+  fs.writeFileSync('./server/data/raw/working_hours.json', JSON.stringify(working_hours))
+}, 10000)
 
-// //ingredients
-// let ingredients = []
-// base("tblotwNoQ0o3H0zVN").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     display_name: r.get("display_name"),
-//     sub_ingredients: r.get("sub_ingredients"),
-//     is_searchable: r.get("is_searchable"),
-//     description: r.get("description"),
-//     synonyms: r.get("synonyms"),
-//     excluded_in_diets: r.get("excluded_in_diets"),
-//     ingrediet_tags: r.get("ingrediet_tags"),
-//   }));
-//   ingredients = data
-// });
+//ingredients
+let ingredients = []
+base("tblotwNoQ0o3H0zVN").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    name: r.get("display_name"),
+    subIngredients: r.get("sub_ingredients"),
+    isSearchable: r.get("is_searchable"),
+    description: r.get("description"),
+    synonyms: r.get("synonyms"),
+    excludedInDiets: r.get("excluded_in_diets"),
+    tags: r.get("ingrediet_tags"),
+  }));
+  ingredients = data
+});
 
-// setTimeout(() => {
+setTimeout(() => {
 
-//   const transformStream = JSONStream.stringify();
-//   const outputStream = fs.createWriteStream('./server/data/raw/ingredients.json');
-//   transformStream.pipe(outputStream);
-//   ingredients.forEach(transformStream.write);
-//   transformStream.end();
+  const transformStream = JSONStream.stringify();
+  const outputStream = fs.createWriteStream('./server/data/raw/ingredients.json');
+  transformStream.pipe(outputStream);
+  ingredients.forEach(transformStream.write);
+  transformStream.end();
 
-//   outputStream.on(
-//     "finish",
-//     function handleFinish() {
-//       console.log("Done");
-//     }
-//   );
-// }, 10000)
+  outputStream.on(
+    "finish",
+    function handleFinish() {
+      console.log("Done");
+    }
+  );
+}, 10000)
 
-// //dishes
-// let dishes = []
-// base("tblLnh1hSZ8GTznfy").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     Dish_display_name: r.get("Dish_display_name"),
-//     short_description: r.get("short_description"),
-//     image_url: r.get("image_url"),
-//     category: r.get("category"),
-//     recipe: r.get("recipe"),
-//     Price: r.get("Price"),
-//   }));
-//   dishes = data
-// });
+//dishes
+let dishes = []
+base("tblLnh1hSZ8GTznfy").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    Dish_display_name: r.get("Dish_display_name"),
+    short_description: r.get("short_description"),
+    image_url: r.get("image_url"),
+    category: r.get("category"),
+    recipe: r.get("recipe"),
+    Price: r.get("Price"),
+  }));
+  dishes = data
+});
 
-// setTimeout(() => {
-//   const transformStream = JSONStream.stringify();
-//   const outputStream = fs.createWriteStream('./server/data/raw/dishes.json');
-//   transformStream.pipe(outputStream);
-//   dishes.forEach(transformStream.write);
-//   transformStream.end();
+setTimeout(() => {
+  const transformStream = JSONStream.stringify();
+  const outputStream = fs.createWriteStream('./server/data/raw/dishes.json');
+  transformStream.pipe(outputStream);
+  dishes.forEach(transformStream.write);
+  transformStream.end();
 
-//   outputStream.on(
-//     "finish",
-//     function handleFinish() {
-//       console.log("Done");
-//     }
-//   );
-// }, 10000)
+  outputStream.on(
+    "finish",
+    function handleFinish() {
+      console.log("Done");
+    }
+  );
+}, 10000)
 
-// //recipes
-// let recipes = []
-// base("tblrTZOqWSoDnXJK4").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     mandatory_ingredients: r.get("mandatory_ingredients_"),
-//     excludable_ingredients: r.get("excludable_ingredients"),
-//     putaside_ingredients: r.get("putaside_ingredients"),
-//     Choice_ingredients: r.get("Choice_ingredients"),
-//     Choice_side_dish: r.get("Choice_side_dish"),
-//     addable_ingridients: r.get("addable_ingridients"),
-//     addable_dishs: r.get("addable_dishs"),
-//   }));
-//   recipes = data
-// });
+//recipes
+let recipes = []
+base("tblrTZOqWSoDnXJK4").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    mandatory_ingredients: r.get("mandatory_ingredients_"),
+    excludable_ingredients: r.get("excludable_ingredients"),
+    putaside_ingredients: r.get("putaside_ingredients"),
+    Choice_ingredients: r.get("Choice_ingredients"),
+    Choice_side_dish: r.get("Choice_side_dish"),
+    addable_ingridients: r.get("addable_ingridients"),
+    addable_dishs: r.get("addable_dishs"),
+  }));
+  recipes = data
+});
 
-// setTimeout(() => {
-//   fs.writeFileSync('./server/data/raw/recipes.json', JSON.stringify(recipes))
-// }, 10000)
+setTimeout(() => {
+  fs.writeFileSync('./server/data/raw/recipes.json', JSON.stringify(recipes))
+}, 10000)
 
-// //choices_ingredients
-// let choices_ingredients = []
-// base("tbl8Mk37Xtrc6kgyG").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     ingredient1: r.get("ingredient1"),
-//     ingredient1_delta_price: r.get("ingredient1_delta_price"),
-//     ingredient2: r.get("ingredient2"),
-//     ingredient2_delta_price: r.get("ingredient2_delta_price"),
-//     ingredient3: r.get("ingredient3"),
-//     ingredient3_delta_price: r.get("ingredient3_delta_price"),
-//     ingredient3: r.get("ingredient4"),
-//     ingredient4_delta_price: r.get("ingredient4_delta_price"),
-//     ingredient5: r.get("ingredient5"),
-//     ingredient5_delta_price: r.get("ingredient5_delta_price"),
-//   }));
-//   choices_ingredients = data
-// });
+//choices_ingredients
+let choices_ingredients = []
+base("tbl8Mk37Xtrc6kgyG").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    ingredient1: r.get("ingredient1"),
+    ingredient1_delta_price: r.get("ingredient1_delta_price"),
+    ingredient2: r.get("ingredient2"),
+    ingredient2_delta_price: r.get("ingredient2_delta_price"),
+    ingredient3: r.get("ingredient3"),
+    ingredient3_delta_price: r.get("ingredient3_delta_price"),
+    ingredient3: r.get("ingredient4"),
+    ingredient4_delta_price: r.get("ingredient4_delta_price"),
+    ingredient5: r.get("ingredient5"),
+    ingredient5_delta_price: r.get("ingredient5_delta_price"),
+  }));
+  choices_ingredients = data
+});
 
-// setTimeout(() => {
-//   fs.writeFileSync('./server/data/raw/choices_ingredients.json', JSON.stringify(choices_ingredients))
-// }, 10000)
+setTimeout(() => {
+  fs.writeFileSync('./server/data/raw/choices_ingredients.json', JSON.stringify(choices_ingredients))
+}, 10000)
 
 //choices_subdishes
 let choices_subdishes = []
@@ -229,16 +229,16 @@ setTimeout(() => {
   fs.writeFileSync('./server/data/raw/choices_subdishes.json', JSON.stringify(choices_subdishes))
 }, 10000)
 
-// //diets
-// let diets = []
-// base("tbl8Mk37Xtrc6kgyG").select({ view: "Grid view" }).all((_err, records) => {
-//   const data = records.map((r) => ({
-//     id: r.getId(),
-//     name: r.get("name"),
-//   }));
-//   diets = data
-// });
+//diets
+let diets = []
+base("tblJXmaeTIA7dp4oJ").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    name: r.get("name"),
+  }));
+  diets = data
+});
 
-// setTimeout(() => {
-//   fs.writeFileSync('./server/data/raw/diets.json', JSON.stringify(diets))
-// }, 10000)
+setTimeout(() => {
+  fs.writeFileSync('./server/data/raw/diets.json', JSON.stringify(diets))
+}, 10000)
