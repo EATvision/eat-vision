@@ -2,13 +2,13 @@ import React from 'react'
 import { Link, useParams, Navigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { useRestaurantMenusById } from '../hooks/restaurants'
+import { useKitchenMenusById } from '../hooks/kitchens'
 
 function MenusPage() {
-  const { restaurantId } = useParams()
+  const { kitchenId } = useParams()
   const { t } = useTranslation()
 
-  const { menus, isLoading, isError } = useRestaurantMenusById(restaurantId)
+  const { menus, isLoading, isError } = useKitchenMenusById(kitchenId)
 
   if (isLoading) return <div>LOADING</div>
   if (isError) return <div>ERROR</div>
@@ -18,11 +18,11 @@ function MenusPage() {
   if (!menus.length) {
     return (
       <>
-        <h2>NO MENUS FOR RESTAURANT FOUND</h2>
+        <h2>NO MENUS FOR KITCHEN FOUND</h2>
         <Link
           className="group flex flex-col"
-          to={`/restaurants/${restaurantId}`}
-          key={restaurantId}
+          to={`/kitchens/${kitchenId}`}
+          key={kitchenId}
         >
           <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{t('back')}</h3>
         </Link>
@@ -40,8 +40,8 @@ function MenusPage() {
         menus.map((menu) => (
           <Link
             className="group flex flex-col"
-            to={`/restaurants/${restaurantId}/menus/${menu.id}`}
-            key={restaurantId}
+            to={`/kitchens/${kitchenId}/menus/${menu.id}`}
+            key={kitchenId}
           >
             <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{menu.display_name}</h3>
           </Link>

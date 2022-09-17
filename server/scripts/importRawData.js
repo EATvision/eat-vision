@@ -38,7 +38,7 @@ base("tblNdngecQWNjn6E0").select({ view: "Grid view" }).all((_err, records) => {
     city: r.get("city"),
     streetAddress: r.get("street_address"),
     postCode: r.get("post_code"),
-    restaurant: r.get("Restaurant"),
+    kithen: r.get("Restaurant"),
   }));
   locations = data
 });
@@ -52,7 +52,7 @@ let menus = []
 base("tbl9JON90N2fzyNik").select({ view: "Grid view" }).all((_err, records) => {
   const data = records.map((r) => ({
     id: r.getId(),
-    restaurants: r.get("restaurants"),
+    kitchens: r.get("restaurants"),
     name: r.get("display_name"),
     description: r.get("description"),
     workingHours: r.get("working_hours"),

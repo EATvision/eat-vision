@@ -2,41 +2,41 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { useRestaurants } from '../hooks/restaurants'
+import { useKitchens } from '../hooks/kitchens'
 
-function RestaurantsPage() {
+function KitchensPage() {
   const { i18n } = useTranslation()
-  const { restaurants, isLoading, isError } = useRestaurants()
+  const { kitchens, isLoading, isError } = useKitchens()
 
-  const handleClickRestaurant = (restaurant) => () => i18n.changeLanguage(restaurant.locale)
+  const handleClickKitchen = (kitchen) => () => i18n.changeLanguage(kitchen.locale)
 
   if (isLoading) return <div>LOADING</div>
   if (isError) return <div>ERROR</div>
 
   return (
     <main>
-      <h2>Restaurants list</h2>
+      <h2>Kitchens list</h2>
 
       <div className="bg-white">
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
 
           <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-            {restaurants.map((restaurant) => (
+            {kitchens.map((kitchen) => (
               <Link
                 className="group flex flex-col"
-                to={`/restaurants/${restaurant.id}/menus`}
-                key={restaurant.id}
-                onClick={handleClickRestaurant(restaurant)}
+                to={`/kitchens/${kitchen.id}/menus`}
+                key={kitchen.id}
+                onClick={handleClickKitchen(kitchen)}
               >
                 <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8  flex-1">
                   <img
-                    src={restaurant.logo_url}
-                    alt="restaurant logo"
+                    src={kitchen.logo}
+                    alt="kitchen logo"
                     className="w-full h-full object-center object-fit group-hover:opacity-75"
                   />
                 </div>
-                <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{restaurant.display_name}</h3>
+                <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{kitchen.name}</h3>
               </Link>
 
             ))}
@@ -48,4 +48,4 @@ function RestaurantsPage() {
   )
 }
 
-export default RestaurantsPage
+export default KitchensPage

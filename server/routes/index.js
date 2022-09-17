@@ -1,12 +1,12 @@
 
 const express = require('express')
 
-const restaurantsRoutes = require('./restaurants')
+const kitchensRoutes = require('./kitchens')
 const ingredientsRoutes = require('./ingredients')
 
 const router = express.Router()
 
-router.use('/restaurants', restaurantsRoutes)
+router.use('/kitchens', kitchensRoutes)
 router.use('/ingredients', ingredientsRoutes)
 
 router.get("/", (req, res) => {

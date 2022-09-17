@@ -5,8 +5,8 @@ import {
 
 import i18next from 'i18next'
 import DishesPage from './views/DishesPage'
-import RestaurantsPage from './views/RestaurantsPage'
-import RestaurantPage from './views/RestaurantPage'
+import KitchensPage from './views/KitchensPage'
+import KitchenPage from './views/KitchenPage'
 import GreetingPage from './views/GreetingPage'
 import FiltersPage from './views/FiltersPage'
 import MenusPage from './views/MenusPage'
@@ -23,9 +23,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Navigate replace to="/restaurants" />} />
-        <Route path="/restaurants" element={<RestaurantsPage />} />
-        <Route path="/restaurants/:restaurantId" element={<RestaurantPage />}>
+        <Route path="/" element={<Navigate replace to="/kitchens" />} />
+        <Route path="/kitchens" element={<KitchensPage />} />
+        <Route path="/kitchens/:kitchenId" element={<KitchenPage />}>
           <Route path="menus" element={<MenusPage />} />
           <Route path="menus/:menuId" element={<MenuPage filters={filters} setDishes={setDishes} />}>
             <Route index element={<GreetingPage />} />

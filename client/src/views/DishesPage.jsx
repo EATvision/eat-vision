@@ -3,12 +3,12 @@ import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import useScrollSpy from 'react-use-scrollspy'
 
-import { useRestaurantDishesCategories } from '../hooks/restaurants'
+import { useKitchenDishesCategories } from '../hooks/kitchens'
 
 import Dish from '../components/Dish'
 
 function DishesPage({ dishes }) {
-  const { restaurantId } = useParams()
+  const { kitchenId } = useParams()
   const { t } = useTranslation()
 
   const sectionRefs = [
@@ -20,7 +20,7 @@ function DishesPage({ dishes }) {
     React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
     React.useRef(null), React.useRef(null), React.useRef(null),
   ]
-  const { categories, isLoading } = useRestaurantDishesCategories(restaurantId)
+  const { categories, isLoading } = useKitchenDishesCategories(kitchenId)
 
   const activeSection = useScrollSpy({
     sectionElementRefs: sectionRefs,

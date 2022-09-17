@@ -2,19 +2,19 @@ import React from 'react'
 import { Outlet, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { useRestaurantById } from '../hooks/restaurants'
+import { useKitchenById } from '../hooks/kitchens'
 
-function RestaurantPage() {
-  const { restaurantId } = useParams()
+function KitchenPage() {
+  const { kitchenId } = useParams()
   const { i18n } = useTranslation()
 
-  const { restaurant, isLoading, isError } = useRestaurantById(restaurantId)
+  const { kitchen, isLoading, isError } = useKitchenById(kitchenId)
 
   React.useEffect(() => {
-    if (restaurant) {
-      i18n.changeLanguage(restaurant.locale)
+    if (kitchen) {
+      i18n.changeLanguage(kitchen.locale)
     }
-  }, [restaurant])
+  }, [kitchen])
 
   if (isLoading) return <div>LOADING</div>
   if (isError) return <div>ERROR</div>
@@ -22,9 +22,9 @@ function RestaurantPage() {
   return (
     <>
       <h2>
-        RESTAURANT:
+        kitchen:
         {' '}
-        {restaurantId}
+        {kitchenId}
       </h2>
 
       <Outlet />
@@ -33,4 +33,4 @@ function RestaurantPage() {
   )
 }
 
-export default RestaurantPage
+export default KitchenPage
