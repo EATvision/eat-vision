@@ -3,6 +3,16 @@ import React from 'react'
 export default function Dish({ data }) {
   return (
     <div className="flex justify-center mb-4 flex-1">
+      {
+        data.isFilteredOut
+        && (
+        <div className="bg-red-500">
+          <div>NO!</div>
+          <div>{data?.intersectingAvoidedMandatoryIngredients?.join(', ')}</div>
+          <div>{data?.mandatoryIngredientsExludedInDiets?.join(', ')}</div>
+        </div>
+        )
+      }
       <div className="flex flex-row max-w-xlw-xl rounded-lg bg-white shadow-lg">
         <img
           className="h-auto object-cover w-48 rounded-t-lg rounded-none rounded-l-lg"
