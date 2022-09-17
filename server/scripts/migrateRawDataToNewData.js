@@ -19,7 +19,7 @@ const choices_subdishes = require(('../../server/data/raw/choices_subdishes.json
 
 const modifiedIngredients = ingredients.map(ing => ({
   ...ing,
-  isSearchable: ingredients.isSearchable === 'TRUE' ? true : false
+  isSearchable: ing.isSearchable === 'TRUE' ? true : false
 }))
 
 const ingredientsById = keyBy(modifiedIngredients, 'id')
