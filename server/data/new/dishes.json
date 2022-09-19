@@ -6,6 +6,7 @@
     "categories": [
       "rech0wuHHfAJ4EpjX"
     ],
+    "price": 18,
     "recipe": {
       "mandatory": [
         {
@@ -82,6 +83,7 @@
     "categories": [
       "recpUPPCOf4FFjXlM"
     ],
+    "price": 7,
     "recipe": {
       "mandatory": [
         {
@@ -104,6 +106,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attG6Y0eODx3ucmL7",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/81a897dc4777e62d99d01c441f852073/785dda59/12_Chairs_Lamburgar.jpg",
+      "filename": "12_Chairs_Lamburgar.jpg",
+      "size": 70111,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5582a901f2a284e2dcca57817725697c/227bd48c",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/513266e1f11370ba4653a30184a0e2e8/feae4640",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8cf3f0c8520afbac17c43dcf65ad5665/d472301e",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 22,
     "recipe": {
       "mandatory": [
         {
@@ -173,6 +202,33 @@
     "categories": [
       "recqGerbTr69t5TIU"
     ],
+    "image": {
+      "id": "attbzWfKpt9z1YCo6",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/9a921f09756e183dfc9dcec3d62a42dc/a9fa7c88/12_Chairs_Salad.jpg",
+      "filename": "12_Chairs_Salad.jpg",
+      "size": 62157,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/9df8d8ec89582ab285cc885e1c634edd/5e2a3c40",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f550452c8aa0c61b331f45421d26aa5d/5b4b6791",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/134e9f7937b876acf6c1adb353687ebf/1af1c12a",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 16,
     "recipe": {
       "mandatory": [
         {
@@ -210,6 +266,7 @@
     "categories": [
       "recOsuX64dp6jHNS5"
     ],
+    "price": 4,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -226,6 +283,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 5,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -243,6 +301,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attLwyCfYUF5D0ccW",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/c3705de5725f4422d5ff63371b810ab7/131dd8d4/ARAYES.jpg",
+      "filename": "ARAYES.jpg",
+      "size": 67321,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e3e96116ab9f38677583160393d05f06/3ca9508d",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a3987b955dd37a37ccc79269db8b36ea/6d9f4e6d",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/07054e17b8a1d38510264c255b1346f9/5f0f1b00",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 21,
     "recipe": {
       "mandatory": [
         {
@@ -283,6 +368,7 @@
     "categories": [
       "reclT14FtHvh32jWC"
     ],
+    "price": 15,
     "recipe": {
       "mandatory": [
         {
@@ -360,6 +446,16 @@
     "categories": [
       "recjU7rW5EwrcSCBe"
     ],
+    "image": {
+      "id": "attmdHQS1MtXr4SvJ",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/077c7ab4b9e1f363348b8f14425b94fc/ab02f9ce/BABAGANOUSH.jpg",
+      "filename": "BABAGANOUSH.jpg",
+      "size": 45499,
+      "type": "image/jpeg"
+    },
+    "price": 7,
     "recipe": {
       "mandatory": [
         {
@@ -394,6 +490,33 @@
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
+    "image": {
+      "id": "att88908F8T5uDWra",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/d7ac186903294b51eae33b4cab6960af/9e62e14f/BALADI_EGGPLANT.jpg",
+      "filename": "BALADI_EGGPLANT.jpg",
+      "size": 53315,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3d48b6e070ce8c2b6b6b9a4f7f9f6add/c1fc7b51",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/48a90df81e5fbd82365bb8fbd3ea079e/a3c7cc7c",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/36579b95b03eb9620a989de76fff2495/252c1608",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
     "recipe": {
       "mandatory": [
         {
@@ -434,6 +557,33 @@
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
+    "image": {
+      "id": "attNZwpd6ZLgHeUZU",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/cd6a4aad5fe381a95e9f1feab754cec6/b51c9148/BEETS_SALAD.jpg",
+      "filename": "BEETS_SALAD.jpg",
+      "size": 48692,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1295599912ced85b8b4217b646969437/46e60d32",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/79937a29c1a108009c19626f946bf2b7/7c941670",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8972c321d803643d36a4c20a79ad19aa/2353f338",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
     "recipe": {
       "mandatory": [
         {
@@ -478,6 +628,7 @@
     "categories": [
       "reclT14FtHvh32jWC"
     ],
+    "price": 14,
     "recipe": {
       "mandatory": [
         {
@@ -518,6 +669,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 5,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -535,6 +687,33 @@
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
+    "image": {
+      "id": "attzHI7RQWB9g9rsc",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/4ba97befe286e495cc11d3416bcb0c7e/f00e96c3/CAULIFLOWER.jpg",
+      "filename": "CAULIFLOWER.jpg",
+      "size": 51548,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a3d3a1bf1f1b7e811610d2948f3e9176/faea6c0e",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/82b254f420b74caeababc2addba62553/ef209c8e",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/002d560541db40b794ed482fcc720411/7499c800",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
     "recipe": {
       "mandatory": [
         {
@@ -569,6 +748,33 @@
     "categories": [
       "recCbbPwQDG5F33T0"
     ],
+    "image": {
+      "id": "attKrfeJrQLi1Gxh5",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/9d9ed627d8863a9150bf296c140c5003/c44ef90b/CHEESE_BLINTZES.jpg",
+      "filename": "CHEESE_BLINTZES.jpg",
+      "size": 65405,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ad4e2936f87906442a6ca80c1628a81e/4d16e679",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1e6ca93c2af81572f78b4c3fd25eeec8/f6460c2b",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8b44b2f90b13f7227a2c3cf0ebda7a03/eaa6deb6",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 13,
     "recipe": {
       "mandatory": [
         {
@@ -603,6 +809,33 @@
     "categories": [
       "recCbbPwQDG5F33T0"
     ],
+    "image": {
+      "id": "attcvVfFaXxbaRhf2",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/6b02ab057fbc56778c65290633ddd366/a17f7ae5/CHEESECAKE.jpg",
+      "filename": "CHEESECAKE.jpg",
+      "size": 45739,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/50d0fc35470dcd5fdb64c09153764c09/bbefcb4b",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/aff660ef3fcd8148dbed0a7e3bc1654f/8a9736ce",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2f7ff69b8a6b85243d1f6d2b1d5efc19/cb3f2f4f",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 12,
     "recipe": {
       "mandatory": [
         {
@@ -641,6 +874,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attEoE1B3XSkca9Hh",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/902a140f78c56fe4402ac837e1f24c53/39f1d181/CHICKEN_LIVERS.jpg",
+      "filename": "CHICKEN_LIVERS.jpg",
+      "size": 49389,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b340268d823d9173aadfe8c55b4aadb3/0610c5c4",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0d5b8eeb7eea261c1d34bfd25a4c173d/6aff9c20",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/74673d745c0a6610c8a4b68c3df999f5/8f5109b3",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 21,
     "recipe": {
       "mandatory": [
         {
@@ -702,6 +962,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attlEv3VlpM1JSNND",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/51ba07c9dec4de46dbeeb681d660a52f/24c60800/CHICKEN_SCHNITZEL.jpg",
+      "filename": "CHICKEN_SCHNITZEL.jpg",
+      "size": 54381,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/fcb1410e82bb8053e41785263ff314b9/1dfe79e7",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5f4bf66218acd468fbf98e8d5ea6c656/7b8dfb71",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5bcb648d71af47845ae6a67b86014c40/e76ce5c1",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 23,
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -760,6 +1047,33 @@
     "categories": [
       "recCbbPwQDG5F33T0"
     ],
+    "image": {
+      "id": "attRmRF0bCogfhtDi",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/da1393c199a39d00b11055e210169c06/d0f277ce/CHOCOLATE_MOUSSE.jpg",
+      "filename": "CHOCOLATE_MOUSSE.jpg",
+      "size": 52586,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b3319613f2bb64aef3cdfaee5ef7e32c/7a849463",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e04c43f04a1353b307dd99ad773a1724/f3582334",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f06b8a8c668e86b61fffd3cf78491a6d/4aa7e816",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
     "recipe": {
       "mandatory": [
         {
@@ -811,6 +1125,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 4,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -828,6 +1143,33 @@
     "categories": [
       "reclT14FtHvh32jWC"
     ],
+    "image": {
+      "id": "atta52HyElJUQ6Spi",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/b85ee6160c68c76c88f4364d10de9eef/cc2a0338/EGG_WHITE_OMELETTE.jpg",
+      "filename": "EGG_WHITE_OMELETTE.jpg",
+      "size": 55914,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/55d4e461a288d7f02303c5b2c0faba4e/b0906130",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b2915ad785d1847b266b1d53c5c7cd9c/f0e9956c",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d84dcc30d89515b08375d34532650b0a/03b7a7e8",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 15,
     "recipe": {
       "mandatory": [
         {
@@ -864,6 +1206,7 @@
     "categories": [
       "reclT14FtHvh32jWC"
     ],
+    "price": 15,
     "recipe": {
       "mandatory": [
         {
@@ -915,6 +1258,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 5,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -931,6 +1275,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 1.5,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -948,6 +1293,33 @@
     "categories": [
       "recjU7rW5EwrcSCBe"
     ],
+    "image": {
+      "id": "att8j2zgDetdffNbr",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/4cec5e200bffa22c1d68213c568c8db2/f9196916/FALAFEL_TAHINI.jpg",
+      "filename": "FALAFEL_TAHINI.jpg",
+      "size": 48161,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/224f597586a3183f93415a317c2dfda1/3b1ac07a",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/35d11519d4c9d91a3e26822d0d80110e/dc8bbbd9",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/72aaf720e2bc2fece6e13372686632c5/df496f8c",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 7,
     "recipe": {
       "mandatory": [
         {
@@ -982,6 +1354,7 @@
     "categories": [
       "recZWYhdnctZOQI36"
     ],
+    "price": 14,
     "recipe": {
       "mandatory": [
         {
@@ -1026,6 +1399,7 @@
     "categories": [
       "recOsuX64dp6jHNS5"
     ],
+    "price": 6,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1053,6 +1427,7 @@
     "categories": [
       "recRM3vqx1Ndm4Y1t"
     ],
+    "price": 6,
     "recipe": {
       "mandatory": [
         {
@@ -1079,6 +1454,33 @@
     "categories": [
       "reclT14FtHvh32jWC"
     ],
+    "image": {
+      "id": "attSxGFTphksyYpRc",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/120f6ec8f96ddff7b9c18e756929bc58/f6c13674/GRANOLA.jpg",
+      "filename": "GRANOLA.jpg",
+      "size": 53124,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2fefbf7c7bddabcdc5d3bdab42c4a3bd/89865743",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/98b08042f6831e7602c6220d598e0d11/b84c68db",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b6817d173e8e0562751595a00a1dc21c/3203649b",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 5,
     "recipe": {
       "mandatory": [
         {
@@ -1123,6 +1525,33 @@
     "categories": [
       "recvJiT2fg6uEfKUO"
     ],
+    "image": {
+      "id": "attjknO2HHm06Xp7m",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/0793e600993c45c12b198bd5030783c7/a239e840/GREEK_SALAD.jpg",
+      "filename": "GREEK_SALAD.jpg",
+      "size": 68308,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c4dc1fd0e43a44be906c1cdb0aa1cfef/98e13021",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/946f10be148b0592996ed150d3ebd0f7/92359df2",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ceefee968fad6313263212ff4355f8a6/f2b1b3dc",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 12,
     "recipe": {
       "mandatory": [
         {
@@ -1173,6 +1602,7 @@
     "categories": [
       "recpUPPCOf4FFjXlM"
     ],
+    "price": 6,
     "recipe": {
       "mandatory": [
         {
@@ -1195,6 +1625,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attXDGnhPyctKxEJl",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/8147a4511253a11759b32fcbe2e5c37b/03f61fac/GRILLED_CHICKEN.jpg",
+      "filename": "GRILLED_CHICKEN.jpg",
+      "size": 58213,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d719f21659614986d3b76f16beeaed53/9c777852",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/69d210f85aa8470da70ac799c612c8ba/a1396bb8",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/aa3677d46a6b1679fdcc285fc581a501/e3478cb4",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 24,
     "recipe": {
       "mandatory": [
         {
@@ -1278,6 +1735,33 @@
     "categories": [
       "recqGerbTr69t5TIU"
     ],
+    "image": {
+      "id": "attZ7Qj2uVuACjPkv",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/52231c091af53a137426497b9b06a968/fd6a8dc9/GRILLED_CHICKEN_SALAD.jpg",
+      "filename": "GRILLED_CHICKEN_SALAD.jpg",
+      "size": 59819,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6309b85bc10bdba498f9c0c3b5d9f822/e044a5ec",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/cfd82540d3b59b95905dfd319abba72d/3ace4c5c",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2f72782f7a9597d46789d996e6558c9c/99d19566",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 22,
     "recipe": {
       "mandatory": [
         {
@@ -1326,6 +1810,7 @@
     "categories": [
       "rech0wuHHfAJ4EpjX"
     ],
+    "price": 17,
     "recipe": {
       "mandatory": [
         {
@@ -1387,6 +1872,7 @@
     "categories": [
       "recmqDtfG1vvjBoPo"
     ],
+    "price": 16,
     "recipe": {
       "mandatory": [
         {
@@ -1425,6 +1911,7 @@
   {
     "_id": "recgRTYGqJMMyq0V0",
     "name": "Herbal Tea",
+    "price": 22,
     "recipe": {
       "mandatory": [
         {
@@ -1446,6 +1933,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 5,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1463,6 +1951,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "att0HYieci3z1teBw",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/ab4ab15e8425683b0687834dcac1f62f/4a8ed4e6/BORSCHT_SOUP.jpg",
+      "filename": "BORSCHT_SOUP.jpg",
+      "size": 35598,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d7e84b09dfd6dfec13068ab328590512/08838833",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4e1e57de91901c88d9f890eadf4d5d09/9d9a1902",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/56fe1c5ad2e6b2c7a528c739a6dfac1e/49d56793",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 10,
     "recipe": {
       "mandatory": [
         {
@@ -1498,6 +2013,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 5,
     "recipe": {
       "mandatory": [
         {
@@ -1531,6 +2047,33 @@
     "categories": [
       "recpku4APvg1idRaY"
     ],
+    "image": {
+      "id": "att0S5jKfqRQA8ZAv",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/9b8f9ab8db73e3eb9b5733442f3b1316/af1a2a00/HUMMUS.jpg",
+      "filename": "HUMMUS.jpg",
+      "size": 56743,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6d38e7a0f645d70b69b81489f240f608/6f631231",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3d8f24937e488567c42dcea6a42d1d3e/c47f5b9e",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/68149308e28ba44451b25e1a81b52e99/20063171",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 12,
     "recipe": {
       "mandatory": [
         {
@@ -1594,6 +2137,7 @@
     "categories": [
       "recOsuX64dp6jHNS5"
     ],
+    "price": 5,
     "recipe": {
       "mandatory": [
         {
@@ -1616,6 +2160,7 @@
     "categories": [
       "reclT14FtHvh32jWC"
     ],
+    "price": 23,
     "recipe": {
       "mandatory": [
         {
@@ -1685,6 +2230,7 @@
     "_id": "recB4HUxKVZ37IwqC",
     "name": "ISRAELI BREAKFAST UPGRADE",
     "description": "Add Israeli salad, assorted cheeses, dips and bread; includes coffee and freshly squeezed juice",
+    "price": 7,
     "recipe": {
       "mandatory": [
         {
@@ -1757,6 +2303,33 @@
     "categories": [
       "recjU7rW5EwrcSCBe"
     ],
+    "image": {
+      "id": "attrgGr6e0leOOGlm",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/18427c47f1b45777e4b817f55967d957/e7c03de4/ISRAELI_PICKLES.jpg",
+      "filename": "ISRAELI_PICKLES.jpg",
+      "size": 52526,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7247b0b4bbe5b52a686d0d03e1471a1e/186e18ae",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ead060363be87ee4229bbb98284b0469/aecec6ab",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2dd07f491df9930a1462ff65455fa902/5cc73375",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 6,
     "recipe": {
       "mandatory": [
         {
@@ -1798,6 +2371,33 @@
     "categories": [
       "recpUPPCOf4FFjXlM"
     ],
+    "image": {
+      "id": "atteFxYUAIEKYskVZ",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/78f6e84cc0c3759466eea698ea3332f2/cd3cda94/ISRAELI_SALAD.jpg",
+      "filename": "ISRAELI_SALAD.jpg",
+      "size": 56907,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d61ff9bafffba7d585348564c9959858/0018c323",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/cc338c202f299416b1d12e385616fa07/a73762b6",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/37ec85f3455809c3b629327c757951a6/2fad2771",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 12,
     "recipe": {
       "mandatory": [
         {
@@ -1820,6 +2420,7 @@
     "categories": [
       "recmqDtfG1vvjBoPo"
     ],
+    "price": 16,
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -1855,6 +2456,7 @@
     "categories": [
       "recCbbPwQDG5F33T0"
     ],
+    "price": 7,
     "recipe": {
       "mandatory": [
         {
@@ -1889,6 +2491,33 @@
     "categories": [
       "recjU7rW5EwrcSCBe"
     ],
+    "image": {
+      "id": "attbIbcSzFq2TpsvA",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/6df360e99a4b3b1c0b3b35e7e9699f0b/85738de3/Labneh.jpg",
+      "filename": "Labneh.jpg",
+      "size": 41114,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/67a7b5b813b7cc2496a6b9094b97c0fb/f572e29d",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5d58bc2aedd077f4c6d03d7321780005/1377ac67",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/372df04829de11daadefa4491fdc2ecf/3a795954",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 5,
     "recipe": {
       "mandatory": [
         {
@@ -1921,6 +2550,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 13,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1938,6 +2568,33 @@
     "categories": [
       "recCbbPwQDG5F33T0"
     ],
+    "image": {
+      "id": "attLC3cUYGj1w8TMo",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/7cd6fc8fad6a5fddd758be9e334c1842/17e0ec85/MALABI.jpg",
+      "filename": "MALABI.jpg",
+      "size": 53638,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/42f27ab4f970c031f83ace6676dbfd8e/1edcb9cd",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/eac55a0e209c8af9ad8dc3bc33fa48bd/5e535633",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/29827cf95abbd455069f1afdd52ea90d/f83d61cb",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 16,
     "recipe": {
       "mandatory": [
         {
@@ -1986,6 +2643,33 @@
     "categories": [
       "recmqDtfG1vvjBoPo"
     ],
+    "image": {
+      "id": "att67MzCA0evAPzAy",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/979cc1f75e526f6b20eaa95cb025f1d7/7ff7b078/MATBUCHA.jpg",
+      "filename": "MATBUCHA.jpg",
+      "size": 59057,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/dd401b437f7b572cee58f7088d6c5297/70cd34dd",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d452a3c4df8e44129be22eadd6d48113/4d078b3d",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0d125406e0686350a066407722e31963/9504d4eb",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 7,
     "recipe": {
       "mandatory": [
         {
@@ -2033,6 +2717,7 @@
     "categories": [
       "recpUPPCOf4FFjXlM"
     ],
+    "price": 7,
     "recipe": {
       "mandatory": [
         {
@@ -2067,6 +2752,33 @@
     "categories": [
       "recjU7rW5EwrcSCBe"
     ],
+    "image": {
+      "id": "attp7WKFO7KD7lzR2",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/3219d9bfe030a15f5e76ca13adee7ade/5d4ca7d7/MATBUCHA.jpg",
+      "filename": "MATBUCHA.jpg",
+      "size": 59057,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5e8d1fc4b43050b6df83f4e397d269f6/6a63fecc",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0ded8ef3e69e1585130a98b82d022a6e/32f01731",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c6f4b7259ef0d696d30de9e6dfc0f865/8a406029",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
     "recipe": {
       "mandatory": [
         {
@@ -2097,6 +2809,7 @@
     "categories": [
       "recRM3vqx1Ndm4Y1t"
     ],
+    "price": 22,
     "recipe": {
       "mandatory": [
         {
@@ -2119,6 +2832,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attYImRgmULl8cHRa",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/b6664cbd3497faa4da6bf8e98b147ffc/7c40d84c/MOROCCAN_FISH.jpg",
+      "filename": "MOROCCAN_FISH.jpg",
+      "size": 58169,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b0f509b683d174c75a6811808bcdce5a/1d07aa3f",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2707fe7849237e605ff534e66adbfbd1/f72c0e63",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/849e2588547d8892d34e7a5e8413c1e3/e9862f8a",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 12,
     "recipe": {
       "mandatory": [
         {
@@ -2149,6 +2889,33 @@
     "categories": [
       "reclT14FtHvh32jWC"
     ],
+    "image": {
+      "id": "atty3nyNFLIRItfxx",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/4936aa970e084619319e91961a0cba54/e9707bd2/Oatmeal.jpg",
+      "filename": "Oatmeal.jpg",
+      "size": 45210,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c43a5b7a69769cb2268993837befa5ed/f78abe35",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/075b0e312ca04460cff074bde6236f5e/68a665e7",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/93631c4610e51ae54689ac326189f0f4/f6542419",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
     "recipe": {
       "mandatory": [
         {
@@ -2201,6 +2968,33 @@
     "categories": [
       "recZWYhdnctZOQI36"
     ],
+    "image": {
+      "id": "attVAGilu0hLi7d7v",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/2db117e388def0495f96f0e74d719793/fdadc9fe/PANCAKES.jpg",
+      "filename": "PANCAKES.jpg",
+      "size": 53151,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/fa7b1e50b4e791514fab459c41a473ec/e4208ab5",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4258b2b74a73e2aaefb15be957216560/4951a7a1",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/993dfc4790a2d43a6d9874c5e2f00f21/824222d0",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 16,
     "recipe": {
       "mandatory": [
         {
@@ -2245,6 +3039,7 @@
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
+    "price": 16.0016,
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -2272,6 +3067,33 @@
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
+    "image": {
+      "id": "attXXuOuNb4FLBWZp",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/d775874abb39c52f5be8a034631363c0/80f2fb74/PIEROGI.jpg",
+      "filename": "PIEROGI.jpg",
+      "size": 47151,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2e7273bf6ef44e1fec4d0892bc5b5371/70a4d69f",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f4762b7c2ac3760278929ba7425db30a/1ee358bb",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0ff87d99ebe0fd1160e10da1d253b845/362cb68c",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 21,
     "recipe": {
       "mandatory": [
         {
@@ -2308,6 +3130,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "atthGb4iTR5doy3lT",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/d48ea96864a44ff149667045bc2beb19/153f1d7c/PINOS_BURGER.jpg",
+      "filename": "PINOS_BURGER.jpg",
+      "size": 71667,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c98965244ae62b2206abf5d9d38e4a55/d152c14d",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ead9b574a45a314c9ae2096cd7a77277/9ea5d9c5",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f446ccc0131c7f89da41a6b465e90c74/abadc429",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 15,
     "recipe": {
       "mandatory": [
         {
@@ -2393,6 +3242,33 @@
     "categories": [
       "rech0wuHHfAJ4EpjX"
     ],
+    "image": {
+      "id": "attXu55aTMqa1e1rg",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/e9c43930dc395e0effd96c6d82ebb73a/3f733171/PITA_SABICH.jpg",
+      "filename": "PITA_SABICH.jpg",
+      "size": 52528,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d59bb647310ec709656d9fd0a363bd5c/6d41d79b",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5dc1f7c0c11fa975673b9ecce57bb137/db0c69d7",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/89064cd4cca6aab77c02fe8f27a3cb48/1373b799",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 16,
     "recipe": {
       "mandatory": [
         {
@@ -2462,6 +3338,33 @@
     "categories": [
       "rech0wuHHfAJ4EpjX"
     ],
+    "image": {
+      "id": "attL4vmc10qSTWYzS",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/ea60bd6568fa830dbe355dce890758fd/fa3fc6af/PITA_SCHNITZEL.jpg",
+      "filename": "PITA_SCHNITZEL.jpg",
+      "size": 54243,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e78cecabca25e49aab93bd03b90dd75f/0245a2b7",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/077c7aeaf9b4deaf8bd79bcf98ac1639/8d0e1078",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1274e922c65c8fde58db991cb9e206be/f614a577",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 15,
     "recipe": {
       "mandatory": [
         {
@@ -2520,6 +3423,33 @@
     "_id": "recuhX57QjbuVYEGA",
     "name": "PITA TUNISIAN",
     "description": "Tunisian-style tuna salad with potato, hard-boiled egg, harissa and tahini",
+    "image": {
+      "id": "attmFGpM2NV5TEaQ0",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/85c5e02ead4109630dac0b2c477fab72/f4c1d5c8/PITA_TUNISIAN.jpg",
+      "filename": "PITA_TUNISIAN.jpg",
+      "size": 49353,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/afebee29ac4c9bc579c28c69a13f07fa/afca17d1",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/9d60e2a85de0e4cbf1e8fb5eb80e116c/4073c082",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1ddd3b1d232ce18bd4fd3ef085d0e99f/43206750",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 16,
     "recipe": {
       "mandatory": [
         {
@@ -2613,6 +3543,7 @@
   {
     "_id": "recP8qLhvvqNvhUTJ",
     "name": "potato wedges",
+    "price": 18,
     "recipe": {
       "mandatory": [
         {
@@ -2644,6 +3575,33 @@
     "_id": "reco3MNfa4kO7Sy2d",
     "name": "SAMMY’S KEBABS",
     "description": "mixed with Middle Eastern spices, grilled and served on a pita bread with tahini",
+    "image": {
+      "id": "attXO5E8SB7Y3FAKt",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/180b28eb09a630edf49d02e9cd704950/b2dac17f/SAMMYS_KEBABS.jpg",
+      "filename": "SAMMYS_KEBABS.jpg",
+      "size": 55880,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e272ffd86db68b1fe93933033ef4129c/c73722d7",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/057fe63f1505172d4dc06d314da7d827/239e39fb",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7e3dcd329146e1ffeae75bd27ed94397/4d3e1ff3",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 23,
     "recipe": {
       "mandatory": [
         {
@@ -2681,6 +3639,33 @@
     "_id": "recNoPm8xbZo5vBWd",
     "name": "SCHNITZEL SALAD",
     "description": "breaded chicken breast over Israeli salad topped with tahini",
+    "image": {
+      "id": "attSlEcaqFSGNTS8K",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/4b9717eb5bfcf720eaa9829b547ad8f1/d23d034a/SCHNITZEL_SALAD.jpg",
+      "filename": "SCHNITZEL_SALAD.jpg",
+      "size": 55310,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/829a3189a5eab46e846b8fe4e5ab6a3a/326f4c9f",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1e2c5dde88571b12ed4d248099fa2f20/378c9016",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ff21a438d50486ea15effd4c80dc3d57/27511159",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 15,
     "recipe": {
       "mandatory": [
         {
@@ -2731,6 +3716,7 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "price": 22,
     "recipe": {
       "mandatory": [
         {
@@ -2782,6 +3768,33 @@
     "categories": [
       "reclT14FtHvh32jWC"
     ],
+    "image": {
+      "id": "att5Piz4Hq200ze0g",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/815864f96e51d23670a4b2f1fc9dbad3/00d18477/Shakshuka.jpg",
+      "filename": "Shakshuka.jpg",
+      "size": 62045,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/76dcaf4a40839210385d5dbce05ee258/e534f995",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f91edee3f2b1efe9cc0a19eec091d28d/dcd4d37d",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e51ddcf2fe4fe9914bbad2b4eff39e99/8ebabffc",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 16,
     "recipe": {
       "mandatory": [
         {
@@ -2850,6 +3863,7 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "price": 15,
     "recipe": {
       "mandatory": [
         {
@@ -2881,6 +3895,33 @@
     "_id": "rec0UqT83jl5JiGJy",
     "name": "SHOUK SALAD",
     "description": "cucumber, tomato, pepper, radish, red onion, oregano, kalamata olives and feta cheese",
+    "image": {
+      "id": "attFvb3ZdMktS4Eao",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/f5dd95074e2e0691e9b9323797b6310b/16aa5c8f/SHOUK_SALAD.jpg",
+      "filename": "SHOUK_SALAD.jpg",
+      "size": 46635,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/75752d99fc34cab6491755c879fd5fd0/5e891a01",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/04dc549025a68d39d8379cf0115ab60e/2e1c2ce8",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ebcd6533155db056dd63d84ba458a171/fd69ed65",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 4,
     "recipe": {
       "mandatory": [
         {
@@ -2932,6 +3973,33 @@
     "_id": "rec6jZtnFOIFnN6HP",
     "name": "SMOKED SALMON SCRAMBLED ",
     "description": "soft-scrambled eggs over toasted Challah bread, served with smoked salmon and capers",
+    "image": {
+      "id": "attUtKYqcX4IlASjM",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/14b22cae56ccf998fa52ffee60dff0cc/9a971313/SMOKED_SALMON.jpg",
+      "filename": "SMOKED_SALMON.jpg",
+      "size": 61116,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3356a9a066df037b77acc33ce3aeacdf/27fc3f0b",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c4546fcfe88f181773fc2a023243e449/4c238ca6",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5b087af2ea48bc61b0ae80c845cc03bb/f7f83fee",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 10,
     "recipe": {
       "mandatory": [
         {
@@ -2998,6 +4066,7 @@
     "categories": [
       "recOsuX64dp6jHNS5"
     ],
+    "price": 4,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -3014,6 +4083,7 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "price": 20,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -3030,6 +4100,7 @@
     "categories": [
       "recOsuX64dp6jHNS5"
     ],
+    "price": 7,
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -3047,6 +4118,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attv6aW48fuyD1OwR",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/399252a4539ad05a07302971b0dc8c20/17bb97d2/STUFFED_CABBAGE.jpg",
+      "filename": "STUFFED_CABBAGE.jpg",
+      "size": 53940,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c9724089f602546e7ba0525e7b481394/d19f46fb",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/67386dcea6d5462115e9148ff7ddd131/bdc373da",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/9f4a960785c32bb0c5b9460c726f3fb2/bcca3b98",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 7,
     "recipe": {
       "mandatory": [
         {
@@ -3116,6 +4214,7 @@
   {
     "_id": "rec20pznK9fG4F3A4",
     "name": "SWEET POTATO FRIES",
+    "price": 4,
     "recipe": {
       "mandatory": [
         {
@@ -3139,6 +4238,33 @@
     "_id": "recd9il0mIXYOul4N",
     "name": "TABOULI SALAD",
     "description": "bulgur, cucumber, onion, fresh herbs, pine nuts and pistachios",
+    "image": {
+      "id": "att6o8LI2AXUmBa9Y",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/abc1bb56a6dc2ee6d336b10dd71a9566/0f4d0694/TABOULI_SALAD.jpg",
+      "filename": "TABOULI_SALAD.jpg",
+      "size": 60439,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/69f9a6b16fe00246bcdf2640b74b42f8/35759a9c",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0bd1314eda453386e66c5fb4d677f83b/901e801e",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3346566603c36f05c719bd4bed9fd010/b8060879",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 18,
     "recipe": {
       "mandatory": [
         {
@@ -3180,6 +4306,7 @@
     "categories": [
       "recqGOBMgoWUdasTr"
     ],
+    "price": 12,
     "recipe": {
       "mandatory": [
         {
@@ -3203,6 +4330,33 @@
     "_id": "recv5737p9NG4LLId",
     "name": "TUNISIAN-STYLE NICOISE SALAD",
     "description": "cured tuna, romaine lettuce, potatoes, green beans, cherry tomatoes, kalamata olives, radish, capers, preserved lemon and hard-boiled egg",
+    "image": {
+      "id": "attCtnVJD8tWKJqYC",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/c7c73d18f485507fab6dc2001f9a6f0a/3aa6d8d0/TUNISIAN_SALAD.jpg",
+      "filename": "TUNISIAN_SALAD.jpg",
+      "size": 60797,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/238c9fb375f6285d618dbece21322d2d/9fe3af0d",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8ae5db18fe70d17f8357a2ca19eda6bb/082360e3",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/28ca332119d0a7c4f0795ab9599af859/d9f2b109",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 19,
     "recipe": {
       "mandatory": [
         {
@@ -3266,6 +4420,7 @@
     "_id": "recvnm2prPQ9D2m0h",
     "name": "TWO EGGS ANY STYLE",
     "description": "Choose your eggs style: sunny side, over easy, over medium, over well or scrambled eggs with a side of ham / bacon / smoked salmon. All eggs and omelettes served with bread. ",
+    "price": 14,
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -3329,6 +4484,33 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attjii6zFb1nohm0W",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/98246f7f0fa7c7da8d1c655efec0357d/7f40baab/VEGETARIAN_COUSCOUS.jpg",
+      "filename": "VEGETARIAN_COUSCOUS.jpg",
+      "size": 63491,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/09be5d6212101b12f128d20a8d891806/0b9e7e52",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/24defdeb4f2aa642174848766fde6c0e/27ed8621",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0fb52d302e3fa9a1543ea5de1d0e6e46/af9bd01f",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 10,
     "recipe": {
       "mandatory": [
         {
@@ -3376,6 +4558,32 @@
     "_id": "recewC5jSENmJBsWl",
     "name": "WESTERN OMELETTE",
     "description": "tomatoes, mushrooms, onions, peppers and ham",
+    "image": {
+      "id": "attNzCMhFEHY8kv4s",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/f7226f600551928a37ca915dcf48e725/ae811813/WESTERN_OMELETTE.jpg",
+      "filename": "WESTERN_OMELETTE.jpg",
+      "size": 66441,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/911cf4f5e56b3982509479739e327022/9cbdcf43",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/75189d111f95ed29a1b0e952906e9924/da7a3123",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/866fbdc3a2b9c4b25e2c8791e25b1e84/13fa3a9a",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "recipe": {
       "mandatory": [
         {
@@ -3461,6 +4669,32 @@
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
+    "image": {
+      "id": "attWD01OfeCtjFXBk",
+      "width": 240,
+      "height": 200,
+      "url": "https://dl.airtable.com/.attachments/8cac8a93463bda15ff2371968464d076/6afe9605/YEMENITE_SOUP.jpg",
+      "filename": "YEMENITE_SOUP.jpg",
+      "size": 42024,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e49f4771773ba23e69c62f743c5de579/e2056b28",
+          "width": 43,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f4494d38b7f27f3c6ddfe6ea1580009c/06ba89fb",
+          "width": 240,
+          "height": 200
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/695e32efeb0ddc5303d3a456dd1ba179/e18fdc12",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "recipe": {
       "mandatory": [
         {
