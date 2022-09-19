@@ -2,7 +2,7 @@
   {
     "id": "rec6WVo5sw4vAGbFY",
     "name": "wendeys NY",
-    "siteUrl": "https://www.wendys.com/",
+    "website": "https://www.wendys.com/",
     "intentions": [
       "Dine-in"
     ],
@@ -11,26 +11,29 @@
     ],
     "workingHours": [
       "recNk4JNbX6GMGRrf"
-    ]
+    ],
+    "currency": "$"
   },
   {
     "id": "recOYWCGiIdPNFxiQ",
     "name": "the dish",
     "menus": [
       "recoNZ8sopQsuADZ0"
-    ]
+    ],
+    "currency": "$"
   },
   {
     "id": "recI6ewUXK9SVR2o3",
     "name": "the dish112",
     "menus": [
       "recoNZ8sopQsuADZ0"
-    ]
+    ],
+    "currency": "$"
   },
   {
     "id": "recNd5nYVtfC47uyj",
     "name": "1803",
-    "siteUrl": "https://www.1803nyc.com/",
+    "website": "https://www.1803nyc.com/",
     "intentions": [
       "Dine-in",
       "Takeout",
@@ -49,12 +52,13 @@
       "recz74tEeQH49umO9",
       "rec91KB45Y0i3kvPX",
       "recOT51lzhweoiLgq"
-    ]
+    ],
+    "currency": "$"
   },
   {
     "id": "recsHn5ysBHYm7FDS",
     "name": "Bustan NYC",
-    "siteUrl": "https://bustannyc.com/",
+    "website": "https://bustannyc.com/",
     "intentions": [
       "Dine-in",
       "Takeout",
@@ -62,12 +66,13 @@
     ],
     "menus": [
       "rec7R2UglfNyQj2uM"
-    ]
+    ],
+    "currency": "$"
   },
   {
     "id": "recipajs7uV1pWw1h",
     "name": "12 Chairs Cafe BROOKLYN",
-    "siteUrl": "https://12chairscafe.com/brooklyn/menu/",
+    "website": "https://12chairscafe.com/brooklyn/menu/",
     "intentions": [
       "Dine-in",
       "Takeout",
@@ -82,12 +87,13 @@
     ],
     "menus": [
       "rech9gf7rUFNDEoMD"
-    ]
+    ],
+    "currency": "$"
   },
   {
     "id": "rec1a0suXOByXtd9E",
     "name": "12 Chairs Cafe NYC",
-    "siteUrl": "https://12chairscafe.com/soho2/menu/",
+    "website": "https://12chairscafe.com/soho2/menu/",
     "intentions": [
       "Dine-in",
       "Takeout",
@@ -102,12 +108,13 @@
     ],
     "menus": [
       "recKCY8dwiKe52Q8o"
-    ]
+    ],
+    "currency": "$"
   },
   {
     "id": "recnsNrn3KakAcOX5",
     "name": "האחים",
-    "siteUrl": "https://www.haachim.co.il/",
+    "website": "https://www.haachim.co.il/",
     "intentions": [
       "Dine-in",
       "Takeout",
@@ -122,7 +129,8 @@
     "menus": [
       "recjlbno2inHuMHZf",
       "recqNn2ltXmve4Eh5"
-    ]
+    ],
+    "currency": "₪"
   },
   {
     "id": "rectt2czyDaeql4Lc",
@@ -155,9 +163,10 @@
         }
       }
     ],
-    "siteUrl": "https://www.landwercafe.co.il/",
+    "website": "https://www.landwercafe.co.il/",
     "menus": [
       "recCGTRXNQCMOpc3E"
-    ]
+    ],
+    "currency": "₪"
   }
 ]

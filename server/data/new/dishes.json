@@ -3423,6 +3423,9 @@
     "_id": "recuhX57QjbuVYEGA",
     "name": "PITA TUNISIAN",
     "description": "Tunisian-style tuna salad with potato, hard-boiled egg, harissa and tahini",
+    "categories": [
+      "rech0wuHHfAJ4EpjX"
+    ],
     "image": {
       "id": "attmFGpM2NV5TEaQ0",
       "width": 240,
@@ -3543,6 +3546,9 @@
   {
     "_id": "recP8qLhvvqNvhUTJ",
     "name": "potato wedges",
+    "categories": [
+      "recpUPPCOf4FFjXlM"
+    ],
     "price": 18,
     "recipe": {
       "mandatory": [
@@ -3575,6 +3581,9 @@
     "_id": "reco3MNfa4kO7Sy2d",
     "name": "SAMMY’S KEBABS",
     "description": "mixed with Middle Eastern spices, grilled and served on a pita bread with tahini",
+    "categories": [
+      "rectklIbQzx7V9nnP"
+    ],
     "image": {
       "id": "attXO5E8SB7Y3FAKt",
       "width": 240,
@@ -3639,6 +3648,9 @@
     "_id": "recNoPm8xbZo5vBWd",
     "name": "SCHNITZEL SALAD",
     "description": "breaded chicken breast over Israeli salad topped with tahini",
+    "categories": [
+      "recqGerbTr69t5TIU"
+    ],
     "image": {
       "id": "attSlEcaqFSGNTS8K",
       "width": 240,
@@ -3895,6 +3907,9 @@
     "_id": "rec0UqT83jl5JiGJy",
     "name": "SHOUK SALAD",
     "description": "cucumber, tomato, pepper, radish, red onion, oregano, kalamata olives and feta cheese",
+    "categories": [
+      "recqGerbTr69t5TIU"
+    ],
     "image": {
       "id": "attFvb3ZdMktS4Eao",
       "width": 240,
@@ -3973,6 +3988,9 @@
     "_id": "rec6jZtnFOIFnN6HP",
     "name": "SMOKED SALMON SCRAMBLED ",
     "description": "soft-scrambled eggs over toasted Challah bread, served with smoked salmon and capers",
+    "categories": [
+      "reclT14FtHvh32jWC"
+    ],
     "image": {
       "id": "attUtKYqcX4IlASjM",
       "width": 240,
@@ -4214,6 +4232,9 @@
   {
     "_id": "rec20pznK9fG4F3A4",
     "name": "SWEET POTATO FRIES",
+    "categories": [
+      "recpUPPCOf4FFjXlM"
+    ],
     "price": 4,
     "recipe": {
       "mandatory": [
@@ -4238,6 +4259,9 @@
     "_id": "recd9il0mIXYOul4N",
     "name": "TABOULI SALAD",
     "description": "bulgur, cucumber, onion, fresh herbs, pine nuts and pistachios",
+    "categories": [
+      "recqGerbTr69t5TIU"
+    ],
     "image": {
       "id": "att6o8LI2AXUmBa9Y",
       "width": 240,
@@ -4330,6 +4354,9 @@
     "_id": "recv5737p9NG4LLId",
     "name": "TUNISIAN-STYLE NICOISE SALAD",
     "description": "cured tuna, romaine lettuce, potatoes, green beans, cherry tomatoes, kalamata olives, radish, capers, preserved lemon and hard-boiled egg",
+    "categories": [
+      "recqGerbTr69t5TIU"
+    ],
     "image": {
       "id": "attCtnVJD8tWKJqYC",
       "width": 240,
@@ -4420,6 +4447,9 @@
     "_id": "recvnm2prPQ9D2m0h",
     "name": "TWO EGGS ANY STYLE",
     "description": "Choose your eggs style: sunny side, over easy, over medium, over well or scrambled eggs with a side of ham / bacon / smoked salmon. All eggs and omelettes served with bread. ",
+    "categories": [
+      "reclT14FtHvh32jWC"
+    ],
     "price": 14,
     "recipe": {
       "mandatory": [],
@@ -4558,6 +4588,9 @@
     "_id": "recewC5jSENmJBsWl",
     "name": "WESTERN OMELETTE",
     "description": "tomatoes, mushrooms, onions, peppers and ham",
+    "categories": [
+      "reclT14FtHvh32jWC"
+    ],
     "image": {
       "id": "attNzCMhFEHY8kv4s",
       "width": 240,

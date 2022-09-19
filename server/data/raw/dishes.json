@@ -1,32 +1,32 @@
 [
   {
     "id": "rec2IptpcHO5CwfSb",
-    "Dish_display_name": "“ACME” SMOKED SALMON",
-    "short_description": "ciabatta bread, scallion, cream cheese, tomato, red onion and capers",
+    "name": "“ACME” SMOKED SALMON",
+    "description": "ciabatta bread, scallion, cream cheese, tomato, red onion and capers",
     "category": [
       "rech0wuHHfAJ4EpjX"
     ],
     "recipe": [
       "rec4VXmnc3sVEnKoY"
     ],
-    "Price": 18
+    "price": 18
   },
   {
     "id": "recqXKNSmUUw5PvNg",
-    "Dish_display_name": "12 CHAIRS HOME FRIES",
+    "name": "12 CHAIRS HOME FRIES",
     "category": [
       "recpUPPCOf4FFjXlM"
     ],
     "recipe": [
       "recVc6pI8hNl3bKOD"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "recBd7D27GcmpznjV",
-    "Dish_display_name": "12 CHAIRS LAMBURGER",
-    "short_description": "mixed with Middle Eastern spices, Feta cheese, red onion, Israeli pickles and spicy mayo on a brioche bun, served with hand cut fries",
-    "image_url": [
+    "name": "12 CHAIRS LAMBURGER",
+    "description": "mixed with Middle Eastern spices, Feta cheese, red onion, Israeli pickles and spicy mayo on a brioche bun, served with hand cut fries",
+    "image": [
       {
         "id": "attG6Y0eODx3ucmL7",
         "width": 240,
@@ -60,13 +60,13 @@
     "recipe": [
       "reclvZ5cIfnEDH4RK"
     ],
-    "Price": 22
+    "price": 22
   },
   {
     "id": "recRgkttRpWALxOQ2",
-    "Dish_display_name": "12 CHAIRS SALAD",
-    "short_description": "mesclun, avocado, grapefruit, roasted pecans ",
-    "image_url": [
+    "name": "12 CHAIRS SALAD",
+    "description": "mesclun, avocado, grapefruit, roasted pecans ",
+    "image": [
       {
         "id": "attbzWfKpt9z1YCo6",
         "width": 240,
@@ -100,35 +100,35 @@
     "recipe": [
       "recTJFctEw7WB1NFn"
     ],
-    "Price": 16
+    "price": 16
   },
   {
     "id": "rec4zXTywLfmnix31",
-    "Dish_display_name": "Acqua Panna",
+    "name": "Acqua Panna",
     "category": [
       "recOsuX64dp6jHNS5"
     ],
     "recipe": [
       "recKH2eIjilDH0Xyd"
     ],
-    "Price": 4
+    "price": 4
   },
   {
     "id": "recVMzmwbEfCqHECQ",
-    "Dish_display_name": "Americano",
+    "name": "Americano",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
     "recipe": [
       "recguapfwP2HYLybm"
     ],
-    "Price": 5
+    "price": 5
   },
   {
     "id": "rec5p2fn1gO0pZL8Y",
-    "Dish_display_name": "ARAYES ",
-    "short_description": "grilled pita filled with minced lamb, served with a spicy cherry tomato salad and tahini",
-    "image_url": [
+    "name": "ARAYES ",
+    "description": "grilled pita filled with minced lamb, served with a spicy cherry tomato salad and tahini",
+    "image": [
       {
         "id": "attLwyCfYUF5D0ccW",
         "width": 240,
@@ -162,25 +162,25 @@
     "recipe": [
       "recw4n8vglORYut0t"
     ],
-    "Price": 21
+    "price": 21
   },
   {
     "id": "recevWX1yjCW5pRxR",
-    "Dish_display_name": "AVOCADO TOAST",
-    "short_description": "israeli guacamole, harissa flakes and yogurt stone ",
+    "name": "AVOCADO TOAST",
+    "description": "israeli guacamole, harissa flakes and yogurt stone ",
     "category": [
       "reclT14FtHvh32jWC"
     ],
     "recipe": [
       "rec55LOPwWbAqR0nG"
     ],
-    "Price": 15
+    "price": 15
   },
   {
     "id": "recvSAKdv0vql5FLe",
-    "Dish_display_name": "BABAGANOUSH",
-    "short_description": "grilled eggplant mixed with garlic and aioli",
-    "image_url": [
+    "name": "BABAGANOUSH",
+    "description": "grilled eggplant mixed with garlic and aioli",
+    "image": [
       {
         "id": "attmdHQS1MtXr4SvJ",
         "width": 240,
@@ -197,13 +197,13 @@
     "recipe": [
       "rectZiPcGQgK84Z1S"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "rec3Eder7uAr00tco",
-    "Dish_display_name": "BALADI EGGPLANT",
-    "short_description": "topped with tahini and pine nuts",
-    "image_url": [
+    "name": "BALADI EGGPLANT",
+    "description": "topped with tahini and pine nuts",
+    "image": [
       {
         "id": "att88908F8T5uDWra",
         "width": 240,
@@ -237,13 +237,13 @@
     "recipe": [
       "receBeuL4AF8qS5W5"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "recPvn8Vh7q2hBNao",
-    "Dish_display_name": "BEETS SALAD",
-    "short_description": "tossed with fresh herbs and garlic, topped with pine nuts and goat cheese",
-    "image_url": [
+    "name": "BEETS SALAD",
+    "description": "tossed with fresh herbs and garlic, topped with pine nuts and goat cheese",
+    "image": [
       {
         "id": "attNZwpd6ZLgHeUZU",
         "width": 240,
@@ -277,36 +277,36 @@
     "recipe": [
       "rec963TddfIM65buw"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "rec3pHNcknbYL3km5",
-    "Dish_display_name": "BOREK",
-    "short_description": "traditional cigar dough filled with potato puree and runny egg, folded into a pocket and fried",
+    "name": "BOREK",
+    "description": "traditional cigar dough filled with potato puree and runny egg, folded into a pocket and fried",
     "category": [
       "reclT14FtHvh32jWC"
     ],
     "recipe": [
       "recwWD2infA4ddiC9"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "recSaXIaAnqC1OsWm",
-    "Dish_display_name": "Cappuccino",
+    "name": "Cappuccino",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
     "recipe": [
       "reci3WJxN8dvGc0bS"
     ],
-    "Price": 5
+    "price": 5
   },
   {
     "id": "recX9iUiXxK7TC1CJ",
-    "Dish_display_name": "CAULIFLOWER",
-    "short_description": "tossed with fresh oregano, jalapeno peppers and red onion over tahini",
-    "image_url": [
+    "name": "CAULIFLOWER",
+    "description": "tossed with fresh oregano, jalapeno peppers and red onion over tahini",
+    "image": [
       {
         "id": "attzHI7RQWB9g9rsc",
         "width": 240,
@@ -340,13 +340,13 @@
     "recipe": [
       "recKW39CbvfPtLIsi"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "recBVsluGn5Qn71Qf",
-    "Dish_display_name": "CHEESE BLINTZES",
-    "short_description": "homemade traditional Eastern-European blintzes, filled with ricotta cheese",
-    "image_url": [
+    "name": "CHEESE BLINTZES",
+    "description": "homemade traditional Eastern-European blintzes, filled with ricotta cheese",
+    "image": [
       {
         "id": "attKrfeJrQLi1Gxh5",
         "width": 240,
@@ -380,13 +380,13 @@
     "recipe": [
       "reccKLDMTEJYllVzm"
     ],
-    "Price": 13
+    "price": 13
   },
   {
     "id": "recrxbb3494rVoYmT",
-    "Dish_display_name": "CHEESECAKE",
-    "short_description": "Israeli style cheesecake served with fresh strawberries",
-    "image_url": [
+    "name": "CHEESECAKE",
+    "description": "Israeli style cheesecake served with fresh strawberries",
+    "image": [
       {
         "id": "attcvVfFaXxbaRhf2",
         "width": 240,
@@ -420,13 +420,13 @@
     "recipe": [
       "recnCbv9VcjW4mGNK"
     ],
-    "Price": 12
+    "price": 12
   },
   {
     "id": "rec6aeYOOzUgCjQeg",
-    "Dish_display_name": "CHICKEN LIVERS",
-    "short_description": "sautéed with onions, served over mashed potatoes ",
-    "image_url": [
+    "name": "CHICKEN LIVERS",
+    "description": "sautéed with onions, served over mashed potatoes ",
+    "image": [
       {
         "id": "attEoE1B3XSkca9Hh",
         "width": 240,
@@ -460,13 +460,13 @@
     "recipe": [
       "recuvRb9zzyhz0iQZ"
     ],
-    "Price": 21
+    "price": 21
   },
   {
     "id": "reczj1EzXiuprEBDV",
-    "Dish_display_name": "CHICKEN SCHNITZEL",
-    "short_description": "served with mashed potatoes and honey mustard dressing ",
-    "image_url": [
+    "name": "CHICKEN SCHNITZEL",
+    "description": "served with mashed potatoes and honey mustard dressing ",
+    "image": [
       {
         "id": "attlEv3VlpM1JSNND",
         "width": 240,
@@ -500,13 +500,13 @@
     "recipe": [
       "rectLi9T57bA4tocB"
     ],
-    "Price": 23
+    "price": 23
   },
   {
     "id": "rechdXUl2YbaUtiQA",
-    "Dish_display_name": "CHOCOLATE MOUSSE",
-    "short_description": "Belgian chocolate, brandy, angel-hair style halva and pistachios",
-    "image_url": [
+    "name": "CHOCOLATE MOUSSE",
+    "description": "Belgian chocolate, brandy, angel-hair style halva and pistachios",
+    "image": [
       {
         "id": "attRmRF0bCogfhtDi",
         "width": 240,
@@ -540,24 +540,24 @@
     "recipe": [
       "recbhEfwLVcVidJ1J"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "rechkKKjNPfVxaU9R",
-    "Dish_display_name": "Coffee",
+    "name": "Coffee",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
     "recipe": [
       "recZOdyru1Qr0WZw7"
     ],
-    "Price": 4
+    "price": 4
   },
   {
     "id": "recdizOQ3ymHjj6jc",
-    "Dish_display_name": "EGG WHITE OMELETTE",
-    "short_description": "scallion and fresh herbs",
-    "image_url": [
+    "name": "EGG WHITE OMELETTE",
+    "description": "scallion and fresh herbs",
+    "image": [
       {
         "id": "atta52HyElJUQ6Spi",
         "width": 240,
@@ -591,47 +591,47 @@
     "recipe": [
       "recf6FkmNvfL8YdwP"
     ],
-    "Price": 15
+    "price": 15
   },
   {
     "id": "rec7Sry8YZrqeZQII",
-    "Dish_display_name": "EGGS SINIYA",
-    "short_description": "two sunny side eggs, cooked with tahini sauce and served in a skillet, served with Israeli salad, green olives and pita bread",
+    "name": "EGGS SINIYA",
+    "description": "two sunny side eggs, cooked with tahini sauce and served in a skillet, served with Israeli salad, green olives and pita bread",
     "category": [
       "reclT14FtHvh32jWC"
     ],
     "recipe": [
       "recPugW3qcYEbuKMn"
     ],
-    "Price": 15
+    "price": 15
   },
   {
     "id": "recST8BdqJqqgoGuZ",
-    "Dish_display_name": "Espresso",
+    "name": "Espresso",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
     "recipe": [
       "recxS6txLBudiUUxO"
     ],
-    "Price": 5
+    "price": 5
   },
   {
     "id": "rectdlzh1C0xDaCy7",
-    "Dish_display_name": "Extra Shot  ",
+    "name": "Extra Shot  ",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
     "recipe": [
       "recDPqzIccuk2WQsQ"
     ],
-    "Price": 1.5
+    "price": 1.5
   },
   {
     "id": "recMXuetszu6wduUt",
-    "Dish_display_name": "FALAFEL & TAHINI",
-    "short_description": "falafel served on tomato tahini, garlic and parsley",
-    "image_url": [
+    "name": "FALAFEL & TAHINI",
+    "description": "falafel served on tomato tahini, garlic and parsley",
+    "image": [
       {
         "id": "att8j2zgDetdffNbr",
         "width": 240,
@@ -665,48 +665,48 @@
     "recipe": [
       "reccQnWVgWGOzyJ8p"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "recUzf1xN6wpSqQ31",
-    "Dish_display_name": "FRENCH TOAST",
-    "short_description": "challah bread; served with fresh seasonal fruits and cinnamon",
+    "name": "FRENCH TOAST",
+    "description": "challah bread; served with fresh seasonal fruits and cinnamon",
     "category": [
       "recZWYhdnctZOQI36"
     ],
     "recipe": [
       "recmmGPvSOOaGZJGi"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "recgjkFQTNVeQ3vZF",
-    "Dish_display_name": "Freshly Squeezed Juice ",
-    "short_description": "Lemonade / Orange / Grapefruit  ",
+    "name": "Freshly Squeezed Juice ",
+    "description": "Lemonade / Orange / Grapefruit  ",
     "category": [
       "recOsuX64dp6jHNS5"
     ],
     "recipe": [
       "recHCbS5tfHzmXvRP"
     ],
-    "Price": 6
+    "price": 6
   },
   {
     "id": "recZB2QMrvzcWfzdx",
-    "Dish_display_name": "Freshly Squeezed Lemonade",
+    "name": "Freshly Squeezed Lemonade",
     "category": [
       "recRM3vqx1Ndm4Y1t"
     ],
     "recipe": [
       "rec8Fto3mA87v3A1P"
     ],
-    "Price": 6
+    "price": 6
   },
   {
     "id": "reczDn0pLyVrxVWG1",
-    "Dish_display_name": "GRANOLA",
-    "short_description": "served with fresh seasonal fruits and yogurt",
-    "image_url": [
+    "name": "GRANOLA",
+    "description": "served with fresh seasonal fruits and yogurt",
+    "image": [
       {
         "id": "attSxGFTphksyYpRc",
         "width": 240,
@@ -740,13 +740,13 @@
     "recipe": [
       "recBKobWcScAEfTgS"
     ],
-    "Price": 5
+    "price": 5
   },
   {
     "id": "rec9MfjZtfmjDz33f",
-    "Dish_display_name": "GREEK SALAD",
-    "short_description": "romaine lettuce, cucumber, tomato, onion, kalamata olives, feta cheese and za’atar croutons",
-    "image_url": [
+    "name": "GREEK SALAD",
+    "description": "romaine lettuce, cucumber, tomato, onion, kalamata olives, feta cheese and za’atar croutons",
+    "image": [
       {
         "id": "attjknO2HHm06Xp7m",
         "width": 240,
@@ -780,24 +780,24 @@
     "recipe": [
       "recpLkW5zNAkr2eor"
     ],
-    "Price": 12
+    "price": 12
   },
   {
     "id": "receTCXptOYmSrnLm",
-    "Dish_display_name": "GREEN SALAD",
+    "name": "GREEN SALAD",
     "category": [
       "recpUPPCOf4FFjXlM"
     ],
     "recipe": [
       "recJNYbEoqdtbULiq"
     ],
-    "Price": 6
+    "price": 6
   },
   {
     "id": "rec3i31YhWtBsvfR3",
-    "Dish_display_name": "GRILLED CHICKEN",
-    "short_description": "served with potato wedges and honey mustard dressing",
-    "image_url": [
+    "name": "GRILLED CHICKEN",
+    "description": "served with potato wedges and honey mustard dressing",
+    "image": [
       {
         "id": "attXDGnhPyctKxEJl",
         "width": 240,
@@ -831,13 +831,13 @@
     "recipe": [
       "recV1dlid64muawoj"
     ],
-    "Price": 24
+    "price": 24
   },
   {
     "id": "rec233n7fBxpp7AT1",
-    "Dish_display_name": "GRILLED CHICKEN SALAD",
-    "short_description": "mesclun, tomato, cucumber, red onion, mushrooms and honey-mustard vinaigrette",
-    "image_url": [
+    "name": "GRILLED CHICKEN SALAD",
+    "description": "mesclun, tomato, cucumber, red onion, mushrooms and honey-mustard vinaigrette",
+    "image": [
       {
         "id": "attZ7Qj2uVuACjPkv",
         "width": 240,
@@ -871,53 +871,53 @@
     "recipe": [
       "rec1EMvQQljv6QiKC"
     ],
-    "Price": 22
+    "price": 22
   },
   {
     "id": "rec7KQ0ASckTAGgYz",
-    "Dish_display_name": "GRILLED CHICKEN SANDWICHE",
-    "short_description": "Ciabatta bread, honey-mustard dressing, mixed greens and tomato",
+    "name": "GRILLED CHICKEN SANDWICHE",
+    "description": "Ciabatta bread, honey-mustard dressing, mixed greens and tomato",
     "category": [
       "rech0wuHHfAJ4EpjX"
     ],
     "recipe": [
       "rec4zIERJI0mPrcyH"
     ],
-    "Price": 17
+    "price": 17
   },
   {
     "id": "recOOhGh3t7LSzwtR",
-    "Dish_display_name": "HAMIN (winter only)",
-    "short_description": "traditional Jewish stew simmered overnight with meat, bone marrow, potatoes, beans, barley and a hard-boiled egg",
+    "name": "HAMIN (winter only)",
+    "description": "traditional Jewish stew simmered overnight with meat, bone marrow, potatoes, beans, barley and a hard-boiled egg",
     "category": [
       "recmqDtfG1vvjBoPo"
     ],
     "recipe": [
       "recg0bnSexOO1xV1l"
     ],
-    "Price": 16
+    "price": 16
   },
   {
     "id": "recgRTYGqJMMyq0V0",
-    "Dish_display_name": "Herbal Tea",
+    "name": "Herbal Tea",
     "recipe": [
       "recpBf8t9gqOElqT1"
     ],
-    "Price": 22
+    "price": 22
   },
   {
     "id": "rechveEc4RJQudWgH",
-    "Dish_display_name": "Herbal Tea ",
+    "name": "Herbal Tea ",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
-    "Price": 5
+    "price": 5
   },
   {
     "id": "rec2maw9RzZk2LVuq",
-    "Dish_display_name": "HOT BORSCHT SOUP",
-    "short_description": "traditional Russian soup, based on beets and veggies. Served with sour cream on the side.",
-    "image_url": [
+    "name": "HOT BORSCHT SOUP",
+    "description": "traditional Russian soup, based on beets and veggies. Served with sour cream on the side.",
+    "image": [
       {
         "id": "att0HYieci3z1teBw",
         "width": 240,
@@ -951,24 +951,24 @@
     "recipe": [
       "recJfZXJKqKestFC4"
     ],
-    "Price": 10
+    "price": 10
   },
   {
     "id": "rec2IkiWHp3DcUIgZ",
-    "Dish_display_name": "Hot Chocolate",
+    "name": "Hot Chocolate",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
     "recipe": [
       "recc5hMMcjOaMHQXR"
     ],
-    "Price": 5
+    "price": 5
   },
   {
     "id": "recgKfHQieyNSDFeX",
-    "Dish_display_name": "HUMMUS",
-    "short_description": "served with warm pita bread  and  Israeli pickles",
-    "image_url": [
+    "name": "HUMMUS",
+    "description": "served with warm pita bread  and  Israeli pickles",
+    "image": [
       {
         "id": "att0S5jKfqRQA8ZAv",
         "width": 240,
@@ -1002,45 +1002,45 @@
     "recipe": [
       "rechymUJr6lOA9ux8"
     ],
-    "Price": 12
+    "price": 12
   },
   {
     "id": "recv8zlPd18bqzkaE",
-    "Dish_display_name": "Iced Mint Tea",
+    "name": "Iced Mint Tea",
     "category": [
       "recOsuX64dp6jHNS5"
     ],
     "recipe": [
       "rec2GTMagxph03K2b"
     ],
-    "Price": 5
+    "price": 5
   },
   {
     "id": "rec5U57vToTYRcXw1",
-    "Dish_display_name": "ISRAELI BREAKFAST",
-    "short_description": "two eggs any style served with Israeli salad, assorted cheeses, dips and bread; includes coffee and freshly squeezed juice",
+    "name": "ISRAELI BREAKFAST",
+    "description": "two eggs any style served with Israeli salad, assorted cheeses, dips and bread; includes coffee and freshly squeezed juice",
     "category": [
       "reclT14FtHvh32jWC"
     ],
     "recipe": [
       "recD5aZpDKmp9bi2F"
     ],
-    "Price": 23
+    "price": 23
   },
   {
     "id": "recB4HUxKVZ37IwqC",
-    "Dish_display_name": "ISRAELI BREAKFAST UPGRADE",
-    "short_description": "Add Israeli salad, assorted cheeses, dips and bread; includes coffee and freshly squeezed juice",
+    "name": "ISRAELI BREAKFAST UPGRADE",
+    "description": "Add Israeli salad, assorted cheeses, dips and bread; includes coffee and freshly squeezed juice",
     "recipe": [
       "recD5aZpDKmp9bi2F"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "recgCTHyVbxrPD4d8",
-    "Dish_display_name": "ISRAELI PICKLES",
-    "short_description": "traditional cured cucumbers, olives and peppers",
-    "image_url": [
+    "name": "ISRAELI PICKLES",
+    "description": "traditional cured cucumbers, olives and peppers",
+    "image": [
       {
         "id": "attrgGr6e0leOOGlm",
         "width": 240,
@@ -1074,12 +1074,12 @@
     "recipe": [
       "rec29Ot9GawcG2uUb"
     ],
-    "Price": 6
+    "price": 6
   },
   {
     "id": "reccr5lz5idD0b28d",
-    "Dish_display_name": "ISRAELI SALAD",
-    "image_url": [
+    "name": "ISRAELI SALAD",
+    "image": [
       {
         "id": "atteFxYUAIEKYskVZ",
         "width": 240,
@@ -1113,37 +1113,37 @@
     "recipe": [
       "recF4TK9qOVpZciuf"
     ],
-    "Price": 12
+    "price": 12
   },
   {
     "id": "recic67vKuszX2SH2",
-    "Dish_display_name": "JACHNUN",
-    "short_description": "hand-rolled Yemenite dough cooked overnight with a touch of date honey, served with a hard-boiled egg and crushed tomatoes (one piece)",
+    "name": "JACHNUN",
+    "description": "hand-rolled Yemenite dough cooked overnight with a touch of date honey, served with a hard-boiled egg and crushed tomatoes (one piece)",
     "category": [
       "recmqDtfG1vvjBoPo"
     ],
     "recipe": [
       "recpiwcGUD29ake7z"
     ],
-    "Price": 16
+    "price": 16
   },
   {
     "id": "recGRfXuw72r2EcoI",
-    "Dish_display_name": "KNAFEH",
-    "short_description": "kadayifi, gabneh cheese, orange blossom syrup and pistachios",
+    "name": "KNAFEH",
+    "description": "kadayifi, gabneh cheese, orange blossom syrup and pistachios",
     "category": [
       "recCbbPwQDG5F33T0"
     ],
     "recipe": [
       "rec22HpUvsjwolADZ"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "recpde635xzesERmD",
-    "Dish_display_name": "Labaneh ",
-    "short_description": "yogurt cheese with zaatar and olive oil ",
-    "image_url": [
+    "name": "Labaneh ",
+    "description": "yogurt cheese with zaatar and olive oil ",
+    "image": [
       {
         "id": "attbIbcSzFq2TpsvA",
         "width": 240,
@@ -1177,24 +1177,24 @@
     "recipe": [
       "recmZ36e6ZQAfUB0e"
     ],
-    "Price": 5
+    "price": 5
   },
   {
     "id": "recIDtK6Z0NHFBweI",
-    "Dish_display_name": "Latte",
+    "name": "Latte",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
     "recipe": [
       "recscFco88ywz0MkR"
     ],
-    "Price": 13
+    "price": 13
   },
   {
     "id": "recrpXTuET9o5EaRf",
-    "Dish_display_name": "MALABI",
-    "short_description": "our signature coconut-milk pudding with pomegranate syrup, coconut flakes and pistachios",
-    "image_url": [
+    "name": "MALABI",
+    "description": "our signature coconut-milk pudding with pomegranate syrup, coconut flakes and pistachios",
+    "image": [
       {
         "id": "attLC3cUYGj1w8TMo",
         "width": 240,
@@ -1228,13 +1228,13 @@
     "recipe": [
       "recxggPgF8vNYrvW9"
     ],
-    "Price": 16
+    "price": 16
   },
   {
     "id": "recXQH0QCKJgxFmDn",
-    "Dish_display_name": "MASABACHA",
-    "short_description": "slowly cooked chickpeas, tahini, spicy lemon, cumin, onion and a brown egg (served warm)",
-    "image_url": [
+    "name": "MASABACHA",
+    "description": "slowly cooked chickpeas, tahini, spicy lemon, cumin, onion and a brown egg (served warm)",
+    "image": [
       {
         "id": "att67MzCA0evAPzAy",
         "width": 240,
@@ -1268,24 +1268,24 @@
     "recipe": [
       "recBQ9Y0RDVNwVp6n"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "recMD2brzuiimYUkc",
-    "Dish_display_name": "MASHED POTATOES",
+    "name": "MASHED POTATOES",
     "category": [
       "recpUPPCOf4FFjXlM"
     ],
     "recipe": [
       "recWvGlalqj6sXNNA"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "recn0r32rPHTqBK8i",
-    "Dish_display_name": "MATBUCHA",
-    "short_description": "slowly cooked tomatoes, garlic and green hot peppers",
-    "image_url": [
+    "name": "MATBUCHA",
+    "description": "slowly cooked tomatoes, garlic and green hot peppers",
+    "image": [
       {
         "id": "attp7WKFO7KD7lzR2",
         "width": 240,
@@ -1319,25 +1319,25 @@
     "recipe": [
       "recfNG6LkKMuI6k8v"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "recBabghSgW9QNG1N",
-    "Dish_display_name": "Mimosa",
-    "short_description": "bubbling wine and orange juice",
+    "name": "Mimosa",
+    "description": "bubbling wine and orange juice",
     "category": [
       "recRM3vqx1Ndm4Y1t"
     ],
     "recipe": [
       "recAx2oojc2v4oMT8"
     ],
-    "Price": 22
+    "price": 22
   },
   {
     "id": "rec5KT8SFhxYlvYlN",
-    "Dish_display_name": "MOROCCAN FISH",
-    "short_description": "filet of sea bream slowly cooked in spicy Moroccan tomato sauce, served with couscous",
-    "image_url": [
+    "name": "MOROCCAN FISH",
+    "description": "filet of sea bream slowly cooked in spicy Moroccan tomato sauce, served with couscous",
+    "image": [
       {
         "id": "attYImRgmULl8cHRa",
         "width": 240,
@@ -1371,13 +1371,13 @@
     "recipe": [
       "recvbrdPLwTBSS7rz"
     ],
-    "Price": 12
+    "price": 12
   },
   {
     "id": "recDg2U2FXHKQLDVN",
-    "Dish_display_name": "Oatmeal ",
-    "short_description": "Made as like it. served with fresh seasonal fruits and cinnamon",
-    "image_url": [
+    "name": "Oatmeal ",
+    "description": "Made as like it. served with fresh seasonal fruits and cinnamon",
+    "image": [
       {
         "id": "atty3nyNFLIRItfxx",
         "width": 240,
@@ -1411,13 +1411,13 @@
     "recipe": [
       "recaa4Lq4xnk4EA3u"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "recYJs905mMKIhTQf",
-    "Dish_display_name": "PANCAKES",
-    "short_description": "served with fresh seasonal fruits",
-    "image_url": [
+    "name": "PANCAKES",
+    "description": "served with fresh seasonal fruits",
+    "image": [
       {
         "id": "attVAGilu0hLi7d7v",
         "width": 240,
@@ -1451,25 +1451,25 @@
     "recipe": [
       "recn4laDTNCXvtMkZ"
     ],
-    "Price": 16
+    "price": 16
   },
   {
     "id": "reclzlTYIKgsesHm3",
-    "Dish_display_name": "PELMENI",
-    "short_description": "homemade traditional Russian meat dumplings with sour cream",
+    "name": "PELMENI",
+    "description": "homemade traditional Russian meat dumplings with sour cream",
     "category": [
       "rectklIbQzx7V9nnP"
     ],
     "recipe": [
       "rec7SzpO9pO1gcnoa"
     ],
-    "Price": 16.0016
+    "price": 16.0016
   },
   {
     "id": "recB4kaZkFlsuk0bB",
-    "Dish_display_name": "PIEROGI",
-    "short_description": "homemade traditional Russian potato dumplings with fried onion and sour cream",
-    "image_url": [
+    "name": "PIEROGI",
+    "description": "homemade traditional Russian potato dumplings with fried onion and sour cream",
+    "image": [
       {
         "id": "attXXuOuNb4FLBWZp",
         "width": 240,
@@ -1503,13 +1503,13 @@
     "recipe": [
       "recYSPZsJTNtGaoTo"
     ],
-    "Price": 21
+    "price": 21
   },
   {
     "id": "recN8Gh67VA2650b2",
-    "Dish_display_name": "PINO’S BURGER",
-    "short_description": "our butcher’s secret burger recipe with 12 Chairs dressing on a brioche bun, served with sweet potato fries.  ",
-    "image_url": [
+    "name": "PINO’S BURGER",
+    "description": "our butcher’s secret burger recipe with 12 Chairs dressing on a brioche bun, served with sweet potato fries.  ",
+    "image": [
       {
         "id": "atthGb4iTR5doy3lT",
         "width": 240,
@@ -1543,13 +1543,13 @@
     "recipe": [
       "rec0zp8BjAM2oVfDK"
     ],
-    "Price": 15
+    "price": 15
   },
   {
     "id": "recPe8UqCzbUUARBn",
-    "Dish_display_name": "PITA SABICH",
-    "short_description": "fried eggplant, hard-boiled egg, Israeli salad mixed herbs, amba and tahini",
-    "image_url": [
+    "name": "PITA SABICH",
+    "description": "fried eggplant, hard-boiled egg, Israeli salad mixed herbs, amba and tahini",
+    "image": [
       {
         "id": "attXu55aTMqa1e1rg",
         "width": 240,
@@ -1583,13 +1583,13 @@
     "recipe": [
       "recmiLUhvDaPKrVK2"
     ],
-    "Price": 16
+    "price": 16
   },
   {
     "id": "recnOYDJSdtn9Qa42",
-    "Dish_display_name": "PITA SCHNITZEL",
-    "short_description": "Chicken Schnitzel eggplant, pickles, matbucha and tahini",
-    "image_url": [
+    "name": "PITA SCHNITZEL",
+    "description": "Chicken Schnitzel eggplant, pickles, matbucha and tahini",
+    "image": [
       {
         "id": "attL4vmc10qSTWYzS",
         "width": 240,
@@ -1623,13 +1623,13 @@
     "recipe": [
       "recq45COIaL21lqxf"
     ],
-    "Price": 15
+    "price": 15
   },
   {
     "id": "recuhX57QjbuVYEGA",
-    "Dish_display_name": "PITA TUNISIAN",
-    "short_description": "Tunisian-style tuna salad with potato, hard-boiled egg, harissa and tahini",
-    "image_url": [
+    "name": "PITA TUNISIAN",
+    "description": "Tunisian-style tuna salad with potato, hard-boiled egg, harissa and tahini",
+    "image": [
       {
         "id": "attmFGpM2NV5TEaQ0",
         "width": 240,
@@ -1657,24 +1657,30 @@
         }
       }
     ],
+    "category": [
+      "rech0wuHHfAJ4EpjX"
+    ],
     "recipe": [
       "rec5uIU0WVwNPUw3G"
     ],
-    "Price": 16
+    "price": 16
   },
   {
     "id": "recP8qLhvvqNvhUTJ",
-    "Dish_display_name": "potato wedges",
+    "name": "potato wedges",
+    "category": [
+      "recpUPPCOf4FFjXlM"
+    ],
     "recipe": [
       "recNuyFyhgKTabaSV"
     ],
-    "Price": 18
+    "price": 18
   },
   {
     "id": "reco3MNfa4kO7Sy2d",
-    "Dish_display_name": "SAMMY’S KEBABS",
-    "short_description": "mixed with Middle Eastern spices, grilled and served on a pita bread with tahini",
-    "image_url": [
+    "name": "SAMMY’S KEBABS",
+    "description": "mixed with Middle Eastern spices, grilled and served on a pita bread with tahini",
+    "image": [
       {
         "id": "attXO5E8SB7Y3FAKt",
         "width": 240,
@@ -1702,16 +1708,19 @@
         }
       }
     ],
+    "category": [
+      "rectklIbQzx7V9nnP"
+    ],
     "recipe": [
       "recZFXCSullGGwo22"
     ],
-    "Price": 23
+    "price": 23
   },
   {
     "id": "recNoPm8xbZo5vBWd",
-    "Dish_display_name": "SCHNITZEL SALAD",
-    "short_description": "breaded chicken breast over Israeli salad topped with tahini",
-    "image_url": [
+    "name": "SCHNITZEL SALAD",
+    "description": "breaded chicken breast over Israeli salad topped with tahini",
+    "image": [
       {
         "id": "attSlEcaqFSGNTS8K",
         "width": 240,
@@ -1739,32 +1748,35 @@
         }
       }
     ],
+    "category": [
+      "recqGerbTr69t5TIU"
+    ],
     "recipe": [
       "recQ1im2zgB7nAG8g"
     ],
-    "Price": 15
+    "price": 15
   },
   {
     "id": "recIgFwYonVinkr1e",
-    "Dish_display_name": "SEA BREAM A LA PLANCHA",
-    "short_description": "served with mashed potatoes and fresh herbs salad with harissa lemon sauce",
+    "name": "SEA BREAM A LA PLANCHA",
+    "description": "served with mashed potatoes and fresh herbs salad with harissa lemon sauce",
     "category": [
       "recbFw1ys85l8Oafh"
     ],
     "recipe": [
       "recp4lpLsM4pWbRKX"
     ],
-    "Price": 22
+    "price": 22
   },
   {
     "id": "recwNBrL2QRGn8Prb",
-    "Dish_display_name": "SHAKSHUKA"
+    "name": "SHAKSHUKA"
   },
   {
     "id": "rece3GnMJkia36yHb",
-    "Dish_display_name": "SHAKSHUKA ",
-    "short_description": "two eggs poached in a spicy Moroccan tomato sauce; cooked and served in a skillet",
-    "image_url": [
+    "name": "SHAKSHUKA ",
+    "description": "two eggs poached in a spicy Moroccan tomato sauce; cooked and served in a skillet",
+    "image": [
       {
         "id": "att5Piz4Hq200ze0g",
         "width": 240,
@@ -1798,25 +1810,25 @@
     "recipe": [
       "recwX0RuEvmcRRj6q"
     ],
-    "Price": 16
+    "price": 16
   },
   {
     "id": "recmUuVKVjhobIz8P",
-    "Dish_display_name": "SHIPUDIM",
-    "short_description": "2 grilled chicken skewers, served with a spicy cherry tomato salad and tahini and potato wedges",
+    "name": "SHIPUDIM",
+    "description": "2 grilled chicken skewers, served with a spicy cherry tomato salad and tahini and potato wedges",
     "category": [
       "recbFw1ys85l8Oafh"
     ],
     "recipe": [
       "recAZeWleSGy6TKEK"
     ],
-    "Price": 15
+    "price": 15
   },
   {
     "id": "rec0UqT83jl5JiGJy",
-    "Dish_display_name": "SHOUK SALAD",
-    "short_description": "cucumber, tomato, pepper, radish, red onion, oregano, kalamata olives and feta cheese",
-    "image_url": [
+    "name": "SHOUK SALAD",
+    "description": "cucumber, tomato, pepper, radish, red onion, oregano, kalamata olives and feta cheese",
+    "image": [
       {
         "id": "attFvb3ZdMktS4Eao",
         "width": 240,
@@ -1844,16 +1856,19 @@
         }
       }
     ],
+    "category": [
+      "recqGerbTr69t5TIU"
+    ],
     "recipe": [
       "recZZkE698uPVB8KP"
     ],
-    "Price": 4
+    "price": 4
   },
   {
     "id": "rec6jZtnFOIFnN6HP",
-    "Dish_display_name": "SMOKED SALMON SCRAMBLED ",
-    "short_description": "soft-scrambled eggs over toasted Challah bread, served with smoked salmon and capers",
-    "image_url": [
+    "name": "SMOKED SALMON SCRAMBLED ",
+    "description": "soft-scrambled eggs over toasted Challah bread, served with smoked salmon and capers",
+    "image": [
       {
         "id": "attUtKYqcX4IlASjM",
         "width": 240,
@@ -1881,50 +1896,53 @@
         }
       }
     ],
+    "category": [
+      "reclT14FtHvh32jWC"
+    ],
     "recipe": [
       "recfE00jBgXrKqQXJ"
     ],
-    "Price": 10
+    "price": 10
   },
   {
     "id": "recCu9Mf8I20YSxwR",
-    "Dish_display_name": "Soda",
-    "short_description": "Coke, Diet Coke, Sprite",
+    "name": "Soda",
+    "description": "Coke, Diet Coke, Sprite",
     "category": [
       "recOsuX64dp6jHNS5"
     ],
     "recipe": [
       "recS6b8HDuvZ62d0P"
     ],
-    "Price": 4
+    "price": 4
   },
   {
     "id": "recLK2tnbZHct6DSY",
-    "Dish_display_name": "SOUP OF THE DAY  ",
+    "name": "SOUP OF THE DAY  ",
     "category": [
       "recbFw1ys85l8Oafh"
     ],
     "recipe": [
       "rec7kvlo3vWx5eyK4"
     ],
-    "Price": 20
+    "price": 20
   },
   {
     "id": "reclE1vXTbc4SoCdu",
-    "Dish_display_name": "Sparkling Water",
+    "name": "Sparkling Water",
     "category": [
       "recOsuX64dp6jHNS5"
     ],
     "recipe": [
       "recEI3wHQEVWaDRUA"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "rectMpTewP2s3iTIc",
-    "Dish_display_name": "STUFFED CABBAGE",
-    "short_description": "filled with ground chicken, rice and vegetables; served with mashed potatoes",
-    "image_url": [
+    "name": "STUFFED CABBAGE",
+    "description": "filled with ground chicken, rice and vegetables; served with mashed potatoes",
+    "image": [
       {
         "id": "attv6aW48fuyD1OwR",
         "width": 240,
@@ -1958,21 +1976,24 @@
     "recipe": [
       "recnqiI5LxhGimHRq"
     ],
-    "Price": 7
+    "price": 7
   },
   {
     "id": "rec20pznK9fG4F3A4",
-    "Dish_display_name": "SWEET POTATO FRIES",
+    "name": "SWEET POTATO FRIES",
+    "category": [
+      "recpUPPCOf4FFjXlM"
+    ],
     "recipe": [
       "recVzX2olPdMzU5KQ"
     ],
-    "Price": 4
+    "price": 4
   },
   {
     "id": "recd9il0mIXYOul4N",
-    "Dish_display_name": "TABOULI SALAD",
-    "short_description": "bulgur, cucumber, onion, fresh herbs, pine nuts and pistachios",
-    "image_url": [
+    "name": "TABOULI SALAD",
+    "description": "bulgur, cucumber, onion, fresh herbs, pine nuts and pistachios",
+    "image": [
       {
         "id": "att6o8LI2AXUmBa9Y",
         "width": 240,
@@ -2000,27 +2021,30 @@
         }
       }
     ],
+    "category": [
+      "recqGerbTr69t5TIU"
+    ],
     "recipe": [
       "recW8HJkGyeEUukPp"
     ],
-    "Price": 18
+    "price": 18
   },
   {
     "id": "rec1lTI59BRsze1qB",
-    "Dish_display_name": "Tea with fresh mint",
+    "name": "Tea with fresh mint",
     "category": [
       "recqGOBMgoWUdasTr"
     ],
     "recipe": [
       "recllRBg8whKL3bYD"
     ],
-    "Price": 12
+    "price": 12
   },
   {
     "id": "recv5737p9NG4LLId",
-    "Dish_display_name": "TUNISIAN-STYLE NICOISE SALAD",
-    "short_description": "cured tuna, romaine lettuce, potatoes, green beans, cherry tomatoes, kalamata olives, radish, capers, preserved lemon and hard-boiled egg",
-    "image_url": [
+    "name": "TUNISIAN-STYLE NICOISE SALAD",
+    "description": "cured tuna, romaine lettuce, potatoes, green beans, cherry tomatoes, kalamata olives, radish, capers, preserved lemon and hard-boiled egg",
+    "image": [
       {
         "id": "attCtnVJD8tWKJqYC",
         "width": 240,
@@ -2048,25 +2072,31 @@
         }
       }
     ],
+    "category": [
+      "recqGerbTr69t5TIU"
+    ],
     "recipe": [
       "reciu4q0tb8dus8cZ"
     ],
-    "Price": 19
+    "price": 19
   },
   {
     "id": "recvnm2prPQ9D2m0h",
-    "Dish_display_name": "TWO EGGS ANY STYLE",
-    "short_description": "Choose your eggs style: sunny side, over easy, over medium, over well or scrambled eggs with a side of ham / bacon / smoked salmon. All eggs and omelettes served with bread. ",
+    "name": "TWO EGGS ANY STYLE",
+    "description": "Choose your eggs style: sunny side, over easy, over medium, over well or scrambled eggs with a side of ham / bacon / smoked salmon. All eggs and omelettes served with bread. ",
+    "category": [
+      "reclT14FtHvh32jWC"
+    ],
     "recipe": [
       "reco8olBM7lmRoxEB"
     ],
-    "Price": 14
+    "price": 14
   },
   {
     "id": "recWAgvewSd5kdq3D",
-    "Dish_display_name": "VEGETARIAN COUSCOUS",
-    "short_description": "slowly cooked vegetables in a Middle Eastern broth, served over couscous",
-    "image_url": [
+    "name": "VEGETARIAN COUSCOUS",
+    "description": "slowly cooked vegetables in a Middle Eastern broth, served over couscous",
+    "image": [
       {
         "id": "attjii6zFb1nohm0W",
         "width": 240,
@@ -2100,13 +2130,13 @@
     "recipe": [
       "recP3svcMFPqBUUiw"
     ],
-    "Price": 10
+    "price": 10
   },
   {
     "id": "recewC5jSENmJBsWl",
-    "Dish_display_name": "WESTERN OMELETTE",
-    "short_description": "tomatoes, mushrooms, onions, peppers and ham",
-    "image_url": [
+    "name": "WESTERN OMELETTE",
+    "description": "tomatoes, mushrooms, onions, peppers and ham",
+    "image": [
       {
         "id": "attNzCMhFEHY8kv4s",
         "width": 240,
@@ -2134,15 +2164,18 @@
         }
       }
     ],
+    "category": [
+      "reclT14FtHvh32jWC"
+    ],
     "recipe": [
       "recIu6cACumpoNYfW"
     ]
   },
   {
     "id": "recARGbbHVr2hwxKL",
-    "Dish_display_name": "YEMENITE CHICKEN SOUP",
-    "short_description": "chicken soup slowly cooked with Middle Eastern spices ",
-    "image_url": [
+    "name": "YEMENITE CHICKEN SOUP",
+    "description": "chicken soup slowly cooked with Middle Eastern spices ",
+    "image": [
       {
         "id": "attWD01OfeCtjFXBk",
         "width": 240,

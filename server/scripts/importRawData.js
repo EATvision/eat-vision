@@ -21,13 +21,14 @@ base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
     location: r.get("location"),
     workingHours: r.get("working_hours"),
     menus: r.get("Menus"),
+    currency: r.get("currency"),
   }));
   kitchens = data
 });
 
-// setTimeout(() => {
-//   fs.writeFileSync('./server/data/raw/kitchens.json', JSON.stringify(kitchens))
-// }, 10000)
+setTimeout(() => {
+  fs.writeFileSync('./server/data/raw/kitchens.json', JSON.stringify(kitchens))
+}, 10000)
 
 //locations
 let locations = []
@@ -137,12 +138,12 @@ let dishes = []
 base("tblLnh1hSZ8GTznfy").select({ view: "Grid view" }).all((_err, records) => {
   const data = records.map((r) => ({
     id: r.getId(),
-    Dish_display_name: r.get("Dish_display_name"),
-    short_description: r.get("short_description"),
-    image_url: r.get("image_url"),
+    name: r.get("Dish_display_name"),
+    description: r.get("short_description"),
+    image: r.get("image_url"),
     category: r.get("category"),
     recipe: r.get("recipe"),
-    Price: r.get("Price"),
+    price: r.get("Price"),
   }));
   dishes = data
 });
