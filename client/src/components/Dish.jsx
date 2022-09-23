@@ -1,42 +1,124 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
+import Box from '@mui/material/Box'
+import Card from '@mui/material/Card'
+import CardHeader from '@mui/material/CardHeader'
+import CardContent from '@mui/material/CardContent'
+import CardMedia from '@mui/material/CardMedia'
+import ClampLines from 'react-clamp-lines'
+import {
+  Alert, AlertTitle, Button, Divider, List, ListItem, Tooltip, Typography,
+} from '@mui/material'
+
+import { useKitchenById } from '../hooks/kitchens'
 
 export default function Dish({ data }) {
+  const { kitchenId } = useParams()
+  const { kitchen, isLoading, isError } = useKitchenById(kitchenId)
+
+  const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
+    (component) => component.isFilteredOut,
+  )
+
   return (
-    <div className="flex justify-center mb-4 flex-1">
+    <Box sx={{
+      maxWidth: 750,
+      width: '100%',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      position: 'relative',
+    }}
+    >
       {
-        data.isMainDishFilteredOut
-        && (
-        <div className="bg-red-500">
-          <div>NO!</div>
-          <div>
-            ingredients:
-            <br />
-            {data?.intersectingAvoidedMandatoryIngredients?.join(', ')}
-          </div>
-          <div>
-            diets:
-            <br />
-            {data?.mandatoryIngredientsExludedInDiets?.join(', ')}
-          </div>
-        </div>
-        )
+         data.isMainDishFilteredOut
+         && (
+         <Alert
+           severity="error"
+           sx={{
+             position: 'absolute',
+             left: '50%',
+             top: '50%',
+             transform: 'translate(-50%, -50%)',
+           }}
+         >
+           FILTERED OUT
+         </Alert>
+         )
       }
-      <div className="flex flex-row max-w-xlw-xl rounded-lg bg-white shadow-lg">
-        <img
-          className="h-auto object-cover w-48 rounded-t-lg rounded-none rounded-l-lg"
-          src={data?.image?.url}
-          alt=""
-        />
-        <div className="p-6 flex flex-col justify-start w-80">
-          <div className="text-gray-900 text-xl font-medium mb-2 ">{data.name}</div>
-          <p className="text-gray-700 text-base mb-4">
-            {data.description}
-          </p>
-          <p className="text-gray-600 text-xs">
-            {data.price}
-          </p>
-        </div>
-      </div>
-    </div>
+      <Card sx={{ width: '100%', opacity: data.isMainDishFilteredOut ? 0.2 : 1 }} elevation={0}>
+        <Box sx={{ display: 'flex' }}>
+          <CardHeader
+            sx={{ textAlign: 'initial', flex: 1 }}
+            title={(
+              <Typography variant="h6" gutterBottom>
+                {data.name}
+              </Typography>
+             )}
+            subheader={(
+              <ClampLines
+                text={data.description || ''}
+                id={data.id}
+                lines={2}
+                ellipsis="..."
+                moreText="Expand"
+                lessText="Collapse"
+                className="custom-class"
+                innerElement="p"
+              />
+            )}
+            action={data.price && (
+              <div>
+                {`${data.price}${kitchen.currency}`}
+              </div>
+            )}
+          />
+
+          {
+            data?.image?.url
+              ? (
+                <CardMedia
+                  component="img"
+                  sx={{
+                    width: 120, height: 120, maxHeight: 120, borderRadius: '10px', margin: '10px',
+                  }}
+                  image={data?.image?.url}
+                  alt=""
+                />
+              )
+              : (
+                <Box sx={{
+                  width: 120, height: 120, maxHeight: 120, borderRadius: '10px', margin: '10px', backgroundColor: '#eeeeee',
+                }}
+                />
+              )
+          }
+        </Box>
+
+        <CardContent>
+          {
+            dishExcludableComponentsFilteredOut?.length > 0
+            && (
+
+              <Alert severity="warning">
+                <AlertTitle>ASK TO EXCLUDE</AlertTitle>
+                <List>
+                  {
+                    dishExcludableComponentsFilteredOut.map((component) => (
+                      <ListItem key={component.id}>{component.name}</ListItem>
+                    ))
+                  }
+                </List>
+              </Alert>
+
+            )
+          }
+
+        </CardContent>
+      </Card>
+
+      <Divider sx={{ width: '100%' }} />
+    </Box>
   )
 }

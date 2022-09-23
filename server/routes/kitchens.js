@@ -67,6 +67,7 @@ router.post("/:kitchenId/menus/:menuId/dishes/search", (req, res) => {
       isMainDishFilteredOut = isMainDishFilteredOut || isFilteredOut || mandatoryIngredientsExludedInDiets.length > 0 || intersectingAvoidedMandatoryIngredients.length > 0
       return {
         ...component,
+        ...(isMainDishFilteredOut ? { name: ingredientsById[component.id].name } : {})
       }
     })
 
@@ -82,6 +83,8 @@ router.post("/:kitchenId/menus/:menuId/dishes/search", (req, res) => {
         intersectingAvoidedIngredients,
         ingredientsExludedInDiets,
         isFilteredOut,
+        ...(isFilteredOut ? { name: ingredientsById[component.id].name } : {})
+
       }
     })
 

@@ -3,11 +3,14 @@ import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import useScrollSpy from 'react-use-scrollspy'
 
+import { Typography, useTheme } from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../hooks/kitchens'
 
 import Dish from '../components/Dish'
 
 function DishesPage({ dishes }) {
+  const theme = useTheme()
+
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
 
@@ -69,8 +72,16 @@ function DishesPage({ dishes }) {
       <div className="container relative overflow-auto mx-auto">
         {
           orderedCategories?.map((category, index) => (
-            <div className="container mx-auto" key={category.id} id={category.id} ref={sectionRefs[index]}>
-              <h2>{category?.name}</h2>
+            <div className="container mx-auto flex flex-col justify-center items-center gap-2" key={category.id} id={category.id} ref={sectionRefs[index]}>
+              <Typography
+                variant="h5"
+                sx={{
+                  fontWeight: 'bold', padding: theme.spacing(4), paddingBottom: theme.spacing(0), textAlign: 'initial', width: '100%',
+                }}
+              >
+                {category?.name}
+              </Typography>
+
               {
                 orderedDishesByCategoryId?.[category.id]?.map((dish) => (
                   <Dish key={dish.id} data={dish} />
