@@ -24,6 +24,7 @@ export default {
   a_health_condition: 'A health condition',
   faith_restrictions: 'Faith restrictions',
   my_diet: 'My diet',
+  things_i_avoid: 'Things I avoid',
   reduce_or_avoid: 'Reduce or avoid',
   allergic_to: 'Allergic to...',
   i_just_hate_eating: 'I just hate eating...',

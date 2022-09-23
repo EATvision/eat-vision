@@ -24,6 +24,7 @@ export default {
   a_health_condition: 'מצב בריאותי',
   faith_restrictions: 'הגבלות כשרות',
   my_diet: 'הדיאטה שלי',
+  things_i_avoid: 'מזונות שאני מנסה להמנע מהם',
   reduce_or_avoid: 'מנסה להמנע או להפחית מזונות מסויימים',
   allergic_to: 'יש לי אלרגיה',
   i_just_hate_eating: 'דברים שלא מתקרבים לצלחת שלי',

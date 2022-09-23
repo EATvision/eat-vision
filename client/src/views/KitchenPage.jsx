@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next'
 
 import { useKitchenById } from '../hooks/kitchens'
 
+import KitchenHeader from '../components/KitchenHeader'
+
 function KitchenPage() {
   const { kitchenId } = useParams()
   const { i18n } = useTranslation()
@@ -20,16 +22,14 @@ function KitchenPage() {
   if (isError) return <div>ERROR</div>
 
   return (
-    <>
-      <h2>
-        kitchen:
-        {' '}
-        {kitchenId}
-      </h2>
+    <div className="flex flex-col absolute h-full w-full">
+      <KitchenHeader />
 
-      <Outlet />
+      <div className="flex-1 overflow-auto flex flex-col">
+        <Outlet />
+      </div>
 
-    </>
+    </div>
   )
 }
 

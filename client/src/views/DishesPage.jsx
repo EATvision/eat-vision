@@ -52,11 +52,6 @@ function DishesPage({ dishes }) {
 
   return (
     <div>
-
-      <h2>
-        FILTERED MENU
-      </h2>
-
       <div className="sticky-top text-sm">
         <ul className="nav menu-sidebar bg-black text-white overflow-auto whitespace-nowrap">
           {

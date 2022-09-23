@@ -16,16 +16,7 @@ function MenuPage({ filters, setDishes }) {
   }, [filters])
 
   return (
-    <div>
-
-      <h2>
-        MENU:
-        {' '}
-        {menuId}
-      </h2>
-      <Outlet />
-
-    </div>
+    <Outlet />
   )
 }
 

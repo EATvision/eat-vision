@@ -2,6 +2,7 @@ import { t } from 'i18next'
 import axios from 'axios'
 import React from 'react'
 import AsyncSelect from 'react-select/async'
+import { Typography, useTheme } from '@mui/material'
 
 const loadOptions = async (inputValue) => {
   const { data } = await axios.get(`/api/ingredients?q=${inputValue}`)
@@ -14,6 +15,7 @@ const getIngredientsByIds = async (ids) => {
 }
 
 function DietsSelector({ filters, setFilters }) {
+  const theme = useTheme()
   const [avoidedIngredients, setAvoidedIngredients] = React.useState([])
 
   React.useEffect(() => {
@@ -39,8 +41,8 @@ function DietsSelector({ filters, setFilters }) {
   // if (isError) return <div>{JSON.stringify(isError)}</div>
   return (
     <div>
-      <h1 className="text-center text-4xl font-bold mb-2">{t('my_diet')}</h1>
-      <h2 className="text-center text-2xl text-gray-300">{t('choose_relevant_options')}</h2>
+      <Typography variant="h3" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('things_i_avoid')}</Typography>
+      <Typography variant="h4" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('choose_relevant_options')}</Typography>
 
       <AsyncSelect
         defaultOptions

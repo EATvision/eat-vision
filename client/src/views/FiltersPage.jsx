@@ -2,8 +2,10 @@ import { useTranslation } from 'react-i18next'
 import React from 'react'
 import ReactModal from 'react-modal'
 import { useNavigate } from 'react-router-dom'
-
-import MainFilterBtn from '../components/MainFilterBtn'
+import {
+  Box, Button, Typography, useTheme,
+} from '@mui/material'
+import CheckIcon from '@mui/icons-material/CheckBoxOutlined'
 import DietsSelector from '../components/DietsSelector'
 import IngredientsSelector from '../components/IngredientsSelector'
 
@@ -11,6 +13,7 @@ function FiltersPage({
   filters, setFilters, dishes, setDishes,
 }) {
   const navigate = useNavigate()
+  const theme = useTheme()
 
   const { t } = useTranslation()
 
@@ -29,31 +32,51 @@ function FiltersPage({
   }
 
   return (
-    <div className="">
-      <h1>{t('do_you_have_restrictions_etc')}</h1>
-      <h2>{t('to_show_only_relevant_dishes')}</h2>
-      <div className="w-1/2 flex flex-col mx-auto">
-        <MainFilterBtn label={t('i_have_a_specific_diet')} onClick={handleClickFilterType('diets')} active={filters.diets.length > 0} />
+    <>
+      <Typography variant="h5" sx={{ margin: theme.spacing(3) }}>{t('do_you_have_restrictions_etc')}</Typography>
 
-        <MainFilterBtn label={t('i_dont_eat_specific_foods')} onClick={handleClickFilterType('avoid')} active={filters.avoid.length > 0} />
+      <Box sx={{ margin: theme.spacing(3), display: 'flex', flexDirection: 'column' }}>
+        <Button
+          variant="outlined"
+          endIcon={filters.diets.length > 0 && <CheckIcon />}
+          onClick={handleClickFilterType('diets')}
+          sx={{ marginTop: theme.spacing(2) }}
+        >
+          {t('i_have_a_specific_diet')}
+        </Button>
 
-        <MainFilterBtn
+        <Button
+          variant="outlined"
+          endIcon={filters.avoid.length > 0 && <CheckIcon />}
+          onClick={handleClickFilterType('avoid')}
+          sx={{ marginTop: theme.spacing(2) }}
+        >
+          {t('i_dont_eat_specific_foods')}
+        </Button>
+        {/*
+        <Button
           label={t('no_limitations')}
+          variant="text"
           onClick={() => {
             setDishes((currDishes) => ({ ...currDishes, filtered: currDishes.total }))
             navigate('../dishes')
           }}
-        />
+          sx={{ marginTop: theme.spacing(2) }}
+        >
+          {t('no_limitations')}
+        </Button> */}
 
-      </div>
+      </Box>
 
-      <div className="w-full bg-purple-500 text-white">
-
-        <div>{t('dishes')}</div>
-        <div>{`${dishes.filtered.length}/${dishes.total.length}`}</div>
-
-        <button type="button" onClick={() => { navigate('../dishes') }}>{t('done')}</button>
-      </div>
+      <Box sx={{ marginTop: 'auto', display: 'flex' }}>
+        <Button
+          fullWidth
+          variant="contained"
+          onClick={() => { navigate('../dishes') }}
+        >
+          {t('done')}
+        </Button>
+      </Box>
 
       <ReactModal isOpen={Boolean(filterType)} className="w-full h-full bg-white">
         <div className="flex flex-col h-full">
@@ -68,13 +91,15 @@ function FiltersPage({
               && <IngredientsSelector filters={filters} setFilters={setFilters} />
             }
           </div>
-          <div className="group flex flex-row mt-auto">
-            <div className="w-6/12 cursor-pointer py-3 border bg-primary text-white text-center hover:opacity-90" onClick={handleClickDone}>{t('done')}</div>
-            <div className="w-6/12 cursor-pointer py-3 border text-center" onClick={handleClickBack}>{t('back')}</div>
-          </div>
+
+          <Box sx={{ marginTop: 'auto', display: 'flex', flexDirection: 'row' }}>
+            <Button fullWidth variant="outlined" onClick={handleClickBack}>{t('back')}</Button>
+            <Button fullWidth variant="contained" onClick={handleClickDone}>{t('done')}</Button>
+
+          </Box>
         </div>
       </ReactModal>
-    </div>
+    </>
   )
 }
 

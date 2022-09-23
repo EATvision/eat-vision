@@ -1,20 +1,16 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import Box from '@mui/material/Box'
-import Card from '@mui/material/Card'
-import CardHeader from '@mui/material/CardHeader'
-import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
-import ClampLines from 'react-clamp-lines'
 import {
-  Alert, AlertTitle, Button, Divider, List, ListItem, Tooltip, Typography,
+  Alert, AlertTitle, Box, Card, CardContent, CardHeader,
+  CardMedia, Divider, List, ListItem, Typography,
 } from '@mui/material'
+import ClampLines from 'react-clamp-lines'
 
 import { useKitchenById } from '../hooks/kitchens'
 
 export default function Dish({ data }) {
   const { kitchenId } = useParams()
-  const { kitchen, isLoading, isError } = useKitchenById(kitchenId)
+  const { kitchen } = useKitchenById(kitchenId)
 
   const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
     (component) => component.isFilteredOut,
