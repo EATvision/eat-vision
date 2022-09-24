@@ -1,8 +1,11 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
-  Alert, AlertTitle, Box, Button, Card, CardActions, CardContent, CardHeader,
-  CardMedia, Collapse, Divider, IconButton, List, ListItem, styled, Typography, useTheme,
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Alert, AlertTitle, Box, Card, CardContent, CardHeader,
+  CardMedia, Divider, List, ListItem, Typography, useTheme,
 } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
@@ -10,27 +13,10 @@ import ClampLines from 'react-clamp-lines'
 
 import { useKitchenById } from '../hooks/kitchens'
 
-const ExpandMore = styled((props) => {
-  const { expand, ...other } = props
-  return <IconButton {...other} />
-})(({ theme, expand }) => ({
-  transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
-  marginLeft: 'auto',
-  transition: theme.transitions.create('transform', {
-    duration: theme.transitions.duration.shortest,
-  }),
-}))
-
 export default function Dish({ data }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
-
-  const [expandedSideDishes, setExpandedSideDishes] = React.useState(false)
-
-  const handleExpandClick = () => {
-    setExpandedSideDishes(!expandedSideDishes)
-  }
 
   const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
     (component) => component.isFilteredOut,
@@ -131,112 +117,215 @@ export default function Dish({ data }) {
           )
         }
 
-        <CardActions disableSpacing>
-          {
-            data.recipe.sideDish.length > 0
-            && (
-              <Button
-                onClick={handleExpandClick}
-              >
-                <ExpandMore
-                  expand={expandedSideDishes}
-                  aria-expanded={expandedSideDishes}
-                  aria-label="side dishes"
-                >
-                  <ExpandMoreIcon />
-                </ExpandMore>
-                <Typography>Side dishes</Typography>
-              </Button>
-            )
-          }
-        </CardActions>
+        {
+          data.recipe?.sideDish?.length > 0
+          && (
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+            >
+              <Typography>Side dishes</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              {
+              data.recipe.sideDish.map((dish) => {
+                const sideDishExcludableComponentsFilteredOut = dish?.recipe?.excludable?.filter(
+                  (component) => component.isFilteredOut,
+                )
 
-        <Collapse in={expandedSideDishes} timeout="auto" unmountOnExit>
-          {
-            data.recipe.sideDish.map((dish) => (
-              <Box
-                key={`sideDish-${dish.id}`}
-                sx={{
-                  maxWidth: 750,
-                  width: '100%',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  position: 'relative',
-                  backgroundColor: '#cfcfcf',
-                }}
-              >
-                {
-                  dish.isMainDishFilteredOut
-                  && (
-                  <Alert
-                    severity="error"
+                return (
+                  <Box
+                    key={`sideDish-${dish.id}`}
                     sx={{
-                      position: 'absolute',
-                      right: theme.spacing(1),
-                      top: '50%',
-                      transform: 'translate(0, -50%)',
+                      maxWidth: 750,
+                      width: '100%',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      position: 'relative',
+                      backgroundColor: '#cfcfcf',
                     }}
                   >
-                    FILTERED OUT
-                  </Alert>
-                  )
-                }
-                <Card sx={{ width: '100%', opacity: dish.isMainDishFilteredOut ? 0.2 : 1 }} elevation={0}>
-                  <Box sx={{ display: 'flex', backgroundColor: '#f1f1f1' }}>
-                    <CardHeader
-                      sx={{ textAlign: 'initial', flex: 1 }}
-                      title={(
-                        <Typography variant="h7">
-                          {dish.name}
-                        </Typography>
-                      )}
-                      subheader={(
-                        <ClampLines
-                          text={dish.description || ''}
-                          id={dish.id}
-                          lines={2}
-                          ellipsis="..."
-                          moreText="Expand"
-                          lessText="Collapse"
-                          className="custom-class"
-                          innerElement="p"
-                        />
-                      )}
-                      action={dish.price > 0 && (
-                      <div>
-                        {`+${dish.price}${kitchen.currency}`}
-                      </div>
-                      )}
-                    />
-                  </Box>
-
-                  {
-                    dishExcludableComponentsFilteredOut?.length > 0
+                    {
+                    dish.isMainDishFilteredOut
                     && (
-                    <CardContent>
-                      <Alert severity="warning">
-                        <AlertTitle>ASK TO EXCLUDE</AlertTitle>
-                        <List>
-                          {
-                            dishExcludableComponentsFilteredOut.map((component) => (
-                              <ListItem key={component.id}>{component.name}</ListItem>
-                            ))
-                          }
-                        </List>
-                      </Alert>
-
-                    </CardContent>
+                    <Alert
+                      severity="error"
+                      sx={{
+                        position: 'absolute',
+                        right: theme.spacing(1),
+                        top: '50%',
+                        transform: 'translate(0, -50%)',
+                      }}
+                    >
+                      FILTERED OUT
+                    </Alert>
                     )
                   }
-                </Card>
+                    <Card sx={{ width: '100%', backgroundColor: '#f1f1f1', opacity: dish.isMainDishFilteredOut ? 0.2 : 1 }} elevation={0}>
+                      <Box sx={{ display: 'flex' }}>
+                        <CardHeader
+                          sx={{ textAlign: 'initial', flex: 1 }}
+                          title={(
+                            <Typography variant="h7">
+                              {dish.name}
+                            </Typography>
+                        )}
+                          subheader={(
+                            <ClampLines
+                              text={dish.description || ''}
+                              id={dish.id}
+                              lines={2}
+                              ellipsis="..."
+                              moreText="Expand"
+                              lessText="Collapse"
+                              className="custom-class"
+                              innerElement="p"
+                            />
+                        )}
+                          action={dish.price > 0 && (
+                          <div>
+                            {`+${dish.price}${kitchen.currency}`}
+                          </div>
+                          )}
+                        />
+                      </Box>
 
-                <Divider sx={{ width: '100%' }} />
-              </Box>
-            ))
-          }
-        </Collapse>
+                      {
+                        sideDishExcludableComponentsFilteredOut?.length > 0
+                        && (
+                        <CardContent>
+                          <Alert severity="warning">
+                            <AlertTitle>ASK TO EXCLUDE</AlertTitle>
+                            <List>
+                              {
+                                sideDishExcludableComponentsFilteredOut.map((component) => (
+                                  <ListItem key={component.id}>{component.name}</ListItem>
+                                ))
+                              }
+                            </List>
+                          </Alert>
+
+                        </CardContent>
+                        )
+                      }
+                    </Card>
+
+                    <Divider sx={{ width: '100%' }} />
+                  </Box>
+                )
+              })
+            }
+            </AccordionDetails>
+          </Accordion>
+          )
+        }
+
+        {
+          data.recipe.addableComponents.length > 0
+          && (
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+            >
+              <Typography>Addable components</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              {
+              data.recipe.addableComponents.map((dish) => {
+                const addableComponentExcludableComponentsFilteredOut = dish?.recipe?.excludable?.filter(
+                  (component) => component.isFilteredOut,
+                )
+                return (
+                  <Box
+                    key={`addableComponent-${dish.id}`}
+                    sx={{
+                      maxWidth: 750,
+                      width: '100%',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      position: 'relative',
+                      backgroundColor: '#cfcfcf',
+                    }}
+                  >
+                    {
+                    dish.isMainDishFilteredOut
+                    && (
+                    <Alert
+                      severity="error"
+                      sx={{
+                        position: 'absolute',
+                        right: theme.spacing(1),
+                        top: '50%',
+                        transform: 'translate(0, -50%)',
+                      }}
+                    >
+                      FILTERED OUT
+                    </Alert>
+                    )
+                  }
+                    <Card sx={{ width: '100%', backgroundColor: '#f1f1f1', opacity: dish.isMainDishFilteredOut ? 0.2 : 1 }} elevation={0}>
+                      <Box sx={{ display: 'flex' }}>
+                        <CardHeader
+                          sx={{ textAlign: 'initial', flex: 1 }}
+                          title={(
+                            <Typography variant="h7">
+                              {dish.name}
+                            </Typography>
+                        )}
+                          subheader={(
+                            <ClampLines
+                              text={dish.description || ''}
+                              id={dish.id}
+                              lines={2}
+                              ellipsis="..."
+                              moreText="Expand"
+                              lessText="Collapse"
+                              className="custom-class"
+                              innerElement="p"
+                            />
+                        )}
+                          action={dish.price > 0 && (
+                          <div>
+                            {`+${dish.price}${kitchen.currency}`}
+                          </div>
+                          )}
+                        />
+                      </Box>
+
+                      {
+                      addableComponentExcludableComponentsFilteredOut?.length > 0
+                      && (
+                      <CardContent>
+                        <Alert severity="warning">
+                          <AlertTitle>ASK TO EXCLUDE</AlertTitle>
+                          <List>
+                            {
+                              addableComponentExcludableComponentsFilteredOut.map((component) => (
+                                <ListItem key={component.id}>{component.name}</ListItem>
+                              ))
+                            }
+                          </List>
+                        </Alert>
+
+                      </CardContent>
+                      )
+                    }
+                    </Card>
+
+                    <Divider sx={{ width: '100%' }} />
+                  </Box>
+                )
+              })
+            }
+            </AccordionDetails>
+          </Accordion>
+          )
+        }
+
       </Card>
 
       <Divider sx={{ width: '100%' }} />

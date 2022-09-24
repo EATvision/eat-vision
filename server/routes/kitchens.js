@@ -147,6 +147,24 @@ const getModifiedDishes = (dishes, filters) => (
     })
 
     const modifiedSideDishes = dish.recipe.sideDish.map(sideDish => ({ ...getModifiedDishes([dishesById[sideDish.id]], filters)[0], price: sideDish.price }))
+    const addableComponents = [
+      ...dish.recipe.addableIngredients.map(component => {
+        const {
+          intersectingAvoidedIngredients,
+          ingredientsExludedInDiets,
+          isFilteredOut
+        } = getComponentLimitations(component, filters)
+
+        return {
+          ...component,
+          intersectingAvoidedIngredients,
+          ingredientsExludedInDiets,
+          isFilteredOut,
+          name: ingredientsById[component.id].name,
+        }
+      }),
+      ...dish.recipe.addableDishes.map(sideDish => ({ ...getModifiedDishes([dishesById[sideDish.id]], filters)[0], price: sideDish.price }))
+    ]
 
     return {
       ...dish,
@@ -159,6 +177,7 @@ const getModifiedDishes = (dishes, filters) => (
         excludable: modifiedExcludableComponents,
         choice: modifiedChoiceComponents,
         sideDish: modifiedSideDishes,
+        addableComponents,
       }
     }
   })
