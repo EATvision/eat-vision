@@ -14,7 +14,7 @@ const intersection = require("lodash/intersection")
 
 
 const ingredientsById = keyBy(ingredients, 'id')
-const dishesById = keyBy(dishes, 'id')
+const dishesById = keyBy(dishes, '_id')
 
 router.get("/", (_req, res) => {
   res.send(kitchens);
@@ -49,57 +49,7 @@ router.post("/:kitchenId/menus/:menuId/dishes/search", (req, res) => {
   const relevantMenu = menus.find(menu => menu.id === menuId)
   const relevantDishes = dishes.filter(dish => relevantMenu?.categories?.includes(dish?.categories?.[0]))
 
-  const modifiedDishes = relevantDishes.map(dish => {
-    let isMainDishFilteredOut = false
-    let intersectingAvoidedMandatoryIngredients = []
-    let mandatoryIngredientsExludedInDiets = []
-
-    const modifiedMandatoryComponents = dish.recipe.mandatory.map(component => {
-      const {
-        intersectingAvoidedIngredients,
-        ingredientsExludedInDiets,
-        isFilteredOut,
-      } = getComponentLimitations(component, filters)
-
-      intersectingAvoidedMandatoryIngredients = uniq([...intersectingAvoidedIngredients, ...intersectingAvoidedMandatoryIngredients])
-      mandatoryIngredientsExludedInDiets = uniq([...ingredientsExludedInDiets, ...mandatoryIngredientsExludedInDiets])
-
-      isMainDishFilteredOut = isMainDishFilteredOut || isFilteredOut || mandatoryIngredientsExludedInDiets.length > 0 || intersectingAvoidedMandatoryIngredients.length > 0
-      return {
-        ...component,
-        ...(isMainDishFilteredOut ? { name: ingredientsById[component.id].name } : {})
-      }
-    })
-
-    const modifiedExcludableComponents = dish.recipe.excludable.map(component => {
-      const {
-        intersectingAvoidedIngredients,
-        ingredientsExludedInDiets,
-        isFilteredOut
-      } = getComponentLimitations(component, filters)
-
-      return {
-        ...component,
-        intersectingAvoidedIngredients,
-        ingredientsExludedInDiets,
-        isFilteredOut,
-        ...(isFilteredOut ? { name: ingredientsById[component.id].name } : {})
-
-      }
-    })
-
-    return {
-      ...dish,
-      isMainDishFilteredOut,
-      intersectingAvoidedMandatoryIngredients,
-      mandatoryIngredientsExludedInDiets,
-      recipe: {
-        ...dish.recipe,
-        mandatory: modifiedMandatoryComponents,
-        excludable: modifiedExcludableComponents,
-      }
-    }
-  })
+  const modifiedDishes = getModifiedDishes(relevantDishes, filters)
 
   res.send({ totalDishes: modifiedDishes, filteredDishes: modifiedDishes })
 });
@@ -140,5 +90,78 @@ const getComponentLimitations = (component, filters) => {
     isFilteredOut,
   }
 }
+
+const getModifiedDishes = (dishes, filters) => (
+  dishes.map(dish => {
+    let isMainDishFilteredOut = false
+    let intersectingAvoidedMandatoryIngredients = []
+    let mandatoryIngredientsExludedInDiets = []
+
+    const modifiedMandatoryComponents = dish.recipe.mandatory.map(component => {
+      const {
+        intersectingAvoidedIngredients,
+        ingredientsExludedInDiets,
+        isFilteredOut,
+      } = getComponentLimitations(component, filters)
+
+      intersectingAvoidedMandatoryIngredients = uniq([...intersectingAvoidedIngredients, ...intersectingAvoidedMandatoryIngredients])
+      mandatoryIngredientsExludedInDiets = uniq([...ingredientsExludedInDiets, ...mandatoryIngredientsExludedInDiets])
+
+      isMainDishFilteredOut = isMainDishFilteredOut || isFilteredOut || mandatoryIngredientsExludedInDiets.length > 0 || intersectingAvoidedMandatoryIngredients.length > 0
+      return {
+        ...component,
+        ...(isMainDishFilteredOut ? { name: ingredientsById[component.id].name } : {})
+      }
+    })
+
+    const modifiedExcludableComponents = dish.recipe.excludable.map(component => {
+      const {
+        intersectingAvoidedIngredients,
+        ingredientsExludedInDiets,
+        isFilteredOut
+      } = getComponentLimitations(component, filters)
+
+      return {
+        ...component,
+        intersectingAvoidedIngredients,
+        ingredientsExludedInDiets,
+        isFilteredOut,
+        ...(isFilteredOut ? { name: ingredientsById[component.id].name } : {})
+      }
+    })
+
+    const modifiedChoiceComponents = dish.recipe.choice.map(component => {
+      const {
+        intersectingAvoidedIngredients,
+        ingredientsExludedInDiets,
+        isFilteredOut
+      } = getComponentLimitations(component, filters)
+
+      return {
+        ...component,
+        intersectingAvoidedIngredients,
+        ingredientsExludedInDiets,
+        isFilteredOut,
+        ...(isFilteredOut ? { name: ingredientsById[component.id].name } : {})
+      }
+    })
+
+    const modifiedSideDishes = dish.recipe.sideDish.map(sideDish => ({ ...getModifiedDishes([dishesById[sideDish.id]], filters)[0], price: sideDish.price }))
+
+    return {
+      ...dish,
+      isMainDishFilteredOut,
+      intersectingAvoidedMandatoryIngredients,
+      mandatoryIngredientsExludedInDiets,
+      recipe: {
+        ...dish.recipe,
+        mandatory: modifiedMandatoryComponents,
+        excludable: modifiedExcludableComponents,
+        choice: modifiedChoiceComponents,
+        sideDish: modifiedSideDishes,
+      }
+    }
+  })
+)
 
 module.exports = router

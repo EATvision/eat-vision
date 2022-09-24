@@ -23,6 +23,7 @@ module.exports = {
     'react/prop-types': 0,
     'no-unused-vars': 1,
     'linebreak-style': 0,
+    'react/jsx-props-no-spreading': 0,
     semi: ['error', 'never'],
   },
 }
