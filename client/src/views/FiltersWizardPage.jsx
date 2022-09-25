@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
-  Box, Button, MobileStepper, Paper, useTheme,
+  Box, Button, MobileStepper, useTheme,
 } from '@mui/material'
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft'
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
@@ -16,10 +16,6 @@ const useSteps = (filters, setFilters) => ([
   },
   {
     stepContent: <IngredientsSelector filters={filters} setFilters={setFilters} />,
-  },
-  {
-    label: 'Summary',
-    stepContent: <div>SUMMARY</div>,
   },
 ])
 

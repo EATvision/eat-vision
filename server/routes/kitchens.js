@@ -110,6 +110,9 @@ const getModifiedDishes = (dishes, filters) => (
       isMainDishFilteredOut = isMainDishFilteredOut || isFilteredOut || mandatoryIngredientsExludedInDiets.length > 0 || intersectingAvoidedMandatoryIngredients.length > 0
       return {
         ...component,
+        intersectingAvoidedIngredients,
+        ingredientsExludedInDiets,
+        isFilteredOut,
         ...(isMainDishFilteredOut ? { name: ingredientsById[component.id].name } : {})
       }
     })

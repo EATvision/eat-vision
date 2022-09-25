@@ -22,6 +22,10 @@ export default function Dish({ data }) {
     (component) => component.isFilteredOut,
   )
 
+  const mandatoryComponentsFilteredOut = data?.recipe?.mandatory?.filter(
+    (component) => component.isFilteredOut,
+  )
+
   return (
     <Box sx={{
       maxWidth: 750,
@@ -34,22 +38,35 @@ export default function Dish({ data }) {
     }}
     >
       {
-         data.isMainDishFilteredOut
-         && (
-         <Alert
-           severity="error"
-           sx={{
-             position: 'absolute',
-             left: '50%',
-             top: '50%',
-             transform: 'translate(-50%, -50%)',
-           }}
-         >
-           FILTERED OUT
-         </Alert>
-         )
+        data.isMainDishFilteredOut
+        && (
+        <Alert
+          severity="error"
+          sx={{
+            position: 'absolute',
+            top: '50%',
+            transform: 'translate(0, -50%)',
+          }}
+        >
+          <AlertTitle>FILTERED OUT</AlertTitle>
+          <List dense>
+            {
+              mandatoryComponentsFilteredOut.map((component) => (
+                <ListItem dense key={component.id}>{component.name}</ListItem>
+              ))
+            }
+          </List>
+        </Alert>
+        )
       }
-      <Card sx={{ width: '100%', opacity: data.isMainDishFilteredOut ? 0.2 : 1 }} elevation={0}>
+      <Card
+        sx={{
+          width: '100%',
+          opacity: data.isMainDishFilteredOut ? 0.2 : 1,
+          pointerEvents: data.isMainDishFilteredOut ? 'none' : 'all',
+        }}
+        elevation={0}
+      >
         <Box sx={{ display: 'flex' }}>
           <CardHeader
             sx={{ textAlign: 'initial', flex: 1 }}
@@ -105,7 +122,7 @@ export default function Dish({ data }) {
 
             <Alert severity="warning">
               <AlertTitle>ASK TO EXCLUDE</AlertTitle>
-              <List>
+              <List dense>
                 {
                   dishExcludableComponentsFilteredOut.map((component) => (
                     <ListItem key={component.id}>{component.name}</ListItem>
@@ -150,17 +167,24 @@ export default function Dish({ data }) {
                     {
                     dish.isMainDishFilteredOut
                     && (
-                    <Alert
-                      severity="error"
-                      sx={{
-                        position: 'absolute',
-                        right: theme.spacing(1),
-                        top: '50%',
-                        transform: 'translate(0, -50%)',
-                      }}
-                    >
-                      FILTERED OUT
-                    </Alert>
+                      <Alert
+                        severity="error"
+                        sx={{
+                          position: 'absolute',
+                          right: theme.spacing(1),
+                          top: '50%',
+                          transform: 'translate(0, -50%)',
+                        }}
+                      >
+                        <AlertTitle>FILTERED OUT</AlertTitle>
+                        <List dense>
+                          {
+                            sideDishExcludableComponentsFilteredOut.map((component) => (
+                              <ListItem dense key={component.id}>{component.name}</ListItem>
+                            ))
+                          }
+                        </List>
+                      </Alert>
                     )
                   }
                     <Card sx={{ width: '100%', backgroundColor: '#f1f1f1', opacity: dish.isMainDishFilteredOut ? 0.2 : 1 }} elevation={0}>
@@ -198,15 +222,14 @@ export default function Dish({ data }) {
                         <CardContent>
                           <Alert severity="warning">
                             <AlertTitle>ASK TO EXCLUDE</AlertTitle>
-                            <List>
+                            <List dense>
                               {
                                 sideDishExcludableComponentsFilteredOut.map((component) => (
-                                  <ListItem key={component.id}>{component.name}</ListItem>
+                                  <ListItem dense key={component.id}>{component.name}</ListItem>
                                 ))
                               }
                             </List>
                           </Alert>
-
                         </CardContent>
                         )
                       }
@@ -254,17 +277,24 @@ export default function Dish({ data }) {
                     {
                     dish.isMainDishFilteredOut
                     && (
-                    <Alert
-                      severity="error"
-                      sx={{
-                        position: 'absolute',
-                        right: theme.spacing(1),
-                        top: '50%',
-                        transform: 'translate(0, -50%)',
-                      }}
-                    >
-                      FILTERED OUT
-                    </Alert>
+                      <Alert
+                        severity="error"
+                        sx={{
+                          position: 'absolute',
+                          right: theme.spacing(1),
+                          top: '50%',
+                          transform: 'translate(0, -50%)',
+                        }}
+                      >
+                        <AlertTitle>FILTERED OUT</AlertTitle>
+                        <List dense>
+                          {
+                            addableComponentExcludableComponentsFilteredOut.map((component) => (
+                              <ListItem dense key={component.id}>{component.name}</ListItem>
+                            ))
+                          }
+                        </List>
+                      </Alert>
                     )
                   }
                     <Card sx={{ width: '100%', backgroundColor: '#f1f1f1', opacity: dish.isMainDishFilteredOut ? 0.2 : 1 }} elevation={0}>
@@ -302,7 +332,7 @@ export default function Dish({ data }) {
                       <CardContent>
                         <Alert severity="warning">
                           <AlertTitle>ASK TO EXCLUDE</AlertTitle>
-                          <List>
+                          <List dense>
                             {
                               addableComponentExcludableComponentsFilteredOut.map((component) => (
                                 <ListItem key={component.id}>{component.name}</ListItem>
