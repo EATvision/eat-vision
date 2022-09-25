@@ -8,7 +8,7 @@ import DishesPage from './views/DishesPage'
 import KitchensPage from './views/KitchensPage'
 import KitchenPage from './views/KitchenPage'
 import GreetingPage from './views/GreetingPage'
-import FiltersPage from './views/FiltersPage'
+import FiltersWizardPage from './views/FiltersWizardPage'
 import MenusPage from './views/MenusPage'
 import MenuPage from './views/MenuPage'
 import { defaultFilters } from './utils/filters'
@@ -29,7 +29,7 @@ function App() {
           <Route path="menus" element={<MenusPage />} />
           <Route path="menus/:menuId" element={<MenuPage filters={filters} setDishes={setDishes} />}>
             <Route index element={<GreetingPage />} />
-            <Route path="filters" element={<FiltersPage dishes={dishes} filters={filters} setFilters={setFilters} />} />
+            <Route path="filters" element={<FiltersWizardPage dishes={dishes} filters={filters} setFilters={setFilters} />} />
             <Route path="dishes" element={<DishesPage filters={filters} dishes={dishes} setDishes={setDishes} />} />
           </Route>
         </Route>

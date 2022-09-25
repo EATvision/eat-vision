@@ -17,9 +17,9 @@ function DietsSelector({ filters, setFilters }) {
   if (isLoading) return <div>LOADING</div>
 
   return (
-    <div>
-      <Typography variant="h3" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('my_diet')}</Typography>
-      <Typography variant="h4" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('choose_relevant_options')}</Typography>
+    <>
+      <Typography variant="h4" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('my_diet')}</Typography>
+      <Typography variant="h5" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('choose_relevant_options')}</Typography>
       <ToggleButtonGroup
         fullWidth
         color="primary"
@@ -41,7 +41,7 @@ function DietsSelector({ filters, setFilters }) {
         }
 
       </ToggleButtonGroup>
-    </div>
+    </>
   )
 }
 

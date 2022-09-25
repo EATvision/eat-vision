@@ -40,9 +40,9 @@ function DietsSelector({ filters, setFilters }) {
 
   // if (isError) return <div>{JSON.stringify(isError)}</div>
   return (
-    <div>
-      <Typography variant="h3" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('things_i_avoid')}</Typography>
-      <Typography variant="h4" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('choose_relevant_options')}</Typography>
+    <>
+      <Typography variant="h4" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('things_i_avoid')}</Typography>
+      <Typography variant="h5" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('choose_relevant_options')}</Typography>
 
       <AsyncSelect
         defaultOptions
@@ -72,7 +72,7 @@ function DietsSelector({ filters, setFilters }) {
             )
         } */}
       </div>
-    </div>
+    </>
   )
 }
 

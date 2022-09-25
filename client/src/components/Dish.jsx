@@ -135,7 +135,7 @@ export default function Dish({ data }) {
 
                 return (
                   <Box
-                    key={`sideDish-${dish.id}`}
+                    key={`sideDish-${dish.id || dish._id}`}
                     sx={{
                       maxWidth: 750,
                       width: '100%',
