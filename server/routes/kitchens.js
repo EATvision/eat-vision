@@ -145,9 +145,13 @@ const getModifiedDishes = (dishes, filters) => (
         intersectingAvoidedIngredients,
         ingredientsExludedInDiets,
         isFilteredOut,
-        ...(isFilteredOut ? { name: ingredientsById[component.id].name } : {})
+        name: ingredientsById[component.id].name,
       }
     })
+
+    isMainDishFilteredOut = isMainDishFilteredOut || (
+      modifiedChoiceComponents.length > 0 && modifiedChoiceComponents.every(c => c.isFilteredOut)
+    )
 
     const modifiedSideDishes = dish.recipe.sideDish.map(sideDish => ({ ...getModifiedDishes([dishesById[sideDish.id]], filters)[0], price: sideDish.price }))
     const addableComponents = [

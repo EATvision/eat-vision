@@ -49,13 +49,30 @@ export default function Dish({ data }) {
           }}
         >
           <AlertTitle>FILTERED OUT</AlertTitle>
-          <List dense>
-            {
-              mandatoryComponentsFilteredOut.map((component) => (
-                <ListItem dense key={component.id}>{component.name}</ListItem>
-              ))
-            }
-          </List>
+          {
+            mandatoryComponentsFilteredOut.length > 0
+            && (
+            <List dense>
+              {
+                mandatoryComponentsFilteredOut.map((component) => (
+                  <ListItem dense key={component.id}>{component.name}</ListItem>
+                ))
+              }
+            </List>
+            )
+          }
+
+          {
+            mandatoryComponentsFilteredOut.length === 0
+            && (
+              <Typography>
+                All choice ingredients were filtered out (
+                {data.recipe.choice.map((c) => c.name).join(', ')}
+                )
+              </Typography>
+
+            )
+          }
         </Alert>
         )
       }
@@ -135,6 +152,86 @@ export default function Dish({ data }) {
         }
 
         {
+          data.recipe?.choice?.length > 0
+          && (
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+            >
+              <Typography>Choice in dishes</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              {
+              data.recipe.choice.map((component) => (
+                <Box
+                  key={`choice-${component.id || component._id}`}
+                  sx={{
+                    maxWidth: 750,
+                    width: '100%',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    position: 'relative',
+                    backgroundColor: '#cfcfcf',
+                  }}
+                >
+                  {
+                    component.isFilteredOut
+                    && (
+                      <Alert
+                        severity="error"
+                        sx={{
+                          position: 'absolute',
+                          right: theme.spacing(1),
+                          top: '50%',
+                          transform: 'translate(0, -50%)',
+                        }}
+                      >
+                        <AlertTitle>FILTERED OUT</AlertTitle>
+                      </Alert>
+                    )
+                  }
+                  <Card sx={{ width: '100%', backgroundColor: '#f1f1f1', opacity: component.isFilteredOut ? 0.2 : 1 }} elevation={0}>
+                    <Box sx={{ display: 'flex' }}>
+                      <CardHeader
+                        sx={{ textAlign: 'initial', flex: 1 }}
+                        title={(
+                          <Typography variant="h7">
+                            {component.name}
+                          </Typography>
+                        )}
+                        subheader={(
+                          <ClampLines
+                            text={component.description || ''}
+                            id={component.id}
+                            lines={2}
+                            ellipsis="..."
+                            moreText="Expand"
+                            lessText="Collapse"
+                            className="custom-class"
+                            innerElement="p"
+                          />
+                        )}
+                        action={component.price > 0 && (
+                          <div>
+                            {`+${component.price}${kitchen.currency}`}
+                          </div>
+                        )}
+                      />
+                    </Box>
+                  </Card>
+
+                  <Divider sx={{ width: '100%' }} />
+                </Box>
+              ))
+            }
+            </AccordionDetails>
+          </Accordion>
+          )
+        }
+
+        {
           data.recipe?.sideDish?.length > 0
           && (
           <Accordion>
@@ -177,13 +274,18 @@ export default function Dish({ data }) {
                         }}
                       >
                         <AlertTitle>FILTERED OUT</AlertTitle>
-                        <List dense>
-                          {
-                            sideDishExcludableComponentsFilteredOut.map((component) => (
-                              <ListItem dense key={component.id}>{component.name}</ListItem>
-                            ))
-                          }
-                        </List>
+                        {
+                          sideDishExcludableComponentsFilteredOut.length > 0
+                          && (
+                            <List dense>
+                              {
+                                sideDishExcludableComponentsFilteredOut.map((component) => (
+                                  <ListItem dense key={component.id}>{component.name}</ListItem>
+                                ))
+                              }
+                            </List>
+                          )
+                        }
                       </Alert>
                     )
                   }
@@ -287,13 +389,18 @@ export default function Dish({ data }) {
                         }}
                       >
                         <AlertTitle>FILTERED OUT</AlertTitle>
-                        <List dense>
-                          {
-                            addableComponentExcludableComponentsFilteredOut.map((component) => (
-                              <ListItem dense key={component.id}>{component.name}</ListItem>
-                            ))
-                          }
-                        </List>
+                        {
+                          addableComponentExcludableComponentsFilteredOut.length > 0
+                          && (
+                          <List dense>
+                            {
+                              addableComponentExcludableComponentsFilteredOut.map((component) => (
+                                <ListItem dense key={component.id}>{component.name}</ListItem>
+                              ))
+                            }
+                          </List>
+                          )
+                        }
                       </Alert>
                     )
                   }
