@@ -10,9 +10,9 @@ import Dish from '../components/Dish'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()
-
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
+  const [showFilteredOutDishes] = React.useState(false)
 
   const sectionRefs = [
     React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
@@ -39,6 +39,7 @@ function DishesPage({ dishes }) {
 
   const orderedDishesByCategoryId = React.useMemo(
     () => (categories ? dishes.filtered.reduce((result, d) => {
+      if (!showFilteredOutDishes && d.isMainDishFilteredOut) return result
       const categoryId = d?.categories?.[0] || 'no_category'
       return ({
         ...result,

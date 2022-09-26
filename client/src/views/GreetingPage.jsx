@@ -19,11 +19,11 @@ function GreetingPage({ setFilters }) {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <Box>
-        <Typography variant="h3" sx={{ margin: theme.spacing(3) }}>
+        <Typography variant="h4" sx={{ margin: theme.spacing(3) }}>
           {t('hi_im_your_personal_waiter')}
         </Typography>
 
-        <Typography variant="h4" sx={{ margin: theme.spacing(3) }}>
+        <Typography variant="h5" sx={{ margin: theme.spacing(3) }}>
           {t('let_me_help_you')}
         </Typography>
       </Box>

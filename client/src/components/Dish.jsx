@@ -86,7 +86,7 @@ export default function Dish({ data }) {
       >
         <Box sx={{ display: 'flex' }}>
           <CardHeader
-            sx={{ textAlign: 'initial', flex: 1 }}
+            sx={{ textAlign: 'initial', flex: 1, alignItems: 'flex-start' }}
             title={(
               <Typography variant="h6" gutterBottom>
                 {data.name}
