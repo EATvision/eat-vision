@@ -1,7 +1,7 @@
 export default {
   'Welcome to React': 'hello',
   hi_im_your_personal_waiter: 'Hello, I’m Dawn, your personal virtual waiter',
-  let_me_help_you: 'Let me help you see only the menus and dishes that relevant to your needs',
+  let_me_help_you: 'Let\'s see only the things that relevant to you',
   lets_get_started: 'Let\'s get started',
   skip_to_full_menu: 'Skip to full menu',
   yes: 'yes',
