@@ -67,7 +67,12 @@ function DishesPage({ dishes }) {
       <div className="container relative overflow-auto mx-auto">
         {
           orderedCategories?.map((category, index) => (
-            <div className="container mx-auto flex flex-col justify-center items-center gap-2" key={category.id} id={category.id} ref={sectionRefs[index]}>
+            <div
+              className="container mx-auto flex flex-col justify-center items-center gap-2"
+              key={category.id}
+              id={category.id}
+              ref={sectionRefs[index]}
+            >
               <Typography
                 variant="h5"
                 sx={{

@@ -35,7 +35,7 @@ const modifiedDishes = dishes.map(dish => {
   const addableDishes = get(choicesSubDishesById, `[${get(dishRecipe, 'addable_dishs[0]')}]`, {})
 
   return {
-    _id: dish.id,
+    id: dish.id,
     name: dish.name,
     description: dish.description,
     categories: dish.category,

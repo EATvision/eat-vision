@@ -164,7 +164,7 @@ export default function Dish({ data }) {
               {
               data.recipe.choice.map((component) => (
                 <Box
-                  key={`choice-${component.id || component._id}`}
+                  key={`choice-${component.id}`}
                   sx={{
                     maxWidth: 750,
                     width: '100%',
@@ -249,7 +249,7 @@ export default function Dish({ data }) {
 
                 return (
                   <Box
-                    key={`sideDish-${dish.id || dish._id}`}
+                    key={`sideDish-${dish.id}`}
                     sx={{
                       maxWidth: 750,
                       width: '100%',
