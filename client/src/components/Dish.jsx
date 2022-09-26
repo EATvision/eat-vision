@@ -354,7 +354,7 @@ export default function Dish({ data }) {
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
             >
-              <Typography>Addable components</Typography>
+              <Typography>Upgrage dish</Typography>
             </AccordionSummary>
             <AccordionDetails>
               {
