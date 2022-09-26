@@ -55,6 +55,7 @@ function DietsSelector({ filters, setFilters }) {
         getOptionLabel={(e) => e.name}
         getOptionValue={(e) => e.id}
         closeMenuOnSelect={false}
+        placeholder="Type to search ingredients"
       />
 
       <div className="flex flex-col w-1/2 mx-auto m-auto mt-4">
