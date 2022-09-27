@@ -9,7 +9,10 @@
     "recipe": [
       "rec4VXmnc3sVEnKoY"
     ],
-    "price": 18
+    "price": 18,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recqXKNSmUUw5PvNg",
@@ -20,7 +23,10 @@
     "recipe": [
       "recVc6pI8hNl3bKOD"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recBd7D27GcmpznjV",
@@ -60,7 +66,10 @@
     "recipe": [
       "reclvZ5cIfnEDH4RK"
     ],
-    "price": 22
+    "price": 22,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recRgkttRpWALxOQ2",
@@ -100,7 +109,10 @@
     "recipe": [
       "recTJFctEw7WB1NFn"
     ],
-    "price": 16
+    "price": 16,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec4zXTywLfmnix31",
@@ -111,7 +123,10 @@
     "recipe": [
       "recKH2eIjilDH0Xyd"
     ],
-    "price": 4
+    "price": 4,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recVMzmwbEfCqHECQ",
@@ -122,7 +137,10 @@
     "recipe": [
       "recguapfwP2HYLybm"
     ],
-    "price": 5
+    "price": 5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec5p2fn1gO0pZL8Y",
@@ -162,7 +180,10 @@
     "recipe": [
       "recw4n8vglORYut0t"
     ],
-    "price": 21
+    "price": 21,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recevWX1yjCW5pRxR",
@@ -174,7 +195,10 @@
     "recipe": [
       "rec55LOPwWbAqR0nG"
     ],
-    "price": 15
+    "price": 15,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recvSAKdv0vql5FLe",
@@ -197,7 +221,10 @@
     "recipe": [
       "rectZiPcGQgK84Z1S"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec3Eder7uAr00tco",
@@ -237,7 +264,10 @@
     "recipe": [
       "receBeuL4AF8qS5W5"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recPvn8Vh7q2hBNao",
@@ -277,7 +307,10 @@
     "recipe": [
       "rec963TddfIM65buw"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec3pHNcknbYL3km5",
@@ -289,7 +322,10 @@
     "recipe": [
       "recwWD2infA4ddiC9"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recSaXIaAnqC1OsWm",
@@ -300,7 +336,10 @@
     "recipe": [
       "reci3WJxN8dvGc0bS"
     ],
-    "price": 5
+    "price": 5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recX9iUiXxK7TC1CJ",
@@ -340,7 +379,10 @@
     "recipe": [
       "recKW39CbvfPtLIsi"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recBVsluGn5Qn71Qf",
@@ -380,7 +422,10 @@
     "recipe": [
       "reccKLDMTEJYllVzm"
     ],
-    "price": 13
+    "price": 13,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recrxbb3494rVoYmT",
@@ -420,7 +465,10 @@
     "recipe": [
       "recnCbv9VcjW4mGNK"
     ],
-    "price": 12
+    "price": 12,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec6aeYOOzUgCjQeg",
@@ -460,7 +508,10 @@
     "recipe": [
       "recuvRb9zzyhz0iQZ"
     ],
-    "price": 21
+    "price": 21,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "reczj1EzXiuprEBDV",
@@ -500,7 +551,10 @@
     "recipe": [
       "rectLi9T57bA4tocB"
     ],
-    "price": 23
+    "price": 23,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rechdXUl2YbaUtiQA",
@@ -540,7 +594,10 @@
     "recipe": [
       "recbhEfwLVcVidJ1J"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rechkKKjNPfVxaU9R",
@@ -551,7 +608,10 @@
     "recipe": [
       "recZOdyru1Qr0WZw7"
     ],
-    "price": 4
+    "price": 4,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recdizOQ3ymHjj6jc",
@@ -591,7 +651,10 @@
     "recipe": [
       "recf6FkmNvfL8YdwP"
     ],
-    "price": 15
+    "price": 15,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec7Sry8YZrqeZQII",
@@ -603,7 +666,10 @@
     "recipe": [
       "recPugW3qcYEbuKMn"
     ],
-    "price": 15
+    "price": 15,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recST8BdqJqqgoGuZ",
@@ -614,7 +680,10 @@
     "recipe": [
       "recxS6txLBudiUUxO"
     ],
-    "price": 5
+    "price": 5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rectdlzh1C0xDaCy7",
@@ -625,7 +694,10 @@
     "recipe": [
       "recDPqzIccuk2WQsQ"
     ],
-    "price": 1.5
+    "price": 1.5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recMXuetszu6wduUt",
@@ -665,7 +737,10 @@
     "recipe": [
       "reccQnWVgWGOzyJ8p"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recUzf1xN6wpSqQ31",
@@ -677,7 +752,10 @@
     "recipe": [
       "recmmGPvSOOaGZJGi"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recgjkFQTNVeQ3vZF",
@@ -689,7 +767,10 @@
     "recipe": [
       "recHCbS5tfHzmXvRP"
     ],
-    "price": 6
+    "price": 6,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recZB2QMrvzcWfzdx",
@@ -700,7 +781,10 @@
     "recipe": [
       "rec8Fto3mA87v3A1P"
     ],
-    "price": 6
+    "price": 6,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "reczDn0pLyVrxVWG1",
@@ -740,7 +824,10 @@
     "recipe": [
       "recBKobWcScAEfTgS"
     ],
-    "price": 5
+    "price": 5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec9MfjZtfmjDz33f",
@@ -780,7 +867,10 @@
     "recipe": [
       "recpLkW5zNAkr2eor"
     ],
-    "price": 12
+    "price": 12,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "receTCXptOYmSrnLm",
@@ -791,7 +881,10 @@
     "recipe": [
       "recJNYbEoqdtbULiq"
     ],
-    "price": 6
+    "price": 6,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec3i31YhWtBsvfR3",
@@ -831,7 +924,10 @@
     "recipe": [
       "recV1dlid64muawoj"
     ],
-    "price": 24
+    "price": 24,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec233n7fBxpp7AT1",
@@ -871,7 +967,10 @@
     "recipe": [
       "rec1EMvQQljv6QiKC"
     ],
-    "price": 22
+    "price": 22,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec7KQ0ASckTAGgYz",
@@ -883,7 +982,10 @@
     "recipe": [
       "rec4zIERJI0mPrcyH"
     ],
-    "price": 17
+    "price": 17,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recOOhGh3t7LSzwtR",
@@ -895,7 +997,10 @@
     "recipe": [
       "recg0bnSexOO1xV1l"
     ],
-    "price": 16
+    "price": 16,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recgRTYGqJMMyq0V0",
@@ -903,7 +1008,10 @@
     "recipe": [
       "recpBf8t9gqOElqT1"
     ],
-    "price": 22
+    "price": 22,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rechveEc4RJQudWgH",
@@ -911,7 +1019,10 @@
     "category": [
       "recqGOBMgoWUdasTr"
     ],
-    "price": 5
+    "price": 5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec2maw9RzZk2LVuq",
@@ -951,7 +1062,10 @@
     "recipe": [
       "recJfZXJKqKestFC4"
     ],
-    "price": 10
+    "price": 10,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec2IkiWHp3DcUIgZ",
@@ -962,7 +1076,10 @@
     "recipe": [
       "recc5hMMcjOaMHQXR"
     ],
-    "price": 5
+    "price": 5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recgKfHQieyNSDFeX",
@@ -1002,7 +1119,10 @@
     "recipe": [
       "rechymUJr6lOA9ux8"
     ],
-    "price": 12
+    "price": 12,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recv8zlPd18bqzkaE",
@@ -1013,7 +1133,10 @@
     "recipe": [
       "rec2GTMagxph03K2b"
     ],
-    "price": 5
+    "price": 5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec5U57vToTYRcXw1",
@@ -1025,7 +1148,10 @@
     "recipe": [
       "recD5aZpDKmp9bi2F"
     ],
-    "price": 23
+    "price": 23,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recB4HUxKVZ37IwqC",
@@ -1034,7 +1160,10 @@
     "recipe": [
       "recD5aZpDKmp9bi2F"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recgCTHyVbxrPD4d8",
@@ -1074,7 +1203,10 @@
     "recipe": [
       "rec29Ot9GawcG2uUb"
     ],
-    "price": 6
+    "price": 6,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "reccr5lz5idD0b28d",
@@ -1113,7 +1245,10 @@
     "recipe": [
       "recF4TK9qOVpZciuf"
     ],
-    "price": 12
+    "price": 12,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recic67vKuszX2SH2",
@@ -1125,7 +1260,10 @@
     "recipe": [
       "recpiwcGUD29ake7z"
     ],
-    "price": 16
+    "price": 16,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recGRfXuw72r2EcoI",
@@ -1137,7 +1275,10 @@
     "recipe": [
       "rec22HpUvsjwolADZ"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recpde635xzesERmD",
@@ -1177,7 +1318,10 @@
     "recipe": [
       "recmZ36e6ZQAfUB0e"
     ],
-    "price": 5
+    "price": 5,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recIDtK6Z0NHFBweI",
@@ -1188,7 +1332,10 @@
     "recipe": [
       "recscFco88ywz0MkR"
     ],
-    "price": 13
+    "price": 13,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recrpXTuET9o5EaRf",
@@ -1228,7 +1375,10 @@
     "recipe": [
       "recxggPgF8vNYrvW9"
     ],
-    "price": 16
+    "price": 16,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recXQH0QCKJgxFmDn",
@@ -1268,7 +1418,10 @@
     "recipe": [
       "recBQ9Y0RDVNwVp6n"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recMD2brzuiimYUkc",
@@ -1279,7 +1432,10 @@
     "recipe": [
       "recWvGlalqj6sXNNA"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recn0r32rPHTqBK8i",
@@ -1319,7 +1475,10 @@
     "recipe": [
       "recfNG6LkKMuI6k8v"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recBabghSgW9QNG1N",
@@ -1331,7 +1490,10 @@
     "recipe": [
       "recAx2oojc2v4oMT8"
     ],
-    "price": 22
+    "price": 22,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec5KT8SFhxYlvYlN",
@@ -1371,7 +1533,10 @@
     "recipe": [
       "recvbrdPLwTBSS7rz"
     ],
-    "price": 12
+    "price": 12,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recDg2U2FXHKQLDVN",
@@ -1411,7 +1576,10 @@
     "recipe": [
       "recaa4Lq4xnk4EA3u"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recYJs905mMKIhTQf",
@@ -1451,7 +1619,10 @@
     "recipe": [
       "recn4laDTNCXvtMkZ"
     ],
-    "price": 16
+    "price": 16,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "reclzlTYIKgsesHm3",
@@ -1463,7 +1634,10 @@
     "recipe": [
       "rec7SzpO9pO1gcnoa"
     ],
-    "price": 16.0016
+    "price": 16.0016,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recB4kaZkFlsuk0bB",
@@ -1503,7 +1677,10 @@
     "recipe": [
       "recYSPZsJTNtGaoTo"
     ],
-    "price": 21
+    "price": 21,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recN8Gh67VA2650b2",
@@ -1543,7 +1720,10 @@
     "recipe": [
       "rec0zp8BjAM2oVfDK"
     ],
-    "price": 15
+    "price": 15,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recPe8UqCzbUUARBn",
@@ -1583,7 +1763,10 @@
     "recipe": [
       "recmiLUhvDaPKrVK2"
     ],
-    "price": 16
+    "price": 16,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recnOYDJSdtn9Qa42",
@@ -1623,7 +1806,10 @@
     "recipe": [
       "recq45COIaL21lqxf"
     ],
-    "price": 15
+    "price": 15,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recuhX57QjbuVYEGA",
@@ -1663,7 +1849,10 @@
     "recipe": [
       "rec5uIU0WVwNPUw3G"
     ],
-    "price": 16
+    "price": 16,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recP8qLhvvqNvhUTJ",
@@ -1674,7 +1863,10 @@
     "recipe": [
       "recNuyFyhgKTabaSV"
     ],
-    "price": 18
+    "price": 18,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "reco3MNfa4kO7Sy2d",
@@ -1714,7 +1906,10 @@
     "recipe": [
       "recZFXCSullGGwo22"
     ],
-    "price": 23
+    "price": 23,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recNoPm8xbZo5vBWd",
@@ -1754,7 +1949,10 @@
     "recipe": [
       "recQ1im2zgB7nAG8g"
     ],
-    "price": 15
+    "price": 15,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recIgFwYonVinkr1e",
@@ -1766,11 +1964,17 @@
     "recipe": [
       "recp4lpLsM4pWbRKX"
     ],
-    "price": 22
+    "price": 22,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recwNBrL2QRGn8Prb",
-    "name": "SHAKSHUKA"
+    "name": "SHAKSHUKA",
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rece3GnMJkia36yHb",
@@ -1810,7 +2014,10 @@
     "recipe": [
       "recwX0RuEvmcRRj6q"
     ],
-    "price": 16
+    "price": 16,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recmUuVKVjhobIz8P",
@@ -1822,7 +2029,10 @@
     "recipe": [
       "recAZeWleSGy6TKEK"
     ],
-    "price": 15
+    "price": 15,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec0UqT83jl5JiGJy",
@@ -1862,7 +2072,10 @@
     "recipe": [
       "recZZkE698uPVB8KP"
     ],
-    "price": 4
+    "price": 4,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec6jZtnFOIFnN6HP",
@@ -1902,7 +2115,10 @@
     "recipe": [
       "recfE00jBgXrKqQXJ"
     ],
-    "price": 10
+    "price": 10,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recCu9Mf8I20YSxwR",
@@ -1914,7 +2130,10 @@
     "recipe": [
       "recS6b8HDuvZ62d0P"
     ],
-    "price": 4
+    "price": 4,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recLK2tnbZHct6DSY",
@@ -1925,7 +2144,10 @@
     "recipe": [
       "rec7kvlo3vWx5eyK4"
     ],
-    "price": 20
+    "price": 20,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "reclE1vXTbc4SoCdu",
@@ -1936,7 +2158,10 @@
     "recipe": [
       "recEI3wHQEVWaDRUA"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rectMpTewP2s3iTIc",
@@ -1976,7 +2201,10 @@
     "recipe": [
       "recnqiI5LxhGimHRq"
     ],
-    "price": 7
+    "price": 7,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec20pznK9fG4F3A4",
@@ -1987,7 +2215,10 @@
     "recipe": [
       "recVzX2olPdMzU5KQ"
     ],
-    "price": 4
+    "price": 4,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recd9il0mIXYOul4N",
@@ -2027,7 +2258,10 @@
     "recipe": [
       "recW8HJkGyeEUukPp"
     ],
-    "price": 18
+    "price": 18,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "rec1lTI59BRsze1qB",
@@ -2038,7 +2272,10 @@
     "recipe": [
       "recllRBg8whKL3bYD"
     ],
-    "price": 12
+    "price": 12,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recv5737p9NG4LLId",
@@ -2078,7 +2315,10 @@
     "recipe": [
       "reciu4q0tb8dus8cZ"
     ],
-    "price": 19
+    "price": 19,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recvnm2prPQ9D2m0h",
@@ -2090,7 +2330,10 @@
     "recipe": [
       "reco8olBM7lmRoxEB"
     ],
-    "price": 14
+    "price": 14,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recWAgvewSd5kdq3D",
@@ -2130,7 +2373,10 @@
     "recipe": [
       "recP3svcMFPqBUUiw"
     ],
-    "price": 10
+    "price": 10,
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
+    ]
   },
   {
     "id": "recewC5jSENmJBsWl",
@@ -2169,6 +2415,9 @@
     ],
     "recipe": [
       "recIu6cACumpoNYfW"
+    ],
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
     ]
   },
   {
@@ -2208,6 +2457,9 @@
     ],
     "recipe": [
       "receYcdiZus0pmNBw"
+    ],
+    "kitchenIds": [
+      "recipajs7uV1pWw1h"
     ]
   }
 ]

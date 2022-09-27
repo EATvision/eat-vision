@@ -144,6 +144,7 @@ base("tblLnh1hSZ8GTznfy").select({ view: "Grid view" }).all((_err, records) => {
     category: r.get("category"),
     recipe: r.get("recipe"),
     price: r.get("Price"),
+    kitchenIds: r.get("kitchenId"),
   }));
   dishes = data
 });

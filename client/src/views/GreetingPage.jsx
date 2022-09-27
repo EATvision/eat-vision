@@ -7,13 +7,15 @@ import {
 } from '@mui/material'
 
 import { defaultFilters } from '../utils/filters'
+import { postDiner } from '../api/diners'
 
 function GreetingPage({ setFilters }) {
   const theme = useTheme()
   const { t } = useTranslation()
 
-  const handleClickSkipToFullMenu = () => {
+  const handleClickSkipToFullMenu = async () => {
     setFilters(defaultFilters)
+    await postDiner(defaultFilters)
   }
 
   return (

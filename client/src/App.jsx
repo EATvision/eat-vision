@@ -30,7 +30,7 @@ function App() {
         <Route path="/kitchens/:kitchenId" element={<KitchenPage />}>
           <Route path="menus" element={<MenusPage />} />
           <Route path="menus/:menuId" element={<MenuPage filters={filters} setDishes={setDishes} />}>
-            <Route index element={<GreetingPage />} />
+            <Route index element={<GreetingPage setFilters={setFilters} />} />
             <Route path="filters" element={<FiltersPage dishes={dishes} filters={filters} setFilters={setFilters} />} />
             <Route path="dishes" element={<DishesPage filters={filters} dishes={dishes} setDishes={setDishes} />} />
           </Route>

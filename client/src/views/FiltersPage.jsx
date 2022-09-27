@@ -8,9 +8,10 @@ import {
 import CheckIcon from '@mui/icons-material/CheckBoxOutlined'
 import DietsSelector from '../components/DietsSelector'
 import IngredientsSelector from '../components/IngredientsSelector'
+import { postDiner } from '../api/diners'
 
 function FiltersPage({
-  filters, setFilters, dishes, setDishes,
+  filters, setFilters, dishes,
 }) {
   const navigate = useNavigate()
   const theme = useTheme()
@@ -29,6 +30,11 @@ function FiltersPage({
 
   const handleClickBack = () => {
     setFilterType(null)
+  }
+
+  const handleClickDoneFilters = async () => {
+    await postDiner(filters)
+    navigate('../dishes')
   }
 
   return (
@@ -53,26 +59,13 @@ function FiltersPage({
         >
           {t('i_dont_eat_specific_foods')}
         </Button>
-        {/*
-        <Button
-          label={t('no_limitations')}
-          variant="text"
-          onClick={() => {
-            setDishes((currDishes) => ({ ...currDishes, filtered: currDishes.total }))
-            navigate('../dishes')
-          }}
-          sx={{ marginTop: theme.spacing(2) }}
-        >
-          {t('no_limitations')}
-        </Button> */}
-
       </Box>
 
       <Box sx={{ marginTop: 'auto', display: 'flex' }}>
         <Button
           fullWidth
           variant="contained"
-          onClick={() => { navigate('../dishes') }}
+          onClick={handleClickDoneFilters}
         >
           {t('done')}
         </Button>
@@ -95,7 +88,6 @@ function FiltersPage({
           <Box sx={{ marginTop: 'auto', display: 'flex', flexDirection: 'row' }}>
             <Button fullWidth variant="outlined" onClick={handleClickBack}>{t('back')}</Button>
             <Button fullWidth variant="contained" onClick={handleClickDone}>{t('done')}</Button>
-
           </Box>
         </div>
       </ReactModal>

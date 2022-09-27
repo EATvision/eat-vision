@@ -41,6 +41,7 @@ const modifiedDishes = dishes.map(dish => {
     categories: dish.category,
     image: dish?.image?.[0],
     price: dish?.price,
+    kitchenId: dish?.kitchenIds[0],
     recipe: {
       mandatory: get(dishRecipe, 'mandatory_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
       excludable: get(dishRecipe, 'excludable_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),

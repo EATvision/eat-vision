@@ -2,12 +2,13 @@ const { Router } = require("express");
 const router = Router();
 
 const dbClient = require('../db')
-const database = dbClient.db('eat');
-const dinersCollection = database.collection('diners');
+const dinersCollection = dbClient?.db('eat').collection('diners');
 
-router.get("/", async (req, res) => {
-  const diner = await dinersCollection.findOne()
-  res.send(diner);
+router.post("/anonymous", async (req, res) => {
+  const { body: { filters } } = req
+  const anonymousDiner = { filters }
+  // const response = await dinersCollection?.insertOne(anonymousDiner)
+  res.status(201);
 });
 
 module.exports = router
