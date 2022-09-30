@@ -5,6 +5,7 @@ import {
 } from '@mui/material'
 import {
   Formik,
+  Form,
 } from 'formik'
 import { useParams } from 'react-router-dom'
 
@@ -57,7 +58,7 @@ function DishForm() {
           ({
             values, touched, errors, handleChange,
           }) => (
-            <form>
+            <Form>
               <TextField
                 required
                 margin="normal"
@@ -117,7 +118,7 @@ function DishForm() {
               <Button color="primary" variant="contained" fullWidth type="submit">
                 Submit
               </Button>
-            </form>
+            </Form>
           )
         }
       </Formik>
