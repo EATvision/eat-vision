@@ -272,7 +272,6 @@ export default function Dish({ data }) {
                   <Box
                     key={`sideDish-${dish.id}`}
                     sx={{
-                      maxWidth: 750,
                       width: '100%',
                       display: 'flex',
                       flexDirection: 'column',

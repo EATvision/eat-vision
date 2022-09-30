@@ -74,14 +74,6 @@ function DishesPage({ dishes }) {
               id={category.id}
               ref={sectionRefs[index]}
             >
-              <Typography
-                variant="h5"
-                sx={{
-                  fontWeight: 'bold', padding: theme.spacing(4), paddingBottom: theme.spacing(0), textAlign: 'initial', width: '100%',
-                }}
-              >
-                {category?.name}
-              </Typography>
 
               <Box
                 sx={{
@@ -90,8 +82,17 @@ function DishesPage({ dishes }) {
                   flexDirection: 'column',
                   alignItems: 'center',
                   padding: `0 ${theme.spacing(1)}`,
+                  maxWidth: 750,
                 }}
               >
+                <Typography
+                  variant="h5"
+                  sx={{
+                    fontWeight: 'bold', padding: theme.spacing(4), paddingBottom: theme.spacing(0), textAlign: 'initial', width: '100%',
+                  }}
+                >
+                  {category?.name}
+                </Typography>
                 {
                 orderedDishesByCategoryId?.[category.id]?.map((dish) => (
                   <Dish key={dish.id} data={dish} />
