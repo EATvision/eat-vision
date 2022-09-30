@@ -5,7 +5,7 @@ import {
   AccordionDetails,
   AccordionSummary,
   Alert, AlertTitle, Badge, Box, Button, Stack, Card, CardContent, CardHeader,
-  CardMedia, Chip, Divider, FormLabel, List, ListItem, Paper, Popover, Tooltip, Typography, useTheme,
+  CardMedia, Chip, Divider, FormLabel, List, ListItem, Paper, Popover, Tooltip, Typography, useTheme, Tabs, Tab, ToggleButtonGroup, ToggleButton,
 } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
@@ -19,7 +19,14 @@ export default function Dish({ data }) {
   const { kitchen } = useKitchenById(kitchenId)
 
   const [askForChangesAnchorEl, setAskForChangesAnchorEl] = React.useState(null)
+  const [expandedInfoPanel, setExpandedInfoPanel] = React.useState(null)
+  const [isDishExpandedInfoAccordianExpanded, setIsDishExpandedInfoAccordianExpanded] = React.useState(0)
 
+  const handleChangeExpandedInfoPanel = (event, newExpandedInfoPanel) => {
+    event.stopPropagation()
+    setExpandedInfoPanel(newExpandedInfoPanel)
+    setIsDishExpandedInfoAccordianExpanded(!!newExpandedInfoPanel)
+  }
   const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
     (component) => component.isFilteredOut,
   )
@@ -34,6 +41,13 @@ export default function Dish({ data }) {
 
   const handlePopoverClose = () => {
     setAskForChangesAnchorEl(null)
+  }
+
+  const handleClickExpandedInfoAccordian = () => {
+    if (!expandedInfoPanel) {
+      return setIsDishExpandedInfoAccordianExpanded(false)
+    }
+    return setIsDishExpandedInfoAccordianExpanded((currIsExpanded) => !currIsExpanded)
   }
 
   return (
@@ -142,7 +156,6 @@ export default function Dish({ data }) {
           />
 
           <Box>
-
             {
               data?.image?.url
                 ? (
@@ -252,18 +265,27 @@ export default function Dish({ data }) {
           )
         }
 
-        {
-          data.recipe?.sideDish?.length > 0
-          && (
-          <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
+        <Accordion
+          expanded={isDishExpandedInfoAccordianExpanded}
+          onChange={handleClickExpandedInfoAccordian}
+        >
+          <AccordionSummary
+            expandIcon={expandedInfoPanel && <ExpandMoreIcon />}
+          >
+            <ToggleButtonGroup
+              color="primary"
+              value={expandedInfoPanel}
+              exclusive
+              onChange={handleChangeExpandedInfoPanel}
             >
-              <Typography>Side dishes</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              {
-              data.recipe.sideDish.map((dish) => {
+              <ToggleButton value="sideDish" disabled={data.recipe.sideDish.length === 0}>side dish</ToggleButton>
+              <ToggleButton value="addableComponents" disabled={data.recipe.addableComponents.length === 0}>upgrades</ToggleButton>
+            </ToggleButtonGroup>
+          </AccordionSummary>
+          <AccordionDetails>
+            {
+              expandedInfoPanel === 'sideDish'
+              && data.recipe.sideDish.map((dish) => {
                 const sideDishExcludableComponentsFilteredOut = dish?.recipe?.excludable?.filter(
                   (component) => component.isFilteredOut,
                 )
@@ -362,23 +384,10 @@ export default function Dish({ data }) {
                 )
               })
             }
-            </AccordionDetails>
-          </Accordion>
-          )
-        }
 
-        {
-          data.recipe.addableComponents.length > 0
-          && (
-          <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-            >
-              <Typography>Upgrage dish</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              {
-              data.recipe.addableComponents.map((dish) => {
+            {
+              expandedInfoPanel === 'addableComponents'
+              && data.recipe.addableComponents.map((dish) => {
                 const addableComponentExcludableComponentsFilteredOut = dish?.recipe?.excludable?.filter(
                   (component) => component.isFilteredOut,
                 )
@@ -478,11 +487,8 @@ export default function Dish({ data }) {
                 )
               })
             }
-            </AccordionDetails>
-          </Accordion>
-          )
-        }
-
+          </AccordionDetails>
+        </Accordion>
       </Card>
 
       <Divider sx={{ width: '100%' }} />
