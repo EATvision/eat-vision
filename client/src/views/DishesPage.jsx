@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import useScrollSpy from 'react-use-scrollspy'
 
-import { Typography, useTheme } from '@mui/material'
+import { Box, Typography, useTheme } from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../hooks/kitchens'
 
 import Dish from '../components/Dish'
@@ -83,11 +83,21 @@ function DishesPage({ dishes }) {
                 {category?.name}
               </Typography>
 
-              {
+              <Box
+                sx={{
+                  width: '100%',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  padding: `0 ${theme.spacing(1)}`,
+                }}
+              >
+                {
                 orderedDishesByCategoryId?.[category.id]?.map((dish) => (
                   <Dish key={dish.id} data={dish} />
                 ))
-              }
+                }
+              </Box>
             </div>
           ))
         }
