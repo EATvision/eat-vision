@@ -6,17 +6,24 @@ import {
 
 import { useKitchenById } from '../../hooks/kitchens'
 
-export default function DishRecipeChips({ data, label, recipeType }) {
+export default function DishRecipeChips({
+  data, label, recipeType, onSelect = () => {}, selectedComponents = [],
+}) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
+
+  const handleClickChip = (componentId) => () => {
+    onSelect(componentId)
+  }
+
   return (
     <Stack
       direction="row"
       spacing={1}
       sx={{ alignItems: 'center', marginBottom: theme.spacing(2) }}
     >
-      <FormLabel sx={{ textAlign: 'initial', width: 120 }}>
+      <FormLabel sx={{ textAlign: 'initial', minWidth: 75 }}>
         {label}
         :
       </FormLabel>
@@ -29,22 +36,23 @@ export default function DishRecipeChips({ data, label, recipeType }) {
               return (
                 <Badge
                   variant="dot"
-                  color="secondary"
+                  color="error"
                   key={component.id}
                   invisible={!componentsExcludableComponentsFilteredOut?.length}
+                  anchorOrigin={{
+                    vertical: 'top',
+                    horizontal: 'left',
+                  }}
                 >
                   <Chip
                     variant="outlined"
-                    disabled={component.isMainComponentFilteredOut}
+                    disabled={(component.isMainComponentFilteredOut || component.isFilteredOut)}
+                    onClick={handleClickChip(component.id)}
+                    selected={selectedComponents.includes(component.id)}
                     sx={{
-                      textDecoration: component.isMainComponentFilteredOut ? 'line-through' : 'none',
+                      textDecoration: (component.isMainComponentFilteredOut || component.isFilteredOut) ? 'line-through' : 'none',
                     }}
-                    label={(
-                      <>
-                        {component.name}
-                        {component.price > 0 && `(+${component.price}${kitchen.currency})`}
-                      </>
-                        )}
+                    label={`${component.name} ${component.price > 0 ? `(+${component.price}${kitchen.currency})` : ''}`}
                   />
                 </Badge>
               )

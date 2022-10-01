@@ -48,14 +48,14 @@ export default function DishAccordion({ data }) {
           exclusive
           onChange={handleChangeExpandedInfoPanel}
         >
-          <ToggleButton value="sideDish" disabled={data.recipe.sideDish.length === 0}>side dish</ToggleButton>
-          <ToggleButton value="addableComponents" disabled={data.recipe.addableComponents.length === 0}>upgrades</ToggleButton>
+          {/* <ToggleButton value="sideDish" disabled={data?.recipe?.sideDish?.length === 0}>side dish</ToggleButton> */}
+          <ToggleButton value="addableComponents" disabled={data?.recipe?.addableComponents?.length === 0}>upgrades</ToggleButton>
         </ToggleButtonGroup>
       </AccordionSummary>
       <AccordionDetails>
         {
               expandedInfoPanel === 'sideDish'
-              && data.recipe.sideDish.map((dish) => {
+              && data?.recipe?.sideDish?.map((dish) => {
                 const sideDishExcludableComponentsFilteredOut = dish?.recipe?.excludable?.filter(
                   (component) => component.isFilteredOut,
                 )
@@ -157,7 +157,7 @@ export default function DishAccordion({ data }) {
 
         {
               expandedInfoPanel === 'addableComponents'
-              && data.recipe.addableComponents.map((dish) => {
+              && data?.recipe?.addableComponents?.map((dish) => {
                 const addableComponentExcludableComponentsFilteredOut = dish?.recipe?.excludable?.filter(
                   (component) => component.isFilteredOut,
                 )

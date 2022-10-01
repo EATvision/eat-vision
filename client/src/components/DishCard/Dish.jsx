@@ -10,6 +10,7 @@ import ClampLines from 'react-clamp-lines'
 import { useKitchenById } from '../../hooks/kitchens'
 
 import DishRecipeTypeChips from './DishRecipeTypeChips'
+import DishAccordion from './DishAccordion'
 
 export default function Dish({ data }) {
   const theme = useTheme()
@@ -17,6 +18,7 @@ export default function Dish({ data }) {
   const { kitchen } = useKitchenById(kitchenId)
 
   const [askForChangesAnchorEl, setAskForChangesAnchorEl] = React.useState(null)
+  const [selectedComponents, setSelectedComponents] = React.useState({ choice: [], sideDish: [], addableComponents: [] })
 
   const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
     (component) => component.isFilteredOut,
@@ -32,6 +34,16 @@ export default function Dish({ data }) {
 
   const handlePopoverClose = () => {
     setAskForChangesAnchorEl(null)
+  }
+
+  const handleSelect = (recipeType, options = { exclusive: false }) => (componentId) => {
+    setSelectedComponents((currSelectedComponents) => ({
+      ...currSelectedComponents,
+      // eslint-disable-next-line no-nested-ternary
+      [recipeType]: currSelectedComponents[recipeType].includes(componentId) ? (
+        options.exclusive ? [componentId] : currSelectedComponents[recipeType].filter((c) => c !== componentId)
+      ) : [...currSelectedComponents[recipeType], componentId],
+    }))
   }
 
   return (
@@ -225,22 +237,42 @@ export default function Dish({ data }) {
           {
             data.recipe?.choice?.length > 0
             && (
-              <DishRecipeTypeChips data={data} label="choice" recipeType="choice" />
+              <DishRecipeTypeChips
+                data={data}
+                label="choice"
+                recipeType="choice"
+                selectedComponents={selectedComponents.choice}
+                onSelect={handleSelect('choice', { exclusive: true })}
+              />
             )
           }
 
           {
             data.recipe?.sideDish?.length > 0
             && (
-              <DishRecipeTypeChips data={data} label="side dish" recipeType="sideDish" />
+            <DishRecipeTypeChips
+              data={data}
+              label="side dish"
+              recipeType="sideDish"
+              selectedComponents={selectedComponents.sideDish}
+              onSelect={handleSelect('sideDish', { exclusive: false })}
+            />
             )
           }
 
+          <DishAccordion data={data} />
+
           {
-            data.recipe?.addableComponents?.length > 0
-            && (
-            <DishRecipeTypeChips data={data} label="upgrades" recipeType="addableComponents" />
-            )
+            // data.recipe?.addableComponents?.length > 0
+            // && (
+            // <DishRecipeTypeChips
+            //   data={data}
+            //   label="upgrades"
+            //   recipeType="addableComponents"
+            //   selectedComponents={selectedComponents.addableComponents}
+            //   onSelect={handleSelect('addableComponents', { exclusive: false })}
+            // />
+            // )
           }
         </Box>
       </Card>
