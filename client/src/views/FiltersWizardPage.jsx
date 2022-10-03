@@ -7,15 +7,18 @@ import {
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft'
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
 
-import DietsSelector from '../components/DietsSelector'
-import IngredientsSelector from '../components/IngredientsSelector'
+import DietsStep from '../components/FiltersForm/DietsStep'
+import FoodRestrictionsStep from '../components/FiltersForm/FoodRestrictionsStep'
 
 const useSteps = (filters, setFilters) => ([
   {
-    stepContent: <DietsSelector filters={filters} setFilters={setFilters} />,
+    stepContent: <div />,
   },
   {
-    stepContent: <IngredientsSelector filters={filters} setFilters={setFilters} />,
+    stepContent: <DietsStep filters={filters} setFilters={setFilters} />,
+  },
+  {
+    stepContent: <FoodRestrictionsStep filters={filters} setFilters={setFilters} />,
   },
 ])
 
@@ -26,7 +29,7 @@ function FiltersWizardPage({ filters, setFilters }) {
 
   const { t } = useTranslation()
 
-  const [activeStep, setActiveStep] = React.useState(0)
+  const [activeStep, setActiveStep] = React.useState(1)
   const maxSteps = steps.length
 
   const handleNext = () => {
@@ -35,7 +38,11 @@ function FiltersWizardPage({ filters, setFilters }) {
   }
 
   const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1)
+    setActiveStep((prevActiveStep) => {
+      const updatedStep = prevActiveStep - 1
+      if (updatedStep === 0) navigate('../')
+      return updatedStep
+    })
   }
 
   return (
@@ -44,7 +51,7 @@ function FiltersWizardPage({ filters, setFilters }) {
         {steps[activeStep].stepContent}
       </Box>
       <MobileStepper
-        variant="text"
+        variant="progress"
         steps={maxSteps}
         position="static"
         activeStep={activeStep}

@@ -53,8 +53,8 @@ function FiltersPage({
 
         <Button
           variant="outlined"
-          endIcon={filters.avoid.length > 0 && <CheckIcon />}
-          onClick={handleClickFilterType('avoid')}
+          endIcon={filters.exclude.length > 0 && <CheckIcon />}
+          onClick={handleClickFilterType('exclude')}
           sx={{ marginTop: theme.spacing(2) }}
         >
           {t('i_dont_eat_specific_foods')}
@@ -80,7 +80,7 @@ function FiltersPage({
             }
 
             {
-              filterType === 'avoid'
+              filterType === 'exclude'
               && <IngredientsSelector filters={filters} setFilters={setFilters} />
             }
           </div>
