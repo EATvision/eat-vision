@@ -9,6 +9,7 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
 
 import DietsStep from '../components/FiltersForm/DietsStep'
 import FoodRestrictionsStep from '../components/FiltersForm/FoodRestrictionsStep'
+import MenuOptionsBanner from '../components/MenuOptionsBanner'
 
 const useSteps = (filters, setFilters) => ([
   {
@@ -22,7 +23,7 @@ const useSteps = (filters, setFilters) => ([
   },
 ])
 
-function FiltersWizardPage({ filters, setFilters }) {
+function FiltersWizardPage({ filters, setFilters, dishes }) {
   const navigate = useNavigate()
   const theme = useTheme()
   const steps = useSteps(filters, setFilters)
@@ -47,7 +48,7 @@ function FiltersWizardPage({ filters, setFilters }) {
 
   return (
     <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
-      <Box sx={{ flexGrow: 1, padding: theme.spacing(2) }}>
+      <Box sx={{ flexGrow: 1 }}>
         {steps[activeStep].stepContent}
       </Box>
       <MobileStepper
@@ -79,6 +80,7 @@ function FiltersWizardPage({ filters, setFilters }) {
           </Button>
         )}
       />
+      <MenuOptionsBanner filters={filters} dishes={dishes} />
     </Box>
   )
 }

@@ -40,7 +40,7 @@ export default {
   type_ingredient_or_food: 'Type an ingredient or food type',
   relevant_options: 'relevant options',
   filters: 'filters',
-  any_restrictions: 'Any restrictions?',
+  any_restrictions: 'Any food restrictions?',
   any_more_restrictions: 'Any more restrictions?',
   if_thats_all_press_done: 'if that\'s all, press done',
   ask_for_changes: 'ask for changes',

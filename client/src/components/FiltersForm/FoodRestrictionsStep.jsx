@@ -1,11 +1,11 @@
 import { t } from 'i18next'
 import React from 'react'
 import {
-  Collapse,
-  Divider, Button, Typography, useTheme, Box, ToggleButtonGroup, ToggleButton,
+  Collapse, Divider, Typography, useTheme, Box, ToggleButtonGroup, ToggleButton,
 } from '@mui/material'
 
 import IngredientsSelector from './IngredientsSelector'
+import WaiterBanner from '../WaiterBanner'
 
 function FoodRestrictionsStep({ filters, setFilters }) {
   const theme = useTheme()
@@ -47,103 +47,106 @@ function FoodRestrictionsStep({ filters, setFilters }) {
   // if (isError) return <div>{JSON.stringify(isError)}</div>
   return (
     <>
-      <Typography variant="h4" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('things_i_avoid')}</Typography>
-      <Typography variant="h5" sx={{ textAlign: 'center', margin: theme.spacing(3) }}>{t('choose_relevant_options')}</Typography>
+      <WaiterBanner
+        title={t('any_restrictions')}
+        subtitle={t('choose_relevant_options')}
+      />
 
-      <ToggleButtonGroup
-        fullWidth
-        variant="outlined"
-        color="primary"
-        orientation="vertical"
-      >
-        <ToggleButton
+      <Box sx={{ padding: theme.spacing(2) }}>
+        <ToggleButtonGroup
           fullWidth
+          variant="outlined"
           color="primary"
-          variant="outlined"
-          selected={isNoRestrictions}
-          onClick={handleClickNoRestrictions}
+          orientation="vertical"
         >
-          {t('no_food_restrictions')}
-        </ToggleButton>
-      </ToggleButtonGroup>
+          <ToggleButton
+            fullWidth
+            color="primary"
+            variant="outlined"
+            selected={isNoRestrictions}
+            onClick={handleClickNoRestrictions}
+          >
+            {t('no_food_restrictions')}
+          </ToggleButton>
+        </ToggleButtonGroup>
 
-      <Divider variant="middle" sx={{ margin: `${theme.spacing(2)} 0` }} />
+        <Divider variant="middle" sx={{ margin: `${theme.spacing(2)} 0` }} />
 
-      <ToggleButtonGroup
-        fullWidth
-        variant="outlined"
-        color="primary"
-        orientation="vertical"
-      >
-        <ToggleButton
+        <ToggleButtonGroup
           fullWidth
           variant="outlined"
-          selected={selectedRestrictions.exclude}
-          onClick={handleClickSelectRestriction('exclude')}
+          color="primary"
+          orientation="vertical"
         >
-          {t('things_i_dont_eat')}
-        </ToggleButton>
+          <ToggleButton
+            fullWidth
+            variant="outlined"
+            selected={selectedRestrictions.exclude}
+            onClick={handleClickSelectRestriction('exclude')}
+          >
+            {t('things_i_dont_eat')}
+          </ToggleButton>
 
-        <Collapse
-          unmountOnExit
-          in={selectedRestrictions.exclude}
-        >
-          <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
-            <IngredientsSelector filters={filters} setFilters={setFilters} filterType="exclude" />
-          </Box>
-        </Collapse>
-      </ToggleButtonGroup>
+          <Collapse
+            unmountOnExit
+            in={selectedRestrictions.exclude}
+          >
+            <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
+              <IngredientsSelector filters={filters} setFilters={setFilters} filterType="exclude" />
+            </Box>
+          </Collapse>
+        </ToggleButtonGroup>
 
-      <ToggleButtonGroup
-        fullWidth
-        variant="outlined"
-        color="primary"
-        orientation="vertical"
-      >
-        <ToggleButton
+        <ToggleButtonGroup
           fullWidth
           variant="outlined"
-          selected={selectedRestrictions.allergies}
-          onClick={handleClickSelectRestriction('allergies')}
+          color="primary"
+          orientation="vertical"
         >
-          {t('im_allergic')}
-        </ToggleButton>
+          <ToggleButton
+            fullWidth
+            variant="outlined"
+            selected={selectedRestrictions.allergies}
+            onClick={handleClickSelectRestriction('allergies')}
+          >
+            {t('im_allergic')}
+          </ToggleButton>
 
-        <Collapse
-          unmountOnExit
-          in={selectedRestrictions.allergies}
-        >
-          <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
-            <IngredientsSelector filters={filters} setFilters={setFilters} filterType="allergies" />
-          </Box>
-        </Collapse>
-      </ToggleButtonGroup>
+          <Collapse
+            unmountOnExit
+            in={selectedRestrictions.allergies}
+          >
+            <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
+              <IngredientsSelector filters={filters} setFilters={setFilters} filterType="allergies" />
+            </Box>
+          </Collapse>
+        </ToggleButtonGroup>
 
-      <ToggleButtonGroup
-        fullWidth
-        variant="outlined"
-        color="primary"
-        orientation="vertical"
-      >
-        <ToggleButton
+        <ToggleButtonGroup
           fullWidth
           variant="outlined"
-          selected={selectedRestrictions.reduce}
-          onClick={handleClickSelectRestriction('reduce')}
+          color="primary"
+          orientation="vertical"
         >
-          {t('things_i_avoid_or_reduce')}
-        </ToggleButton>
+          <ToggleButton
+            fullWidth
+            variant="outlined"
+            selected={selectedRestrictions.reduce}
+            onClick={handleClickSelectRestriction('reduce')}
+          >
+            {t('things_i_avoid_or_reduce')}
+          </ToggleButton>
 
-        <Collapse
-          unmountOnExit
-          in={selectedRestrictions.reduce}
-        >
-          <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
-            <IngredientsSelector filters={filters} setFilters={setFilters} filterType="reduce" />
-          </Box>
-        </Collapse>
-      </ToggleButtonGroup>
-
+          <Collapse
+            unmountOnExit
+            in={selectedRestrictions.reduce}
+          >
+            <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
+              <IngredientsSelector filters={filters} setFilters={setFilters} filterType="reduce" />
+            </Box>
+          </Collapse>
+        </ToggleButtonGroup>
+      </Box>
     </>
   )
 }
