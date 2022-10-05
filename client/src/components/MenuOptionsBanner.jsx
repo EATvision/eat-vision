@@ -1,7 +1,8 @@
 import React from 'react'
 import {
-  Avatar, Box, Typography, useTheme,
+  Box, Typography, useTheme,
 } from '@mui/material'
+import MenuSelector from './MenuSelector'
 
 function MenuOptionsBanner({ dishes, filters }) {
   const theme = useTheme()
@@ -12,17 +13,26 @@ function MenuOptionsBanner({ dishes, filters }) {
       sx={{
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         backgroundColor: theme.palette.primary.main,
         position: 'relative',
-        height: 80,
         color: theme.palette.common.white,
+        padding: theme.spacing(2),
       }}
     >
-      options
-      {filteredDishes.length}
-      /
-      {dishes.total.length}
+      <MenuSelector />
+
+      <Box sx={{ display: 'flex' }}>
+        <Typography variant="h5">
+          {filteredDishes.length}
+          /
+        </Typography>
+        <Typography variant="h6">
+          {dishes.total.length}
+        </Typography>
+
+        <Typography variant="h6" sx={{ marginLeft: theme.spacing(1) }}>options</Typography>
+      </Box>
     </Box>
   )
 }
