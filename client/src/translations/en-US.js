@@ -3,7 +3,7 @@ export default {
   sign_in: 'sign in',
   'Welcome to React': 'hello',
   hi_im_your_personal_waiter: 'Hello, I’m Dawn happy to assist you',
-  let_me_help_you: 'Let see only the things that are relevant to your needs',
+  let_me_help_you: 'Lets see only the things that are relevant to your needs',
   lets_get_started: 'Let\'s get started',
   or_skip_to_the: 'or skip to the',
   tofull_menu: 'full menu',
