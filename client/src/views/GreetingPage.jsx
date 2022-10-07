@@ -97,7 +97,7 @@ function GreetingPage({ setFilters }) {
       <Box sx={{ margin: theme.spacing(2), marginTop: 'auto' }}>
         <Link
           className="group flex flex-col"
-          to="filters"
+          to="filters/1"
         >
           <Button variant="contained" color="primary">{t('lets_get_started')}</Button>
         </Link>

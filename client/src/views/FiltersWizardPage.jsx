@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import {
   Box, Button, MobileStepper, useTheme,
 } from '@mui/material'
@@ -24,44 +24,43 @@ const useSteps = (filters, setFilters) => ([
 ])
 
 function FiltersWizardPage({ filters, setFilters, dishes }) {
-  const navigate = useNavigate()
   const theme = useTheme()
+  const { step } = useParams()
+  const navigate = useNavigate()
   const steps = useSteps(filters, setFilters)
 
   const { t } = useTranslation()
 
-  const [activeStep, setActiveStep] = React.useState(1)
   const maxSteps = steps.length
 
   const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1)
-    if (activeStep === maxSteps - 1) navigate('../dishes')
+    const nextStep = Number(step) + 1
+    if (nextStep === maxSteps) return navigate('../dishes')
+    return navigate(`../filters/${nextStep}`)
   }
 
   const handleBack = () => {
-    setActiveStep((prevActiveStep) => {
-      const updatedStep = prevActiveStep - 1
-      if (updatedStep === 0) navigate('../')
-      return updatedStep
-    })
+    const prevStep = Number(step) - 1
+    if (prevStep === 0) return navigate('../')
+    return navigate(`../filters/${prevStep}`)
   }
 
   return (
     <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
       <Box sx={{ flexGrow: 1 }}>
-        {steps[activeStep].stepContent}
+        {steps[Number(step)].stepContent}
       </Box>
       <MobileStepper
         variant="progress"
         steps={maxSteps}
         position="static"
-        activeStep={activeStep}
+        activeStep={Number(step)}
         nextButton={(
           <Button
             size="small"
             onClick={handleNext}
           >
-            {t(activeStep === maxSteps - 1 ? 'done' : 'next')}
+            {t(Number(step) === maxSteps - 1 ? 'done' : 'next')}
             {theme.direction === 'rtl' ? (
               <KeyboardArrowLeft />
             ) : (
@@ -70,7 +69,11 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
           </Button>
         )}
         backButton={(
-          <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
+          <Button
+            size="small"
+            onClick={handleBack}
+            disabled={Number(step) === 0}
+          >
             {theme.direction === 'rtl' ? (
               <KeyboardArrowRight />
             ) : (

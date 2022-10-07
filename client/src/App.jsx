@@ -49,7 +49,7 @@ function App() {
             <Route path="menus" element={<MenusPage />} />
             <Route path="menus/:menuId" element={<MenuPage filters={filters} setDishes={setDishes} />}>
               <Route index element={<GreetingPage setFilters={setFilters} />} />
-              <Route path="filters" element={<FiltersWizardPage dishes={dishes} filters={filters} setFilters={setFilters} />} />
+              <Route path="filters/:step" element={<FiltersWizardPage dishes={dishes} filters={filters} setFilters={setFilters} />} />
               <Route path="dishes" element={<DishesPage filters={filters} dishes={dishes} setDishes={setDishes} />} />
             </Route>
           </Route>
