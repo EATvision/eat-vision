@@ -73,17 +73,17 @@ function GreetingPage({ setFilters }) {
             {t('hi_im_your_personal_waiter')}
           </Typography>
 
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6">
             <b>{t('let_me_help_you')}</b>
           </Typography>
 
           <Typography
             variant="body2"
-            sx={{ display: 'flex', justifyContent: 'center', opacity: 0.8 }}
+            sx={{
+              display: 'flex', justifyContent: 'center', opacity: 0.8, marginTop: theme.spacing(2),
+            }}
           >
-
             {t('or_skip_to_the')}
-
             <Link
               className="group flex flex-col"
               to="dishes"
