@@ -1,89 +1,29 @@
-import { useTranslation } from 'react-i18next'
 import React from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import {
-  Box, Button, MobileStepper, useTheme,
+  Box,
 } from '@mui/material'
-import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft'
-import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
 
-import DietsStep from '../components/FiltersForm/DietsStep'
-import FoodRestrictionsStep from '../components/FiltersForm/FoodRestrictionsStep'
 import MenuOptionsBanner from '../components/MenuOptionsBanner'
-
-const useSteps = (filters, setFilters) => ([
-  {
-    stepContent: <div />,
-  },
-  {
-    stepContent: <DietsStep filters={filters} setFilters={setFilters} />,
-  },
-  {
-    stepContent: <FoodRestrictionsStep filters={filters} setFilters={setFilters} />,
-  },
-])
+import useSteps from '../components/FiltersForm/useSteps'
+import FiltersStepper from '../components/FiltersForm/FiltersStepper'
 
 function FiltersWizardPage({ filters, setFilters, dishes }) {
-  const theme = useTheme()
   const { step } = useParams()
-  const navigate = useNavigate()
   const steps = useSteps(filters, setFilters)
-
-  const { t } = useTranslation()
-
-  const maxSteps = steps.length
-
-  const handleNext = () => {
-    const nextStep = Number(step) + 1
-    if (nextStep === maxSteps) return navigate('../dishes')
-    return navigate(`../filters/${nextStep}`)
-  }
-
-  const handleBack = () => {
-    const prevStep = Number(step) - 1
-    if (prevStep === 0) return navigate('../')
-    return navigate(`../filters/${prevStep}`)
-  }
 
   return (
     <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
       <Box sx={{ flexGrow: 1 }}>
         {steps[Number(step)].stepContent}
       </Box>
-      <MobileStepper
-        variant="progress"
-        steps={maxSteps}
-        position="static"
-        activeStep={Number(step)}
-        nextButton={(
-          <Button
-            size="small"
-            onClick={handleNext}
-          >
-            {t(Number(step) === maxSteps - 1 ? 'done' : 'next')}
-            {theme.direction === 'rtl' ? (
-              <KeyboardArrowLeft />
-            ) : (
-              <KeyboardArrowRight />
-            )}
-          </Button>
-        )}
-        backButton={(
-          <Button
-            size="small"
-            onClick={handleBack}
-            disabled={Number(step) === 0}
-          >
-            {theme.direction === 'rtl' ? (
-              <KeyboardArrowRight />
-            ) : (
-              <KeyboardArrowLeft />
-            )}
-            {t('back')}
-          </Button>
-        )}
-      />
-      <MenuOptionsBanner filters={filters} dishes={dishes} />
+
+      <FiltersStepper filters={filters} dishes={dishes} />
+
+      {
+        dishes?.total?.length > 0
+        && <MenuOptionsBanner filters={filters} dishes={dishes} />
+      }
     </Box>
   )
 }

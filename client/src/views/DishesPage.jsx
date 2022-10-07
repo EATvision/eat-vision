@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import useScrollSpy from 'react-use-scrollspy'
 
 import {
-  AppBar, Box, Typography, useTheme,
+  Box, Typography, useTheme,
 } from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../hooks/kitchens'
 

@@ -4,7 +4,7 @@ import {
 } from '@mui/material'
 import MenuSelector from './MenuSelector'
 
-function MenuOptionsBanner({ dishes, filters }) {
+function MenuOptionsBanner({ dishes }) {
   const theme = useTheme()
 
   const filteredDishes = dishes.filtered.filter((d) => !d.isMainDishFilteredOut)

@@ -1,7 +1,7 @@
 import { t } from 'i18next'
 import React from 'react'
 import {
-  Collapse, Divider, Typography, useTheme, Box, ToggleButtonGroup, ToggleButton,
+  Collapse, Divider, useTheme, Box, ToggleButtonGroup, ToggleButton,
 } from '@mui/material'
 
 import IngredientsSelector from './IngredientsSelector'

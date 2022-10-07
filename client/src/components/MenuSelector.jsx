@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  FormControl, InputLabel, MenuItem, Select, useTheme,
+  FormControl, InputLabel, MenuItem, Select,
 } from '@mui/material'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useKitchenMenusById } from '../hooks/kitchens'
@@ -8,7 +8,7 @@ import { useKitchenMenusById } from '../hooks/kitchens'
 function MenuOptionsBanner() {
   const { kitchenId, menuId } = useParams()
   const { navigate } = useNavigate()
-  const { menus, isLoading, isError } = useKitchenMenusById(kitchenId)
+  const { menus } = useKitchenMenusById(kitchenId)
 
   const handleChange = (event) => {
     navigate('', { state: { menuId: event.target.value } })

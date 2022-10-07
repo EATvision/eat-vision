@@ -39,6 +39,8 @@ function App() {
         sx={{
           height: 'calc(100vh - 40px)',
           position: 'relative',
+          display: 'flex',
+          justifyContent: 'center',
         }}
       >
 
@@ -53,6 +55,9 @@ function App() {
               <Route path="dishes" element={<DishesPage filters={filters} dishes={dishes} setDishes={setDishes} />} />
             </Route>
           </Route>
+
+          <Route path="/filters" element={<Navigate replace to="/filters/1" />} />
+          <Route path="/filters/:step" element={<FiltersWizardPage dishes={dishes} filters={filters} setFilters={setFilters} />} />
 
           <Route path="/admin/kitchens/:kitchenId" element={<CustomerPage />} />
 
