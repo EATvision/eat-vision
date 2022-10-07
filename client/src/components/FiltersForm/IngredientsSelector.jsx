@@ -47,7 +47,7 @@ function IngredientsSelector({ filters, setFilters, filterType }) {
       onInputChange={handleInputChange}
       getOptionLabel={(e) => e.name}
       getOptionValue={(e) => e.id}
-      closeMenuOnSelect={false}
+      closeMenuOnSelect
       placeholder="Type to search ingredients"
     />
   )
