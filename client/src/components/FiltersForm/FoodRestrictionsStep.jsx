@@ -81,7 +81,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
           <ToggleButton
             fullWidth
             variant="outlined"
-            selected={selectedRestrictions.exclude}
+            selected={Boolean(selectedRestrictions.exclude)}
             onClick={handleClickSelectRestriction('exclude')}
           >
             {t('things_i_dont_eat')}
@@ -89,7 +89,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
 
           <Collapse
             unmountOnExit
-            in={selectedRestrictions.exclude}
+            in={Boolean(selectedRestrictions.exclude)}
           >
             <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
               <IngredientsSelector filters={filters} setFilters={setFilters} filterType="exclude" />
@@ -106,7 +106,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
           <ToggleButton
             fullWidth
             variant="outlined"
-            selected={selectedRestrictions.allergies}
+            selected={Boolean(selectedRestrictions.allergies)}
             onClick={handleClickSelectRestriction('allergies')}
           >
             {t('im_allergic')}
@@ -114,7 +114,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
 
           <Collapse
             unmountOnExit
-            in={selectedRestrictions.allergies}
+            in={Boolean(selectedRestrictions.allergies)}
           >
             <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
               <IngredientsSelector filters={filters} setFilters={setFilters} filterType="allergies" />
@@ -131,7 +131,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
           <ToggleButton
             fullWidth
             variant="outlined"
-            selected={selectedRestrictions.reduce}
+            selected={Boolean(selectedRestrictions.reduce)}
             onClick={handleClickSelectRestriction('reduce')}
           >
             {t('things_i_avoid_or_reduce')}
@@ -139,7 +139,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
 
           <Collapse
             unmountOnExit
-            in={selectedRestrictions.reduce}
+            in={Boolean(selectedRestrictions.reduce)}
           >
             <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
               <IngredientsSelector filters={filters} setFilters={setFilters} filterType="reduce" />

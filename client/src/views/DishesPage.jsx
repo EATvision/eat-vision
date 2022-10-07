@@ -3,7 +3,9 @@ import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import useScrollSpy from 'react-use-scrollspy'
 
-import { Box, Typography, useTheme } from '@mui/material'
+import {
+  AppBar, Box, Typography, useTheme,
+} from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../hooks/kitchens'
 
 import Dish from '../components/DishCard/Dish'
@@ -53,7 +55,7 @@ function DishesPage({ dishes }) {
 
   return (
     <div>
-      <div className="sticky-top text-sm">
+      <div className="top-10 fixed text-sm z-10">
         <ul className="nav menu-sidebar bg-black text-white overflow-auto whitespace-nowrap">
           {
             orderedCategories.map((category, index) => (
@@ -65,7 +67,7 @@ function DishesPage({ dishes }) {
         </ul>
       </div>
 
-      <div className="container relative overflow-auto mx-auto">
+      <div className="container relative overflow-auto mx-auto mt-16">
         {
           orderedCategories?.map((category, index) => (
             <div
