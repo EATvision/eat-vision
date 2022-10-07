@@ -24,12 +24,10 @@ function GreetingPage({ setFilters }) {
 
   const handleClickSignin = () => {}
 
-  console.log(kitchen?.image)
-
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <Box>
-        <div className="w-28 h-28 mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8  flex-1">
+        <div className="w-[150px] h-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8  flex-1">
           <img
             className="w-full h-full object-center object-fit group-hover:opacity-75"
             src={kitchen?.image?.[0]?.url}

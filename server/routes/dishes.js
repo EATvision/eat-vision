@@ -32,7 +32,7 @@ router.get("/", async (req, res) => {
 
   const fuse = new Fuse(searchableDishes, options);
 
-  let filteredDishes = searchableDishes.slice(0, 10)
+  let filteredDishes = []
   if ('ids' in query) {
     filteredDishes = query.ids.length ? query.ids.split(',').map(id => searchableDishes.find(d => d.id === id)) : []
   } else if (query?.q?.length) {
