@@ -4,6 +4,8 @@ import {
 } from '@mui/material'
 import waiterSrc from '../images/waiter_transparent_halfbody.png'
 
+const WAITER_AVATAR_WIDTH = 60
+
 function WaiterBanner({ title, subtitle }) {
   const theme = useTheme()
 
@@ -14,23 +16,27 @@ function WaiterBanner({ title, subtitle }) {
         alignItems: 'center',
         justifyContent: 'center',
         // backgroundColor: theme.palette.primary.main,
-        padding: theme.spacing(1),
         margin: theme.spacing(1),
         position: 'relative',
         height: 80,
       }}
     >
-      <Box>
+      <Box
+        sx={{
+          width: 270,
+          marginLeft: `${WAITER_AVATAR_WIDTH}px`,
+        }}
+      >
         <Typography variant="h6">{title}</Typography>
         <Typography variant="p">{subtitle}</Typography>
       </Box>
       <Avatar
         src={waiterSrc}
         sx={{
-          width: 75,
-          height: 75,
-          position: 'absolute',
-          right: 0,
+          width: WAITER_AVATAR_WIDTH,
+          height: WAITER_AVATAR_WIDTH,
+          position: 'relative',
+          right: 10,
           top: 0,
         }}
       />

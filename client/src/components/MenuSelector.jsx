@@ -23,7 +23,7 @@ function MenuOptionsBanner() {
         onChange={handleChange}
       >
         {
-          menus.map((menu) => (
+          menus?.map((menu) => (
             <MenuItem key={menu.id} value={menu.id}>{menu.name}</MenuItem>
           ))
         }
