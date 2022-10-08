@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import NavBar from '../components/DinersPage/NavBar'
+import NavBar from '../components/DinersView/NavBar'
 
 function DinerPage() {
   return (

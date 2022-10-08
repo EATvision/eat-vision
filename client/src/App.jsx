@@ -4,20 +4,23 @@ import {
 } from 'react-router-dom'
 
 import i18next from 'i18next'
-import DishesPage from './components/DinersPage/DishesPage'
-import CustomerPage from './views/CustomerPage'
+import DishesPage from './components/DinersView/DishesPage'
 
-import KitchensPage from './components/DinersPage/KitchensPage'
-import KitchenPage from './components/DinersPage/KitchenPage'
-import GreetingPage from './components/DinersPage/GreetingPage'
-import FiltersWizardPage from './components/DinersPage/FiltersWizardPage'
-import MenusPage from './components/DinersPage/MenusPage'
-import MenuPage from './components/DinersPage/MenuPage'
+import DinerView from './views/DinerView'
+import KitchensPage from './components/DinersView/KitchensPage'
+import KitchenPage from './components/DinersView/KitchenPage'
+import GreetingPage from './components/DinersView/GreetingPage'
+import FiltersWizardPage from './components/DinersView/FiltersWizardPage'
+import MenusPage from './components/DinersView/MenusPage'
+import MenuPage from './components/DinersView/MenuPage'
 
-import DinerPage from './views/DinerPage'
+import CustomerView from './views/CustomerView'
 
 import { defaultFilters } from './utils/filters'
 import './App.css'
+import DishesManagerPage from './components/CustomersView/DishesManagerPage/DishesManagerPage'
+import OverviewPage from './components/CustomersView/OverviewPage'
+import MenusManagerPage from './components/CustomersView/MenusManagerPage/MenusManagerPage'
 
 function App() {
   const [filters, setFilters] = React.useState(defaultFilters)
@@ -29,7 +32,7 @@ function App() {
 
     <Routes>
       <Route path="/" element={<Navigate replace to="/diners/kitchens" />} />
-      <Route path="/diners" element={<DinerPage />}>
+      <Route path="/diners" element={<DinerView />}>
         <Route index path="kitchens" element={<KitchensPage />} />
         <Route path="kitchens/:kitchenId" element={<KitchenPage />}>
           <Route path="menus" element={<MenusPage />} />
@@ -44,7 +47,11 @@ function App() {
         <Route path="filters/:step" element={<FiltersWizardPage dishes={dishes} filters={filters} setFilters={setFilters} />} />
       </Route>
 
-      <Route path="customers/kitchens/:kitchenId/" element={<CustomerPage />} />
+      <Route path="customers" element={<CustomerView />}>
+        <Route index path="overview" element={<OverviewPage />} />
+        <Route path="dishes" element={<DishesManagerPage />} />
+        <Route path="menus" element={<MenusManagerPage />} />
+      </Route>
 
       <Route
         path="*"

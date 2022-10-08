@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-function DishesList() {
+function DishesManagerPage() {
   const { i18n } = useTranslation()
 
   return (
@@ -11,4 +11,4 @@ function DishesList() {
   )
 }
 
-export default DishesList
+export default DishesManagerPage
