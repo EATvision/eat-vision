@@ -2,7 +2,7 @@ const { Router } = require("express");
 const Fuse = require('fuse.js')
 const router = Router();
 
-const dbClient = require('../db')
+const { client: dbClient, getDBId } = require('../db')
 const dishesCollection = dbClient?.db('eat').collection('dishes');
 
 const options = {
@@ -37,9 +37,19 @@ router.get("/", async (req, res) => {
     filteredDishes = query.ids.length ? query.ids.split(',').map(id => searchableDishes.find(d => d.id === id)) : []
   } else if (query?.q?.length) {
     filteredDishes = fuse.search(query.q).map(i => i.item)
+  } else {
+    filteredDishes = searchableDishes
   }
 
   res.send(filteredDishes);
+});
+
+router.get("/:id", async (req, res) => {
+  const { params: { id } } = req
+
+  const dish = await dishesCollection.findOne({ _id: getDBId(id) })
+
+  res.send(dish);
 });
 
 router.post("/", async (req, res) => {

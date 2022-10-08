@@ -131,7 +131,7 @@ export default function Dish({ data }) {
                       marginLeft: theme.spacing(1),
                     }}
                   >
-                    {`${data.price}${kitchen.currency}`}
+                    {`${data.price}${kitchen?.currency}`}
                   </Typography>
                   )
                 }

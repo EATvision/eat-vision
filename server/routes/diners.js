@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 
-const dbClient = require('../db')
+const { client: dbClient } = require('../db')
 const dinersCollection = dbClient?.db('eat').collection('diners');
 
 router.post("/anonymous", async (req, res) => {

@@ -52,7 +52,7 @@ export default function DishRecipeChips({
                     sx={{
                       textDecoration: (component.isMainComponentFilteredOut || component.isFilteredOut) ? 'line-through' : 'none',
                     }}
-                    label={`${component.name} ${component.price > 0 ? `(+${component.price}${kitchen.currency})` : ''}`}
+                    label={`${component.name} ${component.price > 0 ? `(+${component.price}${kitchen?.currency})` : ''}`}
                   />
                 </Badge>
               )

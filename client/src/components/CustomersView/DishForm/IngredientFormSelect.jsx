@@ -32,10 +32,14 @@ function IngredientFormSelect({ label, name, disableAdditionalPrices = false }) 
 
   const [localIngredients, setlocalIngredients] = React.useState([])
 
-  const setIngredients = async (ingredient) => {
-    const data = await getIngredientsByIds(ingredient.map((ing) => ing.id))
+  const setIngredients = async (ingredients) => {
+    const data = await getIngredientsByIds(ingredients.map((ing) => ing.id))
     setlocalIngredients(data)
   }
+
+  React.useEffect(() => {
+    setIngredients(_get(values, name))
+  }, [values, name])
 
   const handleInputChange = (newValue) => {
     const inputValue = newValue.replace(/\W/g, '')
@@ -65,7 +69,7 @@ function IngredientFormSelect({ label, name, disableAdditionalPrices = false }) 
         <AsyncSelect
           fullWidth
           defaultOptions
-          value={values[name]}
+          value={localIngredients}
           onChange={handleChangeIngredients}
           isMulti
           cacheOptions
@@ -108,7 +112,7 @@ function IngredientFormSelect({ label, name, disableAdditionalPrices = false }) 
                   inputMode: 'numeric',
                   pattern: '[0-9]*',
                   startAdornment: <InputAdornment position="start">+</InputAdornment>,
-                  endAdornment: <InputAdornment position="end">{kitchen.currency}</InputAdornment>,
+                  endAdornment: <InputAdornment position="end">{kitchen?.currency}</InputAdornment>,
                 }}
               />
               <ListItemText sx={{ flex: 1, margin: theme.spacing(2) }}>

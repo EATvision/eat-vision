@@ -21,6 +21,7 @@ import './App.css'
 import DishesManagerPage from './components/CustomersView/DishesManagerPage/DishesManagerPage'
 import OverviewPage from './components/CustomersView/OverviewPage'
 import MenusManagerPage from './components/CustomersView/MenusManagerPage/MenusManagerPage'
+import DishPage from './components/CustomersView/DishesManagerPage/DishPage'
 
 function App() {
   const [filters, setFilters] = React.useState(defaultFilters)
@@ -50,6 +51,7 @@ function App() {
       <Route path="customers" element={<CustomerView />}>
         <Route index path="overview" element={<OverviewPage />} />
         <Route path="dishes" element={<DishesManagerPage />} />
+        <Route path="dishes/:dishId" element={<DishPage />} />
         <Route path="menus" element={<MenusManagerPage />} />
       </Route>
 

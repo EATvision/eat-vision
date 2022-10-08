@@ -29,7 +29,7 @@ const initialDish = {
   },
 }
 
-function DishForm() {
+function DishForm({ data }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
 
@@ -37,9 +37,8 @@ function DishForm() {
 
   return (
     <Box sx={{ padding: theme.spacing(2), textAlign: 'start' }}>
-      <h1>Any place in your app!</h1>
       <Formik
-        initialValues={initialDish}
+        initialValues={data || initialDish}
         validate={(values) => {
           const errors = {}
 
@@ -95,7 +94,7 @@ function DishForm() {
                 InputProps={{
                   inputMode: 'numeric',
                   pattern: '[0-9]*',
-                  endAdornment: <InputAdornment position="start">{kitchen.currency}</InputAdornment>,
+                  endAdornment: <InputAdornment position="start">{kitchen?.currency}</InputAdornment>,
                 }}
                 value={values.price}
                 onChange={handleChange}

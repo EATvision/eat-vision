@@ -124,7 +124,7 @@ export default function DishAccordion({ data }) {
                         )}
                           action={dish.price > 0 && (
                           <div>
-                            {`+${dish.price}${kitchen.currency}`}
+                            {`+${dish.price}${kitchen?.currency}`}
                           </div>
                           )}
                         />
@@ -226,7 +226,7 @@ export default function DishAccordion({ data }) {
                         )}
                           action={dish.price > 0 && (
                           <div>
-                            {`+${dish.price}${kitchen.currency}`}
+                            {`+${dish.price}${kitchen?.currency}`}
                           </div>
                           )}
                         />

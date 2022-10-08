@@ -65,7 +65,7 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
         <AsyncSelect
           fullWidth
           defaultOptions
-          value={values[name]}
+          value={_get(values, name)}
           onChange={handleChangeDishes}
           isMulti
           cacheOptions
@@ -111,7 +111,7 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
                   inputMode: 'numeric',
                   pattern: '[0-9]*',
                   startAdornment: <InputAdornment position="start">+</InputAdornment>,
-                  endAdornment: <InputAdornment position="end">{kitchen.currency}</InputAdornment>,
+                  endAdornment: <InputAdornment position="end">{kitchen?.currency}</InputAdornment>,
                 }}
               />
             </ListItem>

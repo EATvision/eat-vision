@@ -1,12 +1,10 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
+import DishesList from './DishesList'
 
 function DishesManagerPage() {
-  const { i18n } = useTranslation()
-
   return (
     <div>
-      DISHES LIST
+      <DishesList />
     </div>
   )
 }
