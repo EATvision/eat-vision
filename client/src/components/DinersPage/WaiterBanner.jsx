@@ -2,7 +2,7 @@ import React from 'react'
 import {
   Avatar, Box, Typography, useTheme,
 } from '@mui/material'
-import waiterSrc from '../images/waiter_transparent_halfbody.png'
+import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 
 const WAITER_AVATAR_WIDTH = 60
 

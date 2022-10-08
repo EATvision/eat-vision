@@ -4,7 +4,7 @@ import {
 } from '@mui/material'
 
 import { useTranslation } from 'react-i18next'
-import { useDiets } from '../../hooks/diets'
+import { useDiets } from '../../../hooks/diets'
 import WaiterBanner from '../WaiterBanner'
 
 function DietsSelector({ filters, setFilters }) {

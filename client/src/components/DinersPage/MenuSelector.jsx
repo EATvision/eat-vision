@@ -3,7 +3,7 @@ import {
   FormControl, InputLabel, MenuItem, Select,
 } from '@mui/material'
 import { useNavigate, useParams } from 'react-router-dom'
-import { useKitchenMenusById } from '../hooks/kitchens'
+import { useKitchenMenusById } from '../../hooks/kitchens'
 
 function MenuOptionsBanner() {
   const { kitchenId, menuId } = useParams()

@@ -7,7 +7,7 @@ import {
 
 import ClampLines from 'react-clamp-lines'
 
-import { useKitchenById } from '../../hooks/kitchens'
+import { useKitchenById } from '../../../hooks/kitchens'
 
 import DishRecipeTypeChips from './DishRecipeTypeChips'
 import DishAccordion from './DishAccordion'

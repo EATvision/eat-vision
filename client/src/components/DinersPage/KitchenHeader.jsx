@@ -2,14 +2,11 @@ import React from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
-  AppBar, Button, IconButton, Toolbar, Typography,
+  AppBar, IconButton, Toolbar, Typography,
 } from '@mui/material'
-import MenuIcon from '@mui/icons-material/Menu'
 import BackIcon from '@mui/icons-material/ArrowBack'
-import FilterOnIcon from '@mui/icons-material/FilterAlt'
-import FilterOffIcon from '@mui/icons-material/FilterAltOff'
 
-import { useKitchenById, useKitchenMenusById } from '../hooks/kitchens'
+import { useKitchenById, useKitchenMenusById } from '../../hooks/kitchens'
 
 function KitchenHeader() {
   const navigate = useNavigate()

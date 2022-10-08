@@ -4,11 +4,11 @@ import { useTranslation } from 'react-i18next'
 import {
   Button, Box, Typography, useTheme,
 } from '@mui/material'
-import waiterSrc from '../images/waiter_transparent_fullbody.png'
+import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 
-import { defaultFilters } from '../utils/filters'
-import { postDiner } from '../api/diners'
-import { useKitchenById } from '../hooks/kitchens'
+import { defaultFilters } from '../../utils/filters'
+import { postDiner } from '../../api/diners'
+import { useKitchenById } from '../../hooks/kitchens'
 
 function GreetingPage({ setFilters }) {
   const theme = useTheme()

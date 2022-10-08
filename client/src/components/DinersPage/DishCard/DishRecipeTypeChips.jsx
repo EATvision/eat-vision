@@ -4,7 +4,7 @@ import {
   Box, useTheme, Stack, FormLabel, Chip, Badge,
 } from '@mui/material'
 
-import { useKitchenById } from '../../hooks/kitchens'
+import { useKitchenById } from '../../../hooks/kitchens'
 
 export default function DishRecipeChips({
   data, label, recipeType, onSelect = () => {}, selectedComponents = [],

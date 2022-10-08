@@ -4,9 +4,9 @@ import {
   Box,
 } from '@mui/material'
 
-import MenuOptionsBanner from '../components/MenuOptionsBanner'
-import useSteps from '../components/FiltersForm/useSteps'
-import FiltersStepper from '../components/FiltersForm/FiltersStepper'
+import MenuOptionsBanner from './MenuOptionsBanner'
+import useSteps from './FiltersForm/useSteps'
+import FiltersStepper from './FiltersForm/FiltersStepper'
 
 function FiltersWizardPage({ filters, setFilters, dishes }) {
   const { step } = useParams()

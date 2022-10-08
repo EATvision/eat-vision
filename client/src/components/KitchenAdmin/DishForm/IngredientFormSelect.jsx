@@ -3,24 +3,24 @@ import React from 'react'
 import { useFormikContext } from 'formik'
 import {
   Box,
-  FormControl, FormLabel, InputAdornment, List, ListItem, ListItemText, ListSubheader, TextField, Typography, useTheme,
+  FormControl, InputAdornment, List, ListItem, ListItemText, ListSubheader, TextField, Typography, useTheme,
 } from '@mui/material'
 import AsyncSelect from 'react-select/async'
 import _get from 'lodash/get'
 import { useParams } from 'react-router-dom'
-import { useKitchenById } from '../../hooks/kitchens'
+import { useKitchenById } from '../../../hooks/kitchens'
 
 const loadOptions = async (inputValue) => {
-  const { data } = await axios.get(`/api/dishes?q=${inputValue}`)
+  const { data } = await axios.get(`/api/ingredients?q=${inputValue}`)
   return data
 }
 
-const getDishesByIds = async (ids) => {
-  const { data } = await axios.get(`/api/dishes?ids=${ids.join(',')}`)
+const getIngredientsByIds = async (ids) => {
+  const { data } = await axios.get(`/api/ingredients?ids=${ids.join(',')}`)
   return data
 }
 
-function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
+function IngredientFormSelect({ label, name, disableAdditionalPrices = false }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
 
@@ -30,11 +30,11 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
     values, touched, errors, setFieldValue,
   } = useFormikContext()
 
-  const [localDishes, setlocalDishes] = React.useState([])
+  const [localIngredients, setlocalIngredients] = React.useState([])
 
-  const setDishes = async (dish) => {
-    const data = await getDishesByIds(dish.map((d) => d.id))
-    setlocalDishes(data)
+  const setIngredients = async (ingredient) => {
+    const data = await getIngredientsByIds(ingredient.map((ing) => ing.id))
+    setlocalIngredients(data)
   }
 
   const handleInputChange = (newValue) => {
@@ -42,20 +42,20 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
     return inputValue
   }
 
-  const handleChangeDishes = (value) => {
-    const modifiedDish = value.map((d) => ({ id: d.id, type: 'dish', price: 0 }))
-    setFieldValue(name, modifiedDish)
-    setDishes(modifiedDish)
+  const handleChangeIngredients = (value) => {
+    const modifiedIngredient = value.map((ing) => ({ id: ing.id, type: 'ingredient', price: 0 }))
+    setFieldValue(name, modifiedIngredient)
+    setIngredients(modifiedIngredient)
   }
 
-  const handleChangeDishAdditionalPrice = (dishId) => (e) => {
-    const modifiedDish = _get(values, name).reduce((acc, d) => {
-      if (d.id === dishId) {
-        return [...acc, { ...d, price: e.target.value }]
+  const handleChangeIngredientAdditionalPrice = (ingredientId) => (e) => {
+    const modifiedIngredient = _get(values, name).reduce((acc, ing) => {
+      if (ing.id === ingredientId) {
+        return [...acc, { ...ing, price: e.target.value }]
       }
-      return [...acc, d]
+      return [...acc, ing]
     }, [])
-    setFieldValue(name, modifiedDish)
+    setFieldValue(name, modifiedIngredient)
   }
 
   return (
@@ -66,7 +66,7 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
           fullWidth
           defaultOptions
           value={values[name]}
-          onChange={handleChangeDishes}
+          onChange={handleChangeIngredients}
           isMulti
           cacheOptions
           loadOptions={loadOptions}
@@ -74,7 +74,7 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
           getOptionLabel={(e) => e.name}
           getOptionValue={(e) => e.id}
           closeMenuOnSelect={false}
-          placeholder="Type to search dishes"
+          placeholder="Type to search ingredients"
         />
 
         {touched[name] && errors[name] ? (
@@ -84,7 +84,7 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
 
       {
         !disableAdditionalPrices
-        && localDishes.length > 0
+        && localIngredients.length > 0
         && (
         <List
           subheader={(
@@ -94,18 +94,15 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
         )}
         >
           {
-          localDishes.map((d, index) => (
-            <ListItem key={d.id} sx={{ display: 'flex', alignItems: 'center' }}>
-              <ListItemText sx={{ flex: 1, margin: theme.spacing(2) }}>
-                {d.name}
-              </ListItemText>
+          localIngredients.map((ing, index) => (
+            <ListItem key={ing.id} sx={{ display: 'flex', alignItems: 'center' }}>
               <TextField
-                sx={{ width: 150 }}
+                sx={{ width: 200 }}
                 id="additionalPrice"
                 name="additionalPrice"
                 type="number"
                 value={_get(values, `[${name}][${index}].price`)}
-                onChange={handleChangeDishAdditionalPrice(d.id)}
+                onChange={handleChangeIngredientAdditionalPrice(ing.id)}
                 // inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }}
                 InputProps={{
                   inputMode: 'numeric',
@@ -114,6 +111,10 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
                   endAdornment: <InputAdornment position="end">{kitchen.currency}</InputAdornment>,
                 }}
               />
+              <ListItemText sx={{ flex: 1, margin: theme.spacing(2) }}>
+                {ing.name}
+              </ListItemText>
+
             </ListItem>
           ))
         }
@@ -124,4 +125,4 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
   )
 }
 
-export default DishFormSelect
+export default IngredientFormSelect

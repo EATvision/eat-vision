@@ -11,7 +11,7 @@ import { useParams } from 'react-router-dom'
 
 import DishFormSelect from './DishFormSelect'
 import IngredientFormSelect from './IngredientFormSelect'
-import { useKitchenById } from '../../hooks/kitchens'
+import { useKitchenById } from '../../../hooks/kitchens'
 
 const initialDish = {
   name: '',

@@ -6,9 +6,9 @@ import useScrollSpy from 'react-use-scrollspy'
 import {
   Box, Typography, useTheme,
 } from '@mui/material'
-import { useKitchenCategoriesByMenu } from '../hooks/kitchens'
+import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
-import Dish from '../components/DishCard/Dish'
+import Dish from './DishCard/Dish'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()

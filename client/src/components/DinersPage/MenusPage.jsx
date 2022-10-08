@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useParams, Navigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { useKitchenMenusById } from '../hooks/kitchens'
+import { useKitchenMenusById } from '../../hooks/kitchens'
 
 function MenusPage() {
   const { kitchenId } = useParams()

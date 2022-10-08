@@ -11,7 +11,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
 import ClampLines from 'react-clamp-lines'
 
-import { useKitchenById } from '../../hooks/kitchens'
+import { useKitchenById } from '../../../hooks/kitchens'
 
 export default function DishAccordion({ data }) {
   const theme = useTheme()

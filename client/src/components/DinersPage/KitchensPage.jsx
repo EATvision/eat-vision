@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { useKitchens } from '../hooks/kitchens'
+import { useKitchens } from '../../hooks/kitchens'
 
 function KitchensPage() {
   const { i18n } = useTranslation()
@@ -25,7 +25,7 @@ function KitchensPage() {
             {kitchens.map((kitchen) => (
               <Link
                 className="group flex flex-col"
-                to={`/kitchens/${kitchen.id}/menus`}
+                to={`${kitchen.id}/menus`}
                 key={kitchen.id}
                 onClick={handleClickKitchen(kitchen)}
               >

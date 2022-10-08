@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next'
 
 import { useKitchenById } from '../hooks/kitchens'
 
-import DishForm from '../components/DishForm/DishForm'
+import DishForm from '../components/KitchenAdmin/DishForm/DishForm'
+import DishesList from '../components/KitchenAdmin/DishesList'
 
 function CustomerPage() {
   const { kitchenId } = useParams()
@@ -24,6 +25,8 @@ function CustomerPage() {
   return (
     <div className="flex flex-col absolute h-full w-full">
       HI CUSTOMER
+
+      <DishesList />
 
       <DishForm />
     </div>
