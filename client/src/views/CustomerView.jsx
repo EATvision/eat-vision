@@ -20,6 +20,8 @@ import ListItemText from '@mui/material/ListItemText'
 import OverviewIcon from '@mui/icons-material/Dashboard'
 import DishesIcon from '@mui/icons-material/RestaurantMenu'
 import MenusIcon from '@mui/icons-material/MenuBook'
+import { Button } from '@mui/material'
+import { useAuth } from '../hooks/auth'
 
 const drawerWidth = 240
 
@@ -90,6 +92,8 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 
 export default function CustomerPage() {
   const theme = useTheme()
+  const { token, onLogout } = useAuth()
+
   const [open, setOpen] = React.useState(false)
 
   const handleDrawerOpen = () => {
@@ -105,38 +109,63 @@ export default function CustomerPage() {
       <CssBaseline />
       <AppBar position="fixed" open={open}>
         <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            sx={{
-              marginRight: 5,
-              ...(open && { display: 'none' }),
-            }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" noWrap component="div">
+          {
+            token
+            && (
+              <IconButton
+                color="inherit"
+                aria-label="open drawer"
+                onClick={handleDrawerOpen}
+                edge="start"
+                sx={{
+                  marginRight: 5,
+                  ...(open && { display: 'none' }),
+                }}
+              >
+                <MenuIcon />
+              </IconButton>
+            )
+          }
+
+          <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
             Customer view
           </Typography>
+
+          {
+            token
+            && (
+              <Button
+                variant="text"
+                sx={{ color: theme.palette.common.white }}
+                onClick={onLogout}
+              >
+                LOGOUT
+              </Button>
+            )
+          }
         </Toolbar>
       </AppBar>
-      <Drawer variant="permanent" open={open}>
-        <DrawerHeader>
-          <IconButton onClick={handleDrawerClose}>
-            {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
-          </IconButton>
-        </DrawerHeader>
-        <Divider />
-        <List>
-          <ItemList open={open} tabName="overview" icon={<OverviewIcon />} />
 
-          <ItemList open={open} tabName="dishes" icon={<DishesIcon />} />
+      {
+        token
+        && (
+        <Drawer variant="permanent" open={open}>
+          <DrawerHeader>
+            <IconButton onClick={handleDrawerClose}>
+              {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
+            </IconButton>
+          </DrawerHeader>
+          <Divider />
+          <List>
+            <ItemList open={open} tabName="overview" icon={<OverviewIcon />} />
 
-          <ItemList open={open} tabName="menus" icon={<MenusIcon />} />
-        </List>
-      </Drawer>
+            <ItemList open={open} tabName="dishes" icon={<DishesIcon />} />
+
+            <ItemList open={open} tabName="menus" icon={<MenusIcon />} />
+          </List>
+        </Drawer>
+        )
+      }
 
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <DrawerHeader />
