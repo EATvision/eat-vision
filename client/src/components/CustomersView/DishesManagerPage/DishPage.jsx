@@ -5,14 +5,15 @@ import DishForm from '../DishForm/DishForm'
 
 function DishPage() {
   const { dishId } = useParams()
-  const { dish, isLoading } = useDishById(dishId)
 
-  if (isLoading) return <div>LOADING</div>
+  const { dish, isLoading } = useDishById(dishId === 'new' ? null : dishId)
+
+  if (dishId !== 'new' && isLoading) return <div>LOADING</div>
 
   return (
     <div>
       {dishId}
-      {dish && <DishForm data={dish} />}
+      <DishForm data={dish} />
     </div>
   )
 }

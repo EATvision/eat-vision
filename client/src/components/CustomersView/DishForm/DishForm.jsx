@@ -7,11 +7,12 @@ import {
   Formik,
   Form,
 } from 'formik'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 import DishFormSelect from './DishFormSelect'
 import IngredientFormSelect from './IngredientFormSelect'
 import { useKitchenById } from '../../../hooks/kitchens'
+import { useDishes } from '../../../api/dishes'
 
 const initialDish = {
   name: '',
@@ -31,9 +32,11 @@ const initialDish = {
 
 function DishForm({ data }) {
   const theme = useTheme()
+  const navigate = useNavigate()
   const { kitchenId } = useParams()
 
   const { kitchen } = useKitchenById(kitchenId)
+  const { mutate: mutateDishes } = useDishes()
 
   return (
     <Box sx={{ padding: theme.spacing(2), textAlign: 'start' }}>
@@ -46,7 +49,14 @@ function DishForm({ data }) {
         }}
         onSubmit={async (values, { setSubmitting }) => {
           try {
-            await axios.post('/api/dishes', values)
+            if (values?._id) {
+              await axios.put(`/api/dishes/${values._id}`, values)
+            } else {
+              const { _id, ...dishWithNoId } = values
+              await axios.post('/api/dishes', dishWithNoId)
+            }
+            mutateDishes()
+            navigate('/customers/dishes')
           } catch (error) {
             console.log(error)
           }
@@ -115,7 +125,7 @@ function DishForm({ data }) {
               <DishFormSelect label="addable dishes" name="recipe.addableDishes" />
 
               <Button color="primary" variant="contained" fullWidth type="submit">
-                Submit
+                {data?._id ? 'Save' : 'Submit'}
               </Button>
             </Form>
           )

@@ -52,12 +52,20 @@ router.get("/:id", async (req, res) => {
   res.send(dish);
 });
 
+router.put("/:id", async (req, res) => {
+  const { params: { id }, body: { _id, ...dishWithoutId } } = req
+
+  const response = await dishesCollection.findOneAndReplace({ _id: getDBId(id) }, dishWithoutId)
+
+  res.send(response.value);
+});
+
 router.post("/", async (req, res) => {
   const { body } = req
 
-  await dishesCollection.insertOne(body)
+  const response = await dishesCollection.insertOne(body)
 
-  res.status(201);
+  res.send(response.insertedId.toString()).status(201);
 });
 
 
