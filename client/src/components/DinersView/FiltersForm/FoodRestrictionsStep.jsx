@@ -1,7 +1,7 @@
 import { t } from 'i18next'
 import React from 'react'
 import {
-  Collapse, Divider, useTheme, Box, ToggleButtonGroup, ToggleButton,
+  Collapse, Divider, useTheme, Box, ToggleButtonGroup, ToggleButton, Checkbox,
 } from '@mui/material'
 
 import IngredientsSelector from './IngredientsSelector'
@@ -83,7 +83,10 @@ function FoodRestrictionsStep({ filters, setFilters }) {
             variant="outlined"
             selected={Boolean(selectedRestrictions.exclude)}
             onClick={handleClickSelectRestriction('exclude')}
+            sx={{ justifyContent: 'flex-start' }}
           >
+            <Checkbox checked={Boolean(selectedRestrictions.exclude)} />
+
             {t('things_i_dont_eat')}
           </ToggleButton>
 
@@ -108,7 +111,10 @@ function FoodRestrictionsStep({ filters, setFilters }) {
             variant="outlined"
             selected={Boolean(selectedRestrictions.allergies)}
             onClick={handleClickSelectRestriction('allergies')}
+            sx={{ justifyContent: 'flex-start' }}
           >
+            <Checkbox checked={Boolean(selectedRestrictions.allergies)} />
+
             {t('im_allergic')}
           </ToggleButton>
 
@@ -133,7 +139,10 @@ function FoodRestrictionsStep({ filters, setFilters }) {
             variant="outlined"
             selected={Boolean(selectedRestrictions.reduce)}
             onClick={handleClickSelectRestriction('reduce')}
+            sx={{ justifyContent: 'flex-start' }}
           >
+            <Checkbox checked={Boolean(selectedRestrictions.reduce)} />
+
             {t('things_i_avoid_or_reduce')}
           </ToggleButton>
 

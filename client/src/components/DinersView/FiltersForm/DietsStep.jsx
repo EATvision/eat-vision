@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  Divider, ToggleButton, ToggleButtonGroup, useTheme, Box,
+  Divider, ToggleButton, ToggleButtonGroup, useTheme, Box, Checkbox,
 } from '@mui/material'
 
 import { useTranslation } from 'react-i18next'
@@ -64,7 +64,9 @@ function DietsSelector({ filters, setFilters }) {
                 fullWidth
                 key={diet.id}
                 value={diet.id}
+                sx={{ justifyContent: 'flex-start' }}
               >
+                <Checkbox checked={filters.diets.includes(diet.id)} />
                 {t(diet.name.toLocaleLowerCase())}
               </ToggleButton>
             ))
