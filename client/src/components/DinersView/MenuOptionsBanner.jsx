@@ -17,7 +17,7 @@ function MenuOptionsBanner({ dishes }) {
         backgroundColor: theme.palette.primary.main,
         position: 'relative',
         color: theme.palette.common.white,
-        padding: theme.spacing(2),
+        padding: theme.spacing(1),
       }}
     >
       <MenuSelector />

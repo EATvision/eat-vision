@@ -7,13 +7,19 @@ import {
 import MenuOptionsBanner from './MenuOptionsBanner'
 import useSteps from './FiltersForm/useSteps'
 import FiltersStepper from './FiltersForm/FiltersStepper'
+import WaiterBanner from './WaiterBanner'
 
 function FiltersWizardPage({ filters, setFilters, dishes }) {
   const { step } = useParams()
   const steps = useSteps(filters, setFilters)
 
   return (
-    <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+    <>
+      <WaiterBanner
+        title={steps[Number(step)].title}
+        subtitle={steps[Number(step)].subtitle}
+      />
+
       <Box sx={{ flexGrow: 1 }}>
         {steps[Number(step)].stepContent}
       </Box>
@@ -22,9 +28,14 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
 
       {
         dishes?.total?.length > 0
-        && <MenuOptionsBanner filters={filters} dishes={dishes} />
+        && (
+        <MenuOptionsBanner
+          filters={filters}
+          dishes={dishes}
+        />
+        )
       }
-    </Box>
+    </>
   )
 }
 

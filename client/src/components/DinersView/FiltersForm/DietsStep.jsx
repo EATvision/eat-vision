@@ -24,41 +24,35 @@ function DietsSelector({ filters, setFilters }) {
   if (isLoading) return <div>LOADING</div>
 
   return (
-    <>
-      <WaiterBanner
-        title={t('do_you_have_a_specific_diet')}
-        subtitle={t('choose_relevant_options')}
-      />
-
-      <Box sx={{ padding: theme.spacing(2) }}>
-        <ToggleButtonGroup
+    <Box sx={{ padding: theme.spacing(2) }}>
+      <ToggleButtonGroup
+        fullWidth
+        color="primary"
+        variant="outlined"
+        orientation="vertical"
+      >
+        <ToggleButton
           fullWidth
           color="primary"
           variant="outlined"
-          orientation="vertical"
+          selected={filters.diets.length === 0}
+          onClick={handleClickNoDiets}
         >
-          <ToggleButton
-            fullWidth
-            color="primary"
-            variant="outlined"
-            selected={filters.diets.length === 0}
-            onClick={handleClickNoDiets}
-          >
-            {t('no_specific_diet')}
-          </ToggleButton>
-        </ToggleButtonGroup>
+          {t('no_specific_diet')}
+        </ToggleButton>
+      </ToggleButtonGroup>
 
-        <Divider variant="middle" sx={{ margin: `${theme.spacing(2)} 0` }} />
+      <Divider variant="middle" sx={{ margin: `${theme.spacing(2)} 0` }} />
 
-        <ToggleButtonGroup
-          fullWidth
-          color="primary"
-          value={filters.diets}
-          onChange={handleChange}
-          aria-label="diets"
-          orientation="vertical"
-        >
-          {
+      <ToggleButtonGroup
+        fullWidth
+        color="primary"
+        value={filters.diets}
+        onChange={handleChange}
+        aria-label="diets"
+        orientation="vertical"
+      >
+        {
             diets.map((diet) => (
               <ToggleButton
                 fullWidth
@@ -72,9 +66,8 @@ function DietsSelector({ filters, setFilters }) {
             ))
             }
 
-        </ToggleButtonGroup>
-      </Box>
-    </>
+      </ToggleButtonGroup>
+    </Box>
   )
 }
 

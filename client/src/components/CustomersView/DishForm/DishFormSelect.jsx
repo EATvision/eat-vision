@@ -37,13 +37,17 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
     setlocalDishes(data)
   }
 
+  React.useEffect(() => {
+    setDishes(_get(values, name))
+  }, [values, name])
+
   const handleInputChange = (newValue) => {
     const inputValue = newValue.replace(/\W/g, '')
     return inputValue
   }
 
   const handleChangeDishes = (value) => {
-    const modifiedDish = value.map((d) => ({ id: d.id, type: 'dish', price: 0 }))
+    const modifiedDish = value.map((d) => ({ id: d._id || d.id, type: 'dish', price: 0 }))
     setFieldValue(name, modifiedDish)
     setDishes(modifiedDish)
   }
@@ -65,7 +69,7 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
         <AsyncSelect
           fullWidth
           defaultOptions
-          value={_get(values, name)}
+          value={localDishes}
           onChange={handleChangeDishes}
           isMulti
           cacheOptions
@@ -95,7 +99,7 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
         >
           {
           localDishes.map((d, index) => (
-            <ListItem key={d.id} sx={{ display: 'flex', alignItems: 'center' }}>
+            <ListItem key={d.id || d._id} sx={{ display: 'flex', alignItems: 'center' }}>
               <ListItemText sx={{ flex: 1, margin: theme.spacing(2) }}>
                 {d.name}
               </ListItemText>
