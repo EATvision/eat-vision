@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  Avatar, Box, Typography, useTheme,
+  Avatar, Box, Paper, Typography, useTheme,
 } from '@mui/material'
 import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 
@@ -10,15 +10,16 @@ function WaiterBanner({ title, subtitle }) {
   const theme = useTheme()
 
   return (
-    <Box
+    <Paper
+      square
+      elevation={2}
       sx={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        // backgroundColor: theme.palette.primary.main,
-        margin: theme.spacing(1),
+        backgroundColor: theme.palette.primary.main,
+        color: theme.palette.common.white,
         position: 'relative',
-        height: 80,
       }}
     >
       <Box
@@ -27,8 +28,11 @@ function WaiterBanner({ title, subtitle }) {
           marginLeft: `${WAITER_AVATAR_WIDTH}px`,
         }}
       >
-        <Typography variant="h6">{title}</Typography>
-        <Typography variant="p">{subtitle}</Typography>
+        <Typography variant="p">
+          <b>{title}</b>
+          <br />
+          {subtitle}
+        </Typography>
       </Box>
       <Avatar
         src={waiterSrc}
@@ -40,7 +44,7 @@ function WaiterBanner({ title, subtitle }) {
           top: 0,
         }}
       />
-    </Box>
+    </Paper>
   )
 }
 

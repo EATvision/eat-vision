@@ -20,7 +20,7 @@ function KitchenPage() {
   if (isError) return <div>ERROR</div>
 
   return (
-    <div className="flex flex-col absolute h-full w-full">
+    <div className="flex flex-col absolute h-full w-full overflow-hidden flex-1 ">
 
       <Outlet />
 

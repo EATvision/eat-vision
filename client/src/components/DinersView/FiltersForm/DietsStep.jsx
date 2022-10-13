@@ -24,7 +24,7 @@ function DietsSelector({ filters, setFilters }) {
   if (isLoading) return <div>LOADING</div>
 
   return (
-    <Box sx={{ padding: theme.spacing(2) }}>
+    <Box sx={{ padding: theme.spacing(2), flex: 1 }}>
       <ToggleButtonGroup
         fullWidth
         color="primary"

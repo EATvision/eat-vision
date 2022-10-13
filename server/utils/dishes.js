@@ -27,7 +27,7 @@ const getComponentLimitations = (component, filters) => {
   let ingredientsExludedInDiets = []
   let isFilteredOut = false
 
-  const excludedComponents = [...filters.exclude, ...filters.allergies, ...filters.avoidOrReduce]
+  const excludedComponents = [...(filters.exclude || []), ...(filters.allergies || []), ...(filters.avoidOrReduce || [])]
   if (component.type === 'ingredient') {
     let allChildIngredients = []
     setAllChildIngredients(allChildIngredients, component.id)

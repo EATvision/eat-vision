@@ -14,28 +14,45 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
   const steps = useSteps(filters, setFilters)
 
   return (
-    <>
+    <Box
+      sx={{
+        position: 'relative',
+        overflow: 'hidden',
+        display: 'flex',
+        flexDirection: 'column',
+        flex: 1,
+      }}
+    >
       <WaiterBanner
         title={steps[Number(step)].title}
         subtitle={steps[Number(step)].subtitle}
       />
 
-      <Box sx={{ flexGrow: 1 }}>
+      <Box
+        sx={{
+          flex: 1,
+          display: 'flex',
+          overflow: 'auto',
+        }}
+      >
         {steps[Number(step)].stepContent}
       </Box>
 
-      <FiltersStepper filters={filters} dishes={dishes} />
+      <Box>
+        <FiltersStepper filters={filters} dishes={dishes} />
 
-      {
-        dishes?.total?.length > 0
-        && (
-        <MenuOptionsBanner
-          filters={filters}
-          dishes={dishes}
-        />
-        )
-      }
-    </>
+        {
+          dishes?.total?.length > 0
+          && (
+          <MenuOptionsBanner
+            filters={filters}
+            dishes={dishes}
+          />
+          )
+        }
+      </Box>
+
+    </Box>
   )
 }
 
