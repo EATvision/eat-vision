@@ -1,5 +1,5 @@
 export const defaultFilters = {
-  diets: [], exclude: [], reduce: [], allergies: [],
+  diets: [], exclude: [], avoidOrReduce: [], allergies: [],
 }
 
 export const diets = [

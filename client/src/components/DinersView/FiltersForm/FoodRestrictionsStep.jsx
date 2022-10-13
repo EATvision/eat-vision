@@ -12,13 +12,13 @@ function FoodRestrictionsStep({ filters, setFilters }) {
   const [selectedRestrictions, setSelectedRestrictions] = React.useState({
     exclude: filters.exclude.length > 0,
     allergies: filters.allergies.length > 0,
-    reduce: filters.reduce.length > 0,
+    avoidOrReduce: filters.avoidOrReduce.length > 0,
   })
 
   const isNoRestrictions = (
     !selectedRestrictions.exclude
     && !selectedRestrictions.allergies
-    && !selectedRestrictions.reduce
+    && !selectedRestrictions.avoidOrReduce
   )
 
   const handleClickNoRestrictions = () => {
@@ -26,12 +26,12 @@ function FoodRestrictionsStep({ filters, setFilters }) {
       ...currFilters,
       exclude: [],
       allergies: [],
-      reduce: [],
+      avoidOrReduce: [],
     }))
     setSelectedRestrictions({
       exclude: false,
       allergies: false,
-      reduce: false,
+      avoidOrReduce: false,
     })
   }
 
@@ -130,21 +130,21 @@ function FoodRestrictionsStep({ filters, setFilters }) {
         <ToggleButton
           fullWidth
           variant="outlined"
-          selected={Boolean(selectedRestrictions.reduce)}
-          onClick={handleClickSelectRestriction('reduce')}
+          selected={Boolean(selectedRestrictions.avoidOrReduce)}
+          onClick={handleClickSelectRestriction('avoidOrReduce')}
           sx={{ justifyContent: 'flex-start' }}
         >
-          <Checkbox checked={Boolean(selectedRestrictions.reduce)} />
+          <Checkbox checked={Boolean(selectedRestrictions.avoidOrReduce)} />
 
           {t('things_i_avoid_or_reduce')}
         </ToggleButton>
 
         <Collapse
           unmountOnExit
-          in={Boolean(selectedRestrictions.reduce)}
+          in={Boolean(selectedRestrictions.avoidOrReduce)}
         >
           <Box sx={{ minHeight: 100, paddingTop: theme.spacing(2) }}>
-            <IngredientsSelector filters={filters} setFilters={setFilters} filterType="reduce" />
+            <IngredientsSelector filters={filters} setFilters={setFilters} filterType="avoidOrReduce" />
           </Box>
         </Collapse>
       </ToggleButtonGroup>

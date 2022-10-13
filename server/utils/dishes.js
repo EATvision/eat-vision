@@ -26,6 +26,8 @@ const getComponentLimitations = (component, filters) => {
   let intersectingExcludedIngredients = []
   let ingredientsExludedInDiets = []
   let isFilteredOut = false
+
+  const excludedComponents = [...filters.exclude, ...filters.allergies, ...filters.avoidOrReduce]
   if (component.type === 'ingredient') {
     let allChildIngredients = []
     setAllChildIngredients(allChildIngredients, component.id)
@@ -33,7 +35,7 @@ const getComponentLimitations = (component, filters) => {
       return [...acc, ...(ingredientsById?.[ing]?.excludedInDiets || [])]
     }, []))
 
-    intersectingExcludedIngredients = intersection(filters.exclude || [], allChildIngredients)
+    intersectingExcludedIngredients = intersection(excludedComponents, allChildIngredients)
     ingredientsExludedInDiets = intersection(filters.diets || [], combinedChildIngredientsExcludedInDiets)
     isFilteredOut = intersectingExcludedIngredients.length > 0 || ingredientsExludedInDiets.length > 0
   }
