@@ -20,7 +20,6 @@ router.post('/', ensureLoggedIn(), async (req, res) => {
 
 
   if (verificationResult.status === 'approved') {
-    req.user.role = 'access secret content';
     await req.user.save();
     return res.send(req.user);
   }
