@@ -5,6 +5,20 @@ const twilio = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 const router = express.Router();
 
+router.get('/', ensureLoggedIn(), async (req, res) => {
+  const errors = { wasValidated: false };
+  const channel = req.user.verificationMethod;
+  try {
+    const verificationRequest = await twilio.verify.services(TWILIO_SERVICE_SID)
+      .verifications
+      .create({ to: req.user.phoneNumber, channel });
+  } catch (e) {
+    return res.status(500).send(e);
+  }
+
+  return res.send({ title: 'Verify', user: req.user, errors });
+});
+
 router.post('/', ensureLoggedIn(), async (req, res) => {
   const { verificationCode: code } = req.body;
   let verificationResult;
