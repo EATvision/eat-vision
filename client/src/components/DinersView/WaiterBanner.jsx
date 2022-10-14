@@ -15,7 +15,7 @@ function WaiterBanner({ title, subtitle }) {
       elevation={2}
       sx={{
         display: 'flex',
-        alignItems: 'center',
+        alignItems: 'start',
         justifyContent: 'center',
         backgroundColor: theme.palette.primary.main,
         color: theme.palette.common.white,
@@ -25,6 +25,7 @@ function WaiterBanner({ title, subtitle }) {
       <Box
         sx={{
           width: 270,
+          margin: `${theme.spacing(1)} 0px`,
           marginLeft: `${WAITER_AVATAR_WIDTH}px`,
         }}
       >

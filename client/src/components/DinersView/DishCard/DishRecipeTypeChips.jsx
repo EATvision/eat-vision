@@ -21,7 +21,12 @@ export default function DishRecipeChips({
     <Stack
       direction="row"
       spacing={1}
-      sx={{ alignItems: 'center', marginBottom: theme.spacing(2) }}
+      sx={{
+        backgroundColor: theme.palette.grey[200],
+        padding: theme.spacing(1),
+        alignItems: 'center',
+        marginBottom: theme.spacing(2),
+      }}
     >
       <FormLabel sx={{ textAlign: 'initial', minWidth: 75 }}>
         {label}
@@ -45,6 +50,7 @@ export default function DishRecipeChips({
                   }}
                 >
                   <Chip
+                    size="small"
                     variant="outlined"
                     disabled={(component.isMainComponentFilteredOut || component.isFilteredOut)}
                     onClick={handleClickChip(component.id)}

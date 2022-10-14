@@ -55,4 +55,6 @@ export default {
   'gluten free': 'ללא גלוטן',
   'lactose free': 'ללא לקטוז',
   'no sugar': 'ללא סוכר',
+  my_reccomendations_for_you: 'ההמלצות שלי בשבילך',
+  ask_without_the: 'לבקש בלי',
 }

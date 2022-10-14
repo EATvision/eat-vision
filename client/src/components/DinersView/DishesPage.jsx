@@ -54,8 +54,8 @@ function DishesPage({ dishes }) {
   if (isLoading) return <div>LOADING</div>
 
   return (
-    <div>
-      <div className="top-10 fixed text-sm z-10">
+    <>
+      <div className="top-0 sticky text-sm z-10">
         <ul className="nav menu-sidebar bg-black text-white overflow-auto whitespace-nowrap">
           {
             orderedCategories.map((category, index) => (
@@ -67,7 +67,7 @@ function DishesPage({ dishes }) {
         </ul>
       </div>
 
-      <div className="container relative overflow-auto mx-auto mt-16">
+      <div className="container relative overflow-auto mx-auto">
         {
           orderedCategories?.map((category, index) => (
             <div
@@ -106,7 +106,7 @@ function DishesPage({ dishes }) {
         }
       </div>
 
-    </div>
+    </>
   )
 }
 

@@ -2,22 +2,23 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
   Alert, AlertTitle, Badge, Box, Button, Card, CardHeader,
-  CardMedia, Divider, List, ListItem, Paper, Popover, Typography, useTheme,
+  CardMedia, Divider, FormLabel, List, ListItem, Paper, Popover, Typography, useTheme,
 } from '@mui/material'
 
 import ClampLines from 'react-clamp-lines'
 
+import { t } from 'i18next'
 import { useKitchenById } from '../../../hooks/kitchens'
 
 import DishRecipeTypeChips from './DishRecipeTypeChips'
 import DishAccordion from './DishAccordion'
+import WaiterBanner from '../WaiterBanner'
 
 export default function Dish({ data }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
 
-  const [askForChangesAnchorEl, setAskForChangesAnchorEl] = React.useState(null)
   const [selectedComponents, setSelectedComponents] = React.useState({ choice: [], sideDish: [], addableComponents: [] })
 
   const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
@@ -27,14 +28,6 @@ export default function Dish({ data }) {
   const mandatoryComponentsFilteredOut = data?.recipe?.mandatory?.filter(
     (component) => component.isFilteredOut,
   )
-
-  const handlePopoverOpen = (event) => {
-    setAskForChangesAnchorEl(event.currentTarget)
-  }
-
-  const handlePopoverClose = () => {
-    setAskForChangesAnchorEl(null)
-  }
 
   const handleSelect = (recipeType, options = { exclusive: false }) => (componentId) => {
     setSelectedComponents((currSelectedComponents) => ({
@@ -48,7 +41,7 @@ export default function Dish({ data }) {
 
   return (
     <Paper
-      elevation={2}
+      elevation={5}
       sx={{
         width: '100%',
         maxWidth: 750,
@@ -57,7 +50,7 @@ export default function Dish({ data }) {
         alignItems: 'center',
         justifyContent: 'space-between',
         position: 'relative',
-        marginBottom: theme.spacing(2),
+        marginBottom: theme.spacing(4),
         flex: 1,
       }}
     >
@@ -171,79 +164,20 @@ export default function Dish({ data }) {
                   />
                 )
             }
-
-            {
-              dishExcludableComponentsFilteredOut?.length > 0
-              && (
-                <Box
-                  sx={{ marginBottom: theme.spacing(1), marginTop: theme.spacing(1) }}
-                >
-                  <Badge
-                    color="error"
-                    badgeContent={dishExcludableComponentsFilteredOut.length}
-                    anchorOrigin={{
-                      vertical: 'top',
-                      horizontal: 'left',
-                    }}
-                  >
-                    <Button
-                      variant="contained"
-                      sx={{ maxWidth: 163, borderRadius: 163 }}
-                      onMouseEnter={handlePopoverOpen}
-                      onMouseLeave={handlePopoverClose}
-                    >
-                      ASK FOR CHANGES
-                    </Button>
-                  </Badge>
-                  <Popover
-                    id="mouse-over-popover"
-                    sx={{
-                      pointerEvents: 'none',
-                    }}
-                    open={Boolean(askForChangesAnchorEl)}
-                    anchorEl={askForChangesAnchorEl}
-                    onClose={handlePopoverClose}
-                    disableRestoreFocus
-                    anchorOrigin={{
-                      vertical: 'top',
-                      horizontal: 'center',
-                    }}
-                    transformOrigin={{
-                      vertical: 'bottom',
-                      horizontal: 'right',
-                    }}
-                  >
-                    <Alert severity="warning">
-                      <AlertTitle>ASK TO EXCLUDE</AlertTitle>
-                      <List dense>
-                        {
-                          dishExcludableComponentsFilteredOut.map((component) => (
-                            <ListItem key={component.id}>{component.name}</ListItem>
-                          ))
-                        }
-                      </List>
-                    </Alert>
-                  </Popover>
-                </Box>
-              )
-            }
           </Box>
         </Box>
 
-        <Box sx={{
-          padding: theme.spacing(1),
-        }}
-        >
+        <Box>
           {
             data.recipe?.choice?.length > 0
             && (
-              <DishRecipeTypeChips
-                data={data}
-                label="choice"
-                recipeType="choice"
-                selectedComponents={selectedComponents.choice}
-                onSelect={handleSelect('choice', { exclusive: true })}
-              />
+            <DishRecipeTypeChips
+              data={data}
+              label="choice"
+              recipeType="choice"
+              selectedComponents={selectedComponents.choice}
+              onSelect={handleSelect('choice', { exclusive: true })}
+            />
             )
           }
 
@@ -261,23 +195,33 @@ export default function Dish({ data }) {
           }
 
           <DishAccordion data={data} />
-
-          {
-            // data.recipe?.addableComponents?.length > 0
-            // && (
-            // <DishRecipeTypeChips
-            //   data={data}
-            //   label="upgrades"
-            //   recipeType="addableComponents"
-            //   selectedComponents={selectedComponents.addableComponents}
-            //   onSelect={handleSelect('addableComponents', { exclusive: false })}
-            // />
-            // )
-          }
         </Box>
-      </Card>
 
-      <Divider sx={{ width: '100%' }} />
+        {
+          dishExcludableComponentsFilteredOut?.length > 0
+          && (
+            <WaiterBanner
+              title={t('my_reccomendations_for_you')}
+              subtitle={(
+                <List dense disablePadding>
+                  {
+                    dishExcludableComponentsFilteredOut.map((component) => (
+                      <ListItem
+                        key={component.id}
+                        disableGutters
+                        disablePadding
+                        dense
+                      >
+                        {`${t('ask_without_the')} ${component.name}`}
+                      </ListItem>
+                    ))
+                    }
+                </List>
+              )}
+            />
+          )
+        }
+      </Card>
     </Paper>
   )
 }

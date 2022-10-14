@@ -55,4 +55,6 @@ export default {
   'gluten free': 'gluten free',
   'lactose free': 'lactose free',
   'no sugar': 'no sugar',
+  my_reccomendations_for_you: 'My recommendation for you',
+  ask_without_the: 'ask without the',
 }
