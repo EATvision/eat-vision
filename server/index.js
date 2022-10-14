@@ -1,20 +1,59 @@
 const path = require('path');
 const express = require('express');
+const passport = require('passport');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+const { Strategy } = require('passport-local');
+const cookieSession = require('cookie-session');
 
 const apiRoutes = require('./routes')
+const authRouter = require('./routes/authentication')
+const verifyRouter = require('./routes/verify')
 
-
+const { getUserById } = require('./utils/users')
 
 const PORT = process.env.PORT || 3001;
 
 const app = express();
 
+app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
 
+// initialize authentication middleware
+passport.serializeUser((user, cb) => {
+  cb(null, user.id);
+});
+
+passport.deserializeUser((id, done) => {
+  getUserById(id).then((user) => { done(null, user); });
+});
+
+passport.use(new Strategy(
+  ((id, password, done) => {
+    getUserById(id)
+      .then((user) => {
+        if (user !== null) {
+          // if (user.isValidPassword(password)) {
+          return done(null, user);
+          // }
+        }
+        return done(null, false);
+      });
+  }),
+));
+
+app.use(cookieSession({
+  secret: process.env.COOKIE_SESSION_SECRET,
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
 app.use('/api', apiRoutes)
+app.use('/auth', authRouter);
+app.use('/verify', verifyRouter);
 
 // Have Node serve the files for our built React app
 app.use(express.static(path.resolve(__dirname, '../client/build')));
