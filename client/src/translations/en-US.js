@@ -12,6 +12,8 @@ export default {
   yes: 'yes',
   no: 'no',
   other: 'other',
+  send: 'send',
+  continue: 'continue',
   done: 'done',
   next: 'next',
   back: 'back',

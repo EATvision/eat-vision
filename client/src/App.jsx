@@ -27,6 +27,7 @@ import CustomerLoginPage from './components/CustomersView/CustomerLoginPage'
 import AuthProvider from './hooks/auth'
 import ProtectedRoute from './components/ProtectedRoute'
 import theme from './theme'
+import LoginPage from './views/Login'
 
 function App() {
   const [filters, setFilters] = React.useState(defaultFilters)
@@ -38,7 +39,11 @@ function App() {
     <ThemeProvider theme={theme}>
       <AuthProvider>
         <Routes>
+
           <Route path="/" element={<Navigate replace to="/diners/kitchens" />} />
+
+          <Route path="/login" element={<LoginPage />} />
+
           <Route path="/diners" element={<DinerView />}>
             <Route index path="kitchens" element={<KitchensPage />} />
             <Route path="kitchens/:kitchenId" element={<KitchenPage />}>

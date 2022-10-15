@@ -10,6 +10,8 @@ export default {
   skip_to_full_menu: 'לתפריט המלא',
   yes: 'כן',
   no: 'לא',
+  send: 'שלח',
+  continue: 'המשך',
   done: 'סיום',
   next: 'הבא',
   back: 'חזרה',

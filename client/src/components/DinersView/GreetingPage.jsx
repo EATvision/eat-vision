@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import {
+  Link, useParams, useHistory, useNavigate,
+} from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
   Button, Box, Typography, useTheme,
@@ -11,9 +13,10 @@ import { postDiner } from '../../api/diners'
 import { useKitchenById } from '../../hooks/kitchens'
 
 function GreetingPage({ setFilters }) {
+  const navigate = useNavigate()
   const theme = useTheme()
   const { t } = useTranslation()
-  const { kitchenId } = useParams()
+  const { kitchenId, menuId } = useParams()
 
   const { kitchen } = useKitchenById(kitchenId)
 
@@ -22,7 +25,7 @@ function GreetingPage({ setFilters }) {
     await postDiner(defaultFilters)
   }
 
-  const handleClickSignin = () => {}
+  const handleClickSignin = () => navigate('/login')
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
