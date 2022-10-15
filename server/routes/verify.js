@@ -1,9 +1,25 @@
 const { TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_SERVICE_SID } = process.env;
-const { ensureLoggedIn } = require('connect-ensure-login');
+const jwt = require('jsonwebtoken');
 const express = require('express');
 const twilio = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 const router = express.Router();
+
+const TOKEN_EXPIRATION = 1000 * 60 * 60 * 3 // in ms = 3 hours
+
+function generateAccessTokenData(data) {
+  const exp = Date.now() + TOKEN_EXPIRATION
+  return {
+    exp,
+    token: jwt.sign(
+      {
+        ...data,
+        exp,
+      },
+      process.env.TOKEN_SECRET
+    )
+  }
+}
 
 router.post('/', async (req, res) => {
   const { body: { phoneNumber, channel = 'sms' } } = req
@@ -21,14 +37,19 @@ router.post('/', async (req, res) => {
 
 router.post('/code', async (req, res) => {
   const { code, phoneNumber } = req.body;
-  let verificationResult;
   const errors = { wasValidated: true };
 
   try {
-    verificationResult = await twilio.verify.services(TWILIO_SERVICE_SID)
+    const verificationResult = await twilio.verify.services(TWILIO_SERVICE_SID)
       .verificationChecks
       .create({ code, to: phoneNumber });
-    return res.send(verificationResult)
+
+    if (verificationResult.status === 'approved') {
+      const tokenData = generateAccessTokenData({ phoneNumber });
+      return res.send(tokenData)
+    } else {
+      return res.status(403)
+    }
   } catch (e) {
     return res.status(500).send(e);
   }

@@ -1,46 +1,58 @@
 import {
+  Alert,
+  AlertTitle,
   Box, Button, FormControl, FormLabel, ToggleButton, ToggleButtonGroup, Typography, useTheme,
 } from '@mui/material'
 import { MuiTelInput } from 'mui-tel-input'
 import VerificationInput from 'react-verification-input'
 import React from 'react'
 import axios from 'axios'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 import { v4 as uuidv4 } from 'uuid'
 import { t } from 'i18next'
+import { updateToken } from '../utils/token'
 
 function LoginPage() {
   const theme = useTheme()
   const navigate = useNavigate()
-  const { kitchenId, menuId } = useParams()
   const [isPendingSendToNumber, setIsPendingSendToNumber] = React.useState(true)
   const [chosenChannel, setChosenChannel] = React.useState('sms')
   const [phoneNumberValue, setPhoneNumberValue] = React.useState('')
   const [codeExpired, setCodeExpired] = React.useState(false)
   const [verificationCodeTimerKey, setVerificationCodeTimerKey] = React.useState('1')
   const [verificationCodeValue, setVerificationCodeValue] = React.useState('')
+  const [verificationCodeError, setVerificationCodeError] = React.useState(null)
+  const [verificationPhoneNumberError, setVerificationPhoneNumberError] = React.useState(null)
 
   const handleChangeChannel = (event, newChannel) => {
     setChosenChannel(newChannel)
   }
 
   const handleSubmitPhoneNumber = async () => {
-    // await axios.post('/verify', { phoneNumber: phoneNumberValue, channel: chosenChannel })
-    setIsPendingSendToNumber(false)
     setCodeExpired(false)
+    setVerificationCodeValue('')
     setVerificationCodeTimerKey(uuidv4())
+    setVerificationPhoneNumberError(null)
+    try {
+      await axios.post('/verify', { phoneNumber: phoneNumberValue, channel: chosenChannel })
+      setIsPendingSendToNumber(false)
+    } catch (error) {
+      setVerificationPhoneNumberError(error)
+    }
   }
 
   const handleSubmitCode = async () => {
-    const res = await axios.post('/verify/code', { phoneNumber: phoneNumberValue, code: verificationCodeValue })
-
-    if (res.status === 'approved') {
-      if (kitchenId && menuId) {
-        navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`)
-      } else {
-        navigate('/diners/kitchens/')
+    setVerificationCodeError(null)
+    try {
+      const res = await axios.post('/verify/code', { phoneNumber: phoneNumberValue, code: verificationCodeValue })
+      if (res.status === 200) {
+        const { token, exp } = res.data
+        updateToken(token, exp)
+        navigate(-1)
       }
+    } catch (error) {
+      setVerificationCodeError(error)
     }
   }
 
@@ -53,6 +65,8 @@ function LoginPage() {
     setIsPendingSendToNumber(true)
     setCodeExpired(false)
     setVerificationCodeTimerKey(uuidv4())
+    setVerificationCodeError(null)
+    setVerificationCodeValue('')
   }
 
   return (
@@ -66,7 +80,7 @@ function LoginPage() {
 
       }}
     >
-      <Typography variant="h3" sx={{ marginTop: theme.spacing(2) }}>LOG IN</Typography>
+      <Typography variant="h3" sx={{ marginTop: theme.spacing(2) }}>Login</Typography>
 
       <Box
         sx={{
@@ -141,6 +155,7 @@ function LoginPage() {
                   inputProps={{ type: 'tel' }}
                   value={verificationCodeValue}
                   onChange={setVerificationCodeValue}
+                  autoFocus
                 />
               </FormControl>
 
@@ -197,13 +212,57 @@ function LoginPage() {
                         }
                       </CountdownCircleTimer>
                     )
-                }
+                  }
               </Box>
             </Box>
           )
-      }
+        }
 
       </Box>
+
+      {
+        verificationPhoneNumberError
+        && (
+        <Alert
+          severity="error"
+          sx={{
+            position: 'absolute',
+            textAlign: 'start',
+            width: '80%',
+            maxWidth: 300,
+            bottom: theme.spacing(1),
+            left: '50%',
+            transform: 'translateX(-50%)',
+          }}
+        >
+          <AlertTitle>Error</AlertTitle>
+          Phone number Error —
+          <strong>Try again!</strong>
+        </Alert>
+        )
+      }
+
+      {
+        verificationCodeError
+        && (
+        <Alert
+          severity="error"
+          sx={{
+            position: 'absolute',
+            textAlign: 'start',
+            width: '80%',
+            maxWidth: 300,
+            bottom: theme.spacing(1),
+            left: '50%',
+            transform: 'translateX(-50%)',
+          }}
+        >
+          <AlertTitle>Error</AlertTitle>
+          Verification Code Error —
+          <strong>Try again!</strong>
+        </Alert>
+        )
+      }
     </Box>
   )
 }

@@ -7,7 +7,6 @@ const { Strategy } = require('passport-local');
 const cookieSession = require('cookie-session');
 
 const apiRoutes = require('./routes')
-const authRouter = require('./routes/authentication')
 const verifyRouter = require('./routes/verify')
 
 const { getUserById } = require('./utils/users')
@@ -52,7 +51,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use('/api', apiRoutes)
-app.use('/auth', authRouter);
 app.use('/verify', verifyRouter);
 
 // Have Node serve the files for our built React app

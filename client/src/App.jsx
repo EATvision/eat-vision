@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom'
 
 import i18next from 'i18next'
-import { ThemeProvider, useTheme } from '@mui/material'
+import { ThemeProvider } from '@mui/material'
 import DishesPage from './components/DinersView/DishesPage'
 
 import DinerView from './views/DinerView'
@@ -28,6 +28,7 @@ import AuthProvider from './hooks/auth'
 import ProtectedRoute from './components/ProtectedRoute'
 import theme from './theme'
 import LoginPage from './views/Login'
+import { getToken, setAuthToken } from './utils/token'
 
 function App() {
   const [filters, setFilters] = React.useState(defaultFilters)
@@ -35,11 +36,13 @@ function App() {
 
   document.body.dir = i18next.dir()
 
+  const token = getToken()
+  setAuthToken(token)
+
   return (
     <ThemeProvider theme={theme}>
       <AuthProvider>
         <Routes>
-
           <Route path="/" element={<Navigate replace to="/diners/kitchens" />} />
 
           <Route path="/login" element={<LoginPage />} />
