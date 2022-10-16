@@ -19,9 +19,9 @@ import ListItemText from '@mui/material/ListItemText'
 import OverviewIcon from '@mui/icons-material/Dashboard'
 import DishesIcon from '@mui/icons-material/RestaurantMenu'
 import MenusIcon from '@mui/icons-material/MenuBook'
-import { Button } from '@mui/material'
-import { useAuth } from '../contexts/auth'
+import { Button, Typography } from '@mui/material'
 import KitchenSelector from '../components/KitchenSelector'
+import { clearTokenData, getToken } from '../utils/token'
 
 const drawerWidth = 240
 
@@ -92,7 +92,9 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 
 export default function CustomerPage() {
   const theme = useTheme()
-  const { token, onLogout } = useAuth()
+  const navigate = useNavigate()
+
+  const token = getToken()
 
   const [open, setOpen] = React.useState(false)
 
@@ -102,6 +104,11 @@ export default function CustomerPage() {
 
   const handleDrawerClose = () => {
     setOpen(false)
+  }
+
+  const handleClickLogout = () => {
+    clearTokenData()
+    navigate('/customers')
   }
 
   return (
@@ -127,8 +134,9 @@ export default function CustomerPage() {
             )
           }
 
-          <Box sx={{ flexGrow: 1, display: 'flex' }}>
-            <KitchenSelector />
+          <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
+            { !token && <Typography sx={{ marginRight: theme.spacing(2) }}>Customers Page</Typography>}
+            { token && <KitchenSelector /> }
           </Box>
 
           {
@@ -137,7 +145,7 @@ export default function CustomerPage() {
               <Button
                 variant="text"
                 sx={{ color: theme.palette.common.white }}
-                onClick={onLogout}
+                onClick={handleClickLogout}
               >
                 LOGOUT
               </Button>

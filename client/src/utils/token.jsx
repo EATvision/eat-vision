@@ -1,11 +1,11 @@
 import axios from 'axios'
 
 export const getToken = () => localStorage.getItem('token')
-export const clearToken = () => localStorage.clearItem('token')
+export const clearToken = () => localStorage.removeItem('token')
 export const setToken = (token) => localStorage.setItem('token', token)
 
 export const getTokenExp = () => localStorage.getItem('tokenExp')
-export const clearTokenExp = () => localStorage.clearItem('tokenExp')
+export const clearTokenExp = () => localStorage.removeItem('tokenExp')
 export const setTokenExp = (tokenExp) => localStorage.setItem('tokenExp', tokenExp)
 
 export const setAuthToken = (token) => {
@@ -14,20 +14,23 @@ export const setAuthToken = (token) => {
   } else { delete axios.defaults.headers.common.Authorization }
 }
 
+export const clearTokenData = () => {
+  clearToken()
+  clearTokenExp()
+}
+
 export const updateToken = (token, tokenExp) => {
   if (token) {
     setToken(token)
     setTokenExp(tokenExp)
     setAuthToken(token)
   } else {
-    clearToken()
-    clearTokenExp()
+    clearTokenData()
   }
 }
 
 export default {
   getToken,
-  clearToken,
-  setToken,
+  clearTokenData,
   updateToken,
 }

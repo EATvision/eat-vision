@@ -25,9 +25,9 @@ router.post('/', async (req, res) => {
   const { body: { phoneNumber, channel = 'sms' } } = req
   let verificationRequest
   try {
-    verificationRequest = await twilio.verify.services(TWILIO_SERVICE_SID)
-      .verifications
-      .create({ to: phoneNumber, channel });
+    // verificationRequest = await twilio.verify.services(TWILIO_SERVICE_SID)
+    //   .verifications
+    //   .create({ to: phoneNumber, channel });
   } catch (e) {
     return res.status(500).send(e);
   }
@@ -40,16 +40,16 @@ router.post('/code', async (req, res) => {
   const errors = { wasValidated: true };
 
   try {
-    const verificationResult = await twilio.verify.services(TWILIO_SERVICE_SID)
-      .verificationChecks
-      .create({ code, to: phoneNumber });
+    // const verificationResult = await twilio.verify.services(TWILIO_SERVICE_SID)
+    //   .verificationChecks
+    //   .create({ code, to: phoneNumber });
 
-    if (verificationResult.status === 'approved') {
-      const tokenData = generateAccessTokenData({ phoneNumber });
-      return res.send(tokenData)
-    } else {
-      return res.status(403)
-    }
+    // if (verificationResult.status === 'approved') {
+    const tokenData = generateAccessTokenData({ phoneNumber });
+    return res.send(tokenData)
+    // } else {
+    //   return res.status(403)
+    // }
   } catch (e) {
     return res.status(500).send(e);
   }
