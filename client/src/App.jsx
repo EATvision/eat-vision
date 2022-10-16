@@ -13,6 +13,7 @@ import KitchenPage from './components/DinersView/KitchenPage'
 import KitchensPage from './components/DinersView/KitchensPage'
 import GreetingPage from './components/DinersView/GreetingPage'
 import OverviewPage from './components/CustomersView/OverviewPage'
+import GeneralInfoPage from './components/CustomersView/GeneralInfoPage'
 import FiltersWizardPage from './components/DinersView/FiltersWizardPage'
 import DishPage from './components/CustomersView/DishesManagerPage/DishPage'
 import CustomerLoginPage from './components/CustomersView/CustomerLoginPage'
@@ -67,6 +68,7 @@ function App() {
             <Route index element={<Navigate replace to="/customers/login" />} />
             <Route path="login" element={<CustomerLoginPage />} />
             <Route path="overview" element={<ProtectedRoute><OverviewPage /></ProtectedRoute>} />
+            <Route path="generalInfo" element={<ProtectedRoute><GeneralInfoPage /></ProtectedRoute>} />
             <Route path="dishes" element={<ProtectedRoute><DishesManagerPage /></ProtectedRoute>} />
             <Route path="dishes/:dishId" element={<ProtectedRoute><DishPage /></ProtectedRoute>} />
             <Route path="menus" element={<ProtectedRoute><MenusManagerPage /></ProtectedRoute>} />

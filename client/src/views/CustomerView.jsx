@@ -19,6 +19,7 @@ import ListItemText from '@mui/material/ListItemText'
 import OverviewIcon from '@mui/icons-material/Dashboard'
 import DishesIcon from '@mui/icons-material/RestaurantMenu'
 import MenusIcon from '@mui/icons-material/MenuBook'
+import InfoIcon from '@mui/icons-material/InfoOutlined'
 import { Button, Typography } from '@mui/material'
 import KitchenSelector from '../components/KitchenSelector'
 import { clearTokenData, getToken } from '../utils/token'
@@ -166,6 +167,8 @@ export default function CustomerPage() {
           <Divider />
           <List>
             <ItemList open={open} tabName="overview" icon={<OverviewIcon />} />
+
+            <ItemList open={open} tabName="generalInfo" icon={<InfoIcon />} />
 
             <ItemList open={open} tabName="dishes" icon={<DishesIcon />} />
 
