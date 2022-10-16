@@ -1,6 +1,5 @@
 import useSWR from 'swr'
-
-const fetcher = (...args) => fetch(...args).then((res) => res.json())
+import fetcher from './fetcher'
 
 export const useDishes = () => {
   const { data, error, ...rest } = useSWR('/api/dishes', fetcher)

@@ -7,7 +7,6 @@ import MuiAppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
 import List from '@mui/material/List'
 import CssBaseline from '@mui/material/CssBaseline'
-import Typography from '@mui/material/Typography'
 import Divider from '@mui/material/Divider'
 import IconButton from '@mui/material/IconButton'
 import MenuIcon from '@mui/icons-material/Menu'
@@ -21,7 +20,8 @@ import OverviewIcon from '@mui/icons-material/Dashboard'
 import DishesIcon from '@mui/icons-material/RestaurantMenu'
 import MenusIcon from '@mui/icons-material/MenuBook'
 import { Button } from '@mui/material'
-import { useAuth } from '../hooks/auth'
+import { useAuth } from '../contexts/auth'
+import KitchenSelector from '../components/KitchenSelector'
 
 const drawerWidth = 240
 
@@ -127,9 +127,9 @@ export default function CustomerPage() {
             )
           }
 
-          <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-            Customer view
-          </Typography>
+          <Box sx={{ flexGrow: 1, display: 'flex' }}>
+            <KitchenSelector />
+          </Box>
 
           {
             token
