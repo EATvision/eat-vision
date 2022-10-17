@@ -1,0 +1,105 @@
+/* working hours component */
+ .working-hours {
+	 border-collapse: collapse;
+	 width: 100%;
+}
+/* headers */
+ .hours td {
+	 text-align: left;
+	 vertical-align: bottom;
+	 padding: 0;
+}
+ .hours .header {
+	 width: 12px;
+	 max-width: 12px !important;
+}
+ .hours .header span {
+	 font-size: 10px;
+	 display: block;
+	 overflow: hidden;
+}
+ .hours .part {
+	 text-align: center;
+}
+ .hours .part span {
+	 font-size: 7px;
+	 display: block;
+	 overflow: hidden;
+}
+/* individual days */
+ .day {
+	/* time cells */
+	/* overlay showing selected timespans */
+}
+ .day td {
+	 height: 25px;
+	 padding: 0;
+}
+ .day .day-name {
+	 padding: 0px 10px 0px 0px;
+	 vertical-align: middle;
+	 font-size: 12px;
+}
+ .day .reset {
+	 padding-left: 10px;
+	 vertical-align: middle;
+}
+ .day .time-cell {
+	 border: 1px solid silver;
+	 cursor: pointer;
+   width: 100px
+}
+ .day .time-cell.selected {
+	 background-color: #007bff;
+}
+ .day .time-cell.hour {
+	 border-right: 1px solid #e0e0e0;
+}
+ .day .time-cell.half {
+	 border-left: 1px solid #e0e0e0;
+}
+ .day .timespan-container {
+	 position: relative;
+	 width: 0;
+	 height: 0;
+	 padding: 0;
+}
+ .day .timespan-container .timespan-overlay {
+	 position: absolute;
+	 height: 15px;
+   width: 100vw;
+	 /* width: 490px;
+	 left: 80px; */
+	 text-align: center;
+	 vertical-align: middle;
+	 color: black;
+	 pointer-events: none;
+}
+ .day .timespan-container .timespan-overlay .timespan {
+	 opacity: 1;
+	 font-size: 12px;
+	 border-radius: 5px;
+	 padding: 0px 3px;
+	 color: white;
+	 background-color: #6bb2ff;
+}
+/* reset all feature */
+ .reset-all {
+	 text-align: right;
+	 padding-right: 0px;
+	 padding-top: 10px;
+}
+ .reset-all .working-hours-reset {
+	 margin-right: 0px;
+}
+/* admin only styles */
+ .working-hours .time-cell.selected {
+	 background-color: #5e6469;
+}
+ .working-hours .timespan-container .timespan-overlay .timespan {
+	 background-color: #6fc1ff;
+}
+ .working-hours button.working-hours-reset {
+	 padding: 3px 5px;
+}
+ 
