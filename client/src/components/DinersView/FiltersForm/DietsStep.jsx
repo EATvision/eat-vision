@@ -59,7 +59,10 @@ function DietsSelector({ filters, setFilters }) {
                 value={diet.id}
                 sx={{ justifyContent: 'flex-start' }}
               >
-                <Checkbox checked={filters.diets.includes(diet.id)} />
+                <Checkbox
+                  sx={{ pointerEvents: 'none' }}
+                  checked={filters.diets.includes(diet.id)}
+                />
                 {t(diet.name.toLocaleLowerCase())}
               </ToggleButton>
             ))
