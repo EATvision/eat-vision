@@ -43,6 +43,7 @@ function IngredientsSelector({ filters, setFilters, filterType }) {
       onChange={handleChangeIngredients}
       isMulti
       cacheOptions
+      menuPlacement="top"
       loadOptions={loadOptions}
       onInputChange={handleInputChange}
       getOptionLabel={(e) => e.name}

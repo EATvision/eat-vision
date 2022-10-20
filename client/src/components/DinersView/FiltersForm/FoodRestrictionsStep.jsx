@@ -53,6 +53,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
         orientation="vertical"
       >
         <ToggleButton
+          size="small"
           color="primary"
           variant="outlined"
           selected={isNoRestrictions}
@@ -73,6 +74,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
         >
           <ToggleButton
             variant="outlined"
+            size="small"
             selected={Boolean(selectedRestrictions.exclude)}
             onClick={handleClickSelectRestriction('exclude')}
             sx={{ justifyContent: 'flex-start' }}
@@ -100,6 +102,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
         >
           <ToggleButton
             variant="outlined"
+            size="small"
             selected={Boolean(selectedRestrictions.allergies)}
             onClick={handleClickSelectRestriction('allergies')}
             sx={{ justifyContent: 'flex-start' }}
@@ -127,6 +130,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
         >
           <ToggleButton
             variant="outlined"
+            size="small"
             selected={Boolean(selectedRestrictions.avoidOrReduce)}
             onClick={handleClickSelectRestriction('avoidOrReduce')}
             sx={{ justifyContent: 'flex-start' }}

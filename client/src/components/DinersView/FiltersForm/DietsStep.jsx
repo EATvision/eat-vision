@@ -32,6 +32,7 @@ function DietsSelector({ filters, setFilters }) {
       >
         <ToggleButton
           fullWidth
+          size="small"
           color="primary"
           variant="outlined"
           selected={filters.diets.length === 0}
@@ -54,10 +55,11 @@ function DietsSelector({ filters, setFilters }) {
         {
             diets.map((diet) => (
               <ToggleButton
+                size="small"
                 fullWidth
                 key={diet.id}
                 value={diet.id}
-                sx={{ justifyContent: 'flex-start' }}
+                sx={{ justifyContent: 'flex-start', padding: theme.spacing(0) }}
               >
                 <Checkbox
                   sx={{ pointerEvents: 'none' }}
