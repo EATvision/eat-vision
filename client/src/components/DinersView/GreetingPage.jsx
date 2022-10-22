@@ -47,12 +47,13 @@ function GreetingPage({ setFilters }) {
           flexDirection: 'column',
           justifyContent: 'flex-end',
           margin: `0 ${theme.spacing(2)}`,
+          marginBottom: theme.spacing(10),
         }}
       >
 
         <Box
           sx={{
-            height: 400,
+            height: 300,
             position: 'absolute',
             left: '50%',
             translate: '-50%',
@@ -72,18 +73,28 @@ function GreetingPage({ setFilters }) {
             padding: theme.spacing(2),
           }}
         >
-          <Typography variant="h6">
+          <Typography variant="h6" sx={{ fontSize: 18, color: '#494949', fontWeigth: '500' }}>
             {t('hi_im_your_personal_waiter')}
           </Typography>
 
-          <Typography variant="h6">
-            <b>{t('let_me_help_you')}</b>
+          <Typography
+            variant="h6"
+            sx={{
+              fontSize: 20, fontWeight: 'bold', lineHeight: 1.2, marginTop: theme.spacing(1),
+            }}
+          >
+            {t('lets_see_only_things')}
+            <br />
+            {t('that_are_relevant_to_you')}
           </Typography>
 
           <Typography
             variant="body2"
             sx={{
-              display: 'flex', justifyContent: 'center', opacity: 0.8, marginTop: theme.spacing(2),
+              display: 'flex',
+              justifyContent: 'center',
+              opacity: 0.8,
+              marginTop: theme.spacing(2),
             }}
           >
             {t('or_skip_to_the')}

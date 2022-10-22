@@ -9,8 +9,9 @@ import {
 import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
 import Dish from './DishCard/Dish'
+import MenuOptionsBanner from './MenuOptionsBanner'
 
-function DishesPage({ dishes }) {
+function DishesPage({ dishes, filters }) {
   const theme = useTheme()
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
@@ -105,6 +106,16 @@ function DishesPage({ dishes }) {
           ))
         }
       </div>
+
+      {
+          dishes?.total?.length > 0
+          && (
+          <MenuOptionsBanner
+            filters={filters}
+            dishes={dishes}
+          />
+          )
+        }
 
     </>
   )

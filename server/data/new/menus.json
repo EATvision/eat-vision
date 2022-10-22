@@ -5,8 +5,8 @@
       "recOYWCGiIdPNFxiQ",
       "recI6ewUXK9SVR2o3"
     ],
-    "name": "menu",
-    "description": "menu",
+    "name": "All day",
+    "description": "All day",
     "workingHours": [
       "recNk4JNbX6GMGRrf"
     ],
@@ -405,7 +405,7 @@
     "kitchens": [
       "recipajs7uV1pWw1h"
     ],
-    "name": "Menu ",
+    "name": "Full menu",
     "workingHours": [
       "reclLWEiXq2Kkmwlx"
     ],
@@ -516,7 +516,7 @@
     "kitchens": [
       "rec1a0suXOByXtd9E"
     ],
-    "name": "Menu ",
+    "name": "Full menu",
     "workingHours": [
       "reclLWEiXq2Kkmwlx"
     ],

@@ -3,6 +3,8 @@ export default {
   sign_in: 'sign in',
   'Welcome to React': 'hello',
   hi_im_your_personal_waiter: 'Hello, I’m Dawn happy to assist you',
+  lets_see_only_things: 'Lets see only the things',
+  that_are_relevant_to_you: ' that are relevant to your needs',
   let_me_help_you: 'Lets see only the things that are relevant to your needs',
   lets_get_started: 'Let\'s get started',
   or_skip_to_the: 'or skip to the',
@@ -59,4 +61,5 @@ export default {
   'no sugar': 'no sugar',
   my_reccomendations_for_you: 'My recommendation for you',
   ask_without_the: 'ask without the',
+  ingredients_selector_placeholder: 'Type a food type, ingredient or a flavor',
 }

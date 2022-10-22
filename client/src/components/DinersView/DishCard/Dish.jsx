@@ -147,22 +147,16 @@ export default function Dish({ data }) {
           <Box>
             {
               data?.image?.url
-                ? (
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      width: 163, height: 163, maxHeight: 163, borderRadius: '10px', margin: theme.spacing(1),
-                    }}
-                    image={data?.image?.url}
-                    alt=""
-                  />
-                )
-                : (
-                  <Box sx={{
-                    width: 163, height: 163, maxHeight: 163, borderRadius: '10px', margin: theme.spacing(1), backgroundColor: '#eeeeee',
+              && (
+                <CardMedia
+                  component="img"
+                  sx={{
+                    width: 120, height: 120, maxHeight: 120, margin: theme.spacing(1),
                   }}
-                  />
-                )
+                  image={data?.image?.url}
+                  alt=""
+                />
+              )
             }
           </Box>
         </Box>

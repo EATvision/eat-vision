@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { t } from 'i18next'
 import React from 'react'
 import AsyncSelect from 'react-select/async'
 
@@ -49,7 +50,7 @@ function IngredientsSelector({ filters, setFilters, filterType }) {
       getOptionLabel={(e) => e.name}
       getOptionValue={(e) => e.id}
       closeMenuOnSelect
-      placeholder="Type to search ingredients"
+      placeholder={t('ingredients_selector_placeholder')}
     />
   )
 }

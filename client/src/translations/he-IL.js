@@ -3,6 +3,8 @@ export default {
   sign_in: 'כניסה',
   'Welcome to React': 'שלום',
   hi_im_your_personal_waiter: 'שלום, אני שחר אני כאן כדי לעזור',
+  lets_see_only_things: 'בואו נראה רק את הדברים',
+  that_are_relevant_to_you: ' הרלוונטים לצרכים שלך',
   let_me_help_you: 'אשמח להציג את המנות שמתאימות בדיוק בשבילך',
   lets_get_started: 'לתפריט מותאם',
   or_skip_to_the: 'או לעבור',
@@ -59,4 +61,5 @@ export default {
   'no sugar': 'ללא סוכר',
   my_reccomendations_for_you: 'ההמלצות שלי בשבילך',
   ask_without_the: 'לבקש בלי',
+  ingredients_selector_placeholder: 'הקלד\\י סוג אוכל, רכיב או טעמים',
 }
