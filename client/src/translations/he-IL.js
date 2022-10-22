@@ -62,4 +62,5 @@ export default {
   my_reccomendations_for_you: 'ההמלצות שלי בשבילך',
   ask_without_the: 'לבקש בלי',
   ingredients_selector_placeholder: 'הקלד\\י סוג אוכל, רכיב או טעמים',
+  coming_soon: 'בקרוב',
 }

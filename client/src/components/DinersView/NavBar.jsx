@@ -1,15 +1,17 @@
 import React from 'react'
 import {
-  AppBar, Badge, Button, IconButton,
+  AppBar, Badge, Button, IconButton, Tooltip,
 } from '@mui/material'
 import { SlSettings as SettingsIcon } from 'react-icons/sl'
 
 import TuneIcon from '@mui/icons-material/Tune'
 import { MdOutlineGroups as GroupsIcon } from 'react-icons/md'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
+import { t } from 'i18next'
 
 function NavBar({ filters }) {
   const navigate = useNavigate()
+  const location = useLocation()
 
   const handleClickFilters = () => {
     navigate('/diners/filters')
@@ -28,8 +30,12 @@ function NavBar({ filters }) {
         color="inherit"
         fullWidth
         onClick={handleClickFilters}
+        disabled={location.pathname.includes('/filters')}
       >
-        <IconButton disableRipple>
+        <IconButton
+          disableRipple
+          disabled={location.pathname.includes('/filters')}
+        >
           <Badge
             color="info"
             invisible={numberOfFiltersOn === 0}
@@ -40,25 +46,35 @@ function NavBar({ filters }) {
         </IconButton>
       </Button>
 
-      <Button
-        sx={{ padding: 0 }}
-        color="inherit"
-        fullWidth
+      <Tooltip
+        title={t('coming_soon')}
+        enterTouchDelay={0}
       >
-        <IconButton disableRipple>
-          <GroupsIcon />
-        </IconButton>
-      </Button>
+        <Button
+          sx={{ padding: 0 }}
+          color="inherit"
+          fullWidth
+        >
+          <IconButton disableRipple>
+            <GroupsIcon />
+          </IconButton>
+        </Button>
+      </Tooltip>
 
-      <Button
-        sx={{ padding: 0 }}
-        color="inherit"
-        fullWidth
+      <Tooltip
+        title={t('coming_soon')}
+        enterTouchDelay={0}
       >
-        <IconButton disableRipple>
-          <SettingsIcon />
-        </IconButton>
-      </Button>
+        <Button
+          sx={{ padding: 0 }}
+          color="inherit"
+          fullWidth
+        >
+          <IconButton disableRipple>
+            <SettingsIcon />
+          </IconButton>
+        </Button>
+      </Tooltip>
     </AppBar>
   )
 }
