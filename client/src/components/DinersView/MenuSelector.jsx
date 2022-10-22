@@ -15,7 +15,7 @@ function MenuOptionsBanner() {
     navigate('', { state: { menuId: event.target.value } })
   }
 
-  if (menus.length === 1) {
+  if (menus?.length === 1) {
     return (
       <Typography
         sx={{ minWidth: 120, color: theme.palette.common.white }}

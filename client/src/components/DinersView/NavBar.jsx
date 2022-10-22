@@ -1,29 +1,63 @@
 import React from 'react'
 import {
-  AppBar, Button,
+  AppBar, Badge, Button, IconButton,
 } from '@mui/material'
-import SettingsIcon from '@mui/icons-material/Settings'
-import TuneIcon from '@mui/icons-material/Tune'
-import GroupsIcon from '@mui/icons-material/Groups'
+import { SlSettings as SettingsIcon } from 'react-icons/sl'
 
-function NavBar() {
+import TuneIcon from '@mui/icons-material/Tune'
+import { MdOutlineGroups as GroupsIcon } from 'react-icons/md'
+import { useNavigate } from 'react-router-dom'
+
+function NavBar({ filters }) {
+  const navigate = useNavigate()
+
   const handleClickFilters = () => {
+    navigate('/diners/filters')
   }
+
+  const numberOfFiltersOn = Object.keys(filters).reduce((acc, filterName) => acc + filters[filterName].length, 0)
+
   return (
-    <AppBar position="fixed" color="default" sx={{ display: 'flex', flexDirection: 'row' }}>
+    <AppBar
+      position="fixed"
+      color="default"
+      sx={{ display: 'flex', flexDirection: 'row' }}
+    >
       <Button
+        sx={{ padding: '3px' }}
+        color="inherit"
         fullWidth
         onClick={handleClickFilters}
       >
-        <TuneIcon />
+        <IconButton disableRipple>
+          <Badge
+            color="info"
+            invisible={numberOfFiltersOn === 0}
+            badgeContent={numberOfFiltersOn}
+          >
+            <TuneIcon />
+          </Badge>
+        </IconButton>
       </Button>
 
-      <Button fullWidth>
-        <GroupsIcon />
+      <Button
+        sx={{ padding: 0 }}
+        color="inherit"
+        fullWidth
+      >
+        <IconButton disableRipple>
+          <GroupsIcon />
+        </IconButton>
       </Button>
 
-      <Button fullWidth>
-        <SettingsIcon />
+      <Button
+        sx={{ padding: 0 }}
+        color="inherit"
+        fullWidth
+      >
+        <IconButton disableRipple>
+          <SettingsIcon />
+        </IconButton>
       </Button>
     </AppBar>
   )

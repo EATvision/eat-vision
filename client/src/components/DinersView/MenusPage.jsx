@@ -13,7 +13,7 @@ function MenusPage() {
   if (isLoading) return <div>LOADING</div>
   if (isError) return <div>ERROR</div>
 
-  if (menus.length === 1) return <Navigate to={menus[0].id} />
+  if (menus?.length === 1) return <Navigate to={menus[0].id} />
 
   if (!menus.length) {
     return (
