@@ -54,6 +54,10 @@ function DishesPage({ dishes, filters }) {
           variant="scrollable"
           scrollButtons
           allowScrollButtonsMobile
+          sx={{ backgroundColor: theme.palette.primary.light, color: theme.palette.common.white }}
+          indicatorColor="secondary"
+          textColor="secondary"
+          visibleScrollbar
         >
           {
             orderedCategories.map((category, index) => (
