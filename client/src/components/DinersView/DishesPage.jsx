@@ -1,10 +1,9 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import useScrollSpy from 'react-use-scrollspy'
 
 import {
-  Box, Typography, useTheme,
+  Box, Tab, Tabs, Typography, useTheme,
 } from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
@@ -15,23 +14,11 @@ function DishesPage({ dishes, filters }) {
   const theme = useTheme()
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
+
   const [showFilteredOutDishes] = React.useState(false)
+  const [currentCategory, setCurrentCategory] = React.useState(0)
 
-  const sectionRefs = [
-    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null), React.useRef(null),
-    React.useRef(null), React.useRef(null), React.useRef(null),
-  ]
   const { categories, isLoading } = useKitchenCategoriesByMenu(kitchenId, menuId)
-
-  const activeSection = useScrollSpy({
-    sectionElementRefs: sectionRefs,
-    offsetPx: -80,
-  })
 
   const defaultCategories = categories?.reduce((result, c) => ({
     ...result,
@@ -52,20 +39,34 @@ function DishesPage({ dishes, filters }) {
     [dishes, categories],
   )
 
+  const handleChangeCategory = (event, newValue) => {
+    setCurrentCategory(newValue)
+  }
+
   if (isLoading) return <div>LOADING</div>
 
   return (
     <>
       <div className="top-0 sticky text-sm z-10">
-        <ul className="nav menu-sidebar bg-black text-white overflow-auto whitespace-nowrap">
+        <Tabs
+          value={currentCategory}
+          onChange={handleChangeCategory}
+          variant="scrollable"
+          scrollButtons
+          allowScrollButtonsMobile
+        >
           {
             orderedCategories.map((category, index) => (
-              <li key={category.id} className="py-2 mx-1 inline-block">
-                <a className={`nav-link ${activeSection === index ? 'font-bold' : ''}`} href={`#${category.id}`}>{category.name}</a>
-              </li>
+              <Tab
+                key={category.id}
+                label={category.name}
+                href={`#${category.id}`}
+              >
+                {category.name}
+              </Tab>
             ))
           }
-        </ul>
+        </Tabs>
       </div>
 
       <div className="container relative overflow-auto mx-auto">
@@ -75,9 +76,7 @@ function DishesPage({ dishes, filters }) {
               className="container mx-auto flex flex-col justify-center items-center gap-2"
               key={category.id}
               id={category.id}
-              ref={sectionRefs[index]}
             >
-
               <Box
                 sx={{
                   width: '100%',
