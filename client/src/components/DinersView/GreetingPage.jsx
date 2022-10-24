@@ -42,12 +42,12 @@ function GreetingPage({ setFilters }) {
       <Box
         sx={{
           position: 'relative',
-          height: 400,
+          height: 300,
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'flex-end',
-          margin: `0 ${theme.spacing(2)}`,
-          marginBottom: theme.spacing(10),
+          margin: 'auto',
+          marginTop: 0,
         }}
       >
 
@@ -108,7 +108,11 @@ function GreetingPage({ setFilters }) {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ margin: theme.spacing(2), marginTop: 'auto' }}>
+      <Box sx={{
+        margin: `0 ${theme.spacing(2)}`,
+        marginBottom: theme.spacing(1),
+      }}
+      >
         <Link
           className="group flex flex-col"
           to="filters/1"

@@ -50,7 +50,7 @@ export default function Dish({ data }) {
         alignItems: 'center',
         justifyContent: 'space-between',
         position: 'relative',
-        marginBottom: theme.spacing(4),
+        marginBottom: theme.spacing(2),
         flex: 1,
       }}
     >

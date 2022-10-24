@@ -92,9 +92,14 @@ function DishesPage({ dishes, filters }) {
                 }}
               >
                 <Typography
-                  variant="h5"
                   sx={{
-                    fontWeight: 'bold', padding: theme.spacing(4), paddingBottom: theme.spacing(0), textAlign: 'initial', width: '100%',
+                    backgroundColor: '#E9E9E9',
+                    margin: theme.spacing(2),
+                    padding: theme.spacing(1),
+                    fontWeight: 'bold',
+                    fontSize: 22,
+                    textAlign: 'initial',
+                    width: '100%',
                   }}
                 >
                   {category?.name}
