@@ -151,7 +151,7 @@ export default function Dish({ data }) {
                 <CardMedia
                   component="img"
                   sx={{
-                    width: 120, height: 120, maxHeight: 120, margin: theme.spacing(1),
+                    width: 100, maxHeight: 100, margin: theme.spacing(1),
                   }}
                   image={data?.image?.url}
                   alt=""
