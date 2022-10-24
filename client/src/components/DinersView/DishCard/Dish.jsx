@@ -1,9 +1,14 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
-  Alert, AlertTitle, Badge, Box, Button, Card, CardHeader,
-  CardMedia, Divider, FormLabel, List, ListItem, Paper, Popover, Typography, useTheme,
+  Alert, AlertTitle, Box, Card, CardActions, CardContent, CardHeader,
+  CardMedia, Collapse, Divider, IconButton, List, ListItem, Paper, Typography, useTheme,
 } from '@mui/material'
+import { CgPlayListAdd as DescriptionIcon, CgMathPercent as KcalIcon } from 'react-icons/cg'
+import { BiMessageMinus as ChangesIcon, BiMessageAdd as UpgradesIcon } from 'react-icons/bi'
+import { VscVersions as SizesIcon } from 'react-icons/vsc'
+import { BsBasket as IngredientsIcon } from 'react-icons/bs'
+import { TiWarningOutline as WarningsIcon } from 'react-icons/ti'
 
 import ClampLines from 'react-clamp-lines'
 
@@ -19,6 +24,7 @@ export default function Dish({ data }) {
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
 
+  const [expandedMoreInfo, setExpandedMoreInfo] = React.useState()
   const [selectedComponents, setSelectedComponents] = React.useState({ choice: [], sideDish: [], addableComponents: [] })
 
   const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
@@ -37,6 +43,14 @@ export default function Dish({ data }) {
         options.exclusive ? [componentId] : currSelectedComponents[recipeType].filter((c) => c !== componentId)
       ) : [...currSelectedComponents[recipeType], componentId],
     }))
+  }
+
+  const handleClickMoreInfoBtn = (moreInfoTab) => () => {
+    if (expandedMoreInfo !== moreInfoTab) {
+      setExpandedMoreInfo(moreInfoTab)
+    } else {
+      setExpandedMoreInfo()
+    }
   }
 
   return (
@@ -215,6 +229,51 @@ export default function Dish({ data }) {
             />
           )
         }
+
+        <CardActions>
+          <IconButton
+            onClick={handleClickMoreInfoBtn('Description')}
+          >
+            <DescriptionIcon />
+          </IconButton>
+          <IconButton
+            onClick={handleClickMoreInfoBtn('Changes')}
+          >
+            <ChangesIcon />
+          </IconButton>
+          <IconButton
+            onClick={handleClickMoreInfoBtn('Kcal')}
+          >
+            <KcalIcon />
+          </IconButton>
+          <IconButton
+            onClick={handleClickMoreInfoBtn('Upgrades')}
+          >
+            <UpgradesIcon />
+          </IconButton>
+          <IconButton
+            onClick={handleClickMoreInfoBtn('Sizes')}
+          >
+            <SizesIcon />
+          </IconButton>
+          <IconButton
+            onClick={handleClickMoreInfoBtn('Ingredients')}
+          >
+            <IngredientsIcon />
+          </IconButton>
+          <IconButton
+            onClick={handleClickMoreInfoBtn('Warnings')}
+          >
+            <WarningsIcon />
+          </IconButton>
+        </CardActions>
+
+        <Divider />
+        <Collapse in={Boolean(expandedMoreInfo)} timeout="auto" unmountOnExit>
+          <CardContent>
+            {expandedMoreInfo}
+          </CardContent>
+        </Collapse>
       </Card>
     </Paper>
   )
