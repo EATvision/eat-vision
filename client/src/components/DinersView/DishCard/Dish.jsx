@@ -2,13 +2,15 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
   Alert, AlertTitle, Box, Card, CardActions, CardContent, CardHeader,
-  CardMedia, Collapse, Divider, IconButton, List, ListItem, Paper, Typography, useTheme,
+  CardMedia, Collapse, Divider, IconButton, List, ListItem, Paper, Table,
+  TableBody, TableCell, TableHead, TableRow, Typography, useTheme,
 } from '@mui/material'
 import { CgPlayListAdd as DescriptionIcon, CgMathPercent as KcalIcon } from 'react-icons/cg'
 import { BiMessageMinus as ChangesIcon, BiMessageAdd as UpgradesIcon } from 'react-icons/bi'
 import { VscVersions as SizesIcon } from 'react-icons/vsc'
 import { BsBasket as IngredientsIcon } from 'react-icons/bs'
 import { TiWarningOutline as WarningsIcon } from 'react-icons/ti'
+import CheckIcon from '@mui/icons-material/Check'
 
 import ClampLines from 'react-clamp-lines'
 
@@ -232,49 +234,147 @@ export default function Dish({ data }) {
 
         <CardActions>
           <IconButton
-            onClick={handleClickMoreInfoBtn('Description')}
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            disabled={!data.longDescription}
+            color={expandedMoreInfo === 'description' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('description')}
           >
             <DescriptionIcon />
+            <Typography sx={{ fontSize: 12 }}>desc</Typography>
           </IconButton>
+
           <IconButton
-            onClick={handleClickMoreInfoBtn('Changes')}
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            disabled={data.recipe.putaside.length === 0 || data.recipe.excludable.length === 0}
+            color={expandedMoreInfo === 'changes' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('changes')}
           >
             <ChangesIcon />
+            <Typography sx={{ fontSize: 12 }}>changes</Typography>
           </IconButton>
           <IconButton
-            onClick={handleClickMoreInfoBtn('Kcal')}
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'kcal' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('kcal')}
           >
             <KcalIcon />
+            <Typography sx={{ fontSize: 12 }}>kcal</Typography>
           </IconButton>
           <IconButton
-            onClick={handleClickMoreInfoBtn('Upgrades')}
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'upgrades' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('upgrades')}
           >
             <UpgradesIcon />
+            <Typography sx={{ fontSize: 12 }}>upgrades</Typography>
           </IconButton>
           <IconButton
-            onClick={handleClickMoreInfoBtn('Sizes')}
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'sizes' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('sizes')}
           >
             <SizesIcon />
+            <Typography sx={{ fontSize: 12 }}>sizes</Typography>
           </IconButton>
           <IconButton
-            onClick={handleClickMoreInfoBtn('Ingredients')}
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'ingredients' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('ingredients')}
           >
             <IngredientsIcon />
+            <Typography sx={{ fontSize: 12 }}>ing</Typography>
           </IconButton>
           <IconButton
-            onClick={handleClickMoreInfoBtn('Warnings')}
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'warnings' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('warnings')}
           >
             <WarningsIcon />
+            <Typography sx={{ fontSize: 12 }}>warnings</Typography>
           </IconButton>
         </CardActions>
 
         <Divider />
         <Collapse in={Boolean(expandedMoreInfo)} timeout="auto" unmountOnExit>
-          <CardContent>
-            {expandedMoreInfo}
+          <CardContent sx={{ textAlign: 'start' }}>
+            <ExpandedInfo type={expandedMoreInfo} data={data} />
           </CardContent>
         </Collapse>
       </Card>
     </Paper>
   )
+}
+
+function ExpandedInfo({ type, data }) {
+  const theme = useTheme()
+
+  switch (type) {
+    case 'description':
+      return (
+        <>
+          <Typography sx={{ fontWeight: 'bold', marginBottom: theme.spacing(2) }}>Description</Typography>
+          <Typography>{data.longDescription}</Typography>
+        </>
+      )
+    case 'changes': {
+      const ingredientsSummary = {}
+      data.recipe.putaside.forEach((component) => {
+        ingredientsSummary[component.id] = { ...(ingredientsSummary[component.id] || {}), putaside: true }
+      })
+      data.recipe.excludable.forEach((component) => {
+        ingredientsSummary[component.id] = { ...(ingredientsSummary[component.id] || {}), excludable: true }
+      })
+      return (
+        <>
+          <Typography sx={{ fontWeight: 'bold', marginBottom: theme.spacing(2) }}>Dish Possible Changes</Typography>
+
+          <Table size="small">
+            <TableHead>
+              <TableRow>
+                <TableCell>ingredient</TableCell>
+                <TableCell>remove</TableCell>
+                <TableCell>put aside</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {Object.entries(ingredientsSummary).map((row) => (
+                <TableRow
+                  key={row[0]}
+                  sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                >
+                  <TableCell component="th" scope="row">
+                    {row[0]}
+                  </TableCell>
+                  <TableCell>{row[1].excludable && <CheckIcon />}</TableCell>
+                  <TableCell>{row[1].putaside && <CheckIcon />}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </>
+      )
+    }
+
+    default:
+      return null
+  }
 }
