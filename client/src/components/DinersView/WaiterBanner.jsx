@@ -12,26 +12,26 @@ function WaiterBanner({ title, subtitle }) {
   return (
     <Paper
       square
-      elevation={2}
+      elevation={0}
       sx={{
         display: 'flex',
         alignItems: 'start',
         justifyContent: 'center',
-        backgroundColor: theme.palette.primary.main,
-        color: theme.palette.common.white,
         position: 'relative',
+        margin: `${theme.spacing(1)} 0`,
       }}
     >
       <Box
         sx={{
           width: 270,
-          margin: `${theme.spacing(1)} 0px`,
-          marginLeft: `${WAITER_AVATAR_WIDTH}px`,
+          margin: 'auto 0px',
+          marginLeft: `${WAITER_AVATAR_WIDTH - 10}px`,
         }}
       >
-        <Typography variant="p">
-          <b>{title}</b>
-          <br />
+        <Typography sx={{ lineHeight: 1.2, fontWeight: 'bold', fontSize: 20 }}>
+          {title}
+        </Typography>
+        <Typography>
           {subtitle}
         </Typography>
       </Box>
