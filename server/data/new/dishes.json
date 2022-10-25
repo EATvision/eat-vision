@@ -3,6 +3,7 @@
     "id": "rec2IptpcHO5CwfSb",
     "name": "“ACME” SMOKED SALMON",
     "description": "ciabatta bread, scallion, cream cheese, tomato, red onion and capers",
+    "longDescription": "potato bun, scallion cream cheese, tomato, red onion and capers",
     "categories": [
       "rech0wuHHfAJ4EpjX"
     ],
@@ -105,6 +106,7 @@
     "id": "recBd7D27GcmpznjV",
     "name": "12 CHAIRS LAMBURGER",
     "description": "mixed with Middle Eastern spices, Feta cheese, red onion, Israeli pickles and spicy mayo on a brioche bun, served with hand cut fries",
+    "longDescription": "ground lamb meat, topped with Bulgarian feta cheese, red onions, pickles and spicy mayo. Served with 12 Chairs home fries and extra spicy mayo on the side. Home fries can be substituted with any other side. Recommended temp - medium.\n",
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
@@ -202,6 +204,7 @@
     "id": "recRgkttRpWALxOQ2",
     "name": "12 CHAIRS SALAD",
     "description": "mesclun, avocado, grapefruit, roasted pecans ",
+    "longDescription": "Mixed greens, avocado, grapefruit, roasted pecans.  ",
     "categories": [
       "recqGerbTr69t5TIU"
     ],
@@ -304,6 +307,7 @@
     "id": "rec5p2fn1gO0pZL8Y",
     "name": "ARAYES ",
     "description": "grilled pita filled with minced lamb, served with a spicy cherry tomato salad and tahini",
+    "longDescription": "grilled pita with olive oil, filled with lamb, served with tomato salsa (medium-spicy) and tahini on the side.",
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
@@ -451,6 +455,7 @@
     "id": "recvSAKdv0vql5FLe",
     "name": "BABAGANOUSH",
     "description": "grilled eggplant mixed with garlic and aioli",
+    "longDescription": "fire roasted eggplant mixed with mayonnaise, olive oil ",
     "categories": [
       "recjU7rW5EwrcSCBe"
     ],
@@ -496,6 +501,7 @@
     "id": "rec3Eder7uAr00tco",
     "name": "BALADI EGGPLANT",
     "description": "topped with tahini and pine nuts",
+    "longDescription": "oven baked whole eggplant, topped with tahini and pine nuts.",
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
@@ -564,6 +570,7 @@
     "id": "recPvn8Vh7q2hBNao",
     "name": "BEETS SALAD",
     "description": "tossed with fresh herbs and garlic, topped with pine nuts and goat cheese",
+    "longDescription": "Can be served without tahini/pine nuts or on the side.",
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
@@ -636,6 +643,7 @@
     "id": "rec3pHNcknbYL3km5",
     "name": "BOREK",
     "description": "traditional cigar dough filled with potato puree and runny egg, folded into a pocket and fried",
+    "longDescription": "cigar dough filled with potato puree and runny egg, deep fried. Served over Labaneh and crushed tomatoes. . Can be served without the egg.",
     "categories": [
       "reclT14FtHvh32jWC"
     ],
@@ -697,6 +705,7 @@
     "id": "recX9iUiXxK7TC1CJ",
     "name": "CAULIFLOWER",
     "description": "tossed with fresh oregano, jalapeno peppers and red onion over tahini",
+    "longDescription": "deep fried, then mixed with jalapeno, red onion, spices and tahini",
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
@@ -976,6 +985,7 @@
     "id": "reczj1EzXiuprEBDV",
     "name": "CHICKEN SCHNITZEL",
     "description": "served with mashed potatoes and honey mustard dressing ",
+    "longDescription": "deep-fried breaded chicken breast, served with honey-mustard on the side (honey, mustard, mayonnaise) – 2 pcs. ",
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
@@ -1224,6 +1234,7 @@
     "id": "rec7Sry8YZrqeZQII",
     "name": "EGGS SINIYA",
     "description": "two sunny side eggs, cooked with tahini sauce and served in a skillet, served with Israeli salad, green olives and pita bread",
+    "longDescription": "two sunny side eggs cooked in tahini sauce, with red chili peppers, olive oil, cilantro, and cherry tomato twist. Served with 1 pita and green olives. ",
     "categories": [
       "reclT14FtHvh32jWC"
     ],
@@ -1376,6 +1387,7 @@
     "id": "recUzf1xN6wpSqQ31",
     "name": "FRENCH TOAST",
     "description": "challah bread; served with fresh seasonal fruits and cinnamon",
+    "longDescription": "challah bread, eggs, milk, vanilla extract, cinnamon, unsalted butter, powdered sugar – served with fresh seasonal fruits on the side – 4 pcs.",
     "categories": [
       "recZWYhdnctZOQI36"
     ],
@@ -1903,6 +1915,7 @@
     "id": "recOOhGh3t7LSzwtR",
     "name": "HAMIN (winter only)",
     "description": "traditional Jewish stew simmered overnight with meat, bone marrow, potatoes, beans, barley and a hard-boiled egg",
+    "longDescription": "traditional Jewish stew simmered overnight with meat, bone marrow, potatoes, beans, barley and hard-boiled egg. ",
     "categories": [
       "recmqDtfG1vvjBoPo"
     ],
@@ -2198,6 +2211,7 @@
     "id": "rec5U57vToTYRcXw1",
     "name": "ISRAELI BREAKFAST",
     "description": "two eggs any style served with Israeli salad, assorted cheeses, dips and bread; includes coffee and freshly squeezed juice",
+    "longDescription": "two eggs any style served with chopped Israeli salad and the following dips: Bulgarian Feta cheese – (sheeps’ milk), labneh, tuna salad (canned tuna, scallion, mayonnaise), guacamole, pesto (basil, diary, pine nuts).",
     "categories": [
       "reclT14FtHvh32jWC"
     ],
@@ -2272,6 +2286,7 @@
     "id": "recB4HUxKVZ37IwqC",
     "name": "ISRAELI BREAKFAST UPGRADE",
     "description": "Add Israeli salad, assorted cheeses, dips and bread; includes coffee and freshly squeezed juice",
+    "longDescription": "In case of allergies dips can be substituted. ",
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "recipe": {
@@ -2883,6 +2898,7 @@
     "id": "rec5KT8SFhxYlvYlN",
     "name": "MOROCCAN FISH",
     "description": "filet of sea bream slowly cooked in spicy Moroccan tomato sauce, served with couscous",
+    "longDescription": "fillet of sea bream cooked in a spicy Moroccan tomato sauce. Served with a side of couscous.",
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
@@ -3093,6 +3109,7 @@
     "id": "reclzlTYIKgsesHm3",
     "name": "PELMENI",
     "description": "homemade traditional Russian meat dumplings with sour cream",
+    "longDescription": "Russian dumplings filled with ground veal and onions. Served with sour cream on the side - 9 pcs.",
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
@@ -3122,6 +3139,7 @@
     "id": "recB4kaZkFlsuk0bB",
     "name": "PIEROGI",
     "description": "homemade traditional Russian potato dumplings with fried onion and sour cream",
+    "longDescription": "Polish potato and onion dumplings, filled with mashed potatoes and fried onions. Served with sautéed onions and sour cream on top (can be served on the side).",
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
@@ -3186,6 +3204,7 @@
     "id": "recN8Gh67VA2650b2",
     "name": "PINO’S BURGER",
     "description": "our butcher’s secret burger recipe with 12 Chairs dressing on a brioche bun, served with sweet potato fries.  ",
+    "longDescription": "signature dry-aged (28 days) burger from our butcher. ground beef topped with lettuce, tomato, thousand island dressing, in a bun with red onions on the side. Served with sweet potato fries. Can be substituted for any other side. recommended temp - medium ",
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
@@ -3299,6 +3318,7 @@
     "id": "recPe8UqCzbUUARBn",
     "name": "PITA SABICH",
     "description": "fried eggplant, hard-boiled egg, Israeli salad mixed herbs, amba and tahini",
+    "longDescription": "israeli salad, mixed herbs, amba, tahini, fried eggplant, hard boiled egg, baked potato, pickles.",
     "categories": [
       "rech0wuHHfAJ4EpjX"
     ],
@@ -3485,6 +3505,7 @@
     "id": "recuhX57QjbuVYEGA",
     "name": "PITA TUNISIAN",
     "description": "Tunisian-style tuna salad with potato, hard-boiled egg, harissa and tahini",
+    "longDescription": "tuna salad, parsley, cilantro, mint, scallion, Kalamata olives, pickles, preserved lemon, potato, hard-boiled egg and tahini.\n",
     "categories": [
       "rech0wuHHfAJ4EpjX"
     ],
@@ -3645,6 +3666,7 @@
     "id": "reco3MNfa4kO7Sy2d",
     "name": "SAMMY’S KEBABS",
     "description": "mixed with Middle Eastern spices, grilled and served on a pita bread with tahini",
+    "longDescription": "ground lamb meat with house mix spices. Served with tahini over pita bread and topped with chilli salad mix. can be served without pita / tahini or on the side.",
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
@@ -4208,6 +4230,7 @@
     "id": "rectMpTewP2s3iTIc",
     "name": "STUFFED CABBAGE",
     "description": "filled with ground chicken, rice and vegetables; served with mashed potatoes",
+    "longDescription": "white cabbage filled with ground chicken, rice, onion, carrots, parsley, cilantro, tomato sauce, salt/pepper. Served with mashed potato. Can be substituted for any other side.  ",
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
@@ -4433,6 +4456,7 @@
     "id": "recv5737p9NG4LLId",
     "name": "TUNISIAN-STYLE NICOISE SALAD",
     "description": "cured tuna, romaine lettuce, potatoes, green beans, cherry tomatoes, kalamata olives, radish, capers, preserved lemon and hard-boiled egg",
+    "longDescription": "smoked tuna, romaine lettuce, potatoes, green beans, cherry tomatoes, Kalamata olives, radish, capers, preserved lemon and hard-boiled egg.",
     "categories": [
       "recqGerbTr69t5TIU"
     ],
@@ -4592,6 +4616,7 @@
     "id": "recWAgvewSd5kdq3D",
     "name": "VEGETARIAN COUSCOUS",
     "description": "slowly cooked vegetables in a Middle Eastern broth, served over couscous",
+    "longDescription": " vegetables (onion, carrots, sweet potato, zucchini, celery, white cabbage, chickpea) in a middle eastern broth – served with couscous",
     "categories": [
       "recbFw1ys85l8Oafh"
     ],
@@ -4670,6 +4695,7 @@
     "id": "recewC5jSENmJBsWl",
     "name": "WESTERN OMELETTE",
     "description": "tomatoes, mushrooms, onions, peppers and ham",
+    "longDescription": "Choose between 2 whole eggs or 3 egg whites ",
     "categories": [
       "reclT14FtHvh32jWC"
     ],
@@ -4782,6 +4808,7 @@
     "id": "recARGbbHVr2hwxKL",
     "name": "YEMENITE CHICKEN SOUP",
     "description": "chicken soup slowly cooked with Middle Eastern spices ",
+    "longDescription": "spicy chicken soup, slowly cooked with Middle Eastern spices, with potatoes, celery, cilantro, carrot. \n",
     "categories": [
       "recbFw1ys85l8Oafh"
     ],

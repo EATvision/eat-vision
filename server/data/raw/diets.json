@@ -1,1 +1,88 @@
-[{"id":"rec9lyqSGhtIFE6pM","name":"Vegan"},{"id":"recQlw7MMtl1KlpNP","name":"vegeterian"},{"id":"reczLN4jNH5npEarc","name":"pescatarian"},{"id":"rec8pz0YYIGmScPu5","name":"paleo"},{"id":"recuDusYlnKtOh2pZ","name":"gluten free"},{"id":"recDlVagQGOiParjH","name":"sugar free"},{"id":"recTqrrExyN2M0oG8","name":"Pregnancy diet"},{"id":"recFh4JVbTqqu9Rhf","name":"dairy free"}]
+[
+  {
+    "id": "rec9lyqSGhtIFE6pM",
+    "name": "Vegan",
+    "excludeFromDiet": [
+      "recm30EduNkl4SSxj",
+      "recsMGbSlC9cPVJ8o",
+      "recwJ3CsMWeKmDBlS",
+      "recv7oLK0b2mCFamv",
+      "recX7LWBWgvLk0fXO",
+      "recRuJgFOBk98fk8i",
+      "recIu7YNuMKjAxC7u",
+      "recv4O8R7YyTwXVVU",
+      "recYgJLdDlWsTxVGe",
+      "recdUoO2zbt196H0V",
+      "recDKed5TeW8D5XTO"
+    ]
+  },
+  {
+    "id": "recQlw7MMtl1KlpNP",
+    "name": "vegeterian",
+    "excludeFromDiet": [
+      "recm30EduNkl4SSxj",
+      "recsMGbSlC9cPVJ8o",
+      "recwJ3CsMWeKmDBlS",
+      "recv7oLK0b2mCFamv",
+      "recX7LWBWgvLk0fXO",
+      "recRuJgFOBk98fk8i",
+      "recIu7YNuMKjAxC7u",
+      "recv4O8R7YyTwXVVU",
+      "recAjiOEZMV6ObquU"
+    ]
+  },
+  {
+    "id": "reczLN4jNH5npEarc",
+    "name": "pescatarian",
+    "excludeFromDiet": [
+      "recm30EduNkl4SSxj",
+      "recsMGbSlC9cPVJ8o",
+      "recwJ3CsMWeKmDBlS",
+      "recv7oLK0b2mCFamv",
+      "recX7LWBWgvLk0fXO",
+      "recRuJgFOBk98fk8i",
+      "recIu7YNuMKjAxC7u"
+    ]
+  },
+  {
+    "id": "rec8pz0YYIGmScPu5",
+    "name": "paleo"
+  },
+  {
+    "id": "recuDusYlnKtOh2pZ",
+    "name": "gluten free",
+    "excludeFromDiet": [
+      "recurt87JNmeE6SzQ",
+      "recFHxRjUI7R84Bom",
+      "recPRWumn2WpzArWA"
+    ]
+  },
+  {
+    "id": "recDlVagQGOiParjH",
+    "name": "sugar free",
+    "excludeFromDiet": [
+      "recA1DeocMW69g9QP"
+    ]
+  },
+  {
+    "id": "recTqrrExyN2M0oG8",
+    "name": "Pregnancy diet",
+    "excludeFromDiet": [
+      "recAvCd37VjynjiAV",
+      "recskJLfd1Ydg6Dpo",
+      "recZBrVXsRItPQkxJ",
+      "recIu7YNuMKjAxC7u",
+      "recNVPxM2A8o2elhG",
+      "recv4O8R7YyTwXVVU",
+      "recAjiOEZMV6ObquU"
+    ]
+  },
+  {
+    "id": "recFh4JVbTqqu9Rhf",
+    "name": "dairy free",
+    "excludeFromDiet": [
+      "recYgJLdDlWsTxVGe",
+      "recdUoO2zbt196H0V"
+    ]
+  }
+]

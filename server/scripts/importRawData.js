@@ -118,7 +118,6 @@ base("tblotwNoQ0o3H0zVN").select({ view: "Grid view" }).all((_err, records) => {
 });
 
 setTimeout(() => {
-
   const transformStream = JSONStream.stringify();
   const outputStream = fs.createWriteStream('./server/data/raw/ingredients.json');
   transformStream.pipe(outputStream);
@@ -133,6 +132,18 @@ setTimeout(() => {
   );
 }, 10000)
 
+// groups tblya8ylojdR69Sbm
+let groups = []
+base("tblya8ylojdR69Sbm").select({ view: "Grid view" }).all((_err, records) => {
+  const data = records.map((r) => ({
+    id: r.getId(),
+    day: r.get("day"),
+    start: r.get("start"),
+    end: r.get("end"),
+  }));
+  groups = data
+});
+
 //dishes
 let dishes = []
 base("tblLnh1hSZ8GTznfy").select({ view: "Grid view" }).all((_err, records) => {
@@ -140,6 +151,7 @@ base("tblLnh1hSZ8GTznfy").select({ view: "Grid view" }).all((_err, records) => {
     id: r.getId(),
     name: r.get("Dish_display_name"),
     description: r.get("short_description"),
+    longDescription: r.get("long_description"),
     image: r.get("image_url"),
     category: r.get("category"),
     recipe: r.get("recipe"),
@@ -239,6 +251,7 @@ base("tblJXmaeTIA7dp4oJ").select({ view: "Grid view" }).all((_err, records) => {
   const data = records.map((r) => ({
     id: r.getId(),
     name: r.get("name"),
+    excludeFromDiet: r.get("exclude from diet"),
   }));
   diets = data
 });

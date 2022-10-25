@@ -38,6 +38,7 @@ const modifiedDishes = dishes.map(dish => {
     id: dish.id,
     name: dish.name,
     description: dish.description,
+    longDescription: dish.longDescription,
     categories: dish.category,
     image: dish?.image?.[0],
     price: dish?.price,
