@@ -36,7 +36,7 @@ function FiltersStepper({ filters, setFilters }) {
       steps={maxSteps}
       position="static"
       activeStep={Number(step)}
-      sx={{ marginTop: 'auto' }}
+      sx={{ marginTop: 'auto', position: 'relative', bottom: 56 }}
       nextButton={(
         <Button
           size="small"

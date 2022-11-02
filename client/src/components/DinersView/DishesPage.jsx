@@ -77,7 +77,7 @@ function DishesPage({ dishes, filters }) {
         {
           orderedCategories?.map((category, index) => (
             <div
-              className="container mx-auto flex flex-col justify-center items-center gap-2"
+              className="container mx-auto flex flex-col justify-center items-start gap-2"
               key={category.id}
               id={category.id}
             >
@@ -121,6 +121,7 @@ function DishesPage({ dishes, filters }) {
           <MenuOptionsBanner
             filters={filters}
             dishes={dishes}
+            showWaiterBtn
           />
           )
         }

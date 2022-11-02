@@ -6,7 +6,12 @@ export default createTheme({
       main: '#43a047',
     },
     secondary: {
-      main: '#f44336',
+      main: '#E36B16',
     },
   },
 })
+
+// #9999CC
+// #626342
+// #0090FF
+// #E36B16
