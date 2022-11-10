@@ -18,7 +18,7 @@ function MenuOptionsBanner() {
   if (menus?.length === 1) {
     return (
       <Typography
-        sx={{ minWidth: 120, color: theme.palette.common.white }}
+        sx={{ minWidth: 120, color: theme.palette.common.white, textAlign: 'start' }}
       >
         {menus[0].name}
       </Typography>

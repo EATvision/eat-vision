@@ -121,7 +121,6 @@ function DishesPage({ dishes, filters }) {
           <MenuOptionsBanner
             filters={filters}
             dishes={dishes}
-            showWaiterBtn
           />
           )
         }

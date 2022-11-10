@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
   Alert, AlertTitle, Box, Button, Card, CardActions, CardContent, CardHeader,
-  CardMedia, Collapse, Divider, IconButton, List, ListItem, Paper, Table,
+  CardMedia, Collapse, Divider, IconButton, List, ListItem, Paper, Popover, Table,
   TableBody, TableCell, TableHead, TableRow, Typography, useTheme,
 } from '@mui/material'
 import { CgPlayListAdd as DescriptionIcon, CgMathPercent as KcalIcon } from 'react-icons/cg'
@@ -18,7 +18,7 @@ import { t } from 'i18next'
 import { useKitchenById } from '../../../hooks/kitchens'
 
 import DishRecipeTypeChips from './DishRecipeTypeChips'
-import WaiterBanner from '../WaiterBanner'
+import waiterSrc from '../../../images/waiter_transparent_halfbody.png'
 
 export default function Dish({ data }) {
   const theme = useTheme()
@@ -55,31 +55,22 @@ export default function Dish({ data }) {
   }
 
   return (
-    <>
-      {
-        dishExcludableComponentsFilteredOut?.length > 0
-        && (
-        <Button variant="contained" color="secondary">
-          {t('ask_for_changes')}
-        </Button>
-        )
-      }
-      <Paper
-        elevation={5}
-        sx={{
-          width: '100%',
-          maxWidth: 750,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          position: 'relative',
-          marginBottom: theme.spacing(2),
-          flex: 1,
-        }}
-      >
+    <Paper
+      elevation={5}
+      sx={{
+        width: '100%',
+        maxWidth: 750,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        position: 'relative',
+        marginBottom: theme.spacing(2),
+        flex: 1,
+      }}
+    >
 
-        {
+      {
         data.isMainDishFilteredOut
         && (
         <Alert
@@ -112,36 +103,35 @@ export default function Dish({ data }) {
                 {data.recipe.choice.map((c) => c.name).join(', ')}
                 )
               </Typography>
-
             )
           }
         </Alert>
         )
       }
 
-        <Card
-          sx={{
-            width: '100%',
-            opacity: data.isMainDishFilteredOut ? 0.2 : 1,
-            pointerEvents: data.isMainDishFilteredOut ? 'none' : 'all',
-          }}
-          elevation={0}
-        >
-          <Box sx={{ display: 'flex' }}>
-            <CardHeader
-              sx={{ textAlign: 'initial', flex: 1, alignItems: 'flex-start' }}
-              title={(
-                <Box
-                  sx={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                  }}
-                >
-                  <Typography variant="h6" gutterBottom>
-                    {data.name}
-                  </Typography>
+      <Card
+        sx={{
+          width: '100%',
+          opacity: data.isMainDishFilteredOut ? 0.2 : 1,
+          pointerEvents: data.isMainDishFilteredOut ? 'none' : 'all',
+        }}
+        elevation={0}
+      >
+        <Box sx={{ display: 'flex' }}>
+          <CardHeader
+            sx={{ textAlign: 'initial', flex: 1, alignItems: 'flex-start' }}
+            title={(
+              <Box
+                sx={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                }}
+              >
+                <Typography variant="h6" gutterBottom>
+                  {data.name}
+                </Typography>
 
-                  {
+                {
                   data.price
                   && (
                   <Typography
@@ -154,24 +144,24 @@ export default function Dish({ data }) {
                   </Typography>
                   )
                 }
-                </Box>
+              </Box>
              )}
-              subheader={(
-                <ClampLines
-                  text={data.description || ''}
-                  id={data.id}
-                  lines={2}
-                  ellipsis="..."
-                  moreText="Expand"
-                  lessText="Collapse"
-                  className="custom-class"
-                  innerElement="p"
-                />
+            subheader={(
+              <ClampLines
+                text={data.description || ''}
+                id={data.id}
+                lines={2}
+                ellipsis="..."
+                moreText="Expand"
+                lessText="Collapse"
+                className="custom-class"
+                innerElement="p"
+              />
             )}
-            />
+          />
 
-            <Box>
-              {
+          <Box>
+            {
               data?.image?.url
               && (
                 <CardMedia
@@ -184,11 +174,15 @@ export default function Dish({ data }) {
                 />
               )
             }
-            </Box>
-          </Box>
-
-          <Box>
             {
+              dishExcludableComponentsFilteredOut?.length > 0
+              && <AskForChangesBtn dishExcludableComponentsFilteredOut={dishExcludableComponentsFilteredOut} />
+            }
+          </Box>
+        </Box>
+
+        <Box>
+          {
             data.recipe?.choice?.length > 0
             && (
             <DishRecipeTypeChips
@@ -201,7 +195,7 @@ export default function Dish({ data }) {
             )
           }
 
-            {
+          {
             data.recipe?.sideDish?.length > 0
             && (
             <DishRecipeTypeChips
@@ -213,123 +207,182 @@ export default function Dish({ data }) {
             />
             )
           }
-          </Box>
+        </Box>
 
-          {
-          dishExcludableComponentsFilteredOut?.length > 0
-          && (
-            <WaiterBanner
-              title={t('my_reccomendations_for_you')}
-              subtitle={(
-                <List dense disablePadding>
-                  {
-                    dishExcludableComponentsFilteredOut.map((component) => (
-                      <ListItem
-                        key={component.id}
-                        disableGutters
-                        disablePadding
-                        dense
-                      >
-                        {`${t('ask_without_the')} ${component.name}`}
-                      </ListItem>
-                    ))
-                    }
-                </List>
-              )}
-            />
-          )
-        }
+        <CardActions>
+          <IconButton
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            disabled={!data.longDescription}
+            color={expandedMoreInfo === 'description' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('description')}
+          >
+            <DescriptionIcon />
+            <Typography sx={{ fontSize: 12 }}>desc</Typography>
+          </IconButton>
 
-          <CardActions>
-            <IconButton
-              sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
-              }}
-              disabled={!data.longDescription}
-              color={expandedMoreInfo === 'description' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('description')}
-            >
-              <DescriptionIcon />
-              <Typography sx={{ fontSize: 12 }}>desc</Typography>
-            </IconButton>
+          <IconButton
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            disabled={data.recipe.putaside.length === 0 || data.recipe.excludable.length === 0}
+            color={expandedMoreInfo === 'changes' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('changes')}
+          >
+            <ChangesIcon />
+            <Typography sx={{ fontSize: 12 }}>changes</Typography>
+          </IconButton>
+          <IconButton
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'kcal' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('kcal')}
+          >
+            <KcalIcon />
+            <Typography sx={{ fontSize: 12 }}>kcal</Typography>
+          </IconButton>
+          <IconButton
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'upgrades' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('upgrades')}
+          >
+            <UpgradesIcon />
+            <Typography sx={{ fontSize: 12 }}>upgrades</Typography>
+          </IconButton>
+          <IconButton
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'sizes' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('sizes')}
+          >
+            <SizesIcon />
+            <Typography sx={{ fontSize: 12 }}>sizes</Typography>
+          </IconButton>
+          <IconButton
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'ingredients' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('ingredients')}
+          >
+            <IngredientsIcon />
+            <Typography sx={{ fontSize: 12 }}>ing</Typography>
+          </IconButton>
+          <IconButton
+            disabled
+            sx={{
+              display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+            }}
+            color={expandedMoreInfo === 'warnings' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('warnings')}
+          >
+            <WarningsIcon />
+            <Typography sx={{ fontSize: 12 }}>warnings</Typography>
+          </IconButton>
+        </CardActions>
 
-            <IconButton
-              sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
-              }}
-              disabled={data.recipe.putaside.length === 0 || data.recipe.excludable.length === 0}
-              color={expandedMoreInfo === 'changes' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('changes')}
-            >
-              <ChangesIcon />
-              <Typography sx={{ fontSize: 12 }}>changes</Typography>
-            </IconButton>
-            <IconButton
-              disabled
-              sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
-              }}
-              color={expandedMoreInfo === 'kcal' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('kcal')}
-            >
-              <KcalIcon />
-              <Typography sx={{ fontSize: 12 }}>kcal</Typography>
-            </IconButton>
-            <IconButton
-              disabled
-              sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
-              }}
-              color={expandedMoreInfo === 'upgrades' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('upgrades')}
-            >
-              <UpgradesIcon />
-              <Typography sx={{ fontSize: 12 }}>upgrades</Typography>
-            </IconButton>
-            <IconButton
-              disabled
-              sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
-              }}
-              color={expandedMoreInfo === 'sizes' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('sizes')}
-            >
-              <SizesIcon />
-              <Typography sx={{ fontSize: 12 }}>sizes</Typography>
-            </IconButton>
-            <IconButton
-              disabled
-              sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
-              }}
-              color={expandedMoreInfo === 'ingredients' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('ingredients')}
-            >
-              <IngredientsIcon />
-              <Typography sx={{ fontSize: 12 }}>ing</Typography>
-            </IconButton>
-            <IconButton
-              disabled
-              sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
-              }}
-              color={expandedMoreInfo === 'warnings' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('warnings')}
-            >
-              <WarningsIcon />
-              <Typography sx={{ fontSize: 12 }}>warnings</Typography>
-            </IconButton>
-          </CardActions>
+        <Divider />
+        <Collapse in={Boolean(expandedMoreInfo)} timeout="auto" unmountOnExit>
+          <CardContent sx={{ textAlign: 'start' }}>
+            <ExpandedInfo type={expandedMoreInfo} data={data} />
+          </CardContent>
+        </Collapse>
+      </Card>
+    </Paper>
+  )
+}
 
-          <Divider />
-          <Collapse in={Boolean(expandedMoreInfo)} timeout="auto" unmountOnExit>
-            <CardContent sx={{ textAlign: 'start' }}>
-              <ExpandedInfo type={expandedMoreInfo} data={data} />
-            </CardContent>
-          </Collapse>
-        </Card>
-      </Paper>
-    </>
+function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
+  const theme = useTheme()
+
+  const [anchorEl, setAnchorEl] = React.useState(null)
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget)
+  }
+
+  const handleClose = () => {
+    setAnchorEl(null)
+  }
+
+  const open = Boolean(anchorEl)
+  const id = open ? 'simple-popover' : undefined
+
+  return (
+    <div>
+      <Button
+        aria-describedby={id}
+        variant="contained"
+        color="secondary"
+        size="small"
+        onClick={handleClick}
+        sx={{
+          fontSize: 10,
+        }}
+        disabled={open}
+      >
+        {t('ask_for_changes')}
+      </Button>
+      <Popover
+        id={id}
+        open={open}
+        anchorEl={anchorEl}
+        onClose={handleClose}
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'left',
+        }}
+      >
+
+        {
+            dishExcludableComponentsFilteredOut?.length > 0
+            && (
+              <Paper
+                elevation={0}
+                sx={{
+                  display: 'flex',
+                  alignItems: 'start',
+                  justifyContent: 'center',
+                  position: 'relative',
+                  backgroundColor: theme.palette.secondary.light,
+                  color: theme.palette.common.white,
+                }}
+              >
+                <Box sx={{ padding: theme.spacing(1) }}>
+                  <Typography sx={{ lineHeight: 1.2, fontWeight: 'bold', fontSize: 20 }}>
+                    {t('my_reccomendations_for_you')}
+                  </Typography>
+                  <List dense disablePadding sx={{ fontSize: 16 }}>
+                    {
+                      dishExcludableComponentsFilteredOut.map((component) => (
+                        <ListItem
+                          key={component.id}
+                          // disableGutters
+                          disablePadding
+                          dense
+                        >
+                          {`${t('ask_without_the')} ${component.name}`}
+                        </ListItem>
+                      ))
+                      }
+                  </List>
+                </Box>
+
+                <img alt="waiter" src={waiterSrc} width={100} />
+              </Paper>
+            )
+          }
+      </Popover>
+    </div>
   )
 }
 

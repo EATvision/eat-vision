@@ -59,7 +59,10 @@ function OptionsContainer({ dishes }) {
   const filteredDishes = dishes.filtered.filter((d) => !d.isMainDishFilteredOut)
   return (
     <Box sx={{
-      display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1,
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-end',
+      flex: 1,
     }}
     >
       <Box sx={{ display: 'flex' }}>
