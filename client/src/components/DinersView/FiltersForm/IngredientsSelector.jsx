@@ -1,7 +1,9 @@
+import {
+  Autocomplete, Checkbox, CircularProgress, TextField,
+} from '@mui/material'
 import axios from 'axios'
 import { t } from 'i18next'
 import React from 'react'
-import AsyncSelect from 'react-select/async'
 
 const loadOptions = async (inputValue) => {
   const { data } = await axios.get(`/api/ingredients?q=${inputValue}`)
@@ -13,12 +15,17 @@ const getIngredientsByIds = async (ids) => {
   return data
 }
 
-function IngredientsSelector({ filters, setFilters, filterType }) {
+function IngredientsSelector({
+  filters, setFilters, filterType, disabled,
+}) {
   const [restrictedIngredients, setRestrictedIngredients] = React.useState([])
+  const [inputValue, setInputValue] = React.useState('')
+  const [options, setOptions] = React.useState([])
+  const [loading, setLoading] = React.useState(false)
 
   React.useEffect(() => {
     const setIngredients = async () => {
-      const data = await getIngredientsByIds(filters[filterType])
+      const data = await getIngredientsByIds(filters[filterType] || [])
       setRestrictedIngredients(data)
     }
     setIngredients()
@@ -27,30 +34,73 @@ function IngredientsSelector({ filters, setFilters, filterType }) {
   // const { ingredients, isLoading, isError } = useIngredients(search)
 
   const handleInputChange = (newValue) => {
-    const inputValue = newValue.replace(/\W/g, '')
-    return inputValue
+    setInputValue(newValue.replace(/\W/g, ''))
   }
 
-  const handleChangeIngredients = (value) => {
+  const handleChangeIngredients = (e, value) => {
     setRestrictedIngredients(value)
-    setFilters((currFilters) => ({ ...currFilters, [filterType]: value.map((v) => v.id) }))
+    setFilters((currFilters) => ({ ...currFilters, [filterType]: value?.map((v) => v.id) || [] }))
   }
 
-  // if (isError) return <div>{JSON.stringify(isError)}</div>
+  React.useEffect(() => {
+    let active = true;
+    (async () => {
+      setLoading(true)
+      const data = await loadOptions(inputValue)
+
+      if (active) {
+        setOptions([...data, ...restrictedIngredients])
+        setLoading(false)
+      }
+    })()
+
+    return () => {
+      active = false
+    }
+  }, [inputValue])
+
   return (
-    <AsyncSelect
-      defaultOptions
+    <Autocomplete
+      readOnly={disabled}
+      ListboxProps={{ sx: { maxHeight: '70vh' } }}
+      id="ingfredients-select"
+      multiple
+      open={!disabled && options.length > 0}
+      disableCloseOnSelect
+      noOptionsText={t('no_options')}
+      isOptionEqualToValue={(option, value) => option.id === value.id}
+      getOptionLabel={(option) => option.name}
+      options={options}
       value={restrictedIngredients}
       onChange={handleChangeIngredients}
-      isMulti
-      cacheOptions
-      menuPlacement="top"
-      loadOptions={loadOptions}
-      onInputChange={handleInputChange}
-      getOptionLabel={(e) => e.name}
-      getOptionValue={(e) => e.id}
-      closeMenuOnSelect
-      placeholder={t('ingredients_selector_placeholder')}
+      onInputChange={(e, newInputValue) => {
+        handleInputChange(newInputValue)
+      }}
+      renderInput={(params) => (
+        <TextField
+          {...params}
+          autoFocus
+          label={!disabled && t('ingredients_selector_placeholder')}
+          InputProps={{
+            ...params.InputProps,
+            endAdornment: (
+              <>
+                {loading ? <CircularProgress color="inherit" size={20} /> : null}
+                {!disabled && params.InputProps.endAdornment}
+              </>
+            ),
+          }}
+        />
+      )}
+      renderOption={({ fullWidth, ...props }, option, { selected }) => (
+        <li {...props}>
+          <Checkbox
+            style={{ marginRight: 8 }}
+            checked={selected}
+          />
+          {option.name}
+        </li>
+      )}
     />
   )
 }

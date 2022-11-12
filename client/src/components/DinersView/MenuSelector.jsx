@@ -15,10 +15,14 @@ function MenuOptionsBanner() {
     navigate('', { state: { menuId: event.target.value } })
   }
 
+  if (!menus) return null
+
   if (menus?.length === 1) {
     return (
       <Typography
-        sx={{ minWidth: 120, color: theme.palette.common.white, textAlign: 'start' }}
+        sx={{
+          flex: 1, minWidth: 120, color: theme.palette.common.white, textAlign: 'center',
+        }}
       >
         {menus[0].name}
       </Typography>

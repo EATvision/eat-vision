@@ -29,6 +29,7 @@ function DietsSelector({ filters, setFilters }) {
         color="primary"
         variant="outlined"
         orientation="vertical"
+        value="none"
       >
         <ToggleButton
           fullWidth
@@ -37,6 +38,7 @@ function DietsSelector({ filters, setFilters }) {
           variant="outlined"
           selected={filters.diets.length === 0}
           onClick={handleClickNoDiets}
+          value="none"
         >
           {t('no_specific_diet')}
         </ToggleButton>

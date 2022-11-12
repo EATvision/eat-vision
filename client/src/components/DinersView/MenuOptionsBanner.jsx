@@ -24,12 +24,13 @@ const StyledFab = styled(Fab)({
 function MenuOptionsBanner({ dishes, showWaiterBtn }) {
   const theme = useTheme()
   return (
-    <AppBar position="fixed" color="primary" sx={{ top: 'auto', bottom: 0 }}>
-      <Toolbar>
+    <Box sx={{
+      display: 'flex', backgroundColor: theme.palette.primary.main, color: theme.palette.common.white, alignItems: 'center',
+    }}
+    >
+      <MenuSelector />
 
-        <MenuSelector />
-
-        {
+      {
           showWaiterBtn
           && (
           <StyledFab sx={{ border: `1px solid ${theme.palette.primary.main}` }} aria-label="add" variant="contained">
@@ -47,11 +48,11 @@ function MenuOptionsBanner({ dishes, showWaiterBtn }) {
           )
         }
 
-        <Box sx={{ flexGrow: 1 }} />
+      <Box sx={{ flexGrow: 1 }} />
 
-        <OptionsContainer dishes={dishes} />
-      </Toolbar>
-    </AppBar>
+      <OptionsContainer dishes={dishes} />
+
+    </Box>
   )
 }
 
@@ -59,10 +60,7 @@ function OptionsContainer({ dishes }) {
   const filteredDishes = dishes.filtered.filter((d) => !d.isMainDishFilteredOut)
   return (
     <Box sx={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'flex-end',
-      flex: 1,
+      display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1,
     }}
     >
       <Box sx={{ display: 'flex' }}>

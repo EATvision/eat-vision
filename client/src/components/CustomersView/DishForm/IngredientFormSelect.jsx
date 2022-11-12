@@ -67,7 +67,6 @@ function IngredientFormSelect({ label, name, disableAdditionalPrices = false }) 
       <Typography variant="h6">{label}</Typography>
       <FormControl fullWidth margin="normal">
         <AsyncSelect
-          fullWidth
           defaultOptions
           value={localIngredients}
           onChange={handleChangeIngredients}
