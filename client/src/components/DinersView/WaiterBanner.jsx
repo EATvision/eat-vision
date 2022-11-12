@@ -28,10 +28,19 @@ function WaiterBanner({ title, subtitle }) {
           marginLeft: `${WAITER_AVATAR_WIDTH - 10}px`,
         }}
       >
-        <Typography sx={{ lineHeight: 1.2, fontWeight: 'bold', fontSize: 20 }}>
+        <Typography
+          sx={{
+            lineHeight: 1.2,
+            fontWeight: 'bold',
+            fontSize: 20,
+            letterSpacing: -0.5,
+          }}
+        >
           {title}
         </Typography>
-        <Typography>
+        <Typography
+          sx={{ letterSpacing: -0.5 }}
+        >
           {subtitle}
         </Typography>
       </Box>

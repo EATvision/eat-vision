@@ -31,7 +31,7 @@ export default {
   i_simply_hate_eating: 'I just hate eating',
   a_health_condition: 'A health condition',
   faith_restrictions: 'Faith restrictions',
-  do_you_have_a_specific_diet: 'do you have a specific diet?',
+  do_you_have_a_specific_diet: 'Do you have a specific diet?',
   no_specific_diet: 'no specific diet',
   no_food_restrictions: 'no food restrictions',
   things_i_avoid_or_reduce: 'things I avoid or reduce',
