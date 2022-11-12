@@ -63,4 +63,5 @@ export default {
   ask_without_the: 'לבקש בלי',
   ingredients_selector_placeholder: 'הקלד\\י סוג אוכל, רכיב או טעמים',
   coming_soon: 'בקרוב',
+  no_options: 'לא נמצאו אפשרויות',
 }

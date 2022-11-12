@@ -63,4 +63,5 @@ export default {
   ask_without_the: 'ask without the',
   ingredients_selector_placeholder: 'Type a food type, ingredient or a flavor',
   coming_soon: 'coming soon',
+  no_options: 'no options found',
 }
