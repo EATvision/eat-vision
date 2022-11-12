@@ -133,8 +133,7 @@ function GreetingPage({ setFilters }) {
             justifyContent: 'center',
           }}
         >
-          {t('already_signed_in')}
-          ?
+          {`${t('already_signed_in')}?`}
           <Button variant="text" onClick={handleClickSignin}>{t('sign_in')}</Button>
         </Typography>
       </Box>

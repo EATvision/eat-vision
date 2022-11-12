@@ -172,19 +172,19 @@ function FoodRestrictionsStep({ filters, setFilters }) {
         </DialogContent>
         <DialogActions disableSpacing sx={{ padding: 0 }}>
           <Button
+            fullWidth
+            variant="outlined"
+            onClick={handleClickBack}
+          >
+            {t('back')}
+          </Button>
+          <Button
             variant="contained"
             color="primary"
             fullWidth
             onClick={handleClickDone}
           >
             {t('done')}
-          </Button>
-          <Button
-            fullWidth
-            variant="outlined"
-            onClick={handleClickBack}
-          >
-            {t('back')}
           </Button>
         </DialogActions>
       </Dialog>

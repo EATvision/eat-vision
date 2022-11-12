@@ -6,15 +6,20 @@ import { SlSettings as SettingsIcon } from 'react-icons/sl'
 
 import TuneIcon from '@mui/icons-material/Tune'
 import { MdOutlineGroups as GroupsIcon } from 'react-icons/md'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { t } from 'i18next'
 
 function NavBar({ filters }) {
   const navigate = useNavigate()
   const location = useLocation()
+  const { kitchenId, menuId } = useParams()
 
   const handleClickFilters = () => {
-    navigate('/diners/filters')
+    if (kitchenId && menuId) {
+      navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/filters/1`)
+    } else {
+      navigate('/diners/filters')
+    }
   }
 
   const numberOfFiltersOn = Object.keys(filters).reduce((acc, filterName) => acc + filters[filterName].length, 0)
