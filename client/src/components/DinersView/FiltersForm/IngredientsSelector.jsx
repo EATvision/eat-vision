@@ -1,9 +1,11 @@
 import {
-  Autocomplete, Checkbox, CircularProgress, TextField,
+  Autocomplete, Checkbox, CircularProgress, createFilterOptions, TextField,
 } from '@mui/material'
 import axios from 'axios'
 import { t } from 'i18next'
 import React from 'react'
+
+const filter = createFilterOptions()
 
 const loadOptions = async (inputValue) => {
   const { data } = await axios.get(`/api/ingredients?q=${inputValue}`)
@@ -59,6 +61,23 @@ function IngredientsSelector({
     }
   }, [inputValue])
 
+  const handleClickAddNewIngredient = (ing) => () => {
+    console.log(`Adding new ingredient ${ing} request `)
+  }
+  const handleFilterOptions = (ops, params) => {
+    const filtered = filter(ops, params)
+
+    if (params.inputValue !== '') {
+      filtered.push({
+        freeSolo: true,
+        inputValue: params.inputValue,
+        title: `Add "${params.inputValue}"`,
+      })
+    }
+
+    return filtered
+  }
+
   return (
     <Autocomplete
       readOnly={disabled}
@@ -69,13 +88,15 @@ function IngredientsSelector({
       disableCloseOnSelect
       noOptionsText={t('no_options')}
       isOptionEqualToValue={(option, value) => option.id === value.id}
-      getOptionLabel={(option) => option.name}
+      getOptionLabel={(option) => option.name || option.title}
       options={options}
       value={restrictedIngredients}
       onChange={handleChangeIngredients}
       onInputChange={(e, newInputValue) => {
         handleInputChange(newInputValue)
       }}
+      // freeSolo
+      // filterOptions={handleFilterOptions}
       renderInput={(params) => (
         <TextField
           {...params}
@@ -93,13 +114,24 @@ function IngredientsSelector({
         />
       )}
       renderOption={({ fullWidth, ...props }, option, { selected }) => (
-        <li {...props}>
-          <Checkbox
-            style={{ marginRight: 8 }}
-            checked={selected}
-          />
-          {option.name}
-        </li>
+        option.name ? (
+          <li {...props} key={option.id}>
+            <Checkbox
+              style={{ marginRight: 8 }}
+              checked={selected}
+            />
+            {option.name}
+          </li>
+        ) : (
+          <div
+            {...props}
+            key={option.title}
+            onClick={handleClickAddNewIngredient(option.title)}
+          >
+            {option.title}
+
+          </div>
+        )
       )}
     />
   )
