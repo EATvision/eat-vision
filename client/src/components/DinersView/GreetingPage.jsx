@@ -108,9 +108,13 @@ function GreetingPage({ setFilters }) {
           </Typography>
         </Box>
       </Box>
+
       <Box sx={{
-        margin: `0 ${theme.spacing(2)}`,
-        marginBottom: theme.spacing(1),
+        padding: `0 ${theme.spacing(2)}`,
+        paddingBottom: theme.spacing(1),
+        position: 'fixed',
+        width: '100%',
+        bottom: 0,
       }}
       >
         <Link
