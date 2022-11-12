@@ -1,8 +1,6 @@
 import React from 'react'
 import {
-  AppBar,
-  Avatar,
-  Box, Button, Fab, styled, Toolbar, Typography, useTheme,
+  Avatar, Box, Fab, styled, Typography, useTheme,
 } from '@mui/material'
 import MenuSelector from './MenuSelector'
 import waiterSrc from '../../images/waiter_transparent_halfbody.png'

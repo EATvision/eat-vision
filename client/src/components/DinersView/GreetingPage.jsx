@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  Link, useParams, useHistory, useNavigate,
+  Link, useParams, useNavigate,
 } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
@@ -16,7 +16,7 @@ function GreetingPage({ setFilters }) {
   const navigate = useNavigate()
   const theme = useTheme()
   const { t } = useTranslation()
-  const { kitchenId, menuId } = useParams()
+  const { kitchenId } = useParams()
 
   const { kitchen } = useKitchenById(kitchenId)
 

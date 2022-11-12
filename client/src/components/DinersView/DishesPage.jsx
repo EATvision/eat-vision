@@ -60,14 +60,12 @@ function DishesPage({ dishes, filters }) {
           visibleScrollbar
         >
           {
-            orderedCategories.map((category, index) => (
+            orderedCategories.filter((c) => (orderedDishesByCategoryId?.[c.id]?.length > 0)).map((category) => (
               <Tab
                 key={category.id}
                 label={category.name}
                 href={`#${category.id}`}
-              >
-                {category.name}
-              </Tab>
+              />
             ))
           }
         </Tabs>
@@ -75,7 +73,7 @@ function DishesPage({ dishes, filters }) {
 
       <div className="container relative overflow-auto mx-auto">
         {
-          orderedCategories?.map((category, index) => (
+          orderedCategories?.filter((c) => (orderedDishesByCategoryId?.[c.id]?.length > 0)).map((category) => (
             <div
               className="container mx-auto flex flex-col justify-center items-start gap-2"
               key={category.id}
@@ -105,9 +103,9 @@ function DishesPage({ dishes, filters }) {
                   {category?.name}
                 </Typography>
                 {
-                orderedDishesByCategoryId?.[category.id]?.map((dish) => (
-                  <Dish key={dish.id} data={dish} />
-                ))
+                  orderedDishesByCategoryId?.[category.id]?.map((dish) => (
+                    <Dish key={dish.id} data={dish} />
+                  ))
                 }
               </Box>
             </div>
