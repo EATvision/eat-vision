@@ -87,6 +87,7 @@ function DishesPage({ dishes, filters }) {
                   alignItems: 'center',
                   padding: `0 ${theme.spacing(1)}`,
                   maxWidth: 750,
+                  margin: 'auto',
                 }}
               >
                 <Typography
