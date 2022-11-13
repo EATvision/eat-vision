@@ -2,6 +2,9 @@ const fs = require("fs")
 const JSONStream = require("JSONStream");
 const keyBy = require("lodash/keyBy")
 const get = require("lodash/get")
+const _intersection = require("lodash/intersection")
+
+const { setAllChildIngredients } = require('../utils/dishes')
 
 const kitchens = require(('../../server/data/raw/kitchens.json'))
 const diets = require(('../../server/data/raw/diets.json'))
@@ -13,16 +16,46 @@ const workingHours = require(('../../server/data/raw/working_hours.json'))
 
 const dishes = require(('../../server/data/raw/dishes.json'))
 
+const groups = require(('../../server/data/raw/groups.json'))
 const recipes = require(('../../server/data/raw/recipes.json'))
 const choices_ingredients = require(('../../server/data/raw/choices_ingredients.json'))
 const choices_subdishes = require(('../../server/data/raw/choices_subdishes.json'))
 
-const modifiedIngredients = ingredients.map(ing => ({
-  ...ing,
-  isSearchable: ing.isSearchable === 'TRUE' ? true : false
-}))
+const ingredientsById = keyBy(ingredients, 'id')
 
-const ingredientsById = keyBy(modifiedIngredients, 'id')
+const getIngSubIngredients = (ing) => {
+  let allChildIngredients = []
+  setAllChildIngredients(allChildIngredients, ing.id)
+  return allChildIngredients
+}
+
+const modifiedIngredients = ingredients.map(ing => {
+  const allIngredientComponentsIds = getIngSubIngredients(ing)
+
+  let allGroupsOfIng = []
+  allIngredientComponentsIds.forEach(ingId => {
+    allGroupsOfIng = [...allGroupsOfIng, ...(ingredientsById[ingId]?.groups || [])]
+  })
+  allGroupsOfIng = [...new Set(allGroupsOfIng)];
+
+  const excludedInDiets = diets.reduce((acc, diet) => {
+    if (_intersection(allGroupsOfIng, diet?.excluded_groups)?.length > 0) {
+      return [...acc, diet.id]
+    }
+    return acc
+  }, [])
+
+  return ({
+    ...ing,
+    excludedInDiets,
+    isSearchable: ing.isSearchable === 'TRUE' ? true : false
+  })
+})
+
+
+
+
+
 const recipesById = keyBy(recipes, 'id')
 const choicesIngredientsById = keyBy(choices_ingredients, 'id')
 const choicesSubDishesById = keyBy(choices_subdishes, 'id')

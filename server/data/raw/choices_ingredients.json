@@ -1,1 +1,180 @@
-[{"id":"rec40Bfud7Utu3UBd","ingredient1":["recJRSfXW0NfRFpb5"],"ingredient1_delta_price":0,"ingredient2":["recpIiQLboizMe8J9"]},{"id":"rec9WSGLv7QtCVDHy","ingredient1":["recj1X6W9ye9jD5Lo"],"ingredient1_delta_price":0,"ingredient2":["rec42PxFVJuTc7YAg"]},{"id":"recsXMmtcoETFDmcP","ingredient1":["rechxTbqAb2qWZcaD"],"ingredient1_delta_price":0,"ingredient2":["rechSJFTGdBREzxPP"],"ingredient3":["recrk3Z9EOZRQebiR"]},{"id":"recUmcgv6nrgRrrzA","ingredient1":["recAtYeYefI0zfKI0"],"ingredient1_delta_price":0,"ingredient2":["rec7gP8w1nrbNtaPJ"],"ingredient3":["recYJXFMyC7DOmEqo"]},{"id":"recxFSAXSWCkwtNmD","ingredient1":["recAtYeYefI0zfKI0"],"ingredient1_delta_price":0,"ingredient2":["recvr8kIqxedjZztj"]},{"id":"recyibeN2JQV5nAVB","ingredient1":["recm2QBme7jDrV5Sw"],"ingredient1_delta_price":0,"ingredient2":["recHI4ikK7GY9Vtg1"]},{"id":"recjWFN6IYDeGdXM4","ingredient1":["recmR5d6CfuL3IQUk"],"ingredient1_delta_price":0,"ingredient2":["recztS4lW5RFFwLMB"],"ingredient3":["recETjcKY4qzAnRMB"]},{"id":"recG46OHcoF6y2E5a","ingredient1":["rechSJFTGdBREzxPP"],"ingredient1_delta_price":5,"ingredient2":["recEQ5B0J5OHNRK3T"],"ingredient2_delta_price":5,"ingredient3":["rectpZHKSyKnbUYSb"],"ingredient3_delta_price":5,"ingredient4_delta_price":4,"ingredient5_delta_price":5},{"id":"recOQR6pNBDaJvlJw","ingredient1":["rectpZHKSyKnbUYSb"],"ingredient1_delta_price":4,"ingredient2":["rec8XL84tXFiyXG8a"],"ingredient2_delta_price":4},{"id":"recliuO1yV6qgDZ56","ingredient1":["recpVpLmRjrO3zCaa"],"ingredient1_delta_price":6,"ingredient2":["recrf44xmq1p0m7j4"],"ingredient2_delta_price":6,"ingredient3":["rec1LdXAfrLDQG3lm"],"ingredient3_delta_price":6,"ingredient4_delta_price":6,"ingredient5_delta_price":6},{"id":"recALHId3rsOpHU8I","ingredient1":["recpVpLmRjrO3zCaa"],"ingredient1_delta_price":6,"ingredient2":["recrk3Z9EOZRQebiR"],"ingredient2_delta_price":6,"ingredient3":["recztS4lW5RFFwLMB"],"ingredient3_delta_price":6,"ingredient4_delta_price":6},{"id":"recHWQ3WrifUQuJzI","ingredient1":["recrf44xmq1p0m7j4"],"ingredient1_delta_price":6,"ingredient2":["recrk3Z9EOZRQebiR"],"ingredient2_delta_price":6,"ingredient3":["recztS4lW5RFFwLMB"],"ingredient3_delta_price":6,"ingredient4_delta_price":6},{"id":"recAMxy40AlSUbyLM","ingredient1":["recKIVOGtD7svnu62"],"ingredient1_delta_price":3},{"id":"rec7fn077Rz1CHqCV","ingredient1":["rec8XL84tXFiyXG8a"],"ingredient1_delta_price":2},{"id":"recOy8R5NIhp4osI2","ingredient1":["rectpZHKSyKnbUYSb"],"ingredient1_delta_price":4,"ingredient2":["recZUCAcvUznPzspa"],"ingredient2_delta_price":4}]
+[
+  {
+    "id": "rec40Bfud7Utu3UBd",
+    "ingredient1": [
+      "recJRSfXW0NfRFpb5"
+    ],
+    "ingredient1_delta_price": 0,
+    "ingredient2": [
+      "recpIiQLboizMe8J9"
+    ]
+  },
+  {
+    "id": "rec9WSGLv7QtCVDHy",
+    "ingredient1": [
+      "recj1X6W9ye9jD5Lo"
+    ],
+    "ingredient1_delta_price": 0,
+    "ingredient2": [
+      "rec42PxFVJuTc7YAg"
+    ]
+  },
+  {
+    "id": "recsXMmtcoETFDmcP",
+    "ingredient1": [
+      "rechxTbqAb2qWZcaD"
+    ],
+    "ingredient1_delta_price": 0,
+    "ingredient2": [
+      "rechSJFTGdBREzxPP"
+    ],
+    "ingredient3": [
+      "recrk3Z9EOZRQebiR"
+    ]
+  },
+  {
+    "id": "recUmcgv6nrgRrrzA",
+    "ingredient1": [
+      "recAtYeYefI0zfKI0"
+    ],
+    "ingredient1_delta_price": 0,
+    "ingredient2": [
+      "rec7gP8w1nrbNtaPJ"
+    ],
+    "ingredient3": [
+      "recYJXFMyC7DOmEqo"
+    ]
+  },
+  {
+    "id": "recxFSAXSWCkwtNmD",
+    "ingredient1": [
+      "recAtYeYefI0zfKI0"
+    ],
+    "ingredient1_delta_price": 0,
+    "ingredient2": [
+      "recvr8kIqxedjZztj"
+    ]
+  },
+  {
+    "id": "recyibeN2JQV5nAVB",
+    "ingredient1": [
+      "recm2QBme7jDrV5Sw"
+    ],
+    "ingredient1_delta_price": 0,
+    "ingredient2": [
+      "recHI4ikK7GY9Vtg1"
+    ]
+  },
+  {
+    "id": "recjWFN6IYDeGdXM4",
+    "ingredient1": [
+      "recmR5d6CfuL3IQUk"
+    ],
+    "ingredient1_delta_price": 0,
+    "ingredient2": [
+      "recztS4lW5RFFwLMB"
+    ]
+  },
+  {
+    "id": "recG46OHcoF6y2E5a",
+    "ingredient1": [
+      "rechSJFTGdBREzxPP"
+    ],
+    "ingredient1_delta_price": 5,
+    "ingredient2": [
+      "recEQ5B0J5OHNRK3T"
+    ],
+    "ingredient2_delta_price": 5,
+    "ingredient3": [
+      "rectpZHKSyKnbUYSb"
+    ],
+    "ingredient3_delta_price": 5,
+    "ingredient4_delta_price": 4,
+    "ingredient5_delta_price": 5
+  },
+  {
+    "id": "recOQR6pNBDaJvlJw",
+    "ingredient1": [
+      "rectpZHKSyKnbUYSb"
+    ],
+    "ingredient1_delta_price": 4,
+    "ingredient2": [
+      "rec8XL84tXFiyXG8a"
+    ],
+    "ingredient2_delta_price": 4
+  },
+  {
+    "id": "recliuO1yV6qgDZ56",
+    "ingredient1": [
+      "recpVpLmRjrO3zCaa"
+    ],
+    "ingredient1_delta_price": 6,
+    "ingredient2": [
+      "recrf44xmq1p0m7j4"
+    ],
+    "ingredient2_delta_price": 6,
+    "ingredient3": [
+      "rec1LdXAfrLDQG3lm"
+    ],
+    "ingredient3_delta_price": 6,
+    "ingredient4_delta_price": 6,
+    "ingredient5_delta_price": 6
+  },
+  {
+    "id": "recALHId3rsOpHU8I",
+    "ingredient1": [
+      "recpVpLmRjrO3zCaa"
+    ],
+    "ingredient1_delta_price": 6,
+    "ingredient2": [
+      "recrk3Z9EOZRQebiR"
+    ],
+    "ingredient2_delta_price": 6,
+    "ingredient3": [
+      "recztS4lW5RFFwLMB"
+    ],
+    "ingredient3_delta_price": 6,
+    "ingredient4_delta_price": 6
+  },
+  {
+    "id": "recHWQ3WrifUQuJzI",
+    "ingredient1": [
+      "recrf44xmq1p0m7j4"
+    ],
+    "ingredient1_delta_price": 6,
+    "ingredient2": [
+      "recrk3Z9EOZRQebiR"
+    ],
+    "ingredient2_delta_price": 6,
+    "ingredient3": [
+      "recztS4lW5RFFwLMB"
+    ],
+    "ingredient3_delta_price": 6,
+    "ingredient4_delta_price": 6
+  },
+  {
+    "id": "recAMxy40AlSUbyLM",
+    "ingredient1": [
+      "recKIVOGtD7svnu62"
+    ],
+    "ingredient1_delta_price": 3
+  },
+  {
+    "id": "rec7fn077Rz1CHqCV",
+    "ingredient1": [
+      "rec8XL84tXFiyXG8a"
+    ],
+    "ingredient1_delta_price": 2
+  },
+  {
+    "id": "recOy8R5NIhp4osI2",
+    "ingredient1": [
+      "rectpZHKSyKnbUYSb"
+    ],
+    "ingredient1_delta_price": 4,
+    "ingredient2": [
+      "recZUCAcvUznPzspa"
+    ],
+    "ingredient2_delta_price": 4
+  }
+]
