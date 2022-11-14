@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 import {
-  Box, Tab, Tabs, Typography, useTheme,
+  Box, Paper, Tab, Tabs, Typography, useTheme,
 } from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
@@ -48,18 +48,18 @@ function DishesPage({ dishes, filters }) {
   return (
     <>
       <div className="top-0 sticky text-sm z-10">
-        <Tabs
-          value={currentCategory}
-          onChange={handleChangeCategory}
-          variant="scrollable"
-          scrollButtons
-          allowScrollButtonsMobile
-          sx={{ backgroundColor: theme.palette.primary.light, color: theme.palette.common.white }}
-          indicatorColor="secondary"
-          textColor="secondary"
-          visibleScrollbar
-        >
-          {
+        <Paper elevation={2}>
+          <Tabs
+            value={currentCategory}
+            onChange={handleChangeCategory}
+            variant="scrollable"
+            scrollButtons
+            allowScrollButtonsMobile
+            indicatorColor="secondary"
+            textColor="secondary"
+            visibleScrollbar
+          >
+            {
             orderedCategories.filter((c) => (orderedDishesByCategoryId?.[c.id]?.length > 0)).map((category) => (
               <Tab
                 key={category.id}
@@ -67,8 +67,9 @@ function DishesPage({ dishes, filters }) {
                 href={`#${category.id}`}
               />
             ))
-          }
-        </Tabs>
+              }
+          </Tabs>
+        </Paper>
       </div>
 
       <div className="container relative overflow-auto mx-auto">

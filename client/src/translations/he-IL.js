@@ -65,5 +65,10 @@ export default {
   coming_soon: 'בקרוב',
   no_options: 'לא נמצאו אפשרויות',
   options: 'אופציות',
-
+  description: 'תיאור',
+  nutrition: 'ערכים תזונתיים',
+  upgrades: 'שידרוגים',
+  sizes: 'גדלים',
+  ingredients: 'רכיבים',
+  allergens: 'אלרגיות',
 }
