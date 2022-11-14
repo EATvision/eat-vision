@@ -34,7 +34,7 @@ export default {
   do_you_have_a_specific_diet: 'Do you have a specific diet?',
   no_specific_diet: 'no specific diet',
   no_food_restrictions: 'no food restrictions',
-  things_i_avoid_or_reduce: 'things I avoid or reduce',
+  things_i_avoid_or_reduce: 'things I avoid',
   im_allergic: 'I\'m Allergic',
   my_diet: 'My diet',
   things_i_dont_eat: 'Things I don\'t eat',

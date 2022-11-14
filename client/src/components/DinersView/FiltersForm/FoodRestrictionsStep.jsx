@@ -1,11 +1,12 @@
 import { t } from 'i18next'
 import React from 'react'
 import {
-  Collapse, Divider, useTheme, Box, ToggleButtonGroup, ToggleButton, Checkbox, Button,
-  DialogActions, DialogContent, useMediaQuery, Dialog,
+  Divider, useTheme, Box, ToggleButtonGroup, ToggleButton, Checkbox, Button,
+  DialogActions, DialogContent, useMediaQuery, Dialog, Chip,
 } from '@mui/material'
 
 import IngredientsSelector from './IngredientsSelector'
+import { useIngredientsByIds } from '../../../hooks/ingredients'
 
 function FoodRestrictionsStep({ filters, setFilters }) {
   const theme = useTheme()
@@ -67,98 +68,23 @@ function FoodRestrictionsStep({ filters, setFilters }) {
       <Divider variant="middle" sx={{ margin: `${theme.spacing(2)} 0` }} />
 
       <Box sx={{ textAlign: 'start' }}>
-        <ToggleButtonGroup
-          fullWidth
-          value="exclude"
-          variant="outlined"
-          color="primary"
-          orientation="vertical"
-        >
-          <ToggleButton
-            fullWidth
-            value="exclude"
-            variant="outlined"
-            size="small"
-            selected={Boolean(filters.exclude.length > 0)}
-            onClick={handleClickSelectRestriction('exclude')}
-            sx={{ justifyContent: 'flex-start' }}
-          >
-            <Checkbox checked={Boolean(filters.exclude.length > 0)} />
+        <RestrictionFilter
+          filters={filters}
+          type="exclude"
+          onClick={handleClickSelectRestriction('exclude')}
+        />
 
-            {t('things_i_dont_eat')}
-          </ToggleButton>
-        </ToggleButtonGroup>
+        <RestrictionFilter
+          filters={filters}
+          type="allergies"
+          onClick={handleClickSelectRestriction('allergies')}
+        />
 
-        <Collapse
-          unmountOnExit
-          in={Boolean(filters.exclude.length > 0)}
-        >
-          <Box sx={{ minHeight: 100, padding: `${theme.spacing(2)} 0` }}>
-            <IngredientsSelector filters={filters} setFilters={setFilters} filterType="exclude" disabled />
-          </Box>
-        </Collapse>
-
-        <ToggleButtonGroup
-          fullWidth
-          value="allergies"
-          variant="outlined"
-          color="primary"
-          orientation="vertical"
-        >
-          <ToggleButton
-            fullWidth
-            value="allergies"
-            variant="outlined"
-            size="small"
-            selected={Boolean(filters.allergies.length > 0)}
-            onClick={handleClickSelectRestriction('allergies')}
-            sx={{ justifyContent: 'flex-start' }}
-          >
-            <Checkbox checked={Boolean(filters.allergies.length > 0)} />
-
-            {t('im_allergic')}
-          </ToggleButton>
-        </ToggleButtonGroup>
-
-        <Collapse
-          unmountOnExit
-          in={Boolean(filters.allergies.length > 0)}
-        >
-          <Box sx={{ minHeight: 100, padding: `${theme.spacing(2)} 0` }}>
-            <IngredientsSelector filters={filters} setFilters={setFilters} filterType="allergies" disabled />
-          </Box>
-        </Collapse>
-
-        <ToggleButtonGroup
-          fullWidth
-          value="avoidOrReduce"
-          variant="outlined"
-          color="primary"
-          orientation="vertical"
-        >
-          <ToggleButton
-            fullWidth
-            value="avoidOrReduce"
-            variant="outlined"
-            size="small"
-            selected={Boolean(filters.avoidOrReduce.length > 0)}
-            onClick={handleClickSelectRestriction('avoidOrReduce')}
-            sx={{ justifyContent: 'flex-start' }}
-          >
-            <Checkbox checked={Boolean(filters.avoidOrReduce.length > 0)} />
-
-            {t('things_i_avoid_or_reduce')}
-          </ToggleButton>
-        </ToggleButtonGroup>
-
-        <Collapse
-          unmountOnExit
-          in={Boolean(filters.avoidOrReduce.length > 0)}
-        >
-          <Box sx={{ minHeight: 100, padding: `${theme.spacing(2)} 0` }}>
-            <IngredientsSelector filters={filters} setFilters={setFilters} filterType="avoidOrReduce" disabled />
-          </Box>
-        </Collapse>
+        <RestrictionFilter
+          filters={filters}
+          type="avoidOrReduce"
+          onClick={handleClickSelectRestriction('avoidOrReduce')}
+        />
       </Box>
 
       <Dialog
@@ -189,6 +115,54 @@ function FoodRestrictionsStep({ filters, setFilters }) {
         </DialogActions>
       </Dialog>
     </Box>
+  )
+}
+
+function RestrictionFilter({ filters, type, onClick }) {
+  const theme = useTheme()
+  const { ingredients } = useIngredientsByIds(filters[type])
+
+  return (
+    <ToggleButtonGroup
+      fullWidth
+      value={type}
+      variant="outlined"
+      color="primary"
+      orientation="vertical"
+    >
+      <ToggleButton
+        fullWidth
+        value={type}
+        variant="outlined"
+        size="small"
+        selected={Boolean(filters[type].length > 0)}
+        onClick={onClick}
+        sx={{
+          alignItems: 'start', justifyContent: 'flex-start', display: 'flex', flexDirection: 'column',
+        }}
+      >
+        <Box>
+
+          <Checkbox checked={Boolean(filters[type].length > 0)} />
+
+          {t('things_i_avoid_or_reduce')}
+        </Box>
+
+        {
+          ingredients?.length > 0
+          && (
+          <Box sx={{ padding: theme.spacing(1) }}>
+            {ingredients?.map((c) => (
+              <Chip
+                size="small"
+                label={c.name}
+              />
+            ))}
+          </Box>
+          )
+        }
+      </ToggleButton>
+    </ToggleButtonGroup>
   )
 }
 

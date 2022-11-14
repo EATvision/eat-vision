@@ -26,7 +26,7 @@ export default {
   choose_relevant_options: 'בחרו את כל האפשרויות הרלוונטיות',
   i_have_a_specific_diet: 'יש לי דיאטה ספציפית',
   i_dont_eat_specific_foods: 'אני לא אוכל\\ת מזונות מסויימים',
-  i_try_to_avoid_or_reduce: 'מנסה להמנע או להפחית מזונות מסויימים',
+  i_try_to_avoid_or_reduce: 'מנסה להמנע מזונות מסויימים',
   i_simply_hate_eating: 'דברים שלא מתקרבים לצלחת שלי',
   a_health_condition: 'מצב בריאותי',
   faith_restrictions: 'הגבלות כשרות',
