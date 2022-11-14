@@ -70,18 +70,21 @@ function FoodRestrictionsStep({ filters, setFilters }) {
       <Box sx={{ textAlign: 'start' }}>
         <RestrictionFilter
           filters={filters}
+          title={t('exclude')}
           type="exclude"
           onClick={handleClickSelectRestriction('exclude')}
         />
 
         <RestrictionFilter
           filters={filters}
+          title={t('allergies')}
           type="allergies"
           onClick={handleClickSelectRestriction('allergies')}
         />
 
         <RestrictionFilter
           filters={filters}
+          title={t('things_i_avoid_or_reduce')}
           type="avoidOrReduce"
           onClick={handleClickSelectRestriction('avoidOrReduce')}
         />
@@ -118,7 +121,9 @@ function FoodRestrictionsStep({ filters, setFilters }) {
   )
 }
 
-function RestrictionFilter({ filters, type, onClick }) {
+function RestrictionFilter({
+  filters, title, type, onClick,
+}) {
   const theme = useTheme()
   const { ingredients } = useIngredientsByIds(filters[type])
 
@@ -138,14 +143,17 @@ function RestrictionFilter({ filters, type, onClick }) {
         selected={Boolean(filters[type].length > 0)}
         onClick={onClick}
         sx={{
-          alignItems: 'start', justifyContent: 'flex-start', display: 'flex', flexDirection: 'column',
+          alignItems: 'start',
+          justifyContent: 'flex-start',
+          display: 'flex',
+          flexDirection: 'column',
         }}
       >
         <Box>
 
           <Checkbox checked={Boolean(filters[type].length > 0)} />
 
-          {t('things_i_avoid_or_reduce')}
+          {title}
         </Box>
 
         {
@@ -154,6 +162,7 @@ function RestrictionFilter({ filters, type, onClick }) {
           <Box sx={{ padding: theme.spacing(1) }}>
             {ingredients?.map((c) => (
               <Chip
+                key={c.id}
                 size="small"
                 label={c.name}
               />
