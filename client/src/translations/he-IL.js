@@ -64,4 +64,6 @@ export default {
   ingredients_selector_placeholder: 'הקלד\\י סוג אוכל, רכיב או טעמים',
   coming_soon: 'בקרוב',
   no_options: 'לא נמצאו אפשרויות',
+  options: 'אופציות',
+
 }

@@ -21,10 +21,14 @@ function MenuOptionsBanner() {
     return (
       <Typography
         sx={{
-          flex: 1, minWidth: 120, color: theme.palette.common.white, textAlign: 'center',
+          fontSize: 20,
+          flex: 1,
+          minWidth: 120,
+          color: theme.palette.common.white,
+          textAlign: 'center',
         }}
       >
-        {menus[0].name}
+        {menus[0].name.toLocaleUpperCase()}
       </Typography>
     )
   }
@@ -38,7 +42,7 @@ function MenuOptionsBanner() {
     >
       {
         menus?.map((menu) => (
-          <MenuItem key={menu.id} value={menu.id}>{menu.name}</MenuItem>
+          <MenuItem key={menu.id} value={menu.id}>{menu.name.toLocaleUpperCase()}</MenuItem>
         ))
       }
     </Select>

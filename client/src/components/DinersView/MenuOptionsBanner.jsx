@@ -2,6 +2,7 @@ import React from 'react'
 import {
   Avatar, Box, Fab, styled, Typography, useTheme,
 } from '@mui/material'
+import { useTranslation } from 'react-i18next'
 import MenuSelector from './MenuSelector'
 import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 
@@ -23,7 +24,12 @@ function MenuOptionsBanner({ dishes, showWaiterBtn }) {
   const theme = useTheme()
   return (
     <Box sx={{
-      display: 'flex', backgroundColor: theme.palette.primary.main, color: theme.palette.common.white, alignItems: 'center',
+      display: 'flex',
+      backgroundColor: theme.palette.primary.main,
+      color: theme.palette.common.white,
+      alignItems: 'center',
+      fontFamily: 'Roboto',
+      padding: theme.spacing(1),
     }}
     >
       <MenuSelector />
@@ -55,14 +61,17 @@ function MenuOptionsBanner({ dishes, showWaiterBtn }) {
 }
 
 function OptionsContainer({ dishes }) {
+  const theme = useTheme()
+  const { t } = useTranslation()
   const filteredDishes = dishes.filtered.filter((d) => !d.isMainDishFilteredOut)
+
   return (
     <Box sx={{
-      display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1,
+      display: 'flex', alignItems: 'center', flex: 1,
     }}
     >
-      <Box sx={{ display: 'flex' }}>
-        <Typography>
+      <Box sx={{ display: 'flex', alignItems: 'end' }}>
+        <Typography sx={{ fontSize: '1.2rem' }}>
           {filteredDishes.length}
           /
         </Typography>
@@ -71,7 +80,7 @@ function OptionsContainer({ dishes }) {
         </Typography>
       </Box>
 
-      <Typography sx={{ fontSize: '0.75rem' }}>options</Typography>
+      <Typography sx={{ margin: `0 ${theme.spacing(1)}`, fontSize: '1.2rem' }}>{t('options').toLocaleUpperCase()}</Typography>
     </Box>
   )
 }
