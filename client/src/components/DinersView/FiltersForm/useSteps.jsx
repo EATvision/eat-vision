@@ -9,9 +9,9 @@ const useSteps = (filters, setFilters) => {
     {
       stepContent: <div />,
     },
-    !isUserLoggedIn && {
+    // !isUserLoggedIn && {
 
-    },
+    // },
     {
       title: t('do_you_have_a_specific_diet'),
       subtitle: t('choose_relevant_options'),
