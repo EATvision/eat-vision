@@ -13,6 +13,8 @@ import { v4 as uuidv4 } from 'uuid'
 import { t } from 'i18next'
 import { updateToken } from '../utils/token'
 
+const NO_AUTH = true
+
 function LoginPage() {
   const theme = useTheme()
   const navigate = useNavigate()
@@ -35,8 +37,16 @@ function LoginPage() {
     setVerificationCodeTimerKey(uuidv4())
     setVerificationPhoneNumberError(null)
     try {
-      await axios.post('/verify', { phoneNumber: phoneNumberValue, channel: chosenChannel })
-      setIsPendingSendToNumber(false)
+      const res = await axios.post('/verify', { phoneNumber: phoneNumberValue, channel: chosenChannel })
+      if (NO_AUTH) {
+        if (res.status === 200) {
+          const { token, exp } = res.data
+          updateToken(token, exp)
+          navigate(-1)
+        }
+      } else {
+        setIsPendingSendToNumber(false)
+      }
     } catch (error) {
       setVerificationPhoneNumberError(error)
     }
@@ -103,7 +113,7 @@ function LoginPage() {
             >
               <FormControl
                 fullWidth
-                sx={{ maxWidth: 300 }}
+                sx={{ maxWidth: 300, direction: 'ltr' }}
               >
                 <FormLabel>Enter phone number</FormLabel>
                 <MuiTelInput
@@ -113,17 +123,22 @@ function LoginPage() {
                 />
               </FormControl>
 
-              <ToggleButtonGroup
-                fullWidth
-                color="primary"
-                exclusive
-                value={chosenChannel}
-                onChange={handleChangeChannel}
-                aria-label="channel"
-              >
-                <ToggleButton value="sms">SMS</ToggleButton>
-                <ToggleButton value="call">call</ToggleButton>
-              </ToggleButtonGroup>
+              {
+                !NO_AUTH
+                && (
+                  <ToggleButtonGroup
+                    fullWidth
+                    color="primary"
+                    exclusive
+                    value={chosenChannel}
+                    onChange={handleChangeChannel}
+                    aria-label="channel"
+                  >
+                    <ToggleButton value="sms">SMS</ToggleButton>
+                    <ToggleButton value="call">call</ToggleButton>
+                  </ToggleButtonGroup>
+                )
+              }
 
               <Button
                 fullWidth
@@ -132,7 +147,7 @@ function LoginPage() {
                 variant="contained"
                 sx={{ marginTop: theme.spacing(1), maxWidth: 500 }}
               >
-                {t('send')}
+                {NO_AUTH ? t('next') : t('send')}
               </Button>
             </Box>
           )

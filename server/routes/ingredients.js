@@ -31,7 +31,7 @@ router.get("/", (req, res) => {
 
   let filteredIngredients = []
   if ('ids' in query) {
-    filteredIngredients = query.ids.length ? query.ids.split(',').map(id => searchableIngredients.find(ingredient => ingredient.id === id)) : []
+    filteredIngredients = query.ids.length ? query.ids.split(',').map(id => ingredients.find(ingredient => ingredient.id === id)) : []
   } else if (query?.q?.length) {
     filteredIngredients = fuse.search(query.q).map(i => i.item)
   }

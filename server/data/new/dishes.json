@@ -1,5 +1,2238 @@
 [
   {
+    "id": "recehcPUqmKoSXx3A",
+    "name": "קרפצ'יו חציל",
+    "description": "חציל קלוי בתנור, רכז רימונים, גבינת פטה ותטבילה ערבי אותנטי.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attsushX1P1WUXGY1",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/c7701e48cc11b32ead694bd96d5cff5a/6db0f44e/FIL_6857692_16624567181152.jpg",
+      "filename": "FIL_6857692_16624567181152.jpg",
+      "size": 16494,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/71f06adb06408c876b51288a6272f2f2/41649df1",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/27f1291cb532d5b8c89f9c432ed2f71e/5f3e4339",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/33bfc41699515292ff536049883504b5/0abfc594",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 45,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec1rgKdljBKDDBYx"
+        },
+        {
+          "type": "ingredient",
+          "id": "recn2OJJxhThBuzQ0"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectpZHKSyKnbUYSb"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0kpM82GnTvoxl7"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recQ61shew63XbINA",
+    "name": "הפרחים של בן",
+    "description": "פרחי כרובית ברוטב ויניגרט הדרים, בצל סגול, מיקס ירוקים, צנונית וסלסת עגבניות על טחינה \"הר ברכה\".",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attnBL1oZ1PzZNG8Y",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/9c8d61e409e94e3bf7568cfff9a259a5/b6f085da/FIL_6857695_16624569259522.jpg",
+      "filename": "FIL_6857695_16624569259522.jpg",
+      "size": 14878,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/164cff145c41ec8263274f73f2b10655/63a6a5d8",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/73a8ff7fc96b5be611d427d8e83314f5/9a6cf6b1",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/76a1829fcb0a21e51e2b3e2dbdce94b8/1d43c906",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 45,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec8HNDoAlkIKr78L"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "recsRHWevxSClszJ4"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec1IABrfNV7Yyge6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjlzojv8SK2HKVz"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recUKWnHtfi6KyO7N",
+    "name": "טרטר יאסו",
+    "description": "טרטר דג ים עם בורגול, צנונית, מיקס ירוקים, נגיעת סחוג מונח על יוגורט יווני וסומק.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attKZThxrLlAXxVLr",
+      "width": 200,
+      "height": 113,
+      "url": "https://dl.airtable.com/.attachments/7dd90e5ee7c77f2e860f3e1b5c22d4b5/9a4fb4b3/2fa7060c-2e7c-11ed-ab2f-c631fc0a5fee_5097e17fa6bb048824559974ea4f55db7.jpeg",
+      "filename": "2fa7060c-2e7c-11ed-ab2f-c631fc0a5fee_5097e17fa6bb048824559974ea4f55db7.jpeg",
+      "size": 3465,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/9fbcbcd84e6ee75acdd981a716fdfdce/6b0634ea",
+          "width": 64,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5f8bbc364e68b861682f09d00f05ac4e/8c6a495b",
+          "width": 200,
+          "height": 113
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/099a0815b79221be0aede40257e83e62/222e0976",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 52,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec03RNhpTR4yf5an"
+        },
+        {
+          "type": "ingredient",
+          "id": "reclJK4TANPTWSTV7"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec1IABrfNV7Yyge6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recsRHWevxSClszJ4"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7LIrXaMukwp1Cx"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqXdm01Ey8kAUWu"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCW9WUJc8yDnzZ7"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recUbTYSAkdOc4OZI",
+    "name": "קרפצ'ו בקר",
+    "description": "סינטה פרוסה, בלסמי מצומצם, רוטב ויניגרט, שמן זית, שום קונפי, צנונית, מיקס עשבים, פרמז'ן וטוסטונים.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attrvo5PACg9dCXsN",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/4803033d69b2bb42e6fe01b030093386/a3c532de/FIL_6857702_16624567419702.jpg",
+      "filename": "FIL_6857702_16624567419702.jpg",
+      "size": 21449,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e5b2480b7a755efad0124ed7a9dabc5b/7eade916",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a57c122ad65bacab91587eb0eaa6fd38/fc407801",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/dfe622c440c4f1f2ec2e11d8ca4a7fee/36547741",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 53,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recKP9gmvdeBVd3PC"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjA6WfuqGEQpHEf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recMsABfcQ3F7CcIz"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0md0zPk2XkGAzt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recQr7n4Kr7f24oao"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeP1xYyxAkCH3C"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec1FkdXoP3QlkFfT"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recWIgVoeBxhOHlMy",
+    "name": "באן קבב טבעוני",
+    "description": "לחמניות סיניות מאודות עם קבב מחלבון אפונה וסויה, מגיע עם טחינה \"הר ברכה\", בצל וחסה רומית.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attpuPLJsfFcCb6ei",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/aced5f3040984a30a3f2dd9fe627a4ee/b3035c1f/FIL_6857707_16624565374812.jpg",
+      "filename": "FIL_6857707_16624565374812.jpg",
+      "size": 17244,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6f6f406036459e53a69bda348a37f9d7/290c775b",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2e6365fb335d7eab014d0c3f95ff7454/57671bbf",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/41e76f000429f4c65edafdcd478a37b8/356afac3",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 57,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recdKBsFmuHKYa9pf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjlzojv8SK2HKVz"
+        },
+        {
+          "type": "ingredient",
+          "id": "reco4QENFZZfn59Rv"
+        },
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recShJc6HNFiHeqkU"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recqmHZFKFExEJ60k",
+    "name": "Burger",
+    "description": "220 גרם של בשר בקר טרי, עגבנייה, מלפפון חמוץ, בצל סגול וחסה רומית.",
+    "categories": [
+      "recbszxblMsGh4bbq"
+    ],
+    "image": {
+      "id": "attVcwDucJJGuOAae",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/ece1fcd4a5041aafc5a91a347e2498bd/00e7bc51/FIL_6857709_16624566203102.jpg",
+      "filename": "FIL_6857709_16624566203102.jpg",
+      "size": 27885,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/fee1f1de3f24ea977ff6552ac6767eac/83363771",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/df748f93ddab9561820a112c579b6458/34839659",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d63ee2efbba4f073ea0993b01d3c145d/ae087c1d",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 64,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recig8x6sbqMdadF5"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqxARDw9YU3hhtf"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqxARDw9YU3hhtf"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        }
+      ],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [
+        {
+          "type": "ingredient",
+          "id": "recYEH8B7edSdRO70",
+          "price": 7
+        },
+        {
+          "type": "ingredient",
+          "id": "recVGUu0cMkCKwmZP",
+          "price": 7
+        },
+        {
+          "type": "ingredient",
+          "id": "recbAgLp1wEMs0GdP",
+          "price": 7
+        }
+      ],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recsNOAkYg4mysNub",
+    "name": "באן עננים",
+    "description": "לחמניות סיניות מאודות, אסאדו מפורק בבישול ארוך של 8 שעות, מיקס שורשים, נבטים אסייתים ואיולי לימון.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attbeukXvJ9ELaHBc",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/5eb214e4e185cff0b7847df8a9dc23b1/bc089bd1/FIL_6857718_16624565937372.jpg",
+      "filename": "FIL_6857718_16624565937372.jpg",
+      "size": 27629,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2874f9a4df89efa5cb8641170124ecec/8ae1ffd8",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3af3eae8b697d6932cedb1467e2c329f/cb8114ce",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7d74de5e7b62ce4d5be043ebf280f3da/c949e6a9",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 54,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recdKBsFmuHKYa9pf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfRMIV40lwlhncK"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoKsqTUvXZ17C3u"
+        },
+        {
+          "type": "ingredient",
+          "id": "recFBu7s3RHulU06u"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rectUZFrI2P9Gsgk2",
+    "name": "באן בורגר",
+    "description": "המבורגר מבשר בקר מובחר, חסה רומית, עגבנייה, בצל סגול ורוטב איולי לימון.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attddPcHnuExtQgm1",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/ff440b10cc700b30e21870af0bac5ef7/d1358d7b/FIL_6857715_16624565647072.jpg",
+      "filename": "FIL_6857715_16624565647072.jpg",
+      "size": 26613,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c84f489eb2952c3856a63824887516d7/a90db511",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/da0801a3111db7507034ca18a0fb730a/87410cce",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/bfee43fb4fc3a603fe6d954cbdd816ee/4af1f39e",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 65,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recwzUqc8oxDIMRh6"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec6JuKZrj1Dz6X7X"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectPDlhHQFV2a0O6"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectPDlhHQFV2a0O6"
+        }
+      ],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recxp8Vh6M7KErVLe",
+    "name": "באן פאד קפאו",
+    "description": "תבשיל תאילנדי של בשר טחון, מיקס עשבים, בזיליקום, בצל ירוק, צ'ילי אדום ורוטב איולי לימון.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attP2OfiPzLj3VEUw",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/b5f17e45b789e34b0cbbf4660f49d212/892d1f41/FIL_6857716_16624565830322.jpg",
+      "filename": "FIL_6857716_16624565830322.jpg",
+      "size": 29352,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8e6d569fba3f77f8e95944004606e559/a6add1ec",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8361252a27f78721dd5790885011114b/fdb2e2d1",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0d6b7989a14a77d81d59a8b1821f7f9f/2fa6ad0c",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 53,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec6JuKZrj1Dz6X7X"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0OnKP0IIRt69My"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recgYp8kqH19JNZKj"
+        },
+        {
+          "type": "ingredient",
+          "id": "recFBu7s3RHulU06u"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recxKpMTjV9LjJ77L",
+    "name": "מיפ מיפ באן",
+    "description": "חזה עוף מצופה פירורי פאנקו, מלפפון חמוץ, עלי סלנובה, רוטב איולי צ'יפוטלה פינקטי.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "att5mSJadlMbIttaJ",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/8b505c209dde91ff4102809c182bca5b/9a5b6d7e/FIL_6857718_16624565937372.jpg",
+      "filename": "FIL_6857718_16624565937372.jpg",
+      "size": 27629,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/dcb3917645d3c4dcb6116403b0affc32/17461708",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/bd5a64e9f2f20ab4c0f6071912e0d06d/25dce0c6",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f26baf62d4d89ff3cc24b80538256eee/af7d1eaf",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 53,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recT5zWE8WnXzNB0M"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectNxFPxTgnZXOua"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec23XQwifRDsV1hK"
+        },
+        {
+          "type": "ingredient",
+          "id": "recuCnEG3zZNCvQGz"
+        },
+        {
+          "type": "ingredient",
+          "id": "recFBu7s3RHulU06u"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectPDlhHQFV2a0O6"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recyL4eJDSHY5Lewr",
+    "name": "נמו באן",
+    "description": "נתחי דג קוד בטמפורה אדומה, מיקס שורשים ורוטב איולי לימון.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attnZeg7jgxneEIuv",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/715b7d74331d321d51f3df62ea976ebe/e3897a14/FIL_6857719_16624566032772.jpg",
+      "filename": "FIL_6857719_16624566032772.jpg",
+      "size": 28129,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7d6cf20479a3f61c0ded815d48188b74/8c2c71f3",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/43ab7baaf4687323afb11ba1ce28d8a7/3b36fd98",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/03c8fd3c49e77fe3965f5d5c125fec4f/ac538ebc",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 54,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recglV0UGjl0Vxop7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recSvjLrmp9KKltut"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoKsqTUvXZ17C3u"
+        },
+        {
+          "type": "ingredient",
+          "id": "recFBu7s3RHulU06u"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recFptq9vnLbSOYoC",
+    "name": "סלט וויאטנמי \"האנוי סטייל\"",
+    "description": "אטריות שעועית דקות, גזר, כרוב אדום, מיקס עשבים, שעועית ירוקה, צ'ילי אדום, בצל ירוק, שומשום וואסבי חריף ומיקס פיצוחים ברוטב פיש סוס ליים וסוכר דקלים.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attwPLApnuh5Q7NVj",
+      "width": 200,
+      "height": 113,
+      "url": "https://dl.airtable.com/.attachments/fbb6395cd77c125f073c2325061714bf/3ded022e/6f1bd472-e1a4-11ec-bb60-7a13237d3c09_image174.jpeg",
+      "filename": "6f1bd472-e1a4-11ec-bb60-7a13237d3c09_image174.jpeg",
+      "size": 3771,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/92e500434389364bcbb475db524d784c/190139c3",
+          "width": 64,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/722f63525085f4d339586c3f800706cc/1c1b364a",
+          "width": 200,
+          "height": 113
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/762bcdb807e9afdbe1b8b393f5e50bea/3dbe8d4e",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 47,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rechBgxLcjcuvNPx2"
+        },
+        {
+          "type": "ingredient",
+          "id": "recHhc5yZWsQTO185"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec92S0OxwmFOhxud"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0KdUIbGbJYD3aX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recgYp8kqH19JNZKj"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec17BciDXqPJq56b"
+        },
+        {
+          "type": "ingredient",
+          "id": "recLwGASITh1OQ6u6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recLA5Vp11LKlGRSL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recM95YrxDPBbkMGm"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOAcqO0V1g9aZk6"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recFFogBaeDP2nWIf",
+    "name": "קארי מסאמן",
+    "description": "תבשיל הודי של קארי אדום וחלב קוקוס, חציל קלוי, קוביות תפו\"א, לימון גראס, שורש \"גלאנגל\" ואורז לבן.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attAYREjGv7fnwYUG",
+      "width": 200,
+      "height": 113,
+      "url": "https://dl.airtable.com/.attachments/17c7c5043e9eabeea439cdd792b7d981/a36ddc5d/4d2045ec-e1a4-11ec-8743-4e58ad113c33_image15.jpeg",
+      "filename": "4d2045ec-e1a4-11ec-8743-4e58ad113c33_image15.jpeg",
+      "size": 3868,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/07c797e94b29bc6ecfd6ffa0d0b30ed1/39f441ac",
+          "width": 64,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2d3eeaf498372cab93125c87ffe26eeb/bf94b114",
+          "width": 200,
+          "height": 113
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ca31b5101552845ed2e5a3e3a9555961/bcf356d3",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recXaBV35wqMgHKKo"
+        },
+        {
+          "type": "ingredient",
+          "id": "recHdsvNHQgPr3m5h"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec1rgKdljBKDDBYx"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec3hAsPvgqEcLiZC"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0KdUIbGbJYD3aX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqGtgubzB42zelv"
+        },
+        {
+          "type": "ingredient",
+          "id": "reci9fPFmhtQru0qK"
+        },
+        {
+          "type": "ingredient",
+          "id": "rechw2XjIz7JHZRjI"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recFLP1pGOoTM3Ars",
+    "name": "פאד קפאו",
+    "description": "תבשיל תאילנדי של בשר טחון, מיקס עשבים, בזיליקום, בצל ירוק, צ'ילי אדום, אטריות שעועית קריספיות, אורז וביצת עין.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "att5pw0fLZ39tsNwX",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/92191e50cefaebfa8717b06502ec63a1/9aef0d7d/FIL_6857729_1662456661981.jpg",
+      "filename": "FIL_6857729_1662456661981.jpg",
+      "size": 7290,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0bdbe82ca1f33ff1965b1bb649fb9f9a/dbe2d6fa",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1808f5e970fb45542f868caf8f2e733b/4bb062c6",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7612d831a8b633ecd79bf4c0bdad61ce/f10733aa",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec6JuKZrj1Dz6X7X"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0OnKP0IIRt69My"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "rechBgxLcjcuvNPx2"
+        },
+        {
+          "type": "ingredient",
+          "id": "rechw2XjIz7JHZRjI"
+        },
+        {
+          "type": "ingredient",
+          "id": "recYEH8B7edSdRO70"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recJCjmu3HRDNK4zh",
+    "name": "חסה פיש",
+    "description": "סירות חסה קיסר, דג קוד מטוגן בטמפורה, אטריות שעועית רכות, בצל ירוק, כוסברה עם רוטב ויאטנמי אותנטי.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attYBlYR769aWdHB9",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/9ed9473022ea49cedd63e4eba563f1b5/0208ee9c/FIL_6857732_1662456671244.jpg",
+      "filename": "FIL_6857732_1662456671244.jpg",
+      "size": 5352,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/46c83e5581a0da467ceda80ab1a1133c/5b271d18",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/208dfb3a18a989c5a8fb759381f56099/53fc66ed",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0c5b054c5057b609df4eaaada6e1cfe5/c877603b",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recsepskOrCOCMoo9"
+        },
+        {
+          "type": "ingredient",
+          "id": "rechBgxLcjcuvNPx2"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recFBu7s3RHulU06u"
+        },
+        {
+          "type": "ingredient",
+          "id": "recM95YrxDPBbkMGm"
+        },
+        {
+          "type": "ingredient",
+          "id": "recdlGU92qTqLmALu"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recZNLfAzbqxWtDb3",
+    "name": "סלט פאטוש",
+    "description": "קולורבי, שרי צהוב, פלפל חריף, מלפפון, זיתי קלמטה, בצל סגול ועלי זעתר טריים.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attITtKhnDhY9uxY0",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/45bbc55ba159fd5d9550e7e02744f69c/8c8ca02a/FIL_6857734_1662456686166.jpg",
+      "filename": "FIL_6857734_1662456686166.jpg",
+      "size": 3931,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ddf458f78f3e99a57b86e89d1682e8a1/1eb0e4ea",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/30b4b2ee5ed378f325c1fae52a7ef7a6/e2947196",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/08dc8459eebe04abaac2a355b24f18aa/bd8d9171",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 46,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recWq6iDyhEVIJb2R"
+        },
+        {
+          "type": "ingredient",
+          "id": "recvyskNhuZyanrR1"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUSiFQ5KWOcJ5Tk"
+        },
+        {
+          "type": "ingredient",
+          "id": "recLflBv3FnTuDdZ9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbAgLp1wEMs0GdP"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqxARDw9YU3hhtf"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec358OGLuxkahyvl",
+    "name": "עראיס ארדואן",
+    "description": "משולשי פיתות במילוי קבב של בשר טלה ושומן כבש, צנוברים, עשבי תיבול, טחינה \"הר ברכה\", איולי אריסה ולימון כבוש.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "att29jrPlJeZH7kXT",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/529ebf9f10ffd1d4fe8afe911883e3fb/1a8d10c3/FIL_6857736_1662456696635.jpg",
+      "filename": "FIL_6857736_1662456696635.jpg",
+      "size": 4921,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b5c1b4a81fa7a7831c57d52024d3565f/e219076d",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6d46f79e3b50725214aa01f28439a92c/7dca43a5",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d4082954328d14096c969ac389cfe1a6/72d9b8c6",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 48,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recm2QBme7jDrV5Sw"
+        },
+        {
+          "type": "ingredient",
+          "id": "recznqv7a1CC0kJ1V"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfidZyVXAu01ney"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjlzojv8SK2HKVz"
+        },
+        {
+          "type": "ingredient",
+          "id": "recnFLqc0j6PwBoId"
+        },
+        {
+          "type": "ingredient",
+          "id": "recFBu7s3RHulU06u"
+        },
+        {
+          "type": "ingredient",
+          "id": "recYY4CMOn1ZiyZTt"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec3g0s8kj1GiHtTj",
+    "name": "שניצל בחלה",
+    "description": "השניצל המוכר במדינה:חלה טרייה וחמה עם שניצל קרסיפי, חציל מטוגן קריספי, מטבוחה בבישול של 6 שעות ובצל ירוק.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "att2bMS6CQUgpwzMc",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/cdc58b5764385a4e0a36763eabc7819c/8b20c0e6/FIL_6869350_1667812778342.jpg",
+      "filename": "FIL_6869350_1667812778342.jpg",
+      "size": 4261,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/47b811692f769820b7073e70425e8454/d3896566",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8703ac7b4176a1f32d7c7c877af70ffc/0201e9b6",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3c501a325802b36cc1982c703cbd8d32/8a3fd041",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 48,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recpVpLmRjrO3zCaa"
+        },
+        {
+          "type": "ingredient",
+          "id": "recmu1qoz418LVjYq"
+        },
+        {
+          "type": "ingredient",
+          "id": "recMIkUWGt2ygmHKJ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec3loBD2qXF1GeGN",
+    "name": "אסאדו בחלה",
+    "description": "חלה טרייה וחמה עם בשר אסאדו בבישול ארוך טחינה עמבה, סלסלת עגבניות, פלפל חריף ובצל ירוק.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attFduqc2LCcP6tB7",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/340c583ba45cd0a551f4b074eb52d37c/42d3c58c/FIL_6876938_1667812634486.jpg",
+      "filename": "FIL_6876938_1667812634486.jpg",
+      "size": 4548,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ef3770900f360e17981c5a06044293b2/ec650c11",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6b8adf8a86200e851765254db6395e3e/9f7fdb91",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/589cf39a70484274ecd79a213f7eeb62/2f3c5e72",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 53,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recfRMIV40lwlhncK"
+        },
+        {
+          "type": "ingredient",
+          "id": "recI53Niy1Y0C0Lmr"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjlzojv8SK2HKVz"
+        },
+        {
+          "type": "ingredient",
+          "id": "recE5Ayeth06z4mvS"
+        },
+        {
+          "type": "ingredient",
+          "id": "recGBGHbizVMrwzF2"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbAgLp1wEMs0GdP"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec6PNUDCxc3pFF2z",
+    "name": "סלט מלכות",
+    "description": "סלט ירוק של חסה סלנובה, פרי העונה, גבינת בושה ושקדים קלויים ברוטב דבש ולימון.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attav3aaKGwfrhSxd",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/163cc46975ea8e3fcf50fe889f129dbf/681bc636/FIL_6857737_1662456780356.jpg",
+      "filename": "FIL_6857737_1662456780356.jpg",
+      "size": 4522,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5fcb75c248a897ec3b40d82862ed3b00/71a8dd51",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/db0575a475bb4eebfaf41092f5650ae2/f4002455",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7430b3d01d0f06b455587e05255cf5a4/39e6ad88",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 45,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec23XQwifRDsV1hK"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczWOjwDSvwMfeXV"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczbtlOF1pBTA39R"
+        },
+        {
+          "type": "ingredient",
+          "id": "recEsLLi7WO3oBS0I"
+        },
+        {
+          "type": "ingredient",
+          "id": "recF0p1gJUlLyMoXQ"
+        },
+        {
+          "type": "ingredient",
+          "id": "rect9ABfT374nMZgS"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec7J32KI1UosYP5H",
+    "name": "פיצה WOW",
+    "description": "בתוספת מיקס עשבים, עלי רוקט, שום קונפי ושבבי פרמז'ן.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attusa7N7e1IJSuSZ",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/73ae1604193efb39387df52d9b0ec8c3/2fd2442f/FIL_6857740_1662456795364.jpg",
+      "filename": "FIL_6857740_1662456795364.jpg",
+      "size": 4990,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f0f5da2587c5b93bb9aea6977e55f71b/450142f5",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6d094bd8a6ced8fc0e0455f543124f86/fec0c55b",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/07e323c551687b39817ca65c38d9d4d3/2a3bff09",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 58,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec790UdQSjJXmK6w"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0md0zPk2XkGAzt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeP1xYyxAkCH3C"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec6X0hBxBaz2cmCE"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec85vHYHO9z7w0oP"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8P9SCSLRblTXEA",
+    "name": "פיצה מרגריטה",
+    "categories": [
+      "recbszxblMsGh4bbq"
+    ],
+    "image": {
+      "id": "attHUNdXAadzV4wVX",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/98822ab72d112b8076a89ce3cb5dab5e/1ba4f398/FIL_6857742_1662456804249.jpg",
+      "filename": "FIL_6857742_1662456804249.jpg",
+      "size": 9566,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/19d656c12c55ce4133dd4bb794d11372/3316c3c4",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7ff5061997e9f9b5cd79750a30ed8b16/58253006",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/25f21ffe8c4c4d821a540f522a52078c/1a5182c9",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 54,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec6X0hBxBaz2cmCE"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec85vHYHO9z7w0oP"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8RnFrHsANTs00a",
+    "name": "צ'יפס פאו",
+    "description": "צ'יפס מתובל בשמן זית, עשבי תיבול ושום.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attaaQipDsFcUikL2",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/de5ff14c956037b299eafd8333439aba/b90de3f0/FIL_6857766_1662456840855.jpg",
+      "filename": "FIL_6857766_1662456840855.jpg",
+      "size": 9099,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f79ea514290c482f69df5c4f2ed52873/55c91856",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/05379d11c85a4ade1e2e17227fa2c2d5/9dc19316",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/dc2b9c83b55018460106eb78fc742ec4/0e7c7070",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 39,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec7QOHslSh3RZ9kE"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recZLkyMtKoCwB77p"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec96Gkt8NLP2mUOT",
+    "name": "צ'יפס \"פילדלפיה\"",
+    "description": "צ'יפס בתבלין \"פילדלפיה\"",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attyTSgT0uRerx08d",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/acce8e35dae73200a978c8a6d331faad/4d10e57b/FIL_6857767_16624568484502.jpg",
+      "filename": "FIL_6857767_16624568484502.jpg",
+      "size": 34619,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7d2a9919f57347030428f82c98cb66dd/00e2ade3",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7dd691d80d56990b32c83beeb85e7d7f/8ecf3e3b",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8c6422481e1d44fd2c7777410550ba45/44be6c1a",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 39,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recEbpGvSvveLkLQD"
+        },
+        {
+          "type": "ingredient",
+          "id": "recZLkyMtKoCwB77p"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recaJYzdTj0QYO7Oz",
+    "name": "צ'יפס נקי נקי",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attpBw9vG1hxJDRUK",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/54f42da85cf36486e4dbc7c00ad74d82/388ef385/FIL_6857768_16624568598402.jpg",
+      "filename": "FIL_6857768_16624568598402.jpg",
+      "size": 32107,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/91fc2e55e9286687800dcd03e5e176c9/f02a06f4",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/142e0d724f8fb3e0c528fd66ca1e3b2c/1ecfd7cf",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d068d562f8ad8cd320ab0027869eb562/fed77c4b",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 39,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recZLkyMtKoCwB77p"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reccFlrS2XKsdo0x3",
+    "name": "בטטה טריפ",
+    "description": "צ'יפס בטטה עם בשר אסאדו מפורק, מוגש עם רוטב דיינר'ס אמריקאי וחלפיניו.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "att2aRVt1PLBeS5ug",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/2f4929598832507d9eb4613c772ddf7b/e59f4368/FIL_6857770_1662456909729.jpg",
+      "filename": "FIL_6857770_1662456909729.jpg",
+      "size": 6650,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/854fbef55bf783b30803f08a32023982/8830f73e",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/04b66c19cf7b1d52ed33cc2838395eac/7c62e31d",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5b5a8a27f98140f188b126afa1c2d2cc/a1cb8597",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recceg3QUSjeszXto"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec9m2rVoYlzSVfcw"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfRMIV40lwlhncK"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reccdOwQz2QvKyQfX",
+    "name": "Fish&Chips",
+    "description": "נתחי פילה קוד בטמפורה אדומה, צ'יפס ואיולי לימון.",
+    "categories": [
+      "recngW5z4xCeLl6J6"
+    ],
+    "image": {
+      "id": "attzFEzSZDNwFLWEH",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/4be548523a84f393033a514e0f634092/f74b3cce/FIL_6857771_1662456884012.jpg",
+      "filename": "FIL_6857771_1662456884012.jpg",
+      "size": 6106,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a86b84051d8a0f9cd79b280a0db3c8c2/2c4e9b7c",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/02a1f6d5b3ac4dc51900b242a8da0191/e073adf0",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8ac057316c3ec568633d1e711b02eed8/cb57eef9",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 48,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recglV0UGjl0Vxop7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recSvjLrmp9KKltut"
+        },
+        {
+          "type": "ingredient",
+          "id": "recFBu7s3RHulU06u"
+        },
+        {
+          "type": "ingredient",
+          "id": "recWm1DUJ1I7W0Pck"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recdQTvbUdLN4IKwY",
+    "name": "שניצלונים וצ'יפס",
+    "description": "שניצלונים מחזה עוף אמיתי מצופים פירורי זהב קריספיים, מגיעים עם תוספת לבחירה אורז/ צ'יפס.",
+    "categories": [
+      "recbszxblMsGh4bbq"
+    ],
+    "image": {
+      "id": "attBix5l3KrS3Q9my",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/c219ec58895bec3520b82d10ba2179be/b0eaf917/FIL_6857772_1662456893601.jpg",
+      "filename": "FIL_6857772_1662456893601.jpg",
+      "size": 5088,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2cf2cb2d2fd9505655b5832cbef2fca3/7fbb8ac3",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f68749263b13651cb5db58e17fe6dfc7/b34692e6",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/cca1d4ddb42920bf6cda7d31c4b2f1f8/9d2d1db2",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recT5zWE8WnXzNB0M"
+        },
+        {
+          "type": "ingredient",
+          "id": "recgrWHvGBRpQOvSI"
+        },
+        {
+          "type": "ingredient",
+          "id": "recV32ATO1E8lqGEJ"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [
+        {
+          "type": "ingredient",
+          "id": "rechw2XjIz7JHZRjI",
+          "price": 0
+        },
+        {
+          "type": "ingredient",
+          "id": "recWm1DUJ1I7W0Pck",
+          "price": 0
+        }
+      ],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recd1eTpLlwbXoh0v",
+    "name": "Pow Burger",
+    "description": "220 גרם של בשר בקר טרי, חזה אווז על הפלנצ'ה, ריבת בצל, עגבנייה, מלפפון חמוץ, בצל סגול וחסה רומית",
+    "categories": [
+      "recbszxblMsGh4bbq"
+    ],
+    "image": {
+      "id": "attVhbPC4j4mxNXu8",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/291d19a5c1fb77b5490f02004520baea/a55f58c4/FIL_6857773_1662456869347.jpg",
+      "filename": "FIL_6857773_1662456869347.jpg",
+      "size": 7512,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b04e9e85b96961cefd815e6fce00821a/fab3dd88",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/43db8e0458c5671efa927416e9d9d9b7/f2225ff4",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/8b5d3c716aebb8369293158932c6a987/71d97526",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 69,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recig8x6sbqMdadF5"
+        },
+        {
+          "type": "ingredient",
+          "id": "recwzUqc8oxDIMRh6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectPDlhHQFV2a0O6"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqwACzjmWAG17qY"
+        },
+        {
+          "type": "ingredient",
+          "id": "recdWi50BqABCsZR2"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rechtdLHYPZNIBki0",
+    "name": "צ'ורוס",
+    "description": "מקלות בצק אפוי בקינמון סוכר, גנאש שוקולד מריר (פרווה) וגנאש שוקולד לבן (חלבי).",
+    "categories": [
+      "reckXyHBjuL2EIiiB"
+    ],
+    "image": {
+      "id": "attfixNOe6GhsJ01R",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/46128da2ed1c67efa68a46e6cc4190f9/e5ceeb93/FIL_6857774_1662456949326.jpg",
+      "filename": "FIL_6857774_1662456949326.jpg",
+      "size": 8052,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a0493a63bddb652a7fd2442d33bc8db4/e03f04d0",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ba746092e9f2d701c8a24c8a68153fd2/4ff6ac2f",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b1dbdb4c55f01405fda34a3cb33a480e/8eec8f98",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 39,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec22WY65XYvEccUt"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recuFLsNpIMHWdQWr"
+        },
+        {
+          "type": "ingredient",
+          "id": "recYgBjxkw5hDf5uD"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [
+        {
+          "type": "ingredient",
+          "id": "recFKr51aCdkKdGt1",
+          "price": 0
+        },
+        {
+          "type": "ingredient",
+          "id": "recWiDJ3H4VotgnHQ",
+          "price": 0
+        }
+      ],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reci8XS02o5UbNY2d",
+    "name": "עוגה בלגית",
+    "description": "עוגת שוקולד חמה, כדור גלידה וניל אוראו וקצפת.*עוגת השוקולד ללא התוספות הינה ללא גלוטן.",
+    "categories": [
+      "reckXyHBjuL2EIiiB"
+    ],
+    "image": {
+      "id": "attas32hreSTP3xEl",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/6afddff01dfaeacb79bef55aaaa1a216/bfbb3b78/FIL_6857775_1662456957426.jpg",
+      "filename": "FIL_6857775_1662456957426.jpg",
+      "size": 9660,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6f5a4eb280ad057c60a133c6370fcd74/d9e853e2",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/86e5dac62ddd102433d73b26c1bd1552/ae63de4e",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/99559b9db627b595109c36912bc72dee/7af04236",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 47,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recYetEQbFIrkE7R1"
+        },
+        {
+          "type": "ingredient",
+          "id": "recnav4IGBhqWGFbB"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recyGj20FN5EygziV"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbudne5tV5rX5O8"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recwxGBxuV90yEt7B"
+        },
+        {
+          "type": "ingredient",
+          "id": "recmnCyCx2QLL3COB"
+        },
+        {
+          "type": "ingredient",
+          "id": "recwpXePUgDGx1FPf"
+        }
+      ],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reckCiaRAFLLJDKmd",
+    "name": "קרמינו",
+    "description": "קראנצ' של שוקולד מריר, נוגט ובייגלה, קרם שוקולד קטיפתי שמרכזו קרם ברולה, ציפוי קריספי מתפצפץ של נוגט.",
+    "categories": [
+      "reckXyHBjuL2EIiiB"
+    ],
+    "image": {
+      "id": "attLOCPzzEojyLusm",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/fa72e6850900ae8f19ae7ae8c1708ae6/5c26aa05/FIL_6857778_1662456965699.jpg",
+      "filename": "FIL_6857778_1662456965699.jpg",
+      "size": 9605,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3d2fa024195eaf788774c47c9aa38dbd/53d2835e",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/105862ca58b57bba48a08714b610232b/7ea92011",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/151b28a570c9012c9db4fc9a9c0ddbb9/e641938e",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 46,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recYetEQbFIrkE7R1"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec1qcxzRZqxG61QI"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec22WY65XYvEccUt"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec2DQIY6S2EzRPTv"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOnawNdpWSvyZmr"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec21hubarbHAsCQZ"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
     "id": "rec2IptpcHO5CwfSb",
     "name": "“ACME” SMOKED SALMON",
     "description": "ciabatta bread, scallion, cream cheese, tomato, red onion and capers",
@@ -1214,6 +3447,10 @@
         {
           "type": "ingredient",
           "id": "recJvlpMhsCndGl3v"
+        },
+        {
+          "type": "ingredient",
+          "id": "recAeOWZp2x6n9uMZ"
         }
       ],
       "excludable": [],
@@ -2172,11 +4409,6 @@
           "type": "ingredient",
           "id": "recztS4lW5RFFwLMB",
           "price": 0
-        },
-        {
-          "type": "ingredient",
-          "id": "recETjcKY4qzAnRMB",
-          "price": 0
         }
       ],
       "sideDish": [],
@@ -3113,7 +5345,7 @@
     "categories": [
       "rectklIbQzx7V9nnP"
     ],
-    "price": 16.0016,
+    "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "recipe": {
       "mandatory": [],
@@ -4861,6 +7093,599 @@
       "excludable": [],
       "putaside": [],
       "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recmyO5WSFCKhPLPW",
+    "name": "לחם פראנה ומטבלים",
+    "description": "מוגש עם טחינה ״הר ברכה״, שמן זית בלסמי וטפנד זיתים",
+    "categories": [
+      "recIiq6ZHol2WD138"
+    ],
+    "image": {
+      "id": "attnAY63DGzmR5ia3",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/96ebf4cea450d085c7cca2ca9ee2387e/69d5895d/FIL_6857676_16624565075452.jpg",
+      "filename": "FIL_6857676_16624565075452.jpg",
+      "size": 14106,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/517c6ba6672a7e55124e1a69e4d2d7a5/ed76f32d",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/fa23003563b58b873d9c7709f8b9298e/c306dcf4",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3d19c4f6bd695a80c28073c8c6ec4b96/cb5db4cd",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 27,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "reccL5Yr2nEB5Oijf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recmNtRCtvDngyb6B"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjlzojv8SK2HKVz"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbe3KkShCBenMmL"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recrjnr0pnPjN8zq7",
+    "name": "קראק פאי",
+    "description": "תחתית עוגיות שיבולת שועל קראנצ'ית גרוסה ומעליה שכבה עשירה של קרמל וחמאה בעלת מעטפת זהב מפתה עם גלידה",
+    "categories": [
+      "reckXyHBjuL2EIiiB"
+    ],
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recBny3WGlNIP75xY"
+        },
+        {
+          "type": "ingredient",
+          "id": "recxUS9nha9pG4UV0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recnav4IGBhqWGFbB"
+        },
+        {
+          "type": "ingredient",
+          "id": "recmnCyCx2QLL3COB"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recnQjt6lPXLYJaWv",
+    "name": "קוראסון שחיתות ",
+    "description": "קוראסון חמאה מלא בגלידת וניל אוריאו, נוטלה, גנאש שוקולד לבן, כדורי קליק וקצפת",
+    "categories": [
+      "reckXyHBjuL2EIiiB"
+    ],
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec22WY65XYvEccUt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recpNLk4146tpNVy6"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec9Id8TmuV0oqEJK",
+    "name": "סן בנדטו",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attVXHIWfLJRfNZgJ",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/6079d4db0f02e95888fc9d517a39bd3b/5f518c14/FIL_6857889_1662457053134.jpg",
+      "filename": "FIL_6857889_1662457053134.jpg",
+      "size": 2556,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a454f8b2304693566db53b5013a0c939/b65b2290",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/726fa7733c2277cb74dd991ba611dec6/a65549e7",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4fd67980693fdc642950407bd9635428/862d15ea",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 10,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recvr8kIqxedjZztj"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8HdQOdVGz6PsHF",
+    "name": "פרייה",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "price": 14,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recJkJhNGrRPcbotL",
+    "name": "מי טוניק",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attG4doVFdlANvMn8",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/fcc6f7f19271aacbf295e0099c3b7cc2/81bf34b8/FIL_6857890_1662457042357.jpg",
+      "filename": "FIL_6857890_1662457042357.jpg",
+      "size": 2020,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/9e32f508a52a5491986cc9b8b11fbc55/b2294ddc",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/60a49ec7e104d3c622592319e598e940/21ec3e0c",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/96884fbef4cf825944bd1d71d4456d2b/7c766e7c",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 13,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recxmjUOG83bjy0fp",
+    "name": "נסטי אפרסק ",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attjoeYfiBB470SlR",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/cc0825e2e8cd4d0eae6c8717257def43/17ed3ba2/FIL_6857888_1662457218996.jpg",
+      "filename": "FIL_6857888_1662457218996.jpg",
+      "size": 3317,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/08b891c544bf1e4f127a8a30fca6a013/32ac68c8",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/77da3e6e9b4b25cb2b68ba5f93820aee/0dbeba14",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/11c1016a583abe3e91bc2a2b1d404078/36f74983",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recp6Gblp8CyUwBBG",
+    "name": "פפסי/פפסי מקס",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attnvuXomGQCRbV5p",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/f4326e6d7033ac61758023dd3ef03f58/b2a9ba7e/FIL_6857883_1662456989793.jpg",
+      "filename": "FIL_6857883_1662456989793.jpg",
+      "size": 2210,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/be2b9f01612530e975b9ddbf41526e6a/a3875077",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/474da54031b78dc5a5af74abdf618b58/77887f65",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ed8a83f5c4b6bbeb4cb0608d9efa320f/cb4df2ea",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 13,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [
+        {
+          "type": "ingredient",
+          "id": "rec8cIRgxiBEibIFf",
+          "price": 0
+        },
+        {
+          "type": "ingredient",
+          "id": "recFFI26d806duXDz",
+          "price": 0
+        }
+      ],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recGY6nA2WycY7zPx",
+    "name": "7UP",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attU5XCJyv4NllDdr",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/8de191b035814872e9e2ee6beb1ad8e3/7cc56062/FIL_6857885_1662457173795.jpg",
+      "filename": "FIL_6857885_1662457173795.jpg",
+      "size": 2325,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/384392ca4bc4381b50949a0643280898/6d6bafb9",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/15c584cc152423da266a22ae7aed8b1b/4373e446",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4e4f10c8a719917b02c9e0acf0d47e21/eac491bc",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 13,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recnvj4kWWKwY71YQ",
+    "name": "מירנדה",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attSF2moY0tkHvTZi",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/4c9f7c7cc565755bb7b8baf134d6ca1a/83331a17/FIL_6857891_1662457016012.jpg",
+      "filename": "FIL_6857891_1662457016012.jpg",
+      "size": 1772,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6a2241b29fd015a3214b6478b387c680/4114aac8",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2dbee0712994cec7d88be553e3ae6a5f/c083aa90",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4f671c82d1dc3fb52fd41ce08966b34c/abd3c252",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 13,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recqNqGjhlJyJBXjH",
+    "name": "קוקה קולה / זירו",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attyZ1UfH0pNQL6xp",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/24b242f863f7bae6242347656b558e61/a91cfd5f/FIL_6857779_1662457097941.jpg",
+      "filename": "FIL_6857779_1662457097941.jpg",
+      "size": 3002,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/df2c2983d375105333ed620698bcafce/34d8244c",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4522454b8e7e3f891a4479efe1100806/ccb959a9",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a75cafbbf541d04d214a10fa8ac6e1dd/993b4577",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [
+        {
+          "type": "ingredient",
+          "id": "recHOvfVrdmPqOemm",
+          "price": 0
+        },
+        {
+          "type": "ingredient",
+          "id": "recDhXiCipEs8OE3k",
+          "price": 0
+        }
+      ],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recpEDrMELteN6iTx",
+    "name": "בירה שחורה",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attKkp99w0IE8NtbT",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/11a91bbfab405a91b92a9f136641ebf1/0043b0f5/FIL_6857894_16624570314742.jpg",
+      "filename": "FIL_6857894_16624570314742.jpg",
+      "size": 8069,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/46c8573edeaf4c68f9500fe353ce2459/517d17d5",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f876d7758f1f86b0402bf952c9e54a39/ee59a1f7",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/148a348ba62d8e36174ba836d23afe27/6cb3ebe9",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec9brNxlVEHMgpRI",
+    "name": "משקה אנרגיה ",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "image": {
+      "id": "attFwehS5PWBiGg1o",
+      "width": 190,
+      "height": 140,
+      "url": "https://dl.airtable.com/.attachments/c7bcb82a59bc2207777be9779746cd84/f0ec9d22/FIL_6857895_1662457248180.jpg",
+      "filename": "FIL_6857895_1662457248180.jpg",
+      "size": 2638,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/dfdc2a7763e503f92f6f632561796c68/af11fbb2",
+          "width": 49,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/dc97d69ff7c93dcb9f8decefdc359b8d/02ca9bd0",
+          "width": 190,
+          "height": 140
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0c0192790bdcad16d25d05b57a34e534/e0189f71",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 14,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recw1v2PLlsWizpXU",
+    "name": "סחוטים",
+    "price": 14,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [
+        {
+          "type": "ingredient",
+          "id": "recpIiQLboizMe8J9",
+          "price": 0
+        },
+        {
+          "type": "ingredient",
+          "id": "recJRSfXW0NfRFpb5",
+          "price": 0
+        }
+      ],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []

@@ -1,10 +1,14 @@
 import React from 'react'
-import { Link, useParams, Navigate } from 'react-router-dom'
+import {
+  Link, useParams, Navigate, useNavigate,
+} from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
+import { Button } from '@mui/material'
 import { useKitchenMenusById } from '../../hooks/kitchens'
 
 function MenusPage() {
+  const navigate = useNavigate()
   const { kitchenId } = useParams()
   const { t } = useTranslation()
 
@@ -21,7 +25,7 @@ function MenusPage() {
         <h2>NO MENUS FOR KITCHEN FOUND</h2>
         <Link
           className="group flex flex-col"
-          to={`/kitchens/${kitchenId}`}
+          to={`/diners/kitchens/${kitchenId}`}
           key={kitchenId}
         >
           <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{t('back')}</h3>
@@ -30,21 +34,24 @@ function MenusPage() {
     )
   }
 
+  const handleClickMenu = (menuId) => () => {
+    navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}`)
+  }
+
   return (
     <>
       <h2>
-        MENUS:
+        {t('menu_options')}
       </h2>
 
       {
         menus.map((menu) => (
-          <Link
-            className="group flex flex-col"
-            to={`/kitchens/${kitchenId}/menus/${menu.id}`}
-            key={kitchenId}
+          <Button
+            fullWidth
+            onClick={handleClickMenu(menu.id)}
           >
-            <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{menu.name}</h3>
-          </Link>
+            {menu.name}
+          </Button>
         ))
     }
     </>

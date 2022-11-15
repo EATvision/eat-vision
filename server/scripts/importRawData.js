@@ -22,6 +22,7 @@ base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
     workingHours: r.get("working_hours"),
     menus: r.get("Menus"),
     currency: r.get("currency"),
+    locale: r.get("locale"),
   }));
   kitchens = data
 });
@@ -111,8 +112,9 @@ base("tblotwNoQ0o3H0zVN").select({ view: "Grid view" }).all((_err, records) => {
     isSearchable: r.get("is_searchable"),
     description: r.get("description"),
     synonyms: r.get("synonyms"),
-    excludedInDiets: r.get("excluded_in_diets"),
     tags: r.get("ingrediet_tags"),
+    groups: r.get("Groups"),
+    translation_heb: r.get("translation_heb"),
   }));
   ingredients = data
 });
@@ -127,22 +129,37 @@ setTimeout(() => {
   outputStream.on(
     "finish",
     function handleFinish() {
-      console.log("Done");
+      console.log("Done ingredients");
     }
   );
-}, 10000)
+}, 20000)
 
 // groups tblya8ylojdR69Sbm
 let groups = []
 base("tblya8ylojdR69Sbm").select({ view: "Grid view" }).all((_err, records) => {
   const data = records.map((r) => ({
     id: r.getId(),
-    day: r.get("day"),
-    start: r.get("start"),
-    end: r.get("end"),
+    display_name: r.get("display_name"),
+    translation_heb: r.get("translation_heb"),
+    sub_groups: r.get("sub_groups"),
   }));
   groups = data
 });
+
+setTimeout(() => {
+  const transformStream = JSONStream.stringify();
+  const outputStream = fs.createWriteStream('./server/data/raw/groups.json');
+  transformStream.pipe(outputStream);
+  groups.forEach(transformStream.write);
+  transformStream.end();
+
+  outputStream.on(
+    "finish",
+    function handleFinish() {
+      console.log("Done");
+    }
+  );
+}, 10000)
 
 //dishes
 let dishes = []
@@ -251,7 +268,8 @@ base("tblJXmaeTIA7dp4oJ").select({ view: "Grid view" }).all((_err, records) => {
   const data = records.map((r) => ({
     id: r.getId(),
     name: r.get("name"),
-    excludeFromDiet: r.get("exclude from diet"),
+    translation_heb: r.get("translation_heb"),
+    excluded_groups: r.get("excluded_groups"),
   }));
   diets = data
 });

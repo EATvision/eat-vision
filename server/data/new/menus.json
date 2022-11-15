@@ -1,12 +1,8 @@
 [
   {
     "id": "recoNZ8sopQsuADZ0",
-    "kitchens": [
-      "recOYWCGiIdPNFxiQ",
-      "recI6ewUXK9SVR2o3"
-    ],
-    "name": "All day",
-    "description": "All day",
+    "name": "menu",
+    "description": "menu",
     "workingHours": [
       "recNk4JNbX6GMGRrf"
     ],
@@ -68,9 +64,6 @@
   },
   {
     "id": "recz74tEeQH49umO9",
-    "kitchens": [
-      "recNd5nYVtfC47uyj"
-    ],
     "name": "lunch",
     "workingHours": [
       "recuVD7jjP0W8GpPu"
@@ -137,9 +130,6 @@
   },
   {
     "id": "rec91KB45Y0i3kvPX",
-    "kitchens": [
-      "recNd5nYVtfC47uyj"
-    ],
     "name": "BRUNCH",
     "workingHours": [
       "recvIrQ8vc15FiUdO"
@@ -215,9 +205,6 @@
   },
   {
     "id": "recOT51lzhweoiLgq",
-    "kitchens": [
-      "recNd5nYVtfC47uyj"
-    ],
     "name": "DINNER",
     "workingHours": [
       "recQKYbjSa5Dw9ll0",
@@ -513,9 +500,6 @@
   },
   {
     "id": "recKCY8dwiKe52Q8o",
-    "kitchens": [
-      "rec1a0suXOByXtd9E"
-    ],
     "name": "Menu ",
     "workingHours": [
       "reclLWEiXq2Kkmwlx"
@@ -879,6 +863,52 @@
       "reckArN0o4Y9fY2wV",
       "recLIQlOfIsh1pPNs",
       "rechxc7vZlndDRirH"
+    ]
+  },
+  {
+    "id": "recE7KpeDFYeEp7Ka",
+    "kitchens": [
+      "recCtQEnXUUqDHBfF"
+    ],
+    "name": "ערב ",
+    "workingHours": [
+      "recko2I0RM1NDFGYW"
+    ],
+    "startDate": "2022-11-01",
+    "endDate": "2024-07-01",
+    "categories": [
+      "recIiq6ZHol2WD138",
+      "recngW5z4xCeLl6J6",
+      "reccKFL0KLPTD1jo2",
+      "reckXyHBjuL2EIiiB",
+      "recbszxblMsGh4bbq",
+      "reckVRhNTnmMAEL6v",
+      "recWz1oglIgIu3x61",
+      "recXpNrVlnXVfiUJv",
+      "recrAf64Sr3tbU8Ft"
+    ]
+  },
+  {
+    "id": "recNuJVSBD6eGMqXH",
+    "kitchens": [
+      "recCtQEnXUUqDHBfF"
+    ],
+    "name": "Happy Hour",
+    "workingHours": [
+      "recl1w0UAVmGVU0B7"
+    ],
+    "startDate": "2022-11-01",
+    "endDate": "2034-12-01",
+    "categories": [
+      "reckXyHBjuL2EIiiB",
+      "recIiq6ZHol2WD138",
+      "recngW5z4xCeLl6J6",
+      "recbszxblMsGh4bbq",
+      "recWz1oglIgIu3x61",
+      "recXpNrVlnXVfiUJv",
+      "reckVRhNTnmMAEL6v",
+      "recrAf64Sr3tbU8Ft",
+      "reccKFL0KLPTD1jo2"
     ]
   }
 ]

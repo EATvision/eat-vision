@@ -8,7 +8,7 @@ import { useKitchenMenusById } from '../../hooks/kitchens'
 function MenuOptionsBanner() {
   const theme = useTheme()
   const { kitchenId, menuId } = useParams()
-  const { navigate } = useNavigate()
+  const navigate = useNavigate()
   const { menus } = useKitchenMenusById(kitchenId)
 
   const handleChange = (event) => {
@@ -21,24 +21,28 @@ function MenuOptionsBanner() {
     return (
       <Typography
         sx={{
-          flex: 1, minWidth: 120, color: theme.palette.common.white, textAlign: 'center',
+          fontSize: 20,
+          flex: 1,
+          minWidth: 120,
+          color: theme.palette.common.white,
+          textAlign: 'center',
         }}
       >
-        {menus[0].name}
+        {menus[0].name.toLocaleUpperCase()}
       </Typography>
     )
   }
 
   return (
     <Select
-      sx={{ minWidth: 120, color: theme.palette.common.white }}
+      sx={{ minWidth: 120, color: theme.palette.common.white, flex: 1 }}
       value={menuId}
       onChange={handleChange}
       variant="standard"
     >
       {
         menus?.map((menu) => (
-          <MenuItem key={menu.id} value={menu.id}>{menu.name}</MenuItem>
+          <MenuItem key={menu.id} value={menu.id}>{menu.name.toLocaleUpperCase()}</MenuItem>
         ))
       }
     </Select>
