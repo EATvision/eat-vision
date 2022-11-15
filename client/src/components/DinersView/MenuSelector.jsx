@@ -35,7 +35,7 @@ function MenuOptionsBanner() {
 
   return (
     <Select
-      sx={{ minWidth: 120, color: theme.palette.common.white }}
+      sx={{ minWidth: 120, color: theme.palette.common.white, flex: 1 }}
       value={menuId}
       onChange={handleChange}
       variant="standard"

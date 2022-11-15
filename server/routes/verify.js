@@ -23,7 +23,7 @@ function generateAccessTokenData(data) {
 
 router.post('/', async (req, res) => {
   const { body: { phoneNumber, channel = 'sms' } } = req
-  let verificationRequest
+  // let verificationRequest
   try {
     // verificationRequest = await twilio.verify.services(TWILIO_SERVICE_SID)
     //   .verifications
@@ -32,7 +32,11 @@ router.post('/', async (req, res) => {
     return res.status(500).send(e);
   }
 
-  return res.send(verificationRequest);
+  // WHILE WITH NO AUTHENTICATION, WE USE THIS
+  const tokenData = generateAccessTokenData({ phoneNumber });
+  return res.send(tokenData)
+
+  // return res.send(verificationRequest);
 });
 
 router.post('/code', async (req, res) => {
