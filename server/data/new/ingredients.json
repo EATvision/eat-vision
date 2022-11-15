@@ -1833,10 +1833,15 @@
       "recmkvtZD6t6WKl07"
     ],
     "groups": [
-      "recmkvtZD6t6WKl07"
+      "recmkvtZD6t6WKl07",
+      "recm30EduNkl4SSxj"
     ],
     "translation_heb": "בשר בקר טחון",
-    "excludedInDiets": []
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ]
   },
   {
     "id": "recIW45dXL8MV9Sqx",
@@ -1892,7 +1897,11 @@
       "recmkvtZD6t6WKl07"
     ],
     "translation_heb": "בשר צלעות",
-    "excludedInDiets": []
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ]
   },
   {
     "id": "rec3TuJV2eKXWalsC",
@@ -3564,6 +3573,9 @@
     ],
     "translation_heb": "חזה בקר מעושן",
     "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc",
       "rec8pz0YYIGmScPu5",
       "recDlVagQGOiParjH",
       "recqkfhdi9py4PNCJ"
@@ -3580,7 +3592,11 @@
       "recmkvtZD6t6WKl07"
     ],
     "translation_heb": "חזה בקר, בריסקט",
-    "excludedInDiets": []
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ]
   },
   {
     "id": "rec100Pc4sJaRSKcE",
@@ -5631,7 +5647,11 @@
       "recmkvtZD6t6WKl07"
     ],
     "translation_heb": "מח עצם",
-    "excludedInDiets": []
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ]
   },
   {
     "id": "recaVLemfSetn0jGm",
@@ -7062,7 +7082,11 @@
       "recmkvtZD6t6WKl07"
     ],
     "translation_heb": "סטייק סינטה",
-    "excludedInDiets": []
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ]
   },
   {
     "id": "recrydQaum4JwX2M5",
@@ -7130,6 +7154,9 @@
     ],
     "translation_heb": "סינטה נאה",
     "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc",
       "recTqrrExyN2M0oG8"
     ]
   },
@@ -8059,6 +8086,9 @@
     "description": "a dish of french fries and cheese curds topped with a brown gravy",
     "translation_heb": "פוטין",
     "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc",
       "rec8pz0YYIGmScPu5"
     ]
   },
@@ -8162,6 +8192,8 @@
     "translation_heb": "פילימני",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -9048,7 +9080,11 @@
       "recmkvtZD6t6WKl07"
     ],
     "translation_heb": "ציר בקר",
-    "excludedInDiets": []
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ]
   },
   {
     "id": "rec4Z0VGDLRpPDxYm",
@@ -10262,7 +10298,11 @@
       "recmkvtZD6t6WKl07"
     ],
     "translation_heb": "רוטב בקר",
-    "excludedInDiets": []
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ]
   },
   {
     "id": "rec62z4Jsf2jvZWIN",
