@@ -241,7 +241,7 @@ export default function Dish({ data }) {
             && (
             <IconButton
               sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+                display: 'flex', flexDirection: 'column', alignItems: 'center',
               }}
               color={expandedMoreInfo === 'description' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('description')}
@@ -257,7 +257,7 @@ export default function Dish({ data }) {
             && (
             <IconButton
               sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+                display: 'flex', flexDirection: 'column', alignItems: 'center',
               }}
               color={expandedMoreInfo === 'changes' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('changes')}
@@ -273,7 +273,7 @@ export default function Dish({ data }) {
             && (
             <IconButton
               sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+                display: 'flex', flexDirection: 'column', alignItems: 'center',
               }}
               color={expandedMoreInfo === 'nutrition' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('nutrition')}
@@ -289,7 +289,7 @@ export default function Dish({ data }) {
             && (
             <IconButton
               sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+                display: 'flex', flexDirection: 'column', alignItems: 'center',
               }}
               color={expandedMoreInfo === 'upgrades' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('upgrades')}
@@ -305,7 +305,7 @@ export default function Dish({ data }) {
             && (
             <IconButton
               sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+                display: 'flex', flexDirection: 'column', alignItems: 'center',
               }}
               color={expandedMoreInfo === 'sizes' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('sizes')}
@@ -321,7 +321,7 @@ export default function Dish({ data }) {
             && (
             <IconButton
               sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+                display: 'flex', flexDirection: 'column', alignItems: 'center',
               }}
               color={expandedMoreInfo === 'ingredients' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('ingredients')}
@@ -337,7 +337,7 @@ export default function Dish({ data }) {
             && (
             <IconButton
               sx={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '2px', minWidth: 35,
+                display: 'flex', flexDirection: 'column', alignItems: 'center',
               }}
               color={expandedMoreInfo === 'warnings' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('warnings')}

@@ -8,7 +8,7 @@ import { useKitchenMenusById } from '../../hooks/kitchens'
 function MenuOptionsBanner() {
   const theme = useTheme()
   const { kitchenId, menuId } = useParams()
-  const { navigate } = useNavigate()
+  const navigate = useNavigate()
   const { menus } = useKitchenMenusById(kitchenId)
 
   const handleChange = (event) => {

@@ -87,6 +87,26 @@
     ]
   },
   {
+    "id": "recYmUBLHQCYJDRgL",
+    "name": "דוכן\n  המזרח הרחוק"
+  },
+  {
+    "id": "recnAfSsXLfAzMXlK",
+    "name": "דוכן BUN BUN BUN"
+  },
+  {
+    "id": "recL9dqeTNVaxblrb",
+    "name": "דוכן המזרח התיכון"
+  },
+  {
+    "id": "recRnOl9xpftulXc1",
+    "name": "דוכן יורו טריפ"
+  },
+  {
+    "id": "reckUAAkbUH4MnmUm",
+    "name": "דוכן של הדוד סאם"
+  },
+  {
     "id": "recPEueYqRnH1KVT1",
     "name": "תוספות",
     "dishes": [
@@ -182,6 +202,11 @@
   {
     "id": "rec5M7nQCV67N4wLz",
     "name": "למרכז שולחן",
+    "position": 1
+  },
+  {
+    "id": "recIiq6ZHol2WD138",
+    "name": "מנות פתיחה",
     "position": 1
   },
   {
@@ -308,6 +333,11 @@
     ]
   },
   {
+    "id": "recngW5z4xCeLl6J6",
+    "name": "מנות חלוקה",
+    "position": 2
+  },
+  {
     "id": "recxOLISKY73v0uUD",
     "name": "סלטים",
     "position": 2,
@@ -395,6 +425,11 @@
       "recAp35hxzFyhe68w",
       "reclreoT6cKKnWVcC"
     ]
+  },
+  {
+    "id": "recbszxblMsGh4bbq",
+    "name": "מנות אישיות",
+    "position": 3
   },
   {
     "id": "reca65UNT1nuSqS91",
@@ -528,6 +563,11 @@
     ]
   },
   {
+    "id": "recWz1oglIgIu3x61",
+    "name": "שתיה",
+    "position": 4
+  },
+  {
     "id": "rectklIbQzx7V9nnP",
     "name": "IN THE MIDDLE",
     "position": 5,
@@ -631,6 +671,11 @@
     ]
   },
   {
+    "id": "reckVRhNTnmMAEL6v",
+    "name": "משקאות חמים",
+    "position": 5
+  },
+  {
     "id": "recQNXuU0VxrhnX2W",
     "name": "קינוחים",
     "position": 5
@@ -681,6 +726,11 @@
     "dishes": [
       "recrdCthAjv6yOR02"
     ]
+  },
+  {
+    "id": "reckXyHBjuL2EIiiB",
+    "name": "קינוחים",
+    "position": 6
   },
   {
     "id": "rec1r4IHznbhuFCM8",
@@ -763,6 +813,11 @@
     ]
   },
   {
+    "id": "recXpNrVlnXVfiUJv",
+    "name": "קוקטלים ",
+    "position": 7
+  },
+  {
     "id": "recowZ8cG2zZUqwVE",
     "name": "קטנות ",
     "position": 7,
@@ -815,6 +870,11 @@
   {
     "id": "rec7Y5Ue4jJxo3e9y",
     "name": "אלכוהול",
+    "position": 8
+  },
+  {
+    "id": "reccKFL0KLPTD1jo2",
+    "name": "אלכוהול ",
     "position": 8
   },
   {
@@ -891,6 +951,11 @@
       "rechp7TuUonHoXWA7",
       "recMAwCWskrneTdG7"
     ]
+  },
+  {
+    "id": "recrAf64Sr3tbU8Ft",
+    "name": "דיל צ'יסריים",
+    "position": 9
   },
   {
     "id": "reckDE68tDC11ZZMM",

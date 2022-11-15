@@ -70,7 +70,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
       <Box sx={{ textAlign: 'start' }}>
         <RestrictionFilter
           filters={filters}
-          title={t('exclude')}
+          title={t('i_dont_eat_specific_foods')}
           type="exclude"
           onClick={handleClickSelectRestriction('exclude')}
         />

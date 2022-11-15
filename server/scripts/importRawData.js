@@ -22,6 +22,7 @@ base("tblZl6c3RepInX9BV").select({ view: "Grid view" }).all((_err, records) => {
     workingHours: r.get("working_hours"),
     menus: r.get("Menus"),
     currency: r.get("currency"),
+    locale: r.get("locale"),
   }));
   kitchens = data
 });
