@@ -2,7 +2,7 @@ import React from 'react'
 import {
   List, ListItem,
 } from '@mui/material'
-import { useIngredientsByIds } from '../../../hooks/ingredients'
+import { useGetComponentLabel, useIngredientsByIds } from '../../../hooks/ingredients'
 
 const _keyBy = require('lodash/keyBy')
 
@@ -11,13 +11,14 @@ function IngredientsInfo({ data }) {
 
   const { ingredients } = useIngredientsByIds(relevantIds)
   const ingredientsById = _keyBy(ingredients, 'id')
+  const getComponentLabel = useGetComponentLabel()
 
   return (
     <List>
       {
         ingredients?.map((ing) => (
           <ListItem key={ing.id}>
-            {ingredientsById?.[ing.id]?.name}
+            {getComponentLabel(ingredientsById?.[ing.id])}
           </ListItem>
         ))
       }

@@ -4,9 +4,7 @@ import {
 import axios from 'axios'
 import { t } from 'i18next'
 import React from 'react'
-import { useParams } from 'react-router-dom'
-
-import { useKitchenById } from '../../../hooks/kitchens'
+import { useGetComponentLabel } from '../../../hooks/ingredients'
 
 const filter = createFilterOptions()
 
@@ -23,13 +21,10 @@ const getIngredientsByIds = async (ids) => {
 function IngredientsSelector({
   filters, setFilters, filterType, disabled,
 }) {
-  const { kitchenId } = useParams()
-
   const [restrictedIngredients, setRestrictedIngredients] = React.useState([])
   const [inputValue, setInputValue] = React.useState('')
   const [options, setOptions] = React.useState([])
   const [loading, setLoading] = React.useState(false)
-  const { kitchen } = useKitchenById(kitchenId)
 
   React.useEffect(() => {
     const setIngredients = async () => {
@@ -84,7 +79,7 @@ function IngredientsSelector({
     return filtered
   }
 
-  const getOptionLabel = (option) => (kitchen.locale === 'he-IL' ? option.translation_heb : option.name) || option.title
+  const getOptionLabel = useGetComponentLabel()
 
   return (
     <Autocomplete
@@ -128,7 +123,7 @@ function IngredientsSelector({
               style={{ marginRight: 8 }}
               checked={selected}
             />
-            {(kitchen?.locale === 'he-IL' ? option.translation_heb : option.name) || option.title}
+            {getOptionLabel(option)}
           </li>
         ) : (
           <div
