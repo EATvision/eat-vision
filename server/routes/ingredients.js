@@ -21,6 +21,7 @@ const options = {
   // fieldNormWeight: 1,
   keys: [
     "name",
+    "translation_heb"
   ]
 };
 

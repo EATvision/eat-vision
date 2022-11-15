@@ -70,7 +70,7 @@ function OptionsContainer({ dishes }) {
       display: 'flex', alignItems: 'center', flex: 1,
     }}
     >
-      <Box sx={{ display: 'flex', alignItems: 'end' }}>
+      <Box sx={{ display: 'flex', alignItems: 'end', direction: 'ltr' }}>
         <Typography sx={{ fontSize: '1.2rem' }}>
           {filteredDishes.length}
           /
