@@ -61,7 +61,7 @@ export default {
   'no sugar': 'ללא סוכר',
   my_reccomendations_for_you: 'ההמלצות שלי בשבילך',
   ask_without_the: 'לבקש בלי',
-  ingredients_selector_placeholder: 'הקלד\\י סוג אוכל, רכיב או טעמים',
+  ingredients_selector_placeholder: 'ניתן להקליד סוג אוכל, רכיבים או טעמים',
   coming_soon: 'בקרוב',
   no_options: 'לא נמצאו אפשרויות',
   sidedish: 'תוספת'
