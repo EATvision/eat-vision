@@ -55,6 +55,8 @@ export default function Dish({ data }) {
     }
   }
 
+  const getComponentLabel = (c) => (kitchen?.locale === 'he-IL' ? c.translation_heb : c.name) || c.name
+
   return (
     <Paper
       elevation={5}
@@ -89,7 +91,7 @@ export default function Dish({ data }) {
             <List dense>
               {
                 mandatoryComponentsFilteredOut.map((component) => (
-                  <ListItem dense key={component.id}>{component.name}</ListItem>
+                  <ListItem dense key={component.id}>{getComponentLabel(component)}</ListItem>
                 ))
               }
             </List>
@@ -101,7 +103,7 @@ export default function Dish({ data }) {
             && (
               <Typography>
                 All choice ingredients were filtered out (
-                {data.recipe.choice.map((c) => c.name).join(', ')}
+                {data.recipe.choice.map((c) => getComponentLabel(c)).join(', ')}
                 )
               </Typography>
             )
@@ -188,7 +190,7 @@ export default function Dish({ data }) {
             && (
             <DishRecipeTypeChips
               data={data}
-              label="choice"
+              label={t('choice')}
               recipeType="choice"
               selectedComponents={selectedComponents.choice}
               onSelect={handleSelect('choice', { exclusive: true })}
@@ -201,7 +203,7 @@ export default function Dish({ data }) {
             && (
             <DishRecipeTypeChips
               data={data}
-              label="side dish"
+              label={t('sidedish')}
               recipeType="sideDish"
               selectedComponents={selectedComponents.sideDish}
               onSelect={handleSelect('sideDish', { exclusive: false })}

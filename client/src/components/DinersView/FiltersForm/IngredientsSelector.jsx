@@ -4,6 +4,9 @@ import {
 import axios from 'axios'
 import { t } from 'i18next'
 import React from 'react'
+import { useParams } from 'react-router-dom'
+
+import { useKitchenById } from '../../../hooks/kitchens'
 
 const filter = createFilterOptions()
 
@@ -20,10 +23,13 @@ const getIngredientsByIds = async (ids) => {
 function IngredientsSelector({
   filters, setFilters, filterType, disabled,
 }) {
+  const { kitchenId } = useParams()
+
   const [restrictedIngredients, setRestrictedIngredients] = React.useState([])
   const [inputValue, setInputValue] = React.useState('')
   const [options, setOptions] = React.useState([])
   const [loading, setLoading] = React.useState(false)
+  const { kitchen } = useKitchenById(kitchenId)
 
   React.useEffect(() => {
     const setIngredients = async () => {
@@ -36,7 +42,7 @@ function IngredientsSelector({
   // const { ingredients, isLoading, isError } = useIngredients(search)
 
   const handleInputChange = (newValue) => {
-    setInputValue(newValue.replace(/\W/g, ''))
+    setInputValue(newValue)
   }
 
   const handleChangeIngredients = (e, value) => {
@@ -78,6 +84,8 @@ function IngredientsSelector({
     return filtered
   }
 
+  const getOptionLabel = (option) => (kitchen.locale === 'he-IL' ? option.translation_heb : option.name) || option.title
+
   return (
     <Autocomplete
       readOnly={disabled}
@@ -88,7 +96,7 @@ function IngredientsSelector({
       disableCloseOnSelect
       noOptionsText={t('no_options')}
       isOptionEqualToValue={(option, value) => option.id === value.id}
-      getOptionLabel={(option) => option.name || option.title}
+      getOptionLabel={getOptionLabel}
       options={options}
       value={restrictedIngredients}
       onChange={handleChangeIngredients}
@@ -120,7 +128,7 @@ function IngredientsSelector({
               style={{ marginRight: 8 }}
               checked={selected}
             />
-            {option.name}
+            {(kitchen?.locale === 'he-IL' ? option.translation_heb : option.name) || option.title}
           </li>
         ) : (
           <div

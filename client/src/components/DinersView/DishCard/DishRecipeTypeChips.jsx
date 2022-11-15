@@ -17,6 +17,8 @@ export default function DishRecipeChips({
     onSelect(componentId)
   }
 
+  const getComponentLabel = (c) => ((kitchen?.locale === 'he-IL' ? c.translation_heb : c.name) || c.name)
+
   return (
     <Stack
       direction="row"
@@ -58,7 +60,7 @@ export default function DishRecipeChips({
                     sx={{
                       textDecoration: (component.isMainComponentFilteredOut || component.isFilteredOut) ? 'line-through' : 'none',
                     }}
-                    label={`${component.name} ${component.price > 0 ? `(+${component.price}${kitchen?.currency})` : ''}`}
+                    label={`${getComponentLabel(component)} ${component.price > 0 ? `(+${component.price}${kitchen?.currency})` : ''}`}
                   />
                 </Badge>
               )
