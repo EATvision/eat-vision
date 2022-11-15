@@ -55,6 +55,7 @@ export default {
   ask_for_changes: 'בקשת שינויים',
   more_info: 'עוד פרטים',
   vegetarian: 'צמחונית',
+  vegeterian: 'צמחונית',
   vegan: 'טבעונית',
   pescatarian: 'צמחוני אוכל דגים',
   paleo: 'פלאו',
