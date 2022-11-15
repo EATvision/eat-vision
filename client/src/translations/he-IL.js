@@ -65,4 +65,6 @@ export default {
   coming_soon: 'בקרוב',
   no_options: 'לא נמצאו אפשרויות',
   sidedish: 'תוספת'
+  expand: 'להרחיב',
+  collaps: 'לכווץ',
 }
