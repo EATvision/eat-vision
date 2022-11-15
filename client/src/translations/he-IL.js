@@ -7,7 +7,7 @@ export default {
   that_are_relevant_to_you: 'המתאימות לך',
   //let_me_help_you: 'אשמח להציג את המנות שמתאימות בדיוק בשבילך',
   lets_get_started: 'בואו נתחיל',
-  or_skip_to_the: 'או לעבור',
+  or_skip_to_the: 'או שנעבור',
   tofull_menu: 'לתפריט המלא',
   //full_menu: 'תפריט \n מלא',
   //skip_to_full_menu: 'לתפריט המלא',
