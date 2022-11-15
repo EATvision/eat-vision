@@ -5,6 +5,7 @@ import {
 } from '@mui/material'
 
 import { useKitchenById } from '../../../hooks/kitchens'
+import { useGetComponentLabel } from '../../../hooks/ingredients'
 
 export default function DishRecipeChips({
   data, label, recipeType, onSelect = () => {}, selectedComponents = [],
@@ -17,8 +18,7 @@ export default function DishRecipeChips({
     onSelect(componentId)
   }
 
-  const getComponentLabel = (c) => ((kitchen?.locale === 'he-IL' ? c.translation_heb : c.name) || c.name)
-
+  const getComponentLabel = useGetComponentLabel()
   return (
     <Stack
       direction="row"

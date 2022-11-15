@@ -220,7 +220,7 @@ export default function Dish({ data }) {
               || data.recipe.nutrition
               || data.recipe.updates
               || data.sizes
-              || data.recipe
+              || data.recipe.mandatory.length > 0
               || data.warnings
             )
               && (
@@ -320,7 +320,7 @@ export default function Dish({ data }) {
           }
 
           {
-            data.recipe
+            data.recipe.mandatory.length > 0
             && (
             <IconButton
               sx={{
