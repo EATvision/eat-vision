@@ -79,4 +79,6 @@ export default {
   menu_options: 'Menus Options',
   choice: 'choice',
   changes: 'changes',
+  expand: 'expand',
+  collapse: 'collapse',
 }

@@ -11,6 +11,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
 import ClampLines from 'react-clamp-lines'
 
+import { t } from 'i18next'
 import { useKitchenById } from '../../../hooks/kitchens'
 
 export default function DishAccordion({ data }) {
@@ -116,8 +117,8 @@ export default function DishAccordion({ data }) {
                               id={dish.id}
                               lines={2}
                               ellipsis="..."
-                              moreText="Expand"
-                              lessText="Collapse"
+                              moreText={t('expand')}
+                              lessText={t('collapse')}
                               className="custom-class"
                               innerElement="p"
                             />
