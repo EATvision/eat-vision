@@ -52,7 +52,7 @@ export default {
   //any_more_restrictions: 'האם יש לך עוד העדפות באוכל?',
   //if_thats_all_press_done: 'לחץ סיום אם זה הכל',
   ask_for_changes: 'בקשת שינויים',
-  more_info: 'עוד מדע',
+  more_info: 'עוד פרטים',
   vegetarian: 'צמחונית',
   vegan: 'טבעונית',
   'pregnancy diet': 'תזונת היריון',
