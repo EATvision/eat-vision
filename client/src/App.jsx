@@ -49,7 +49,7 @@ function App() {
 
           <Route path="/login" element={<LoginPage />} />
 
-          <Route path="/diners" element={<DinerView filters={filters} />}>
+          <Route path="/diners" element={<DinerView filters={filters} dishes={dishes} />}>
             <Route index path="kitchens" element={<KitchensPage />} />
             <Route path="kitchens/:kitchenId" element={<KitchenPage />}>
               <Route path="menus" element={<MenusPage />} />

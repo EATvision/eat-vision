@@ -114,7 +114,7 @@ function GreetingPage({ setFilters }) {
         paddingBottom: theme.spacing(1),
         position: 'fixed',
         width: '100%',
-        bottom: 0,
+        bottom: 50,
       }}
       >
         <Link

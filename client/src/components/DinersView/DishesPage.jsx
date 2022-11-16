@@ -8,7 +8,6 @@ import {
 import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
 import Dish from './DishCard/Dish'
-import MenuOptionsBanner from './MenuOptionsBanner'
 
 function DishesPage({ dishes, filters }) {
   const theme = useTheme()
@@ -114,17 +113,6 @@ function DishesPage({ dishes, filters }) {
           ))
         }
       </div>
-
-      {
-          dishes?.total?.length > 0
-          && (
-          <MenuOptionsBanner
-            filters={filters}
-            dishes={dishes}
-          />
-          )
-        }
-
     </>
   )
 }
