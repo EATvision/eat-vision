@@ -64,13 +64,13 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.27.0",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8",
     "autoprefixer": "^10.4.8",
-    "prettier-eslint": "^15.0.1",
+    "eslint": "^8.27.0",
     "eslint-plugin-react": "^7.31.10",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.16",
+    "prettier-eslint": "^15.0.1",
+    "tailwindcss": "^3.1.8"
   },
   "prettier": {
     "singleQuote": true,
