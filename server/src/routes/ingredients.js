@@ -1,8 +1,8 @@
-const { Router } = require("express");
+const { Router } = require('express')
 const Fuse = require('fuse.js')
-const router = Router();
+const router = Router()
 
-const ingredients = require("../data/new/ingredients.json")
+const ingredients = require('../data/new/ingredients.json')
 const searchableIngredients = ingredients.filter(ing => ing.isSearchable)
 
 const options = {
@@ -20,14 +20,14 @@ const options = {
   // ignoreFieldNorm: false,
   // fieldNormWeight: 1,
   keys: [
-    "name",
-    "translation_heb"
+    'name',
+    'translation_heb'
   ]
-};
+}
 
-const fuse = new Fuse(searchableIngredients, options);
+const fuse = new Fuse(searchableIngredients, options)
 
-router.get("/", (req, res) => {
+router.get('/', (req, res) => {
   const { query } = req
 
   let filteredIngredients = []
@@ -38,8 +38,8 @@ router.get("/", (req, res) => {
   }
 
 
-  res.send(filteredIngredients);
-});
+  res.send(filteredIngredients)
+})
 
 
 module.exports = router

@@ -1,31 +1,25 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-  },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
+  settings: {
+    react: {
+      version: 'detect',
     },
-    ecmaVersion: 'latest',
+  },
+  env: {
+    node: true,
+    es2021: true,
+    browser: true,
+  },
+  parserOptions: {
     sourceType: 'module',
   },
-  plugins: [
-    'react',
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
   ],
   rules: {
-    'no-underscore-dangle': 0,
-    'max-len': ['warn', { 'code': 150 }],
-    'jsx-a11y/click-events-have-key-events': 0,
-    'jsx-a11y/no-static-element-interactions': 0,
-    'react/prop-types': 0,
-    'no-unused-vars': 1,
-    'linebreak-style': 0,
-    'react/jsx-props-no-spreading': 0,
+    quotes: ['error', 'single'],
     semi: ['error', 'never'],
+    'react/prop-types': 0,
   },
 }
