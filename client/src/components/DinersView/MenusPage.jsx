@@ -1,12 +1,8 @@
 import React from 'react'
-import {
-  Link, useParams, Navigate, useNavigate,
-} from 'react-router-dom'
+import { Link, useParams, Navigate, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import {
-  Box, Button, Typography, useTheme,
-} from '@mui/material'
+import { Box, Button, Typography, useTheme } from '@mui/material'
 import { useKitchenById, useKitchenMenusById } from '../../hooks/kitchens'
 
 function MenusPage() {
@@ -32,7 +28,9 @@ function MenusPage() {
           to={`/diners/kitchens/${kitchenId}`}
           key={kitchenId}
         >
-          <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{t('back')}</h3>
+          <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">
+            {t('back')}
+          </h3>
         </Link>
       </>
     )
@@ -44,7 +42,6 @@ function MenusPage() {
 
   return (
     <>
-
       <Box sx={{ margin: theme.spacing(2) }}>
         <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
           <img
@@ -53,28 +50,22 @@ function MenusPage() {
             alt=""
           />
         </div>
-        <Typography variant="h5">
-
-          {kitchen.name}
-        </Typography>
+        <Typography variant="h5">{kitchen.name}</Typography>
       </Box>
 
-      <Typography variant="h5">
-        {t('menu_options')}
-      </Typography>
+      <Typography variant="h5">{t('menu_options')}</Typography>
 
-      {
-        menus.map((menu) => (
-          <Button
-            fullWidth
-            sx={{ marginTop: theme.spacing(1) }}
-            variant="outlined"
-            onClick={handleClickMenu(menu.id)}
-          >
-            {menu.name}
-          </Button>
-        ))
-    }
+      {menus.map((menu) => (
+        <Button
+          key={menu.id}
+          fullWidth
+          sx={{ marginTop: theme.spacing(1) }}
+          variant="outlined"
+          onClick={handleClickMenu(menu.id)}
+        >
+          {menu.name}
+        </Button>
+      ))}
     </>
   )
 }

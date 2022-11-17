@@ -24,7 +24,7 @@ export default {
   to_show_only_relevant_dishes: 'To show you only the relevant dishes',
   choose_relevant_options: 'Choose all relevant options',
   i_have_a_specific_diet: 'I have specific diet',
-  i_dont_eat_specific_foods: "I don't eat specific foods",
+  i_dont_eat_specific_foods: 'I don\'t eat specific foods',
   allergies: 'allergies',
   i_try_to_avoid_or_reduce: 'I try to avoid or reduse',
   i_simply_hate_eating: 'I just hate eating',

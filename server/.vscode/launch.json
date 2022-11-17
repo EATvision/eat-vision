@@ -1,4 +1,3 @@
-
 {
   // Use IntelliSense to learn about possible attributes.
   // Hover to view descriptions of existing attributes.
@@ -6,34 +5,28 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node",
-      "request": "launch",
       "name": "Launch Program",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "envFile": "${workspaceFolder}/.env",
-      "program": "${workspaceFolder}\\server\\index.js"
+      "program": "${workspaceFolder}/index.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "outputCapture": "std"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "Import raw data",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "envFile": "${workspaceFolder}/.env",
-      "program": "${workspaceFolder}\\server\\scripts\\importRawData.js"
+      "program": "${workspaceFolder}/server/scripts/importRawData.js"
     },
-        {
+    {
       "type": "node",
       "request": "launch",
       "name": "Migrate raw data to new data format",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "envFile": "${workspaceFolder}/.env",
-      "program": "${workspaceFolder}\\server\\scripts\\migrateRawDataToNewData.js"
+      "program": "${workspaceFolder}/server/scripts/migrateRawDataToNewData.js"
     }
   ]
 }

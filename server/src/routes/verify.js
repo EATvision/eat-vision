@@ -1,9 +1,9 @@
-const { TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_SERVICE_SID } = process.env;
-const jwt = require('jsonwebtoken');
-const express = require('express');
-const twilio = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
+const { TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_SERVICE_SID } = process.env
+const jwt = require('jsonwebtoken')
+const express = require('express')
+const twilio = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
-const router = express.Router();
+const router = express.Router()
 
 const TOKEN_EXPIRATION = 1000 * 60 * 60 * 3 // in ms = 3 hours
 
@@ -29,19 +29,19 @@ router.post('/', async (req, res) => {
     //   .verifications
     //   .create({ to: phoneNumber, channel });
   } catch (e) {
-    return res.status(500).send(e);
+    return res.status(500).send(e)
   }
 
   // WHILE WITH NO AUTHENTICATION, WE USE THIS
-  const tokenData = generateAccessTokenData({ phoneNumber });
+  const tokenData = generateAccessTokenData({ phoneNumber })
   return res.send(tokenData)
 
   // return res.send(verificationRequest);
-});
+})
 
 router.post('/code', async (req, res) => {
-  const { code, phoneNumber } = req.body;
-  const errors = { wasValidated: true };
+  const { code, phoneNumber } = req.body
+  const errors = { wasValidated: true }
 
   try {
     // const verificationResult = await twilio.verify.services(TWILIO_SERVICE_SID)
@@ -49,14 +49,14 @@ router.post('/code', async (req, res) => {
     //   .create({ code, to: phoneNumber });
 
     // if (verificationResult.status === 'approved') {
-    const tokenData = generateAccessTokenData({ phoneNumber });
+    const tokenData = generateAccessTokenData({ phoneNumber })
     return res.send(tokenData)
     // } else {
     //   return res.status(403)
     // }
   } catch (e) {
-    return res.status(500).send(e);
+    return res.status(500).send(e)
   }
-});
+})
 
-module.exports = router;
+module.exports = router

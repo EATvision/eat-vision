@@ -4,8 +4,9 @@ import DietsStep from './DietsStep'
 import FoodRestrictionsStep from './FoodRestrictionsStep'
 
 const useSteps = (filters, setFilters) => {
+  // eslint-disable-next-line no-unused-vars
   const isUserLoggedIn = true
-  return ([
+  return [
     {
       stepContent: <div />,
     },
@@ -20,9 +21,11 @@ const useSteps = (filters, setFilters) => {
     {
       title: t('any_restrictions'),
       subtitle: t('choose_relevant_options'),
-      stepContent: <FoodRestrictionsStep filters={filters} setFilters={setFilters} />,
+      stepContent: (
+        <FoodRestrictionsStep filters={filters} setFilters={setFilters} />
+      ),
     },
-  ].filter(Boolean))
+  ].filter(Boolean)
 }
 
 export default useSteps
