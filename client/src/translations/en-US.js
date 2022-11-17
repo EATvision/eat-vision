@@ -82,4 +82,5 @@ export default {
   changes: 'changes',
   expand: 'expand',
   collapse: 'collapse',
+  logout: 'logout',
 }

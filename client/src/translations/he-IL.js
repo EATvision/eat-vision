@@ -80,4 +80,5 @@ export default {
   choice: 'לבחירה',
   expand: 'להרחיב',
   collapse: 'לכווץ',
+  logout: 'התנתק',
 }
