@@ -20,6 +20,7 @@ import AskForChangesBtn from './AskForChangesBtn'
 import ChangesInfo from './ChangesInfo'
 import DescriptionInfo from './DescriptionInfo'
 import IngredientsInfo from './IngredientsInfo'
+import { useGetComponentLabel } from '../../../hooks/ingredients'
 
 export default function Dish({ data }) {
   const theme = useTheme()
@@ -55,7 +56,7 @@ export default function Dish({ data }) {
     }
   }
 
-  const getComponentLabel = (c) => (kitchen?.locale === 'he-IL' ? c.translation_heb : c.name) || c.name
+  const getComponentLabel = useGetComponentLabel()
 
   return (
     <Paper
@@ -219,7 +220,7 @@ export default function Dish({ data }) {
               || data.recipe.nutrition
               || data.recipe.updates
               || data.sizes
-              || data.recipe
+              || data.recipe.mandatory.length > 0
               || data.warnings
             )
               && (
@@ -319,7 +320,7 @@ export default function Dish({ data }) {
           }
 
           {
-            data.recipe
+            data.recipe.mandatory.length > 0
             && (
             <IconButton
               sx={{

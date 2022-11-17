@@ -5,10 +5,8 @@ import {
   DialogActions, DialogContent, useMediaQuery, Dialog, Chip,
 } from '@mui/material'
 
-import { useParams } from 'react-router-dom'
 import IngredientsSelector from './IngredientsSelector'
-import { useIngredientsByIds } from '../../../hooks/ingredients'
-import { useKitchenById } from '../../../hooks/kitchens'
+import { useGetComponentLabel, useIngredientsByIds } from '../../../hooks/ingredients'
 
 function FoodRestrictionsStep({ filters, setFilters }) {
   const theme = useTheme()
@@ -127,10 +125,8 @@ function RestrictionFilter({
   filters, title, type, onClick,
 }) {
   const theme = useTheme()
-  const { kitchenId } = useParams()
-
+  const getComponentLabel = useGetComponentLabel()
   const { ingredients } = useIngredientsByIds(filters[type])
-  const { kitchen } = useKitchenById(kitchenId)
 
   return (
     <ToggleButtonGroup
@@ -169,7 +165,7 @@ function RestrictionFilter({
               <Chip
                 key={c.id}
                 size="small"
-                label={kitchen?.locale === 'he-IL' ? c.translation_heb : c.name}
+                label={getComponentLabel(c)}
               />
             ))}
           </Box>

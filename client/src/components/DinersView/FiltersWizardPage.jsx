@@ -4,7 +4,6 @@ import {
   Box,
 } from '@mui/material'
 
-import MenuOptionsBanner from './MenuOptionsBanner'
 import useSteps from './FiltersForm/useSteps'
 import FiltersStepper from './FiltersForm/FiltersStepper'
 import WaiterBanner from './WaiterBanner'
@@ -38,20 +37,7 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
         {steps[Number(step)].stepContent}
       </Box>
 
-      <Box>
-        <FiltersStepper filters={filters} dishes={dishes} />
-
-        {
-          dishes?.total?.length > 0
-          && (
-          <MenuOptionsBanner
-            filters={filters}
-            dishes={dishes}
-          />
-          )
-        }
-      </Box>
-
+      <FiltersStepper filters={filters} dishes={dishes} />
     </Box>
   )
 }

@@ -9,7 +9,7 @@ import { MdOutlineGroups as GroupsIcon } from 'react-icons/md'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { t } from 'i18next'
 
-function NavBar({ filters }) {
+function NavBar({ filters = {} }) {
   const navigate = useNavigate()
   const location = useLocation()
   const { kitchenId, menuId } = useParams()

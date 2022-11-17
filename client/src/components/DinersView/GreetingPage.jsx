@@ -30,7 +30,7 @@ function GreetingPage({ setFilters }) {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <Box>
-        <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8  flex-1">
+        <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
           <img
             className="w-full h-full object-center object-fit group-hover:opacity-75"
             src={kitchen?.image?.[0]?.url}
@@ -57,7 +57,6 @@ function GreetingPage({ setFilters }) {
             position: 'absolute',
             left: '50%',
             translate: '-50%',
-
           }}
         >
           <img
@@ -114,7 +113,7 @@ function GreetingPage({ setFilters }) {
         paddingBottom: theme.spacing(1),
         position: 'fixed',
         width: '100%',
-        bottom: 0,
+        bottom: 50,
       }}
       >
         <Link

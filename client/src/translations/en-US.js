@@ -53,6 +53,7 @@ export default {
   ask_for_changes: 'ask for changes',
   more_info: 'More Info',
   vegeterian: 'vegeterian',
+  vegetarian: 'vegetarian',
   vegan: 'vegan',
   pescatarian: 'pescaterian',
   paleo: 'paleo',
@@ -79,4 +80,6 @@ export default {
   menu_options: 'Menus Options',
   choice: 'choice',
   changes: 'changes',
+  expand: 'expand',
+  collapse: 'collapse',
 }

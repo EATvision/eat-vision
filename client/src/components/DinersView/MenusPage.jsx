@@ -4,14 +4,18 @@ import {
 } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { Button } from '@mui/material'
-import { useKitchenMenusById } from '../../hooks/kitchens'
+import {
+  Box, Button, Typography, useTheme,
+} from '@mui/material'
+import { useKitchenById, useKitchenMenusById } from '../../hooks/kitchens'
 
 function MenusPage() {
+  const theme = useTheme()
   const navigate = useNavigate()
   const { kitchenId } = useParams()
   const { t } = useTranslation()
 
+  const { kitchen } = useKitchenById(kitchenId)
   const { menus, isLoading, isError } = useKitchenMenusById(kitchenId)
 
   if (isLoading) return <div>LOADING</div>
@@ -40,14 +44,31 @@ function MenusPage() {
 
   return (
     <>
-      <h2>
+
+      <Box sx={{ margin: theme.spacing(2) }}>
+        <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+          <img
+            className="w-full h-full object-center object-fit group-hover:opacity-75"
+            src={kitchen?.image?.[0]?.url}
+            alt=""
+          />
+        </div>
+        <Typography variant="h5">
+
+          {kitchen.name}
+        </Typography>
+      </Box>
+
+      <Typography variant="h5">
         {t('menu_options')}
-      </h2>
+      </Typography>
 
       {
         menus.map((menu) => (
           <Button
             fullWidth
+            sx={{ marginTop: theme.spacing(1) }}
+            variant="outlined"
             onClick={handleClickMenu(menu.id)}
           >
             {menu.name}

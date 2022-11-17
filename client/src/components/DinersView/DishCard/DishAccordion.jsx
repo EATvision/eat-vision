@@ -11,12 +11,15 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
 import ClampLines from 'react-clamp-lines'
 
+import { t } from 'i18next'
 import { useKitchenById } from '../../../hooks/kitchens'
+import { useGetComponentLabel } from '../../../hooks/ingredients'
 
 export default function DishAccordion({ data }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
+  const getComponentLabel = useGetComponentLabel()
 
   const [expandedInfoPanel, setExpandedInfoPanel] = React.useState(null)
   const [isDishExpandedInfoAccordianExpanded, setIsDishExpandedInfoAccordianExpanded] = React.useState(0)
@@ -114,10 +117,10 @@ export default function DishAccordion({ data }) {
                             <ClampLines
                               text={dish.description || ''}
                               id={dish.id}
-                              lines={2}
+                              lines={10}
                               ellipsis="..."
-                              moreText="Expand"
-                              lessText="Collapse"
+                              moreText={t('expand')}
+                              lessText={t('collapse')}
                               className="custom-class"
                               innerElement="p"
                             />
@@ -216,10 +219,10 @@ export default function DishAccordion({ data }) {
                             <ClampLines
                               text={dish.description || ''}
                               id={dish.id}
-                              lines={2}
+                              lines={10}
                               ellipsis="..."
-                              moreText="Expand"
-                              lessText="Collapse"
+                              moreText={t('expand')}
+                              lessText={t('collapse')}
                               className="custom-class"
                               innerElement="p"
                             />
@@ -237,11 +240,11 @@ export default function DishAccordion({ data }) {
                       && (
                       <CardContent>
                         <Alert severity="warning">
-                          <AlertTitle>ASK TO EXCLUDE</AlertTitle>
+                          <AlertTitle>{t('ask_for_changes')}</AlertTitle>
                           <List dense>
                             {
                               addableComponentExcludableComponentsFilteredOut.map((component) => (
-                                <ListItem key={component.id}>{component.name}</ListItem>
+                                <ListItem key={component.id}>{getComponentLabel(component)}</ListItem>
                               ))
                             }
                           </List>

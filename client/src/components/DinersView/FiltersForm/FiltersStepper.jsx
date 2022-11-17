@@ -1,16 +1,16 @@
 import { useTranslation } from 'react-i18next'
 import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import {
-  Button, MobileStepper, useTheme,
-} from '@mui/material'
+import { Button, MobileStepper } from '@mui/material'
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft'
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
 import useSteps from './useSteps'
+import { useKitchenById } from '../../../hooks/kitchens'
 
 function FiltersStepper({ filters, setFilters }) {
-  const theme = useTheme()
   const { step } = useParams()
+  const { kitchenId } = useParams()
+  const { kitchen } = useKitchenById(kitchenId)
   const navigate = useNavigate()
   const steps = useSteps(filters, setFilters)
 
@@ -43,7 +43,7 @@ function FiltersStepper({ filters, setFilters }) {
           onClick={handleNext}
         >
           {t(Number(step) === maxSteps - 1 ? 'done' : 'next')}
-          {theme.direction === 'rtl' ? (
+          {kitchen.locale === 'he-IL' ? (
             <KeyboardArrowLeft />
           ) : (
             <KeyboardArrowRight />
@@ -56,7 +56,7 @@ function FiltersStepper({ filters, setFilters }) {
           onClick={handleBack}
           disabled={Number(step) === 0}
         >
-          {theme.direction === 'rtl' ? (
+          {kitchen.locale === 'he-IL' ? (
             <KeyboardArrowRight />
           ) : (
             <KeyboardArrowLeft />

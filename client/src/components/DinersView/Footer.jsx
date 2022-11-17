@@ -20,7 +20,7 @@ const StyledFab = styled(Fab)({
   borderRadius: 100,
 })
 
-function MenuOptionsBanner({ dishes, showWaiterBtn }) {
+function Footer({ dishes, showWaiterBtn }) {
   const theme = useTheme()
   return (
     <Box sx={{
@@ -30,6 +30,9 @@ function MenuOptionsBanner({ dishes, showWaiterBtn }) {
       alignItems: 'center',
       fontFamily: 'Roboto',
       padding: theme.spacing(1),
+      position: 'fixed',
+      bottom: 0,
+      width: '100%',
     }}
     >
       <MenuSelector />
@@ -67,7 +70,9 @@ function OptionsContainer({ dishes }) {
 
   return (
     <Box sx={{
-      display: 'flex', alignItems: 'center', flex: 1,
+      display: 'flex',
+      alignItems: 'center',
+      flex: 1,
     }}
     >
       <Box sx={{ display: 'flex', alignItems: 'end', direction: 'ltr' }}>
@@ -85,4 +90,4 @@ function OptionsContainer({ dishes }) {
   )
 }
 
-export default MenuOptionsBanner
+export default Footer

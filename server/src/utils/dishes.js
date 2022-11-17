@@ -113,9 +113,10 @@ const getModifiedDishes = (dishes, filters) =>
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
           isFilteredOut,
-          ...(isFilteredOut
-            ? { name: ingredientsById[component.id].name }
-            : {}),
+          ...{
+            name: ingredientsById[component.id].name,
+            translation_heb: ingredientsById[component.id].translation_heb,
+          },
         }
       }
     )
@@ -133,6 +134,7 @@ const getModifiedDishes = (dishes, filters) =>
         ingredientsExludedInDiets,
         isFilteredOut,
         name: ingredientsById[component.id].name,
+        translation_heb: ingredientsById[component.id].translation_heb,
       }
     })
 
@@ -159,6 +161,7 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           isFilteredOut,
           name: ingredientsById[component.id].name,
+          translation_heb: ingredientsById[component.id].translation_heb,
         }
       }),
       ...dish.recipe.addableDishes.map((sideDish) => ({
