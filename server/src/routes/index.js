@@ -15,8 +15,7 @@ router.use('/diets', dietsRoutes)
 router.use('/dishes', dishesRoutes)
 router.use('/diners', dinersRoutes)
 
-
-router.get("/", (req, res) => {
+router.get('/', (req, res) => {
   res.json({ message: 'OK' })
 })
 

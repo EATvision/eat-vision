@@ -1,8 +1,8 @@
-const fs = require("fs")
-const JSONStream = require("JSONStream");
-const keyBy = require("lodash/keyBy")
-const get = require("lodash/get")
-const _intersection = require("lodash/intersection")
+const fs = require('fs')
+const JSONStream = require('JSONStream')
+const keyBy = require('lodash/keyBy')
+const get = require('lodash/get')
+const _intersection = require('lodash/intersection')
 
 const { setAllChildIngredients } = require('../utils/dishes')
 
@@ -36,7 +36,7 @@ const modifiedIngredients = ingredients.map(ing => {
   allIngredientComponentsIds.forEach(ingId => {
     allGroupsOfIng = [...allGroupsOfIng, ...(ingredientsById[ingId]?.groups || [])]
   })
-  allGroupsOfIng = [...new Set(allGroupsOfIng)];
+  allGroupsOfIng = [...new Set(allGroupsOfIng)]
 
   const excludedInDiets = diets.reduce((acc, diet) => {
     if (_intersection(allGroupsOfIng, diet?.excluded_groups)?.length > 0) {
@@ -220,30 +220,30 @@ fs.writeFileSync('./server/data/new/workingHours.json', JSON.stringify(workingHo
 
 fs.writeFileSync('./server/data/new/categories.json', JSON.stringify(categories))
 
-const transformStreamIngredients = JSONStream.stringify();
-const outputStreamIngredients = fs.createWriteStream('./server/data/new/ingredients.json');
-transformStreamIngredients.pipe(outputStreamIngredients);
-modifiedIngredients.forEach(transformStreamIngredients.write);
-transformStreamIngredients.end();
+const transformStreamIngredients = JSONStream.stringify()
+const outputStreamIngredients = fs.createWriteStream('./server/data/new/ingredients.json')
+transformStreamIngredients.pipe(outputStreamIngredients)
+modifiedIngredients.forEach(transformStreamIngredients.write)
+transformStreamIngredients.end()
 
 outputStreamIngredients.on(
-  "finish",
+  'finish',
   function handleFinish() {
-    console.log("Done");
+    console.log('Done')
   }
-);
+)
 
-const transformStreamDishes = JSONStream.stringify();
-const outputStreamDishes = fs.createWriteStream('./server/data/new/dishes.json');
-transformStreamDishes.pipe(outputStreamDishes);
-modifiedDishes.forEach(transformStreamDishes.write);
-transformStreamDishes.end();
+const transformStreamDishes = JSONStream.stringify()
+const outputStreamDishes = fs.createWriteStream('./server/data/new/dishes.json')
+transformStreamDishes.pipe(outputStreamDishes)
+modifiedDishes.forEach(transformStreamDishes.write)
+transformStreamDishes.end()
 
 outputStreamDishes.on(
-  "finish",
+  'finish',
   function handleFinish() {
-    console.log("Done");
+    console.log('Done')
   }
-);
+)
 
 console.log('done')

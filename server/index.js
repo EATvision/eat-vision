@@ -1,14 +1,9 @@
-const path = require('path');
-const express = require('express');
-const passport = require('passport');
-const bodyParser = require('body-parser');
-const cookieParser = require('cookie-parser');
-const { Strategy } = require('passport-local');
-const cookieSession = require('cookie-session');
+require('dotenv').config()
+require('module-alias/register')
 
-const apiRoutes = require('./routes')
-const verifyRouter = require('./routes/verify')
+const server = require('src/server')
 
+<<<<<<< HEAD
 const { getUserById } = require('./utils/users')
 
 const PORT = process.env.PORT || 3001;
@@ -78,3 +73,6 @@ app.get('*', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
+=======
+server.init()
+>>>>>>> 9e51eb9 (Split project into 2 different sub-folders)
