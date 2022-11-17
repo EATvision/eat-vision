@@ -18,6 +18,8 @@ const useIsRTL = () => {
     }
   }, [kitchen])
 
+  document.body.dir = isRTL ? 'rtl' : 'ltr'
+
   return isRTL
 }
 

@@ -26,9 +26,8 @@ import { clearTokenData, getToken } from '../utils/token'
 import KitchenProvider from '../contexts/kitchen'
 import RTL from '../components/RTL'
 import getTheme from '../theme'
-
-const defaultLang = navigator.language
-const isRTL = ['he-IL'].includes(defaultLang)
+import useIsRTL from '../hooks/useRTL'
+import { t } from 'i18next'
 
 const drawerWidth = 240
 
@@ -80,26 +79,27 @@ const AppBar = styled(MuiAppBar, {
   }),
 }))
 
-const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' })(
-  ({ theme, open }) => ({
-    width: drawerWidth,
-    flexShrink: 0,
-    whiteSpace: 'nowrap',
-    boxSizing: 'border-box',
-    ...(open && {
-      ...openedMixin(theme),
-      '& .MuiDrawer-paper': openedMixin(theme),
-    }),
-    ...(!open && {
-      ...closedMixin(theme),
-      '& .MuiDrawer-paper': closedMixin(theme),
-    }),
+const Drawer = styled(MuiDrawer, {
+  shouldForwardProp: (prop) => prop !== 'open',
+})(({ theme, open }) => ({
+  width: drawerWidth,
+  flexShrink: 0,
+  whiteSpace: 'nowrap',
+  boxSizing: 'border-box',
+  ...(open && {
+    ...openedMixin(theme),
+    '& .MuiDrawer-paper': openedMixin(theme),
   }),
-)
+  ...(!open && {
+    ...closedMixin(theme),
+    '& .MuiDrawer-paper': closedMixin(theme),
+  }),
+}))
 
 function CustomersView() {
   const theme = useTheme()
   const navigate = useNavigate()
+  const isRTL = useIsRTL()
 
   const token = getToken()
 
@@ -125,66 +125,69 @@ function CustomersView() {
           <CssBaseline />
           <AppBar position="fixed" open={open}>
             <Toolbar>
-              {
-            token
-            && (
-              <IconButton
-                color="inherit"
-                aria-label="open drawer"
-                onClick={handleDrawerOpen}
-                edge="start"
-                sx={{
-                  marginRight: 5,
-                  ...(open && { display: 'none' }),
-                }}
-              >
-                <MenuIcon />
-              </IconButton>
-            )
-          }
+              {token && (
+                <IconButton
+                  color="inherit"
+                  aria-label="open drawer"
+                  onClick={handleDrawerOpen}
+                  edge="start"
+                  sx={{
+                    marginRight: 5,
+                    ...(open && { display: 'none' }),
+                  }}
+                >
+                  <MenuIcon />
+                </IconButton>
+              )}
 
               <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
-                { !token && <Typography sx={{ marginRight: theme.spacing(2) }}>Customers Page</Typography>}
-                { token && <KitchenSelector /> }
+                {!token && (
+                  <Typography sx={{ marginRight: theme.spacing(2) }}>
+                    Customers Page
+                  </Typography>
+                )}
+                {token && <KitchenSelector />}
               </Box>
 
-              {
-            token
-            && (
-              <Button
-                variant="text"
-                sx={{ color: theme.palette.common.white }}
-                onClick={handleClickLogout}
-              >
-                LOGOUT
-              </Button>
-            )
-          }
+              {token && (
+                <Button
+                  variant="text"
+                  sx={{ color: theme.palette.common.white }}
+                  onClick={handleClickLogout}
+                >
+                  {t('logout')}
+                </Button>
+              )}
             </Toolbar>
           </AppBar>
 
-          {
-        token
-        && (
-        <Drawer variant="permanent" open={open}>
-          <DrawerHeader>
-            <IconButton onClick={handleDrawerClose}>
-              {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
-            </IconButton>
-          </DrawerHeader>
-          <Divider />
-          <List>
-            <ItemList open={open} tabName="overview" icon={<OverviewIcon />} />
+          {token && (
+            <Drawer variant="permanent" open={open}>
+              <DrawerHeader>
+                <IconButton onClick={handleDrawerClose}>
+                  {isRTL ? <ChevronRightIcon /> : <ChevronLeftIcon />}
+                </IconButton>
+              </DrawerHeader>
+              <Divider />
+              <List>
+                <ItemList
+                  open={open}
+                  tabName="overview"
+                  icon={<OverviewIcon />}
+                />
 
-            <ItemList open={open} tabName="generalInfo" icon={<InfoIcon />} />
+                <ItemList
+                  open={open}
+                  tabName="generalInfo"
+                  icon={<InfoIcon />}
+                />
 
-            <ItemList open={open} tabName="dishes" icon={<DishesIcon />} />
+                <ItemList open={open} tabName="dishes" icon={<DishesIcon />} />
 
-            <ItemList open={open} tabName="menus" icon={<MenusIcon />} />
-          </List>
-        </Drawer>
-        )
-      }
+                <ItemList open={open} tabName="menus" icon={<MenusIcon />} />
+              </List>
+            </Drawer>
+          )}
 
           <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
             <DrawerHeader />
@@ -232,7 +235,15 @@ function ItemList({ open, tabName, icon }) {
 }
 
 function WrappedCustomersView(props) {
-  return isRTL ? (<RTL><CustomersView {...props} /></RTL>) : <CustomersView />
+  const isRTL = useIsRTL()
+
+  return isRTL ? (
+    <RTL>
+      <CustomersView {...props} />
+    </RTL>
+  ) : (
+    <CustomersView {...props} />
+  )
 }
 
 export default WrappedCustomersView

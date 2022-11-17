@@ -3,7 +3,9 @@ import React from 'react'
 const KitchenContext = React.createContext(null)
 
 function KitchenProvider({ children }) {
-  const [kitchenId, setKitchenId] = React.useState(localStorage.getItem('kitchenId'))
+  const [kitchenId, setKitchenId] = React.useState(
+    localStorage.getItem('kitchenId')
+  )
 
   const handleSetKitchenId = async (updatedValue) => {
     setKitchenId(updatedValue)
@@ -15,16 +17,17 @@ function KitchenProvider({ children }) {
     localStorage.removeItem('kitchenId')
   }
 
-  const value = React.useMemo(() => ({
-    kitchenId,
-    onSetKitchenId: handleSetKitchenId,
-    onClearKitchenId: handleClearKitchenId,
-  }), [kitchenId, handleSetKitchenId, handleClearKitchenId])
+  const value = React.useMemo(
+    () => ({
+      kitchenId,
+      onSetKitchenId: handleSetKitchenId,
+      onClearKitchenId: handleClearKitchenId,
+    }),
+    [kitchenId, handleSetKitchenId, handleClearKitchenId]
+  )
 
   return (
-    <KitchenContext.Provider value={value}>
-      {children}
-    </KitchenContext.Provider>
+    <KitchenContext.Provider value={value}>{children}</KitchenContext.Provider>
   )
 }
 
