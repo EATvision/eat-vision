@@ -57,7 +57,6 @@ function GreetingPage({ setFilters }) {
             position: 'absolute',
             left: '50%',
             translate: '-50%',
-
           }}
         >
           <img

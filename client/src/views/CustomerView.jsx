@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet, useLocation, useNavigate } from 'react-router-dom'
-import { styled, useTheme } from '@mui/material/styles'
+import { styled, ThemeProvider, useTheme } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 import MuiDrawer from '@mui/material/Drawer'
 import MuiAppBar from '@mui/material/AppBar'
@@ -23,6 +23,12 @@ import InfoIcon from '@mui/icons-material/InfoOutlined'
 import { Button, Typography } from '@mui/material'
 import KitchenSelector from '../components/KitchenSelector'
 import { clearTokenData, getToken } from '../utils/token'
+import KitchenProvider from '../contexts/kitchen'
+import RTL from '../components/RTL'
+import getTheme from '../theme'
+
+const defaultLang = navigator.language
+const isRTL = ['he-IL'].includes(defaultLang)
 
 const drawerWidth = 240
 
@@ -91,7 +97,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
   }),
 )
 
-export default function CustomerPage() {
+function CustomersView() {
   const theme = useTheme()
   const navigate = useNavigate()
 
@@ -113,11 +119,13 @@ export default function CustomerPage() {
   }
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <CssBaseline />
-      <AppBar position="fixed" open={open}>
-        <Toolbar>
-          {
+    <KitchenProvider>
+      <ThemeProvider theme={getTheme(isRTL)}>
+        <Box sx={{ display: 'flex' }}>
+          <CssBaseline />
+          <AppBar position="fixed" open={open}>
+            <Toolbar>
+              {
             token
             && (
               <IconButton
@@ -135,12 +143,12 @@ export default function CustomerPage() {
             )
           }
 
-          <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
-            { !token && <Typography sx={{ marginRight: theme.spacing(2) }}>Customers Page</Typography>}
-            { token && <KitchenSelector /> }
-          </Box>
+              <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
+                { !token && <Typography sx={{ marginRight: theme.spacing(2) }}>Customers Page</Typography>}
+                { token && <KitchenSelector /> }
+              </Box>
 
-          {
+              {
             token
             && (
               <Button
@@ -152,10 +160,10 @@ export default function CustomerPage() {
               </Button>
             )
           }
-        </Toolbar>
-      </AppBar>
+            </Toolbar>
+          </AppBar>
 
-      {
+          {
         token
         && (
         <Drawer variant="permanent" open={open}>
@@ -178,12 +186,14 @@ export default function CustomerPage() {
         )
       }
 
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-        <DrawerHeader />
+          <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+            <DrawerHeader />
 
-        <Outlet />
-      </Box>
-    </Box>
+            <Outlet />
+          </Box>
+        </Box>
+      </ThemeProvider>
+    </KitchenProvider>
   )
 }
 
@@ -220,3 +230,9 @@ function ItemList({ open, tabName, icon }) {
     </ListItem>
   )
 }
+
+function WrappedCustomersView(props) {
+  return isRTL ? (<RTL><CustomersView {...props} /></RTL>) : <CustomersView />
+}
+
+export default WrappedCustomersView
