@@ -2,7 +2,7 @@ import useSWR from 'swr'
 import fetcher from '../api/fetcher'
 
 export const useKitchens = () => {
-  const { data, error, ...rest } = useSWR('/api/v2/kitchens', fetcher)
+  const { data, error, ...rest } = useSWR('/api/kitchens', fetcher)
 
   return {
     kitchens: data,
