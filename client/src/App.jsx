@@ -20,6 +20,7 @@ import DishesManagerPage from './components/CustomersView/DishesManagerPage/Dish
 import LoginPage from './views/Login'
 import DinerView from './views/DinerView'
 import CustomerView from './views/CustomerView'
+import AdminView from './views/AdminView'
 
 import { defaultFilters } from './utils/filters'
 import { getToken, setAuthToken } from './utils/token'
@@ -136,6 +137,15 @@ function App() {
             }
           />
         </Route>
+
+        <Route
+          path="admin"
+          element={
+            <ProtectedRoute>
+              <AdminView />
+            </ProtectedRoute>
+          }
+        ></Route>
 
         <Route
           path="*"
