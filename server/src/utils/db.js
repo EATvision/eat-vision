@@ -17,7 +17,7 @@ const connectDb = async (uri) => {
   logger.info('MongoDB: connected')
 }
 
-const getDBId = (id) => ObjectId(id)
+const getDBId = (id) => (ObjectId.isValid(id) ? ObjectId(id) : ObjectId())
 
 const getCollectionOperations = (collectionName) => ({
   find: (filter, options) =>
@@ -46,7 +46,7 @@ const getCollectionOperations = (collectionName) => ({
     internals.client
       .db()
       .collection(collectionName)
-      .findOneAndUpdate(filter, replacement, {
+      .findOneAndReplace(filter, replacement, {
         returnDocument: 'after',
         ...options,
       }),

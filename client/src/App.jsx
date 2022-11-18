@@ -2,6 +2,8 @@ import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 
 import { ThemeProvider } from '@mui/material'
+import ProtectedRoute from './components/ProtectedRoute'
+import AdminView from './views/AdminView'
 
 import DinersRoutes from './routes/DinersRoutes'
 import CustomerRoutes from './routes/CustomerRoutes'
@@ -26,6 +28,15 @@ function App() {
 
         { DinersRoutes() }
         { CustomerRoutes() }
+
+        <Route
+          path="admin"
+          element={
+            <ProtectedRoute>
+              <AdminView />
+            </ProtectedRoute>
+          }
+        ></Route>
 
         <Route
           path="*"
