@@ -5,7 +5,7 @@ import { Button, MobileStepper } from '@mui/material'
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft'
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
 import useSteps from './useSteps'
-import { useKitchenById } from '../../../hooks/kitchens'
+import { useKitchenById } from 'hooks/kitchens'
 
 function FiltersStepper({ filters, setFilters, onNext, onBack }) {
   const { step } = useParams()

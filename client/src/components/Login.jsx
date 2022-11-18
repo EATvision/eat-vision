@@ -15,7 +15,7 @@ import { MuiTelInput } from 'mui-tel-input'
 import VerificationInput from 'react-verification-input'
 import React from 'react'
 import axios from 'axios'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 import { v4 as uuidv4 } from 'uuid'
 import { t } from 'i18next'
@@ -30,10 +30,9 @@ const LtrFormControl = styled(FormControl)`
   direction: ltr;
 `
 
-function Login({ filters }) {
+function Login({ onDone, filters }) {
   const theme = useTheme()
   const navigate = useNavigate()
-  const { kitchenId, menuId } = useParams()
   const [isPendingSendToNumber, setIsPendingSendToNumber] = React.useState(true)
   const [chosenChannel, setChosenChannel] = React.useState('sms')
   const [phoneNumberValue, setPhoneNumberValue] = React.useState('')
@@ -66,8 +65,7 @@ function Login({ filters }) {
           const { token, exp } = res.data
           updateToken(token, exp)
           await postDiner(filters || defaultFilters)
-
-          navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`)
+          onDone()
         }
       } else {
         setIsPendingSendToNumber(false)
@@ -79,8 +77,7 @@ function Login({ filters }) {
 
   const handleClickOptOutLogin = async () => {
     await postDiner(defaultFilters)
-
-    navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`)
+    onDone()
   }
 
   const handleSubmitCode = async () => {

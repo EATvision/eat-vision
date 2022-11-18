@@ -4,6 +4,7 @@ import { ThemeProvider } from '@mui/material'
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import MenuPage from './components/DinersView/MenuPage'
 import ProtectedRoute from './components/ProtectedRoute'
 import MenusPage from './components/DinersView/MenusPage'
@@ -31,6 +32,8 @@ import LoginPage from './views/Login'
 >>>>>>> 4b8b3bd (split routes to files - future proofing :))
 =======
 import LoginPage from 'components/Login'
+=======
+>>>>>>> 2c65beb (remove old login)
 import ProtectedRoute from 'components/ProtectedRoute'
 import AdminView from 'views/AdminView'
 
@@ -51,8 +54,6 @@ function App() {
     <ThemeProvider theme={getTheme()}>
       <Routes>
         <Route path="/" element={<Navigate replace to="/diners/kitchens" />} />
-
-        <Route path="/login" element={<LoginPage />} />
 
         {DinersRoutes()}
         {CustomerRoutes()}
