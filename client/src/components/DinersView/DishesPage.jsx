@@ -83,12 +83,12 @@ function DishesPage({ dishes, filters }) {
         </Paper>
       </div>
 
-      <div className="container relative overflow-auto mx-auto">
+      <Box sx={{ overflow: 'auto' }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
           .map((category) => (
             <div
-              className="container mx-auto flex flex-col justify-center items-start gap-2"
+              className="mx-auto flex flex-col justify-center items-start gap-2"
               key={category.id}
               id={category.id}
             >
@@ -122,7 +122,7 @@ function DishesPage({ dishes, filters }) {
               </Box>
             </div>
           ))}
-      </div>
+      </Box>
     </>
   )
 }

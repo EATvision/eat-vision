@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 
 const KitchenContext = React.createContext(null)
 
@@ -7,15 +7,15 @@ function KitchenProvider({ children }) {
     localStorage.getItem('kitchenId')
   )
 
-  const handleSetKitchenId = async (updatedValue) => {
+  const handleSetKitchenId = useCallback(async (updatedValue) => {
     setKitchenId(updatedValue)
     localStorage.setItem('kitchenId', updatedValue)
-  }
+  }, [])
 
-  const handleClearKitchenId = () => {
+  const handleClearKitchenId = useCallback(() => {
     setKitchenId(null)
     localStorage.removeItem('kitchenId')
-  }
+  }, [])
 
   const value = React.useMemo(
     () => ({
