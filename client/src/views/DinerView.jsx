@@ -34,19 +34,12 @@ function DinerView({ filters, dishes }) {
             justifyContent: 'center',
           }}
         >
-
           <Outlet />
         </Box>
 
-        {
-          dishes?.total?.length > 0
-          && (
-          <Footer
-            filters={filters}
-            dishes={dishes}
-          />
-          )
-        }
+        {dishes?.total?.length > 0 && (
+          <Footer filters={filters} dishes={dishes} />
+        )}
       </Box>
     </ThemeProvider>
   )
@@ -55,7 +48,13 @@ function DinerView({ filters, dishes }) {
 function WrappedDinerView(props) {
   const isRTL = useIsRTL()
 
-  return isRTL ? (<RTL><DinerView {...props} /></RTL>) : <DinerView {...props} />
+  return isRTL ? (
+    <RTL>
+      <DinerView {...props} />
+    </RTL>
+  ) : (
+    <DinerView {...props} />
+  )
 }
 
 export default WrappedDinerView

@@ -1,8 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import {
-  Box,
-} from '@mui/material'
+import { Box } from '@mui/material'
 
 import useSteps from './FiltersForm/useSteps'
 import FiltersStepper from './FiltersForm/FiltersStepper'
@@ -20,6 +18,8 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
         display: 'flex',
         flexDirection: 'column',
         flex: 1,
+        maxWidth: 500,
+        margin: 'auto',
       }}
     >
       <WaiterBanner
