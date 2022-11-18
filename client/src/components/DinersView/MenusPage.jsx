@@ -43,7 +43,7 @@ function MenusPage() {
   return (
     <>
       <Box sx={{ margin: theme.spacing(2) }}>
-        <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+        <div className="w-[150px] mx-auto aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
           <img
             className="w-full h-full object-center object-fit group-hover:opacity-75"
             src={kitchen?.image?.[0]?.url}
@@ -55,17 +55,19 @@ function MenusPage() {
 
       <Typography variant="h5">{t('menu_options')}</Typography>
 
-      {menus.map((menu) => (
-        <Button
-          key={menu.id}
-          fullWidth
-          sx={{ marginTop: theme.spacing(1) }}
-          variant="outlined"
-          onClick={handleClickMenu(menu.id)}
-        >
-          {menu.name}
-        </Button>
-      ))}
+      <Box sx={{ maxWidth: 500, margin: '0 auto', width: '100%' }}>
+        {menus.map((menu) => (
+          <Button
+            key={menu.id}
+            fullWidth
+            sx={{ marginTop: theme.spacing(1) }}
+            variant="outlined"
+            onClick={handleClickMenu(menu.id)}
+          >
+            {menu.name}
+          </Button>
+        ))}
+      </Box>
     </>
   )
 }
