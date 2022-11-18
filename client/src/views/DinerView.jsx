@@ -37,15 +37,9 @@ function DinerView({ filters, dishes }) {
           <Outlet />
         </Box>
 
-        {
-          dishes?.total?.length > 0
-          && (
-            <Footer
-              filters={filters}
-              dishes={dishes}
-            />
-          )
-        }
+        {dishes?.total?.length > 0 && (
+          <Footer filters={filters} dishes={dishes} />
+        )}
       </Box>
     </ThemeProvider>
   )

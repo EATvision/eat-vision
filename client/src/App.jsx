@@ -32,6 +32,15 @@ function App() {
         { AdminRoutes() }
 
         <Route
+          path="admin"
+          element={
+            <ProtectedRoute>
+              <AdminView />
+            </ProtectedRoute>
+          }
+        ></Route>
+
+        <Route
           path="*"
           element={
             <main style={{ padding: '1rem' }}>
