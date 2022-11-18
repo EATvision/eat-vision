@@ -135,8 +135,8 @@ function GreetingPage({ setFilters }) {
           bottom: 50,
           maxWidth: 500,
           margin: 'auto',
-          [isRTL ? 'left' : 'right']: '50%',
-          transform: 'translatex(-50%)',
+          [isRTL ? 'right' : 'left']: '50%',
+          translate: '-50%',
         }}
       >
         <Link className="group flex flex-col" to="filters/1">
