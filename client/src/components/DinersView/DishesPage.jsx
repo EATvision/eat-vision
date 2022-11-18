@@ -21,14 +21,17 @@ function DishesPage({ dishes, filters }) {
     menuId
   )
 
-  const defaultCategories =
-    categories?.reduce(
-      (result, c) => ({
-        ...result,
-        [c.id]: [],
-      }),
-      {}
-    ) || {}
+  const defaultCategories = React.useMemo(
+    () =>
+      categories?.reduce(
+        (result, c) => ({
+          ...result,
+          [c.id]: [],
+        }),
+        {}
+      ) || {},
+    [categories]
+  )
 
   const orderedCategories = [
     ...Object.values(categories || {}).sort((a, b) => a.position - b.position),
@@ -47,7 +50,7 @@ function DishesPage({ dishes, filters }) {
           }
         }, defaultCategories)
         : {},
-    [dishes, categories]
+    [categories, dishes.filtered, defaultCategories, showFilteredOutDishes]
   )
 
   const handleChangeCategory = (event, newValue) => {
