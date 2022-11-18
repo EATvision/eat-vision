@@ -37,9 +37,21 @@ function DinerView({ filters, dishes }) {
           <Outlet />
         </Box>
 
+<<<<<<< HEAD
         {dishes?.total?.length > 0 && (
           <Footer filters={filters} dishes={dishes} />
         )}
+=======
+        {
+          dishes?.total?.length > 0
+          && (
+            <Footer
+              filters={filters}
+              dishes={dishes}
+            />
+          )
+        }
+>>>>>>> 034a5bd (changed eslint indentation)
       </Box>
     </ThemeProvider>
   )

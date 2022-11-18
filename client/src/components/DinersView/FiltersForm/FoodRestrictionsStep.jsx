@@ -160,15 +160,15 @@ function RestrictionFilter({
         {
           ingredients?.length > 0
           && (
-          <Box sx={{ padding: theme.spacing(1) }}>
-            {ingredients?.map((c) => (
-              <Chip
-                key={c.id}
-                size="small"
-                label={getComponentLabel(c)}
-              />
-            ))}
-          </Box>
+            <Box sx={{ padding: theme.spacing(1) }}>
+              {ingredients?.map((c) => (
+                <Chip
+                  key={c.id}
+                  size="small"
+                  label={getComponentLabel(c)}
+                />
+              ))}
+            </Box>
           )
         }
       </ToggleButton>

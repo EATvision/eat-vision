@@ -21,5 +21,7 @@ module.exports = {
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
     'react/prop-types': 0,
+    indent: ['error', 2],
+    'no-tabs': 0,
   },
 }

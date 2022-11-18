@@ -44,6 +44,7 @@ function Footer({ dishes, showWaiterBtn }) {
     >
       <MenuSelector />
 
+<<<<<<< HEAD
       {showWaiterBtn && (
         <StyledFab
           sx={{ border: `1px solid ${theme.palette.primary.main}` }}
@@ -62,6 +63,25 @@ function Footer({ dishes, showWaiterBtn }) {
             </Typography> */}
         </StyledFab>
       )}
+=======
+      {
+        showWaiterBtn
+          && (
+            <StyledFab sx={{ border: `1px solid ${theme.palette.primary.main}` }} aria-label="add" variant="contained">
+              <Avatar
+                src={waiterSrc}
+                sx={{
+                  width: WAITER_AVATAR_WIDTH,
+                  height: WAITER_AVATAR_WIDTH,
+                }}
+              />
+              {/* <Typography>
+              Need Help?
+            </Typography> */}
+            </StyledFab>
+          )
+      }
+>>>>>>> 034a5bd (changed eslint indentation)
 
       <Box sx={{ flexGrow: 1 }} />
 

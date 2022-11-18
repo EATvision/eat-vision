@@ -103,28 +103,28 @@ function LoginPage() {
       >
 
         {
-        isPendingSendToNumber
-          ? (
-            <Box
-              sx={{
-                width: '80%',
-                maxWidth: 300,
-              }}
-            >
-              <FormControl
-                fullWidth
-                sx={{ maxWidth: 300, direction: 'ltr' }}
+          isPendingSendToNumber
+            ? (
+              <Box
+                sx={{
+                  width: '80%',
+                  maxWidth: 300,
+                }}
               >
-                <FormLabel>Enter phone number</FormLabel>
-                <MuiTelInput
-                  defaultCountry="IL"
-                  value={phoneNumberValue}
-                  onChange={setPhoneNumberValue}
-                />
-              </FormControl>
+                <FormControl
+                  fullWidth
+                  sx={{ maxWidth: 300, direction: 'ltr' }}
+                >
+                  <FormLabel>Enter phone number</FormLabel>
+                  <MuiTelInput
+                    defaultCountry="IL"
+                    value={phoneNumberValue}
+                    onChange={setPhoneNumberValue}
+                  />
+                </FormControl>
 
-              {
-                !NO_AUTH
+                {
+                  !NO_AUTH
                 && (
                   <ToggleButtonGroup
                     fullWidth
@@ -138,99 +138,99 @@ function LoginPage() {
                     <ToggleButton value="call">call</ToggleButton>
                   </ToggleButtonGroup>
                 )
-              }
+                }
 
-              <Button
-                fullWidth
-                disabled={phoneNumberValue.length < 6}
-                onClick={handleSubmitPhoneNumber}
-                variant="contained"
-                sx={{ marginTop: theme.spacing(1), maxWidth: 500 }}
-              >
-                {NO_AUTH ? t('next') : t('send')}
-              </Button>
-            </Box>
-          )
-          : (
-            <Box
-              sx={{
-                width: '80%',
-                maxWidth: 500,
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <Typography variant="h5">{phoneNumberValue}</Typography>
-
-              <FormControl fullWidth margin="normal" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <FormLabel>Verification Code</FormLabel>
-                <VerificationInput
-                  validChars="0-9"
-                  inputProps={{ type: 'tel' }}
-                  value={verificationCodeValue}
-                  onChange={setVerificationCodeValue}
-                  autoFocus
-                />
-              </FormControl>
-
-              <Button
-                fullWidth
-                disabled={verificationCodeValue.length < 6 || codeExpired}
-                variant="contained"
-                onClick={handleSubmitCode}
-                sx={{ marginTop: theme.spacing(1), maxWidth: 300 }}
-              >
-                {t('continue')}
-
-              </Button>
-
+                <Button
+                  fullWidth
+                  disabled={phoneNumberValue.length < 6}
+                  onClick={handleSubmitPhoneNumber}
+                  variant="contained"
+                  sx={{ marginTop: theme.spacing(1), maxWidth: 500 }}
+                >
+                  {NO_AUTH ? t('next') : t('send')}
+                </Button>
+              </Box>
+            )
+            : (
               <Box
                 sx={{
-                  marginTop: theme.spacing(2),
-                  height: 180,
+                  width: '80%',
+                  maxWidth: 500,
                   display: 'flex',
                   flexDirection: 'column',
-                  justifyContent: 'center',
+                  alignItems: 'center',
                 }}
               >
+                <Typography variant="h5">{phoneNumberValue}</Typography>
 
-                {
-                  codeExpired
-                    ? (
-                      <>
-                        <Typography>{'Haven\'t received the code?'}</Typography>
-                        <Typography color="primary" onClick={handleSubmitPhoneNumber}>send again</Typography>
-                        <br />
-                        <Typography>fix phone number? </Typography>
-                        <Typography color="primary" onClick={handleFixPhoneNumber}>fix number</Typography>
-                      </>
-                    )
-                    : (
-                      <CountdownCircleTimer
-                        key={verificationCodeTimerKey}
-                        isPlaying
-                        duration={30}
-                        colors={['#004777', '#F7B801', '#A30000', '#A30000']}
-                        colorsTime={[7, 5, 2, 0]}
-                        onComplete={handleOnCompleteCodeTimer}
-                      >
-                        {
-                          ({ remainingTime }) => (
-                            <div>
+                <FormControl fullWidth margin="normal" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                  <FormLabel>Verification Code</FormLabel>
+                  <VerificationInput
+                    validChars="0-9"
+                    inputProps={{ type: 'tel' }}
+                    value={verificationCodeValue}
+                    onChange={setVerificationCodeValue}
+                    autoFocus
+                  />
+                </FormControl>
+
+                <Button
+                  fullWidth
+                  disabled={verificationCodeValue.length < 6 || codeExpired}
+                  variant="contained"
+                  onClick={handleSubmitCode}
+                  sx={{ marginTop: theme.spacing(1), maxWidth: 300 }}
+                >
+                  {t('continue')}
+
+                </Button>
+
+                <Box
+                  sx={{
+                    marginTop: theme.spacing(2),
+                    height: 180,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                  }}
+                >
+
+                  {
+                    codeExpired
+                      ? (
+                        <>
+                          <Typography>{'Haven\'t received the code?'}</Typography>
+                          <Typography color="primary" onClick={handleSubmitPhoneNumber}>send again</Typography>
+                          <br />
+                          <Typography>fix phone number? </Typography>
+                          <Typography color="primary" onClick={handleFixPhoneNumber}>fix number</Typography>
+                        </>
+                      )
+                      : (
+                        <CountdownCircleTimer
+                          key={verificationCodeTimerKey}
+                          isPlaying
+                          duration={30}
+                          colors={['#004777', '#F7B801', '#A30000', '#A30000']}
+                          colorsTime={[7, 5, 2, 0]}
+                          onComplete={handleOnCompleteCodeTimer}
+                        >
+                          {
+                            ({ remainingTime }) => (
+                              <div>
                               Code expires in:
-                              <br />
-                              {remainingTime}
+                                <br />
+                                {remainingTime}
                               sec
-                            </div>
-                          )
-                        }
-                      </CountdownCircleTimer>
-                    )
+                              </div>
+                            )
+                          }
+                        </CountdownCircleTimer>
+                      )
                   }
+                </Box>
               </Box>
-            </Box>
-          )
+            )
         }
 
       </Box>
@@ -238,44 +238,44 @@ function LoginPage() {
       {
         verificationPhoneNumberError
         && (
-        <Alert
-          severity="error"
-          sx={{
-            position: 'absolute',
-            textAlign: 'start',
-            width: '80%',
-            maxWidth: 300,
-            bottom: theme.spacing(1),
-            left: '50%',
-            transform: 'translateX(-50%)',
-          }}
-        >
-          <AlertTitle>Error</AlertTitle>
+          <Alert
+            severity="error"
+            sx={{
+              position: 'absolute',
+              textAlign: 'start',
+              width: '80%',
+              maxWidth: 300,
+              bottom: theme.spacing(1),
+              left: '50%',
+              transform: 'translateX(-50%)',
+            }}
+          >
+            <AlertTitle>Error</AlertTitle>
           Phone number Error —
-          <strong>Try again!</strong>
-        </Alert>
+            <strong>Try again!</strong>
+          </Alert>
         )
       }
 
       {
         verificationCodeError
         && (
-        <Alert
-          severity="error"
-          sx={{
-            position: 'absolute',
-            textAlign: 'start',
-            width: '80%',
-            maxWidth: 300,
-            bottom: theme.spacing(1),
-            left: '50%',
-            transform: 'translateX(-50%)',
-          }}
-        >
-          <AlertTitle>Error</AlertTitle>
+          <Alert
+            severity="error"
+            sx={{
+              position: 'absolute',
+              textAlign: 'start',
+              width: '80%',
+              maxWidth: 300,
+              bottom: theme.spacing(1),
+              left: '50%',
+              transform: 'translateX(-50%)',
+            }}
+          >
+            <AlertTitle>Error</AlertTitle>
           Verification Code Error —
-          <strong>Try again!</strong>
-        </Alert>
+            <strong>Try again!</strong>
+          </Alert>
         )
       }
     </Box>
