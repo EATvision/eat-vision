@@ -5,6 +5,7 @@
       "src/*": ["./src/*"],
       "test/*": ["./test/*"],
       "testUtils/*": ["./test/utils/*"],
+      "data/*": ["./src/data/*"],
       "utils/*": ["./src/utils/*"],
       "routes/*": ["./src/routes/*"],
       "models/*": ["./src/models/*"],

@@ -9,6 +9,7 @@ const passportMiddleware = require('middlewares/passportMiddleware')
 
 const apiRoutes = require('routes/index')
 const verifyRoutes = require('routes/verify')
+const apiV2Routes = require('routes/v2/index')
 
 const logger = require('utils/logger')
 const { connectDb } = require('utils/db')
@@ -29,11 +30,11 @@ const createServer = () => {
   app.use(passportMiddleware())
 
   app.use('/api', apiRoutes)
-
+  app.use('/api/v2', apiV2Routes)
   app.use('/verify', verifyRoutes)
 
   app.use(express.static(path.resolve(__dirname, '../client/build')))
-  
+
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'))
   })
