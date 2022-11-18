@@ -1,8 +1,8 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
-
 import { ThemeProvider } from '@mui/material'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 import MenuPage from './components/DinersView/MenuPage'
 import ProtectedRoute from './components/ProtectedRoute'
@@ -29,6 +29,14 @@ import CustomerRoutes from './routes/CustomerRoutes'
 
 import LoginPage from './views/Login'
 >>>>>>> 4b8b3bd (split routes to files - future proofing :))
+=======
+import LoginPage from 'components/Login'
+import ProtectedRoute from 'components/ProtectedRoute'
+import AdminView from 'views/AdminView'
+
+import DinersRoutes from 'routes/DinersRoutes'
+import CustomerRoutes from 'routes/CustomerRoutes'
+>>>>>>> f375654 (add login step and /serve reoute)
 
 import { getToken, setAuthToken } from './utils/token'
 
@@ -46,8 +54,8 @@ function App() {
 
         <Route path="/login" element={<LoginPage />} />
 
-        { DinersRoutes() }
-        { CustomerRoutes() }
+        {DinersRoutes()}
+        {CustomerRoutes()}
 
         <Route
           path="admin"

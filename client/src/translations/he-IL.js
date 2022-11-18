@@ -80,5 +80,10 @@ export default {
   choice: 'לבחירה',
   expand: 'להרחיב',
   collapse: 'לכווץ',
-  logout: 'התנתק',
+  logout: 'התנתקות',
+  login: 'התחברות',
+  enter_phone_number: 'הזנת מספר טלפון',
+  login_plea: 'תרצו להזדהות?',
+  login_plea_subtext: 'כך נוכל לזהות אותך גם לפעם הבאה',
+  no_login: 'ללא התחברות'
 }

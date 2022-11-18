@@ -83,4 +83,9 @@ export default {
   expand: 'expand',
   collapse: 'collapse',
   logout: 'logout',
+  login: 'login',
+  enter_phone_number: 'Enter phone number',
+  login_plea: 'Would you please login?',
+  login_plea_subtext: 'This way we can recodnize you also for the next time',
+  no_login: 'without login'
 }
