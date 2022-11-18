@@ -49,7 +49,7 @@ function FiltersStepper({ filters, setFilters }) {
             <KeyboardArrowRight />
           )}
         </Button>
-        )}
+      )}
       backButton={(
         <Button
           size="small"
@@ -63,7 +63,7 @@ function FiltersStepper({ filters, setFilters }) {
           )}
           {t('back')}
         </Button>
-        )}
+      )}
     />
 
   )

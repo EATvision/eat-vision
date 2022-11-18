@@ -90,38 +90,38 @@ function DishFormSelect({ label, name, disableAdditionalPrices = false }) {
         !disableAdditionalPrices
         && localDishes.length > 0
         && (
-        <List
-          subheader={(
-            <ListSubheader component="div" id="nested-list-subheader">
+          <List
+            subheader={(
+              <ListSubheader component="div" id="nested-list-subheader">
               Additional Price
-            </ListSubheader>
-        )}
-        >
-          {
-          localDishes.map((d, index) => (
-            <ListItem key={d.id || d._id} sx={{ display: 'flex', alignItems: 'center' }}>
-              <ListItemText sx={{ flex: 1, margin: theme.spacing(2) }}>
-                {d.name}
-              </ListItemText>
-              <TextField
-                sx={{ width: 150 }}
-                id="additionalPrice"
-                name="additionalPrice"
-                type="number"
-                value={_get(values, `[${name}][${index}].price`)}
-                onChange={handleChangeDishAdditionalPrice(d.id)}
-                // inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }}
-                InputProps={{
-                  inputMode: 'numeric',
-                  pattern: '[0-9]*',
-                  startAdornment: <InputAdornment position="start">+</InputAdornment>,
-                  endAdornment: <InputAdornment position="end">{kitchen?.currency}</InputAdornment>,
-                }}
-              />
-            </ListItem>
-          ))
-        }
-        </List>
+              </ListSubheader>
+            )}
+          >
+            {
+              localDishes.map((d, index) => (
+                <ListItem key={d.id || d._id} sx={{ display: 'flex', alignItems: 'center' }}>
+                  <ListItemText sx={{ flex: 1, margin: theme.spacing(2) }}>
+                    {d.name}
+                  </ListItemText>
+                  <TextField
+                    sx={{ width: 150 }}
+                    id="additionalPrice"
+                    name="additionalPrice"
+                    type="number"
+                    value={_get(values, `[${name}][${index}].price`)}
+                    onChange={handleChangeDishAdditionalPrice(d.id)}
+                    // inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }}
+                    InputProps={{
+                      inputMode: 'numeric',
+                      pattern: '[0-9]*',
+                      startAdornment: <InputAdornment position="start">+</InputAdornment>,
+                      endAdornment: <InputAdornment position="end">{kitchen?.currency}</InputAdornment>,
+                    }}
+                  />
+                </ListItem>
+              ))
+            }
+          </List>
         )
       }
     </Box>

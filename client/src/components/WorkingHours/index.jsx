@@ -73,12 +73,12 @@ class WorkingHours extends React.Component {
           data === undefined
             ? false
             : _.any(
-                data,
-                (ts) =>
-                  (ts[0] <= f0 && ts[1] >= f1) ||
+              data,
+              (ts) =>
+                (ts[0] <= f0 && ts[1] >= f1) ||
                   (ts[0] > ts[1] &&
                     ((f0 >= ts[0] && f1 <= 24.0) || (f1 <= ts[1] && f0 >= 0)))
-              ),
+            ),
         // is this a full-hour or half-hour cell
         hour: !isHalf,
         // from time as string (hh:mm)

@@ -41,10 +41,10 @@ function DinerView({ filters, dishes }) {
         {
           dishes?.total?.length > 0
           && (
-          <Footer
-            filters={filters}
-            dishes={dishes}
-          />
+            <Footer
+              filters={filters}
+              dishes={dishes}
+            />
           )
         }
       </Box>
