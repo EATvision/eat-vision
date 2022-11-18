@@ -36,35 +36,35 @@ export default function DishRecipeChips({
       </FormLabel>
       <Box sx={{ textAlign: 'initial' }}>
         {
-            data.recipe[recipeType].map((component) => {
-              const componentsExcludableComponentsFilteredOut = component?.recipe?.excludable?.filter(
-                (c) => c.isFilteredOut,
-              )
-              return (
-                <Badge
-                  variant="dot"
-                  color="error"
-                  key={component.id}
-                  invisible={!componentsExcludableComponentsFilteredOut?.length}
-                  anchorOrigin={{
-                    vertical: 'top',
-                    horizontal: 'left',
+          data.recipe[recipeType].map((component) => {
+            const componentsExcludableComponentsFilteredOut = component?.recipe?.excludable?.filter(
+              (c) => c.isFilteredOut,
+            )
+            return (
+              <Badge
+                variant="dot"
+                color="error"
+                key={component.id}
+                invisible={!componentsExcludableComponentsFilteredOut?.length}
+                anchorOrigin={{
+                  vertical: 'top',
+                  horizontal: 'left',
+                }}
+              >
+                <Chip
+                  size="small"
+                  variant="outlined"
+                  disabled={(component.isMainComponentFilteredOut || component.isFilteredOut)}
+                  onClick={handleClickChip(component.id)}
+                  selected={selectedComponents.includes(component.id)}
+                  sx={{
+                    textDecoration: (component.isMainComponentFilteredOut || component.isFilteredOut) ? 'line-through' : 'none',
                   }}
-                >
-                  <Chip
-                    size="small"
-                    variant="outlined"
-                    disabled={(component.isMainComponentFilteredOut || component.isFilteredOut)}
-                    onClick={handleClickChip(component.id)}
-                    selected={selectedComponents.includes(component.id)}
-                    sx={{
-                      textDecoration: (component.isMainComponentFilteredOut || component.isFilteredOut) ? 'line-through' : 'none',
-                    }}
-                    label={`${getComponentLabel(component)} ${component.price > 0 ? `(+${component.price}${kitchen?.currency})` : ''}`}
-                  />
-                </Badge>
-              )
-            })
+                  label={`${getComponentLabel(component)} ${component.price > 0 ? `(+${component.price}${kitchen?.currency})` : ''}`}
+                />
+              </Badge>
+            )
+          })
         }
       </Box>
     </Stack>

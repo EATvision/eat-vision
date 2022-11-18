@@ -44,24 +44,27 @@ function Footer({ dishes, showWaiterBtn }) {
     >
       <MenuSelector />
 
-      {showWaiterBtn && (
-        <StyledFab
-          sx={{ border: `1px solid ${theme.palette.primary.main}` }}
-          aria-label="add"
-          variant="contained"
-        >
-          <Avatar
-            src={waiterSrc}
-            sx={{
-              width: WAITER_AVATAR_WIDTH,
-              height: WAITER_AVATAR_WIDTH,
-            }}
-          />
-          {/* <Typography>
+      {
+        showWaiterBtn
+          && (
+            <StyledFab 
+              sx={{ border: `1px solid ${theme.palette.primary.main}` }}
+              aria-label="add"
+              variant="contained"
+            >
+              <Avatar
+                src={waiterSrc}
+                sx={{
+                  width: WAITER_AVATAR_WIDTH,
+                  height: WAITER_AVATAR_WIDTH,
+                }}
+              />
+              {/* <Typography>
               Need Help?
             </Typography> */}
-        </StyledFab>
-      )}
+            </StyledFab>
+          )
+      }
 
       <Box sx={{ flexGrow: 1 }} />
 

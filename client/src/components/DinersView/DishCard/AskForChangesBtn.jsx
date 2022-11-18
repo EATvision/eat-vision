@@ -49,7 +49,7 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
       >
 
         {
-            dishExcludableComponentsFilteredOut?.length > 0
+          dishExcludableComponentsFilteredOut?.length > 0
             && (
               <Paper
                 elevation={0}
@@ -78,14 +78,14 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
                           {`${t('ask_without_the')} ${component.name}`}
                         </ListItem>
                       ))
-                      }
+                    }
                   </List>
                 </Box>
 
                 <img alt="waiter" src={waiterSrc} width={100} />
               </Paper>
             )
-          }
+        }
       </Popover>
     </div>
   )
