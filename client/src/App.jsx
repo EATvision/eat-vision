@@ -1,7 +1,9 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
+
 import { ThemeProvider } from '@mui/material'
 
+<<<<<<< HEAD
 import MenuPage from './components/DinersView/MenuPage'
 import ProtectedRoute from './components/ProtectedRoute'
 import MenusPage from './components/DinersView/MenusPage'
@@ -21,17 +23,19 @@ import LoginPage from './views/Login'
 import DinerView from './views/DinerView'
 import CustomerView from './views/CustomerView'
 import AdminView from './views/AdminView'
+=======
+import DinersRoutes from './routes/DinersRoutes'
+import CustomerRoutes from './routes/CustomerRoutes'
 
-import { defaultFilters } from './utils/filters'
+import LoginPage from './views/Login'
+>>>>>>> 4b8b3bd (split routes to files - future proofing :))
+
 import { getToken, setAuthToken } from './utils/token'
 
 import './App.css'
 import getTheme from './theme'
 
 function App() {
-  const [filters, setFilters] = React.useState(defaultFilters)
-  const [dishes, setDishes] = React.useState({ total: [], filtered: [] })
-
   const token = getToken()
   setAuthToken(token)
 
@@ -42,101 +46,8 @@ function App() {
 
         <Route path="/login" element={<LoginPage />} />
 
-        <Route
-          path="/diners"
-          element={<DinerView filters={filters} dishes={dishes} />}
-        >
-          <Route index path="kitchens" element={<KitchensPage />} />
-          <Route path="kitchens/:kitchenId" element={<KitchenPage />}>
-            <Route path="menus" element={<MenusPage />} />
-            <Route
-              path="menus/:menuId"
-              element={<MenuPage filters={filters} setDishes={setDishes} />}
-            >
-              <Route index element={<GreetingPage setFilters={setFilters} />} />
-              <Route
-                path="filters/:step"
-                element={
-                  <FiltersWizardPage
-                    dishes={dishes}
-                    filters={filters}
-                    setFilters={setFilters}
-                  />
-                }
-              />
-              <Route
-                path="dishes"
-                element={
-                  <DishesPage
-                    filters={filters}
-                    dishes={dishes}
-                    setDishes={setDishes}
-                  />
-                }
-              />
-            </Route>
-          </Route>
-
-          <Route
-            path="filters"
-            element={<Navigate replace to="/diners/filters/1" />}
-          />
-          <Route
-            path="filters/:step"
-            element={
-              <FiltersWizardPage
-                dishes={dishes}
-                filters={filters}
-                setFilters={setFilters}
-              />
-            }
-          />
-        </Route>
-
-        <Route path="customers" element={<CustomerView />}>
-          <Route index element={<Navigate replace to="/customers/login" />} />
-          <Route path="login" element={<CustomerLoginPage />} />
-          <Route
-            path="overview"
-            element={
-              <ProtectedRoute>
-                <OverviewPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="generalInfo"
-            element={
-              <ProtectedRoute>
-                <GeneralInfoPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="dishes"
-            element={
-              <ProtectedRoute>
-                <DishesManagerPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="dishes/:dishId"
-            element={
-              <ProtectedRoute>
-                <DishPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="menus"
-            element={
-              <ProtectedRoute>
-                <MenusManagerPage />
-              </ProtectedRoute>
-            }
-          />
-        </Route>
+        { DinersRoutes() }
+        { CustomerRoutes() }
 
         <Route
           path="admin"
