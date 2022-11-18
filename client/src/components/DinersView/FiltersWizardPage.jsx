@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { Box } from '@mui/material'
 
 import useSteps from './FiltersForm/useSteps'
@@ -8,7 +8,21 @@ import WaiterBanner from './WaiterBanner'
 
 function FiltersWizardPage({ filters, setFilters, dishes }) {
   const { step } = useParams()
+  const navigate = useNavigate()
   const steps = useSteps(filters, setFilters)
+  const maxSteps = steps.length
+
+  const handleNext = () => {
+    const nextStep = Number(step) + 1
+    if (nextStep === maxSteps) return navigate('../service')
+    return navigate(`../filters/${nextStep}`)
+  }
+
+  const handleBack = () => {
+    const prevStep = Number(step) - 1
+    if (prevStep === 0) return navigate('../')
+    return navigate(`../filters/${prevStep}`)
+  }
 
   return (
     <Box
@@ -35,10 +49,18 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
           overflow: 'auto',
         }}
       >
-        {steps[Number(step)].stepContent}
+        {steps[Number(step)].stepContent({
+          onNext: handleNext,
+          onBack: handleBack,
+        })}
       </Box>
 
-      <FiltersStepper filters={filters} dishes={dishes} />
+      <FiltersStepper
+        filters={filters}
+        dishes={dishes}
+        onNext={handleNext}
+        onBack={handleBack}
+      />
     </Box>
   )
 }

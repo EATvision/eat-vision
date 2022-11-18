@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import { Route, Navigate } from 'react-router-dom'
 
-import MenuPage from '../components/DinersView/MenuPage'
-import MenusPage from '../components/DinersView/MenusPage'
-import DishesPage from '../components/DinersView/DishesPage'
-import KitchenPage from '../components/DinersView/KitchenPage'
-import KitchensPage from '../components/DinersView/KitchensPage'
-import GreetingPage from '../components/DinersView/GreetingPage'
-import FiltersWizardPage from '../components/DinersView/FiltersWizardPage'
+import MenuPage from 'components/DinersView/MenuPage'
+import MenusPage from 'components/DinersView/MenusPage'
+import DishesPage from 'components/DinersView/DishesPage'
+import KitchenPage from 'components/DinersView/KitchenPage'
+import KitchensPage from 'components/DinersView/KitchensPage'
+import GreetingPage from 'components/DinersView/GreetingPage'
+import FiltersWizardPage from 'components/DinersView/FiltersWizardPage'
+import ServiceWizardPage from 'components/DinersView/ServiceWizardPage'
 
 import DinerView from '../views/DinerView'
 
@@ -16,7 +17,7 @@ import { defaultFilters } from '../utils/filters'
 const DinersRoutes = () => {
   const [filters, setFilters] = useState(defaultFilters)
   const [dishes, setDishes] = useState({ total: [], filtered: [] })
-  
+
   return (
     <Route
       path="/diners"
@@ -40,6 +41,12 @@ const DinersRoutes = () => {
               />
             }
           />
+
+          <Route
+            path="service"
+            element={<ServiceWizardPage filters={filters} />}
+          />
+
           <Route
             path="dishes"
             element={

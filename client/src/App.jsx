@@ -1,14 +1,13 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
-
 import { ThemeProvider } from '@mui/material'
-import ProtectedRoute from './components/ProtectedRoute'
-import AdminView from './views/AdminView'
 
-import DinersRoutes from './routes/DinersRoutes'
-import CustomerRoutes from './routes/CustomerRoutes'
+import LoginPage from 'components/Login'
+import ProtectedRoute from 'components/ProtectedRoute'
+import AdminView from 'views/AdminView'
 
-import LoginPage from './views/Login'
+import DinersRoutes from 'routes/DinersRoutes'
+import CustomerRoutes from 'routes/CustomerRoutes'
 
 import { getToken, setAuthToken } from './utils/token'
 
@@ -26,8 +25,8 @@ function App() {
 
         <Route path="/login" element={<LoginPage />} />
 
-        { DinersRoutes() }
-        { CustomerRoutes() }
+        {DinersRoutes()}
+        {CustomerRoutes()}
 
         <Route
           path="admin"
