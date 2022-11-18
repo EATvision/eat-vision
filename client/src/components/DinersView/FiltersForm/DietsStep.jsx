@@ -55,22 +55,22 @@ function DietsSelector({ filters, setFilters }) {
         orientation="vertical"
       >
         {
-            diets.map((diet) => (
-              <ToggleButton
-                size="small"
-                fullWidth
-                key={diet.id}
-                value={diet.id}
-                sx={{ justifyContent: 'flex-start', padding: theme.spacing(0) }}
-              >
-                <Checkbox
-                  sx={{ pointerEvents: 'none' }}
-                  checked={filters.diets.includes(diet.id)}
-                />
-                {t(diet.name.toLocaleLowerCase())}
-              </ToggleButton>
-            ))
-            }
+          diets.map((diet) => (
+            <ToggleButton
+              size="small"
+              fullWidth
+              key={diet.id}
+              value={diet.id}
+              sx={{ justifyContent: 'flex-start', padding: theme.spacing(0) }}
+            >
+              <Checkbox
+                sx={{ pointerEvents: 'none' }}
+                checked={filters.diets.includes(diet.id)}
+              />
+              {t(diet.name.toLocaleLowerCase())}
+            </ToggleButton>
+          ))
+        }
 
       </ToggleButtonGroup>
     </Box>

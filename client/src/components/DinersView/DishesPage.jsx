@@ -39,13 +39,13 @@ function DishesPage({ dishes, filters }) {
     () =>
       categories
         ? dishes.filtered.reduce((result, d) => {
-            if (!showFilteredOutDishes && d.isMainDishFilteredOut) return result
-            const categoryId = d?.categories?.[0] || 'no_category'
-            return {
-              ...result,
-              [categoryId]: [...(result[categoryId] || []), d],
-            }
-          }, defaultCategories)
+          if (!showFilteredOutDishes && d.isMainDishFilteredOut) return result
+          const categoryId = d?.categories?.[0] || 'no_category'
+          return {
+            ...result,
+            [categoryId]: [...(result[categoryId] || []), d],
+          }
+        }, defaultCategories)
         : {},
     [dishes, categories]
   )
