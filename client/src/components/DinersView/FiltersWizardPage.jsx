@@ -18,6 +18,7 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
         display: 'flex',
         flexDirection: 'column',
         flex: 1,
+        width: '100%',
         maxWidth: 500,
         margin: 'auto',
       }}

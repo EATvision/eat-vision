@@ -1,22 +1,20 @@
 import React from 'react'
-import {
-  Link, useParams, useNavigate,
-} from 'react-router-dom'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import {
-  Button, Box, Typography, useTheme,
-} from '@mui/material'
+import { Button, Box, Typography, useTheme } from '@mui/material'
 import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 
 import { defaultFilters } from '../../utils/filters'
 import { postDiner } from '../../api/diners'
 import { useKitchenById } from '../../hooks/kitchens'
+import useIsRTL from '../../hooks/useRTL'
 
 function GreetingPage({ setFilters }) {
   const navigate = useNavigate()
   const theme = useTheme()
   const { t } = useTranslation()
   const { kitchenId } = useParams()
+  const isRTL = useIsRTL()
 
   const { kitchen } = useKitchenById(kitchenId)
 
@@ -28,7 +26,13 @@ function GreetingPage({ setFilters }) {
   const handleClickSignin = () => navigate('/login')
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100%',
+      }}
+    >
       <Box>
         <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
           <img
@@ -50,12 +54,11 @@ function GreetingPage({ setFilters }) {
           marginTop: 0,
         }}
       >
-
         <Box
           sx={{
             height: 300,
             position: 'absolute',
-            left: '50%',
+            [isRTL ? 'right' : 'left']: '50%',
             translate: '-50%',
           }}
         >
@@ -72,14 +75,20 @@ function GreetingPage({ setFilters }) {
             padding: theme.spacing(2),
           }}
         >
-          <Typography variant="h6" sx={{ fontSize: 18, color: '#494949', fontWeigth: '500' }}>
+          <Typography
+            variant="h6"
+            sx={{ fontSize: 18, color: '#494949', fontWeigth: '500' }}
+          >
             {t('hi_im_your_personal_waiter')}
           </Typography>
 
           <Typography
             variant="h6"
             sx={{
-              fontSize: 20, fontWeight: 'bold', lineHeight: 1.2, marginTop: theme.spacing(1),
+              fontSize: 20,
+              fontWeight: 'bold',
+              lineHeight: 1.2,
+              marginTop: theme.spacing(1),
             }}
           >
             {t('lets_see_only_things')}
@@ -102,25 +111,37 @@ function GreetingPage({ setFilters }) {
               to="dishes"
               onClick={handleClickSkipToFullMenu}
             >
-              <Typography variant="body2" sx={{ margin: `0 ${theme.spacing(1)}`, textDecoration: 'underline' }}>{t('tofull_menu')}</Typography>
+              <Typography
+                variant="body2"
+                sx={{
+                  margin: `0 ${theme.spacing(1)}`,
+                  textDecoration: 'underline',
+                }}
+              >
+                {t('tofull_menu')}
+              </Typography>
             </Link>
           </Typography>
         </Box>
       </Box>
 
-      <Box sx={{
-        padding: `0 ${theme.spacing(2)}`,
-        paddingBottom: theme.spacing(1),
-        position: 'fixed',
-        width: '100%',
-        bottom: 50,
-      }}
+      <Box
+        sx={{
+          padding: `0 ${theme.spacing(2)}`,
+          paddingBottom: theme.spacing(1),
+          position: 'fixed',
+          width: '100vw',
+          bottom: 50,
+          maxWidth: 500,
+          margin: 'auto',
+          [isRTL ? 'left' : 'right']: '50%',
+          transform: 'translatex(-50%)',
+        }}
       >
-        <Link
-          className="group flex flex-col"
-          to="filters/1"
-        >
-          <Button variant="contained" color="primary">{t('lets_get_started')}</Button>
+        <Link className="group flex flex-col" to="filters/1">
+          <Button variant="contained" color="primary">
+            {t('lets_get_started')}
+          </Button>
         </Link>
 
         <Typography
@@ -133,7 +154,9 @@ function GreetingPage({ setFilters }) {
           }}
         >
           {`${t('already_signed_in')}?`}
-          <Button variant="text" onClick={handleClickSignin}>{t('sign_in')}</Button>
+          <Button variant="text" onClick={handleClickSignin}>
+            {t('sign_in')}
+          </Button>
         </Typography>
       </Box>
     </Box>
