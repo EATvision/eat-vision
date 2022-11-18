@@ -16,10 +16,7 @@ import {
 } from '@mui/material'
 
 import IngredientsSelector from './IngredientsSelector'
-import {
-  useGetComponentLabel,
-  useIngredientsByIds,
-} from '../../../hooks/ingredients'
+import { useGetComponentLabel, useIngredientsByIds } from 'hooks/ingredients'
 
 function FoodRestrictionsStep({ filters, setFilters, onNext }) {
   const theme = useTheme()

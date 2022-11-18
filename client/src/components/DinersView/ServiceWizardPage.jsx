@@ -4,13 +4,21 @@ import { Box } from '@mui/material'
 import WaiterBanner from './WaiterBanner'
 import Login from 'components/Login'
 import { t } from 'i18next'
+import { useNavigate, useParams } from 'react-router-dom'
 
 function ServiceWizardPage({ filters }) {
+  const navigate = useNavigate()
+  const { kitchenId, menuId } = useParams()
+
+  const handleDoneLogin = () => {
+    navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`)
+  }
+
   const SERVICE_OPTIONS = {
     login: {
       waiterTitle: t('login_plea'),
       waiterSubTitle: t('login_plea_subtext'),
-      component: <Login filters={filters} />,
+      component: <Login filters={filters} onDone={handleDoneLogin} />,
     },
   }
 

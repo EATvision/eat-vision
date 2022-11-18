@@ -2,7 +2,6 @@ import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { ThemeProvider } from '@mui/material'
 
-import LoginPage from 'components/Login'
 import ProtectedRoute from 'components/ProtectedRoute'
 import AdminView from 'views/AdminView'
 
@@ -22,8 +21,6 @@ function App() {
     <ThemeProvider theme={getTheme()}>
       <Routes>
         <Route path="/" element={<Navigate replace to="/diners/kitchens" />} />
-
-        <Route path="/login" element={<LoginPage />} />
 
         {DinersRoutes()}
         {CustomerRoutes()}

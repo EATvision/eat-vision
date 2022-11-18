@@ -1,5 +1,5 @@
 export default {
-  already_signed_in: 'כבר נרשמתי',
+  already_signed_in: 'כבר נרשמת',
   sign_in: 'כניסה',
   // 'Welcome to React': 'שלום',
   hi_im_your_personal_waiter: 'שלום, אני שחר אני כאן כדי לעזור',
