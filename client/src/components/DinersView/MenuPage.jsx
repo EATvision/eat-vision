@@ -8,16 +8,20 @@ function MenuPage({ filters, setDishes }) {
   React.useEffect(() => {
     const getRelevantDishes = async () => {
       const {
-        data: { totalDishes: updatedTotalDishes, filteredDishes: updatedFilteredDishes },
-      } = await axios.post(`/api/kitchens/${kitchenId}/menus/${menuId}/dishes/search`, filters)
+        data: {
+          totalDishes: updatedTotalDishes,
+          filteredDishes: updatedFilteredDishes,
+        },
+      } = await axios.post(
+        `/api/kitchens/${kitchenId}/menus/${menuId}/dishes/search`,
+        filters
+      )
       setDishes({ total: updatedTotalDishes, filtered: updatedFilteredDishes })
     }
     getRelevantDishes()
-  }, [filters])
+  }, [filters, kitchenId, menuId, setDishes])
 
-  return (
-    <Outlet />
-  )
+  return <Outlet />
 }
 
 export default MenuPage
