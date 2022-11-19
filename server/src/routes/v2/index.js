@@ -7,6 +7,7 @@ const kitchensRoutes = require('./kitchens')
 const locationsRoutes = require('./locations')
 const categoriesRoutes = require('./categories')
 const ingredientsRoutes = require('./ingredients')
+const adminRoutes = require('./admin')
 
 const router = express.Router()
 
@@ -17,5 +18,6 @@ router.use('/kitchens', kitchensRoutes)
 router.use('/locations', locationsRoutes)
 router.use('/categories', categoriesRoutes)
 router.use('/ingredients', ingredientsRoutes)
+router.use('/admin', adminRoutes)
 
 module.exports = router
