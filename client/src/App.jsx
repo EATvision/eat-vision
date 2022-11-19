@@ -41,15 +41,10 @@ import DinersRoutes from 'routes/DinersRoutes'
 import CustomerRoutes from 'routes/CustomerRoutes'
 >>>>>>> f375654 (add login step and /serve reoute)
 
-import { getToken, setAuthToken } from './utils/token'
-
 import './App.css'
 import getTheme from './theme'
 
 function App() {
-  const token = getToken()
-  setAuthToken(token)
-
   return (
     <ThemeProvider theme={getTheme()}>
       <Routes>

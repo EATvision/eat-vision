@@ -4,13 +4,17 @@ import { Box } from '@mui/material'
 import WaiterBanner from './WaiterBanner'
 import Login from 'components/Login'
 import { t } from 'i18next'
-import { useNavigate, useParams } from 'react-router-dom'
+import { Navigate, useNavigate, useParams } from 'react-router-dom'
+import { useDinerUser } from 'contexts/diner'
+import { defaultFilters } from 'utils/filters'
+import OptOutLoginOption from './OptOutLoginOption'
 
 function ServiceWizardPage({ filters }) {
   const navigate = useNavigate()
   const { kitchenId, menuId } = useParams()
-
-  const handleDoneLogin = () => {
+  const dinerUser = useDinerUser()
+  const handleDoneLogin = async () => {
+    await dinerUser.signup({ filters: filters || defaultFilters })
     navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`)
   }
 
@@ -18,7 +22,14 @@ function ServiceWizardPage({ filters }) {
     login: {
       waiterTitle: t('login_plea'),
       waiterSubTitle: t('login_plea_subtext'),
-      component: <Login filters={filters} onDone={handleDoneLogin} />,
+      component: dinerUser.user ? (
+        <Navigate to={`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`} />
+      ) : (
+        <Login
+          onDone={handleDoneLogin}
+          optOutLoginOption={<OptOutLoginOption onDone={handleDoneLogin} />}
+        />
+      ),
     },
   }
 

@@ -15,13 +15,11 @@ import { MuiTelInput } from 'mui-tel-input'
 import VerificationInput from 'react-verification-input'
 import React from 'react'
 import axios from 'axios'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 import { v4 as uuidv4 } from 'uuid'
 import { t } from 'i18next'
-import { postDiner } from 'api/diners'
-import { updateToken } from 'utils/token'
-import { defaultFilters } from 'utils/filters'
+import { useDinerUser } from 'contexts/diner'
 
 const NO_AUTH = true
 
@@ -30,9 +28,10 @@ const LtrFormControl = styled(FormControl)`
   direction: ltr;
 `
 
-function Login({ onDone, filters }) {
+function Login({ onDone, optOutLoginOption }) {
   const theme = useTheme()
   const navigate = useNavigate()
+  const dinerUser = useDinerUser()
   const [isPendingSendToNumber, setIsPendingSendToNumber] = React.useState(true)
   const [chosenChannel, setChosenChannel] = React.useState('sms')
   const [phoneNumberValue, setPhoneNumberValue] = React.useState('')
@@ -63,9 +62,8 @@ function Login({ onDone, filters }) {
       if (NO_AUTH) {
         if (res.status === 200) {
           const { token, exp } = res.data
-          updateToken(token, exp)
-          await postDiner(filters || defaultFilters)
-          onDone()
+          await dinerUser.updateToken(token, exp)
+          await onDone()
         }
       } else {
         setIsPendingSendToNumber(false)
@@ -73,11 +71,6 @@ function Login({ onDone, filters }) {
     } catch (error) {
       setVerificationPhoneNumberError(error)
     }
-  }
-
-  const handleClickOptOutLogin = async () => {
-    await postDiner(defaultFilters)
-    onDone()
   }
 
   const handleSubmitCode = async () => {
@@ -89,7 +82,8 @@ function Login({ onDone, filters }) {
       })
       if (res.status === 200) {
         const { token, exp } = res.data
-        updateToken(token, exp)
+        await dinerUser.updateToken(token, exp)
+        await onDone()
         navigate(-1)
       }
     } catch (error) {
@@ -167,32 +161,7 @@ function Login({ onDone, filters }) {
               {NO_AUTH ? t('next') : t('send')}
             </Button>
 
-            <Typography
-              variant="body2"
-              sx={{
-                display: 'flex',
-                justifyContent: 'center',
-                opacity: 0.8,
-                marginTop: theme.spacing(2),
-              }}
-            >
-              {t('or_skip_to_the')}
-              <Link
-                className="group flex flex-col"
-                to="dishes"
-                onClick={handleClickOptOutLogin}
-              >
-                <Typography
-                  variant="body2"
-                  sx={{
-                    margin: `0 ${theme.spacing(1)}`,
-                    textDecoration: 'underline',
-                  }}
-                >
-                  {t('no_login')}
-                </Typography>
-              </Link>
-            </Typography>
+            {optOutLoginOption}
           </Box>
         ) : (
           <Box

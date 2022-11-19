@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Route, Navigate } from 'react-router-dom'
 
+import Settings from 'components/DinersView/Settings'
 import MenuPage from 'components/DinersView/MenuPage'
 import MenusPage from 'components/DinersView/MenusPage'
 import DishesPage from 'components/DinersView/DishesPage'
@@ -64,6 +65,7 @@ const DinersRoutes = () => {
         path="filters"
         element={<Navigate replace to="/diners/filters/1" />}
       />
+
       <Route
         path="filters/:step"
         element={
@@ -74,6 +76,8 @@ const DinersRoutes = () => {
           />
         }
       />
+
+      <Route path="settings" element={<Settings />} />
     </Route>
   )
 }
