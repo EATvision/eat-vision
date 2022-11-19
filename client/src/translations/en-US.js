@@ -87,5 +87,13 @@ export default {
   enter_phone_number: 'Enter phone number',
   login_plea: 'Would you please login?',
   login_plea_subtext: 'This way we can recodnize you also for the next time',
-  no_login: 'without login'
+  no_login: 'without login',
+  tabs: {
+    adminTabs: {
+      foodGroups: 'food groups',
+      customers: 'customers',
+      ingredients: 'ingredients',
+      diets: 'diets',
+    },
+  },
 }

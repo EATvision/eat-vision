@@ -9,11 +9,12 @@ import MenusManagerPage from 'components/CustomersView/MenusManagerPage/MenusMan
 import DishesManagerPage from 'components/CustomersView/DishesManagerPage/DishesManagerPage'
 
 import CustomersView from 'views/CustomerView'
+import LoginView from 'views/LoginView'
 
 const CustomerRoutes = () => (
   <Route path="customers" element={<CustomersView />}>
     <Route index element={<Navigate replace to="/customers/login" />} />
-    <Route path="login" element={<CustomerLoginPage />} />
+    <Route path="login" element={<LoginView />} />
     <Route
       path="overview"
       element={

@@ -1,32 +1,35 @@
-import { ThemeProvider, Typography } from '@mui/material'
 import React from 'react'
-import { Outlet } from 'react-router-dom'
 
-import getTheme from '../theme'
-import RTL from '../components/RTL'
-import useIsRTL from '../hooks/useRTL'
+import { BsBasket as IngredientsIcon } from 'react-icons/bs'
+import PersonIcon from '@mui/icons-material/Person'
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark'
+import ViewWrapper from 'views/ViewWrapper'
 
-function AdminView() {
-  const isRTL = useIsRTL()
+import { t } from 'i18next'
 
-  return (
-    <ThemeProvider theme={getTheme(isRTL)}>
-      <Typography variant="h1">ADMIN</Typography>
-      <Outlet />
-    </ThemeProvider>
-  )
-}
+const drawerTabs = [
+  {
+    name: t('tabs.adminTabs.customers'),
+    route: '/admin/customers',
+    icon: <PersonIcon />,
+  },
+  {
+    name: t('tabs.adminTabs.ingredients'),
+    route: '/admin/ingredients',
+    icon: <IngredientsIcon />,
+  },
+  {
+    name: t('tabs.adminTabs.foodGroups'),
+    route: '/admin/foodGroups',
+    icon: <QuestionMarkIcon />,
+  },
+  {
+    name: t('tabs.adminTabs.diets'),
+    route: '/admin/diets',
+    icon: <QuestionMarkIcon />,
+  },
+]
 
-function WrappedAdminView(props) {
-  const isRTL = useIsRTL()
+const AdminView = () => <ViewWrapper drawerTabs={drawerTabs} />
 
-  return isRTL ? (
-    <RTL>
-      <AdminView {...props} />
-    </RTL>
-  ) : (
-    <AdminView {...props} />
-  )
-}
-
-export default WrappedAdminView
+export default AdminView
