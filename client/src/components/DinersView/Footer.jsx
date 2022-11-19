@@ -18,6 +18,13 @@ const StyledFab = styled(Fab)({
   borderRadius: 100,
 })
 
+const LtrBox = styled(Box)`
+  /* @noflip */
+  direction: ltr;
+  display: flex;
+  align-items: end;
+`
+
 function Footer({ dishes, showWaiterBtn }) {
   const theme = useTheme()
   return (
@@ -79,12 +86,12 @@ function OptionsContainer({ dishes }) {
         flex: 1,
       }}
     >
-      <Box sx={{ display: 'flex', alignItems: 'end', direction: 'ltr' }}>
+      <LtrBox>
         <Typography sx={{ fontSize: '1.2rem' }}>
           {filteredDishes.length}/
         </Typography>
         <Typography>{dishes.total.length}</Typography>
-      </Box>
+      </LtrBox>
 
       <Typography sx={{ margin: `0 ${theme.spacing(1)}`, fontSize: '1.2rem' }}>
         {t('options').toLocaleUpperCase()}

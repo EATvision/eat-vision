@@ -1,12 +1,17 @@
 import React from 'react'
 import {
-  Divider, ToggleButton, ToggleButtonGroup, useTheme, Box, Checkbox,
+  Divider,
+  ToggleButton,
+  ToggleButtonGroup,
+  useTheme,
+  Box,
+  Checkbox,
 } from '@mui/material'
 
 import { useTranslation } from 'react-i18next'
 import { useDiets } from '../../../hooks/diets'
 
-function DietsSelector({ filters, setFilters }) {
+function DietsSelector({ filters, setFilters, onNext }) {
   const theme = useTheme()
   const { t } = useTranslation()
 
@@ -18,6 +23,7 @@ function DietsSelector({ filters, setFilters }) {
 
   const handleClickNoDiets = () => {
     setFilters((currFilters) => ({ ...currFilters, diets: [] }))
+    onNext()
   }
 
   if (isLoading) return <div>LOADING</div>
@@ -54,24 +60,21 @@ function DietsSelector({ filters, setFilters }) {
         aria-label="diets"
         orientation="vertical"
       >
-        {
-          diets.map((diet) => (
-            <ToggleButton
-              size="small"
-              fullWidth
-              key={diet.id}
-              value={diet.id}
-              sx={{ justifyContent: 'flex-start', padding: theme.spacing(0) }}
-            >
-              <Checkbox
-                sx={{ pointerEvents: 'none' }}
-                checked={filters.diets.includes(diet.id)}
-              />
-              {t(diet.name.toLocaleLowerCase())}
-            </ToggleButton>
-          ))
-        }
-
+        {diets.map((diet) => (
+          <ToggleButton
+            size="small"
+            fullWidth
+            key={diet.id}
+            value={diet.id}
+            sx={{ justifyContent: 'flex-start', padding: theme.spacing(0) }}
+          >
+            <Checkbox
+              sx={{ pointerEvents: 'none' }}
+              checked={filters.diets.includes(diet.id)}
+            />
+            {t(diet.name.toLocaleLowerCase())}
+          </ToggleButton>
+        ))}
       </ToggleButtonGroup>
     </Box>
   )

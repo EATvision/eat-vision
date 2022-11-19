@@ -1,20 +1,17 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
-
 import { ThemeProvider } from '@mui/material'
-import ProtectedRoute from './components/ProtectedRoute'
-import AdminView from './views/AdminView'
 
-import DinersRoutes from './routes/DinersRoutes'
-import CustomerRoutes from './routes/CustomerRoutes'
+import ProtectedRoute from 'components/ProtectedRoute'
+import AdminView from 'views/AdminView'
 
-import LoginPage from './views/Login'
+import DinersRoutes from 'routes/DinersRoutes'
+import CustomerRoutes from 'routes/CustomerRoutes'
 
 import { getToken, setAuthToken } from './utils/token'
 
 import './App.css'
 import getTheme from './theme'
-import AdminRoutes from 'routes/AdminRoutes'
 
 function App() {
   const token = getToken()
@@ -25,11 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate replace to="/diners/kitchens" />} />
 
-        <Route path="/login" element={<LoginPage />} />
-
-        { DinersRoutes() }
-        { CustomerRoutes() }
-        { AdminRoutes() }
+        {DinersRoutes()}
+        {CustomerRoutes()}
 
         <Route
           path="admin"

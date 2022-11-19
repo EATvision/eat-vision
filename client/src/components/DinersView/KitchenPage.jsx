@@ -14,16 +14,14 @@ function KitchenPage() {
     if (kitchen) {
       i18n.changeLanguage(kitchen.locale)
     }
-  }, [kitchen])
+  }, [i18n, kitchen])
 
   if (isLoading) return <div>LOADING</div>
   if (isError) return <div>ERROR</div>
 
   return (
     <div className="flex flex-col absolute h-full w-full overflow-hidden flex-1 ">
-
       <Outlet />
-
     </div>
   )
 }

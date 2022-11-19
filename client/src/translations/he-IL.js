@@ -1,5 +1,5 @@
 export default {
-  already_signed_in: 'כבר נרשמתי',
+  already_signed_in: 'כבר נרשמת',
   sign_in: 'כניסה',
   // 'Welcome to React': 'שלום',
   hi_im_your_personal_waiter: 'שלום, אני שחר אני כאן כדי לעזור',
@@ -80,5 +80,10 @@ export default {
   choice: 'לבחירה',
   expand: 'להרחיב',
   collapse: 'לכווץ',
-  logout: 'התנתק',
+  logout: 'התנתקות',
+  login: 'התחברות',
+  enter_phone_number: 'הזנת מספר טלפון',
+  login_plea: 'תרצו להזדהות?',
+  login_plea_subtext: 'כך נוכל לזהות אותך גם לפעם הבאה',
+  no_login: 'ללא התחברות'
 }
