@@ -1,11 +1,15 @@
 import axios from 'axios'
-import { defaultFilters } from '../utils/filters'
 
-export const defaultDiner = {
-  filters: defaultFilters,
+export const insertDiner = async (diner) => {
+  const { data } = axios.post('/api/v2/diners', diner)
+  return data
 }
 
-export const postDiner = (filters) => {
-  axios.post('/api/diners/anonymous', { filters })
-  // axios.post('/api/diners', { filters })
+export const updateDiner = (diner) => {
+  axios.put('/api/v2/diners', diner)
 }
+
+export const fetchDinerByAuth = async () => {
+  const { data } = await axios.get('/api/v2/diners/auth')
+  return data
+} 

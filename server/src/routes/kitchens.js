@@ -37,7 +37,11 @@ router.get('/:kitchenId/menus/:menuId/categories', (req, res) => {
 })
 
 router.post('/:kitchenId/menus/:menuId/dishes/search', (req, res) => {
-  const { params: { kitchenId, menuId }, body: filters } = req
+  const {
+    params: { kitchenId, menuId },
+    body: filters,
+  } = req
+
   const relevantMenu = menus.find(menu => menu.id === menuId)
   const relevantDishes = dishes.filter(dish => relevantMenu?.categories?.includes(dish?.categories?.[0]))
 

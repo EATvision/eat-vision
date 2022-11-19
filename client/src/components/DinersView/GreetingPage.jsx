@@ -14,10 +14,10 @@ import {
 import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 
 import { defaultFilters } from 'utils/filters'
-import { postDiner } from 'api/diners'
 import { useKitchenById } from 'hooks/kitchens'
 import useIsRTL from 'hooks/useRTL'
 import Login from 'components/Login'
+import { useDinerUser } from 'contexts/diner'
 
 function GreetingPage({ setFilters }) {
   const theme = useTheme()
@@ -25,17 +25,23 @@ function GreetingPage({ setFilters }) {
   const { kitchenId } = useParams()
   const isRTL = useIsRTL()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
+  const dinerUser = useDinerUser()
 
   const { kitchen } = useKitchenById(kitchenId)
 
   const [isLoginOpen, setIsLoginOpen] = React.useState(false)
 
-  const handleClickSkipToFullMenu = async () => {
+  const handleClickSkipToFullMenu = () => {
     setFilters(defaultFilters)
-    await postDiner(defaultFilters)
+    dinerUser.signup()
   }
 
   const handleClickSignin = () => setIsLoginOpen(true)
+
+  const handleSignIn = async () => {
+    await dinerUser.signin()
+    setIsLoginOpen(false)
+  }
 
   const handleCloseLoginDialog = () => setIsLoginOpen(false)
 
@@ -184,7 +190,7 @@ function GreetingPage({ setFilters }) {
         <DialogContent
           sx={!fullScreen ? { minWidth: 500, minHeight: 500 } : {}}
         >
-          <Login onDone={handleCloseLoginDialog} />
+          <Login onDone={handleSignIn} />
         </DialogContent>
 
         <DialogActions disableSpacing sx={{ padding: 0 }}>

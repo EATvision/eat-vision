@@ -8,15 +8,10 @@ import AdminView from 'views/AdminView'
 import DinersRoutes from 'routes/DinersRoutes'
 import CustomerRoutes from 'routes/CustomerRoutes'
 
-import { getToken, setAuthToken } from './utils/token'
-
 import './App.css'
 import getTheme from './theme'
 
 function App() {
-  const token = getToken()
-  setAuthToken(token)
-
   return (
     <ThemeProvider theme={getTheme()}>
       <Routes>
