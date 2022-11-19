@@ -88,11 +88,17 @@ export default {
   login_plea_subtext: 'כך נוכל לזהות אותך גם לפעם הבאה',
   no_login: 'ללא התחברות',
   tabs: {
-    adminTabs: {
+    admin: {
       foodGroups: 'קבוצות אוכל',
       customers: 'צרכנים',
       ingredients: 'רכיבים',
       diets: 'דיאטות',
+    },
+    customers: {
+      overview: 'סקירה כללית',
+      generalInfo: 'מידע כללי',
+      dishes: 'מנות',
+      menus: 'תפריטים',
     },
   },
 }

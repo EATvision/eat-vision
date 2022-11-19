@@ -9,22 +9,22 @@ import { t } from 'i18next'
 
 const drawerTabs = [
   {
-    name: t('tabs.adminTabs.customers'),
+    name: t('tabs.admin.customers'),
     route: '/admin/customers',
     icon: <PersonIcon />,
   },
   {
-    name: t('tabs.adminTabs.ingredients'),
+    name: t('tabs.admin.ingredients'),
     route: '/admin/ingredients',
     icon: <IngredientsIcon />,
   },
   {
-    name: t('tabs.adminTabs.foodGroups'),
+    name: t('tabs.admin.foodGroups'),
     route: '/admin/foodGroups',
     icon: <QuestionMarkIcon />,
   },
   {
-    name: t('tabs.adminTabs.diets'),
+    name: t('tabs.admin.diets'),
     route: '/admin/diets',
     icon: <QuestionMarkIcon />,
   },

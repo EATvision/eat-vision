@@ -14,7 +14,10 @@ import LoginView from 'views/LoginView'
 const CustomerRoutes = () => (
   <Route path="customers" element={<CustomersView />}>
     <Route index element={<Navigate replace to="/customers/login" />} />
-    <Route path="login" element={<LoginView />} />
+    <Route
+      path="login"
+      element={<LoginView defaultLoginOrigin="/customers/overview" />}
+    />
     <Route
       path="overview"
       element={

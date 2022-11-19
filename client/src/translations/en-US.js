@@ -89,11 +89,17 @@ export default {
   login_plea_subtext: 'This way we can recodnize you also for the next time',
   no_login: 'without login',
   tabs: {
-    adminTabs: {
+    admin: {
       foodGroups: 'food groups',
       customers: 'customers',
       ingredients: 'ingredients',
       diets: 'diets',
+    },
+    customers: {
+      overview: 'overview',
+      generalInfo: 'generalInfo',
+      dishes: 'dishes',
+      menus: 'menus',
     },
   },
 }
