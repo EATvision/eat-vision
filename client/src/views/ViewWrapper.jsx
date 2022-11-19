@@ -129,6 +129,7 @@ const ItemList = ({ open, tabName, tabRoute, icon }) => {
 
 const CustomAppBar = ({
   isDrawerOpen,
+  appBarContent,
   handleDrawerOpen,
   handleClickLogout,
 }) => {
@@ -159,6 +160,7 @@ const CustomAppBar = ({
               Customers Page
             </Typography>
           )}
+          {appBarContent}
         </Box>
 
         {token && (
@@ -204,7 +206,7 @@ const CustomDrawer = ({ isDrawerOpen, drawerTabs, handleDrawerClose }) => {
   )
 }
 
-const ViewPicker = ({ drawerTabs = [] }) => {
+const ViewPicker = ({ drawerTabs = [], appBarContent }) => {
   const navigate = useNavigate()
 
   const isRTL = useIsRTL()
@@ -231,6 +233,7 @@ const ViewPicker = ({ drawerTabs = [] }) => {
 
         <CustomAppBar
           isDrawerOpen={isDrawerOpen}
+          appBarContent={appBarContent}
           handleDrawerOpen={handleDrawerOpen}
           handleClickLogout={handleClickLogout}
         />

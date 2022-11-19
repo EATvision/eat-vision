@@ -6,6 +6,8 @@ import InfoIcon from '@mui/icons-material/InfoOutlined'
 import KitchenProvider from '../contexts/kitchen'
 import { t } from 'i18next'
 import ViewWrapper from './ViewWrapper'
+import { getToken } from 'utils/token'
+import KitchenSelector from 'components/KitchenSelector'
 
 const drawerTabs = [
   {
@@ -30,10 +32,17 @@ const drawerTabs = [
   },
 ]
 
-const CustomerView = () => (
-  <KitchenProvider>
-    <ViewWrapper drawerTabs={drawerTabs} />
-  </KitchenProvider>
-)
+const CustomerView = () => {
+  const token = getToken()
+
+  return (
+    <KitchenProvider>
+      <ViewWrapper
+        drawerTabs={drawerTabs}
+        appBarContent={token && <KitchenSelector />}
+      />
+    </KitchenProvider>
+  )
+}
 
 export default CustomerView
