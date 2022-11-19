@@ -8,7 +8,7 @@ import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { t } from 'i18next'
 import { useDinerUser } from 'contexts/diner'
 
-function NavBar({ filters = {} }) {
+function NavBar() {
   const navigate = useNavigate()
   const location = useLocation()
   const { kitchenId, menuId } = useParams()
@@ -27,8 +27,8 @@ function NavBar({ filters = {} }) {
     navigate('/diners/settings', { state: { kitchenId, menuId } })
   }
 
-  const numberOfFiltersOn = Object.keys(filters).reduce(
-    (acc, filterName) => acc + filters[filterName].length,
+  const numberOfFiltersOn = Object.keys(dinerUser.user.filters).reduce(
+    (acc, filterName) => acc + dinerUser.user.filters[filterName].length,
     0
   )
 

@@ -19,7 +19,7 @@ import useIsRTL from 'hooks/useRTL'
 import Login from 'components/Login'
 import { useDinerUser } from 'contexts/diner'
 
-function GreetingPage({ setFilters }) {
+function GreetingPage() {
   const theme = useTheme()
   const { t } = useTranslation()
   const { kitchenId } = useParams()
@@ -32,7 +32,7 @@ function GreetingPage({ setFilters }) {
   const [isLoginOpen, setIsLoginOpen] = React.useState(false)
 
   const handleClickSkipToFullMenu = () => {
-    setFilters(defaultFilters)
+    dinerUser.setFilters(defaultFilters)
     dinerUser.signup()
   }
 

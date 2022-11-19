@@ -1,6 +1,7 @@
 import { fetchDinerByAuth, insertDiner } from 'api/diners'
 import axios from 'axios'
 import React from 'react'
+import { defaultFilters } from 'utils/filters'
 
 const dinerUserContext = React.createContext()
 
@@ -26,7 +27,7 @@ export const useDinerUser = () => {
 }
 
 function useProvideDinerUser() {
-  const [user, setUser] = React.useState(null)
+  const [user, setUser] = React.useState({ filters: defaultFilters })
   const [token, setToken] = React.useState(null)
 
   const updateToken = (token) => {
@@ -57,6 +58,10 @@ function useProvideDinerUser() {
     return setUser(false)
   }
 
+  const setFilters = (filters) => {
+    setUser((currUser) => ({ ...currUser, filters }))
+  }
+
   return {
     user,
     token,
@@ -64,5 +69,6 @@ function useProvideDinerUser() {
     signup,
     signin,
     signout,
+    setFilters,
   }
 }

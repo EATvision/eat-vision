@@ -12,7 +12,7 @@ import { ProvideDinerUser } from 'contexts/diner'
 const NAV_BAR_HEIGHT = 48
 const FOOTER_HEIGHT = 50
 
-function DinerView({ filters, dishes }) {
+function DinerView({ dishes }) {
   const isRTL = useIsRTL()
 
   return (
@@ -27,7 +27,7 @@ function DinerView({ filters, dishes }) {
             flexDirection: 'column',
           }}
         >
-          <NavBar filters={filters} />
+          <NavBar />
           <Box
             sx={{
               height: `calc(100vh - ${NAV_BAR_HEIGHT}px - ${FOOTER_HEIGHT}px)`,
@@ -39,9 +39,7 @@ function DinerView({ filters, dishes }) {
             <Outlet />
           </Box>
 
-          {dishes?.total?.length > 0 && (
-            <Footer filters={filters} dishes={dishes} />
-          )}
+          {dishes?.total?.length > 0 && <Footer dishes={dishes} />}
         </Box>
       </ThemeProvider>
     </ProvideDinerUser>

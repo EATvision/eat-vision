@@ -6,10 +6,10 @@ import useSteps from './FiltersForm/useSteps'
 import FiltersStepper from './FiltersForm/FiltersStepper'
 import WaiterBanner from './WaiterBanner'
 
-function FiltersWizardPage({ filters, setFilters, dishes }) {
+function FiltersWizardPage({ dishes }) {
   const { step } = useParams()
   const navigate = useNavigate()
-  const steps = useSteps(filters, setFilters)
+  const steps = useSteps()
   const maxSteps = steps.length
 
   const handleNext = () => {
@@ -55,12 +55,7 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
         })}
       </Box>
 
-      <FiltersStepper
-        filters={filters}
-        dishes={dishes}
-        onNext={handleNext}
-        onBack={handleBack}
-      />
+      <FiltersStepper dishes={dishes} onNext={handleNext} onBack={handleBack} />
     </Box>
   )
 }

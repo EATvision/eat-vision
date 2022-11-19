@@ -13,50 +13,29 @@ import ServiceWizardPage from 'components/DinersView/ServiceWizardPage'
 
 import DinerView from '../views/DinerView'
 
-import { defaultFilters } from '../utils/filters'
-
 const DinersRoutes = () => {
-  const [filters, setFilters] = useState(defaultFilters)
   const [dishes, setDishes] = useState({ total: [], filtered: [] })
 
   return (
-    <Route
-      path="/diners"
-      element={<DinerView filters={filters} dishes={dishes} />}
-    >
+    <Route path="/diners" element={<DinerView dishes={dishes} />}>
       <Route index path="kitchens" element={<KitchensPage />} />
       <Route path="kitchens/:kitchenId" element={<KitchenPage />}>
         <Route path="menus" element={<MenusPage />} />
         <Route
           path="menus/:menuId"
-          element={<MenuPage filters={filters} setDishes={setDishes} />}
+          element={<MenuPage setDishes={setDishes} />}
         >
-          <Route index element={<GreetingPage setFilters={setFilters} />} />
+          <Route index element={<GreetingPage />} />
           <Route
             path="filters/:step"
-            element={
-              <FiltersWizardPage
-                dishes={dishes}
-                filters={filters}
-                setFilters={setFilters}
-              />
-            }
+            element={<FiltersWizardPage dishes={dishes} />}
           />
 
-          <Route
-            path="service"
-            element={<ServiceWizardPage filters={filters} />}
-          />
+          <Route path="service" element={<ServiceWizardPage />} />
 
           <Route
             path="dishes"
-            element={
-              <DishesPage
-                filters={filters}
-                dishes={dishes}
-                setDishes={setDishes}
-              />
-            }
+            element={<DishesPage dishes={dishes} setDishes={setDishes} />}
           />
         </Route>
       </Route>
@@ -68,13 +47,7 @@ const DinersRoutes = () => {
 
       <Route
         path="filters/:step"
-        element={
-          <FiltersWizardPage
-            dishes={dishes}
-            filters={filters}
-            setFilters={setFilters}
-          />
-        }
+        element={<FiltersWizardPage dishes={dishes} />}
       />
 
       <Route path="settings" element={<Settings />} />

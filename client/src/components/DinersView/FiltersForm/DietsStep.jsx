@@ -10,19 +10,21 @@ import {
 
 import { useTranslation } from 'react-i18next'
 import { useDiets } from '../../../hooks/diets'
+import { useDinerUser } from 'contexts/diner'
 
-function DietsSelector({ filters, setFilters, onNext }) {
+function DietsSelector({ onNext }) {
   const theme = useTheme()
   const { t } = useTranslation()
+  const dinerUser = useDinerUser()
 
   const { diets, isLoading } = useDiets()
 
   const handleChange = (e, value) => {
-    setFilters((currFilters) => ({ ...currFilters, diets: value }))
+    dinerUser.setFilters({ ...dinerUser.user.filters, diets: value })
   }
 
   const handleClickNoDiets = () => {
-    setFilters((currFilters) => ({ ...currFilters, diets: [] }))
+    dinerUser.setFilters({ ...dinerUser.user.filters, diets: [] })
     onNext()
   }
 
@@ -42,7 +44,7 @@ function DietsSelector({ filters, setFilters, onNext }) {
           size="small"
           color="primary"
           variant="outlined"
-          selected={filters.diets.length === 0}
+          selected={dinerUser.user.filters.diets.length === 0}
           onClick={handleClickNoDiets}
           value="none"
         >
@@ -55,7 +57,7 @@ function DietsSelector({ filters, setFilters, onNext }) {
       <ToggleButtonGroup
         fullWidth
         color="primary"
-        value={filters.diets}
+        value={dinerUser.user.filters.diets}
         onChange={handleChange}
         aria-label="diets"
         orientation="vertical"
@@ -70,7 +72,7 @@ function DietsSelector({ filters, setFilters, onNext }) {
           >
             <Checkbox
               sx={{ pointerEvents: 'none' }}
-              checked={filters.diets.includes(diet.id)}
+              checked={dinerUser.user.filters.diets.includes(diet.id)}
             />
             {t(diet.name.toLocaleLowerCase())}
           </ToggleButton>

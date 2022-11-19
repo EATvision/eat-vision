@@ -9,12 +9,15 @@ import { useDinerUser } from 'contexts/diner'
 import { defaultFilters } from 'utils/filters'
 import OptOutLoginOption from './OptOutLoginOption'
 
-function ServiceWizardPage({ filters }) {
+function ServiceWizardPage() {
   const navigate = useNavigate()
   const { kitchenId, menuId } = useParams()
   const dinerUser = useDinerUser()
+
   const handleDoneLogin = async () => {
-    await dinerUser.signup({ filters: filters || defaultFilters })
+    await dinerUser.signup({
+      filters: dinerUser.user.filters || defaultFilters,
+    })
     navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`)
   }
 
@@ -22,7 +25,7 @@ function ServiceWizardPage({ filters }) {
     login: {
       waiterTitle: t('login_plea'),
       waiterSubTitle: t('login_plea_subtext'),
-      component: dinerUser.user ? (
+      component: dinerUser.token ? (
         <Navigate to={`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`} />
       ) : (
         <Login

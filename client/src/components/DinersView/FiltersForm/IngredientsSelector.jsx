@@ -44,10 +44,10 @@ function IngredientsSelector({ filters, setFilters, filterType, disabled }) {
 
   const handleChangeIngredients = (e, value) => {
     setRestrictedIngredients(value)
-    setFilters((currFilters) => ({
-      ...currFilters,
+    setFilters({
+      ...filters,
       [filterType]: value?.map((v) => v.id) || [],
-    }))
+    })
   }
 
   React.useEffect(() => {

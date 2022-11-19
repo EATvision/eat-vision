@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const insertDiner = async (diner) => {
-  const { data } = axios.post('/api/v2/diners', diner)
+  const { data } = await axios.post('/api/v2/diners', diner)
   return data
 }
 
