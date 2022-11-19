@@ -1,14 +1,7 @@
 import React from 'react'
 import { Route, Navigate } from 'react-router-dom'
 
-import ProtectedRoute from '../components/ProtectedRoute'
-import OverviewPage from '../components/CustomersView/OverviewPage'
-import KitchenPage from '../components/CustomersView/KitchenPage'
-import DishPage from '../components/CustomersView/DishesManagerPage/DishPage'
-import CustomerLoginPage from '../components/CustomersView/CustomerLoginPage'
-import MenusManagerPage from '../components/CustomersView/MenusManagerPage/MenusManagerPage'
-import DishesManagerPage from '../components/CustomersView/DishesManagerPage/DishesManagerPage'
-import CustomersView from '../views/CustomerView'
+import GeneralInfoPage from 'components/CustomersView/GeneralInfoPage'
 
 const CustomerRoutes = () => (
   <Route path="customers" element={<CustomersView />}>
@@ -26,7 +19,7 @@ const CustomerRoutes = () => (
       path="generalInfo"
       element={
         <ProtectedRoute>
-          <KitchenPage />
+          <GeneralInfoPage />
         </ProtectedRoute>
       }
     />
