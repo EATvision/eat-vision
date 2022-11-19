@@ -2,10 +2,10 @@ import { Box, ThemeProvider } from '@mui/material'
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 
-import Footer from '../components/DinersView/Footer'
-import NavBar from '../components/DinersView/NavBar'
+import Footer from 'components/DinersView/Footer'
+import NavBar from 'components/DinersView/NavBar'
 import getTheme from '../theme'
-import RTL from '../components/RTL'
+import RTL from 'components/RTL'
 import useIsRTL from '../hooks/useRTL'
 
 const NAV_BAR_HEIGHT = 48
