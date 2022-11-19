@@ -56,6 +56,9 @@ const getCollectionOperations = (collectionName) => ({
       .db()
       .collection(collectionName)
       .aggregate(pipeline, options),
+
+  count: (query) =>
+    internals.client.db().collection(collectionName).count(query),
 })
 
 module.exports = {
