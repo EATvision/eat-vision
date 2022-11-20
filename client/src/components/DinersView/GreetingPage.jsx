@@ -33,12 +33,7 @@ function GreetingPage({ setFilters }) {
 
   const handleClickSkipToFullMenu = () => {
     setFilters(defaultFilters)
-<<<<<<< HEAD
-    await postDiner(defaultFilters)
-    throw new Error('Sentry test')
-=======
     dinerUser.signup()
->>>>>>> 7fe4e3a (use dinerUser context for login)
   }
 
   const handleClickSignin = () => setIsLoginOpen(true)
