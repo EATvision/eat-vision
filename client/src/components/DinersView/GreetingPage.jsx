@@ -23,6 +23,7 @@ function GreetingPage({ setFilters }) {
   const handleClickSkipToFullMenu = async () => {
     setFilters(defaultFilters)
     await postDiner(defaultFilters)
+    throw new Error('Sentry test')
   }
 
   const handleClickSignin = () => navigate('/login')
