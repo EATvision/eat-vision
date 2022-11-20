@@ -1,11 +1,15 @@
 import React from 'react'
-import { Box, Button, Typography, useTheme } from '@mui/material'
+import { Box, Button, styled, Typography } from '@mui/material'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { t } from 'i18next'
 import { useDinerUser } from 'contexts/diner'
 
+const LtrTypography = styled(Typography)`
+  /* @noflip */
+  direction: ltr;
+`
+
 function Settings() {
-  const theme = useTheme()
   const navigate = useNavigate()
   const location = useLocation()
   const { menuId, kitchenId } = location.state
@@ -33,18 +37,23 @@ function Settings() {
 
   return (
     <Box sx={{ width: '100%', display: 'flex', flexDirection: 'column' }}>
-      <Typography variant="h5" sx={{ marginTop: theme.spacing(2) }}>
-        {t('settings')}
-      </Typography>
+      {dinerUser.token && (
+        <Box sx={{ width: '100%', maxWidth: 300, margin: 'auto' }}>
+          <Typography variant="h5">{t('signed_in_user')}</Typography>
+          <LtrTypography variant="h5">
+            {dinerUser.user.phoneNumber || t('anonymus')}
+          </LtrTypography>
 
-      <Button
-        sx={{ width: '100%', maxWidth: 300, margin: 'auto', marginBottom: 0 }}
-        onClick={handleLogout}
-        variant="contained"
-        color="secondary"
-      >
-        {t('logout')}
-      </Button>
+          <Button
+            sx={{ width: '100%', maxWidth: 300, margin: 'auto' }}
+            onClick={handleLogout}
+            variant="contained"
+            color="secondary"
+          >
+            {t('logout')}
+          </Button>
+        </Box>
+      )}
     </Box>
   )
 }

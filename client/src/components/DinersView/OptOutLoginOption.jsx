@@ -1,10 +1,11 @@
 import React from 'react'
 import { Typography, useTheme } from '@mui/material'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { t } from 'i18next'
 
 export default function OptOutLoginOption({ onDone }) {
   const theme = useTheme()
+  const { kitchenId, menuId } = useParams()
 
   const handleClickOptOutLogin = async () => {
     onDone()
@@ -23,7 +24,7 @@ export default function OptOutLoginOption({ onDone }) {
       {t('or_skip_to_the')}
       <Link
         className="group flex flex-col"
-        to="dishes"
+        to={`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`}
         onClick={handleClickOptOutLogin}
       >
         <Typography
