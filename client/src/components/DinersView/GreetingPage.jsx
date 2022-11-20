@@ -1,5 +1,4 @@
 import React from 'react'
-import _flatten from 'lodash/flatten'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
@@ -14,14 +13,11 @@ import {
 } from '@mui/material'
 import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 
-import { defaultFilters } from 'utils/filters'
+import { defaultFilters, doesUserHaveFilters } from 'utils/filters'
 import { useKitchenById } from 'hooks/kitchens'
 import useIsRTL from 'hooks/useRTL'
 import Login from 'components/Login'
 import { useDinerUser } from 'contexts/diner'
-
-const doesUserHaveFilters = (filters) =>
-  _flatten(Object.values(filters)).length > 0
 
 function GreetingPage() {
   const theme = useTheme()
