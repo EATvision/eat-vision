@@ -19,7 +19,7 @@ function NavBar({ filters = {} }) {
     if (kitchenId && menuId) {
       navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/filters/1`)
     } else {
-      navigate('/diners/filters')
+      navigate(-1)
     }
   }
 
@@ -72,11 +72,11 @@ function NavBar({ filters = {} }) {
         color="inherit"
         fullWidth
         onClick={handleClickSettings}
-        disabled={location.pathname.includes('/settings') || !dinerUser.user}
+        disabled={location.pathname.includes('/settings') || !dinerUser.token}
       >
         <IconButton
           disableRipple
-          disabled={location.pathname.includes('/settings') || !dinerUser.user}
+          disabled={location.pathname.includes('/settings') || !dinerUser.token}
         >
           <SettingsIcon />
         </IconButton>

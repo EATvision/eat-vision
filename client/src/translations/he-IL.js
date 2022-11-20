@@ -1,5 +1,8 @@
 export default {
-  already_signed_in: 'כבר נרשמת',
+  register_or_sign_in: 'הרשמה\\התחברות',
+  already_registered: 'את\\ה כבר מחובר',
+  signed_in_user: 'התחברות עם משתמש\\ת',
+  anonymus: 'אנונימי',
   sign_in: 'כניסה',
   // 'Welcome to React': 'שלום',
   hi_im_your_personal_waiter: 'שלום, אני שחר אני כאן כדי לעזור',
