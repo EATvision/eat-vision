@@ -2,16 +2,12 @@ import React from 'react'
 import { Typography, useTheme } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { t } from 'i18next'
-import { useDinerUser } from 'contexts/diner'
 
 export default function OptOutLoginOption({ onDone }) {
   const theme = useTheme()
-  const dinerUser = useDinerUser()
 
   const handleClickOptOutLogin = async () => {
-    await dinerUser.updateToken(null)
-    await dinerUser.signup(null)
-    await onDone()
+    onDone()
   }
 
   return (

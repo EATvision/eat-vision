@@ -1,5 +1,6 @@
 export default {
-  already_signed_in: 'already signed in',
+  register_or_sign_in: 'register/sign in',
+  already_registered: 'already redistered',
   sign_in: 'sign in',
   'Welcome to React': 'hello',
   hi_im_your_personal_waiter: 'Hello, I’m Dawn happy to assist you',

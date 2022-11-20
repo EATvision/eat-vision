@@ -6,10 +6,13 @@ export const insertDiner = async (diner) => {
 }
 
 export const updateDiner = (diner) => {
-  axios.put('/api/v2/diners', diner)
+  axios.put(`/api/v2/diners/${diner._id}`, diner)
 }
 
 export const fetchDinerByAuth = async () => {
-  const { data } = await axios.get('/api/v2/diners/auth')
-  return data
+  const response = await axios.get('/api/v2/diners/auth')
+  if (response.status === 404) {
+    return { data: null }
+  }
+  return response
 } 

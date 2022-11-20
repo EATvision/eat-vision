@@ -6,7 +6,6 @@ import Login from 'components/Login'
 import { t } from 'i18next'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import { useDinerUser } from 'contexts/diner'
-import { defaultFilters } from 'utils/filters'
 import OptOutLoginOption from './OptOutLoginOption'
 
 function ServiceWizardPage() {
@@ -15,9 +14,6 @@ function ServiceWizardPage() {
   const dinerUser = useDinerUser()
 
   const handleDoneLogin = async () => {
-    await dinerUser.signup({
-      filters: dinerUser.user.filters || defaultFilters,
-    })
     navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`)
   }
 
@@ -26,7 +22,10 @@ function ServiceWizardPage() {
       waiterTitle: t('login_plea'),
       waiterSubTitle: t('login_plea_subtext'),
       component: dinerUser.token ? (
-        <Navigate to={`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`} />
+        <Navigate
+          to={`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`}
+          replace
+        />
       ) : (
         <Login
           onDone={handleDoneLogin}

@@ -8,14 +8,14 @@ const authenticateToken = require('src/middlewares/auth')
 
 const dinersCollection = getCollectionOperations('diners')
 
-router.get('/auth', authenticateToken(), async (req, res) => {
+router.get('/auth', authenticateToken(), async (req, res,) => {
   const {
     user,
   } = req
   const response = await dinersCollection.findOne({ phoneNumber: user.phoneNumber })
 
   if (!response) {
-    return res.status(404)
+    return res.status(404).send()
   }
   res.send(response)
 })
@@ -53,11 +53,14 @@ router.put('/:id', async (req, res) => {
   const {
     params: { id },
     body: diner,
+    user,
   } = req
+
+  const updatedDiner = { ...diner, phoneNumber: user?.phoneNumber }
 
   await dinersCollection.findOneAndReplace(
     { $or: [{ id: id }, { _id: getDBId(id) }] },
-    _omit(diner, '_id')
+    _omit(updatedDiner, '_id')
   )
   res.status(200)
 })

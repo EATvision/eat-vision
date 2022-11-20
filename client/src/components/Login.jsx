@@ -63,7 +63,14 @@ function Login({ onDone, optOutLoginOption }) {
         if (res.status === 200) {
           const { token, exp } = res.data
           await dinerUser.updateToken(token, exp)
-          await onDone()
+
+          const { user } = await dinerUser.signin()
+
+          if (!user) {
+            await dinerUser.signup()
+          }
+
+          onDone()
         }
       } else {
         setIsPendingSendToNumber(false)
@@ -83,7 +90,7 @@ function Login({ onDone, optOutLoginOption }) {
       if (res.status === 200) {
         const { token, exp } = res.data
         await dinerUser.updateToken(token, exp)
-        await onDone()
+        onDone()
         navigate(-1)
       }
     } catch (error) {

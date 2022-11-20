@@ -38,8 +38,7 @@ function GreetingPage() {
 
   const handleClickSignin = () => setIsLoginOpen(true)
 
-  const handleSignIn = async () => {
-    await dinerUser.signin()
+  const handleOnDoneSignIn = () => {
     setIsLoginOpen(false)
   }
 
@@ -174,9 +173,15 @@ function GreetingPage() {
               justifyContent: 'center',
             }}
           >
-            {`${t('already_signed_in')}?`}
-            <Button variant="text" onClick={handleClickSignin}>
-              {t('sign_in')}
+            <Button
+              variant="text"
+              fullWidth
+              onClick={handleClickSignin}
+              disabled={dinerUser.token}
+            >
+              {dinerUser.token
+                ? t('already_registered')
+                : t('register_or_sign_in')}
             </Button>
           </Typography>
         </Box>
@@ -190,7 +195,7 @@ function GreetingPage() {
         <DialogContent
           sx={!fullScreen ? { minWidth: 500, minHeight: 500 } : {}}
         >
-          <Login onDone={handleSignIn} />
+          <Login onDone={handleOnDoneSignIn} />
         </DialogContent>
 
         <DialogActions disableSpacing sx={{ padding: 0 }}>

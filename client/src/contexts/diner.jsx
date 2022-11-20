@@ -1,9 +1,13 @@
-import { fetchDinerByAuth, insertDiner } from 'api/diners'
+import { fetchDinerByAuth, insertDiner, updateDiner } from 'api/diners'
 import axios from 'axios'
 import React from 'react'
 import { defaultFilters } from 'utils/filters'
 
 const dinerUserContext = React.createContext()
+
+const defaultUser = {
+  defaultFilters,
+}
 
 export const setAuthToken = (token) => {
   if (token) {
@@ -39,27 +43,36 @@ function useProvideDinerUser() {
     }
   }
 
-  const signup = async (diner) => {
-    const insertedDinerUser = await insertDiner(diner)
+  const signup = async () => {
+    const insertedDinerUser = await insertDiner(user)
     setUser(insertedDinerUser)
   }
 
   const signin = async () => {
     try {
-      const user = await fetchDinerByAuth()
-      setUser(user)
-      return { user }
+      const { data: user } = await fetchDinerByAuth()
+      if (!user) {
+        return { user: null, error: null }
+      }
+      return setUser(user)
     } catch (error) {
       return { error }
     }
   }
 
   const signout = () => {
-    return setUser(false)
+    updateToken(null)
+    return setUser(defaultUser)
   }
 
   const setFilters = (filters) => {
     setUser((currUser) => ({ ...currUser, filters }))
+  }
+
+  const saveDiner = async () => {
+    if (token) {
+      await updateDiner(user)
+    }
   }
 
   return {
@@ -70,5 +83,6 @@ function useProvideDinerUser() {
     signin,
     signout,
     setFilters,
+    saveDiner,
   }
 }

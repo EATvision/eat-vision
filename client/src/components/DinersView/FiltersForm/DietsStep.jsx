@@ -68,7 +68,7 @@ function DietsSelector({ onNext }) {
             fullWidth
             key={diet.id}
             value={diet.id}
-            sx={{ justifyContent: 'flex-start', padding: theme.spacing(0) }}
+            sx={{ justifyContent: 'flex-start' }}
           >
             <Checkbox
               sx={{ pointerEvents: 'none' }}
