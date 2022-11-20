@@ -873,8 +873,8 @@
     "position": 8
   },
   {
-    "id": "reccKFL0KLPTD1jo2",
-    "name": "אלכוהול ",
+    "id": "recSaYm2kSUrkvw7b",
+    "name": "יינות לבנים",
     "position": 8
   },
   {
@@ -953,8 +953,8 @@
     ]
   },
   {
-    "id": "recrAf64Sr3tbU8Ft",
-    "name": "דיל צ'יסריים",
+    "id": "recZvEB73pCX5CLtB",
+    "name": "יינות אדומים",
     "position": 9
   },
   {
@@ -1012,6 +1012,11 @@
       "recpaTpld67wJg7QU",
       "rec8bV1hFIieqrEXs"
     ]
+  },
+  {
+    "id": "reccKFL0KLPTD1jo2",
+    "name": "יינות מבעבעים",
+    "position": 10
   },
   {
     "id": "recdHRu4hZtmJulGH",
@@ -1075,6 +1080,11 @@
     ]
   },
   {
+    "id": "recBoXPzX6TwCnY6z",
+    "name": "ויסקי",
+    "position": 11
+  },
+  {
     "id": "recmQQv4z8lgCUxdJ",
     "name": "יין מקומי - לבן",
     "position": 11,
@@ -1098,6 +1108,11 @@
       "recLIQlOfIsh1pPNs",
       "rechxc7vZlndDRirH"
     ]
+  },
+  {
+    "id": "recQSWJ6qGJUSZ3kK",
+    "name": "בירות",
+    "position": 12
   },
   {
     "id": "recbmDMfuCXDohClb",
@@ -1124,6 +1139,11 @@
       "recBKu7oKOWG1uhEz",
       "recXBX9092hUpxOVo"
     ]
+  },
+  {
+    "id": "recDjduFG46dxH9mF",
+    "name": "אפרטיף \\ דיז'סטיף",
+    "position": 13
   },
   {
     "id": "recDlbG1Sv8UZme5n",
@@ -1165,6 +1185,16 @@
     ]
   },
   {
+    "id": "recVgG1UaXKHcWTto",
+    "name": "ג'ין",
+    "position": 14
+  },
+  {
+    "id": "recVkBdWfZy8JqP3C",
+    "name": "וודקה",
+    "position": 15
+  },
+  {
     "id": "reciPBo3MtrS0zOfK",
     "name": "חריפים - וודקה ",
     "position": 15,
@@ -1174,6 +1204,11 @@
       "rec5oEbzT5Ak2ACgE",
       "recIrTL2B8ZwpleXR"
     ]
+  },
+  {
+    "id": "reckyoyehbSI7TMhZ",
+    "name": "אניס",
+    "position": 16
   },
   {
     "id": "recD4JdjxF1KxiYJ7",
@@ -1194,6 +1229,11 @@
     ]
   },
   {
+    "id": "rec4zYf6NrdzNhjt1",
+    "name": "טקילה",
+    "position": 17
+  },
+  {
     "id": "recHTfuxUeHBVl3xU",
     "name": "אפרטיף",
     "position": 18,
@@ -1203,6 +1243,11 @@
       "recajLcoTmec7sUI2",
       "recLBeY1RPdhg5hRj"
     ]
+  },
+  {
+    "id": "recRo9VXPFhzJCSF9",
+    "name": "רום",
+    "position": 18
   },
   {
     "id": "recW8hi9SdkVIwJ3P",
@@ -1216,6 +1261,16 @@
       "recBpWZlnbADEkESs",
       "recOElfKgJVaDQLCf"
     ]
+  },
+  {
+    "id": "recQidYJn8gCwjVVj",
+    "name": "ליקרים",
+    "position": 19
+  },
+  {
+    "id": "recrAf64Sr3tbU8Ft",
+    "name": "דיל צ'יסריים",
+    "position": 20
   },
   {
     "id": "recMzHts4sQTobYhO",
