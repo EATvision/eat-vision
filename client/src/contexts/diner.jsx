@@ -34,7 +34,7 @@ function useProvideDinerUser() {
   const [user, setUser] = React.useState({ filters: defaultFilters })
   const [token, setToken] = React.useState(null)
 
-  const updateToken = (token) => {
+  const updateToken = async (token) => {
     if (token) {
       setToken(token)
       setAuthToken(token)
@@ -54,7 +54,8 @@ function useProvideDinerUser() {
       if (!user) {
         return { user: null, error: null }
       }
-      return setUser(user)
+      setUser(user)
+      return { user, error: null }
     } catch (error) {
       return { error }
     }

@@ -49,7 +49,7 @@ router.post('/', authenticateToken(), async (req, res) => {
   res.status(201).send({ ...anonymousDiner, _id: response.insertedId.toString() })
 })
 
-router.put('/:id', async (req, res) => {
+router.put('/:id', authenticateToken(), async (req, res) => {
   const {
     params: { id },
     body: diner,

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import _flatten from 'lodash/flatten'
+import { Link, Navigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
   Button,
@@ -19,10 +20,13 @@ import useIsRTL from 'hooks/useRTL'
 import Login from 'components/Login'
 import { useDinerUser } from 'contexts/diner'
 
+const doesUserHaveFilters = (filters) =>
+  _flatten(Object.values(filters)).length > 0
+
 function GreetingPage() {
   const theme = useTheme()
   const { t } = useTranslation()
-  const { kitchenId } = useParams()
+  const { kitchenId, menuId } = useParams()
   const isRTL = useIsRTL()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
   const dinerUser = useDinerUser()
@@ -43,6 +47,15 @@ function GreetingPage() {
   }
 
   const handleCloseLoginDialog = () => setIsLoginOpen(false)
+
+  if (dinerUser.token && doesUserHaveFilters(dinerUser.user.filters)) {
+    return (
+      <Navigate
+        to={`/diners/kitchens/${kitchenId}/menus/${menuId}/service`}
+        replace
+      />
+    )
+  }
 
   return (
     <>
