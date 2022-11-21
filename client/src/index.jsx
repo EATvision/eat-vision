@@ -10,9 +10,9 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 Sentry.init({
-  dsn: 'https://05b360e64612477db7f69c6da52f7ff1@o4504174016069632.ingest.sentry.io/4504174018953216',
+  dsn: process.env.REACT_APP_SENTRY_DSN,
   integrations: [new BrowserTracing()],
-
+  environment: process.env.REACT_APP_ENVIRONMENT,
   // Set tracesSampleRate to 1.0 to capture 100%
   // of transactions for performance monitoring.
   // We recommend adjusting this value in production
