@@ -93,9 +93,7 @@ const getModifiedDishes = (dishes, filters) =>
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
           isFilteredOut,
-          ...(isMainDishFilteredOut
-            ? { name: ingredientsById[component.id].name }
-            : {}),
+          ...(ingredientsById[component.id]),
         }
       }
     )
@@ -113,10 +111,7 @@ const getModifiedDishes = (dishes, filters) =>
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
           isFilteredOut,
-          ...{
-            name: ingredientsById[component.id].name,
-            translation_heb: ingredientsById[component.id].translation_heb,
-          },
+          ...(ingredientsById[component.id]),
         }
       }
     )
@@ -133,8 +128,7 @@ const getModifiedDishes = (dishes, filters) =>
         intersectingExcludedIngredients,
         ingredientsExludedInDiets,
         isFilteredOut,
-        name: ingredientsById[component.id].name,
-        translation_heb: ingredientsById[component.id].translation_heb,
+        ...(ingredientsById[component.id]),
       }
     })
 
@@ -160,8 +154,7 @@ const getModifiedDishes = (dishes, filters) =>
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
           isFilteredOut,
-          name: ingredientsById[component.id].name,
-          translation_heb: ingredientsById[component.id].translation_heb,
+          ...(ingredientsById[component.id])
         }
       }) || []),
       ...(dish.recipe.addableDishes?.map((sideDish) => ({

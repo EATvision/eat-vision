@@ -1,13 +1,22 @@
 import React from 'react'
 import {
-  Button, List, ListItem, Paper, Popover, Typography, Box, useTheme,
+  Button,
+  List,
+  ListItem,
+  Paper,
+  Popover,
+  Typography,
+  Box,
+  useTheme,
 } from '@mui/material'
 import { t } from 'i18next'
 
 import waiterSrc from '../../../images/waiter_transparent_halfbody.png'
+import { useGetComponentLabel } from 'hooks/ingredients'
 
 function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
   const theme = useTheme()
+  const getComponentLabel = useGetComponentLabel()
 
   const [anchorEl, setAnchorEl] = React.useState(null)
 
@@ -47,45 +56,41 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
           horizontal: 'left',
         }}
       >
-
-        {
-          dishExcludableComponentsFilteredOut?.length > 0
-            && (
-              <Paper
-                elevation={0}
-                sx={{
-                  display: 'flex',
-                  alignItems: 'start',
-                  justifyContent: 'center',
-                  position: 'relative',
-                  backgroundColor: theme.palette.secondary.light,
-                  color: theme.palette.common.white,
-                }}
+        {dishExcludableComponentsFilteredOut?.length > 0 && (
+          <Paper
+            elevation={0}
+            sx={{
+              display: 'flex',
+              alignItems: 'start',
+              justifyContent: 'center',
+              position: 'relative',
+              backgroundColor: theme.palette.secondary.light,
+              color: theme.palette.common.white,
+            }}
+          >
+            <Box sx={{ padding: theme.spacing(1) }}>
+              <Typography
+                sx={{ lineHeight: 1.2, fontWeight: 'bold', fontSize: 20 }}
               >
-                <Box sx={{ padding: theme.spacing(1) }}>
-                  <Typography sx={{ lineHeight: 1.2, fontWeight: 'bold', fontSize: 20 }}>
-                    {t('my_reccomendations_for_you')}
-                  </Typography>
-                  <List dense disablePadding sx={{ fontSize: 16 }}>
-                    {
-                      dishExcludableComponentsFilteredOut.map((component) => (
-                        <ListItem
-                          key={component.id}
-                          // disableGutters
-                          disablePadding
-                          dense
-                        >
-                          {`${t('ask_without_the')} ${component.name}`}
-                        </ListItem>
-                      ))
-                    }
-                  </List>
-                </Box>
+                {t('my_reccomendations_for_you')}
+              </Typography>
+              <List dense disablePadding sx={{ fontSize: 16 }}>
+                {dishExcludableComponentsFilteredOut.map((component) => (
+                  <ListItem
+                    key={component.id}
+                    // disableGutters
+                    disablePadding
+                    dense
+                  >
+                    {`${t('ask_without_the')} ${getComponentLabel(component)}`}
+                  </ListItem>
+                ))}
+              </List>
+            </Box>
 
-                <img alt="waiter" src={waiterSrc} width={100} />
-              </Paper>
-            )
-        }
+            <img alt="waiter" src={waiterSrc} width={100} />
+          </Paper>
+        )}
       </Popover>
     </div>
   )

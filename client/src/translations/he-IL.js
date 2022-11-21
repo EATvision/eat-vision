@@ -38,7 +38,7 @@ export default {
   no_specific_diet: 'אין תזונה ספציפית',
   do_you_have_a_specific_diet: 'האם יש לך תזונה ספציפית?',
   no_food_restrictions: 'אין הגבלות מיוחדות',
-  things_i_avoid_or_reduce: 'מנסה להמנע מזונות מסויימים',
+  things_i_avoid_or_reduce: 'מנסה להמנע ממזונות מסויימים',
   im_allergic: 'יש לי אלרגיה',
   // my_diet: 'הדיאטה שלי',
   things_i_dont_eat: 'מזונות שאני לא אוכל\\ת',

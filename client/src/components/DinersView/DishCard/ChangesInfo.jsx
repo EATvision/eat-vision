@@ -10,13 +10,17 @@ import {
 } from '@mui/material'
 import CheckIcon from '@mui/icons-material/Check'
 
-import { useIngredientsByIds } from '../../../hooks/ingredients'
+import {
+  useGetComponentLabel,
+  useIngredientsByIds,
+} from '../../../hooks/ingredients'
 import { t } from 'i18next'
 
 const _keyBy = require('lodash/keyBy')
 
 function ChangesInfo({ data }) {
   const theme = useTheme()
+  const getComponentLabel = useGetComponentLabel()
   const relevantIds = [
     ...data.recipe.putaside.map((c) => c.id),
     ...data.recipe.excludable.map((c) => c.id),
@@ -58,7 +62,7 @@ function ChangesInfo({ data }) {
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" scope="row">
-                {ingredientsById?.[row[0]]?.name}
+                {getComponentLabel(ingredientsById?.[row[0]])}
               </TableCell>
               <TableCell>{row[1].excludable && <CheckIcon />}</TableCell>
               <TableCell>{row[1].putaside && <CheckIcon />}</TableCell>
