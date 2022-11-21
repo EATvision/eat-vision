@@ -181,10 +181,9 @@ function CustomersView() {
                   tabName="generalInfo"
                   icon={<InfoIcon />}
                 />
+                <ItemList open={open} tabName="menus" icon={<MenusIcon />} />
 
                 <ItemList open={open} tabName="dishes" icon={<DishesIcon />} />
-
-                <ItemList open={open} tabName="menus" icon={<MenusIcon />} />
               </List>
             </Drawer>
           )}
