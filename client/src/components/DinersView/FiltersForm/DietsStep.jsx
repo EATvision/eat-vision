@@ -10,10 +10,16 @@ import {
 
 import { useTranslation } from 'react-i18next'
 import { useDiets } from '../../../hooks/diets'
+import { useDinerUser } from 'contexts/diner'
+import { useKitchenById } from 'hooks/kitchens'
+import { useParams } from 'react-router-dom'
 
 function DietsSelector({ filters, setFilters, onNext }) {
   const theme = useTheme()
   const { t } = useTranslation()
+  const dinerUser = useDinerUser()
+  const { kitchenId } = useParams()
+  const { kitchen } = useKitchenById(kitchenId)
 
   const { diets, isLoading } = useDiets()
 
@@ -72,7 +78,7 @@ function DietsSelector({ filters, setFilters, onNext }) {
               sx={{ pointerEvents: 'none' }}
               checked={filters.diets.includes(diet.id)}
             />
-            {t(diet.name.toLocaleLowerCase())}
+            {kitchen?.locale === 'he-IL' ? diet.translation_heb : diet.name}
           </ToggleButton>
         ))}
       </ToggleButtonGroup>
