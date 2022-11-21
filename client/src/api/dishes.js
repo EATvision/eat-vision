@@ -1,3 +1,4 @@
+import axios from 'axios'
 import useSWR from 'swr'
 import fetcher from './fetcher'
 
@@ -21,4 +22,12 @@ export const useDishById = (id) => {
     isError: error,
     ...rest,
   }
+}
+
+export const postSearchDishes = async (filters, { kitchenId, menuId }) => {
+  const { data } = await axios.post(
+    `/api/kitchens/${kitchenId}/menus/${menuId}/dishes/search`,
+    filters,
+  )
+  return data
 }

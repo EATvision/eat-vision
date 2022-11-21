@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, Navigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
   Button,
@@ -13,31 +13,45 @@ import {
 } from '@mui/material'
 import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 
-import { defaultFilters } from 'utils/filters'
-import { postDiner } from 'api/diners'
+import { defaultFilters, doesUserHaveFilters } from 'utils/filters'
 import { useKitchenById } from 'hooks/kitchens'
 import useIsRTL from 'hooks/useRTL'
 import Login from 'components/Login'
+import { useDinerUser } from 'contexts/diner'
 
-function GreetingPage({ setFilters }) {
+function GreetingPage() {
   const theme = useTheme()
   const { t } = useTranslation()
-  const { kitchenId } = useParams()
+  const { kitchenId, menuId } = useParams()
   const isRTL = useIsRTL()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
+  const dinerUser = useDinerUser()
 
   const { kitchen } = useKitchenById(kitchenId)
 
   const [isLoginOpen, setIsLoginOpen] = React.useState(false)
 
-  const handleClickSkipToFullMenu = async () => {
-    setFilters(defaultFilters)
-    await postDiner(defaultFilters)
+  const handleClickSkipToFullMenu = () => {
+    dinerUser.setFilters(defaultFilters)
+    dinerUser.signup()
   }
 
   const handleClickSignin = () => setIsLoginOpen(true)
 
+  const handleOnDoneSignIn = () => {
+    setIsLoginOpen(false)
+  }
+
   const handleCloseLoginDialog = () => setIsLoginOpen(false)
+
+  if (dinerUser.token && doesUserHaveFilters(dinerUser.user.filters)) {
+    return (
+      <Navigate
+        to={`/diners/kitchens/${kitchenId}/menus/${menuId}/service`}
+        replace
+      />
+    )
+  }
 
   return (
     <>
@@ -168,9 +182,15 @@ function GreetingPage({ setFilters }) {
               justifyContent: 'center',
             }}
           >
-            {`${t('already_signed_in')}?`}
-            <Button variant="text" onClick={handleClickSignin}>
-              {t('sign_in')}
+            <Button
+              variant="text"
+              fullWidth
+              onClick={handleClickSignin}
+              disabled={dinerUser.token}
+            >
+              {dinerUser.token
+                ? t('already_registered')
+                : t('register_or_sign_in')}
             </Button>
           </Typography>
         </Box>
@@ -184,7 +204,7 @@ function GreetingPage({ setFilters }) {
         <DialogContent
           sx={!fullScreen ? { minWidth: 500, minHeight: 500 } : {}}
         >
-          <Login onDone={handleCloseLoginDialog} />
+          <Login onDone={handleOnDoneSignIn} />
         </DialogContent>
 
         <DialogActions disableSpacing sx={{ padding: 0 }}>

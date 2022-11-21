@@ -7,11 +7,11 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
 import useSteps from './useSteps'
 import { useKitchenById } from 'hooks/kitchens'
 
-function FiltersStepper({ filters, setFilters, onNext, onBack }) {
+function FiltersStepper({ onNext, onBack }) {
   const { step } = useParams()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
-  const steps = useSteps(filters, setFilters)
+  const steps = useSteps()
 
   const { t } = useTranslation()
 

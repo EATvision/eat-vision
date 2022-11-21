@@ -7,8 +7,7 @@ import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
 import Dish from './DishCard/Dish'
 
-// eslint-disable-next-line no-unused-vars
-function DishesPage({ dishes, filters }) {
+function DishesPage({ dishes }) {
   const theme = useTheme()
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()

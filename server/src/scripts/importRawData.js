@@ -30,7 +30,7 @@ base('tblZl6c3RepInX9BV')
   })
 
 setTimeout(() => {
-  fs.writeFileSync('./server/data/raw/kitchens.json', JSON.stringify(kitchens))
+  fs.writeFileSync('./src/data/raw/kitchens.json', JSON.stringify(kitchens))
 }, 10000)
 
 //locations
@@ -51,7 +51,7 @@ base('tblNdngecQWNjn6E0')
 
 setTimeout(() => {
   fs.writeFileSync(
-    './server/data/raw/locations.json',
+    './src/data/raw/locations.json',
     JSON.stringify(locations)
   )
 }, 10000)
@@ -76,7 +76,7 @@ base('tbl9JON90N2fzyNik')
   })
 
 setTimeout(() => {
-  fs.writeFileSync('./server/data/raw/menus.json', JSON.stringify(menus))
+  fs.writeFileSync('./src/data/raw/menus.json', JSON.stringify(menus))
 }, 10000)
 
 //categories
@@ -95,7 +95,7 @@ base('tblkCqIh4FIs6rVXE')
 
 setTimeout(() => {
   fs.writeFileSync(
-    './server/data/raw/categories.json',
+    './src/data/raw/categories.json',
     JSON.stringify(categories)
   )
 }, 10000)
@@ -116,7 +116,7 @@ base('tbl6IbHA11rj3xQ4r')
 
 setTimeout(() => {
   fs.writeFileSync(
-    './server/data/raw/working_hours.json',
+    './src/data/raw/working_hours.json',
     JSON.stringify(working_hours)
   )
 }, 10000)
@@ -143,7 +143,7 @@ base('tblotwNoQ0o3H0zVN')
 setTimeout(() => {
   const transformStream = JSONStream.stringify()
   const outputStream = fs.createWriteStream(
-    './server/data/raw/ingredients.json'
+    './src/data/raw/ingredients.json'
   )
   transformStream.pipe(outputStream)
   ingredients.forEach(transformStream.write)
@@ -170,7 +170,7 @@ base('tblya8ylojdR69Sbm')
 
 setTimeout(() => {
   const transformStream = JSONStream.stringify()
-  const outputStream = fs.createWriteStream('./server/data/raw/groups.json')
+  const outputStream = fs.createWriteStream('./src/data/raw/groups.json')
   transformStream.pipe(outputStream)
   groups.forEach(transformStream.write)
   transformStream.end()
@@ -201,7 +201,7 @@ base('tblLnh1hSZ8GTznfy')
 
 setTimeout(() => {
   const transformStream = JSONStream.stringify()
-  const outputStream = fs.createWriteStream('./server/data/raw/dishes.json')
+  const outputStream = fs.createWriteStream('./src/data/raw/dishes.json')
   transformStream.pipe(outputStream)
   dishes.forEach(transformStream.write)
   transformStream.end()
@@ -230,7 +230,7 @@ base('tblrTZOqWSoDnXJK4')
   })
 
 setTimeout(() => {
-  fs.writeFileSync('./server/data/raw/recipes.json', JSON.stringify(recipes))
+  fs.writeFileSync('./src/data/raw/recipes.json', JSON.stringify(recipes))
 }, 10000)
 
 //choices_ingredients
@@ -256,7 +256,7 @@ base('tbl8Mk37Xtrc6kgyG')
 
 setTimeout(() => {
   fs.writeFileSync(
-    './server/data/raw/choices_ingredients.json',
+    './src/data/raw/choices_ingredients.json',
     JSON.stringify(choices_ingredients)
   )
 }, 10000)
@@ -287,7 +287,7 @@ base('tblSOWhCrvbHioMVL')
 
 setTimeout(() => {
   fs.writeFileSync(
-    './server/data/raw/choices_subdishes.json',
+    './src/data/raw/choices_subdishes.json',
     JSON.stringify(choices_subdishes)
   )
 }, 10000)
@@ -307,5 +307,5 @@ base('tblJXmaeTIA7dp4oJ')
   })
 
 setTimeout(() => {
-  fs.writeFileSync('./server/data/raw/diets.json', JSON.stringify(diets))
+  fs.writeFileSync('./src/data/raw/diets.json', JSON.stringify(diets))
 }, 10000)

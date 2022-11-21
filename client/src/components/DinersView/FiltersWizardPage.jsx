@@ -5,16 +5,21 @@ import { Box } from '@mui/material'
 import useSteps from './FiltersForm/useSteps'
 import FiltersStepper from './FiltersForm/FiltersStepper'
 import WaiterBanner from './WaiterBanner'
+import { useDinerUser } from 'contexts/diner'
 
-function FiltersWizardPage({ filters, setFilters, dishes }) {
+function FiltersWizardPage({ dishes }) {
   const { step } = useParams()
   const navigate = useNavigate()
-  const steps = useSteps(filters, setFilters)
+  const steps = useSteps()
+  const dinerUser = useDinerUser()
   const maxSteps = steps.length
 
-  const handleNext = () => {
+  const handleNext = async () => {
     const nextStep = Number(step) + 1
-    if (nextStep === maxSteps) return navigate('../service')
+    if (nextStep === maxSteps) {
+      await dinerUser.saveDiner()
+      return navigate('../service')
+    }
     return navigate(`../filters/${nextStep}`)
   }
 
@@ -55,12 +60,7 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
         })}
       </Box>
 
-      <FiltersStepper
-        filters={filters}
-        dishes={dishes}
-        onNext={handleNext}
-        onBack={handleBack}
-      />
+      <FiltersStepper dishes={dishes} onNext={handleNext} onBack={handleBack} />
     </Box>
   )
 }

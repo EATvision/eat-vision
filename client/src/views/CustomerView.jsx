@@ -3,11 +3,13 @@ import OverviewIcon from '@mui/icons-material/Dashboard'
 import DishesIcon from '@mui/icons-material/RestaurantMenu'
 import MenusIcon from '@mui/icons-material/MenuBook'
 import InfoIcon from '@mui/icons-material/InfoOutlined'
-import KitchenProvider from '../contexts/kitchen'
+import { Button, Typography } from '@mui/material'
+import KitchenSelector from 'components/KitchenSelector'
+import KitchenProvider from 'contexts/kitchen'
 import { t } from 'i18next'
 import ViewWrapper from './ViewWrapper'
 import { getToken } from 'utils/token'
-import KitchenSelector from 'components/KitchenSelector'
+import { Navigate } from 'react-router-dom'
 
 const drawerTabs = [
   {
@@ -33,7 +35,22 @@ const drawerTabs = [
 ]
 
 const CustomerView = () => {
-  const token = getToken()
+  // TODO: implement customer auth
+  const token = true
+
+  const [open, setOpen] = React.useState(false)
+
+  const handleDrawerOpen = () => {
+    setOpen(true)
+  }
+
+  const handleDrawerClose = () => {
+    setOpen(false)
+  }
+
+  const handleClickLogout = () => {
+    Navigate('/customers')
+  }
 
   return (
     <KitchenProvider>

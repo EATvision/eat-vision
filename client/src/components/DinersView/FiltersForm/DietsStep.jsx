@@ -10,19 +10,25 @@ import {
 
 import { useTranslation } from 'react-i18next'
 import { useDiets } from '../../../hooks/diets'
+import { useDinerUser } from 'contexts/diner'
+import { useKitchenById } from 'hooks/kitchens'
+import { useParams } from 'react-router-dom'
 
-function DietsSelector({ filters, setFilters, onNext }) {
+function DietsSelector({ onNext }) {
   const theme = useTheme()
   const { t } = useTranslation()
+  const dinerUser = useDinerUser()
+  const { kitchenId } = useParams()
+  const { kitchen } = useKitchenById(kitchenId)
 
   const { diets, isLoading } = useDiets()
 
   const handleChange = (e, value) => {
-    setFilters((currFilters) => ({ ...currFilters, diets: value }))
+    dinerUser.setFilters({ ...dinerUser.user.filters, diets: value })
   }
 
   const handleClickNoDiets = () => {
-    setFilters((currFilters) => ({ ...currFilters, diets: [] }))
+    dinerUser.setFilters({ ...dinerUser.user.filters, diets: [] })
     onNext()
   }
 
@@ -42,7 +48,7 @@ function DietsSelector({ filters, setFilters, onNext }) {
           size="small"
           color="primary"
           variant="outlined"
-          selected={filters.diets.length === 0}
+          selected={dinerUser.user.filters.diets.length === 0}
           onClick={handleClickNoDiets}
           value="none"
         >
@@ -55,7 +61,7 @@ function DietsSelector({ filters, setFilters, onNext }) {
       <ToggleButtonGroup
         fullWidth
         color="primary"
-        value={filters.diets}
+        value={dinerUser.user.filters.diets}
         onChange={handleChange}
         aria-label="diets"
         orientation="vertical"
@@ -66,13 +72,13 @@ function DietsSelector({ filters, setFilters, onNext }) {
             fullWidth
             key={diet.id}
             value={diet.id}
-            sx={{ justifyContent: 'flex-start', padding: theme.spacing(0) }}
+            sx={{ justifyContent: 'flex-start' }}
           >
             <Checkbox
               sx={{ pointerEvents: 'none' }}
-              checked={filters.diets.includes(diet.id)}
+              checked={dinerUser.user.filters.diets.includes(diet.id)}
             />
-            {t(diet.name.toLocaleLowerCase())}
+            {kitchen?.locale === 'he-IL' ? diet.translation_heb : diet.name}
           </ToggleButton>
         ))}
       </ToggleButtonGroup>

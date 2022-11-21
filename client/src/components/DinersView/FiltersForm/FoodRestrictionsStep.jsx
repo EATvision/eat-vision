@@ -17,35 +17,39 @@ import {
 
 import IngredientsSelector from './IngredientsSelector'
 import { useGetComponentLabel, useIngredientsByIds } from 'hooks/ingredients'
+import { useDinerUser } from 'contexts/diner'
 
-function FoodRestrictionsStep({ filters, setFilters, onNext }) {
+function FoodRestrictionsStep({ onNext }) {
   const theme = useTheme()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
+  const dinerUser = useDinerUser()
   const [filterType, setFilterType] = React.useState(null)
-  const [initialFilters, setInitialFilters] = React.useState(filters)
+  const [initialFilters, setInitialFilters] = React.useState(
+    dinerUser.user.filters
+  )
 
   const handleClickDone = () => {
     setFilterType(null)
-    setInitialFilters(filters)
+    setInitialFilters(dinerUser.user.filters)
   }
 
   const handleClickBack = () => {
     setFilterType(null)
-    setFilters(initialFilters)
+    dinerUser.setFilters(initialFilters)
   }
 
   const isNoRestrictions =
-    !filters.exclude.length &&
-    !filters.allergies.length &&
-    !filters.avoidOrReduce.length
+    !dinerUser.user.filters.exclude.length &&
+    !dinerUser.user.filters.allergies.length &&
+    !dinerUser.user.filters.avoidOrReduce.length
 
   const handleClickNoRestrictions = () => {
-    setFilters((currFilters) => ({
-      ...currFilters,
+    dinerUser.setFilters({
+      ...dinerUser.user.filters,
       exclude: [],
       allergies: [],
       avoidOrReduce: [],
-    }))
+    })
     onNext()
   }
 
@@ -79,21 +83,21 @@ function FoodRestrictionsStep({ filters, setFilters, onNext }) {
 
       <Box sx={{ textAlign: 'start' }}>
         <RestrictionFilter
-          filters={filters}
+          filters={dinerUser.user.filters}
           title={t('i_dont_eat_specific_foods')}
           type="exclude"
           onClick={handleClickSelectRestriction('exclude')}
         />
 
         <RestrictionFilter
-          filters={filters}
+          filters={dinerUser.user.filters}
           title={t('allergies')}
           type="allergies"
           onClick={handleClickSelectRestriction('allergies')}
         />
 
         <RestrictionFilter
-          filters={filters}
+          filters={dinerUser.user.filters}
           title={t('things_i_avoid_or_reduce')}
           type="avoidOrReduce"
           onClick={handleClickSelectRestriction('avoidOrReduce')}
@@ -109,8 +113,8 @@ function FoodRestrictionsStep({ filters, setFilters, onNext }) {
           sx={!fullScreen ? { minWidth: 500, minHeight: 500 } : {}}
         >
           <IngredientsSelector
-            filters={filters}
-            setFilters={setFilters}
+            filters={dinerUser.user.filters}
+            setFilters={dinerUser.setFilters}
             filterType={filterType}
             selectProps={{ defaultMenuIsOpen: true }}
           />
