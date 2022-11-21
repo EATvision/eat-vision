@@ -4,7 +4,7 @@ const keyBy = require('lodash/keyBy')
 const get = require('lodash/get')
 const _intersection = require('lodash/intersection')
 
-const { setAllChildIngredients } = require('../utils/dishes')
+const { setAllChildIngredients, setAllParentGroups } = require('../utils/dishes')
 
 const kitchens = require(('../../src/data/raw/kitchens.json'))
 const diets = require(('../../src/data/raw/diets.json'))
@@ -16,7 +16,6 @@ const workingHours = require(('../../src/data/raw/working_hours.json'))
 
 const dishes = require(('../../src/data/raw/dishes.json'))
 
-const groups = require(('../../src/data/raw/groups.json'))
 const recipes = require(('../../src/data/raw/recipes.json'))
 const choices_ingredients = require(('../../src/data/raw/choices_ingredients.json'))
 const choices_subdishes = require(('../../src/data/raw/choices_subdishes.json'))
@@ -29,6 +28,12 @@ const getIngSubIngredients = (ing) => {
   return allChildIngredients
 }
 
+const getAllParentGroups = (initialGroupIds) => {
+  let groups = []
+  initialGroupIds.forEach(groupId => setAllParentGroups(groups, groupId))
+  return groups
+}
+
 const modifiedIngredients = ingredients.map(ing => {
   const allIngredientComponentsIds = getIngSubIngredients(ing)
 
@@ -36,7 +41,10 @@ const modifiedIngredients = ingredients.map(ing => {
   allIngredientComponentsIds.forEach(ingId => {
     allGroupsOfIng = [...allGroupsOfIng, ...(ingredientsById[ingId]?.groups || [])]
   })
+
   allGroupsOfIng = [...new Set(allGroupsOfIng)]
+
+  const allllllllGroups = getAllParentGroups(allGroupsOfIng)
 
   const excludedInDiets = diets.reduce((acc, diet) => {
     if (_intersection(allGroupsOfIng, diet?.excluded_groups)?.length > 0) {
@@ -62,7 +70,7 @@ const choicesSubDishesById = keyBy(choices_subdishes, 'id')
 
 const modifiedDishes = dishes.map(dish => {
   const dishRecipe = recipesById[get(dish, 'recipe[0]')]
-  const choiceIngredients = get(choicesIngredientsById, `[${get(dishRecipe, 'Choice_ingredients[0]')}]`, {})
+  const choicesInDish = get(dishRecipe, 'Choice_ingredients', []).map(choiceId => choicesIngredientsById[choiceId])
   const choiceSubDishes = get(choicesSubDishesById, `[${get(dishRecipe, 'Choice_side_dish[0]')}]`, {})
   const addableIngredients = get(choicesIngredientsById, `[${get(dishRecipe, 'addable_ingridients[0]')}]`, {})
   const addableDishes = get(choicesSubDishesById, `[${get(dishRecipe, 'addable_dishs[0]')}]`, {})
@@ -80,38 +88,40 @@ const modifiedDishes = dishes.map(dish => {
       mandatory: get(dishRecipe, 'mandatory_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
       excludable: get(dishRecipe, 'excludable_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
       putaside: get(dishRecipe, 'putaside_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
-      choice: [
-        choiceIngredients.ingredient1 && {
-          type: 'ingredient',
-          id: choiceIngredients.ingredient1[0],
-          price: choiceIngredients.ingredient1_delta_price || Number(0)
-        },
-        choiceIngredients.ingredient2 && {
-          type: 'ingredient',
-          id: choiceIngredients.ingredient2[0],
-          price: choiceIngredients.ingredient2_delta_price || Number(0)
-        },
-        choiceIngredients.ingredient3 && {
-          type: 'ingredient',
-          id: choiceIngredients.ingredient3[0],
-          price: choiceIngredients.ingredient3_delta_price || Number(0)
-        },
-        choiceIngredients.ingredient4 && {
-          type: 'ingredient',
-          id: choiceIngredients.ingredient4[0],
-          price: choiceIngredients.ingredient4_delta_price || Number(0)
-        },
-        choiceIngredients.ingredient5 && {
-          type: 'ingredient',
-          id: choiceIngredients.ingredient5[0],
-          price: choiceIngredients.ingredient5_delta_price || Number(0)
-        },
-        choiceIngredients.ingredient6 && {
-          type: 'ingredient',
-          id: choiceIngredients.ingredient6[0],
-          price: choiceIngredients.ingredient6_delta_price || Number(0)
-        },
-      ].filter(Boolean),
+      choice: choicesInDish.map(choiceIngredients => {
+        return ([
+          choiceIngredients.ingredient1 && {
+            type: 'ingredient',
+            id: choiceIngredients.ingredient1[0],
+            price: choiceIngredients.ingredient1_delta_price || Number(0)
+          },
+          choiceIngredients.ingredient2 && {
+            type: 'ingredient',
+            id: choiceIngredients.ingredient2[0],
+            price: choiceIngredients.ingredient2_delta_price || Number(0)
+          },
+          choiceIngredients.ingredient3 && {
+            type: 'ingredient',
+            id: choiceIngredients.ingredient3[0],
+            price: choiceIngredients.ingredient3_delta_price || Number(0)
+          },
+          choiceIngredients.ingredient4 && {
+            type: 'ingredient',
+            id: choiceIngredients.ingredient4[0],
+            price: choiceIngredients.ingredient4_delta_price || Number(0)
+          },
+          choiceIngredients.ingredient5 && {
+            type: 'ingredient',
+            id: choiceIngredients.ingredient5[0],
+            price: choiceIngredients.ingredient5_delta_price || Number(0)
+          },
+          choiceIngredients.ingredient6 && {
+            type: 'ingredient',
+            id: choiceIngredients.ingredient6[0],
+            price: choiceIngredients.ingredient6_delta_price || Number(0)
+          },
+        ].filter(Boolean))
+      }),
       sideDish: [
         choiceSubDishes.Dish1 && {
           type: 'dish',

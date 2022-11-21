@@ -27,11 +27,9 @@ base('tblZl6c3RepInX9BV')
       locale: r.get('locale'),
     }))
     kitchens = data
+    fs.writeFileSync('./src/data/raw/kitchens.json', JSON.stringify(kitchens))
+    console.log('finished kitchens')
   })
-
-setTimeout(() => {
-  fs.writeFileSync('./src/data/raw/kitchens.json', JSON.stringify(kitchens))
-}, 10000)
 
 //locations
 let locations = []
@@ -47,14 +45,12 @@ base('tblNdngecQWNjn6E0')
       kithen: r.get('Restaurant'),
     }))
     locations = data
+    fs.writeFileSync(
+      './src/data/raw/locations.json',
+      JSON.stringify(locations)
+    )
+    console.log('finished locations')
   })
-
-setTimeout(() => {
-  fs.writeFileSync(
-    './src/data/raw/locations.json',
-    JSON.stringify(locations)
-  )
-}, 10000)
 
 //menus
 let menus = []
@@ -73,11 +69,9 @@ base('tbl9JON90N2fzyNik')
       dishes: r.get('Dishes'),
     }))
     menus = data
+    fs.writeFileSync('./src/data/raw/menus.json', JSON.stringify(menus))
+    console.log('finished menus')
   })
-
-setTimeout(() => {
-  fs.writeFileSync('./src/data/raw/menus.json', JSON.stringify(menus))
-}, 10000)
 
 //categories
 let categories = []
@@ -91,14 +85,12 @@ base('tblkCqIh4FIs6rVXE')
       dishes: r.get('Dishes'),
     }))
     categories = data
+    fs.writeFileSync(
+      './src/data/raw/categories.json',
+      JSON.stringify(categories)
+    )
+    console.log('finished categories')
   })
-
-setTimeout(() => {
-  fs.writeFileSync(
-    './src/data/raw/categories.json',
-    JSON.stringify(categories)
-  )
-}, 10000)
 
 //workingHours
 let working_hours = []
@@ -112,14 +104,12 @@ base('tbl6IbHA11rj3xQ4r')
       end: r.get('end'),
     }))
     working_hours = data
+    fs.writeFileSync(
+      './src/data/raw/working_hours.json',
+      JSON.stringify(working_hours)
+    )
+    console.log('finished working_hours')
   })
-
-setTimeout(() => {
-  fs.writeFileSync(
-    './src/data/raw/working_hours.json',
-    JSON.stringify(working_hours)
-  )
-}, 10000)
 
 //ingredients
 let ingredients = []
@@ -138,21 +128,18 @@ base('tblotwNoQ0o3H0zVN')
       translation_heb: r.get('translation_heb'),
     }))
     ingredients = data
-  })
+    const transformStream = JSONStream.stringify()
+    const outputStream = fs.createWriteStream(
+      './src/data/raw/ingredients.json'
+    )
+    transformStream.pipe(outputStream)
+    ingredients.forEach(transformStream.write)
+    transformStream.end()
 
-setTimeout(() => {
-  const transformStream = JSONStream.stringify()
-  const outputStream = fs.createWriteStream(
-    './src/data/raw/ingredients.json'
-  )
-  transformStream.pipe(outputStream)
-  ingredients.forEach(transformStream.write)
-  transformStream.end()
-
-  outputStream.on('finish', function handleFinish() {
-    console.log('Done ingredients')
+    outputStream.on('finish', function handleFinish() {
+      console.log('finished ingredients')
+    })
   })
-}, 20000)
 
 // groups tblya8ylojdR69Sbm
 let groups = []
@@ -163,22 +150,20 @@ base('tblya8ylojdR69Sbm')
       id: r.getId(),
       display_name: r.get('display_name'),
       translation_heb: r.get('translation_heb'),
-      sub_groups: r.get('sub_groups'),
+      subGroups: r.get('sub_groups'),
+      parentGroups: r.get('parent_groups'),
     }))
     groups = data
-  })
+    const transformStream = JSONStream.stringify()
+    const outputStream = fs.createWriteStream('./src/data/raw/groups.json')
+    transformStream.pipe(outputStream)
+    groups.forEach(transformStream.write)
+    transformStream.end()
 
-setTimeout(() => {
-  const transformStream = JSONStream.stringify()
-  const outputStream = fs.createWriteStream('./src/data/raw/groups.json')
-  transformStream.pipe(outputStream)
-  groups.forEach(transformStream.write)
-  transformStream.end()
-
-  outputStream.on('finish', function handleFinish() {
-    console.log('Done')
+    outputStream.on('finish', function handleFinish() {
+      console.log('finished groups')
+    })
   })
-}, 10000)
 
 //dishes
 let dishes = []
@@ -197,19 +182,16 @@ base('tblLnh1hSZ8GTznfy')
       kitchenIds: r.get('kitchenId'),
     }))
     dishes = data
-  })
+    const transformStream = JSONStream.stringify()
+    const outputStream = fs.createWriteStream('./src/data/raw/dishes.json')
+    transformStream.pipe(outputStream)
+    dishes.forEach(transformStream.write)
+    transformStream.end()
 
-setTimeout(() => {
-  const transformStream = JSONStream.stringify()
-  const outputStream = fs.createWriteStream('./src/data/raw/dishes.json')
-  transformStream.pipe(outputStream)
-  dishes.forEach(transformStream.write)
-  transformStream.end()
-
-  outputStream.on('finish', function handleFinish() {
-    console.log('Done')
+    outputStream.on('finish', function handleFinish() {
+      console.log('finished dishes')
+    })
   })
-}, 10000)
 
 //recipes
 let recipes = []
@@ -227,11 +209,10 @@ base('tblrTZOqWSoDnXJK4')
       addable_dishs: r.get('addable_dishs'),
     }))
     recipes = data
-  })
+    fs.writeFileSync('./src/data/raw/recipes.json', JSON.stringify(recipes))
+    console.log('finished recipes')
 
-setTimeout(() => {
-  fs.writeFileSync('./src/data/raw/recipes.json', JSON.stringify(recipes))
-}, 10000)
+  })
 
 //choices_ingredients
 let choices_ingredients = []
@@ -252,14 +233,12 @@ base('tbl8Mk37Xtrc6kgyG')
       ingredient5_delta_price: r.get('ingredient5_delta_price'),
     }))
     choices_ingredients = data
+    fs.writeFileSync(
+      './src/data/raw/choices_ingredients.json',
+      JSON.stringify(choices_ingredients)
+    )
+    console.log('finished choices_ingredients')
   })
-
-setTimeout(() => {
-  fs.writeFileSync(
-    './src/data/raw/choices_ingredients.json',
-    JSON.stringify(choices_ingredients)
-  )
-}, 10000)
 
 //choices_subdishes
 let choices_subdishes = []
@@ -283,14 +262,12 @@ base('tblSOWhCrvbHioMVL')
       Dish6_delta_price: r.get('Dish6_delta_price'),
     }))
     choices_subdishes = data
+    fs.writeFileSync(
+      './src/data/raw/choices_subdishes.json',
+      JSON.stringify(choices_subdishes)
+    )
+    console.log('finished choices_subdishes')
   })
-
-setTimeout(() => {
-  fs.writeFileSync(
-    './src/data/raw/choices_subdishes.json',
-    JSON.stringify(choices_subdishes)
-  )
-}, 10000)
 
 //diets
 let diets = []
@@ -304,8 +281,6 @@ base('tblJXmaeTIA7dp4oJ')
       excluded_groups: r.get('excluded_groups'),
     }))
     diets = data
+    fs.writeFileSync('./src/data/raw/diets.json', JSON.stringify(diets))
+    console.log('finished diets')
   })
-
-setTimeout(() => {
-  fs.writeFileSync('./src/data/raw/diets.json', JSON.stringify(diets))
-}, 10000)

@@ -62,7 +62,8 @@ function ChangesInfo({ data }) {
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" scope="row">
-                {getComponentLabel(ingredientsById?.[row[0]])}
+                {ingredientsById?.[row[0]] &&
+                  getComponentLabel(ingredientsById?.[row[0]])}
               </TableCell>
               <TableCell>{row[1].excludable && <CheckIcon />}</TableCell>
               <TableCell>{row[1].putaside && <CheckIcon />}</TableCell>

@@ -781,6 +781,7 @@
     "category": [
       "recBoXPzX6TwCnY6z"
     ],
+    "price": 77,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
     ]
@@ -843,6 +844,7 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "price": 98,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
     ]
@@ -882,6 +884,7 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "price": 38,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
     ]
@@ -894,6 +897,7 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "price": 98,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
     ]
@@ -1409,6 +1413,7 @@
     "category": [
       "recXpNrVlnXVfiUJv"
     ],
+    "price": 53,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
     ]
@@ -3695,6 +3700,7 @@
     "id": "rec6PNUDCxc3pFF2z",
     "name": "סלט מלכות",
     "description": "סלט ירוק של חסה סלנובה, פרי העונה, גבינת בושה ושקדים קלויים ברוטב דבש ולימון.",
+    "longDescription": "ניתן להחליף את גבינת הבושה בגבינת פטה. ",
     "image": [
       {
         "id": "attav3aaKGwfrhSxd",
