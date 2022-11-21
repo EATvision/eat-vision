@@ -1,5 +1,9 @@
 import {
-  Autocomplete, Checkbox, CircularProgress, createFilterOptions, TextField,
+  Autocomplete,
+  Checkbox,
+  CircularProgress,
+  createFilterOptions,
+  TextField,
 } from '@mui/material'
 import axios from 'axios'
 import { t } from 'i18next'
@@ -18,9 +22,7 @@ const getIngredientsByIds = async (ids) => {
   return data
 }
 
-function IngredientsSelector({
-  filters, setFilters, filterType, disabled,
-}) {
+function IngredientsSelector({ filters, setFilters, filterType, disabled }) {
   const [restrictedIngredients, setRestrictedIngredients] = React.useState([])
   const [inputValue, setInputValue] = React.useState('')
   const [options, setOptions] = React.useState([])
@@ -32,7 +34,7 @@ function IngredientsSelector({
       setRestrictedIngredients(data)
     }
     setIngredients()
-  }, [filters])
+  }, [filterType, filters])
 
   // const { ingredients, isLoading, isError } = useIngredients(search)
 
@@ -42,12 +44,15 @@ function IngredientsSelector({
 
   const handleChangeIngredients = (e, value) => {
     setRestrictedIngredients(value)
-    setFilters((currFilters) => ({ ...currFilters, [filterType]: value?.map((v) => v.id) || [] }))
+    setFilters({
+      ...filters,
+      [filterType]: value?.map((v) => v.id) || [],
+    })
   }
 
   React.useEffect(() => {
-    let active = true;
-    (async () => {
+    let active = true
+    ;(async () => {
       setLoading(true)
       const data = await loadOptions(inputValue)
 
@@ -60,11 +65,12 @@ function IngredientsSelector({
     return () => {
       active = false
     }
-  }, [inputValue])
+  }, [inputValue, restrictedIngredients])
 
   const handleClickAddNewIngredient = (ing) => () => {
     console.log(`Adding new ingredient ${ing} request `)
   }
+  // eslint-disable-next-line no-unused-vars
   const handleFilterOptions = (ops, params) => {
     const filtered = filter(ops, params)
 
@@ -109,20 +115,20 @@ function IngredientsSelector({
             ...params.InputProps,
             endAdornment: (
               <>
-                {loading ? <CircularProgress color="inherit" size={20} /> : null}
+                {loading ? (
+                  <CircularProgress color="inherit" size={20} />
+                ) : null}
                 {!disabled && params.InputProps.endAdornment}
               </>
             ),
           }}
         />
       )}
-      renderOption={({ fullWidth, ...props }, option, { selected }) => (
+      // eslint-disable-next-line no-unused-vars
+      renderOption={({ fullWidth, ...props }, option, { selected }) =>
         option.name ? (
           <li {...props} key={option.id}>
-            <Checkbox
-              style={{ marginRight: 8 }}
-              checked={selected}
-            />
+            <Checkbox style={{ marginRight: 8 }} checked={selected} />
             {getOptionLabel(option)}
           </li>
         ) : (
@@ -132,10 +138,9 @@ function IngredientsSelector({
             onClick={handleClickAddNewIngredient(option.title)}
           >
             {option.title}
-
           </div>
         )
-      )}
+      }
     />
   )
 }

@@ -1,30 +1,33 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 
 const KitchenContext = React.createContext(null)
 
 function KitchenProvider({ children }) {
-  const [kitchenId, setKitchenId] = React.useState(localStorage.getItem('kitchenId'))
+  const [kitchenId, setKitchenId] = React.useState(
+    localStorage.getItem('kitchenId')
+  )
 
-  const handleSetKitchenId = async (updatedValue) => {
+  const handleSetKitchenId = useCallback(async (updatedValue) => {
     setKitchenId(updatedValue)
     localStorage.setItem('kitchenId', updatedValue)
-  }
+  }, [])
 
-  const handleClearKitchenId = () => {
+  const handleClearKitchenId = useCallback(() => {
     setKitchenId(null)
     localStorage.removeItem('kitchenId')
-  }
+  }, [])
 
-  const value = React.useMemo(() => ({
-    kitchenId,
-    onSetKitchenId: handleSetKitchenId,
-    onClearKitchenId: handleClearKitchenId,
-  }), [kitchenId, handleSetKitchenId, handleClearKitchenId])
+  const value = React.useMemo(
+    () => ({
+      kitchenId,
+      onSetKitchenId: handleSetKitchenId,
+      onClearKitchenId: handleClearKitchenId,
+    }),
+    [kitchenId, handleSetKitchenId, handleClearKitchenId]
+  )
 
   return (
-    <KitchenContext.Provider value={value}>
-      {children}
-    </KitchenContext.Provider>
+    <KitchenContext.Provider value={value}>{children}</KitchenContext.Provider>
   )
 }
 

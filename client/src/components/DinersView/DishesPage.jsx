@@ -2,14 +2,12 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import {
-  Box, Paper, Tab, Tabs, Typography, useTheme,
-} from '@mui/material'
+import { Box, Paper, Tab, Tabs, Typography, useTheme } from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
 import Dish from './DishCard/Dish'
 
-function DishesPage({ dishes, filters }) {
+function DishesPage({ dishes }) {
   const theme = useTheme()
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
@@ -17,25 +15,41 @@ function DishesPage({ dishes, filters }) {
   const [showFilteredOutDishes] = React.useState(false)
   const [currentCategory, setCurrentCategory] = React.useState(0)
 
-  const { categories, isLoading } = useKitchenCategoriesByMenu(kitchenId, menuId)
+  const { categories, isLoading } = useKitchenCategoriesByMenu(
+    kitchenId,
+    menuId
+  )
 
-  const defaultCategories = categories?.reduce((result, c) => ({
-    ...result,
-    [c.id]: [],
-  }), {}) || {}
+  const defaultCategories = React.useMemo(
+    () =>
+      categories?.reduce(
+        (result, c) => ({
+          ...result,
+          [c.id]: [],
+        }),
+        {}
+      ) || {},
+    [categories]
+  )
 
-  const orderedCategories = [...Object.values(categories || {}).sort((a, b) => a.position - b.position), { id: 'no_category', name: t('other') }]
+  const orderedCategories = [
+    ...Object.values(categories || {}).sort((a, b) => a.position - b.position),
+    { id: 'no_category', name: t('other') },
+  ]
 
   const orderedDishesByCategoryId = React.useMemo(
-    () => (categories ? dishes.filtered.reduce((result, d) => {
-      if (!showFilteredOutDishes && d.isMainDishFilteredOut) return result
-      const categoryId = d?.categories?.[0] || 'no_category'
-      return ({
-        ...result,
-        [categoryId]: [...(result[categoryId] || []), d],
-      })
-    }, defaultCategories) : {}),
-    [dishes, categories],
+    () =>
+      categories
+        ? dishes.filtered.reduce((result, d) => {
+          if (!showFilteredOutDishes && d.isMainDishFilteredOut) return result
+          const categoryId = d?.categories?.[0] || 'no_category'
+          return {
+            ...result,
+            [categoryId]: [...(result[categoryId] || []), d],
+          }
+        }, defaultCategories)
+        : {},
+    [categories, dishes.filtered, defaultCategories, showFilteredOutDishes]
   )
 
   const handleChangeCategory = (event, newValue) => {
@@ -58,24 +72,25 @@ function DishesPage({ dishes, filters }) {
             textColor="secondary"
             visibleScrollbar
           >
-            {
-            orderedCategories.filter((c) => (orderedDishesByCategoryId?.[c.id]?.length > 0)).map((category) => (
-              <Tab
-                key={category.id}
-                label={category.name}
-                href={`#${category.id}`}
-              />
-            ))
-              }
+            {orderedCategories
+              .filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
+              .map((category) => (
+                <Tab
+                  key={category.id}
+                  label={category.name}
+                  href={`#${category.id}`}
+                />
+              ))}
           </Tabs>
         </Paper>
       </div>
 
-      <div className="container relative overflow-auto mx-auto">
-        {
-          orderedCategories?.filter((c) => (orderedDishesByCategoryId?.[c.id]?.length > 0)).map((category) => (
+      <Box sx={{ overflow: 'auto' }}>
+        {orderedCategories
+          ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
+          .map((category) => (
             <div
-              className="container mx-auto flex flex-col justify-center items-start gap-2"
+              className="mx-auto flex flex-col justify-center items-start gap-2"
               key={category.id}
               id={category.id}
             >
@@ -103,16 +118,13 @@ function DishesPage({ dishes, filters }) {
                 >
                   {category?.name}
                 </Typography>
-                {
-                  orderedDishesByCategoryId?.[category.id]?.map((dish) => (
-                    <Dish key={dish.id} data={dish} />
-                  ))
-                }
+                {orderedDishesByCategoryId?.[category.id]?.map((dish) => (
+                  <Dish key={dish.id} data={dish} />
+                ))}
               </Box>
             </div>
-          ))
-        }
-      </div>
+          ))}
+      </Box>
     </>
   )
 }

@@ -1,9 +1,5 @@
 import React from 'react'
-import {
-  Box, IconButton, List, ListItem, ListItemButton, ListItemText, Paper, Typography, useTheme,
-} from '@mui/material'
-import EditIcon from '@mui/icons-material/Edit'
-import RemoveIcon from '@mui/icons-material/Remove'
+import { List, ListItem, ListItemButton, ListItemText } from '@mui/material'
 
 import { useNavigate } from 'react-router-dom'
 import { useDishes } from '../../../api/dishes'
@@ -15,9 +11,9 @@ function DishesList() {
 
   return (
     <List>
-      {
-        dishes?.map((dish) => (<Dish key={dish._id} data={dish} />))
-      }
+      {dishes?.map((dish) => (
+        <Dish key={dish._id} data={dish} />
+      ))}
     </List>
   )
 }

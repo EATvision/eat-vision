@@ -1,3 +1,4 @@
+/* eslint-disable react/no-direct-mutation-state */
 /* eslint-disable react/require-default-props */
 /* eslint-disable react/no-find-dom-node */
 /* eslint-disable react/destructuring-assignment */
@@ -73,16 +74,17 @@ class WorkingHours extends React.Component {
             ? false
             : _.any(
               data,
-              (ts) => (ts[0] <= f0 && ts[1] >= f1)
-                  || (ts[0] > ts[1]
-                    && ((f0 >= ts[0] && f1 <= 24.0) || (f1 <= ts[1] && f0 >= 0))),
+              (ts) =>
+                (ts[0] <= f0 && ts[1] >= f1) ||
+                  (ts[0] > ts[1] &&
+                    ((f0 >= ts[0] && f1 <= 24.0) || (f1 <= ts[1] && f0 >= 0)))
             ),
         // is this a full-hour or half-hour cell
         hour: !isHalf,
         // from time as string (hh:mm)
         timeFrom:
-          (hourFrom < 10 ? `0${hourFrom}` : hourFrom)
-          + (isHalf ? ':30' : ':00'),
+          (hourFrom < 10 ? `0${hourFrom}` : hourFrom) +
+          (isHalf ? ':30' : ':00'),
         // to time as string (hh:mm)
         timeTo:
           (hourTo < 10 ? `0${hourTo}` : hourTo) + (!isHalf ? ':30' : ':00'),
@@ -118,11 +120,7 @@ class WorkingHours extends React.Component {
 
   componentWillUnmount() {
     document.removeEventListener('mouseup', this.mouseUpEventHandler, false)
-    document.removeEventListener(
-      'mousemove',
-      this.mouseMoveEventHandler,
-      false,
-    )
+    document.removeEventListener('mousemove', this.mouseMoveEventHandler, false)
     document.removeEventListener('touchstart', this.touchStartEventHandler, {
       capture: false,
       passive: false,
@@ -220,15 +218,15 @@ class WorkingHours extends React.Component {
         const rc = domNode.getBoundingClientRect()
 
         if (
-          (y >= rc.y && y < rc.y + rc.height)
-          || (d === 0 && y < rc.y)
-          || (d === this.state.days.length - 1 && y > rc.y + rc.height - 1)
+          (y >= rc.y && y < rc.y + rc.height) ||
+          (d === 0 && y < rc.y) ||
+          (d === this.state.days.length - 1 && y > rc.y + rc.height - 1)
         ) {
           if (
-            (x >= rc.x && x < rc.x + rc.width)
-            || (i === 0 && x < rc.x)
-            || (i === this.state.days[d].timeCells.length - 1
-              && x > rc.x + rc.width - 1)
+            (x >= rc.x && x < rc.x + rc.width) ||
+            (i === 0 && x < rc.x) ||
+            (i === this.state.days[d].timeCells.length - 1 &&
+              x > rc.x + rc.width - 1)
           ) {
             this.updateSelectInternal(this.state.days[d].timeCells[i], domNode)
             break
@@ -355,7 +353,7 @@ class WorkingHours extends React.Component {
             name={`${this.props.fieldName}[${day.key}]`}
             type="hidden"
             value=""
-          />,
+          />
         )
       }
 
@@ -368,7 +366,7 @@ class WorkingHours extends React.Component {
             name={`${this.props.fieldName}[${day.key}][][from][hours]`}
             type="hidden"
             value={from[0]}
-          />,
+          />
         )
         dayWorkingHoursOutputs.push(
           <input
@@ -376,7 +374,7 @@ class WorkingHours extends React.Component {
             name={`${this.props.fieldName}[${day.key}][][from][minutes]`}
             type="hidden"
             value={from[1]}
-          />,
+          />
         )
         dayWorkingHoursOutputs.push(
           <input
@@ -384,7 +382,7 @@ class WorkingHours extends React.Component {
             name={`${this.props.fieldName}[${day.key}][][to][hours]`}
             type="hidden"
             value={to[0]}
-          />,
+          />
         )
         dayWorkingHoursOutputs.push(
           <input
@@ -392,7 +390,7 @@ class WorkingHours extends React.Component {
             name={`${this.props.fieldName}[${day.key}][][to][minutes]`}
             type="hidden"
             value={to[1]}
-          />,
+          />
         )
       })
     }

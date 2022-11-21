@@ -27,10 +27,8 @@ class TimeCell extends React.Component {
     const classNames = `time-cell time-cell-${di}-${tf}${s}${h}`
 
     return (
-      // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
       <td
         ref={(input) => {
-          // eslint-disable-next-line react/no-unused-class-component-methods
           this.elementRef = input
         }}
         className={classNames}

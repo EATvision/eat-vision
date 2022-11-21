@@ -1,23 +1,31 @@
 import React from 'react'
 import {
-  Divider, ToggleButton, ToggleButtonGroup, useTheme, Box, Checkbox,
+  Divider,
+  ToggleButton,
+  ToggleButtonGroup,
+  useTheme,
+  Box,
+  Checkbox,
 } from '@mui/material'
 
 import { useTranslation } from 'react-i18next'
 import { useDiets } from '../../../hooks/diets'
+import { useDinerUser } from 'contexts/diner'
 
-function DietsSelector({ filters, setFilters }) {
+function DietsSelector({ onNext }) {
   const theme = useTheme()
   const { t } = useTranslation()
+  const dinerUser = useDinerUser()
 
   const { diets, isLoading } = useDiets()
 
   const handleChange = (e, value) => {
-    setFilters((currFilters) => ({ ...currFilters, diets: value }))
+    dinerUser.setFilters({ ...dinerUser.user.filters, diets: value })
   }
 
   const handleClickNoDiets = () => {
-    setFilters((currFilters) => ({ ...currFilters, diets: [] }))
+    dinerUser.setFilters({ ...dinerUser.user.filters, diets: [] })
+    onNext()
   }
 
   if (isLoading) return <div>LOADING</div>
@@ -36,7 +44,7 @@ function DietsSelector({ filters, setFilters }) {
           size="small"
           color="primary"
           variant="outlined"
-          selected={filters.diets.length === 0}
+          selected={dinerUser.user.filters.diets.length === 0}
           onClick={handleClickNoDiets}
           value="none"
         >
@@ -49,29 +57,26 @@ function DietsSelector({ filters, setFilters }) {
       <ToggleButtonGroup
         fullWidth
         color="primary"
-        value={filters.diets}
+        value={dinerUser.user.filters.diets}
         onChange={handleChange}
         aria-label="diets"
         orientation="vertical"
       >
-        {
-            diets.map((diet) => (
-              <ToggleButton
-                size="small"
-                fullWidth
-                key={diet.id}
-                value={diet.id}
-                sx={{ justifyContent: 'flex-start', padding: theme.spacing(0) }}
-              >
-                <Checkbox
-                  sx={{ pointerEvents: 'none' }}
-                  checked={filters.diets.includes(diet.id)}
-                />
-                {t(diet.name.toLocaleLowerCase())}
-              </ToggleButton>
-            ))
-            }
-
+        {diets.map((diet) => (
+          <ToggleButton
+            size="small"
+            fullWidth
+            key={diet.id}
+            value={diet.id}
+            sx={{ justifyContent: 'flex-start' }}
+          >
+            <Checkbox
+              sx={{ pointerEvents: 'none' }}
+              checked={dinerUser.user.filters.diets.includes(diet.id)}
+            />
+            {t(diet.name.toLocaleLowerCase())}
+          </ToggleButton>
+        ))}
       </ToggleButtonGroup>
     </Box>
   )
