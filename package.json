@@ -5,7 +5,7 @@
   "main": "server/index.js",
   "scripts": {
     "start": "node ./server/index.js",
-    "build": "cd server && npm install && cd ../ && cd client && npm install && npm run build"
+    "build": "cd server && npm install && cd .. && cd client && npm install && npm run build && cd .."
   },
   "engines": {
     "node": "16.14.2"
