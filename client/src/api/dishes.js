@@ -14,3 +14,11 @@ export const removeDish = async (dishId) => {
   const { data } = await axios.delete(`/api/v2/dishes/${dishId}`)
   return data
 }
+
+export const postSearchDishes = async (filters, { kitchenId, menuId }) => {
+  const { data } = await axios.post(
+    `/api/kitchens/${kitchenId}/menus/${menuId}/dishes/search`,
+    filters
+  )
+  return data
+}

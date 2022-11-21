@@ -6,20 +6,20 @@ const _intersection = require('lodash/intersection')
 
 const { setAllChildIngredients } = require('../utils/dishes')
 
-const kitchens = require(('../../server/data/raw/kitchens.json'))
-const diets = require(('../../server/data/raw/diets.json'))
-const ingredients = require(('../../server/data/raw/ingredients.json'))
-const categories = require(('../../server/data/raw/categories.json'))
-const menus = require(('../../server/data/raw/menus.json'))
-const locations = require(('../../server/data/raw/locations.json'))
-const workingHours = require(('../../server/data/raw/working_hours.json'))
+const kitchens = require(('../../src/data/raw/kitchens.json'))
+const diets = require(('../../src/data/raw/diets.json'))
+const ingredients = require(('../../src/data/raw/ingredients.json'))
+const categories = require(('../../src/data/raw/categories.json'))
+const menus = require(('../../src/data/raw/menus.json'))
+const locations = require(('../../src/data/raw/locations.json'))
+const workingHours = require(('../../src/data/raw/working_hours.json'))
 
-const dishes = require(('../../server/data/raw/dishes.json'))
+const dishes = require(('../../src/data/raw/dishes.json'))
 
-const groups = require(('../../server/data/raw/groups.json'))
-const recipes = require(('../../server/data/raw/recipes.json'))
-const choices_ingredients = require(('../../server/data/raw/choices_ingredients.json'))
-const choices_subdishes = require(('../../server/data/raw/choices_subdishes.json'))
+const groups = require(('../../src/data/raw/groups.json'))
+const recipes = require(('../../src/data/raw/recipes.json'))
+const choices_ingredients = require(('../../src/data/raw/choices_ingredients.json'))
+const choices_subdishes = require(('../../src/data/raw/choices_subdishes.json'))
 
 const ingredientsById = keyBy(ingredients, 'id')
 
@@ -212,16 +212,16 @@ const modifiedDishes = dishes.map(dish => {
   }
 })
 
-fs.writeFileSync('./server/data/new/kitchens.json', JSON.stringify(kitchens))
-fs.writeFileSync('./server/data/new/diets.json', JSON.stringify(diets))
-fs.writeFileSync('./server/data/new/menus.json', JSON.stringify(menus))
-fs.writeFileSync('./server/data/new/locations.json', JSON.stringify(locations))
-fs.writeFileSync('./server/data/new/workingHours.json', JSON.stringify(workingHours))
+fs.writeFileSync('./src/data/new/kitchens.json', JSON.stringify(kitchens))
+fs.writeFileSync('./src/data/new/diets.json', JSON.stringify(diets))
+fs.writeFileSync('./src/data/new/menus.json', JSON.stringify(menus))
+fs.writeFileSync('./src/data/new/locations.json', JSON.stringify(locations))
+fs.writeFileSync('./src/data/new/workingHours.json', JSON.stringify(workingHours))
 
-fs.writeFileSync('./server/data/new/categories.json', JSON.stringify(categories))
+fs.writeFileSync('./src/data/new/categories.json', JSON.stringify(categories))
 
 const transformStreamIngredients = JSONStream.stringify()
-const outputStreamIngredients = fs.createWriteStream('./server/data/new/ingredients.json')
+const outputStreamIngredients = fs.createWriteStream('./src/data/new/ingredients.json')
 transformStreamIngredients.pipe(outputStreamIngredients)
 modifiedIngredients.forEach(transformStreamIngredients.write)
 transformStreamIngredients.end()
@@ -234,7 +234,7 @@ outputStreamIngredients.on(
 )
 
 const transformStreamDishes = JSONStream.stringify()
-const outputStreamDishes = fs.createWriteStream('./server/data/new/dishes.json')
+const outputStreamDishes = fs.createWriteStream('./src/data/new/dishes.json')
 transformStreamDishes.pipe(outputStreamDishes)
 modifiedDishes.forEach(transformStreamDishes.write)
 transformStreamDishes.end()

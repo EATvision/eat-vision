@@ -1,5 +1,8 @@
 export default {
-  already_signed_in: 'already signed in',
+  register_or_sign_in: 'register/sign in',
+  already_registered: 'already registered',
+  signed_in_user: 'signed in user',
+  anonymus: 'anonymus user',
   sign_in: 'sign in',
   'Welcome to React': 'hello',
   hi_im_your_personal_waiter: 'Hello, I’m Dawn happy to assist you',
@@ -83,4 +86,14 @@ export default {
   expand: 'expand',
   collapse: 'collapse',
   logout: 'logout',
+  login: 'login',
+  enter_phone_number: 'Enter phone number',
+  login_plea: 'Would you please login?',
+  login_plea_subtext: 'This way we can recodnize you also for the next time',
+  no_login: 'without login',
+  dish_possible_changes: 'Dish Possible Changes',
+  ingredient: 'ingredient',
+  remove: 'remove',
+  put_aside: 'put aside',
+
 }

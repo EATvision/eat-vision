@@ -18,6 +18,13 @@ const StyledFab = styled(Fab)({
   borderRadius: 100,
 })
 
+const LtrBox = styled(Box)`
+  /* @noflip */
+  direction: ltr;
+  display: flex;
+  align-items: end;
+`
+
 function Footer({ dishes, showWaiterBtn }) {
   const theme = useTheme()
   return (
@@ -37,24 +44,27 @@ function Footer({ dishes, showWaiterBtn }) {
     >
       <MenuSelector />
 
-      {showWaiterBtn && (
-        <StyledFab
-          sx={{ border: `1px solid ${theme.palette.primary.main}` }}
-          aria-label="add"
-          variant="contained"
-        >
-          <Avatar
-            src={waiterSrc}
-            sx={{
-              width: WAITER_AVATAR_WIDTH,
-              height: WAITER_AVATAR_WIDTH,
-            }}
-          />
-          {/* <Typography>
+      {
+        showWaiterBtn
+          && (
+            <StyledFab 
+              sx={{ border: `1px solid ${theme.palette.primary.main}` }}
+              aria-label="add"
+              variant="contained"
+            >
+              <Avatar
+                src={waiterSrc}
+                sx={{
+                  width: WAITER_AVATAR_WIDTH,
+                  height: WAITER_AVATAR_WIDTH,
+                }}
+              />
+              {/* <Typography>
               Need Help?
             </Typography> */}
-        </StyledFab>
-      )}
+            </StyledFab>
+          )
+      }
 
       <Box sx={{ flexGrow: 1 }} />
 
@@ -76,12 +86,12 @@ function OptionsContainer({ dishes }) {
         flex: 1,
       }}
     >
-      <Box sx={{ display: 'flex', alignItems: 'end', direction: 'ltr' }}>
+      <LtrBox>
         <Typography sx={{ fontSize: '1.2rem' }}>
           {filteredDishes.length}/
         </Typography>
         <Typography>{dishes.total.length}</Typography>
-      </Box>
+      </LtrBox>
 
       <Typography sx={{ margin: `0 ${theme.spacing(1)}`, fontSize: '1.2rem' }}>
         {t('options').toLocaleUpperCase()}

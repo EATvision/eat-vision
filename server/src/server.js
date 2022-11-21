@@ -33,10 +33,10 @@ const createServer = () => {
   app.use('/api/v2', apiV2Routes)
   app.use('/verify', verifyRoutes)
 
-  app.use(express.static(path.resolve(__dirname, '../client/build')))
+  app.use(express.static(path.resolve(__dirname, '../../client/build')))
 
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'))
+    res.sendFile(path.resolve(__dirname, '../../client/build', 'index.html'))
   })
 
   app.use(errorHandler)

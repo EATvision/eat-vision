@@ -1,42 +1,56 @@
 import { t } from 'i18next'
 import React from 'react'
 import {
-  Divider, useTheme, Box, ToggleButtonGroup, ToggleButton, Checkbox, Button,
-  DialogActions, DialogContent, useMediaQuery, Dialog, Chip,
+  Divider,
+  useTheme,
+  Box,
+  ToggleButtonGroup,
+  ToggleButton,
+  Checkbox,
+  Button,
+  DialogActions,
+  DialogContent,
+  useMediaQuery,
+  Dialog,
+  Chip,
 } from '@mui/material'
 
 import IngredientsSelector from './IngredientsSelector'
-import { useGetComponentLabel, useIngredientsByIds } from '../../../hooks/ingredients'
+import { useGetComponentLabel, useIngredientsByIds } from 'hooks/ingredients'
+import { useDinerUser } from 'contexts/diner'
 
-function FoodRestrictionsStep({ filters, setFilters }) {
+function FoodRestrictionsStep({ onNext }) {
   const theme = useTheme()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
+  const dinerUser = useDinerUser()
   const [filterType, setFilterType] = React.useState(null)
-  const [initialFilters, setInitialFilters] = React.useState(filters)
+  const [initialFilters, setInitialFilters] = React.useState(
+    dinerUser.user.filters
+  )
 
   const handleClickDone = () => {
     setFilterType(null)
-    setInitialFilters(filters)
+    setInitialFilters(dinerUser.user.filters)
   }
 
   const handleClickBack = () => {
     setFilterType(null)
-    setFilters(initialFilters)
+    dinerUser.setFilters(initialFilters)
   }
 
-  const isNoRestrictions = (
-    !filters.exclude.length
-    && !filters.allergies.length
-    && !filters.avoidOrReduce.length
-  )
+  const isNoRestrictions =
+    !dinerUser.user.filters.exclude.length &&
+    !dinerUser.user.filters.allergies.length &&
+    !dinerUser.user.filters.avoidOrReduce.length
 
   const handleClickNoRestrictions = () => {
-    setFilters((currFilters) => ({
-      ...currFilters,
+    dinerUser.setFilters({
+      ...dinerUser.user.filters,
       exclude: [],
       allergies: [],
       avoidOrReduce: [],
-    }))
+    })
+    onNext()
   }
 
   const handleClickSelectRestriction = (restrictionType) => () => {
@@ -69,21 +83,21 @@ function FoodRestrictionsStep({ filters, setFilters }) {
 
       <Box sx={{ textAlign: 'start' }}>
         <RestrictionFilter
-          filters={filters}
+          filters={dinerUser.user.filters}
           title={t('i_dont_eat_specific_foods')}
           type="exclude"
           onClick={handleClickSelectRestriction('exclude')}
         />
 
         <RestrictionFilter
-          filters={filters}
+          filters={dinerUser.user.filters}
           title={t('allergies')}
           type="allergies"
           onClick={handleClickSelectRestriction('allergies')}
         />
 
         <RestrictionFilter
-          filters={filters}
+          filters={dinerUser.user.filters}
           title={t('things_i_avoid_or_reduce')}
           type="avoidOrReduce"
           onClick={handleClickSelectRestriction('avoidOrReduce')}
@@ -94,17 +108,19 @@ function FoodRestrictionsStep({ filters, setFilters }) {
         fullScreen={fullScreen}
         open={Boolean(filterType)}
         onClose={handleClickBack}
-
       >
-        <DialogContent sx={!fullScreen ? { minWidth: 500, minHeight: 500 } : {}}>
-          <IngredientsSelector filters={filters} setFilters={setFilters} filterType={filterType} selectProps={{ defaultMenuIsOpen: true }} />
+        <DialogContent
+          sx={!fullScreen ? { minWidth: 500, minHeight: 500 } : {}}
+        >
+          <IngredientsSelector
+            filters={dinerUser.user.filters}
+            setFilters={dinerUser.setFilters}
+            filterType={filterType}
+            selectProps={{ defaultMenuIsOpen: true }}
+          />
         </DialogContent>
         <DialogActions disableSpacing sx={{ padding: 0 }}>
-          <Button
-            fullWidth
-            variant="outlined"
-            onClick={handleClickBack}
-          >
+          <Button fullWidth variant="outlined" onClick={handleClickBack}>
             {t('back')}
           </Button>
           <Button
@@ -121,9 +137,7 @@ function FoodRestrictionsStep({ filters, setFilters }) {
   )
 }
 
-function RestrictionFilter({
-  filters, title, type, onClick,
-}) {
+function RestrictionFilter({ filters, title, type, onClick }) {
   const theme = useTheme()
   const getComponentLabel = useGetComponentLabel()
   const { ingredients } = useIngredientsByIds(filters[type])
@@ -151,26 +165,18 @@ function RestrictionFilter({
         }}
       >
         <Box>
-
           <Checkbox checked={Boolean(filters[type].length > 0)} />
 
           {title}
         </Box>
 
-        {
-          ingredients?.length > 0
-          && (
+        {ingredients?.length > 0 && (
           <Box sx={{ padding: theme.spacing(1) }}>
             {ingredients?.map((c) => (
-              <Chip
-                key={c.id}
-                size="small"
-                label={getComponentLabel(c)}
-              />
+              <Chip key={c.id} size="small" label={getComponentLabel(c)} />
             ))}
           </Box>
-          )
-        }
+        )}
       </ToggleButton>
     </ToggleButtonGroup>
   )

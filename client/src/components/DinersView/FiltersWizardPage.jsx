@@ -1,14 +1,33 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { Box } from '@mui/material'
 
 import useSteps from './FiltersForm/useSteps'
 import FiltersStepper from './FiltersForm/FiltersStepper'
 import WaiterBanner from './WaiterBanner'
+import { useDinerUser } from 'contexts/diner'
 
-function FiltersWizardPage({ filters, setFilters, dishes }) {
+function FiltersWizardPage({ dishes }) {
   const { step } = useParams()
-  const steps = useSteps(filters, setFilters)
+  const navigate = useNavigate()
+  const steps = useSteps()
+  const dinerUser = useDinerUser()
+  const maxSteps = steps.length
+
+  const handleNext = async () => {
+    const nextStep = Number(step) + 1
+    if (nextStep === maxSteps) {
+      await dinerUser.saveDiner()
+      return navigate('../service')
+    }
+    return navigate(`../filters/${nextStep}`)
+  }
+
+  const handleBack = () => {
+    const prevStep = Number(step) - 1
+    if (prevStep === 0) return navigate('../')
+    return navigate(`../filters/${prevStep}`)
+  }
 
   return (
     <Box
@@ -35,10 +54,13 @@ function FiltersWizardPage({ filters, setFilters, dishes }) {
           overflow: 'auto',
         }}
       >
-        {steps[Number(step)].stepContent}
+        {steps[Number(step)].stepContent({
+          onNext: handleNext,
+          onBack: handleBack,
+        })}
       </Box>
 
-      <FiltersStepper filters={filters} dishes={dishes} />
+      <FiltersStepper dishes={dishes} onNext={handleNext} onBack={handleBack} />
     </Box>
   )
 }

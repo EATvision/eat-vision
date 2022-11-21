@@ -83,11 +83,26 @@
       "recNelsga1weSWKg4"
     ]
   },
-  { "id": "recYmUBLHQCYJDRgL", "name": "דוכן\n  המזרח הרחוק" },
-  { "id": "recnAfSsXLfAzMXlK", "name": "דוכן BUN BUN BUN" },
-  { "id": "recL9dqeTNVaxblrb", "name": "דוכן המזרח התיכון" },
-  { "id": "recRnOl9xpftulXc1", "name": "דוכן יורו טריפ" },
-  { "id": "reckUAAkbUH4MnmUm", "name": "דוכן של הדוד סאם" },
+  {
+    "id": "recYmUBLHQCYJDRgL",
+    "name": "דוכן\n  המזרח הרחוק"
+  },
+  {
+    "id": "recnAfSsXLfAzMXlK",
+    "name": "דוכן BUN BUN BUN"
+  },
+  {
+    "id": "recL9dqeTNVaxblrb",
+    "name": "דוכן המזרח התיכון"
+  },
+  {
+    "id": "recRnOl9xpftulXc1",
+    "name": "דוכן יורו טריפ"
+  },
+  {
+    "id": "reckUAAkbUH4MnmUm",
+    "name": "דוכן של הדוד סאם"
+  },
   {
     "id": "recPEueYqRnH1KVT1",
     "name": "תוספות",
@@ -175,8 +190,16 @@
       "recYJM9zLWO9O5wIn"
     ]
   },
-  { "id": "rec5M7nQCV67N4wLz", "name": "למרכז שולחן", "position": 1 },
-  { "id": "recIiq6ZHol2WD138", "name": "מנות פתיחה", "position": 1 },
+  {
+    "id": "rec5M7nQCV67N4wLz",
+    "name": "למרכז שולחן",
+    "position": 1
+  },
+  {
+    "id": "recIiq6ZHol2WD138",
+    "name": "מנות פתיחה",
+    "position": 1
+  },
   {
     "id": "recbP0zdJ5c8RAGvd",
     "name": "סלטים ועניינים",
@@ -298,7 +321,11 @@
       "recKGk17CVrpAzU1t"
     ]
   },
-  { "id": "recngW5z4xCeLl6J6", "name": "מנות חלוקה", "position": 2 },
+  {
+    "id": "recngW5z4xCeLl6J6",
+    "name": "מנות חלוקה",
+    "position": 2
+  },
   {
     "id": "recxOLISKY73v0uUD",
     "name": "סלטים",
@@ -331,7 +358,11 @@
       "recE1I7Ft3vm3UA6s"
     ]
   },
-  { "id": "recMWvVyCPjMnpiLz", "name": "עסקית סלטים ועניינים", "position": 2 },
+  {
+    "id": "recMWvVyCPjMnpiLz",
+    "name": "עסקית סלטים ועניינים",
+    "position": 2
+  },
   {
     "id": "recLV2ZH0X91IRCZJ",
     "name": "BURGER AND SANDWICHES",
@@ -343,7 +374,11 @@
       "recpJFFT7m3rrcYWl"
     ]
   },
-  { "id": "recr16WRBGuoT50HA", "name": "BURGER AND SANDWICHES", "position": 3 },
+  {
+    "id": "recr16WRBGuoT50HA",
+    "name": "BURGER AND SANDWICHES",
+    "position": 3
+  },
   {
     "id": "rec6pML5m9ZXqAJXF",
     "name": "BURGER AND SANDWICHES",
@@ -356,7 +391,11 @@
       "recpJFFT7m3rrcYWl"
     ]
   },
-  { "id": "recH81nAEgiNirTDC", "name": "HUMMUS BOWL", "position": 3 },
+  {
+    "id": "recH81nAEgiNirTDC",
+    "name": "HUMMUS BOWL",
+    "position": 3
+  },
   {
     "id": "reckNeUDElRdHSVP8",
     "name": "Seafood ",
@@ -374,8 +413,16 @@
       "reclreoT6cKKnWVcC"
     ]
   },
-  { "id": "recbszxblMsGh4bbq", "name": "מנות אישיות", "position": 3 },
-  { "id": "reca65UNT1nuSqS91", "name": "עסקית שיפודים", "position": 3 },
+  {
+    "id": "recbszxblMsGh4bbq",
+    "name": "מנות אישיות",
+    "position": 3
+  },
+  {
+    "id": "reca65UNT1nuSqS91",
+    "name": "עסקית שיפודים",
+    "position": 3
+  },
   {
     "id": "recVLxtGC3w3RN1wQ",
     "name": "פסטות",
@@ -478,7 +525,11 @@
       "rec4auYtjq2fmRCja"
     ]
   },
-  { "id": "rece5ngIPpy3SxNRe", "name": "עסקית מהגריל", "position": 4 },
+  {
+    "id": "rece5ngIPpy3SxNRe",
+    "name": "עסקית מהגריל",
+    "position": 4
+  },
   {
     "id": "rec94ahsl9Q76OazY",
     "name": "פיצות וטוסטים",
@@ -491,7 +542,11 @@
       "reckArN0o4Y9fY2wV"
     ]
   },
-  { "id": "recWz1oglIgIu3x61", "name": "שתיה", "position": 4 },
+  {
+    "id": "recWz1oglIgIu3x61",
+    "name": "שתיה",
+    "position": 4
+  },
   {
     "id": "rectklIbQzx7V9nnP",
     "name": "IN THE MIDDLE",
@@ -587,8 +642,16 @@
       "recpsaIzIwZNpwxeW"
     ]
   },
-  { "id": "reckVRhNTnmMAEL6v", "name": "משקאות חמים", "position": 5 },
-  { "id": "recQNXuU0VxrhnX2W", "name": "קינוחים", "position": 5 },
+  {
+    "id": "reckVRhNTnmMAEL6v",
+    "name": "משקאות חמים",
+    "position": 5
+  },
+  {
+    "id": "recQNXuU0VxrhnX2W",
+    "name": "קינוחים",
+    "position": 5
+  },
   {
     "id": "recpku4APvg1idRaY",
     "name": "HUMMUS",
@@ -628,8 +691,16 @@
     "position": 6,
     "dishes": ["recrdCthAjv6yOR02"]
   },
-  { "id": "reckXyHBjuL2EIiiB", "name": "קינוחים", "position": 6 },
-  { "id": "rec1r4IHznbhuFCM8", "name": "שתייה", "position": 6 },
+  {
+    "id": "reckXyHBjuL2EIiiB",
+    "name": "קינוחים",
+    "position": 6
+  },
+  {
+    "id": "rec1r4IHznbhuFCM8",
+    "name": "שתייה",
+    "position": 6
+  },
   {
     "id": "recbFw1ys85l8Oafh",
     "name": "HOT DISHES",
@@ -682,7 +753,11 @@
     "position": 7,
     "dishes": ["recjYP6iiXAuIe4yi", "reccloeOapoYqdW1d"]
   },
-  { "id": "recTbPNH6RqWBKYz2", "name": "יין", "position": 7 },
+  {
+    "id": "recTbPNH6RqWBKYz2",
+    "name": "יין",
+    "position": 7
+  },
   {
     "id": "recVOON6Ib5LW7R6b",
     "name": "ילדים",
@@ -698,7 +773,11 @@
       "recDyW3QOk86ipCY6"
     ]
   },
-  { "id": "recXpNrVlnXVfiUJv", "name": "קוקטלים ", "position": 7 },
+  {
+    "id": "recXpNrVlnXVfiUJv",
+    "name": "קוקטלים ",
+    "position": 7
+  },
   {
     "id": "recowZ8cG2zZUqwVE",
     "name": "קטנות ",
@@ -741,8 +820,16 @@
     "position": 8,
     "dishes": ["recZKUOckK5xCi0fJ", "recNk5WZ4IaOd7YWn", "rec5cHolwZCMlVhH0"]
   },
-  { "id": "rec7Y5Ue4jJxo3e9y", "name": "אלכוהול", "position": 8 },
-  { "id": "reccKFL0KLPTD1jo2", "name": "אלכוהול ", "position": 8 },
+  {
+    "id": "rec7Y5Ue4jJxo3e9y",
+    "name": "אלכוהול",
+    "position": 8
+  },
+  {
+    "id": "recSaYm2kSUrkvw7b",
+    "name": "יינות לבנים",
+    "position": 8
+  },
   {
     "id": "recrDQMnlZyvJfuSz",
     "name": "מהצד",
@@ -807,7 +894,11 @@
       "recMAwCWskrneTdG7"
     ]
   },
-  { "id": "recrAf64Sr3tbU8Ft", "name": "דיל צ'יסריים", "position": 9 },
+  {
+    "id": "recZvEB73pCX5CLtB",
+    "name": "יינות אדומים",
+    "position": 9
+  },
   {
     "id": "reckDE68tDC11ZZMM",
     "name": "משקאות קרים",
@@ -819,7 +910,11 @@
       "recV0TNTAJHRE49xl"
     ]
   },
-  { "id": "rec0deeXSYMfhQNKs", "name": "ספיישלים - האחים", "position": 9 },
+  {
+    "id": "rec0deeXSYMfhQNKs",
+    "name": "ספיישלים - האחים",
+    "position": 9
+  },
   {
     "id": "recqJPHUhUy4ulcvi",
     "name": "Asian",
@@ -859,6 +954,11 @@
       "recpaTpld67wJg7QU",
       "rec8bV1hFIieqrEXs"
     ]
+  },
+  {
+    "id": "reccKFL0KLPTD1jo2",
+    "name": "יינות מבעבעים",
+    "position": 10
   },
   {
     "id": "recdHRu4hZtmJulGH",
@@ -912,6 +1012,11 @@
     "dishes": ["recGrCEqcOGqlsV8U", "recvomWaeLp7A5KZj", "recqbhsIpkuwWK8Ff"]
   },
   {
+    "id": "recBoXPzX6TwCnY6z",
+    "name": "ויסקי",
+    "position": 11
+  },
+  {
     "id": "recmQQv4z8lgCUxdJ",
     "name": "יין מקומי - לבן",
     "position": 11,
@@ -934,6 +1039,11 @@
     "dishes": ["recLIQlOfIsh1pPNs", "rechxc7vZlndDRirH"]
   },
   {
+    "id": "recQSWJ6qGJUSZ3kK",
+    "name": "בירות",
+    "position": 12
+  },
+  {
     "id": "recbmDMfuCXDohClb",
     "name": "יין מקומי - רוזה",
     "position": 12,
@@ -954,6 +1064,11 @@
       "recBKu7oKOWG1uhEz",
       "recXBX9092hUpxOVo"
     ]
+  },
+  {
+    "id": "recDjduFG46dxH9mF",
+    "name": "אפרטיף \\ דיז'סטיף",
+    "position": 13
   },
   {
     "id": "recDlbG1Sv8UZme5n",
@@ -991,6 +1106,16 @@
     "dishes": ["recz0TipMZSgEKzq7", "recV3nC4NN0MMxObD", "recUxfwxYrje7G9cs"]
   },
   {
+    "id": "recVgG1UaXKHcWTto",
+    "name": "ג'ין",
+    "position": 14
+  },
+  {
+    "id": "recVkBdWfZy8JqP3C",
+    "name": "וודקה",
+    "position": 15
+  },
+  {
     "id": "reciPBo3MtrS0zOfK",
     "name": "חריפים - וודקה ",
     "position": 15,
@@ -1000,6 +1125,11 @@
       "rec5oEbzT5Ak2ACgE",
       "recIrTL2B8ZwpleXR"
     ]
+  },
+  {
+    "id": "reckyoyehbSI7TMhZ",
+    "name": "אניס",
+    "position": 16
   },
   {
     "id": "recD4JdjxF1KxiYJ7",
@@ -1014,6 +1144,11 @@
     "dishes": ["recRY06JiNkx12tbw", "recBmOj27kseBxbhS"]
   },
   {
+    "id": "rec4zYf6NrdzNhjt1",
+    "name": "טקילה",
+    "position": 17
+  },
+  {
     "id": "recHTfuxUeHBVl3xU",
     "name": "אפרטיף",
     "position": 18,
@@ -1023,6 +1158,11 @@
       "recajLcoTmec7sUI2",
       "recLBeY1RPdhg5hRj"
     ]
+  },
+  {
+    "id": "recRo9VXPFhzJCSF9",
+    "name": "רום",
+    "position": 18
   },
   {
     "id": "recW8hi9SdkVIwJ3P",
@@ -1036,6 +1176,16 @@
       "recBpWZlnbADEkESs",
       "recOElfKgJVaDQLCf"
     ]
+  },
+  {
+    "id": "recQidYJn8gCwjVVj",
+    "name": "ליקרים",
+    "position": 19
+  },
+  {
+    "id": "recrAf64Sr3tbU8Ft",
+    "name": "דיל צ'יסריים",
+    "position": 20
   },
   {
     "id": "recMzHts4sQTobYhO",

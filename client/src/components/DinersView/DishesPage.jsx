@@ -7,8 +7,7 @@ import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
 import Dish from './DishCard/Dish'
 
-// eslint-disable-next-line no-unused-vars
-function DishesPage({ dishes, filters }) {
+function DishesPage({ dishes }) {
   const theme = useTheme()
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
@@ -21,14 +20,17 @@ function DishesPage({ dishes, filters }) {
     menuId
   )
 
-  const defaultCategories =
-    categories?.reduce(
-      (result, c) => ({
-        ...result,
-        [c.id]: [],
-      }),
-      {}
-    ) || {}
+  const defaultCategories = React.useMemo(
+    () =>
+      categories?.reduce(
+        (result, c) => ({
+          ...result,
+          [c.id]: [],
+        }),
+        {}
+      ) || {},
+    [categories]
+  )
 
   const orderedCategories = [
     ...Object.values(categories || {}).sort((a, b) => a.position - b.position),
@@ -39,15 +41,15 @@ function DishesPage({ dishes, filters }) {
     () =>
       categories
         ? dishes.filtered.reduce((result, d) => {
-            if (!showFilteredOutDishes && d.isMainDishFilteredOut) return result
-            const categoryId = d?.categories?.[0] || 'no_category'
-            return {
-              ...result,
-              [categoryId]: [...(result[categoryId] || []), d],
-            }
-          }, defaultCategories)
+          if (!showFilteredOutDishes && d.isMainDishFilteredOut) return result
+          const categoryId = d?.categories?.[0] || 'no_category'
+          return {
+            ...result,
+            [categoryId]: [...(result[categoryId] || []), d],
+          }
+        }, defaultCategories)
         : {},
-    [dishes, categories]
+    [categories, dishes.filtered, defaultCategories, showFilteredOutDishes]
   )
 
   const handleChangeCategory = (event, newValue) => {

@@ -22,7 +22,6 @@ import MenusIcon from '@mui/icons-material/MenuBook'
 import InfoIcon from '@mui/icons-material/InfoOutlined'
 import { Button, Typography } from '@mui/material'
 import KitchenSelector from '../components/KitchenSelector'
-import { clearTokenData, getToken } from '../utils/token'
 import KitchenProvider from '../contexts/kitchen'
 import RTL from '../components/RTL'
 import getTheme from '../theme'
@@ -101,7 +100,8 @@ function CustomersView() {
   const navigate = useNavigate()
   const isRTL = useIsRTL()
 
-  const token = getToken()
+  // TODO: implement customer auth
+  const token = true
 
   const [open, setOpen] = React.useState(false)
 
@@ -114,7 +114,6 @@ function CustomersView() {
   }
 
   const handleClickLogout = () => {
-    clearTokenData()
     navigate('/customers')
   }
 

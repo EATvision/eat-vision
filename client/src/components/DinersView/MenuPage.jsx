@@ -1,23 +1,24 @@
-import axios from 'axios'
+import { postSearchDishes } from 'api/dishes'
+import { useDinerUser } from 'contexts/diner'
 import React from 'react'
 import { Outlet, useParams } from 'react-router-dom'
 
-function MenuPage({ filters, setDishes }) {
+function MenuPage({ setDishes }) {
   const { kitchenId, menuId } = useParams()
+  const dinerUser = useDinerUser()
 
   React.useEffect(() => {
     const getRelevantDishes = async () => {
       const {
-        data: { totalDishes: updatedTotalDishes, filteredDishes: updatedFilteredDishes },
-      } = await axios.post(`/api/kitchens/${kitchenId}/menus/${menuId}/dishes/search`, filters)
+        totalDishes: updatedTotalDishes,
+        filteredDishes: updatedFilteredDishes,
+      } = await postSearchDishes(dinerUser.user.filters, { kitchenId, menuId })
       setDishes({ total: updatedTotalDishes, filtered: updatedFilteredDishes })
     }
     getRelevantDishes()
-  }, [filters])
+  }, [dinerUser.user.filters, kitchenId, menuId, setDishes])
 
-  return (
-    <Outlet />
-  )
+  return <Outlet />
 }
 
 export default MenuPage
