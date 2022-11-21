@@ -88,5 +88,9 @@ export default {
   enter_phone_number: 'הזנת מספר טלפון',
   login_plea: 'תרצו להזדהות?',
   login_plea_subtext: 'כך נוכל לזהות אותך גם לפעם הבאה',
-  no_login: 'ללא התחברות'
+  no_login: 'ללא התחברות',
+  dish_possible_changes: 'שינויים אפשריים למנה',
+  ingredient: 'רכיב',
+  remove: 'הסרה',
+  put_aside: 'לשים בצד',
 }
