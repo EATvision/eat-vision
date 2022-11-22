@@ -6,6 +6,33 @@ import { useParams } from 'react-router-dom'
 import fetcher from 'api/fetcher'
 import { useKitchenById } from 'hooks/kitchens'
 
+export const useV1Ingredients = (q) => {
+  const { data, error, ...rest } = useSWR(
+    q ? `/api/ingredients?q=${q}` : '/api/ingredients',
+    fetcher
+  )
+  return {
+    ingredients: data,
+    isLoading: !error && !data,
+    isError: error,
+    ...rest,
+  }
+}
+
+export const useV1IngredientsByIds = (ids = []) => {
+  const { data, error, ...rest } = useSWR(
+    `/api/ingredients?ids=${ids.join(',')}`,
+    fetcher
+  )
+
+  return {
+    ingredients: data,
+    isLoading: !error && !data,
+    isError: error,
+    ...rest,
+  }
+}
+
 export const useIngredients = ({ search, mapById = false } = {}) => {
   const options = []
   if (search) {

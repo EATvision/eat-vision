@@ -36,8 +36,6 @@ function IngredientsSelector({ filters, setFilters, filterType, disabled }) {
     setIngredients()
   }, [filterType, filters])
 
-  // const { ingredients, isLoading, isError } = useIngredients(search)
-
   const handleInputChange = (newValue) => {
     setInputValue(newValue)
   }
