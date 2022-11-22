@@ -35,7 +35,7 @@ export default function DishRecipeChips({
         {label}:
       </FormLabel>
       <Box sx={{ textAlign: 'initial' }}>
-        {data.map((component) => {
+        {data?.map((component) => {
           const componentsExcludableComponentsFilteredOut =
             component?.recipe?.excludable?.filter((c) => c.isFilteredOut)
           return (
