@@ -2,6 +2,14 @@ import yup from 'schemas/yup'
 
 const kitchenValidationSchema = yup.object({
   name: yup.string().required('Name is required'),
+  image: yup
+    .array()
+    .of(
+      yup.object().shape({
+        url: yup.string().url(),
+      })
+    )
+    .default(undefined),
   website: yup
     .string()
     .url('Website url must be valid')

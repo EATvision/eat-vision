@@ -33,6 +33,21 @@ const getCollectionOperations = (collectionName) => ({
   insertOne: (doc, options) =>
     internals.client.db().collection(collectionName).insertOne(doc, options),
 
+  deleteOne: (filter, options) =>
+    internals.client.db().collection(collectionName).deleteOne(filter, options),
+
+  deleteMany: (filter, options) =>
+    internals.client
+      .db()
+      .collection(collectionName)
+      .deleteMany(filter, options),
+
+  updateMany: (filter, update, options) =>
+    internals.client
+      .db()
+      .collection(collectionName)
+      .updateMany(filter, update, options),
+
   findOneAndUpdate: (filter, update, options) =>
     internals.client
       .db()
@@ -51,11 +66,18 @@ const getCollectionOperations = (collectionName) => ({
         ...options,
       }),
 
+  findOneAndDelete: (filter, options) =>
+    internals.client
+      .db()
+      .collection(collectionName)
+      .findOneAndDelete(filter, options),
+
   aggregate: (pipeline, options) =>
     internals.client
       .db()
       .collection(collectionName)
-      .aggregate(pipeline, options),
+      .aggregate(pipeline, options)
+      .toArray(),
 })
 
 module.exports = {

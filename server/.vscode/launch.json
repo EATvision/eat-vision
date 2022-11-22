@@ -13,6 +13,22 @@
       "outputCapture": "std"
     },
     {
+      "name": "Script 1",
+      "program": "${workspaceFolder}/src/scripts/connectCategoriesToKitchens.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "outputCapture": "std"
+    },
+    {
+      "name": "Script 2",
+      "program": "${workspaceFolder}/src/scripts/connectMenusToKitchens.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "outputCapture": "std"
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "Import raw data",

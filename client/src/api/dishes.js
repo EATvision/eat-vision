@@ -1,33 +1,24 @@
 import axios from 'axios'
-import useSWR from 'swr'
-import fetcher from './fetcher'
 
-export const useDishes = () => {
-  const { data, error, ...rest } = useSWR('/api/dishes', fetcher)
-
-  return {
-    dishes: data,
-    isLoading: !error && !data,
-    isError: error,
-    ...rest,
-  }
+export const updateDishById = async (id, updatedDish) => {
+  const { data } = await axios.put(`/api/v2/dishes/${id}`, updatedDish)
+  return data
 }
 
-export const useDishById = (id) => {
-  const { data, error, ...rest } = useSWR(id && `/api/dishes/${id}`, fetcher)
+export const addDish = async (dish) => {
+  const { data } = await axios.post('/api/v2/dishes', dish)
+  return data
+}
 
-  return {
-    dish: data,
-    isLoading: !error && !data,
-    isError: error,
-    ...rest,
-  }
+export const removeDish = async (dishId) => {
+  const { data } = await axios.delete(`/api/v2/dishes/${dishId}`)
+  return data
 }
 
 export const postSearchDishes = async (filters, { kitchenId, menuId }) => {
   const { data } = await axios.post(
     `/api/kitchens/${kitchenId}/menus/${menuId}/dishes/search`,
-    filters,
+    filters
   )
   return data
 }

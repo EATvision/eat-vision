@@ -3,7 +3,6 @@ import { Form, Formik } from 'formik'
 import { useTranslation } from 'react-i18next'
 
 import {
-  Box,
   Button,
   Dialog,
   DialogActions,
@@ -12,53 +11,42 @@ import {
   Stack,
 } from '@mui/material'
 
-import { addLocation } from 'api/locations'
-import { useLocations } from 'hooks/locations'
-import locationValidationSchema from 'schemas/location'
+import { addCategory } from 'api/categories'
+import { useKitchen } from 'contexts/kitchen'
+import { useCategories } from 'hooks/categories'
+import categoryValidationSchema from 'schemas/category'
 
 import TextInput from 'components/FormInputs/TextInput'
 
-const AddLocationDialog = ({ onClose, onSave }) => {
+const AddCategoryDialog = ({ onClose, onSave }) => {
   const { t } = useTranslation()
-
-  const { mutate } = useLocations()
+  const { kitchenId } = useKitchen()
+  const { mutate } = useCategories({ kitchens: [kitchenId] })
 
   const handleOnSubmit = async (values) => {
     try {
-      const insertedLocation = await addLocation(values)
+      const { insertedId } = await addCategory(values)
       mutate()
-      onSave(insertedLocation)
+      onSave(insertedId)
     } catch (error) {
-      console.log(`Could not add location: ${error.message}`)
+      console.log(`Could not add category: ${error.message}`)
     }
   }
 
   return (
     <Formik
-      initialValues={{}}
+      initialValues={{ kitchen: kitchenId }}
       onSubmit={handleOnSubmit}
       validateOnBlur={false}
-      validationSchema={locationValidationSchema}
+      validationSchema={categoryValidationSchema}
     >
       {({ dirty, isValid, submitForm }) => (
         <Form onSubmit={submitForm}>
           <Dialog open onClose={onClose}>
-            <DialogTitle>{t('Add Location')}</DialogTitle>
+            <DialogTitle>{t('Add Category')}</DialogTitle>
             <DialogContent>
               <Stack direction="column">
-                <TextInput
-                  name="streetAddress"
-                  label="Street Address"
-                  required
-                />
-                <Stack direction="row" spacing={1} alignItems="flex-start">
-                  <Box>
-                    <TextInput name="city" label="City" required />
-                  </Box>
-                  <Box>
-                    <TextInput name="country" label="Country" required />
-                  </Box>
-                </Stack>
+                <TextInput name="name" label="Name" required />
               </Stack>
             </DialogContent>
             <DialogActions>
@@ -82,4 +70,4 @@ const AddLocationDialog = ({ onClose, onSave }) => {
   )
 }
 
-export default AddLocationDialog
+export default AddCategoryDialog
