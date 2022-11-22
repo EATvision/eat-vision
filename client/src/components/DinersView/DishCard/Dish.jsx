@@ -177,7 +177,7 @@ export default function Dish({ data }) {
 
           {data.recipe?.sideDish?.length > 0 && (
             <DishRecipeTypeChips
-              data={data.recipe.sidedish}
+              data={data.recipe.sideDish}
               label={t('sidedish')}
               selectedComponents={selectedComponents.sideDish}
               onSelect={handleSelect('sideDish', { exclusive: false })}
