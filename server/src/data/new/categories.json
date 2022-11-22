@@ -12,7 +12,10 @@
   {
     "id": "rect6ZufaSGWEwKhH",
     "name": "COCKTAIL",
-    "dishes": ["recYm3jdlsVhUDfIx", "recrL1VB31r3YMO0g"]
+    "dishes": [
+      "recYm3jdlsVhUDfIx",
+      "recrL1VB31r3YMO0g"
+    ]
   },
   {
     "id": "recpXmQR5Nraoj41P",
@@ -116,7 +119,9 @@
   {
     "id": "recWaQqG4Ojv7nCfk",
     "name": "תוספות ",
-    "dishes": ["recrFkR8gBABwRAhR"]
+    "dishes": [
+      "recrFkR8gBABwRAhR"
+    ]
   },
   {
     "id": "rectJzx1T08Bsfna2",
@@ -154,7 +159,11 @@
     "id": "recYzvx9xQMS3cHU9",
     "name": "SOUP & SALADS",
     "position": 1,
-    "dishes": ["recL4MD9t8RRJubXR", "rechkr845gT4vYKOU", "recbEJWvRlpxqK27k"]
+    "dishes": [
+      "recL4MD9t8RRJubXR",
+      "rechkr845gT4vYKOU",
+      "recbEJWvRlpxqK27k"
+    ]
   },
   {
     "id": "recjwSr1ulhXPkaJZ",
@@ -297,7 +306,9 @@
     "id": "reclHlEtu675LitzL",
     "name": "Soups",
     "position": 2,
-    "dishes": ["recnFLhM6aAe1BhSP"]
+    "dishes": [
+      "recnFLhM6aAe1BhSP"
+    ]
   },
   {
     "id": "recZWYhdnctZOQI36",
@@ -400,7 +411,9 @@
     "id": "reckNeUDElRdHSVP8",
     "name": "Seafood ",
     "position": 3,
-    "dishes": ["recyB0xQeBegbDM1I"]
+    "dishes": [
+      "recyB0xQeBegbDM1I"
+    ]
   },
   {
     "id": "rec5WS5yD5h3Qj8dR",
@@ -493,13 +506,20 @@
     "id": "recWYESDuTVG6IYmt",
     "name": "FOR THE TABLE",
     "position": 4,
-    "dishes": ["recxcAvr3c9NG04nn", "recirizy0PXnMnDs8", "recb1NUipmE3uBelf"]
+    "dishes": [
+      "recxcAvr3c9NG04nn",
+      "recirizy0PXnMnDs8",
+      "recb1NUipmE3uBelf"
+    ]
   },
   {
     "id": "recreE3wCxyKWKZwa",
     "name": "Sandwiches ",
     "position": 4,
-    "dishes": ["recfkjlZpIGuiBECW", "recZU3wHHKxADLJtE"]
+    "dishes": [
+      "recfkjlZpIGuiBECW",
+      "recZU3wHHKxADLJtE"
+    ]
   },
   {
     "id": "recjU7rW5EwrcSCBe",
@@ -608,13 +628,21 @@
     "id": "recAtLhDQypxZ8XUW",
     "name": "SIDES",
     "position": 5,
-    "dishes": ["recTm1OzLUxCDfZVO", "rec217mNAg0C1mmEp", "recuDbN4yasA44CLJ"]
+    "dishes": [
+      "recTm1OzLUxCDfZVO",
+      "rec217mNAg0C1mmEp",
+      "recuDbN4yasA44CLJ"
+    ]
   },
   {
     "id": "recAgrVObF6l67H6O",
     "name": "SIDES",
     "position": 5,
-    "dishes": ["rec0BRNvBsgLpYHFI", "recEOVrAc8KKUwzcA", "recuDbN4yasA44CLJ"]
+    "dishes": [
+      "rec0BRNvBsgLpYHFI",
+      "recEOVrAc8KKUwzcA",
+      "recuDbN4yasA44CLJ"
+    ]
   },
   {
     "id": "rechhKwbUGUu00KGE",
@@ -656,19 +684,25 @@
     "id": "recpku4APvg1idRaY",
     "name": "HUMMUS",
     "position": 6,
-    "dishes": ["receplTGHi0vT5uSl"]
+    "dishes": [
+      "receplTGHi0vT5uSl"
+    ]
   },
   {
     "id": "recqzC3R28b5TBPP9",
     "name": "Pastas",
     "position": 6,
-    "dishes": ["recdVtPT0W2doar1w"]
+    "dishes": [
+      "recdVtPT0W2doar1w"
+    ]
   },
   {
     "id": "recMLMHJDmLet3aHc",
     "name": "WINE - SPARKLING",
     "position": 6,
-    "dishes": ["recsYrtc9q2LpjQAI"]
+    "dishes": [
+      "recsYrtc9q2LpjQAI"
+    ]
   },
   {
     "id": "recdpDnIlYFnCexZ6",
@@ -689,7 +723,9 @@
     "id": "recFJUOY68Me5hf11",
     "name": "צלחת אליפות",
     "position": 6,
-    "dishes": ["recrdCthAjv6yOR02"]
+    "dishes": [
+      "recrdCthAjv6yOR02"
+    ]
   },
   {
     "id": "reckXyHBjuL2EIiiB",
@@ -751,7 +787,10 @@
     "id": "rec5EXQs8ncwbQPDB",
     "name": "WINE - ROSÉ",
     "position": 7,
-    "dishes": ["recjYP6iiXAuIe4yi", "reccloeOapoYqdW1d"]
+    "dishes": [
+      "recjYP6iiXAuIe4yi",
+      "reccloeOapoYqdW1d"
+    ]
   },
   {
     "id": "recTbPNH6RqWBKYz2",
@@ -799,7 +838,11 @@
     "id": "rec29XLbGqtdWPd9z",
     "name": "Grill",
     "position": 8,
-    "dishes": ["recmGOOSviPiEn1iP", "recaxWJsCqt4LsUSM", "recF84qRLiFs91qQj"]
+    "dishes": [
+      "recmGOOSviPiEn1iP",
+      "recaxWJsCqt4LsUSM",
+      "recF84qRLiFs91qQj"
+    ]
   },
   {
     "id": "recqGerbTr69t5TIU",
@@ -818,7 +861,11 @@
     "id": "recxh2MkmEPyJC1ag",
     "name": "WINE - RED ",
     "position": 8,
-    "dishes": ["recZKUOckK5xCi0fJ", "recNk5WZ4IaOd7YWn", "rec5cHolwZCMlVhH0"]
+    "dishes": [
+      "recZKUOckK5xCi0fJ",
+      "recNk5WZ4IaOd7YWn",
+      "rec5cHolwZCMlVhH0"
+    ]
   },
   {
     "id": "rec7Y5Ue4jJxo3e9y",
@@ -834,7 +881,11 @@
     "id": "recrDQMnlZyvJfuSz",
     "name": "מהצד",
     "position": 8,
-    "dishes": ["rec1f9ZqOrhYtZdj5", "recWBptYBOerRWamQ", "recUF3IucLR6aIP0g"]
+    "dishes": [
+      "rec1f9ZqOrhYtZdj5",
+      "recWBptYBOerRWamQ",
+      "recUF3IucLR6aIP0g"
+    ]
   },
   {
     "id": "recQtsiYDavjot6GG",
@@ -862,13 +913,20 @@
     "id": "recRM3vqx1Ndm4Y1t",
     "name": "BREAKFAST BEVERAGES",
     "position": 9,
-    "dishes": ["recWxc7HeW1J8ogtU", "reclqARSUeHaccA4g"]
+    "dishes": [
+      "recWxc7HeW1J8ogtU",
+      "reclqARSUeHaccA4g"
+    ]
   },
   {
     "id": "recQsssaHi5Zixx2E",
     "name": "Brunch",
     "position": 9,
-    "dishes": ["recOv4cgs5xL0DnJ7", "recUPdP1cJOSK1sMK", "recWuWmOjgiNwoFJu"]
+    "dishes": [
+      "recOv4cgs5xL0DnJ7",
+      "recUPdP1cJOSK1sMK",
+      "recWuWmOjgiNwoFJu"
+    ]
   },
   {
     "id": "rech0wuHHfAJ4EpjX",
@@ -997,19 +1055,29 @@
     "id": "recsHxMetZyZmVcVw",
     "name": "CRAFT COCKTAILS",
     "position": 11,
-    "dishes": ["recUsxdqH1M9OSBxl", "recJOw6wKhb3P1IU2", "recr91rnwAyrLt6sd"]
+    "dishes": [
+      "recUsxdqH1M9OSBxl",
+      "recJOw6wKhb3P1IU2",
+      "recr91rnwAyrLt6sd"
+    ]
   },
   {
     "id": "recttIyGZItIwyPTM",
     "name": "Taco",
     "position": 11,
-    "dishes": ["recP0yWwes9WrTVIs"]
+    "dishes": [
+      "recP0yWwes9WrTVIs"
+    ]
   },
   {
     "id": "recmqDtfG1vvjBoPo",
     "name": "WEEKEND Specials",
     "position": 11,
-    "dishes": ["recGrCEqcOGqlsV8U", "recvomWaeLp7A5KZj", "recqbhsIpkuwWK8Ff"]
+    "dishes": [
+      "recGrCEqcOGqlsV8U",
+      "recvomWaeLp7A5KZj",
+      "recqbhsIpkuwWK8Ff"
+    ]
   },
   {
     "id": "recBoXPzX6TwCnY6z",
@@ -1036,7 +1104,10 @@
     "id": "recPSakMllJ38Tdy1",
     "name": "קינוחים",
     "position": 11,
-    "dishes": ["recLIQlOfIsh1pPNs", "rechxc7vZlndDRirH"]
+    "dishes": [
+      "recLIQlOfIsh1pPNs",
+      "rechxc7vZlndDRirH"
+    ]
   },
   {
     "id": "recQSWJ6qGJUSZ3kK",
@@ -1047,7 +1118,11 @@
     "id": "recbmDMfuCXDohClb",
     "name": "יין מקומי - רוזה",
     "position": 12,
-    "dishes": ["rech46lwGjPkmXlvj", "rechOfhegHxwXYWyo", "rec23UYYuQ3tB71tf"]
+    "dishes": [
+      "rech46lwGjPkmXlvj",
+      "rechOfhegHxwXYWyo",
+      "rec23UYYuQ3tB71tf"
+    ]
   },
   {
     "id": "recqGOBMgoWUdasTr",
@@ -1103,7 +1178,11 @@
     "id": "recHm73TsuaH8hODh",
     "name": "בירות מקומיות ",
     "position": 14,
-    "dishes": ["recz0TipMZSgEKzq7", "recV3nC4NN0MMxObD", "recUxfwxYrje7G9cs"]
+    "dishes": [
+      "recz0TipMZSgEKzq7",
+      "recV3nC4NN0MMxObD",
+      "recUxfwxYrje7G9cs"
+    ]
   },
   {
     "id": "recVgG1UaXKHcWTto",
@@ -1135,13 +1214,19 @@
     "id": "recD4JdjxF1KxiYJ7",
     "name": "חריפים - ג'ין",
     "position": 16,
-    "dishes": ["recMJj3T9herZ33SC", "recBYML6HKt6GWr7M"]
+    "dishes": [
+      "recMJj3T9herZ33SC",
+      "recBYML6HKt6GWr7M"
+    ]
   },
   {
     "id": "recxaCcumXPUkWw9g",
     "name": "חריפים - טקילה",
     "position": 17,
-    "dishes": ["recRY06JiNkx12tbw", "recBmOj27kseBxbhS"]
+    "dishes": [
+      "recRY06JiNkx12tbw",
+      "recBmOj27kseBxbhS"
+    ]
   },
   {
     "id": "rec4zYf6NrdzNhjt1",
@@ -1191,13 +1276,20 @@
     "id": "recMzHts4sQTobYhO",
     "name": "ערבובים",
     "position": 20,
-    "dishes": ["recrdaAAtrpmfbUxi", "rec1N7zDWGy8YVO4E", "recZN8RnNjK3C2LCI"]
+    "dishes": [
+      "recrdaAAtrpmfbUxi",
+      "rec1N7zDWGy8YVO4E",
+      "recZN8RnNjK3C2LCI"
+    ]
   },
   {
     "id": "recL78dLe4QCsDoNR",
     "name": "דג'סטיף",
     "position": 21,
-    "dishes": ["recezR3oQP3xJnM3w", "recoWzhs4qXxWi5Qq"]
+    "dishes": [
+      "recezR3oQP3xJnM3w",
+      "recoWzhs4qXxWi5Qq"
+    ]
   },
   {
     "id": "recIW8vp7m3CLdHtK",

@@ -3,862 +3,888 @@
     "id": "recAvCd37VjynjiAV",
     "display_name": "Alcohol",
     "translation_heb": "אלכוהול",
-    "sub_groups": [
-      "Spirits",
-      "Wine",
-      "beer"
+    "subGroups": [
+      "recDDXjev73zW9NBZ",
+      "recfqsjPJYOLjkUvT",
+      "recU1j9CMgCKG535c"
     ]
   },
   {
     "id": "recX7LWBWgvLk0fXO",
     "display_name": "Animal products ",
-    "translation_heb": "מוצרים מן החי",
-    "sub_groups": []
+    "translation_heb": "מוצרים מן החי"
   },
   {
     "id": "recRuJgFOBk98fk8i",
     "display_name": "Animal proteins",
     "translation_heb": "חלבונים מן החי",
-    "sub_groups": []
+    "parentGroups": [
+      "recX7LWBWgvLk0fXO"
+    ]
   },
   {
     "id": "recDXBerbCvKBauuo",
     "display_name": "Artificial Food Additives",
-    "translation_heb": "תוספי מזון מלאכותיים",
-    "sub_groups": []
+    "translation_heb": "תוספי מזון מלאכותיים"
   },
   {
     "id": "recUHO5l7YHCs0J3f",
     "display_name": "Artificial Sweetener",
-    "translation_heb": "ממתיקים מלאכותיים",
-    "sub_groups": []
+    "translation_heb": "ממתיקים מלאכותיים"
   },
   {
     "id": "rec33e05fmRcCDf4i",
     "display_name": "Baking Products",
-    "translation_heb": "מוצרי אפייה",
-    "sub_groups": []
+    "translation_heb": "מוצרי אפייה"
   },
   {
     "id": "recmkvtZD6t6WKl07",
     "display_name": "Beef",
     "translation_heb": "בשר בקר",
-    "sub_groups": []
+    "parentGroups": [
+      "recm30EduNkl4SSxj"
+    ]
   },
   {
     "id": "recU1j9CMgCKG535c",
     "display_name": "beer",
     "translation_heb": "בירה",
-    "sub_groups": []
+    "parentGroups": [
+      "recAvCd37VjynjiAV"
+    ]
   },
   {
     "id": "recjdvSMxTyphSetE",
     "display_name": "Berries",
     "translation_heb": "פירות יער",
-    "sub_groups": []
+    "parentGroups": [
+      "recmCzPUKuoYcsS42"
+    ]
   },
   {
     "id": "recJ0Kp5PBpH5pAeR",
     "display_name": "Beverages ",
-    "translation_heb": "משקאות",
-    "sub_groups": []
+    "translation_heb": "משקאות"
   },
   {
     "id": "rec1mnTK3JO3ItGjp",
     "display_name": "Bitter",
-    "translation_heb": "טעם מר",
-    "sub_groups": []
+    "translation_heb": "טעם מר"
   },
   {
     "id": "recyJA8IMB03C5DkT",
     "display_name": "Blue cheeses",
     "translation_heb": "גבינות כחולות",
-    "sub_groups": []
+    "parentGroups": [
+      "recYgJLdDlWsTxVGe"
+    ]
   },
   {
     "id": "rec0nX9k5y0YySRlD",
     "display_name": "Braised",
-    "translation_heb": "טיגון ובישול במעט מים",
-    "sub_groups": []
+    "translation_heb": "טיגון ובישול במעט מים"
   },
   {
     "id": "recZmajE2LE8mmq1m",
     "display_name": "Breads",
-    "translation_heb": "לחמים",
-    "sub_groups": []
+    "translation_heb": "לחמים"
   },
   {
     "id": "recdUoO2zbt196H0V",
     "display_name": "Cheese",
     "translation_heb": "גבינה",
-    "sub_groups": []
+    "parentGroups": [
+      "recYgJLdDlWsTxVGe"
+    ]
   },
   {
     "id": "recv7oLK0b2mCFamv",
     "display_name": "Chicken",
     "translation_heb": "עוף",
-    "sub_groups": []
+    "parentGroups": [
+      "recm30EduNkl4SSxj"
+    ]
   },
   {
     "id": "recjiQfjWqXpnBZ9K",
     "display_name": "Chili Peppers",
     "translation_heb": "פלפלי צ'ילי",
-    "sub_groups": []
+    "parentGroups": [
+      "recRLRNG6VRO3pnoY",
+      "recWpISCcCcAIX1lr"
+    ]
   },
   {
     "id": "rec1i6OIh6k0ujUih",
     "display_name": "Chocolates",
-    "translation_heb": "שוקולדים",
-    "sub_groups": []
+    "translation_heb": "שוקולדים"
   },
   {
     "id": "rec9VIokQblaMYM61",
     "display_name": "Ciders",
     "translation_heb": "סיידר",
-    "sub_groups": []
+    "parentGroups": [
+      "recJ0Kp5PBpH5pAeR"
+    ]
   },
   {
     "id": "recGvVrIfqmts2vCj",
     "display_name": "Citrus Fruits",
     "translation_heb": "פירות הדר",
-    "sub_groups": []
+    "parentGroups": [
+      "recmCzPUKuoYcsS42"
+    ]
   },
   {
     "id": "recGFPw3YY8vYHOL6",
     "display_name": "Coffee",
     "translation_heb": "קפה",
-    "sub_groups": []
+    "parentGroups": [
+      "recJ0Kp5PBpH5pAeR"
+    ]
   },
   {
     "id": "recUKnfUVIMEBscO0",
     "display_name": "Cooked",
-    "translation_heb": "מְבוּשָׁל",
-    "sub_groups": []
+    "translation_heb": "מְבוּשָׁל"
   },
   {
     "id": "rec5N7lVeiN0cIl5S",
     "display_name": "Crisp",
-    "translation_heb": "פָּרִיך",
-    "sub_groups": []
+    "translation_heb": "פָּרִיך"
   },
   {
     "id": "recjfAKr9ZF0loMtu",
     "display_name": "crispy",
-    "translation_heb": "פריך",
-    "sub_groups": []
+    "translation_heb": "פריך"
   },
   {
     "id": "recYgJLdDlWsTxVGe",
     "display_name": "Dairy",
     "translation_heb": "דברי חלב",
-    "sub_groups": [
-      "Soft Cheese",
-      "Hard Cheese"
+    "subGroups": [
+      "recDKed5TeW8D5XTO",
+      "recm0zwS84JCKOaNG"
     ]
   },
   {
     "id": "rec9Q92pD2saKKraa",
     "display_name": "Dairy and Meat Separation",
-    "translation_heb": "הפרדת חלב ובשר",
-    "sub_groups": []
+    "translation_heb": "הפרדת חלב ובשר"
   },
   {
     "id": "reclrqMHo7sdRGeLH",
     "display_name": "Desserts",
-    "translation_heb": "קינוחים",
-    "sub_groups": []
+    "translation_heb": "קינוחים"
   },
   {
     "id": "recSOxl546bd1aloy",
     "display_name": "Drinks",
-    "translation_heb": "מַשׁקָאוֹת",
-    "sub_groups": []
+    "translation_heb": "מַשׁקָאוֹת"
   },
   {
     "id": "recu3FD53c7EauXXz",
     "display_name": "Edible flowers",
-    "translation_heb": "פרחים אכילים",
-    "sub_groups": []
+    "translation_heb": "פרחים אכילים"
   },
   {
     "id": "recSE80ZWX568HCiz",
     "display_name": "Eggs",
     "translation_heb": "ביצים",
-    "sub_groups": []
+    "parentGroups": [
+      "recX7LWBWgvLk0fXO"
+    ]
   },
   {
     "id": "recXEbECnlRTH9Ssj",
     "display_name": "Fermented",
-    "translation_heb": "מזון מותסס",
-    "sub_groups": []
+    "translation_heb": "מזון מותסס"
   },
   {
     "id": "recv4O8R7YyTwXVVU",
     "display_name": "Fish",
     "translation_heb": "דג",
-    "sub_groups": []
+    "parentGroups": [
+      "recrqKQvYZiLXvitS",
+      "recX7LWBWgvLk0fXO"
+    ]
   },
   {
     "id": "recqqxsvSS6LY3Aab",
     "display_name": "Flours",
-    "translation_heb": "קמחים",
-    "sub_groups": []
+    "translation_heb": "קמחים"
   },
   {
     "id": "recy2Nh2sfSLTNXbH",
     "display_name": "Food Coloring",
-    "translation_heb": "צבע מאכל",
-    "sub_groups": []
+    "translation_heb": "צבע מאכל"
   },
   {
     "id": "recr0yKu9WGc9p4QB",
     "display_name": "Fried",
-    "translation_heb": "מטוגן",
-    "sub_groups": []
+    "translation_heb": "מטוגן"
   },
   {
     "id": "recrqKQvYZiLXvitS",
     "display_name": "from the ocean",
     "translation_heb": "מהים",
-    "sub_groups": [
-      "Fish",
-      "Seafood",
-      "Seaweed"
+    "subGroups": [
+      "recv4O8R7YyTwXVVU",
+      "recAjiOEZMV6ObquU",
+      "recxmfzeYNRFcsBdv"
     ]
   },
   {
     "id": "recmCzPUKuoYcsS42",
     "display_name": "Fruits",
-    "translation_heb": "פירות",
-    "sub_groups": []
+    "translation_heb": "פירות"
   },
   {
     "id": "recurt87JNmeE6SzQ",
     "display_name": "Gluten",
     "translation_heb": "גלוטן",
-    "sub_groups": [
-      "Wheat products",
-      "spelt product",
-      "wheat flours",
-      "wheat flour"
+    "subGroups": [
+      "recPRWumn2WpzArWA",
+      "recB1W1GDN8MiyV8z",
+      "recd15KxweGAE9dEv"
     ]
   },
   {
     "id": "rechdBUA5LiWfnnuE",
     "display_name": "Goats products",
     "translation_heb": "מוצרי עיזים",
-    "sub_groups": []
+    "parentGroups": [
+      "recX7LWBWgvLk0fXO"
+    ]
   },
   {
     "id": "recwq1XAJ50UwIOWX",
     "display_name": "Grains",
-    "translation_heb": "דגנים",
-    "sub_groups": []
+    "translation_heb": "דגנים"
   },
   {
     "id": "recjJU30Y4c7lLRbf",
     "display_name": "Green vegetables",
     "translation_heb": "ירקות ירוקים",
-    "sub_groups": []
+    "parentGroups": [
+      "recRLRNG6VRO3pnoY"
+    ]
   },
   {
     "id": "recv59Bv2dbmRfKSZ",
     "display_name": "Grilled",
-    "translation_heb": "גריל",
-    "sub_groups": []
+    "translation_heb": "גריל"
   },
   {
     "id": "recm0zwS84JCKOaNG",
     "display_name": "Hard Cheese",
     "translation_heb": "גבינות קשות",
-    "sub_groups": []
+    "parentGroups": [
+      "recYgJLdDlWsTxVGe"
+    ]
   },
   {
     "id": "recKixXejzsCDapen",
     "display_name": "Herbs",
-    "translation_heb": "עשבי תיבול",
-    "sub_groups": []
+    "translation_heb": "עשבי תיבול"
   },
   {
     "id": "recpNHgc1JsBxMQ56",
     "display_name": "High Protein",
-    "translation_heb": "חלבון גבוה",
-    "sub_groups": []
+    "translation_heb": "חלבון גבוה"
   },
   {
     "id": "rec0ZY6yIjGm0lEMV",
     "display_name": "Juices",
     "translation_heb": "מיצים",
-    "sub_groups": []
+    "parentGroups": [
+      "recJ0Kp5PBpH5pAeR"
+    ]
   },
   {
     "id": "receRGvMlEi5L7ZEY",
     "display_name": "Ketogenic",
-    "translation_heb": "קטוגני",
-    "sub_groups": []
+    "translation_heb": "קטוגני"
   },
   {
     "id": "recYO9q4bBbdO1YEj",
     "display_name": "Kosher",
-    "translation_heb": "כשר",
-    "sub_groups": []
+    "translation_heb": "כשר"
   },
   {
     "id": "recOIozrNx1boQsS6",
     "display_name": "Lactose Free",
-    "translation_heb": "ללא לקטוז",
-    "sub_groups": []
+    "translation_heb": "ללא לקטוז"
   },
   {
     "id": "rec3OxjSiLWyj8hx5",
     "display_name": "Lamb or Mutton",
     "translation_heb": "בשר כבש",
-    "sub_groups": []
+    "parentGroups": [
+      "recX7LWBWgvLk0fXO"
+    ]
   },
   {
     "id": "recjQPuY0MXSND7wJ",
     "display_name": "Leafy Greens",
     "translation_heb": "עלים ירוקים",
-    "sub_groups": []
+    "parentGroups": [
+      "recRLRNG6VRO3pnoY"
+    ]
   },
   {
     "id": "recGrdvYp4KJzbvdd",
     "display_name": "Legumes",
-    "translation_heb": "קטניות",
-    "sub_groups": []
+    "translation_heb": "קטניות"
   },
   {
     "id": "recoCo9cKsScq8nOV",
     "display_name": "Lentils",
     "translation_heb": "עדשים",
-    "sub_groups": []
+    "parentGroups": [
+      "recGrdvYp4KJzbvdd"
+    ]
   },
   {
     "id": "recsEhBTtFcgcCF4O",
     "display_name": "Lettuces",
     "translation_heb": "חסה",
-    "sub_groups": []
+    "parentGroups": [
+      "recjJU30Y4c7lLRbf",
+      "recRLRNG6VRO3pnoY"
+    ]
   },
   {
     "id": "recO6si9JrhGrREmw",
     "display_name": "Low Calorie",
-    "translation_heb": "דל קלוריות",
-    "sub_groups": []
+    "translation_heb": "דל קלוריות"
   },
   {
     "id": "rec4MBgcAhMGP4TQT",
     "display_name": "Low-Carbohydrate",
-    "translation_heb": "דל פחמימות",
-    "sub_groups": []
+    "translation_heb": "דל פחמימות"
   },
   {
     "id": "recm30EduNkl4SSxj",
     "display_name": "Meat",
     "translation_heb": "בשר",
-    "sub_groups": [
-      "Beef",
-      "Chicken",
-      "pork",
-      "poultry"
+    "subGroups": [
+      "recmkvtZD6t6WKl07",
+      "recv7oLK0b2mCFamv",
+      "recsMGbSlC9cPVJ8o",
+      "recwJ3CsMWeKmDBlS"
+    ],
+    "parentGroups": [
+      "recX7LWBWgvLk0fXO"
     ]
   },
   {
     "id": "recOkLXIqL70I5L8I",
     "display_name": "Mushrooms",
-    "translation_heb": "פטריות",
-    "sub_groups": []
+    "translation_heb": "פטריות"
   },
   {
     "id": "recN0HIrikkUk6AvS",
     "display_name": "Natural Food Additives",
-    "translation_heb": "תוספי מזון טבעיים",
-    "sub_groups": []
+    "translation_heb": "תוספי מזון טבעיים"
   },
   {
     "id": "recZ7VezO7zZFi6OM",
     "display_name": "Natural Food Coloring",
-    "translation_heb": "צבעי מאכל טבעיים",
-    "sub_groups": []
+    "translation_heb": "צבעי מאכל טבעיים"
   },
   {
     "id": "rectOY5pKprQMQ9Lj",
     "display_name": "No Sugar",
-    "translation_heb": "ללא סוכר",
-    "sub_groups": []
+    "translation_heb": "ללא סוכר"
   },
   {
     "id": "reccf7t3iRH9SpLQo",
     "display_name": "Non-Halal",
-    "translation_heb": "לא חלאל",
-    "sub_groups": []
+    "translation_heb": "לא חלאל"
   },
   {
     "id": "recNkG1aZNZ0wePeo",
     "display_name": "Non-kosher",
-    "translation_heb": "לא כשר",
-    "sub_groups": []
+    "translation_heb": "לא כשר"
   },
   {
     "id": "rec4sRKkZxHihPpye",
     "display_name": "Non-Kosher Proteins",
-    "translation_heb": "בשר לא כשר",
-    "sub_groups": []
+    "translation_heb": "בשר לא כשר"
   },
   {
     "id": "recq9yODwJSsgHZ5U",
     "display_name": "Noodles",
-    "translation_heb": "נודלס",
-    "sub_groups": []
+    "translation_heb": "נודלס"
   },
   {
     "id": "recAdkUWMljbxRuWI",
     "display_name": "Nut free",
-    "translation_heb": "ללא אגוזים",
-    "sub_groups": []
+    "translation_heb": "ללא אגוזים"
   },
   {
     "id": "recT8pGYXZL2koeBU",
     "display_name": "Nutrition Supplements",
-    "translation_heb": "תוספי תזונה",
-    "sub_groups": []
+    "translation_heb": "תוספי תזונה"
   },
   {
     "id": "recHJLhfoFpQuTVOI",
     "display_name": "Nuts",
-    "translation_heb": "אֱגוֹזִים",
-    "sub_groups": []
+    "translation_heb": "אֱגוֹזִים"
   },
   {
     "id": "recV4tBYJKxXVWfeH",
     "display_name": "Offal",
     "translation_heb": "חלקי פנים",
-    "sub_groups": []
+    "parentGroups": [
+      "recX7LWBWgvLk0fXO"
+    ]
   },
   {
     "id": "reccATkRbfWDQGzvn",
     "display_name": "Oils",
-    "translation_heb": "שמנים",
-    "sub_groups": []
+    "translation_heb": "שמנים"
   },
   {
     "id": "recpmsyjcMOP7g6yR",
     "display_name": "Olives",
-    "translation_heb": "זיתים",
-    "sub_groups": []
+    "translation_heb": "זיתים"
   },
   {
     "id": "reclWKSsmJOut9eRI",
     "display_name": "Onions",
     "translation_heb": "בצלים",
-    "sub_groups": []
+    "parentGroups": [
+      "recRLRNG6VRO3pnoY"
+    ]
   },
   {
     "id": "recHKCRJmfaLYrXbo",
     "display_name": "Paleo",
-    "translation_heb": "פליאו",
-    "sub_groups": []
+    "translation_heb": "פליאו"
   },
   {
     "id": "recXI5x68lU5F4IzP",
     "display_name": "Pastas",
-    "translation_heb": "פסטות",
-    "sub_groups": []
-  },
-  {
-    "id": "recvvlYRqC22CR9bl",
-    "display_name": "Pastries",
-    "translation_heb": "מאפים",
-    "sub_groups": []
+    "translation_heb": "פסטות"
   },
   {
     "id": "recuzlWR7Aq8Pem8e",
     "display_name": "Pastries",
-    "translation_heb": "מאפים",
-    "sub_groups": []
+    "translation_heb": "מאפים"
   },
   {
     "id": "recdROcDJGFaMnOVT",
     "display_name": "peas",
     "translation_heb": "אפונים",
-    "sub_groups": []
+    "parentGroups": [
+      "recGrdvYp4KJzbvdd"
+    ]
   },
   {
     "id": "recu9AkhHU2Hbq0Xh",
     "display_name": "pickled",
-    "translation_heb": "כָּבוּשׁ",
-    "sub_groups": []
+    "translation_heb": "כָּבוּשׁ"
   },
   {
     "id": "recUT6zAdOIkTEyvT",
     "display_name": "Pickles",
-    "translation_heb": "חֲמוּצִים",
-    "sub_groups": []
+    "translation_heb": "חֲמוּצִים"
   },
   {
     "id": "recLmG2zgcHvVdI4Z",
     "display_name": "plant derived beverage",
     "translation_heb": "משקה צמחי",
-    "sub_groups": []
+    "parentGroups": [
+      "recJ0Kp5PBpH5pAeR"
+    ]
   },
   {
     "id": "recVSf3qwSKLDfbw2",
     "display_name": "Plant Proteins",
-    "translation_heb": "חלבונים צמחיים",
-    "sub_groups": []
+    "translation_heb": "חלבונים צמחיים"
   },
   {
     "id": "recUuvtEsG5XRWVqd",
     "display_name": "poached",
-    "translation_heb": "חָלוּט",
-    "sub_groups": []
+    "translation_heb": "חָלוּט"
   },
   {
     "id": "recsMGbSlC9cPVJ8o",
     "display_name": "pork",
     "translation_heb": "בשר חזיר",
-    "sub_groups": []
+    "parentGroups": [
+      "recm30EduNkl4SSxj",
+      "recX7LWBWgvLk0fXO",
+      "recNkG1aZNZ0wePeo"
+    ]
   },
   {
     "id": "recwJ3CsMWeKmDBlS",
     "display_name": "poultry",
     "translation_heb": "עוֹפוֹת",
-    "sub_groups": []
+    "parentGroups": [
+      "recm30EduNkl4SSxj",
+      "recX7LWBWgvLk0fXO"
+    ]
   },
   {
     "id": "recasLcin4Wr9ihNx",
     "display_name": "Powders",
-    "translation_heb": "אבקות",
-    "sub_groups": []
+    "translation_heb": "אבקות"
   },
   {
     "id": "recbI3BuTcIISfJW6",
     "display_name": "Pregnancy",
     "translation_heb": "הֵרָיוֹן",
-    "sub_groups": [
-      "Raw Food",
-      "Seafood",
-      "Alcohol"
+    "subGroups": [
+      "recZBrVXsRItPQkxJ",
+      "recAjiOEZMV6ObquU",
+      "recAvCd37VjynjiAV"
     ]
   },
   {
     "id": "recR3zNAfHFv5vRsD",
     "display_name": "Preserved Fruit",
     "translation_heb": "פירות משומרים",
-    "sub_groups": []
+    "parentGroups": [
+      "rec5HBd96Kk2t02au"
+    ]
   },
   {
     "id": "recH9WbjaML3hib6B",
     "display_name": "Processed Fruit and Vegetables",
     "translation_heb": "פירות וירקות מעובדים",
-    "sub_groups": []
+    "parentGroups": [
+      "rec5HBd96Kk2t02au"
+    ]
   },
   {
     "id": "recZpJAzIEOcIs9Fe",
     "display_name": "pumpkin ",
     "translation_heb": "דלעת",
-    "sub_groups": []
+    "parentGroups": [
+      "recRLRNG6VRO3pnoY",
+      "reclaSHDqdG6SON8b"
+    ]
   },
   {
     "id": "recskJLfd1Ydg6Dpo",
     "display_name": "raw",
-    "translation_heb": "נא",
-    "sub_groups": []
+    "translation_heb": "נא"
   },
   {
     "id": "recZBrVXsRItPQkxJ",
     "display_name": "Raw Food",
-    "translation_heb": "מזון גולמי",
-    "sub_groups": []
+    "translation_heb": "מזון גולמי"
   },
   {
     "id": "recNVPxM2A8o2elhG",
     "display_name": "Raw or Uncooked Beef",
     "translation_heb": "בקר נא",
-    "sub_groups": []
+    "parentGroups": [
+      "recskJLfd1Ydg6Dpo"
+    ]
   },
   {
     "id": "recIKbAVjYmPtQWrk",
     "display_name": "Raw or Uncooked Fish",
     "translation_heb": "דגים נאים",
-    "sub_groups": []
+    "parentGroups": [
+      "recskJLfd1Ydg6Dpo"
+    ]
   },
   {
     "id": "receKfT46qKVbw4fC",
     "display_name": "Rice",
     "translation_heb": "אורז",
-    "sub_groups": []
+    "parentGroups": [
+      "recwq1XAJ50UwIOWX"
+    ]
   },
   {
     "id": "reciEjtCi62wG3bkB",
     "display_name": "root vegetables",
     "translation_heb": "ירקות שורש",
-    "sub_groups": []
+    "parentGroups": [
+      "recRLRNG6VRO3pnoY"
+    ]
   },
   {
     "id": "recJSvVpSiYmYN34i",
     "display_name": "Salads",
-    "translation_heb": "סלטים",
-    "sub_groups": []
+    "translation_heb": "סלטים"
   },
   {
     "id": "recRQstqYOST4uTB1",
     "display_name": "salts",
-    "translation_heb": "מלחים",
-    "sub_groups": []
+    "translation_heb": "מלחים"
   },
   {
     "id": "recdx1s8hodBvQIHm",
     "display_name": "Sauces & dressing",
-    "translation_heb": "רטבים",
-    "sub_groups": []
+    "translation_heb": "רטבים"
   },
   {
     "id": "recEIolpkEYvGjaWe",
     "display_name": "sausages ",
-    "translation_heb": "נקניקיות",
-    "sub_groups": []
+    "translation_heb": "נקניקיות"
   },
   {
     "id": "recsUWQmUdjJpI9AO",
     "display_name": "savory",
-    "translation_heb": "מלוח",
-    "sub_groups": []
+    "translation_heb": "מלוח"
   },
   {
     "id": "recAjiOEZMV6ObquU",
     "display_name": "Seafood",
     "translation_heb": "פירות ים",
-    "sub_groups": []
+    "parentGroups": [
+      "recrqKQvYZiLXvitS",
+      "recNkG1aZNZ0wePeo"
+    ]
   },
   {
     "id": "recO8lxOLuXUNmPbf",
     "display_name": "seared",
-    "translation_heb": "צרוב ",
-    "sub_groups": []
+    "translation_heb": "צרוב "
   },
   {
     "id": "recxmfzeYNRFcsBdv",
     "display_name": "Seaweed",
     "translation_heb": "אצות ",
-    "sub_groups": []
+    "parentGroups": [
+      "recrqKQvYZiLXvitS"
+    ]
   },
   {
     "id": "receelNsoQTM6LFwT",
     "display_name": "Seeds",
-    "translation_heb": "זרעים",
-    "sub_groups": []
+    "translation_heb": "זרעים"
   },
   {
     "id": "recbOlhvf3pTmwIWk",
     "display_name": "Shellfish",
     "translation_heb": "רכיכות",
-    "sub_groups": []
+    "parentGroups": [
+      "recrqKQvYZiLXvitS",
+      "recNkG1aZNZ0wePeo"
+    ]
   },
   {
     "id": "recAEEsSFlexlibKD",
     "display_name": "slow-roasted",
-    "translation_heb": "קלייה איטית",
-    "sub_groups": []
+    "translation_heb": "קלייה איטית"
   },
   {
     "id": "recC3sMa5yw4yPtyT",
     "display_name": "smoked",
-    "translation_heb": "מְעוּשָׁן",
-    "sub_groups": []
+    "translation_heb": "מְעוּשָׁן"
   },
   {
     "id": "recQ36LO1SCbjLirg",
     "display_name": "soft",
-    "translation_heb": "רַך",
-    "sub_groups": []
+    "translation_heb": "רַך"
   },
   {
     "id": "recDKed5TeW8D5XTO",
     "display_name": "Soft Cheese",
     "translation_heb": "גבינות רכות",
-    "sub_groups": []
+    "parentGroups": [
+      "recYgJLdDlWsTxVGe"
+    ]
   },
   {
     "id": "recQbmnhqniZAawpj",
     "display_name": "Soups",
-    "translation_heb": "מרקים",
-    "sub_groups": []
+    "translation_heb": "מרקים"
   },
   {
     "id": "reckgMulgJQ3zP3xG",
     "display_name": "Sour",
-    "translation_heb": "חָמוּץ",
-    "sub_groups": []
+    "translation_heb": "חָמוּץ"
   },
   {
     "id": "recsWG9qiSgYH8byz",
     "display_name": "soy sauce",
-    "translation_heb": "רוטב סויה",
-    "sub_groups": []
+    "translation_heb": "רוטב סויה"
   },
   {
     "id": "rec7T4gVvQzRzi7uX",
     "display_name": "soy-free",
-    "translation_heb": "ללא סויה",
-    "sub_groups": []
+    "translation_heb": "ללא סויה"
   },
   {
     "id": "rec1TE0xK1AoVx5V6",
     "display_name": "spelt product ",
     "translation_heb": "כוסמין",
-    "sub_groups": []
+    "parentGroups": [
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX"
+    ]
   },
   {
     "id": "rec0QscXGfFUDTzBr",
     "display_name": "Spice Mixes",
-    "translation_heb": "תערובות תבלינים",
-    "sub_groups": []
+    "translation_heb": "תערובות תבלינים"
   },
   {
     "id": "rec9aef6vga0ZHQHN",
     "display_name": "Spices",
-    "translation_heb": "תבלינים יבשים",
-    "sub_groups": []
+    "translation_heb": "תבלינים יבשים"
   },
   {
     "id": "recWpISCcCcAIX1lr",
     "display_name": "Spicy",
-    "translation_heb": "חָרִיף",
-    "sub_groups": []
+    "translation_heb": "חָרִיף"
   },
   {
     "id": "recDDXjev73zW9NBZ",
     "display_name": "Spirits",
     "translation_heb": "ליקרים",
-    "sub_groups": []
+    "parentGroups": [
+      "recAvCd37VjynjiAV"
+    ]
   },
   {
     "id": "recYZdiI4Znpthzj5",
     "display_name": "Spreads",
-    "translation_heb": "ממרחים",
-    "sub_groups": []
+    "translation_heb": "ממרחים"
   },
   {
     "id": "recapwT9gLHskncZS",
     "display_name": "sprouts ",
     "translation_heb": "נבטים",
-    "sub_groups": []
+    "parentGroups": [
+      "recRLRNG6VRO3pnoY"
+    ]
   },
   {
     "id": "reclaSHDqdG6SON8b",
     "display_name": "squashs",
-    "translation_heb": "דלעות ",
-    "sub_groups": []
+    "translation_heb": "דלעות "
   },
   {
     "id": "recDigAI6dMidBT0X",
     "display_name": "Starch",
-    "translation_heb": "עֲמִילָן",
-    "sub_groups": []
+    "translation_heb": "עֲמִילָן"
   },
   {
     "id": "recnHMoLrJWo7LqDk",
     "display_name": "steamed",
-    "translation_heb": "מאודה",
-    "sub_groups": []
+    "translation_heb": "מאודה"
   },
   {
     "id": "recA1DeocMW69g9QP",
     "display_name": "Sugars",
-    "translation_heb": "סוכרים",
-    "sub_groups": []
+    "translation_heb": "סוכרים"
   },
   {
     "id": "recmoMwkVsy3dUCFu",
     "display_name": "Sweet",
-    "translation_heb": "מתוק",
-    "sub_groups": []
+    "translation_heb": "מתוק"
   },
   {
     "id": "rec8EgoVJm1bcW4Vn",
     "display_name": "Tea",
-    "translation_heb": "תה",
-    "sub_groups": []
+    "translation_heb": "תה"
   },
   {
     "id": "rec3INPlyw5xpVWeX",
     "display_name": "Tomatoes",
     "translation_heb": "עגבניות",
-    "sub_groups": []
+    "parentGroups": [
+      "rec3INPlyw5xpVWeX"
+    ]
   },
   {
     "id": "reczBdehghSnHIzcf",
     "display_name": "Vegan",
     "translation_heb": "טִבעוֹנִי",
-    "sub_groups": [
-      "Animal proteins",
-      "Eggs",
-      "Dairy",
-      "Meat",
-      "Fish",
-      "Animal products",
-      "Seafood"
+    "subGroups": [
+      "recRuJgFOBk98fk8i",
+      "recSE80ZWX568HCiz",
+      "recYgJLdDlWsTxVGe",
+      "recm30EduNkl4SSxj",
+      "recv4O8R7YyTwXVVU",
+      "recxRrdYnGRXlmiXh",
+      "recAjiOEZMV6ObquU"
     ]
   },
   {
     "id": "recRLRNG6VRO3pnoY",
     "display_name": "Vegetables",
     "translation_heb": "ירקות",
-    "sub_groups": [
-      "Leafy Greens"
+    "subGroups": [
+      "recjQPuY0MXSND7wJ"
     ]
   },
   {
     "id": "recJw1LIfWuUfhbLY",
     "display_name": "Vegetarian",
     "translation_heb": "צִמחוֹנִי",
-    "sub_groups": [
-      "Animal proteins",
-      "Animal products",
-      "Meat",
-      "Fish",
-      "Seafood"
+    "subGroups": [
+      "recRuJgFOBk98fk8i",
+      "recxRrdYnGRXlmiXh",
+      "recm30EduNkl4SSxj",
+      "recv4O8R7YyTwXVVU",
+      "recAjiOEZMV6ObquU"
     ]
   },
   {
     "id": "rec75vhLm4p0l8HfZ",
     "display_name": "Vinegars",
-    "translation_heb": "חומצים",
-    "sub_groups": []
-  },
-  {
-    "id": "recQFqQwPrfb3sCVY",
-    "display_name": "wheat flour",
-    "translation_heb": "קמח חיטה",
-    "sub_groups": []
+    "translation_heb": "חומצים"
   },
   {
     "id": "recd15KxweGAE9dEv",
     "display_name": "wheat flours",
     "translation_heb": "קמחי חיטה",
-    "sub_groups": []
+    "parentGroups": [
+      "recurt87JNmeE6SzQ",
+      "recPRWumn2WpzArWA"
+    ]
   },
   {
     "id": "recPRWumn2WpzArWA",
     "display_name": "Wheat products",
     "translation_heb": "מוצרי חיטה",
-    "sub_groups": []
+    "parentGroups": [
+      "recurt87JNmeE6SzQ"
+    ]
   },
   {
     "id": "recfqsjPJYOLjkUvT",
     "display_name": "Wine",
     "translation_heb": "יַיִן",
-    "sub_groups": []
+    "parentGroups": [
+      "recAvCd37VjynjiAV"
+    ]
   },
   {
     "id": "rec4AN9AtvRJyyqOf",
     "display_name": "yogurts",
     "translation_heb": "יוגורטים",
-    "sub_groups": []
+    "parentGroups": [
+      "recYgJLdDlWsTxVGe"
+    ]
   },
   {
     "id": "recbNpBc1x3riE6IU",
     "display_name": "high carb",
     "translation_heb": "עשיר בפחמימות"
+  },
+  {
+    "id": "recB1W1GDN8MiyV8z",
+    "parentGroups": [
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recxRrdYnGRXlmiXh"
+  },
+  {
+    "id": "rec5HBd96Kk2t02au"
   }
 ]

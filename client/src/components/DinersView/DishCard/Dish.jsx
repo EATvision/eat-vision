@@ -1,8 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
-  Alert,
-  AlertTitle,
   Box,
   Card,
   CardActions,
@@ -12,8 +10,6 @@ import {
   Collapse,
   Divider,
   IconButton,
-  List,
-  ListItem,
   Paper,
   Typography,
   useTheme,
@@ -40,7 +36,6 @@ import AskForChangesBtn from './AskForChangesBtn'
 import ChangesInfo from './ChangesInfo'
 import DescriptionInfo from './DescriptionInfo'
 import IngredientsInfo from './IngredientsInfo'
-import { useGetComponentLabel } from '../../../hooks/ingredients'
 
 export default function Dish({ data }) {
   const theme = useTheme()
@@ -55,10 +50,6 @@ export default function Dish({ data }) {
   })
 
   const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
-    (component) => component.isFilteredOut
-  )
-
-  const mandatoryComponentsFilteredOut = data?.recipe?.mandatory?.filter(
     (component) => component.isFilteredOut
   )
 
@@ -86,8 +77,6 @@ export default function Dish({ data }) {
     }
   }
 
-  const getComponentLabel = useGetComponentLabel()
-
   return (
     <Paper
       elevation={5}
@@ -103,35 +92,6 @@ export default function Dish({ data }) {
         flex: 1,
       }}
     >
-      {data.isMainDishFilteredOut && (
-        <Alert
-          severity="error"
-          sx={{
-            position: 'absolute',
-            top: '50%',
-            transform: 'translate(0, -50%)',
-          }}
-        >
-          <AlertTitle>FILTERED OUT</AlertTitle>
-          {mandatoryComponentsFilteredOut.length > 0 && (
-            <List dense>
-              {mandatoryComponentsFilteredOut.map((component) => (
-                <ListItem dense key={component.id}>
-                  {getComponentLabel(component)}
-                </ListItem>
-              ))}
-            </List>
-          )}
-
-          {mandatoryComponentsFilteredOut.length === 0 && (
-            <Typography>
-              All choice ingredients were filtered out (
-              {data.recipe.choice.map((c) => getComponentLabel(c)).join(', ')})
-            </Typography>
-          )}
-        </Alert>
-      )}
-
       <Card
         sx={{
           width: '100%',
@@ -204,21 +164,21 @@ export default function Dish({ data }) {
         </Box>
 
         <Box>
-          {data.recipe?.choice?.length > 0 && (
-            <DishRecipeTypeChips
-              data={data}
-              label={t('choice')}
-              recipeType="choice"
-              selectedComponents={selectedComponents.choice}
-              onSelect={handleSelect('choice', { exclusive: true })}
-            />
-          )}
+          {data.recipe?.choice?.length > 0 &&
+            data.recipe?.choice.map((choices, index) => (
+              <DishRecipeTypeChips
+                key={index}
+                data={choices}
+                label={t('choice')}
+                selectedComponents={selectedComponents.choice}
+                onSelect={handleSelect('choice', { exclusive: true })}
+              />
+            ))}
 
           {data.recipe?.sideDish?.length > 0 && (
             <DishRecipeTypeChips
-              data={data}
+              data={data.recipe.sidedish}
               label={t('sidedish')}
-              recipeType="sideDish"
               selectedComponents={selectedComponents.sideDish}
               onSelect={handleSelect('sideDish', { exclusive: false })}
             />

@@ -4,8 +4,11 @@ const intersection = require('lodash/intersection')
 
 const dishes = require('../data/new/dishes.json')
 const ingredients = require('../data/new/ingredients.json')
+const groups = require(('../../src/data/raw/groups.json'))
 
+const groupsById = keyBy(groups, 'id')
 const ingredientsById = keyBy(ingredients, 'id')
+
 const dishesById = keyBy(dishes, 'id')
 
 const setAllChildIngredients = (result, ingredientId) => {
@@ -21,6 +24,19 @@ const setAllChildIngredients = (result, ingredientId) => {
     }
   }
 }
+
+const setAllParentGroups = (result, groupId) => {
+  result.push(groupId)
+  const group = groupsById[groupId]
+  const parentGroups = group.parentGroups
+  while (parentGroups?.length && !result.includes(groupId)) {
+    for (let index = 0; index < parentGroups.length; index++) {
+      const gr = parentGroups[index]
+      setAllParentGroups(result, gr)
+    }
+  }
+}
+
 
 const getComponentLimitations = (component, filters) => {
   let intersectingExcludedIngredients = []
@@ -93,9 +109,7 @@ const getModifiedDishes = (dishes, filters) =>
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
           isFilteredOut,
-          ...(isMainDishFilteredOut
-            ? { name: ingredientsById[component.id].name }
-            : {}),
+          ...(ingredientsById[component.id]),
         }
       }
     )
@@ -113,35 +127,35 @@ const getModifiedDishes = (dishes, filters) =>
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
           isFilteredOut,
-          ...{
-            name: ingredientsById[component.id].name,
-            translation_heb: ingredientsById[component.id].translation_heb,
-          },
+          ...(ingredientsById[component.id]),
         }
       }
     )
 
-    const modifiedChoiceComponents = dish.recipe.choice?.map((component) => {
-      const {
-        intersectingExcludedIngredients,
-        ingredientsExludedInDiets,
-        isFilteredOut,
-      } = getComponentLimitations(component, filters)
+    const modifiedChoice = dish.recipe.choice?.map(choice => {
+      return choice.map((component) => {
+        const {
+          intersectingExcludedIngredients,
+          ingredientsExludedInDiets,
+          isFilteredOut,
+        } = getComponentLimitations(component, filters)
 
-      return {
-        ...component,
-        intersectingExcludedIngredients,
-        ingredientsExludedInDiets,
-        isFilteredOut,
-        name: ingredientsById[component.id].name,
-        translation_heb: ingredientsById[component.id].translation_heb,
-      }
+        return {
+          ...component,
+          intersectingExcludedIngredients,
+          ingredientsExludedInDiets,
+          isFilteredOut,
+          ...(ingredientsById[component.id]),
+        }
+      })
     })
 
     isMainDishFilteredOut =
       isMainDishFilteredOut ||
-      (modifiedChoiceComponents?.length > 0 &&
-        modifiedChoiceComponents.every((c) => c.isFilteredOut))
+      (
+        modifiedChoice?.length > 0 &&
+        modifiedChoice.some(choice => choice.every((c) => c.isFilteredOut))
+      )
 
     const modifiedSideDishes = dish.recipe.sideDish?.map((sideDish) => ({
       ...getModifiedDishes([dishesById[sideDish.id]], filters)[0],
@@ -160,8 +174,7 @@ const getModifiedDishes = (dishes, filters) =>
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
           isFilteredOut,
-          name: ingredientsById[component.id].name,
-          translation_heb: ingredientsById[component.id].translation_heb,
+          ...(ingredientsById[component.id])
         }
       }) || []),
       ...(dish.recipe.addableDishes?.map((sideDish) => ({
@@ -179,7 +192,7 @@ const getModifiedDishes = (dishes, filters) =>
         ...dish.recipe,
         mandatory: modifiedMandatoryComponents,
         excludable: modifiedExcludableComponents,
-        choice: modifiedChoiceComponents,
+        choice: modifiedChoice,
         sideDish: modifiedSideDishes,
         addableComponents,
       },
@@ -188,6 +201,7 @@ const getModifiedDishes = (dishes, filters) =>
 
 module.exports = {
   setAllChildIngredients,
+  setAllParentGroups,
   getComponentLimitations,
   getModifiedDishes,
 }
