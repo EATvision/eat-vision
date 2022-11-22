@@ -56,12 +56,9 @@
     "passport-local": "^1.0.0",
     "twilio": "^3.82.2",
     "web-vitals": "^2.1.4",
-<<<<<<< HEAD:package.json
+    "winston": "^3.8.2",
     "@sentry/node": "7.20.1",
     "@sentry/tracing": "7.20.1"
-=======
-    "winston": "^3.8.2"
->>>>>>> 9e51eb9 (Split project into 2 different sub-folders):server/package.json
   },
   "devDependencies": {
     "nodemon": "^2.0.19",
