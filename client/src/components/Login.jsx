@@ -67,7 +67,7 @@ function Login({ onDone, optOutLoginOption }) {
           const { user } = await dinerUser.signin()
 
           if (!user) {
-            await dinerUser.signup()
+            dinerUser.signup()
           }
 
           onDone()
