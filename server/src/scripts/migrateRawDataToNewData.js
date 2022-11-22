@@ -41,10 +41,9 @@ const modifiedIngredients = ingredients.map(ing => {
   allIngredientComponentsIds.forEach(ingId => {
     allGroupsOfIng = [...allGroupsOfIng, ...(ingredientsById[ingId]?.groups || [])]
   })
+  const allllllllGroupsIncludingParentsRecursively = getAllParentGroups(allGroupsOfIng)
 
-  allGroupsOfIng = [...new Set(allGroupsOfIng)]
-
-  const allllllllGroups = getAllParentGroups(allGroupsOfIng)
+  allGroupsOfIng = [...new Set(allllllllGroupsIncludingParentsRecursively)]
 
   const excludedInDiets = diets.reduce((acc, diet) => {
     if (_intersection(allGroupsOfIng, diet?.excluded_groups)?.length > 0) {
