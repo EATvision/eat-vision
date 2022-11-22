@@ -13,6 +13,20 @@ const { getUserById } = require('./utils/users')
 
 const PORT = process.env.PORT || 3001;
 
+const Sentry = require("@sentry/node");
+const Tracing = require("@sentry/tracing");
+
+Sentry.init({
+  dsn: process.env.SENTRY_DSN,
+  environment: process.env.ENVIRONMENT,
+
+  // Set tracesSampleRate to 1.0 to capture 100%
+  // of transactions for performance monitoring.
+  // We recommend adjusting this value in production
+  tracesSampleRate: 1.0,
+});
+
+
 const app = express();
 
 app.use(cookieParser());

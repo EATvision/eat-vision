@@ -38,7 +38,9 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "twilio": "^3.82.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@sentry/node": "7.20.1",
+    "@sentry/tracing": "7.20.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
