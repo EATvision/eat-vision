@@ -118,13 +118,18 @@ router.post('/', async (req, res, next) => {
 
   try {
     const newId = getDBId()
-    const { insertedId } = await kitchenCollectionOperations.insertOne({
-      ...newKitchen,
-      _id: newId,
-      id: newId.toString(),
-    })
+    const { value: insertedKitchen } =
+      await kitchenCollectionOperations.findOneAndReplace(
+        { id: newId },
+        {
+          ...newKitchen,
+          _id: newId,
+          id: newId.toString(),
+        },
+        { upsert: true }
+      )
 
-    return res.status(201).send({ insertedId })
+    return res.status(201).send(insertedKitchen)
   } catch (error) {
     const message = `Could not add new kitchen: ${error.message}`
     return next(createHttpError(500, message))
@@ -136,10 +141,11 @@ router.put('/:kitchenId', async (req, res, next) => {
   const newKitchen = req.body
 
   try {
-    const updatedKitchen = await kitchenCollectionOperations.findOneAndReplace(
-      { $or: [{ id: kitchenId }, { _id: getDBId(kitchenId) }] },
-      _omit(newKitchen, '_id')
-    )
+    const { value: updatedKitchen } =
+      await kitchenCollectionOperations.findOneAndReplace(
+        { $or: [{ id: kitchenId }, { _id: getDBId(kitchenId) }] },
+        _omit(newKitchen, '_id')
+      )
 
     return res.send(updatedKitchen)
   } catch (error) {

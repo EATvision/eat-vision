@@ -16,7 +16,7 @@ import {
 } from '@mui/material'
 
 import IngredientsSelector from './IngredientsSelector'
-import { useGetComponentLabel, useIngredientsByIds } from 'hooks/ingredients'
+import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
 import { useDinerUser } from 'contexts/diner'
 
 function FoodRestrictionsStep({ onNext }) {
@@ -140,7 +140,7 @@ function FoodRestrictionsStep({ onNext }) {
 function RestrictionFilter({ filters, title, type, onClick }) {
   const theme = useTheme()
   const getComponentLabel = useGetComponentLabel()
-  const { ingredients } = useIngredientsByIds(filters[type])
+  const { ingredients } = useV1IngredientsByIds(filters[type])
 
   return (
     <ToggleButtonGroup
