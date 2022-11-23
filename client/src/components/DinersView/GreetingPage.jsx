@@ -15,15 +15,21 @@ import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 
 import { defaultFilters, doesUserHaveFilters } from 'utils/filters'
 import { useKitchenById } from 'hooks/kitchens'
-import useIsRTL from 'hooks/useRTL'
 import Login from 'components/Login'
 import { useDinerUser } from 'contexts/diner'
+import { styled } from '@mui/system'
+
+const CenteredBox = styled(Box)`
+  position: absolute;
+  /* @noflip */
+  left: 50%;
+  translate: -50%;
+`
 
 function GreetingPage() {
   const theme = useTheme()
   const { t } = useTranslation()
   const { kitchenId, menuId } = useParams()
-  const isRTL = useIsRTL()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
   const dinerUser = useDinerUser()
 
@@ -83,12 +89,9 @@ function GreetingPage() {
             marginTop: 0,
           }}
         >
-          <Box
+          <CenteredBox
             sx={{
               height: 300,
-              position: 'absolute',
-              [isRTL ? 'right' : 'left']: '50%',
-              translate: '-50%',
             }}
           >
             <img
@@ -96,7 +99,7 @@ function GreetingPage() {
               alt="waiter"
               className="w-full h-full object-center object-fit group-hover:opacity-75"
             />
-          </Box>
+          </CenteredBox>
           <Box
             sx={{
               zIndex: 1,
@@ -154,7 +157,7 @@ function GreetingPage() {
           </Box>
         </Box>
 
-        <Box
+        <CenteredBox
           sx={{
             padding: `0 ${theme.spacing(2)}`,
             paddingBottom: theme.spacing(1),
@@ -163,8 +166,6 @@ function GreetingPage() {
             bottom: 50,
             maxWidth: 500,
             margin: 'auto',
-            [isRTL ? 'right' : 'left']: '50%',
-            translate: '-50%',
           }}
         >
           <Link className="group flex flex-col" to="filters/1">
@@ -193,7 +194,7 @@ function GreetingPage() {
                 : t('register_or_sign_in')}
             </Button>
           </Typography>
-        </Box>
+        </CenteredBox>
       </Box>
 
       <Dialog
