@@ -349,5 +349,39 @@
       "rectpZHKSyKnbUYSb"
     ],
     "ingredient2_delta_price": 0
+  },
+  {
+    "id": "recRmfoBFDqlmiagf",
+    "ingredient1": [
+      "rectpZHKSyKnbUYSb"
+    ],
+    "ingredient1_delta_price": 7,
+    "ingredient2": [
+      "rec0md0zPk2XkGAzt"
+    ],
+    "ingredient2_delta_price": 7,
+    "ingredient3": [
+      "recVGUu0cMkCKwmZP"
+    ],
+    "ingredient3_delta_price": 7,
+    "ingredient4": [
+      "recYEH8B7edSdRO70"
+    ],
+    "ingredient4_delta_price": 7
+  },
+  {
+    "id": "rechyTcWTYQzhUvxE",
+    "ingredient1": [
+      "rec9nzkNGPE3RbNEq"
+    ],
+    "ingredient1_delta_price": 6,
+    "ingredient2": [
+      "recvKjpunfNfZhNPH"
+    ],
+    "ingredient2_delta_price": 6,
+    "ingredient3": [
+      "recUSiFQ5KWOcJ5Tk"
+    ],
+    "ingredient3_delta_price": 6
   }
 ]

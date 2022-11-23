@@ -5968,6 +5968,17 @@
     "translation_heb": "סלט סלק מרוקאי"
   },
   {
+    "id": "rect1LNJrFb1vNeo9",
+    "name": "mozzarella cheese",
+    "subIngredients": [
+      "recAtYeYefI0zfKI0"
+    ],
+    "groups": [
+      "recYgJLdDlWsTxVGe"
+    ],
+    "translation_heb": "גבינת מוצרלה"
+  },
+  {
     "id": "recHXf7gSaQKYCZNG",
     "name": "Muenster Cheese",
     "subIngredients": [
@@ -6942,7 +6953,6 @@
     "name": "Pickled Cucumbers",
     "subIngredients": [
       "recqxARDw9YU3hhtf",
-      "rec8pKfAEwucwp78c",
       "recXeFEPeNz9MTGnu"
     ],
     "isSearchable": "FALSE",

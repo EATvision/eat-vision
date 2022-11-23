@@ -1271,7 +1271,12 @@
     "id": "recAQMCvbm2LPQj91",
     "mandatory_ingredients": [
       "rec6X0hBxBaz2cmCE",
-      "rec85vHYHO9z7w0oP"
+      "rec85vHYHO9z7w0oP",
+      "rect1LNJrFb1vNeo9"
+    ],
+    "addable_ingridients": [
+      "recRmfoBFDqlmiagf",
+      "rechyTcWTYQzhUvxE"
     ]
   },
   {
