@@ -17,14 +17,6 @@ import { defaultFilters, doesUserHaveFilters } from 'utils/filters'
 import { useKitchenById } from 'hooks/kitchens'
 import Login from 'components/Login'
 import { useDinerUser } from 'contexts/diner'
-import { styled } from '@mui/system'
-
-const CenteredBox = styled(Box)`
-  position: absolute;
-  /* @noflip */
-  left: 50%;
-  translate: -50%;
-`
 
 function GreetingPage() {
   const theme = useTheme()
@@ -87,11 +79,15 @@ function GreetingPage() {
             justifyContent: 'flex-end',
             margin: 'auto',
             marginTop: 0,
+            alignItems: 'center',
           }}
         >
-          <CenteredBox
+          <Box
             sx={{
               height: 300,
+              width: 'fit-content',
+              position: 'absolute',
+              bottom: 0,
             }}
           >
             <img
@@ -99,7 +95,7 @@ function GreetingPage() {
               alt="waiter"
               className="w-full h-full object-center object-fit group-hover:opacity-75"
             />
-          </CenteredBox>
+          </Box>
           <Box
             sx={{
               zIndex: 1,
@@ -157,44 +153,45 @@ function GreetingPage() {
           </Box>
         </Box>
 
-        <CenteredBox
+        <Box
           sx={{
             padding: `0 ${theme.spacing(2)}`,
             paddingBottom: theme.spacing(1),
             position: 'fixed',
             width: '100vw',
             bottom: 50,
-            maxWidth: 500,
-            margin: 'auto',
+            display: 'flex',
           }}
         >
-          <Link className="group flex flex-col" to="filters/1">
-            <Button variant="contained" color="primary">
-              {t('lets_get_started')}
-            </Button>
-          </Link>
-
-          <Typography
-            variant="body2"
+          <Box
             sx={{
-              margin: `0 ${theme.spacing(1)}`,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
+              width: '100%',
+              bottom: 50,
+              maxWidth: 500,
+              margin: 'auto',
             }}
           >
+            <Link className="group flex flex-col" to="filters/1">
+              <Button variant="contained" color="primary">
+                {t('lets_get_started')}
+              </Button>
+            </Link>
+
             <Button
-              variant="text"
+              variant="outlined"
               fullWidth
               onClick={handleClickSignin}
               disabled={dinerUser.token}
+              sx={{
+                margin: `${theme.spacing(1)} 0`,
+              }}
             >
               {dinerUser.token
                 ? t('already_registered')
                 : t('register_or_sign_in')}
             </Button>
-          </Typography>
-        </CenteredBox>
+          </Box>
+        </Box>
       </Box>
 
       <Dialog
