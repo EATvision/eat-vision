@@ -41,6 +41,8 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
         onClick={handleClick}
         sx={{
           fontSize: 10,
+          fontStyle: 'italic',
+          color: theme.palette.common.white,
         }}
         disabled={open}
       >

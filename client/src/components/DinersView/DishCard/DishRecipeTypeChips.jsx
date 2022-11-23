@@ -64,8 +64,9 @@ export default function DishRecipeChips({
                     component.isFilteredOut
                       ? 'line-through'
                       : 'none',
+                  marginRight: theme.spacing(1),
                 }}
-                label={`${getComponentLabel(component)} ${
+                label={`${getComponentLabel(component).toLocaleLowerCase()} ${
                   component.price > 0
                     ? `(+${component.price}${kitchen?.currency})`
                     : ''
