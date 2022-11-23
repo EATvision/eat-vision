@@ -7,7 +7,6 @@ import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 const WAITER_AVATAR_WIDTH = 70
 
 const StyledFab = styled(Fab)({
-  position: 'absolute',
   zIndex: 1,
   top: -20,
   left: 0,
@@ -36,7 +35,6 @@ function Footer({ dishes, showWaiterBtn }) {
         alignItems: 'center',
         fontFamily: 'Roboto',
         padding: theme.spacing(1),
-        position: 'fixed',
         bottom: 0,
         width: '100vw',
         right: 0,
@@ -44,27 +42,24 @@ function Footer({ dishes, showWaiterBtn }) {
     >
       <MenuSelector />
 
-      {
-        showWaiterBtn
-          && (
-            <StyledFab 
-              sx={{ border: `1px solid ${theme.palette.primary.main}` }}
-              aria-label="add"
-              variant="contained"
-            >
-              <Avatar
-                src={waiterSrc}
-                sx={{
-                  width: WAITER_AVATAR_WIDTH,
-                  height: WAITER_AVATAR_WIDTH,
-                }}
-              />
-              {/* <Typography>
+      {showWaiterBtn && (
+        <StyledFab
+          sx={{ border: `1px solid ${theme.palette.primary.main}` }}
+          aria-label="add"
+          variant="contained"
+        >
+          <Avatar
+            src={waiterSrc}
+            sx={{
+              width: WAITER_AVATAR_WIDTH,
+              height: WAITER_AVATAR_WIDTH,
+            }}
+          />
+          {/* <Typography>
               Need Help?
             </Typography> */}
-            </StyledFab>
-          )
-      }
+        </StyledFab>
+      )}
 
       <Box sx={{ flexGrow: 1 }} />
 

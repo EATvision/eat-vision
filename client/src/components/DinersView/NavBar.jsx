@@ -34,9 +34,8 @@ function NavBar() {
 
   return (
     <AppBar
-      position="fixed"
       color="default"
-      sx={{ display: 'flex', flexDirection: 'row' }}
+      sx={{ display: 'flex', flexDirection: 'row', position: 'relative' }}
     >
       <Button
         sx={{ padding: '3px' }}
