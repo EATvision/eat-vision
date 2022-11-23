@@ -1,10 +1,15 @@
 const { Router } = require('express')
 const router = Router()
+const keyBy = require('lodash/keyBy')
+
 
 const kitchens = require('../data/new/kitchens.json')
 const menus = require('../data/new/menus.json')
 const dishes = require('../data/new/dishes.json')
 const categories = require('../data/new/categories.json')
+const workingHours = require('../data/new/workingHours.json')
+
+const workingHoursById = keyBy(workingHours, 'id')
 
 const { getModifiedDishes } = require('../utils/dishes')
 
@@ -23,9 +28,13 @@ router.get('/:kitchenId/categories', (req, res) => {
 
 router.get('/:kitchenId/menus', (req, res) => {
   const { params: { kitchenId } } = req
+  const kitchenMenus = menus.filter(menu => menu?.kitchens?.includes(kitchenId))
+  const kitchenMenusFullData = kitchenMenus.map(menu => ({
+    ...menu,
+    workingHours: menu.workingHours.map(workingHourId => (workingHoursById[workingHourId]))
+  }))
 
-  const relevanceMenus = menus.filter(menu => menu?.kitchens?.includes(kitchenId))
-  res.send(relevanceMenus)
+  res.send(kitchenMenusFullData)
 })
 
 router.get('/:kitchenId/menus/:menuId/categories', (req, res) => {

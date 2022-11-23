@@ -83,5 +83,6 @@ export default {
   ingredient: 'ingredient',
   remove: 'remove',
   put_aside: 'put aside',
-
+  no_menus_relevant_now: 'No menus were found for the current time',
+  menus_in_other_working_hours: 'The menus possible in other working hours',
 }
