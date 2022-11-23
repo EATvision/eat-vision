@@ -81,4 +81,6 @@ export default {
   ingredient: 'רכיב',
   remove: 'הסרה',
   put_aside: 'לשים בצד',
+  no_menus_relevant_now: 'לא נמצא תפריט מוגש לשעה זו',
+  menus_in_other_working_hours: 'תפריטים מוצאים בשעות הפעילות',
 }
