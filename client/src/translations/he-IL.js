@@ -62,6 +62,7 @@ export default {
   ingredients_selector_placeholder: 'ניתן להקליד סוג אוכל, רכיבים או טעמים',
   coming_soon: 'בקרוב',
   no_options: 'לא נמצאו אפשרויות',
+  description: 'פירוט',
   options: 'אופציות',
   sidedish: 'תוספת',
   changes: 'שינויים',

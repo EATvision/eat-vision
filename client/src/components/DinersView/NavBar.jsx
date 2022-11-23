@@ -50,7 +50,7 @@ function NavBar() {
           disabled={location.pathname.includes('/filters')}
         >
           <Badge
-            color="info"
+            color="primary"
             invisible={numberOfFiltersOn === 0}
             badgeContent={numberOfFiltersOn}
           >

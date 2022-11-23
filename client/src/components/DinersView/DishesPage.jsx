@@ -68,9 +68,8 @@ function DishesPage({ dishes }) {
             variant="scrollable"
             scrollButtons
             allowScrollButtonsMobile
-            indicatorColor="secondary"
-            textColor="secondary"
-            visibleScrollbar
+            indicatorColor="primary"
+            textColor="primary"
           >
             {orderedCategories
               .filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
