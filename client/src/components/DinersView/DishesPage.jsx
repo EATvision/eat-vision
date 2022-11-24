@@ -6,6 +6,7 @@ import { Box, Paper, Tab, Tabs, Typography, useTheme } from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
 import Dish from './DishCard/Dish'
+import Footer from './Footer'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()
@@ -99,7 +100,7 @@ function DishesPage({ dishes }) {
                   display: 'flex',
                   flexDirection: 'column',
                   alignItems: 'center',
-                  padding: `0 ${theme.spacing(1)}`,
+                  padding: `0 ${theme.spacing(2)}`,
                   maxWidth: 750,
                   margin: 'auto',
                 }}
@@ -124,6 +125,8 @@ function DishesPage({ dishes }) {
             </div>
           ))}
       </Box>
+
+      {dishes?.total?.length > 0 && <Footer dishes={dishes} />}
     </>
   )
 }

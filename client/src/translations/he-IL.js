@@ -1,4 +1,5 @@
 export default {
+  kitchens_list: 'מטבחים שאיתנו',
   register_or_sign_in: 'הרשמה\\התחברות',
   already_registered: 'את\\ה כבר מחובר',
   signed_in_user: 'התחברות עם משתמש\\ת',

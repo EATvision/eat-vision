@@ -3,13 +3,12 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 
 import getTheme from '../theme'
-import Footer from 'components/DinersView/Footer'
 import NavBar from 'components/DinersView/NavBar'
 import RTL from 'components/RTL'
 import useIsRTL from 'hooks/useRTL'
 import { ProvideDinerUser } from 'contexts/diner'
 
-function DinerView({ dishes }) {
+function DinerView() {
   const isRTL = useIsRTL()
 
   return (
@@ -35,8 +34,6 @@ function DinerView({ dishes }) {
           >
             <Outlet />
           </Box>
-
-          {dishes?.total?.length > 0 && <Footer dishes={dishes} />}
         </Box>
       </ThemeProvider>
     </ProvideDinerUser>

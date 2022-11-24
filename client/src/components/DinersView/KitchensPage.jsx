@@ -3,19 +3,21 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 import { useKitchens } from '../../hooks/kitchens'
+import { Typography } from '@mui/material'
 
 function KitchensPage() {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
   const { kitchens, isLoading, isError } = useKitchens()
 
-  const handleClickKitchen = (kitchen) => () => i18n.changeLanguage(kitchen.locale)
+  const handleClickKitchen = (kitchen) => () =>
+    i18n.changeLanguage(kitchen.locale)
 
   if (isLoading) return <div>LOADING</div>
   if (isError) return <div>ERROR</div>
 
   return (
     <main>
-      <h2>Kitchens list</h2>
+      <Typography variant="h2">{t('kitchens_list')}</Typography>
 
       <div className="bg-white">
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -36,14 +38,14 @@ function KitchensPage() {
                     className="w-full h-full object-center object-fit group-hover:opacity-75"
                   />
                 </div>
-                <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">{kitchen.name}</h3>
+                <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">
+                  {kitchen.name}
+                </h3>
               </Link>
-
             ))}
           </div>
         </div>
       </div>
-
     </main>
   )
 }

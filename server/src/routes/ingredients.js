@@ -3,7 +3,7 @@ const Fuse = require('fuse.js')
 const router = Router()
 
 const ingredients = require('../data/new/ingredients.json')
-const searchableIngredients = ingredients.filter(ing => ing.isSearchable)
+const searchableIngredients = ingredients.filter(ing => ing)// ing.isSearchable)
 
 const options = {
   // isCaseSensitive: false,

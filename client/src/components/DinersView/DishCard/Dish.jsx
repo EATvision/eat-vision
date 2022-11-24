@@ -192,21 +192,7 @@ export default function Dish({ data }) {
           data.recipe.updates ||
           data.sizes ||
           data.recipe.mandatory.length > 0 ||
-          data.warnings) && (
-          <>
-            <Typography
-              sx={{
-                fontSize: '0.8rem',
-                width: '100%',
-                textAlign: 'start',
-                margin: `0 ${theme.spacing(2)}`,
-              }}
-            >
-              {t('more_info')}
-            </Typography>
-            <Divider />
-          </>
-        )}
+          data.warnings) && <Divider />}
         <CardActions>
           {data.longDescription && (
             <IconButton
