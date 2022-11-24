@@ -107,7 +107,8 @@ function FoodRestrictionsStep({ onNext }) {
       <Dialog
         fullScreen={fullScreen}
         open={Boolean(filterType)}
-        onClose={handleClickBack}
+        // onClose={handleClickBack}
+        disableEscapeKeyDown
       >
         <DialogContent
           sx={!fullScreen ? { minWidth: 500, minHeight: 500 } : {}}

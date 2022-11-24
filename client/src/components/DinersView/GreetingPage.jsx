@@ -60,96 +60,98 @@ function GreetingPage() {
           height: '100%',
         }}
       >
-        <Box>
-          <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+        <Box sx={{ margin: 'auto', marginTop: theme.spacing(5) }}>
+          <Box
+            sx={{ width: 150, margin: 'auto', marginBottom: theme.spacing(2) }}
+          >
             <img
               className="w-full h-full object-center object-fit group-hover:opacity-75"
               src={kitchen?.image?.[0]?.url}
               alt=""
             />
-          </div>
-        </Box>
-
-        <Box
-          sx={{
-            position: 'relative',
-            height: 300,
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'flex-end',
-            margin: 'auto',
-            marginTop: 0,
-            alignItems: 'center',
-          }}
-        >
-          <Box
-            sx={{
-              height: 300,
-              width: 'fit-content',
-              position: 'absolute',
-              bottom: 0,
-            }}
-          >
-            <img
-              src={waiterSrc}
-              alt="waiter"
-              className="w-full h-full object-center object-fit group-hover:opacity-75"
-            />
           </Box>
+
           <Box
             sx={{
-              zIndex: 1,
-              background: 'rgb(255 255 255 / 80%)',
-              padding: theme.spacing(2),
+              position: 'relative',
+              height: 300,
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'flex-end',
+              margin: 'auto',
+              marginTop: 0,
+              alignItems: 'center',
             }}
           >
-            <Typography
-              variant="h6"
-              sx={{ fontSize: 18, color: '#494949', fontWeigth: '500' }}
-            >
-              {t('hi_im_your_personal_waiter')}
-            </Typography>
-
-            <Typography
-              variant="h6"
+            <Box
               sx={{
-                fontSize: 20,
-                fontWeight: 'bold',
-                lineHeight: 1.2,
-                marginTop: theme.spacing(1),
+                height: 300,
+                width: 'fit-content',
+                position: 'absolute',
+                bottom: 0,
               }}
             >
-              {t('lets_see_only_things')}
-              <br />
-              {t('that_are_relevant_to_you')}
-            </Typography>
-
-            <Typography
-              variant="body2"
+              <img
+                src={waiterSrc}
+                alt="waiter"
+                className="w-full h-full object-center object-fit group-hover:opacity-75"
+              />
+            </Box>
+            <Box
               sx={{
-                display: 'flex',
-                justifyContent: 'center',
-                opacity: 0.8,
-                marginTop: theme.spacing(2),
+                zIndex: 1,
+                background: 'rgb(255 255 255 / 80%)',
+                padding: theme.spacing(2),
               }}
             >
-              {t('or_skip_to_the')}
-              <Link
-                className="group flex flex-col"
-                to="dishes"
-                onClick={handleClickSkipToFullMenu}
+              <Typography
+                variant="h6"
+                sx={{ fontSize: 18, color: '#494949', fontWeigth: '500' }}
               >
-                <Typography
-                  variant="body2"
-                  sx={{
-                    margin: `0 ${theme.spacing(1)}`,
-                    textDecoration: 'underline',
-                  }}
+                {t('hi_im_your_personal_waiter')}
+              </Typography>
+
+              <Typography
+                variant="h6"
+                sx={{
+                  fontSize: 20,
+                  fontWeight: 'bold',
+                  lineHeight: 1.2,
+                  marginTop: theme.spacing(1),
+                }}
+              >
+                {t('lets_see_only_things')}
+                <br />
+                {t('that_are_relevant_to_you')}
+              </Typography>
+
+              <Typography
+                variant="body2"
+                sx={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  opacity: 0.8,
+                  marginTop: theme.spacing(2),
+                }}
+              >
+                {t('or_skip_to_the')}
+                <Link
+                  className="group flex flex-col"
+                  to="dishes"
+                  onClick={handleClickSkipToFullMenu}
                 >
-                  {t('tofull_menu')}
-                </Typography>
-              </Link>
-            </Typography>
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      margin: `0 ${theme.spacing(1)}`,
+                      textDecoration: 'underline',
+                    }}
+                  >
+                    {t('tofull_menu')}
+                  </Typography>
+                </Link>
+              </Typography>
+            </Box>
           </Box>
         </Box>
 
@@ -157,9 +159,7 @@ function GreetingPage() {
           sx={{
             padding: `0 ${theme.spacing(2)}`,
             paddingBottom: theme.spacing(1),
-            position: 'fixed',
             width: '100vw',
-            bottom: 50,
             display: 'flex',
           }}
         >

@@ -29,15 +29,16 @@ function MenusPage() {
   if (!relevantMenus.length) {
     return (
       <>
-        <Box sx={{ margin: theme.spacing(2) }}>
-          <div className="w-[150px] mx-auto aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+        <Box sx={{ margin: theme.spacing(5) }}>
+          <Box
+            sx={{ width: 150, margin: 'auto', marginBottom: theme.spacing(2) }}
+          >
             <img
               className="w-full h-full object-center object-fit group-hover:opacity-75"
               src={kitchen?.image?.[0]?.url}
               alt=""
             />
-          </div>
-          <Typography variant="h5">{kitchen.name}</Typography>
+          </Box>
         </Box>
 
         <Typography variant="h6">{t('no_menus_relevant_now')}</Typography>
@@ -46,14 +47,23 @@ function MenusPage() {
 
         <MenusList menus={menus} />
 
-        <Button
-          variant={'contained'}
-          color="secondary"
-          sx={{ marginTop: 'auto' }}
-          onClick={handleClickBack}
+        <Box
+          sx={{
+            padding: `0 ${theme.spacing(2)}`,
+            paddingBottom: theme.spacing(1),
+            margin: `${theme.spacing(1)} 0`,
+            marginTop: 'auto',
+          }}
         >
-          {t('back')}
-        </Button>
+          <Button
+            variant={'test'}
+            color="primary"
+            fullWidth
+            onClick={handleClickBack}
+          >
+            {t('back')}
+          </Button>
+        </Box>
       </>
     )
   }
