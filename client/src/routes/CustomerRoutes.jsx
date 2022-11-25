@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Navigate } from 'react-router-dom'
+import { Route, Outlet } from 'react-router-dom'
 
 import CustomersView from 'views/CustomerView'
 import ProtectedRoute from 'components/ProtectedRoute'
@@ -9,61 +9,33 @@ import MenuPage from 'components/CustomersView/MenuPage'
 import MenusPage from 'components/CustomersView/MenusPage'
 import KitchenPage from 'components/CustomersView/KitchenPage'
 import OverviewPage from 'components/CustomersView/OverviewPage'
-import CustomerLoginPage from 'components/CustomersView/CustomerLoginPage'
+import CustomerLoginPage from 'components/CustomersView/Login'
+import { AuthProvider } from 'contexts/auth'
 
 const CustomerRoutes = () => (
-  <Route path="customers" element={<CustomersView />}>
-    <Route index element={<Navigate replace to="/customers/login" />} />
-    <Route path="login" element={<CustomerLoginPage />} />
-
+  <Route
+    element={
+      <AuthProvider>
+        <Outlet />
+      </AuthProvider>
+    }
+  >
+    <Route path="customers/login" element={<CustomerLoginPage />} />
     <Route
-      path="overview"
+      path="customers"
       element={
         <ProtectedRoute>
-          <OverviewPage />
+          <CustomersView />
         </ProtectedRoute>
       }
-    />
-    <Route
-      path="generalInfo"
-      element={
-        <ProtectedRoute>
-          <KitchenPage />
-        </ProtectedRoute>
-      }
-    />
-    <Route
-      path="dishes"
-      element={
-        <ProtectedRoute>
-          <DishesPage />
-        </ProtectedRoute>
-      }
-    />
-    <Route
-      path="dishes/:dishId"
-      element={
-        <ProtectedRoute>
-          <DishPage />
-        </ProtectedRoute>
-      }
-    />
-    <Route
-      path="menus"
-      element={
-        <ProtectedRoute>
-          <MenusPage />
-        </ProtectedRoute>
-      }
-    />
-    <Route
-      path="menus/:menuId"
-      element={
-        <ProtectedRoute>
-          <MenuPage />
-        </ProtectedRoute>
-      }
-    />
+    >
+      <Route path="overview" element={<OverviewPage />} />
+      <Route path="generalInfo" element={<KitchenPage />} />
+      <Route path="dishes" element={<DishesPage />} />
+      <Route path="dishes/:dishId" element={<DishPage />} />
+      <Route path="menus" element={<MenusPage />} />
+      <Route path="menus/:menuId" element={<MenuPage />} />
+    </Route>
   </Route>
 )
 

@@ -27,7 +27,7 @@ function App() {
               <AdminView />
             </ProtectedRoute>
           }
-        ></Route>
+        />
 
         <Route
           path="*"

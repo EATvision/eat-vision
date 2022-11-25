@@ -1,5 +1,6 @@
 const express = require('express')
 
+const usersRoutes = require('./users')
 const menusRoutes = require('./menus')
 const dishesRoutes = require('./dishes')
 const dinersRoutes = require('./diners')
@@ -10,6 +11,7 @@ const ingredientsRoutes = require('./ingredients')
 
 const router = express.Router()
 
+router.use('/users', usersRoutes)
 router.use('/menus', menusRoutes)
 router.use('/dishes', dishesRoutes)
 router.use('/diners', dinersRoutes)
