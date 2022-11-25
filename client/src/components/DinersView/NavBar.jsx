@@ -3,10 +3,10 @@ import { AppBar, Badge, Button, IconButton, Tooltip } from '@mui/material'
 import { SlSettings as SettingsIcon } from 'react-icons/sl'
 
 import TuneIcon from '@mui/icons-material/Tune'
-import { MdOutlineGroups as GroupsIcon } from 'react-icons/md'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { t } from 'i18next'
 import { useDinerUser } from 'contexts/diner'
+import { GroupsIcon } from 'components/Icons/GroupsIcon'
 
 function NavBar() {
   const navigate = useNavigate()
