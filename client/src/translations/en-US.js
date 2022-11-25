@@ -21,6 +21,7 @@ export default {
   send: 'send',
   continue: 'continue',
   done: 'done',
+  im_done: 'I\'m Done',
   next: 'next',
   back: 'back',
   add: 'add',

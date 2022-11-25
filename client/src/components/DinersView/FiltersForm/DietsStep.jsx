@@ -1,13 +1,21 @@
 import React from 'react'
-import { ToggleButton, ToggleButtonGroup, useTheme, Box } from '@mui/material'
+import {
+  ToggleButton,
+  ToggleButtonGroup,
+  useTheme,
+  Box,
+  Grow,
+  Button,
+} from '@mui/material'
+import { useParams } from 'react-router-dom'
+import { Check as CheckIcon } from '@mui/icons-material'
 
 import { useTranslation } from 'react-i18next'
-import { useDiets } from '../../../hooks/diets'
 import { useDinerUser } from 'contexts/diner'
+import { useDiets } from 'hooks/diets'
 import { useKitchenById } from 'hooks/kitchens'
-import { useParams } from 'react-router-dom'
 
-function DietsSelector({ onNext }) {
+function DietsSelector({ onNext, onBack }) {
   const theme = useTheme()
   const { t } = useTranslation()
   const dinerUser = useDinerUser()
@@ -17,18 +25,31 @@ function DietsSelector({ onNext }) {
   const { diets, isLoading } = useDiets()
 
   const handleChange = (e, value) => {
-    dinerUser.setFilters({ ...dinerUser.user.filters, diets: value })
+    dinerUser.setFilters({
+      ...dinerUser.user.filters,
+      diets: value.includes('none') ? [] : value,
+    })
   }
 
-  const handleClickNoDiets = () => {
-    dinerUser.setFilters({ ...dinerUser.user.filters, diets: [] })
+  const handleClickDone = () => {
     onNext()
+  }
+
+  const handleClickBack = () => {
+    onBack()
   }
 
   if (isLoading) return <div>LOADING</div>
 
   return (
-    <Box sx={{ padding: theme.spacing(2), flex: 1 }}>
+    <Box
+      sx={{
+        padding: theme.spacing(2),
+        flex: 1,
+        display: 'flex',
+        flexDirection: 'column',
+      }}
+    >
       <ToggleButtonGroup
         fullWidth
         color="primary"
@@ -39,22 +60,27 @@ function DietsSelector({ onNext }) {
         sx={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
+          gap: theme.spacing(1),
+          marginBottom: 'auto',
         }}
       >
         <ToggleButton
           color="primary"
           selected={dinerUser.user.filters.diets.length === 0}
-          onClick={handleClickNoDiets}
           value="none"
           sx={{
             justifyContent: 'flex-start',
             fontSize: 16,
-            padding: '16px 20px',
+            padding: '15px 10px',
             border: 0,
             textAlign: 'start',
           }}
         >
           {t('no_specific_diet')}
+
+          {dinerUser.user.filters.diets.length === 0 && (
+            <CheckIcon sx={{ marginLeft: 'auto' }} />
+          )}
         </ToggleButton>
 
         {diets.map((diet) => (
@@ -64,15 +90,30 @@ function DietsSelector({ onNext }) {
             sx={{
               justifyContent: 'flex-start',
               fontSize: 16,
-              padding: '16px 20px',
+              padding: '15px 10px',
               border: 0,
               textAlign: 'start',
             }}
           >
             {kitchen?.locale === 'he-IL' ? diet.translation_heb : diet.name}
+
+            {dinerUser.user.filters.diets.includes(diet.id) && (
+              <CheckIcon sx={{ marginLeft: 'auto' }} />
+            )}
           </ToggleButton>
         ))}
       </ToggleButtonGroup>
+
+      <Box sx={{ display: 'flex' }}>
+        <Button variant="text" onClick={handleClickBack}>
+          {t('back')}
+        </Button>
+        <Grow direction="up" in>
+          <Button variant="contained" fullWidth onClick={handleClickDone}>
+            {t('im_done')}
+          </Button>
+        </Grow>
+      </Box>
     </Box>
   )
 }

@@ -17,6 +17,7 @@ function WaiterBanner({ title, subtitle }) {
         justifyContent: 'center',
         position: 'relative',
         margin: `${theme.spacing(5)} 0`,
+        marginBottom: theme.spacing(2),
         background: 'none',
       }}
     >
