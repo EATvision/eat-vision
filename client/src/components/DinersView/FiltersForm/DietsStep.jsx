@@ -1,12 +1,5 @@
 import React from 'react'
-import {
-  Divider,
-  ToggleButton,
-  ToggleButtonGroup,
-  useTheme,
-  Box,
-  Checkbox,
-} from '@mui/material'
+import { ToggleButton, ToggleButtonGroup, useTheme, Box } from '@mui/material'
 
 import { useTranslation } from 'react-i18next'
 import { useDiets } from '../../../hooks/diets'
@@ -39,45 +32,43 @@ function DietsSelector({ onNext }) {
       <ToggleButtonGroup
         fullWidth
         color="primary"
-        variant="outlined"
-        orientation="vertical"
-        value="none"
-      >
-        <ToggleButton
-          fullWidth
-          size="small"
-          color="primary"
-          variant="outlined"
-          selected={dinerUser.user.filters.diets.length === 0}
-          onClick={handleClickNoDiets}
-          value="none"
-        >
-          {t('no_specific_diet')}
-        </ToggleButton>
-      </ToggleButtonGroup>
-
-      <Divider variant="middle" sx={{ margin: `${theme.spacing(2)} 0` }} />
-
-      <ToggleButtonGroup
-        fullWidth
-        color="primary"
         value={dinerUser.user.filters.diets}
         onChange={handleChange}
         aria-label="diets"
         orientation="vertical"
+        sx={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+        }}
       >
+        <ToggleButton
+          color="primary"
+          selected={dinerUser.user.filters.diets.length === 0}
+          onClick={handleClickNoDiets}
+          value="none"
+          sx={{
+            justifyContent: 'flex-start',
+            fontSize: 16,
+            padding: '16px 20px',
+            border: 0,
+            textAlign: 'start',
+          }}
+        >
+          {t('no_specific_diet')}
+        </ToggleButton>
+
         {diets.map((diet) => (
           <ToggleButton
-            size="small"
-            fullWidth
             key={diet.id}
             value={diet.id}
-            sx={{ justifyContent: 'flex-start' }}
+            sx={{
+              justifyContent: 'flex-start',
+              fontSize: 16,
+              padding: '16px 20px',
+              border: 0,
+              textAlign: 'start',
+            }}
           >
-            <Checkbox
-              sx={{ pointerEvents: 'none' }}
-              checked={dinerUser.user.filters.diets.includes(diet.id)}
-            />
             {kitchen?.locale === 'he-IL' ? diet.translation_heb : diet.name}
           </ToggleButton>
         ))}

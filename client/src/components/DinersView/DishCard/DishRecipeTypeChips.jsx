@@ -5,19 +5,10 @@ import { Box, useTheme, Stack, FormLabel, Chip, Badge } from '@mui/material'
 import { useKitchenById } from '../../../hooks/kitchens'
 import { useGetComponentLabel } from '../../../hooks/ingredients'
 
-export default function DishRecipeChips({
-  data,
-  label,
-  onSelect = () => {},
-  selectedComponents = [],
-}) {
+export default function DishRecipeChips({ data, label }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
-
-  const handleClickChip = (componentId) => () => {
-    onSelect(componentId)
-  }
 
   const getComponentLabel = useGetComponentLabel()
   return (
@@ -28,7 +19,7 @@ export default function DishRecipeChips({
         backgroundColor: theme.palette.grey[200],
         padding: theme.spacing(1),
         alignItems: 'center',
-        marginBottom: theme.spacing(2),
+        marginBottom: theme.spacing(1),
       }}
     >
       <FormLabel sx={{ textAlign: 'initial', minWidth: 75 }}>
@@ -50,14 +41,11 @@ export default function DishRecipeChips({
               }}
             >
               <Chip
-                size="small"
                 variant="outlined"
                 disabled={
                   component.isMainComponentFilteredOut ||
                   component.isFilteredOut
                 }
-                onClick={handleClickChip(component.id)}
-                selected={selectedComponents.includes(component.id)}
                 sx={{
                   textDecoration:
                     component.isMainComponentFilteredOut ||

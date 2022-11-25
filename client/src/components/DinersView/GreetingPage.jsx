@@ -100,7 +100,8 @@ function GreetingPage() {
             <Box
               sx={{
                 zIndex: 1,
-                background: 'rgb(255 255 255 / 80%)',
+                backdropFilter: 'blur(1px)',
+                background: 'rgb(255 249 242 / 80%)',
                 padding: theme.spacing(2),
               }}
             >
@@ -113,12 +114,7 @@ function GreetingPage() {
 
               <Typography
                 variant="h6"
-                sx={{
-                  fontSize: 20,
-                  fontWeight: 'bold',
-                  lineHeight: 1.2,
-                  marginTop: theme.spacing(1),
-                }}
+                sx={{ fontSize: 18, color: '#494949', fontWeigth: '500' }}
               >
                 {t('lets_see_only_things')}
                 <br />
@@ -153,43 +149,48 @@ function GreetingPage() {
               </Typography>
             </Box>
           </Box>
-        </Box>
-
-        <Box
-          sx={{
-            padding: `0 ${theme.spacing(2)}`,
-            paddingBottom: theme.spacing(1),
-            width: '100vw',
-            display: 'flex',
-          }}
-        >
           <Box
             sx={{
-              width: '100%',
-              bottom: 50,
-              maxWidth: 500,
-              margin: 'auto',
+              padding: `0 ${theme.spacing(2)}`,
+              paddingBottom: theme.spacing(1),
+              width: '100vw',
+              display: 'flex',
+              marginTop: theme.spacing(2),
             }}
           >
-            <Link className="group flex flex-col" to="filters/1">
-              <Button variant="contained" color="primary">
-                {t('lets_get_started')}
-              </Button>
-            </Link>
-
-            <Button
-              variant="outlined"
-              fullWidth
-              onClick={handleClickSignin}
-              disabled={dinerUser.token}
+            <Box
               sx={{
-                margin: `${theme.spacing(1)} 0`,
+                width: '100%',
+                bottom: 50,
+                maxWidth: 300,
+                margin: 'auto',
               }}
             >
-              {dinerUser.token
-                ? t('already_registered')
-                : t('register_or_sign_in')}
-            </Button>
+              <Link className="group flex flex-col" to="filters/1">
+                <Button
+                  variant="contained"
+                  color="primary"
+                  sx={{ fontSize: 18 }}
+                >
+                  {t('lets_get_started')}
+                </Button>
+              </Link>
+
+              <Button
+                variant="outlined"
+                fullWidth
+                onClick={handleClickSignin}
+                disabled={dinerUser.token}
+                sx={{
+                  fontSize: 18,
+                  margin: `${theme.spacing(1)} 0`,
+                }}
+              >
+                {dinerUser.token
+                  ? t('already_registered')
+                  : t('register_or_sign_in')}
+              </Button>
+            </Box>
           </Box>
         </Box>
       </Box>
