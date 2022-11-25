@@ -2,6 +2,11 @@ import { createTheme } from '@mui/material/styles'
 
 export default function getTheme(isRTL) {
   return createTheme({
+    typography: {
+      allVariants: {
+        fontFamily: '"Rubik", "Helvetica", "Arial", sans-serif',
+      },
+    },
     direction: isRTL ? 'rtl' : 'ltr',
     palette: {
       primary: {

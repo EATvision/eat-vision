@@ -17,6 +17,7 @@ function WaiterBanner({ title, subtitle }) {
         justifyContent: 'center',
         position: 'relative',
         margin: `${theme.spacing(5)} 0`,
+        background: 'none',
       }}
     >
       <Box
@@ -61,7 +62,6 @@ function WaiterBanner({ title, subtitle }) {
               variant="h5"
               sx={{
                 lineHeight: 1.2,
-                fontWeight: 'bold',
                 letterSpacing: -0.5,
               }}
             >
@@ -75,7 +75,7 @@ function WaiterBanner({ title, subtitle }) {
             elevation={3}
             sx={{ position: 'relative', left: theme.spacing(2) }}
           >
-            <Typography variant="h6" sx={{ letterSpacing: -0.5, fontSize: 18 }}>
+            <Typography variant="h5" sx={{ letterSpacing: -0.5, fontSize: 18 }}>
               {subtitle}
             </Typography>
           </Paper>
