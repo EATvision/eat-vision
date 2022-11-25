@@ -124,6 +124,7 @@ function IngredientsSelector({ filters, setFilters, filterType, disabled }) {
         <TextField
           {...params}
           autoFocus
+          variant="standard"
           value={inputValue}
           label={!disabled && t('ingredients_selector_placeholder')}
           InputProps={{
