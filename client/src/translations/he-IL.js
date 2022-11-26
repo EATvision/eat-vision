@@ -85,4 +85,12 @@ export default {
   put_aside: 'לשים בצד',
   no_menus_relevant_now: 'לא נמצא תפריט מוגש לשעה זו',
   menus_in_other_working_hours: 'תפריטים מוצאים בשעות הפעילות',
+  size_type_Small: 'קטן',
+  size_type_Large: 'גדול',
+  size_type_glass: 'כוס',
+  size_type_pitcher: 'קנקן',
+  size_type_bottle: 'בקבוק',
+  size_type_shot: 'שוט',
+  size_type_Half: 'חצי',
+  size_type_full: 'מלא',
 }

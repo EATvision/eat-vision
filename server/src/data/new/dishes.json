@@ -4,6 +4,7 @@
     "name": "Herbal Tea",
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -26,6 +27,7 @@
     "longDescription": "In case of allergies dips can be substituted. ",
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -95,6 +97,7 @@
     "id": "recwNBrL2QRGn8Prb",
     "name": "SHAKSHUKA",
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -137,6 +140,8 @@
     },
     "price": 53,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -234,6 +239,8 @@
     },
     "price": 53,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -301,6 +308,8 @@
     },
     "price": 54,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -336,6 +345,17 @@
     ],
     "price": 47,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 388
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -354,6 +374,17 @@
     ],
     "price": 47,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 388
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -372,6 +403,13 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -390,6 +428,13 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -408,6 +453,13 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -427,6 +479,12 @@
     ],
     "price": 410,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -445,6 +503,13 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -463,6 +528,13 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -481,6 +553,13 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -499,6 +578,13 @@
     ],
     "price": 46,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -517,6 +603,13 @@
     ],
     "price": 46,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -535,6 +628,13 @@
     ],
     "price": 58,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -553,6 +653,12 @@
     ],
     "price": 29,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -571,6 +677,12 @@
     ],
     "price": 25,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -589,6 +701,17 @@
     ],
     "price": 25,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle",
+        "price": 0
+      },
+      {
+        "type": "glass",
+        "price": 1
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -607,6 +730,12 @@
     ],
     "price": 27,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -625,6 +754,12 @@
     ],
     "price": 33,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -643,6 +778,17 @@
     ],
     "price": 24,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "pitcher",
+        "price": 33
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -661,6 +807,12 @@
     ],
     "price": 34,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -679,6 +831,12 @@
     ],
     "price": 29,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -697,6 +855,12 @@
     ],
     "price": 28,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -715,6 +879,17 @@
     ],
     "price": 29,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "pitcher",
+        "price": 39
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -733,6 +908,12 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -751,6 +932,12 @@
     ],
     "price": 35,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -769,6 +956,13 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -787,6 +981,17 @@
     ],
     "price": 44,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 491
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -805,6 +1010,13 @@
     ],
     "price": 59,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -823,6 +1035,13 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -841,6 +1060,13 @@
     ],
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -859,6 +1085,13 @@
     ],
     "price": 57,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -877,6 +1110,13 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -895,6 +1135,13 @@
     ],
     "price": 47,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -913,6 +1160,17 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 446
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -931,6 +1189,13 @@
     ],
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -949,6 +1214,13 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -967,6 +1239,13 @@
     ],
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -985,6 +1264,13 @@
     ],
     "price": 37,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1003,6 +1289,13 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1021,6 +1314,13 @@
     ],
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1039,6 +1339,13 @@
     ],
     "price": 48,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1057,6 +1364,13 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1075,6 +1389,13 @@
     ],
     "price": 48,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1093,6 +1414,13 @@
     ],
     "price": 46,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1111,6 +1439,13 @@
     ],
     "price": 46,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1129,6 +1464,13 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1147,6 +1489,13 @@
     ],
     "price": 75,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1165,6 +1514,17 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 406
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1184,6 +1544,17 @@
     ],
     "price": 55,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 630
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1202,6 +1573,17 @@
     ],
     "price": 59,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 626
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1221,6 +1603,13 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1240,6 +1629,17 @@
     ],
     "price": 59,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 651
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1259,6 +1659,17 @@
     ],
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 545
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1277,6 +1688,17 @@
     ],
     "price": 58,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 652
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1296,6 +1718,13 @@
     ],
     "price": 62,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1315,6 +1744,13 @@
     ],
     "price": 74,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1334,6 +1770,13 @@
     ],
     "price": 66,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1353,6 +1796,17 @@
     ],
     "price": 77,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 733
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1371,6 +1825,13 @@
     ],
     "price": 51,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "shot",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1391,6 +1852,17 @@
     ],
     "price": 38,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 93
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1411,6 +1883,17 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 97
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1431,6 +1914,17 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 90
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1451,6 +1945,13 @@
     ],
     "price": 98,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1471,6 +1972,17 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 140
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1491,6 +2003,13 @@
     ],
     "price": 129,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1512,6 +2031,17 @@
     ],
     "price": 38,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 88
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1532,6 +2062,13 @@
     ],
     "price": 98,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle",
+        "price": 0
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1552,6 +2089,17 @@
     ],
     "price": 38,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 88
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1572,6 +2120,17 @@
     ],
     "price": 43,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 126
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1592,6 +2151,17 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 140
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1612,6 +2182,17 @@
     ],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 89
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -1631,6 +2212,7 @@
     ],
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -1711,6 +2293,7 @@
     ],
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -1780,6 +2363,7 @@
     },
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -1823,6 +2407,7 @@
     ],
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -1903,6 +2488,7 @@
     },
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -1950,6 +2536,7 @@
     ],
     "price": 23,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2050,6 +2637,7 @@
     },
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2137,6 +2725,7 @@
     },
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2235,6 +2824,7 @@
     },
     "price": 10,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2303,6 +2893,7 @@
     ],
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -2418,6 +3009,7 @@
       }
     },
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2511,6 +3103,7 @@
     ],
     "price": 6,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2539,6 +3132,7 @@
     ],
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2563,6 +3157,8 @@
     ],
     "price": 46,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2582,6 +3178,8 @@
     ],
     "price": 53,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2601,6 +3199,8 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2620,6 +3220,8 @@
     ],
     "price": 44,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2639,6 +3241,8 @@
     ],
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2658,6 +3262,17 @@
     ],
     "price": 14,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "pitcher",
+        "price": 27
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2690,6 +3305,8 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2709,6 +3326,8 @@
     ],
     "price": 53,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2728,6 +3347,8 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2746,6 +3367,7 @@
     ],
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2765,6 +3387,7 @@
     ],
     "price": 6,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2801,6 +3424,7 @@
     ],
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2825,6 +3449,7 @@
     ],
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2843,6 +3468,7 @@
     ],
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -2856,7 +3482,7 @@
   {
     "id": "reci8XS02o5UbNY2d",
     "name": "עוגה בלגית",
-    "description": "עוגת שוקולד חמה, כדור גלידה וניל אוראו וקצפת.*עוגת השוקולד ללא התוספות הינה ללא גלוטן.",
+    "description": "עוגת שוקולד חמה, כדור גלידה וניל אוראו וקצפת.",
     "categories": [
       "reckXyHBjuL2EIiiB"
     ],
@@ -2888,6 +3514,8 @@
     },
     "price": 47,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "desert",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -2967,6 +3595,8 @@
     },
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "desert",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3017,6 +3647,44 @@
     }
   },
   {
+    "id": "recrjnr0pnPjN8zq7",
+    "name": "קראק פאי",
+    "description": "תחתית עוגיות שיבולת שועל קראנצ'ית גרוסה ומעליה שכבה עשירה של קרמל וחמאה בעלת מעטפת זהב מפתה עם גלידה",
+    "categories": [
+      "reckXyHBjuL2EIiiB"
+    ],
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recBny3WGlNIP75xY"
+        },
+        {
+          "type": "ingredient",
+          "id": "recxUS9nha9pG4UV0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recnav4IGBhqWGFbB"
+        },
+        {
+          "type": "ingredient",
+          "id": "recmnCyCx2QLL3COB"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
     "id": "recnQjt6lPXLYJaWv",
     "name": "קוראסון שחיתות ",
     "description": "קוראסון חמאה מלא בגלידת וניל אוריאו, נוטלה, גנאש שוקולד לבן, כדורי קליק וקצפת",
@@ -3025,6 +3693,8 @@
     ],
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "desert",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3083,42 +3753,6 @@
     }
   },
   {
-    "id": "recrjnr0pnPjN8zq7",
-    "name": "קראק פאי",
-    "description": "תחתית עוגיות שיבולת שועל קראנצ'ית גרוסה ומעליה שכבה עשירה של קרמל וחמאה בעלת מעטפת זהב מפתה עם גלידה",
-    "categories": [
-      "reckXyHBjuL2EIiiB"
-    ],
-    "price": 49,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recBny3WGlNIP75xY"
-        },
-        {
-          "type": "ingredient",
-          "id": "recxUS9nha9pG4UV0"
-        },
-        {
-          "type": "ingredient",
-          "id": "recnav4IGBhqWGFbB"
-        },
-        {
-          "type": "ingredient",
-          "id": "recmnCyCx2QLL3COB"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
     "id": "reckCiaRAFLLJDKmd",
     "name": "קרמינו",
     "description": "קראנצ' של שוקולד מריר, נוגט ובייגלה, קרם שוקולד קטיפתי שמרכזו קרם ברולה, ציפוי קריספי מתפצפץ של נוגט.",
@@ -3153,6 +3787,8 @@
     },
     "price": 46,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "desert",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3223,15 +3859,13 @@
     },
     "price": 64,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
           "type": "ingredient",
           "id": "recig8x6sbqMdadF5"
-        },
-        {
-          "type": "ingredient",
-          "id": "recwzUqc8oxDIMRh6"
         }
       ],
       "excludable": [
@@ -3250,6 +3884,10 @@
         {
           "type": "ingredient",
           "id": "rectPDlhHQFV2a0O6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recwzUqc8oxDIMRh6"
         }
       ],
       "putaside": [
@@ -3268,6 +3906,10 @@
         {
           "type": "ingredient",
           "id": "rectPDlhHQFV2a0O6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recwzUqc8oxDIMRh6"
         }
       ],
       "choice": [],
@@ -3290,7 +3932,7 @@
         },
         {
           "type": "ingredient",
-          "id": "recbAgLp1wEMs0GdP",
+          "id": "rec9nzkNGPE3RbNEq",
           "price": 6
         }
       ],
@@ -3332,6 +3974,8 @@
     },
     "price": 69,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3436,6 +4080,8 @@
     },
     "price": 54,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3515,6 +4161,8 @@
     },
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3595,6 +4243,7 @@
     },
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3693,6 +4342,7 @@
     },
     "price": 21,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3761,6 +4411,7 @@
     },
     "price": 21,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -3851,6 +4502,7 @@
     },
     "price": 23,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -3937,6 +4589,7 @@
     },
     "price": 24,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4053,6 +4706,7 @@
     },
     "price": 10,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4118,6 +4772,7 @@
     },
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4177,6 +4832,7 @@
     },
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4264,6 +4920,7 @@
     ],
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4304,6 +4961,7 @@
     ],
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4339,6 +4997,7 @@
     ],
     "price": 20,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -4385,6 +5044,7 @@
     },
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4487,6 +5147,7 @@
     },
     "price": 10,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4565,6 +5226,7 @@
       }
     },
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4600,6 +5262,7 @@
     ],
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -4618,6 +5281,7 @@
     ],
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -4636,6 +5300,7 @@
     ],
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -4654,6 +5319,7 @@
     ],
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -4672,6 +5338,7 @@
     ],
     "price": 1.5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -4690,6 +5357,7 @@
     ],
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -4708,6 +5376,7 @@
     ],
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4744,6 +5413,7 @@
     ],
     "price": 13,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -4762,6 +5432,7 @@
     ],
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4816,6 +5487,7 @@
     },
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4923,6 +5595,7 @@
     },
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -4992,6 +5665,7 @@
     },
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5065,6 +5739,7 @@
     },
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5102,6 +5777,7 @@
     ],
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -5158,6 +5834,7 @@
     },
     "price": 21,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5223,6 +5900,7 @@
     },
     "price": 23,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5291,6 +5969,8 @@
     },
     "price": 27,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5353,6 +6033,7 @@
     },
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5433,6 +6114,7 @@
     },
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5499,6 +6181,7 @@
     },
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5575,6 +6258,7 @@
     },
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5658,6 +6342,7 @@
     },
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5740,6 +6425,7 @@
     },
     "price": 18,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5811,6 +6497,7 @@
     },
     "price": 19,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5885,6 +6572,7 @@
     ],
     "price": 18,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -5964,6 +6652,7 @@
     ],
     "price": 17,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6054,6 +6743,7 @@
     },
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6151,6 +6841,7 @@
     },
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6241,6 +6932,7 @@
     },
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6366,6 +7058,8 @@
     },
     "price": 48,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6438,6 +7132,8 @@
     },
     "price": 53,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6518,6 +7214,8 @@
     },
     "price": 65,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6606,6 +7304,8 @@
     },
     "price": 54,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6669,6 +7369,8 @@
     },
     "price": 57,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6749,6 +7451,8 @@
     },
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6816,6 +7520,8 @@
     },
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -6850,10 +7556,6 @@
         },
         {
           "type": "ingredient",
-          "id": "recjlzojv8SK2HKVz"
-        },
-        {
-          "type": "ingredient",
           "id": "reciU0S1tp7lgENK6"
         }
       ],
@@ -6869,6 +7571,10 @@
         {
           "type": "ingredient",
           "id": "recP7Yp3fLx8zsLQj"
+        },
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
         }
       ],
       "choice": [],
@@ -6912,6 +7618,8 @@
     },
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7000,6 +7708,8 @@
     },
     "price": 52,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7096,6 +7806,8 @@
     },
     "price": 47,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7184,6 +7896,8 @@
     },
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7268,6 +7982,8 @@
     },
     "price": 46,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -7367,6 +8083,8 @@
     },
     "price": 48,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7433,11 +8151,25 @@
     },
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
           "type": "ingredient",
           "id": "rec6JuKZrj1Dz6X7X"
+        },
+        {
+          "type": "ingredient",
+          "id": "recMUYWFSwTybo3yY"
+        },
+        {
+          "type": "ingredient",
+          "id": "recQfDpGxN0czUKnQ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJYPX2ECdHz97gP"
         }
       ],
       "excludable": [
@@ -7533,6 +8265,8 @@
     },
     "price": 58,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7600,6 +8334,8 @@
     },
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7653,6 +8389,8 @@
     },
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7703,6 +8441,8 @@
     },
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7761,6 +8501,8 @@
     },
     "price": 49,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7827,6 +8569,8 @@
     },
     "price": 53,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -7919,6 +8663,8 @@
     },
     "price": 45,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8008,6 +8754,8 @@
     },
     "price": 48,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "food",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8053,6 +8801,7 @@
     ],
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8076,6 +8825,7 @@
     ],
     "price": 6,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8125,6 +8875,7 @@
     },
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8148,6 +8899,7 @@
     ],
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8183,6 +8935,7 @@
     ],
     "price": 18,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8218,6 +8971,7 @@
     ],
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8256,6 +9010,7 @@
     },
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8322,6 +9077,7 @@
     },
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8384,6 +9140,7 @@
     },
     "price": 6,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8454,6 +9211,7 @@
     },
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8517,6 +9275,7 @@
     },
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8574,6 +9333,8 @@
     },
     "price": 13,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8618,6 +9379,8 @@
     },
     "price": 14,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8662,6 +9425,8 @@
     },
     "price": 13,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8706,6 +9471,8 @@
     },
     "price": 13,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8750,6 +9517,8 @@
     },
     "price": 14,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8794,6 +9563,8 @@
     },
     "price": 14,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8838,6 +9609,8 @@
     },
     "price": 10,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -8887,6 +9660,8 @@
     },
     "price": 13,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8918,6 +9693,17 @@
     ],
     "price": 14,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "Small",
+        "price": 0
+      },
+      {
+        "type": "Large",
+        "price": 14
+      }
+    ],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8962,6 +9748,8 @@
     },
     "price": 14,
     "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [],
@@ -8995,6 +9783,7 @@
     ],
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -9067,6 +9856,7 @@
     },
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -9139,6 +9929,7 @@
     },
     "price": 13,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -9201,6 +9992,7 @@
     },
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -9267,6 +10059,7 @@
     },
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -9321,6 +10114,7 @@
     ],
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -9383,6 +10177,7 @@
     },
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -9434,6 +10229,7 @@
     ],
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
@@ -9478,6 +10274,7 @@
     ],
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [],
       "excludable": [
@@ -9541,6 +10338,7 @@
     },
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
+    "sizes": [],
     "recipe": {
       "mandatory": [
         {
