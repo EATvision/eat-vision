@@ -25,9 +25,9 @@ const AddLocationDialog = ({ onClose, onSave }) => {
 
   const handleOnSubmit = async (values) => {
     try {
-      const { insertedId } = await addLocation(values)
+      const insertedLocation = await addLocation(values)
       mutate()
-      onSave(insertedId)
+      onSave(insertedLocation)
     } catch (error) {
       console.log(`Could not add location: ${error.message}`)
     }

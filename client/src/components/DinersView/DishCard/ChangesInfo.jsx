@@ -8,13 +8,10 @@ import {
   Typography,
   useTheme,
 } from '@mui/material'
+import { t } from 'i18next'
 import CheckIcon from '@mui/icons-material/Check'
 
-import {
-  useGetComponentLabel,
-  useIngredientsByIds,
-} from '../../../hooks/ingredients'
-import { t } from 'i18next'
+import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
 
 const _keyBy = require('lodash/keyBy')
 
@@ -25,7 +22,7 @@ function ChangesInfo({ data }) {
     ...data.recipe.putaside.map((c) => c.id),
     ...data.recipe.excludable.map((c) => c.id),
   ]
-  const { ingredients } = useIngredientsByIds(relevantIds)
+  const { ingredients } = useV1IngredientsByIds(relevantIds)
   const ingredientsById = _keyBy(ingredients, 'id')
 
   const ingredientsSummary = {}
@@ -62,7 +59,8 @@ function ChangesInfo({ data }) {
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" scope="row">
-                {getComponentLabel(ingredientsById?.[row[0]])}
+                {ingredientsById?.[row[0]] &&
+                  getComponentLabel(ingredientsById?.[row[0]])}
               </TableCell>
               <TableCell>{row[1].excludable && <CheckIcon />}</TableCell>
               <TableCell>{row[1].putaside && <CheckIcon />}</TableCell>

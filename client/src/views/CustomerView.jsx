@@ -38,20 +38,6 @@ const CustomerView = () => {
   // TODO: implement customer auth
   const token = true
 
-  const [open, setOpen] = React.useState(false)
-
-  const handleDrawerOpen = () => {
-    setOpen(true)
-  }
-
-  const handleDrawerClose = () => {
-    setOpen(false)
-  }
-
-  const handleClickLogout = () => {
-    Navigate('/customers')
-  }
-
   return (
     <KitchenProvider>
       <ViewWrapper

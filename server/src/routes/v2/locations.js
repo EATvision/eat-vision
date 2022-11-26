@@ -42,13 +42,18 @@ router.post('/', async (req, res, next) => {
 
   try {
     const newId = getDBId()
-    const { insertedId } = await locationsCollectionOperations.insertOne({
-      ...newLocation,
-      id: newId.toString(),
-      _id: newId,
-    })
+    const { value: insertedLocation } =
+      await locationsCollectionOperations.findOneAndReplace(
+        { id: newId },
+        {
+          ...newLocation,
+          id: newId.toString(),
+          _id: newId,
+        },
+        { upsert: true }
+      )
 
-    return res.status(201).send({ insertedId })
+    return res.status(201).send(insertedLocation)
   } catch (error) {
     const message = `Could not add new location: ${error.message}`
     return next(createHttpError(500, message))
@@ -60,7 +65,7 @@ router.put('/:locationId', async (req, res, next) => {
   const newLocation = req.body
 
   try {
-    const updatedLocation =
+    const { value: updatedLocation } =
       await locationsCollectionOperations.findOneAndReplace(
         { $or: [{ _id: getDBId(locationId) }, { id: locationId }] },
         _omit(newLocation, '_id')

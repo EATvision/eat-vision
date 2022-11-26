@@ -1,11 +1,12 @@
 export default {
-  register_or_sign_in: 'register/sign in',
+  kitchens_list: 'kitchens list',
+  register_or_sign_in: 'sign in',
   already_registered: 'already registered',
   signed_in_user: 'signed in user',
   anonymus: 'anonymus user',
   sign_in: 'sign in',
   'Welcome to React': 'hello',
-  hi_im_your_personal_waiter: 'Hello, I’m Dawn happy to assist you',
+  hi_im_your_personal_waiter: 'Hello, I’m Dawn',
   lets_see_only_things: 'Lets see only the things',
   that_are_relevant_to_you: ' that are relevant to your needs',
   let_me_help_you: 'Lets see only the things that are relevant to your needs',
@@ -20,6 +21,7 @@ export default {
   send: 'send',
   continue: 'continue',
   done: 'done',
+  im_done: 'I\'m Done',
   next: 'next',
   back: 'back',
   add: 'add',
@@ -97,5 +99,6 @@ export default {
   ingredient: 'ingredient',
   remove: 'remove',
   put_aside: 'put aside',
-
+  no_menus_relevant_now: 'No menus were found for the current time',
+  menus_in_other_working_hours: 'The menus possible in other working hours',
 }

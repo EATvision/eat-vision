@@ -3,10 +3,10 @@ import { AppBar, Badge, Button, IconButton, Tooltip } from '@mui/material'
 import { SlSettings as SettingsIcon } from 'react-icons/sl'
 
 import TuneIcon from '@mui/icons-material/Tune'
-import { MdOutlineGroups as GroupsIcon } from 'react-icons/md'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { t } from 'i18next'
 import { useDinerUser } from 'contexts/diner'
+import { GroupsIcon } from 'components/Icons/GroupsIcon'
 
 function NavBar() {
   const navigate = useNavigate()
@@ -34,9 +34,8 @@ function NavBar() {
 
   return (
     <AppBar
-      position="fixed"
       color="default"
-      sx={{ display: 'flex', flexDirection: 'row' }}
+      sx={{ display: 'flex', flexDirection: 'row', position: 'relative' }}
     >
       <Button
         sx={{ padding: '3px' }}
@@ -50,7 +49,7 @@ function NavBar() {
           disabled={location.pathname.includes('/filters')}
         >
           <Badge
-            color="info"
+            color="primary"
             invisible={numberOfFiltersOn === 0}
             badgeContent={numberOfFiltersOn}
           >

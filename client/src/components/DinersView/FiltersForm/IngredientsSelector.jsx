@@ -36,8 +36,6 @@ function IngredientsSelector({ filters, setFilters, filterType, disabled }) {
     setIngredients()
   }, [filterType, filters])
 
-  // const { ingredients, isLoading, isError } = useIngredients(search)
-
   const handleInputChange = (newValue) => {
     setInputValue(newValue)
   }
@@ -57,7 +55,23 @@ function IngredientsSelector({ filters, setFilters, filterType, disabled }) {
       const data = await loadOptions(inputValue)
 
       if (active) {
-        setOptions([...data, ...restrictedIngredients])
+        const uniqueIds = []
+
+        const updatedOptions = [...data, ...restrictedIngredients].filter(
+          (element) => {
+            const isDuplicate = uniqueIds.includes(element.id)
+
+            if (!isDuplicate) {
+              uniqueIds.push(element.id)
+
+              return true
+            }
+
+            return false
+          }
+        )
+
+        setOptions(updatedOptions)
         setLoading(false)
       }
     })()
@@ -94,15 +108,15 @@ function IngredientsSelector({ filters, setFilters, filterType, disabled }) {
       id="ingfredients-select"
       multiple
       open={!disabled && options.length > 0}
-      disableCloseOnSelect
+      // disableCloseOnSelect
       noOptionsText={t('no_options')}
       isOptionEqualToValue={(option, value) => option.id === value.id}
       getOptionLabel={getOptionLabel}
       options={options}
       value={restrictedIngredients}
       onChange={handleChangeIngredients}
-      onInputChange={(e, newInputValue) => {
-        handleInputChange(newInputValue)
+      onInputChange={(e, newInputValue, reason) => {
+        if (reason !== 'reset') handleInputChange(newInputValue)
       }}
       // freeSolo
       // filterOptions={handleFilterOptions}
@@ -110,6 +124,8 @@ function IngredientsSelector({ filters, setFilters, filterType, disabled }) {
         <TextField
           {...params}
           autoFocus
+          variant="standard"
+          value={inputValue}
           label={!disabled && t('ingredients_selector_placeholder')}
           InputProps={{
             ...params.InputProps,

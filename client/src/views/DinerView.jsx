@@ -9,10 +9,7 @@ import RTL from 'components/RTL'
 import useIsRTL from '../hooks/useRTL'
 import { ProvideDinerUser } from 'contexts/diner'
 
-const NAV_BAR_HEIGHT = 48
-const FOOTER_HEIGHT = 50
-
-function DinerView({ dishes }) {
+function DinerView() {
   const isRTL = useIsRTL()
 
   return (
@@ -22,24 +19,22 @@ function DinerView({ dishes }) {
           className="App"
           sx={{
             position: 'relative',
-            paddingTop: `${NAV_BAR_HEIGHT}px`,
             display: 'flex',
             flexDirection: 'column',
+            height: '100vh',
           }}
         >
           <NavBar />
           <Box
             sx={{
-              height: `calc(100vh - ${NAV_BAR_HEIGHT}px - ${FOOTER_HEIGHT}px)`,
               position: 'relative',
               display: 'flex',
               justifyContent: 'center',
+              flex: 1,
             }}
           >
             <Outlet />
           </Box>
-
-          {dishes?.total?.length > 0 && <Footer dishes={dishes} />}
         </Box>
       </ThemeProvider>
     </ProvideDinerUser>

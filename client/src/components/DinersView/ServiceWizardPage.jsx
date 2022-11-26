@@ -17,6 +17,10 @@ function ServiceWizardPage() {
     navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`)
   }
 
+  const handleBack = () => {
+    navigate(-1)
+  }
+
   const SERVICE_OPTIONS = {
     login: {
       waiterTitle: t('login_plea'),
@@ -30,6 +34,7 @@ function ServiceWizardPage() {
         <Login
           onDone={handleDoneLogin}
           optOutLoginOption={<OptOutLoginOption onDone={handleDoneLogin} />}
+          onBack={handleBack}
         />
       ),
     },

@@ -3,11 +3,10 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { Box } from '@mui/material'
 
 import useSteps from './FiltersForm/useSteps'
-import FiltersStepper from './FiltersForm/FiltersStepper'
 import WaiterBanner from './WaiterBanner'
 import { useDinerUser } from 'contexts/diner'
 
-function FiltersWizardPage({ dishes }) {
+function FiltersWizardPage() {
   const { step } = useParams()
   const navigate = useNavigate()
   const steps = useSteps()
@@ -59,8 +58,6 @@ function FiltersWizardPage({ dishes }) {
           onBack: handleBack,
         })}
       </Box>
-
-      <FiltersStepper dishes={dishes} onNext={handleNext} onBack={handleBack} />
     </Box>
   )
 }

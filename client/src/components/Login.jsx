@@ -28,7 +28,7 @@ const LtrFormControl = styled(FormControl)`
   direction: ltr;
 `
 
-function Login({ onDone, optOutLoginOption }) {
+function Login({ onDone, optOutLoginOption, onBack }) {
   const theme = useTheme()
   const navigate = useNavigate()
   const dinerUser = useDinerUser()
@@ -67,7 +67,7 @@ function Login({ onDone, optOutLoginOption }) {
           const { user } = await dinerUser.signin()
 
           if (!user) {
-            await dinerUser.signup()
+            dinerUser.signup()
           }
 
           onDone()
@@ -119,6 +119,7 @@ function Login({ onDone, optOutLoginOption }) {
         display: 'flex',
         width: '100%',
         marginTop: theme.spacing(5),
+        padding: theme.spacing(2),
       }}
     >
       <Box
@@ -291,6 +292,10 @@ function Login({ onDone, optOutLoginOption }) {
           Verification Code Error —<strong>Try again!</strong>
         </Alert>
       )}
+
+      <Button variant="text" onClick={onBack} sx={{ marginTop: 'auto' }}>
+        {t('back')}
+      </Button>
     </Box>
   )
 }
