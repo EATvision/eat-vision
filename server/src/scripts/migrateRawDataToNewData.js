@@ -13,6 +13,7 @@ const categories = require(('../../src/data/raw/categories.json'))
 const menus = require(('../../src/data/raw/menus.json'))
 const locations = require(('../../src/data/raw/locations.json'))
 const workingHours = require(('../../src/data/raw/working_hours.json'))
+const sizes = require(('../../src/data/raw/sizes.json'))
 
 const dishes = require(('../../src/data/raw/dishes.json'))
 
@@ -21,6 +22,7 @@ const choices_ingredients = require(('../../src/data/raw/choices_ingredients.jso
 const choices_subdishes = require(('../../src/data/raw/choices_subdishes.json'))
 
 const ingredientsById = keyBy(ingredients, 'id')
+const sizesById = keyBy(sizes, 'id')
 
 const getIngSubIngredients = (ing) => {
   let allChildIngredients = []
@@ -60,9 +62,6 @@ const modifiedIngredients = ingredients.map(ing => {
 })
 
 
-
-
-
 const recipesById = keyBy(recipes, 'id')
 const choicesIngredientsById = keyBy(choices_ingredients, 'id')
 const choicesSubDishesById = keyBy(choices_subdishes, 'id')
@@ -74,6 +73,24 @@ const modifiedDishes = dishes.map(dish => {
   const addableIngredients = get(choicesIngredientsById, `[${get(dishRecipe, 'addable_ingridients[0]')}]`, {})
   const addableDishes = get(choicesSubDishesById, `[${get(dishRecipe, 'addable_dishs[0]')}]`, {})
 
+  const sizesObject = sizesById[dish?.sizes?.[0]]
+  const sizes = [
+    sizesObject?.['smallest_size_name'] && {
+      type: sizesObject['smallest_size_name'],
+      price: sizesObject['smallest_price_delta']
+    },
+    sizesObject?.['2nd_size_name'] && {
+      type: sizesObject['2nd_size_name'],
+      price: sizesObject['2nd_size_price_delta']
+    },
+    sizesObject?.['3nd_size_name'] && {
+      type: sizesObject['3nd_size_name'],
+      price: sizesObject['3nd_size_name']
+    },
+  ].filter(Boolean)
+
+
+
   return {
     id: dish.id,
     name: dish.name,
@@ -83,6 +100,8 @@ const modifiedDishes = dishes.map(dish => {
     image: dish?.image?.[0],
     price: dish?.price,
     kitchenId: dish?.kitchenIds[0],
+    dishType: dish?.dishType?.[0]?.trim(),
+    sizes,
     recipe: {
       mandatory: get(dishRecipe, 'mandatory_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
       excludable: get(dishRecipe, 'excludable_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
@@ -221,6 +240,7 @@ const modifiedDishes = dishes.map(dish => {
   }
 })
 
+fs.writeFileSync('./src/data/new/sizes.json', JSON.stringify(sizes))
 fs.writeFileSync('./src/data/new/kitchens.json', JSON.stringify(kitchens))
 fs.writeFileSync('./src/data/new/diets.json', JSON.stringify(diets))
 fs.writeFileSync('./src/data/new/menus.json', JSON.stringify(menus))

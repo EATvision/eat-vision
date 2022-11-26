@@ -1,7 +1,6 @@
 import React from 'react'
 import { Avatar, Box, Paper, Grow, Typography, useTheme } from '@mui/material'
 import waiterSrc from '../../images/waiter_transparent_halfbody.png'
-
 const WAITER_AVATAR_WIDTH = 100
 
 function WaiterBanner({ title, subtitle }) {
@@ -58,7 +57,10 @@ function WaiterBanner({ title, subtitle }) {
         }}
       >
         <Grow direction="up" in key={title}>
-          <Paper elevation={3} sx={{ marginBottom: theme.spacing(2) }}>
+          <Paper
+            elevation={3}
+            sx={{ marginBottom: theme.spacing(2), position: 'relative' }}
+          >
             <Typography
               variant="h5"
               sx={{

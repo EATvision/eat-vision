@@ -1,5 +1,10 @@
 [
   {
+    "id": "recDPIwpvtIfrrMPA",
+    "excludedInDiets": [],
+    "isSearchable": false
+  },
+  {
     "id": "recCI7L02KrKzW3DZ",
     "name": "1% Milk",
     "subIngredients": [
@@ -46,9 +51,7 @@
       "rec75vhLm4p0l8HfZ"
     ],
     "translation_heb": "ויניגרט הבית",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recJ0uwZptAsSvsjq",
@@ -110,8 +113,7 @@
     "isSearchable": true,
     "translation_heb": "איולי",
     "excludedInDiets": [
-      "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5"
+      "rec9lyqSGhtIFE6pM"
     ]
   },
   {
@@ -496,7 +498,15 @@
       "rechbVK49tGp8ZqyS",
       "recXxYpKSbxyIMUqE",
       "reco4QENFZZfn59Rv",
-      "recuFLsNpIMHWdQWr"
+      "recuFLsNpIMHWdQWr",
+      "recUWsnAx9Xrxc4y0",
+      "recqnDva5HocsoMPo",
+      "recyn3BXXOa48Bmcp",
+      "recunwwkCTGfBX5yn",
+      "recHhc5yZWsQTO185",
+      "recTPTrGyhfjnLqiQ",
+      "recuaPPyJEdti905z",
+      "rec94BZ9WXxBHtkTf"
     ],
     "groups": [
       "recmkvtZD6t6WKl07"
@@ -508,6 +518,7 @@
       "reczLN4jNH5npEarc",
       "rec8pz0YYIGmScPu5",
       "recDlVagQGOiParjH",
+      "recTqrrExyN2M0oG8",
       "recqkfhdi9py4PNCJ"
     ],
     "isSearchable": false
@@ -861,6 +872,20 @@
     ]
   },
   {
+    "id": "recyn3BXXOa48Bmcp",
+    "name": "Beef fat",
+    "groups": [
+      "recmkvtZD6t6WKl07"
+    ],
+    "translation_heb": "שומן בקר",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ],
+    "isSearchable": false
+  },
+  {
     "id": "recbv3LpkrEbDFxbp",
     "name": "beef gravy",
     "subIngredients": [
@@ -904,7 +929,6 @@
     ],
     "translation_heb": "בירה",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recTqrrExyN2M0oG8"
     ]
   },
@@ -921,7 +945,6 @@
     ],
     "translation_heb": "תערובת בירה",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recTqrrExyN2M0oG8",
       "recqkfhdi9py4PNCJ"
@@ -1300,7 +1323,6 @@
     ],
     "translation_heb": "ברנדי",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recTqrrExyN2M0oG8"
     ]
   },
@@ -1687,8 +1709,7 @@
     ],
     "translation_heb": "איולי קייג'ון",
     "excludedInDiets": [
-      "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5"
+      "rec9lyqSGhtIFE6pM"
     ]
   },
   {
@@ -1777,9 +1798,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן קנולה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recT75pPiLq4ZQ7vR",
@@ -2263,9 +2282,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "נגיסי עוף , נאגטס עוף",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recgBDXngsWEsRJSa",
@@ -2455,9 +2472,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן צ'ילי",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recUtgeJXY9jCoHjb",
@@ -2621,7 +2636,6 @@
     ],
     "translation_heb": "לחם ג'בטה",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -2766,9 +2780,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "חמאת קקאו",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recbudne5tV5rX5O8",
@@ -2817,9 +2829,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן קוקוס",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recglV0UGjl0Vxop7",
@@ -2962,9 +2972,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן תירס",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recAeUdJprwtRSDxN",
@@ -3043,9 +3051,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן זרעי כותנה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recppvTDsSIPvvRPG",
@@ -3270,7 +3276,6 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -3380,9 +3385,7 @@
     ],
     "isSearchable": true,
     "translation_heb": "משחת קארי",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "rec28HuUmATit4Goy",
@@ -3609,6 +3612,30 @@
     "isSearchable": false,
     "translation_heb": "מטבל",
     "excludedInDiets": []
+  },
+  {
+    "id": "rect2ssiRQkclJz1F",
+    "name": "E627",
+    "groups": [
+      "recDXBerbCvKBauuo"
+    ],
+    "translation_heb": "E627",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recUyju5rusgnuGdT",
+    "name": "E631",
+    "groups": [
+      "recDXBerbCvKBauuo"
+    ],
+    "translation_heb": "דיסודיום אינוסינאט",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "isSearchable": false
   },
   {
     "id": "recdcaoIvREFe3hVo",
@@ -3996,9 +4023,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן זית כתית",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recRkU5fwMqeQq79N",
@@ -4145,22 +4170,6 @@
       "recYgJLdDlWsTxVGe"
     ],
     "translation_heb": "גבינת פטה",
-    "excludedInDiets": [
-      "rec9lyqSGhtIFE6pM",
-      "recQlw7MMtl1KlpNP",
-      "reczLN4jNH5npEarc",
-      "recFh4JVbTqqu9Rhf"
-    ]
-  },
-  {
-    "id": "recm9G3wuFdKFyfTs",
-    "name": "Feta Cheese Crumbles",
-    "subIngredients": [
-      "rectpZHKSyKnbUYSb",
-      "recJ2mf7S0nffVJLy"
-    ],
-    "isSearchable": false,
-    "translation_heb": "פירורי גבינת פטה",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
@@ -4344,7 +4353,6 @@
     ],
     "translation_heb": "צ'יפס",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recqkfhdi9py4PNCJ"
     ]
   },
@@ -4370,9 +4378,7 @@
       "recr0yKu9WGc9p4QB"
     ],
     "translation_heb": "אטריות שעועית קריספיות",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recISSP2nG2gWlPrK",
@@ -4397,7 +4403,6 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -4413,7 +4418,6 @@
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recTqrrExyN2M0oG8",
       "recqkfhdi9py4PNCJ"
@@ -4435,7 +4439,6 @@
     ],
     "translation_heb": "כופתאות מטוגנות",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -4457,7 +4460,6 @@
     "translation_heb": "חציל מטוגן",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -4470,9 +4472,7 @@
       "recOKQe2BPlJ4MaOt"
     ],
     "translation_heb": "פלפל חריף מטוגן",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ],
+    "excludedInDiets": [],
     "isSearchable": false
   },
   {
@@ -4506,7 +4506,6 @@
     ],
     "translation_heb": "תפוחי אדמה מטוגנים",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recqkfhdi9py4PNCJ"
     ]
   },
@@ -4524,7 +4523,6 @@
     "translation_heb": "בטטה מטוגנת",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -4591,9 +4589,7 @@
       "recOKQe2BPlJ4MaOt"
     ],
     "translation_heb": "קונפי שום",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ],
+    "excludedInDiets": [],
     "isSearchable": false
   },
   {
@@ -5072,12 +5068,13 @@
     "subIngredients": [
       "recyArPfI772NjBbP",
       "recunwwkCTGfBX5yn",
-      "recuFLsNpIMHWdQWr"
+      "recuFLsNpIMHWdQWr",
+      "rec94BZ9WXxBHtkTf",
+      "rec0OnKP0IIRt69My",
+      "recXeFEPeNz9MTGnu"
     ],
     "translation_heb": "סחוג",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ],
+    "excludedInDiets": [],
     "isSearchable": false
   },
   {
@@ -5088,9 +5085,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "טעם גריל",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recmwPHuX1R1arFGY",
@@ -5363,9 +5358,7 @@
     "isSearchable": false,
     "description": "Harissa is a hot chili pepper paste, native to the Maghreb",
     "translation_heb": "אריסה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recGSMoIErGpXN2RX",
@@ -5480,7 +5473,6 @@
     "translation_heb": "רוטב הולנדייז",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recTqrrExyN2M0oG8",
       "recFh4JVbTqqu9Rhf"
     ]
@@ -5693,9 +5685,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "תיבול לחומוס",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "rec4BibuvvOR7YbyR",
@@ -5709,9 +5699,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן כותנה שעבר הידרוגנציה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "rec1uoeFy4ceCT6n6",
@@ -5724,9 +5712,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן סויה שעבר הידרוגנציה\n",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recVGUtW7tgIJnRqR",
@@ -5805,7 +5791,6 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
-      "rec8pz0YYIGmScPu5",
       "recFh4JVbTqqu9Rhf"
     ]
   },
@@ -5840,9 +5825,7 @@
       "recJSvVpSiYmYN34i"
     ],
     "translation_heb": "סלט ישראלי",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recjd8EFBZnJsfqkl",
@@ -5954,9 +5937,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "שבבי ארטישוק ירושלים",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recmR5d6CfuL3IQUk",
@@ -6336,9 +6317,7 @@
     ],
     "isSearchable": true,
     "translation_heb": "מיץ לימון",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recJuoTZL6Qzj7fz1",
@@ -6540,9 +6519,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן ליים",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recQmzuIr3dSMusRx",
@@ -6828,9 +6805,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "מרגרינה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recVSOsm3PDp4RC4I",
@@ -6852,9 +6827,7 @@
       "recdx1s8hodBvQIHm"
     ],
     "translation_heb": "רוטב מרינדה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recUaUNY4Qbrl5nk4",
@@ -6953,8 +6926,7 @@
     ],
     "translation_heb": "מיונז",
     "excludedInDiets": [
-      "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5"
+      "rec9lyqSGhtIFE6pM"
     ]
   },
   {
@@ -7581,9 +7553,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "קרקרים של נורי",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "rec1qcxzRZqxG61QI",
@@ -7751,9 +7721,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן זית",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recMFUVFV3g4va9rT",
@@ -7925,9 +7893,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן תפוזים",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recf4yKjQW9oo7RuY",
@@ -8032,9 +7998,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן דקלים",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recdlGU92qTqLmALu",
@@ -8476,7 +8440,6 @@
     "translation_heb": "פסטו",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recFh4JVbTqqu9Rhf"
     ]
   },
@@ -8592,9 +8555,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "חמוצים",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "rec5u0sMTHgig8QrS",
@@ -8610,7 +8571,6 @@
     "translation_heb": "פירוגי",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -8749,7 +8709,6 @@
     ],
     "translation_heb": "בצק פיצה",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -8784,7 +8743,14 @@
       "recLNIkYf1Lh0LBME",
       "recXeFEPeNz9MTGnu",
       "rec3TuJV2eKXWalsC",
-      "rec9nzkNGPE3RbNEq"
+      "rec9nzkNGPE3RbNEq",
+      "recc0DmCDcXGYqD3j",
+      "recKzibs119a7JAF5",
+      "recLUICb1mSTz30Up",
+      "recRxY1kG8elmfgx8",
+      "recI8lS3CF5AibMHJ",
+      "reckoshXX8J5KR37j",
+      "recjakgmzALOL4AbL"
     ],
     "translation_heb": "רוטב שזיפים",
     "excludedInDiets": [
@@ -8850,7 +8816,6 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recFh4JVbTqqu9Rhf",
       "recqkfhdi9py4PNCJ"
@@ -9127,9 +9092,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "פלחי תפוחי אדמה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "rec3hAsPvgqEcLiZC",
@@ -9163,7 +9126,6 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
-      "rec8pz0YYIGmScPu5",
       "recqkfhdi9py4PNCJ"
     ]
   },
@@ -9285,7 +9247,6 @@
     ],
     "translation_heb": "בייגלה",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -9699,7 +9660,6 @@
     ],
     "translation_heb": "יין אדום",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recTqrrExyN2M0oG8"
     ]
   },
@@ -9888,9 +9848,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "שום קלוי",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recK2iIwL1ZSMsj2a",
@@ -9934,9 +9892,7 @@
       "rec3INPlyw5xpVWeX"
     ],
     "translation_heb": "מחית עגבניות צלויות",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recY6diacYlNLzEg0",
@@ -10149,7 +10105,6 @@
     ],
     "translation_heb": "סאקה",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recTqrrExyN2M0oG8"
     ]
   },
@@ -10158,7 +10113,6 @@
     "name": "Salad Blend",
     "subIngredients": [
       "recVGUtW7tgIJnRqR",
-      "recm9G3wuFdKFyfTs",
       "recY6diacYlNLzEg0",
       "recsRHWevxSClszJ4",
       "recw1vMYHYBX1SoC7"
@@ -10166,12 +10120,8 @@
     "isSearchable": false,
     "translation_heb": "תערובת סלט",
     "excludedInDiets": [
-      "rec9lyqSGhtIFE6pM",
-      "recQlw7MMtl1KlpNP",
-      "reczLN4jNH5npEarc",
       "rec8pz0YYIGmScPu5",
       "recDlVagQGOiParjH",
-      "recFh4JVbTqqu9Rhf",
       "recqkfhdi9py4PNCJ"
     ]
   },
@@ -10239,7 +10189,6 @@
     "translation_heb": "חמאה מומלחת",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recFh4JVbTqqu9Rhf"
     ]
   },
@@ -10561,7 +10510,6 @@
     "translation_heb": "חמאת תבליני שווארמה",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recFh4JVbTqqu9Rhf"
     ]
   },
@@ -10977,6 +10925,17 @@
     "excludedInDiets": []
   },
   {
+    "id": "rectP6TYqJoZVWhss",
+    "name": "Sodium Benzoate",
+    "groups": [
+      "recDXBerbCvKBauuo"
+    ],
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "isSearchable": false
+  },
+  {
     "id": "rectgljNOF55XLODk",
     "name": "Sodium Bicarbonate",
     "isSearchable": false,
@@ -11268,7 +11227,6 @@
     ],
     "translation_heb": "יין מבעבע",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recTqrrExyN2M0oG8"
     ]
   },
@@ -11370,9 +11328,7 @@
     ],
     "isSearchable": false,
     "translation_heb": "חזה עוף פיקנטי",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recDUYFxV3G0cLHN1",
@@ -11853,9 +11809,7 @@
       "rec3INPlyw5xpVWeX"
     ],
     "translation_heb": "עגבניות מיובשות",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recy5ZueJkSQcqTiJ",
@@ -11881,9 +11835,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן חמניות",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recYEH8B7edSdRO70",
@@ -11960,9 +11912,7 @@
       "recr0yKu9WGc9p4QB"
     ],
     "translation_heb": "ציפס בטטה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recNtGVKiYmnhEQhf",
@@ -12047,9 +11997,7 @@
     ],
     "isSearchable": true,
     "translation_heb": "צ'יפס טאקו",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recTHpRig1LATucTH",
@@ -12076,7 +12024,7 @@
     ],
     "isSearchable": true,
     "description": "Middle Eastern condiment made from toasted ground hulled sesame",
-    "translation_heb": "טחינה גולמית",
+    "translation_heb": "טחינה",
     "excludedInDiets": []
   },
   {
@@ -12087,6 +12035,7 @@
       "recE5Ayeth06z4mvS",
       "recqkZ7ml0XKKctjX"
     ],
+    "isSearchable": false,
     "groups": [
       "recdx1s8hodBvQIHm"
     ],
@@ -12095,8 +12044,7 @@
       "rec8pz0YYIGmScPu5",
       "recDlVagQGOiParjH",
       "recqkfhdi9py4PNCJ"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "reciU0S1tp7lgENK6",
@@ -12106,18 +12054,16 @@
       "recUbXDwTIVaajLp9",
       "recvr8kIqxedjZztj"
     ],
+    "isSearchable": false,
     "groups": [
       "recdx1s8hodBvQIHm"
     ],
     "translation_heb": "טחינה ",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ],
-    "isSearchable": false
+    "excludedInDiets": []
   },
   {
     "id": "recjlzojv8SK2HKVz",
-    "name": "Tahini sauce",
+    "name": "Tahini sauce with garlic",
     "subIngredients": [
       "recoql0cf50gaWgBT",
       "recUbXDwTIVaajLp9",
@@ -12132,10 +12078,8 @@
     "groups": [
       "recdx1s8hodBvQIHm"
     ],
-    "translation_heb": "רוטב טחינה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "translation_heb": " רוטב טחינה עם שום",
+    "excludedInDiets": []
   },
   {
     "id": "recTMGQRIWTNFT6SS",
@@ -12237,9 +12181,7 @@
       "recdx1s8hodBvQIHm"
     ],
     "translation_heb": " רוטב תטבילה",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recfmhS9vXOIkDvBo",
@@ -12290,7 +12232,6 @@
     "translation_heb": "טמפורה",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -12401,7 +12342,6 @@
     ],
     "translation_heb": "פיתה קלויה",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ]
@@ -12471,9 +12411,7 @@
       "recuFLsNpIMHWdQWr"
     ],
     "translation_heb": "סלסת עגבניות ",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ],
+    "excludedInDiets": [],
     "isSearchable": false
   },
   {
@@ -12487,9 +12425,7 @@
       "recTPTrGyhfjnLqiQ"
     ],
     "translation_heb": "סלסת עגבניות ",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ],
+    "excludedInDiets": [],
     "isSearchable": false
   },
   {
@@ -12593,8 +12529,7 @@
     ],
     "translation_heb": "סלט טונה",
     "excludedInDiets": [
-      "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5"
+      "rec9lyqSGhtIFE6pM"
     ]
   },
   {
@@ -12684,7 +12619,6 @@
     "translation_heb": "ציז'יקי",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5",
       "recFh4JVbTqqu9Rhf"
     ]
   },
@@ -12743,9 +12677,7 @@
       "reclrqMHo7sdRGeLH"
     ],
     "translation_heb": "שוקולד לא ממותק",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recoNzfX2rL6wzQvH",
@@ -12864,9 +12796,7 @@
       "reccATkRbfWDQGzvn"
     ],
     "translation_heb": "שמן צמחי",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recfzPcU2e8yj6lcf",
@@ -12881,6 +12811,28 @@
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5"
     ]
+  },
+  {
+    "id": "recJYPX2ECdHz97gP",
+    "name": "vegetarian mushroom oyster sauce ",
+    "subIngredients": [
+      "rec3qeLzpfTiAbKIu",
+      "recV0Yp3ExeSRnwzX",
+      "rec8pKfAEwucwp78c",
+      "recXeFEPeNz9MTGnu",
+      "recLUICb1mSTz30Up",
+      "recUyju5rusgnuGdT",
+      "rect2ssiRQkclJz1F",
+      "rectP6TYqJoZVWhss"
+    ],
+    "translation_heb": "רוטב צדפות צמחוני",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "isSearchable": false
   },
   {
     "id": "rec1R17FdSx3oh0IZ",
@@ -12961,9 +12913,7 @@
       "recdx1s8hodBvQIHm"
     ],
     "translation_heb": "רוטב ויניגרט ",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recmM6AfoaKQQ78RP",
@@ -12974,9 +12924,7 @@
       "recXeFEPeNz9MTGnu"
     ],
     "translation_heb": "ויניגרט ",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ],
+    "excludedInDiets": [],
     "isSearchable": false
   },
   {
@@ -13015,7 +12963,6 @@
     ],
     "translation_heb": "וודקה",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recTqrrExyN2M0oG8"
     ]
   },
@@ -13150,6 +13097,21 @@
     "excludedInDiets": []
   },
   {
+    "id": "recV0Yp3ExeSRnwzX",
+    "name": "wheat",
+    "groups": [
+      "recwq1XAJ50UwIOWX",
+      "recurt87JNmeE6SzQ"
+    ],
+    "translation_heb": "חיטה",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "isSearchable": false
+  },
+  {
     "id": "recsHEhPSi3ji9Tyk",
     "name": "Wheat Dextrose",
     "isSearchable": false,
@@ -13175,7 +13137,8 @@
     ],
     "groups": [
       "recqqxsvSS6LY3Aab",
-      "recurt87JNmeE6SzQ"
+      "recurt87JNmeE6SzQ",
+      "recPRWumn2WpzArWA"
     ],
     "translation_heb": "קמח חיטה",
     "excludedInDiets": [
@@ -13392,11 +13355,11 @@
     "name": "White Wine",
     "isSearchable": false,
     "groups": [
-      "recAvCd37VjynjiAV"
+      "recAvCd37VjynjiAV",
+      "recfqsjPJYOLjkUvT"
     ],
     "translation_heb": "יין לבן",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
       "recTqrrExyN2M0oG8"
     ]
   },
@@ -13782,9 +13745,7 @@
       "recWpISCcCcAIX1lr"
     ],
     "translation_heb": "סחוג",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ]
+    "excludedInDiets": []
   },
   {
     "id": "recdjJ3UBHRFo1rHV",

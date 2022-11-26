@@ -957,13 +957,13 @@
       "recP7Yp3fLx8zsLQj",
       "rec3JP2ZPysvm6FwJ",
       "recmM6AfoaKQQ78RP",
-      "recjlzojv8SK2HKVz",
       "reciU0S1tp7lgENK6"
     ],
     "putaside_ingredients": [
       "recmM6AfoaKQQ78RP",
       "rec3JP2ZPysvm6FwJ",
-      "recP7Yp3fLx8zsLQj"
+      "recP7Yp3fLx8zsLQj",
+      "reciU0S1tp7lgENK6"
     ]
   },
   {
@@ -1038,20 +1038,21 @@
   {
     "id": "rec32ciBrjRFBimmG",
     "mandatory_ingredients": [
-      "recig8x6sbqMdadF5",
-      "recwzUqc8oxDIMRh6"
+      "recig8x6sbqMdadF5"
     ],
     "excludable_ingredients": [
       "recamPbxsPWkEj6Ep",
       "rec7O6th1UojW4jyh",
       "recY6diacYlNLzEg0",
-      "rectPDlhHQFV2a0O6"
+      "rectPDlhHQFV2a0O6",
+      "recwzUqc8oxDIMRh6"
     ],
     "putaside_ingredients": [
       "recamPbxsPWkEj6Ep",
       "rec7O6th1UojW4jyh",
       "recY6diacYlNLzEg0",
-      "rectPDlhHQFV2a0O6"
+      "rectPDlhHQFV2a0O6",
+      "recwzUqc8oxDIMRh6"
     ],
     "addable_ingridients": [
       "rec8iW7e9zTuAmj0G"
@@ -1101,7 +1102,10 @@
   {
     "id": "recNFcyMSJGasb9kD",
     "mandatory_ingredients": [
-      "rec6JuKZrj1Dz6X7X"
+      "rec6JuKZrj1Dz6X7X",
+      "recMUYWFSwTybo3yY",
+      "recQfDpGxN0czUKnQ",
+      "recJYPX2ECdHz97gP"
     ],
     "excludable_ingredients": [
       "rec790UdQSjJXmK6w",

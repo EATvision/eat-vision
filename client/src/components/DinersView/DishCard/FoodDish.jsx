@@ -29,7 +29,7 @@ import { TiWarningOutline as WarningsIcon } from 'react-icons/ti'
 import ClampLines from 'react-clamp-lines'
 
 import { t } from 'i18next'
-import { useKitchenById } from '../../../hooks/kitchens'
+import { useKitchenById } from 'hooks/kitchens'
 
 import DishRecipeTypeChips from './DishRecipeTypeChips'
 import AskForChangesBtn from './AskForChangesBtn'
@@ -37,7 +37,7 @@ import ChangesInfo from './ChangesInfo'
 import DescriptionInfo from './DescriptionInfo'
 import IngredientsInfo from './IngredientsInfo'
 
-export default function Dish({ data }) {
+export default function FoodDish({ data }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)

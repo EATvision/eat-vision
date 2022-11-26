@@ -87,4 +87,12 @@ export default {
   put_aside: 'put aside',
   no_menus_relevant_now: 'No menus were found for the current time',
   menus_in_other_working_hours: 'The menus possible in other working hours',
+  size_type_Small: 'small',
+  size_type_Large: 'large',
+  size_type_glass: 'glass',
+  size_type_pitcher: 'pitcher',
+  size_type_bottle: 'bottle',
+  size_type_shot: 'shot',
+  size_type_Half: 'half',
+  size_type_full: 'full',
 }

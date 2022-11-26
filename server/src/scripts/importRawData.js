@@ -165,6 +165,33 @@ base('tblya8ylojdR69Sbm')
     })
   })
 
+//sizes
+let sizes = []
+base('tblGbdDm36AXYWlSM')
+  .select({ view: 'Grid view' })
+  .all((_err, records) => {
+    const data = records.map((r) => ({
+      id: r.getId(),
+      smallest_size_name: r.get('smallest_size_name')?.trim(),
+      smallest_price_delta: r.get('smallest_price_delta'),
+      '2nd_size_name': r.get('2nd_size_name')?.trim(),
+      '2nd_size_price_delta': r.get('2nd_size_price_delta'),
+      '3rd_size_name': r.get('3rd_size_name')?.trim(),
+      '3rd_size_price_delta': r.get('3rd_size_price_delta'),
+    }))
+    sizes = data
+    const transformStream = JSONStream.stringify()
+    const outputStream = fs.createWriteStream('./src/data/raw/sizes.json')
+    transformStream.pipe(outputStream)
+    sizes.forEach(transformStream.write)
+    transformStream.end()
+
+    outputStream.on('finish', function handleFinish() {
+      console.log('finished sizes')
+    })
+  })
+
+
 //dishes
 let dishes = []
 base('tblLnh1hSZ8GTznfy')
@@ -180,6 +207,8 @@ base('tblLnh1hSZ8GTznfy')
       recipe: r.get('recipe'),
       price: r.get('Price'),
       kitchenIds: r.get('kitchenId'),
+      dishType: r.get('Dish_type'),
+      sizes: r.get('sizes'),
     }))
     dishes = data
     const transformStream = JSONStream.stringify()

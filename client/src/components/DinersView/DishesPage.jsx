@@ -5,7 +5,9 @@ import { useTranslation } from 'react-i18next'
 import { Box, Paper, Tab, Tabs, Typography, useTheme } from '@mui/material'
 import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
 
-import Dish from './DishCard/Dish'
+import FoodDish from './DishCard/FoodDish'
+import DrinkDish from './DishCard/DrinkDish'
+
 import Footer from './Footer'
 
 function DishesPage({ dishes }) {
@@ -118,9 +120,13 @@ function DishesPage({ dishes }) {
                 >
                   {category?.name}
                 </Typography>
-                {orderedDishesByCategoryId?.[category.id]?.map((dish) => (
-                  <Dish key={dish.id} data={dish} />
-                ))}
+                {orderedDishesByCategoryId?.[category.id]?.map((dish) =>
+                  dish.dishType === 'drink' ? (
+                    <DrinkDish key={dish.id} data={dish} />
+                  ) : (
+                    <FoodDish key={dish.id} data={dish} />
+                  )
+                )}
               </Box>
             </div>
           ))}

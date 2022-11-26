@@ -680,12 +680,12 @@
   {
     "id": "recC3sMa5yw4yPtyT",
     "display_name": "smoked",
-    "translation_heb": "מְעוּשָׁן"
+    "translation_heb": "מעושן"
   },
   {
     "id": "recQ36LO1SCbjLirg",
     "display_name": "soft",
-    "translation_heb": "רַך"
+    "translation_heb": "רך"
   },
   {
     "id": "recDKed5TeW8D5XTO",
@@ -703,7 +703,7 @@
   {
     "id": "reckgMulgJQ3zP3xG",
     "display_name": "Sour",
-    "translation_heb": "חָמוּץ"
+    "translation_heb": "חמוץ"
   },
   {
     "id": "recsWG9qiSgYH8byz",
@@ -737,7 +737,7 @@
   {
     "id": "recWpISCcCcAIX1lr",
     "display_name": "Spicy",
-    "translation_heb": "חָרִיף"
+    "translation_heb": "חריף"
   },
   {
     "id": "recDDXjev73zW9NBZ",
@@ -768,7 +768,7 @@
   {
     "id": "recDigAI6dMidBT0X",
     "display_name": "Starch",
-    "translation_heb": "עֲמִילָן"
+    "translation_heb": "עמילן"
   },
   {
     "id": "recnHMoLrJWo7LqDk",
@@ -851,13 +851,14 @@
     "display_name": "Wheat products",
     "translation_heb": "מוצרי חיטה",
     "parentGroups": [
-      "recurt87JNmeE6SzQ"
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX"
     ]
   },
   {
     "id": "recfqsjPJYOLjkUvT",
     "display_name": "Wine",
-    "translation_heb": "יַיִן",
+    "translation_heb": "יין",
     "parentGroups": [
       "recAvCd37VjynjiAV"
     ]
