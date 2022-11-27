@@ -1,13 +1,14 @@
 import React from 'react'
 import { Navigate, Route } from 'react-router-dom'
-import AdminView from 'views/AdminView'
 
-import ProtectedRoute from 'components/ProtectedRoute'
+import AdminView from 'views/AdminView'
 import LoginView from 'views/LoginView'
-import CustomersView from 'components/AdminView/CustomersView'
-import IngrdientsView from 'components/AdminView/IngredientsView'
-import FoodGroupsView from 'components/AdminView/FoodGroups'
+
 import DietsView from 'components/AdminView/Diets'
+import ProtectedRoute from 'components/ProtectedRoute'
+import FoodGroupsView from 'components/AdminView/FoodGroups'
+import IngrdientsView from 'components/AdminView/IngredientsView'
+import CustomersView from 'components/AdminView/CustomersTab/CustomersView'
 
 const AdminRoutes = () => (
   <Route

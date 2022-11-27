@@ -2,15 +2,15 @@ import React from 'react'
 import { Route, Navigate } from 'react-router-dom'
 
 import ProtectedRoute from 'components/ProtectedRoute'
+import DishPage from 'components/CustomersView/DishPage'
+import MenuPage from 'components/CustomersView/MenuPage'
+import MenusPage from 'components/CustomersView/MenusPage'
+import DishesPage from 'components/CustomersView/DishesPage'
 import OverviewPage from 'components/CustomersView/OverviewPage'
 import GeneralInfoPage from 'components/CustomersView/GeneralInfoPage'
-import DishPage from 'components/CustomersView/DishesManagerPage/DishPage'
 
 import LoginView from 'views/LoginView'
 import CustomersView from 'views/CustomerView'
-import DishesPage from 'components/CustomersView/DishesPage'
-import MenuPage from 'components/CustomersView/MenuPage'
-import MenusPage from 'components/CustomersView/MenusPage'
 
 const CustomerRoutes = () => (
   <Route path="customers" element={<CustomersView />}>
