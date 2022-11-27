@@ -3,10 +3,10 @@ import OverviewIcon from '@mui/icons-material/Dashboard'
 import DishesIcon from '@mui/icons-material/RestaurantMenu'
 import MenusIcon from '@mui/icons-material/MenuBook'
 import InfoIcon from '@mui/icons-material/InfoOutlined'
-import KitchenProvider from '../contexts/kitchen'
+import KitchenSelector from 'components/KitchenSelector'
+import KitchenProvider from 'contexts/kitchen'
 import { t } from 'i18next'
 import ViewWrapper from './ViewWrapper'
-import KitchenSelector from 'components/KitchenSelector'
 
 const drawerTabs = [
   {

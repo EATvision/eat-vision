@@ -9,11 +9,12 @@ const {
   customerMiddleware,
   customerIdMiddleware,
   putCustomerMiddleware,
+  searchCustomersMiddleware,
 } = require('src/middlewares/schemaMiddlewares/admin/customerMiddlewares')
 
 const router = express.Router()
 
-router.get('/', findCustomersHandler)
+router.get('/', searchCustomersMiddleware, findCustomersHandler)
 router.post('/', customerMiddleware, addCustomerHandler)
 router.put(
   '/:customerId',
