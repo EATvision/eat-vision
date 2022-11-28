@@ -2,8 +2,8 @@ const { Router } = require('express')
 const Fuse = require('fuse.js')
 const router = Router()
 
-const ingredients = require('../data/new/ingredients.json')
-const searchableIngredients = ingredients.filter(ing => ing.isSearchable)
+const foodGroups = require('../data/new/foodGroups.json')
+const searchableIngredients = foodGroups.filter(ing => ing.isSearchable)
 
 const options = {
   // isCaseSensitive: false,
@@ -32,7 +32,7 @@ router.get('/', (req, res) => {
 
   let filteredIngredients = []
   if ('ids' in query) {
-    filteredIngredients = query.ids.length ? query.ids.split(',').map(id => ingredients.find(ingredient => ingredient.id === id)) : []
+    filteredIngredients = query.ids.length ? query.ids.split(',').map(id => foodGroups.find(foodGroup => foodGroup.id === id)) : []
   } else if (query?.q?.length) {
     filteredIngredients = fuse.search(query.q).map(i => i.item)
   }

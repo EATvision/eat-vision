@@ -14,7 +14,7 @@ import {
   Grow,
 } from '@mui/material'
 
-import IngredientsSelector from './IngredientsSelector'
+import RestrictionsSelector from './RestrictionsSelector'
 import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
 import { useDinerUser } from 'contexts/diner'
 
@@ -103,14 +103,15 @@ function FoodRestrictionsStep({ onNext, onBack }) {
         open={Boolean(filterType)}
         // onClose={handleClickBack}
         disableEscapeKeyDown
-        PaperProps={{ sx: { padding: theme.spacing(2) } }}
+        PaperProps={{ sx: { padding: theme.spacing(2), height: '100vh' } }}
       >
         <DialogContent
           sx={{
+            padding: 0,
             ...(!fullScreen ? { minWidth: 500, minHeight: 500 } : {}),
           }}
         >
-          <IngredientsSelector
+          <RestrictionsSelector
             filters={dinerUser.user.filters}
             setFilters={dinerUser.setFilters}
             filterType={filterType}
@@ -125,6 +126,8 @@ function FoodRestrictionsStep({ onNext, onBack }) {
             onClick={handleClickDone}
           >
             {t('im_done')}
+            {dinerUser.user.filters[filterType]?.length > 0 &&
+              ` (${dinerUser.user.filters[filterType]?.length})`}
           </Button>
         </DialogActions>
       </Dialog>

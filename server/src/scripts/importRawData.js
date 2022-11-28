@@ -141,27 +141,27 @@ base('tblotwNoQ0o3H0zVN')
     })
   })
 
-// groups tblya8ylojdR69Sbm
-let groups = []
+// foodGroups tblya8ylojdR69Sbm
+let foodGroups = []
 base('tblya8ylojdR69Sbm')
   .select({ view: 'Grid view' })
   .all((_err, records) => {
     const data = records.map((r) => ({
       id: r.getId(),
-      display_name: r.get('display_name'),
+      name: r.get('display_name'),
       translation_heb: r.get('translation_heb'),
       subGroups: r.get('sub_groups'),
       parentGroups: r.get('parent_groups'),
     }))
-    groups = data
+    foodGroups = data
     const transformStream = JSONStream.stringify()
-    const outputStream = fs.createWriteStream('./src/data/raw/groups.json')
+    const outputStream = fs.createWriteStream('./src/data/raw/foodGroups.json')
     transformStream.pipe(outputStream)
-    groups.forEach(transformStream.write)
+    foodGroups.forEach(transformStream.write)
     transformStream.end()
 
     outputStream.on('finish', function handleFinish() {
-      console.log('finished groups')
+      console.log('finished foodGroups')
     })
   })
 

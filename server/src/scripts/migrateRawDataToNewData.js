@@ -16,7 +16,7 @@ const workingHours = require(('../../src/data/raw/working_hours.json'))
 const sizes = require(('../../src/data/raw/sizes.json'))
 
 const dishes = require(('../../src/data/raw/dishes.json'))
-
+const foodGroups = require(('../../src/data/raw/foodGroups.json'))
 const recipes = require(('../../src/data/raw/recipes.json'))
 const choices_ingredients = require(('../../src/data/raw/choices_ingredients.json'))
 const choices_subdishes = require(('../../src/data/raw/choices_subdishes.json'))
@@ -30,10 +30,10 @@ const getIngSubIngredients = (ing) => {
   return allChildIngredients
 }
 
-const getAllParentGroups = (initialGroupIds) => {
-  let groups = []
-  initialGroupIds.forEach(groupId => setAllParentGroups(groups, groupId))
-  return groups
+const getAllParentFoodGroups = (initialGroupIds) => {
+  let foodGroups = []
+  initialGroupIds.forEach(groupId => setAllParentGroups(foodGroups, groupId))
+  return foodGroups
 }
 
 const modifiedIngredients = ingredients.map(ing => {
@@ -43,9 +43,9 @@ const modifiedIngredients = ingredients.map(ing => {
   allIngredientComponentsIds.forEach(ingId => {
     allGroupsOfIng = [...allGroupsOfIng, ...(ingredientsById[ingId]?.groups || [])]
   })
-  const allllllllGroupsIncludingParentsRecursively = getAllParentGroups(allGroupsOfIng)
+  const allllllllFoodGroupsIncludingParentsRecursively = getAllParentFoodGroups(allGroupsOfIng)
 
-  allGroupsOfIng = [...new Set(allllllllGroupsIncludingParentsRecursively)]
+  allGroupsOfIng = [...new Set(allllllllFoodGroupsIncludingParentsRecursively)]
 
   const excludedInDiets = diets.reduce((acc, diet) => {
     if (_intersection(allGroupsOfIng, diet?.excluded_groups)?.length > 0) {
@@ -246,6 +246,7 @@ fs.writeFileSync('./src/data/new/diets.json', JSON.stringify(diets))
 fs.writeFileSync('./src/data/new/menus.json', JSON.stringify(menus))
 fs.writeFileSync('./src/data/new/locations.json', JSON.stringify(locations))
 fs.writeFileSync('./src/data/new/workingHours.json', JSON.stringify(workingHours))
+fs.writeFileSync('./src/data/new/foodGroups.json', JSON.stringify(foodGroups))
 
 fs.writeFileSync('./src/data/new/categories.json', JSON.stringify(categories))
 
