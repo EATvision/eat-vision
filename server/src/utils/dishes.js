@@ -40,6 +40,7 @@ const setAllParentGroups = (result, groupId) => {
 
 const getComponentLimitations = (component, filters) => {
   let intersectingExcludedIngredients = []
+  let ingredientsExludedInFoodGroups = []
   let ingredientsExludedInDiets = []
   let isFilteredOut = false
 
@@ -57,6 +58,12 @@ const getComponentLimitations = (component, filters) => {
       }, [])
     )
 
+    const combinedChildIngredientsFoodGroups = uniq(
+      allChildIngredients.reduce((acc, ing) => {
+        return [...acc, ...(ingredientsById?.[ing]?.foodGroups || [])]
+      }, [])
+    )
+
     intersectingExcludedIngredients = intersection(
       excludedComponents,
       allChildIngredients
@@ -65,9 +72,16 @@ const getComponentLimitations = (component, filters) => {
       filters.diets || [],
       combinedChildIngredientsExcludedInDiets
     )
+
+    ingredientsExludedInFoodGroups = intersection(
+      [...filters.exclude || [], ...filters.avoidOrReduce || [], ...filters.allergies || []],
+      combinedChildIngredientsFoodGroups
+    )
+
     isFilteredOut =
       intersectingExcludedIngredients.length > 0 ||
-      ingredientsExludedInDiets.length > 0
+      ingredientsExludedInDiets.length > 0 ||
+      ingredientsExludedInFoodGroups.length > 0
   }
   return {
     intersectingExcludedIngredients,

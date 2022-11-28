@@ -38,7 +38,7 @@ router.get('/', (req, res) => {
   }
 
 
-  res.send(filteredIngredients)
+  res.send(filteredIngredients.filter(Boolean))
 })
 
 

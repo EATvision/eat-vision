@@ -14,7 +14,6 @@ const menus = require(('../../src/data/raw/menus.json'))
 const locations = require(('../../src/data/raw/locations.json'))
 const workingHours = require(('../../src/data/raw/working_hours.json'))
 const sizes = require(('../../src/data/raw/sizes.json'))
-
 const dishes = require(('../../src/data/raw/dishes.json'))
 const foodGroups = require(('../../src/data/raw/foodGroups.json'))
 const recipes = require(('../../src/data/raw/recipes.json'))
@@ -39,16 +38,16 @@ const getAllParentFoodGroups = (initialGroupIds) => {
 const modifiedIngredients = ingredients.map(ing => {
   const allIngredientComponentsIds = getIngSubIngredients(ing)
 
-  let allGroupsOfIng = []
+  let allFoodGroupsOfIng = []
   allIngredientComponentsIds.forEach(ingId => {
-    allGroupsOfIng = [...allGroupsOfIng, ...(ingredientsById[ingId]?.groups || [])]
+    allFoodGroupsOfIng = [...allFoodGroupsOfIng, ...(ingredientsById[ingId]?.groups || [])]
   })
-  const allllllllFoodGroupsIncludingParentsRecursively = getAllParentFoodGroups(allGroupsOfIng)
+  const allllllllFoodGroupsIncludingParentsRecursively = getAllParentFoodGroups(allFoodGroupsOfIng)
 
-  allGroupsOfIng = [...new Set(allllllllFoodGroupsIncludingParentsRecursively)]
+  allFoodGroupsOfIng = [...new Set(allllllllFoodGroupsIncludingParentsRecursively)]
 
   const excludedInDiets = diets.reduce((acc, diet) => {
-    if (_intersection(allGroupsOfIng, diet?.excluded_groups)?.length > 0) {
+    if (_intersection(allFoodGroupsOfIng, diet?.excluded_groups)?.length > 0) {
       return [...acc, diet.id]
     }
     return acc
@@ -57,6 +56,7 @@ const modifiedIngredients = ingredients.map(ing => {
   return ({
     ...ing,
     excludedInDiets,
+    foodGroups: allllllllFoodGroupsIncludingParentsRecursively,
     isSearchable: ing.isSearchable === 'TRUE' ? true : false
   })
 })
