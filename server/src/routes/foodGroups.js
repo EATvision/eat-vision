@@ -3,7 +3,7 @@ const Fuse = require('fuse.js')
 const router = Router()
 
 const foodGroups = require('../data/new/foodGroups.json')
-const searchableIngredients = foodGroups.filter(ing => ing.isSearchable)
+const searchableFoodGroups = foodGroups
 
 const options = {
   // isCaseSensitive: false,
@@ -25,7 +25,7 @@ const options = {
   ]
 }
 
-const fuse = new Fuse(searchableIngredients, options)
+const fuse = new Fuse(searchableFoodGroups, options)
 
 router.get('/', (req, res) => {
   const { query } = req
@@ -38,7 +38,7 @@ router.get('/', (req, res) => {
   }
 
 
-  res.send(filteredIngredients)
+  res.send(filteredIngredients.filter(Boolean))
 })
 
 

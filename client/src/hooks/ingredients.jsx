@@ -89,6 +89,6 @@ export const useGetComponentLabel = () => {
   const { kitchen } = useKitchenById(kitchenId)
 
   const getComponentLabel = (c) =>
-    (kitchen?.locale === 'he-IL' ? c.translation_heb : c.name) || c.name
+    (kitchen?.locale === 'he-IL' ? c?.translation_heb : c?.name) || c?.name
   return getComponentLabel
 }

@@ -13,7 +13,17 @@ import React from 'react'
 import { Check as CheckIcon } from '@mui/icons-material'
 import { useGetComponentLabel } from 'hooks/ingredients'
 
-const loadOptions = async (inputValue) => {
+const loadFoodGroupsOptions = async (inputValue) => {
+  const { data } = await axios.get(`/api/foodGroups?q=${inputValue}`)
+  return data
+}
+
+const getFoodGroupsByIds = async (ids) => {
+  const { data } = await axios.get(`/api/foodGroups?ids=${ids?.join(',')}`)
+  return data
+}
+
+const loadIngredientsOptions = async (inputValue) => {
   const { data } = await axios.get(`/api/ingredients?q=${inputValue}`)
   return data
 }
@@ -36,25 +46,35 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
     let active = true
     const updateOptions = async () => {
       setLoading(true)
-      const selectedOptionsData = await getIngredientsByIds(filters[filterType])
-      const data = await loadOptions(inputValue)
+
+      const selectedFoodGroupsData = await getFoodGroupsByIds(
+        filters[filterType]
+      )
+      const selectedIngredientsData = await getIngredientsByIds(
+        filters[filterType]
+      )
+      const foodGroupsData = await loadFoodGroupsOptions(inputValue)
+      const ingredientsData = await loadIngredientsOptions(inputValue)
 
       if (active) {
         const uniqueIds = []
 
-        const updatedOptions = [...data, ...selectedOptionsData].filter(
-          (element) => {
-            const isDuplicate = uniqueIds.includes(element.id)
+        const updatedOptions = [
+          ...foodGroupsData,
+          ...ingredientsData,
+          ...selectedFoodGroupsData,
+          ...selectedIngredientsData,
+        ].filter((element) => {
+          const isDuplicate = uniqueIds.includes(element.id)
 
-            if (!isDuplicate) {
-              uniqueIds.push(element.id)
+          if (!isDuplicate) {
+            uniqueIds.push(element.id)
 
-              return true
-            }
-
-            return false
+            return true
           }
-        )
+
+          return false
+        })
 
         setOptions(updatedOptions)
         setLoading(false)

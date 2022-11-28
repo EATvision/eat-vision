@@ -17,6 +17,7 @@ import {
 import RestrictionsSelector from './RestrictionsSelector'
 import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
 import { useDinerUser } from 'contexts/diner'
+import { useV1FoodGroupsByIds } from 'hooks/foodGroups'
 
 function FoodRestrictionsStep({ onNext, onBack }) {
   const theme = useTheme()
@@ -24,7 +25,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
   const dinerUser = useDinerUser()
   const [filterType, setFilterType] = React.useState(null)
 
-  const handleClickDone = () => {
+  const handleClickDoneFilter = () => {
     setFilterType(null)
   }
 
@@ -33,13 +34,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
     !dinerUser.user.filters.allergies.length &&
     !dinerUser.user.filters.avoidOrReduce.length
 
-  const handleClickNoRestrictions = () => {
-    dinerUser.setFilters({
-      ...dinerUser.user.filters,
-      exclude: [],
-      allergies: [],
-      avoidOrReduce: [],
-    })
+  const handleClickDoneStep = () => {
     onNext()
   }
 
@@ -88,11 +83,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
           {t('back')}
         </Button>
         <Grow direction="up" in>
-          <Button
-            variant="contained"
-            fullWidth
-            onClick={handleClickNoRestrictions}
-          >
+          <Button variant="contained" fullWidth onClick={handleClickDoneStep}>
             {isNoRestrictions ? t('no_food_restrictions') : t('done')}
           </Button>
         </Grow>
@@ -123,7 +114,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
             variant="contained"
             color="primary"
             fullWidth
-            onClick={handleClickDone}
+            onClick={handleClickDoneFilter}
           >
             {t('im_done')}
             {dinerUser.user.filters[filterType]?.length > 0 &&
@@ -139,6 +130,9 @@ function RestrictionFilter({ filters, title, type, onClick }) {
   const theme = useTheme()
   const getComponentLabel = useGetComponentLabel()
   const { ingredients } = useV1IngredientsByIds(filters[type])
+  const { foodGroups } = useV1FoodGroupsByIds(filters[type])
+
+  const componentsList = [...(ingredients || []), ...(foodGroups || [])]
 
   return (
     <ToggleButtonGroup
@@ -168,9 +162,9 @@ function RestrictionFilter({ filters, title, type, onClick }) {
       >
         <Box>{title}</Box>
 
-        {ingredients?.length > 0 && (
+        {
           <Box sx={{ padding: theme.spacing(1) }}>
-            {ingredients?.map((c) => (
+            {componentsList.map((c) => (
               <Chip
                 key={c.id}
                 size="small"
@@ -179,7 +173,7 @@ function RestrictionFilter({ filters, title, type, onClick }) {
               />
             ))}
           </Box>
-        )}
+        }
       </ToggleButton>
     </ToggleButtonGroup>
   )
