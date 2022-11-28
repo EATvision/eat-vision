@@ -1,8 +1,5 @@
 [
   {
-    "id": "recDPIwpvtIfrrMPA"
-  },
-  {
     "id": "recCI7L02KrKzW3DZ",
     "name": "1% Milk",
     "subIngredients": [
@@ -66,6 +63,10 @@
       "recunwwkCTGfBX5yn",
       "recF0p1gJUlLyMoXQ"
     ],
+    "isSearchable": "FALSE",
+    "groups": [
+      "recI9Q7Z1Eluqpgfu"
+    ],
     "translation_heb": "איולי"
   },
   {
@@ -74,6 +75,10 @@
     "subIngredients": [
       "recR7z1AdPpoU1MKG",
       "recnFLqc0j6PwBoId"
+    ],
+    "isSearchable": "FALSE",
+    "groups": [
+      "recI9Q7Z1Eluqpgfu"
     ],
     "translation_heb": "איולי חריסה"
   },
@@ -86,6 +91,10 @@
       "recunwwkCTGfBX5yn"
     ],
     "isSearchable": "TRUE",
+    "groups": [
+      "recI9Q7Z1Eluqpgfu",
+      "recskJLfd1Ydg6Dpo"
+    ],
     "translation_heb": "איולי"
   },
   {
@@ -205,6 +214,7 @@
       "recvYxeuh92qkRxXF",
       "recGtyA7vVZcl2wCx"
     ],
+    "isSearchable": "FALSE",
     "translation_heb": "רוטב דיינרס אמריקאי"
   },
   {
@@ -394,6 +404,7 @@
       "reco4QENFZZfn59Rv",
       "recIO91RV3ktple3V"
     ],
+    "isSearchable": "FALSE",
     "translation_heb": "ערייאס "
   },
   {
@@ -425,6 +436,7 @@
       "recuaPPyJEdti905z",
       "rec94BZ9WXxBHtkTf"
     ],
+    "isSearchable": "FALSE",
     "groups": [
       "recmkvtZD6t6WKl07"
     ],
@@ -560,6 +572,7 @@
   {
     "id": "recQr7n4Kr7f24oao",
     "name": "baby radish",
+    "isSearchable": "TRUE",
     "translation_heb": "צנונית"
   },
   {
@@ -734,6 +747,7 @@
   {
     "id": "recyn3BXXOa48Bmcp",
     "name": "Beef fat",
+    "isSearchable": "FALSE",
     "groups": [
       "recmkvtZD6t6WKl07"
     ],
@@ -1125,7 +1139,7 @@
     "subIngredients": [
       "reclefMB4NCoPuZdC"
     ],
-    "isSearchable": "TRUE",
+    "isSearchable": "FALSE",
     "tags": [
       "recurt87JNmeE6SzQ"
     ],
@@ -1243,8 +1257,10 @@
     "subIngredients": [
       "recP3ckx3sgZrFIkW"
     ],
+    "isSearchable": "FALSE",
     "groups": [
-      "recYgJLdDlWsTxVGe"
+      "recYgJLdDlWsTxVGe",
+      "rechdBUA5LiWfnnuE"
     ],
     "translation_heb": "גבינת בושה"
   },
@@ -1428,6 +1444,7 @@
   {
     "id": "recHF7WKfmt9aVAkN",
     "name": "Calcium Disodium EDTA",
+    "isSearchable": "FALSE",
     "synonyms": "E385",
     "groups": [
       "recDXBerbCvKBauuo"
@@ -1514,6 +1531,7 @@
   {
     "id": "recOHsYSOS2AjnLOX",
     "name": "E150",
+    "isSearchable": "FALSE",
     "groups": [
       "recy2Nh2sfSLTNXbH"
     ],
@@ -1671,24 +1689,13 @@
       "recDAeqfkTvzJgq7p"
     ],
     "isSearchable": "TRUE",
-    "tags": [
-      "recm0zwS84JCKOaNG"
-    ],
-    "groups": [
-      "recm0zwS84JCKOaNG"
-    ],
-    "translation_heb": "גבינת צ'דר"
-  },
-  {
-    "id": "recE4RLpVLinkkqxD",
-    "name": "Cheddar cheese",
-    "isSearchable": "FALSE",
     "description": "Type of  cheese from England shredded",
     "tags": [
+      "recm0zwS84JCKOaNG",
       "recYgJLdDlWsTxVGe"
     ],
     "groups": [
-      "recYgJLdDlWsTxVGe"
+      "recm0zwS84JCKOaNG"
     ],
     "translation_heb": "גבינת צ'דר"
   },
@@ -2270,6 +2277,7 @@
     "subIngredients": [
       "rec8pKfAEwucwp78c"
     ],
+    "isSearchable": "TRUE",
     "translation_heb": "קוקה קולה"
   },
   {
@@ -2345,6 +2353,7 @@
   {
     "id": "recglV0UGjl0Vxop7",
     "name": "cod fish",
+    "isSearchable": "TRUE",
     "groups": [
       "recv4O8R7YyTwXVVU"
     ],
@@ -2381,6 +2390,7 @@
       "recI8lS3CF5AibMHJ",
       "recAeUdJprwtRSDxN"
     ],
+    "isSearchable": "FALSE",
     "groups": [
       "recdx1s8hodBvQIHm"
     ],
@@ -2670,19 +2680,6 @@
     "translation_heb": "קרוטונים"
   },
   {
-    "id": "recmk5lysbrTc9MUF",
-    "name": "crunchy cereals",
-    "subIngredients": [
-      "recM8kSJaq1moOFd7",
-      "recbS8XYPJW3os8Kc",
-      "rec8pKfAEwucwp78c",
-      "recXeFEPeNz9MTGnu"
-    ],
-    "groups": [
-      "recurt87JNmeE6SzQ"
-    ]
-  },
-  {
     "id": "rec6kJPDSlKgFWs77",
     "name": "crunchy chicken ",
     "subIngredients": [
@@ -2765,7 +2762,8 @@
       "recHhc5yZWsQTO185",
       "recHdsvNHQgPr3m5h"
     ],
-    "translation_heb": "קארי"
+    "isSearchable": "FALSE",
+    "translation_heb": "תערובת קארי POW WOW"
   },
   {
     "id": "recsyW2vRnBAE3A0n",
@@ -2992,19 +2990,12 @@
   },
   {
     "id": "rect2ssiRQkclJz1F",
-    "name": "E627",
+    "name": "E627 - disodium guanylate",
+    "isSearchable": "FALSE",
     "groups": [
       "recDXBerbCvKBauuo"
     ],
-    "translation_heb": "E627"
-  },
-  {
-    "id": "recUyju5rusgnuGdT",
-    "name": "E631",
-    "groups": [
-      "recDXBerbCvKBauuo"
-    ],
-    "translation_heb": "דיסודיום אינוסינאט"
+    "translation_heb": "E627 - דיסודיום אינוסינאט "
   },
   {
     "id": "recdcaoIvREFe3hVo",
@@ -4274,7 +4265,8 @@
       "rec3OxjSiLWyj8hx5"
     ],
     "groups": [
-      "rec3OxjSiLWyj8hx5"
+      "rec3OxjSiLWyj8hx5",
+      "recm30EduNkl4SSxj"
     ],
     "translation_heb": "בשר כבש טחון"
   },
@@ -5030,7 +5022,6 @@
       "recvuvXYftFbjS3sz",
       "recWVx1uHo7qS47Fh",
       "recpNLk4146tpNVy6",
-      "recmk5lysbrTc9MUF",
       "recKzibs119a7JAF5"
     ],
     "synonyms": "Klik",
@@ -5119,7 +5110,6 @@
       "recm30EduNkl4SSxj"
     ],
     "groups": [
-      "recX7LWBWgvLk0fXO",
       "recm30EduNkl4SSxj"
     ],
     "translation_heb": "טלה"
@@ -6439,7 +6429,7 @@
     "groups": [
       "rec9aef6vga0ZHQHN"
     ],
-    "translation_heb": "פריחת תפוזים"
+    "translation_heb": ", מי פריחת תפוזים , מי הדרים, מי זוהר, מי זהר"
   },
   {
     "id": "recBzIbp85Ur8hApu",
@@ -6851,7 +6841,7 @@
     "groups": [
       "recHJLhfoFpQuTVOI"
     ],
-    "translation_heb": "פקאנים"
+    "translation_heb": "פקאנים, אגוזי פקאן"
   },
   {
     "id": "recadiNZKw2SVjGQc",
@@ -8194,6 +8184,14 @@
       "rec790UdQSjJXmK6w"
     ],
     "translation_heb": "ירקות שורש"
+  },
+  {
+    "id": "rec5CP9lwweFpP2wt",
+    "name": "rose water",
+    "groups": [
+      "recN0HIrikkUk6AvS"
+    ],
+    "translation_heb": "מי ורדים, מי שושנים"
   },
   {
     "id": "recCX3d0ZTTmN4c9o",
@@ -10559,7 +10557,6 @@
       "rec8pKfAEwucwp78c",
       "recXeFEPeNz9MTGnu",
       "recLUICb1mSTz30Up",
-      "recUyju5rusgnuGdT",
       "rect2ssiRQkclJz1F",
       "rectP6TYqJoZVWhss"
     ],

@@ -4,9 +4,9 @@ const intersection = require('lodash/intersection')
 
 const dishes = require('../data/new/dishes.json')
 const ingredients = require('../data/new/ingredients.json')
-const groups = require(('../../src/data/raw/groups.json'))
+const foodGroups = require(('../../src/data/raw/foodGroups.json'))
 
-const groupsById = keyBy(groups, 'id')
+const foodGroupsById = keyBy(foodGroups, 'id')
 const ingredientsById = keyBy(ingredients, 'id')
 
 const dishesById = keyBy(dishes, 'id')
@@ -27,7 +27,7 @@ const setAllChildIngredients = (result, ingredientId) => {
 
 const setAllParentGroups = (result, groupId) => {
   result.push(groupId)
-  const group = groupsById[groupId]
+  const group = foodGroupsById[groupId]
   const parentGroups = group.parentGroups
   while (parentGroups?.length && !result.includes(groupId)) {
     for (let index = 0; index < parentGroups.length; index++) {
