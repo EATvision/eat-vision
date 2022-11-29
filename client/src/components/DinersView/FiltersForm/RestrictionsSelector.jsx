@@ -11,6 +11,8 @@ import axios from 'axios'
 import { t } from 'i18next'
 import React from 'react'
 import { Check as CheckIcon } from '@mui/icons-material'
+import { useDebounce } from 'use-debounce'
+
 import { useGetComponentLabel } from 'hooks/ingredients'
 
 const loadFoodGroupsOptions = async (inputValue) => {
@@ -37,6 +39,7 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
   const [inputValue, setInputValue] = React.useState('')
   const [options, setOptions] = React.useState([])
   const [loading, setLoading] = React.useState(false)
+  const [debouncedInputValue] = useDebounce(inputValue, 500)
 
   const handleChangeInputValue = (e) => {
     setInputValue(e.target.value)
@@ -47,14 +50,16 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
     const updateOptions = async () => {
       setLoading(true)
 
-      const selectedFoodGroupsData = await getFoodGroupsByIds(
-        filters[filterType]
-      )
-      const selectedIngredientsData = await getIngredientsByIds(
-        filters[filterType]
-      )
-      const foodGroupsData = await loadFoodGroupsOptions(inputValue)
-      const ingredientsData = await loadIngredientsOptions(inputValue)
+      const selectedFoodGroupsData =
+        filters[filterType].length > 0
+          ? await getFoodGroupsByIds(filters[filterType])
+          : []
+      const selectedIngredientsData =
+        filters[filterType].length > 0
+          ? await getIngredientsByIds(filters[filterType])
+          : []
+      const foodGroupsData = await loadFoodGroupsOptions(debouncedInputValue)
+      const ingredientsData = await loadIngredientsOptions(debouncedInputValue)
 
       if (active) {
         const uniqueIds = []
@@ -86,7 +91,7 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
     return () => {
       active = false
     }
-  }, [filterType, filters, inputValue])
+  }, [filterType, filters, debouncedInputValue])
 
   // const handleClickAddNewIngredient = (ing) => () => {
   //   console.log(`Adding new ingredient ${ing} request `)
