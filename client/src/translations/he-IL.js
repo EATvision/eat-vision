@@ -55,7 +55,7 @@ export default {
   any_restrictions: 'האם יש לך העדפות באוכל?',
   // any_more_restrictions: 'האם יש לך עוד העדפות באוכל?',
   // if_thats_all_press_done: 'לחץ סיום אם זה הכל',
-  ask_for_changes: 'בקשת שינויים',
+  ask_for_changes: 'המלצה אישית עבורך',
   more_info: 'עוד פרטים',
   my_reccomendations_for_you: 'ההמלצות שלי בשבילך',
   ask_without_the: 'לבקש בלי',
