@@ -1,7 +1,8 @@
 import React from 'react'
 import { MenuItem, Select, Typography, useTheme } from '@mui/material'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
-import { useKitchenMenusById } from '../../hooks/kitchens'
+
+import { useKitchenMenusById } from 'hooks/kitchens'
 
 function MenuOptionsBanner() {
   const theme = useTheme()

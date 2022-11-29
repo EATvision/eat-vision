@@ -2,8 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { Box, useTheme, Stack, FormLabel, Chip, Badge } from '@mui/material'
 
-import { useKitchenById } from '../../../hooks/kitchens'
-import { useGetComponentLabel } from '../../../hooks/ingredients'
+import { useKitchenById } from 'hooks/kitchens'
+import { useGetComponentLabel } from 'hooks/ingredients'
 
 export default function DishRecipeChips({ data, label }) {
   const theme = useTheme()

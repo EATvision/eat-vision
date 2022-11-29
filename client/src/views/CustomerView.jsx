@@ -21,12 +21,13 @@ import DishesIcon from '@mui/icons-material/RestaurantMenu'
 import MenusIcon from '@mui/icons-material/MenuBook'
 import InfoIcon from '@mui/icons-material/InfoOutlined'
 import { Button, Typography } from '@mui/material'
-import KitchenSelector from '../components/KitchenSelector'
-import KitchenProvider from '../contexts/kitchen'
-import RTL from '../components/RTL'
-import getTheme from '../theme'
-import useIsRTL from '../hooks/useRTL'
 import { t } from 'i18next'
+
+import KitchenProvider from 'contexts/kitchen'
+import getTheme from '../theme'
+import RTL from 'components/RTL'
+import KitchenSelector from 'components/KitchenSelector'
+import useIsRTL from 'hooks/useRTL'
 
 const drawerWidth = 240
 

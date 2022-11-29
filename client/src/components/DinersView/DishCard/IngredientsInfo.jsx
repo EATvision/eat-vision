@@ -1,9 +1,6 @@
 import React from 'react'
 import { List, ListItem } from '@mui/material'
-import {
-  useGetComponentLabel,
-  useV1IngredientsByIds,
-} from '../../../hooks/ingredients'
+import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
 
 const _keyBy = require('lodash/keyBy')
 

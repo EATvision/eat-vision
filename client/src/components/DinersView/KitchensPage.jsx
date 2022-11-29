@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-
-import { useKitchens } from '../../hooks/kitchens'
 import { Typography } from '@mui/material'
+
+import { useKitchens } from 'hooks/kitchens'
 
 function KitchensPage() {
   const { i18n, t } = useTranslation()

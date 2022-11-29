@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { useKitchenById } from '../../hooks/kitchens'
+import { useKitchenById } from 'hooks/kitchens'
 
 function KitchenPage() {
   const { kitchenId } = useParams()
