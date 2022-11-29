@@ -14,6 +14,7 @@ import { useTranslation } from 'react-i18next'
 import { useDinerUser } from 'contexts/diner'
 import { useDiets } from 'hooks/diets'
 import { useKitchenById } from 'hooks/kitchens'
+import FixedBottomConrainer from 'components/FixedBottomContainer'
 
 function DietsSelector({ onNext, onBack }) {
   const theme = useTheme()
@@ -104,7 +105,7 @@ function DietsSelector({ onNext, onBack }) {
         ))}
       </ToggleButtonGroup>
 
-      <Box sx={{ display: 'flex' }}>
+      <FixedBottomConrainer>
         <Button variant="text" onClick={handleClickBack}>
           {t('back')}
         </Button>
@@ -113,7 +114,7 @@ function DietsSelector({ onNext, onBack }) {
             {t('im_done')}
           </Button>
         </Grow>
-      </Box>
+      </FixedBottomConrainer>
     </Box>
   )
 }

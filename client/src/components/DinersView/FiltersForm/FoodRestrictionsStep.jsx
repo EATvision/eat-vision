@@ -18,6 +18,7 @@ import RestrictionsSelector from './RestrictionsSelector'
 import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
 import { useDinerUser } from 'contexts/diner'
 import { useV1FoodGroupsByIds } from 'hooks/foodGroups'
+import FixedBottomConrainer from 'components/FixedBottomContainer'
 
 function FoodRestrictionsStep({ onNext, onBack }) {
   const theme = useTheme()
@@ -78,7 +79,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
         />
       </Box>
 
-      <Box sx={{ display: 'flex' }}>
+      <FixedBottomConrainer>
         <Button variant="text" onClick={handleClickStepBack}>
           {t('back')}
         </Button>
@@ -87,7 +88,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
             {isNoRestrictions ? t('no_food_restrictions') : t('done')}
           </Button>
         </Grow>
-      </Box>
+      </FixedBottomConrainer>
 
       <Dialog
         fullScreen={fullScreen}
@@ -98,7 +99,8 @@ function FoodRestrictionsStep({ onNext, onBack }) {
       >
         <DialogContent
           sx={{
-            padding: 0,
+            // padding: 0,
+            marginBottom: theme.spacing(6),
             ...(!fullScreen ? { minWidth: 500, minHeight: 500 } : {}),
           }}
         >
@@ -110,16 +112,18 @@ function FoodRestrictionsStep({ onNext, onBack }) {
           />
         </DialogContent>
         <DialogActions disableSpacing sx={{ padding: 0 }}>
-          <Button
-            variant="contained"
-            color="primary"
-            fullWidth
-            onClick={handleClickDoneFilter}
-          >
-            {t('im_done')}
-            {dinerUser.user.filters[filterType]?.length > 0 &&
-              ` (${dinerUser.user.filters[filterType]?.length})`}
-          </Button>
+          <FixedBottomConrainer>
+            <Button
+              variant="contained"
+              color="primary"
+              fullWidth
+              onClick={handleClickDoneFilter}
+            >
+              {t('im_done')}
+              {dinerUser.user.filters[filterType]?.length > 0 &&
+                ` (${dinerUser.user.filters[filterType]?.length})`}
+            </Button>
+          </FixedBottomConrainer>
         </DialogActions>
       </Dialog>
     </Box>

@@ -20,6 +20,7 @@ import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 import { v4 as uuidv4 } from 'uuid'
 import { t } from 'i18next'
 import { useDinerUser } from 'contexts/diner'
+import FixedBottomConrainer from './FixedBottomContainer'
 
 const NO_AUTH = true
 
@@ -293,9 +294,16 @@ function Login({ onDone, optOutLoginOption, onBack }) {
         </Alert>
       )}
 
-      <Button variant="text" onClick={onBack} sx={{ marginTop: 'auto' }}>
-        {t('back')}
-      </Button>
+      <FixedBottomConrainer>
+        <Button
+          variant="text"
+          fullWidth
+          onClick={onBack}
+          sx={{ marginTop: 'auto' }}
+        >
+          {t('back')}
+        </Button>
+      </FixedBottomConrainer>
     </Box>
   )
 }
