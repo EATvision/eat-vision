@@ -1,13 +1,12 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-
 import { Box, Paper, Tab, Tabs, Typography, useTheme } from '@mui/material'
-import { useKitchenCategoriesByMenu } from '../../hooks/kitchens'
+
+import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 
 import FoodDish from './DishCard/FoodDish'
 import DrinkDish from './DishCard/DrinkDish'
-
 import Footer from './Footer'
 
 function DishesPage({ dishes }) {

@@ -3,8 +3,8 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 
 import getTheme from '../theme'
-import RTL from '../components/RTL'
-import useIsRTL from '../hooks/useRTL'
+import RTL from 'components/RTL'
+import useIsRTL from 'hooks/useRTL'
 
 function AdminView() {
   const isRTL = useIsRTL()
