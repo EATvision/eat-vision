@@ -68,6 +68,7 @@ export default {
   options: 'אופציות',
   sidedish: 'תוספת',
   changes: 'שינויים',
+  sizes: 'גדלים',
   ingredients: 'רכיבים',
   menu_options: 'תפריטים לבחירה',
   choice: 'לבחירה',

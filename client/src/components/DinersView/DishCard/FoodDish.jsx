@@ -190,7 +190,7 @@ export default function FoodDish({ data }) {
           data.recipe.excludable.length > 0 ||
           data.recipe.nutrition ||
           data.recipe.updates ||
-          data.sizes ||
+          data.sizes.length > 0 ||
           data.recipe.mandatory.length > 0 ||
           data.warnings) && <Divider />}
         <CardActions>
@@ -255,7 +255,7 @@ export default function FoodDish({ data }) {
             </IconButton>
           )}
 
-          {data.sizes && (
+          {data.sizes?.length > 0 && (
             <IconButton
               sx={{
                 display: 'flex',
