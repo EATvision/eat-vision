@@ -357,7 +357,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -386,7 +391,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -411,7 +421,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -436,7 +451,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -461,7 +481,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -486,7 +511,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -511,7 +541,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -536,7 +571,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -561,7 +601,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -586,7 +631,24 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recp7fNhhlPENrUOX"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczRohufFhs4Ai60"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -611,7 +673,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -636,7 +703,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -660,7 +732,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -672,6 +749,7 @@
   {
     "id": "recH5V6QX45JHcaww",
     "name": "גולדסטאר לא מסוננת",
+    "longDescription": "בירה לאגר כהה בעלת גוף מלא, המיוצרת ללא סינון, ולכן מאופיינת במרקם סמיך יותר ובטעם פירותי חזק יותר.\nהבירה מבושלת על פי המתכון האהוב והאיכותי של גולדסטאר, אך אינה עוברת את התהליך האחרון של סינון לפני ביקבוק, דבר שמאפשר לה לשמר את רכיבי הטעם והצבע המשובחים שלה.\nגולדסטאר UNFILTERD מאופיינת בתחושה סמיכה, בעלת גוף מלא ומראה מעט סמיך ו\"מעונן\"\n\nלבסוף, מתקבלת תוצאה עוצמתית בעלת טעם עמוק, ארומה קרמלית וגיזוז נמוך.\nלמרות אחוזי האלכוהול והגוף העשיר, ה-SLOWBREW נעימה וקלה לשתייה.",
     "categories": [
       "recQSWJ6qGJUSZ3kK"
     ],
@@ -684,7 +762,24 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        },
+        {
+          "type": "ingredient",
+          "id": "recc0DmCDcXGYqD3j"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -695,7 +790,8 @@
   },
   {
     "id": "recEJPaWEm6aolABh",
-    "name": "גולדסטאר לא מסוננת",
+    "name": "גולדסטאר ",
+    "longDescription": "בירת לאגר כהה ישראלית, המכילה 4.9% אלכוהול ומיוצרת במבשלות חברת טמפו בנתניה.\nהבירה מיוצרת לפי מתכון בן למעלה מ-60 שנה, מתערובת של סוגי לתת בהירים וקלויים, בתהליך מסורתי שנותן לה את הטעם העמוק והארומה הייחודית.\nהבירה בושלה לראשונה בשנת 1950 על ידי הברומייסטר מנחם ברלינר. בשנותיו הראשונות שווק גולדסטאר כתת-מותג של הבירה המובילה של המבשלות באותה התקופה - בירה נשר - ונקרא \"נשר גולדסטאר\".\nגולדסטאר\" הייתה הבירה הראשונה בישראל שנמכרה בחבית, והתחילה את דרכה בפאב \"המוזג\" המיתולוגי בתחנה המרכזית הישנה.",
     "categories": [
       "recQSWJ6qGJUSZ3kK"
     ],
@@ -713,7 +809,20 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -737,7 +846,20 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -761,7 +883,32 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec29iAOTt52XzWFZ"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfRWIkDiPdhk0A1"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -773,6 +920,7 @@
   {
     "id": "rec9KNsAhi2t9kiZm",
     "name": "מכבי\n 7.9%",
+    "longDescription": "בירה לאגר חזקה ומאוזנת, במכבי 7.9% הוגדלה כמות הלתת למקסימום האפשרי, ליצירת לאגר עוצמתי בטעם אך נעים לשתייה. בירה עשירה בטעמי לתת עם מרירות כשותית עדינה השומרת על המאפיין הבסיסי\nשל מכבי: לאגר נעים וטעים לשתייה.",
     "categories": [
       "recQSWJ6qGJUSZ3kK"
     ],
@@ -790,7 +938,20 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -814,7 +975,24 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfRWIkDiPdhk0A1"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        },
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -826,6 +1004,7 @@
   {
     "id": "rechDv9dUcOwSbbWm",
     "name": "סול",
+    "longDescription": "בירה סול, מותג בירה מקסיקני ובינלאומי מבית היינקן\"\nבירה סול היא בירת לאגר בהירה וקלילה לשתייה עם שילוב של שמרים, תירס ומאלט השומרים על הטעם המקורי, בעלת 4.5% אלכוהול\nסול הינו מותג מקסיקני וותיק מאוד, הקיים משנת 1899, נמכר בכ-80 מדינות וזוכה להצלחה רבה ברחבי העולם.\nמבשלת סול במקסיקו ממוקמת בהר אוריזבה, בסמוך למאגר המים\nהקרוב ביותר לשמש.\nהאגדה מספרת שהבירה קיבלה את שמה \"סול\"\nבהשראת קרני השמש שהאירו את פניו של הברומאסטר בסיום הכנת\nהבירה הראשונה ומאז הפכה סול לאייקון מקסיקני.",
     "categories": [
       "recQSWJ6qGJUSZ3kK"
     ],
@@ -838,7 +1017,24 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        },
+        {
+          "type": "ingredient",
+          "id": "recKzibs119a7JAF5"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -862,7 +1058,28 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recQJr0srHNh8eEHr"
+        },
+        {
+          "type": "ingredient",
+          "id": "recKzibs119a7JAF5"
+        },
+        {
+          "type": "ingredient",
+          "id": "recc6knKmjy3mFt0P"
+        },
+        {
+          "type": "ingredient",
+          "id": "recyydYtAC5UzzYQC"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec9765BycwVV8I9r"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -891,7 +1108,28 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczgoso0Ho0YwAUw"
+        },
+        {
+          "type": "ingredient",
+          "id": "recc0DmCDcXGYqD3j"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -915,31 +1153,44 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "reckwuwDn0wedl66K",
-    "name": "שפירא",
-    "categories": [
-      "recQSWJ6qGJUSZ3kK"
-    ],
-    "price": 35,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "bottle"
-      }
-    ],
-    "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "receN4iLyolSoIN3c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recBB9umwbyPvARWo"
+        },
+        {
+          "type": "ingredient",
+          "id": "recV0Yp3ExeSRnwzX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJvctGatqNma273"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXKaSUiiJldsPBU"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjakgmzALOL4AbL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXttFK8qnkFsjw1"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -951,6 +1202,7 @@
   {
     "id": "reckXKGQJ3YkGruKg",
     "name": "בומביי",
+    "longDescription": "בקבוק Bombay Sapphire הראשון שיוצר היה בשנת 1950, אולם המתכון המקורי נולד מתוך נוסחה שהתגלתה במזקקה ישנה בשנת 1761 Bombay Sapphire .הינו משקה ג'ין אולטרה פרמיום אודות לתהליך הייצור הייחודי שלו והשימוש בחומרי גלם מובחרים, עיצוב ותדמית מובילים וכמובן טעם משובח.\nלאחר זיקוק משולש של 100% שעורה, מוכנס התזקיק לדוד נוסף - יחיד בעולם. מבנה הדוד, המשמש לייצור המשקה Bombay Sapphire החל מיום היווסדו, מאפשר רק לאדי האלכוהול הזכים ביותר לעבור דרכו. מה שהופך את ג'ין Bombay Sapphire לכה עדין, עשיר ואיכותי, במסלולם עוברים האדים דרך סלי נחושת המלאים בתבלינים המשמשים להעשרת הטעם של התזקיק הראשוני. מותגי ג'ין אחרים מרתיחים את התזקיק ביחד עם התבלינים, אולם Bombay Sapphire, בשאיפה להשיג טעם עשיר רחב יותר וארומטי עם איזון יוצא דופן משתמשים בשיטה זו המכונה העשרה באדים.",
     "categories": [
       "recVgG1UaXKHcWTto"
     ],
@@ -964,7 +1216,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -993,7 +1250,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1005,6 +1267,7 @@
   {
     "id": "recyD7FsWWm47XGiX",
     "name": "הנדריקס",
+    "longDescription": "הנדריקס הוא ג'ין לחלוטין לא סטנדרטי, שקובע עבור עצמו את הכללים. הוא מזוקק בסקוטלנד ומתובל בעלי וורדים ומלפפון ומגיע בבקבוק רוקחים מסתורי. ההיסטוריה האלטרנטיבית של הג'ין בא במקור לעולם במטרה להציל חיים, כתרופה.",
     "categories": [
       "recVgG1UaXKHcWTto"
     ],
@@ -1018,7 +1281,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1043,7 +1311,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1068,7 +1341,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1093,7 +1371,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1118,7 +1401,16 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recnyRoPL7wAntZF9"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1143,7 +1435,20 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recEsLLi7WO3oBS0I"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjakgmzALOL4AbL"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1155,6 +1460,7 @@
   {
     "id": "recEgUwot7v5OtYhr",
     "name": "טובי 60",
+    "longDescription": "טובי 60 הוא משקה אלכוהולי שפותח ומיוצר בארץ על ידי חברת טובי 60 בע\"מ ומוכר בתור המשקה הלאומי של ישראל. הטובי מיוצר מרכיבים טבעיים של פרי הדר, צמחים, תבלינים ומכיל 40% אלכוהול.",
     "categories": [
       "recQidYJn8gCwjVVj"
     ],
@@ -1172,7 +1478,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1184,6 +1495,7 @@
   {
     "id": "recBoPsAkZa6YbLAt",
     "name": "מידורי",
+    "longDescription": "Neutral grain spirit, brandy, sugar, melon.",
     "categories": [
       "recQidYJn8gCwjVVj"
     ],
@@ -1197,7 +1509,16 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recTxF29Nu9cMmV1V"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1209,6 +1530,7 @@
   {
     "id": "recNLge43TSNvqK45",
     "name": "מליבו",
+    "longDescription": "Caribbean rum (molasses/sugarcane distillate), water, sugar, natural flavouring, acid: citric acid.",
     "categories": [
       "recQidYJn8gCwjVVj"
     ],
@@ -1222,7 +1544,24 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recRxY1kG8elmfgx8"
+        },
+        {
+          "type": "ingredient",
+          "id": "recrVbpPI7LXWIHSb"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1234,6 +1573,7 @@
   {
     "id": "recZdG82AxpqjIKud",
     "name": "סאווטרן קונפרוט",
+    "longDescription": "World famous liqueur, Southern Comfort, is made by infusing peach and other fruit and spice flavours including citrus and orange tones into a bourbon base to provide the distinctive original taste of the traditional American spirit, allowing it to be enjoyed by all.",
     "categories": [
       "recQidYJn8gCwjVVj"
     ],
@@ -1247,7 +1587,16 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1272,7 +1621,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1297,7 +1651,16 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfd5JeMqK1ATqja"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1322,7 +1685,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1347,7 +1715,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1372,7 +1745,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1397,7 +1775,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1422,7 +1805,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1447,7 +1835,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1472,7 +1865,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1497,7 +1895,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1526,7 +1929,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1556,7 +1964,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1585,7 +1998,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1611,7 +2029,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1641,7 +2064,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1671,7 +2099,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1700,7 +2133,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1726,7 +2164,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1752,7 +2195,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1778,7 +2226,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1808,7 +2261,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1833,7 +2291,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1864,7 +2327,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1895,7 +2363,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1926,7 +2399,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1953,7 +2431,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1984,7 +2467,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2011,7 +2499,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2043,7 +2536,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2070,7 +2568,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2101,7 +2604,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2132,7 +2640,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2163,7 +2676,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2194,7 +2712,12 @@
       }
     ],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3160,7 +3683,24 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recXcLIAOrRGAMMKB"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCpEHMnCe4qFMsW"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJRSfXW0NfRFpb5"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec5qqpo1HWIuSRQp"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3181,7 +3721,20 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCybMhEFpg7LFgZ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3202,7 +3755,28 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec5qqpo1HWIuSRQp"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recpIiQLboizMe8J9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJDcBSFboCJJiZv"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3223,7 +3797,20 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJRSfXW0NfRFpb5"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec6s9tr5zrz8OSLd"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3244,7 +3831,28 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "reco9dbAt2nXBUlkB"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOtCA1zVlI5DJJU"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec6s9tr5zrz8OSLd"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3308,7 +3916,24 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recdgu5RLqBlNC0il"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCybMhEFpg7LFgZ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3329,7 +3954,24 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recXcLIAOrRGAMMKB"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recHdsvNHQgPr3m5h"
+        },
+        {
+          "type": "ingredient",
+          "id": "recQQTWbnpiPNVQ4l"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3350,7 +3992,24 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec5rtRKRDimBWzLl"
+        },
+        {
+          "type": "ingredient",
+          "id": "recnJSPZvEgh3w2Tj"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8NQp1w9MXaW6qg"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3981,10 +4640,6 @@
         {
           "type": "ingredient",
           "id": "recig8x6sbqMdadF5"
-        },
-        {
-          "type": "ingredient",
-          "id": "recwzUqc8oxDIMRh6"
         }
       ],
       "excludable": [
@@ -4011,6 +4666,10 @@
         {
           "type": "ingredient",
           "id": "recdWi50BqABCsZR2"
+        },
+        {
+          "type": "ingredient",
+          "id": "recwzUqc8oxDIMRh6"
         }
       ],
       "putaside": [
@@ -4037,6 +4696,10 @@
         {
           "type": "ingredient",
           "id": "recdWi50BqABCsZR2"
+        },
+        {
+          "type": "ingredient",
+          "id": "recwzUqc8oxDIMRh6"
         }
       ],
       "choice": [],
@@ -7220,10 +7883,6 @@
       "mandatory": [
         {
           "type": "ingredient",
-          "id": "recwzUqc8oxDIMRh6"
-        },
-        {
-          "type": "ingredient",
           "id": "rec6JuKZrj1Dz6X7X"
         }
       ],
@@ -7243,6 +7902,10 @@
         {
           "type": "ingredient",
           "id": "rectPDlhHQFV2a0O6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recwzUqc8oxDIMRh6"
         }
       ],
       "putaside": [
@@ -7261,6 +7924,10 @@
         {
           "type": "ingredient",
           "id": "rectPDlhHQFV2a0O6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recwzUqc8oxDIMRh6"
         }
       ],
       "choice": [],
@@ -9339,7 +10006,20 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [],
+      "choice": [
+        [
+          {
+            "type": "ingredient",
+            "id": "recKH5wZl8gsZH7a4",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "rectCnGpWfYXBEVVK",
+            "price": 0
+          }
+        ]
+      ],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -9382,7 +10062,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recycSnqXC75byJ6Q"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9428,7 +10113,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recwvNsKBWFAyWheP"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9474,7 +10164,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recHPSya6wEE087rJ"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9520,7 +10215,16 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recvr8kIqxedjZztj"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9566,7 +10270,24 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec8pKfAEwucwp78c"
+        },
+        {
+          "type": "ingredient",
+          "id": "recRxY1kG8elmfgx8"
+        },
+        {
+          "type": "ingredient",
+          "id": "recFuO6I7MwihsFFs"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8RW5156UY8jwkn"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],

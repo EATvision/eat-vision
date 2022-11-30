@@ -1310,8 +1310,7 @@
   {
     "id": "recPk82UOqM0DSPEW",
     "mandatory_ingredients": [
-      "recig8x6sbqMdadF5",
-      "recwzUqc8oxDIMRh6"
+      "recig8x6sbqMdadF5"
     ],
     "excludable_ingredients": [
       "recamPbxsPWkEj6Ep",
@@ -1319,7 +1318,8 @@
       "rec7O6th1UojW4jyh",
       "recY6diacYlNLzEg0",
       "recqwACzjmWAG17qY",
-      "recdWi50BqABCsZR2"
+      "recdWi50BqABCsZR2",
+      "recwzUqc8oxDIMRh6"
     ],
     "putaside_ingredients": [
       "recamPbxsPWkEj6Ep",
@@ -1327,7 +1327,8 @@
       "rec7O6th1UojW4jyh",
       "recY6diacYlNLzEg0",
       "recqwACzjmWAG17qY",
-      "recdWi50BqABCsZR2"
+      "recdWi50BqABCsZR2",
+      "recwzUqc8oxDIMRh6"
     ]
   },
   {
@@ -1447,20 +1448,21 @@
   {
     "id": "rec9Mi3YSzfEwE77p",
     "mandatory_ingredients": [
-      "recwzUqc8oxDIMRh6",
       "rec6JuKZrj1Dz6X7X"
     ],
     "excludable_ingredients": [
       "recY6diacYlNLzEg0",
       "recamPbxsPWkEj6Ep",
       "rec7O6th1UojW4jyh",
-      "rectPDlhHQFV2a0O6"
+      "rectPDlhHQFV2a0O6",
+      "recwzUqc8oxDIMRh6"
     ],
     "putaside_ingredients": [
       "recY6diacYlNLzEg0",
       "recamPbxsPWkEj6Ep",
       "rec7O6th1UojW4jyh",
-      "rectPDlhHQFV2a0O6"
+      "rectPDlhHQFV2a0O6",
+      "recwzUqc8oxDIMRh6"
     ]
   },
   {
@@ -1488,6 +1490,588 @@
     "id": "recxXg3JCyx7nOP5c",
     "Choice_ingredients": [
       "recjUoCzOgoy6f06h"
+    ]
+  },
+  {
+    "id": "recktdpNl5VbfmZls",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recw85U746oe1Kzlc",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recsmdIPQ8FtQbcow",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "reciuVveVbi3MduM8",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recr8rQ1TmzCrD9Lt",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "receJLCNP2VG61oq3",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recrDnjg56YL8x4ZI",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec8P51TPcDWsdwxG",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recDEiddRNMjTxCdl",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec5CMG5kb4iKqiiR",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recp7fNhhlPENrUOX",
+      "rec8pKfAEwucwp78c",
+      "reczRohufFhs4Ai60"
+    ]
+  },
+  {
+    "id": "recPVAiG8MSNn8Rm7",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recaSq0yYn5Hc0yqw",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recjE9hVkH0TfB85k",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec3l8i8VtoMo0h7j",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU",
+      "recc0DmCDcXGYqD3j"
+    ]
+  },
+  {
+    "id": "recjHaZMFMAgx6rG9",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU"
+    ]
+  },
+  {
+    "id": "recFIWHBR4UgFl3Y6",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU"
+    ]
+  },
+  {
+    "id": "reca4jnrtAsPcxMWk",
+    "mandatory_ingredients": [
+      "receN4iLyolSoIN3c",
+      "rec29iAOTt52XzWFZ",
+      "rec8pKfAEwucwp78c",
+      "recXKaSUiiJldsPBU",
+      "rec5rtRKRDimBWzLl",
+      "recfRWIkDiPdhk0A1"
+    ]
+  },
+  {
+    "id": "recZO9CIegoqsEXk3",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU"
+    ]
+  },
+  {
+    "id": "rec5NsTlgmr1iCOgH",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recfRWIkDiPdhk0A1",
+      "recXKaSUiiJldsPBU",
+      "receN4iLyolSoIN3c"
+    ]
+  },
+  {
+    "id": "recVC8QDrUfVa7vzm",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU",
+      "recKzibs119a7JAF5"
+    ]
+  },
+  {
+    "id": "recVXjg1xoWxqexWF",
+    "mandatory_ingredients": [
+      "recQJr0srHNh8eEHr",
+      "recKzibs119a7JAF5",
+      "recc6knKmjy3mFt0P",
+      "recyydYtAC5UzzYQC",
+      "rec9765BycwVV8I9r"
+    ]
+  },
+  {
+    "id": "recDfIHYz4P5IP94t",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "receN4iLyolSoIN3c",
+      "reczgoso0Ho0YwAUw",
+      "recc0DmCDcXGYqD3j",
+      "recXKaSUiiJldsPBU"
+    ]
+  },
+  {
+    "id": "reciTLAwIpULz2TX5",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "receN4iLyolSoIN3c",
+      "recBB9umwbyPvARWo",
+      "recV0Yp3ExeSRnwzX",
+      "recJvctGatqNma273",
+      "rec8pKfAEwucwp78c",
+      "recXKaSUiiJldsPBU",
+      "recjakgmzALOL4AbL",
+      "recXttFK8qnkFsjw1"
+    ]
+  },
+  {
+    "id": "recRSlorTyMGYcNPT",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU"
+    ]
+  },
+  {
+    "id": "recGWqDenHg6j8P5Q",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recYH7PpY9zloIzaB",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recvkSmNbueuTIvzz",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recylgMc9XXydouWg",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recCJvesuzoJJjdpJ",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recIBpdujvWpVgiKd",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recPVQgSZ9lqtlFN7",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recnyRoPL7wAntZF9"
+    ]
+  },
+  {
+    "id": "reccRdoJ6AkGSwuzj",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recEsLLi7WO3oBS0I",
+      "recjakgmzALOL4AbL"
+    ]
+  },
+  {
+    "id": "rec0lyNzBDEwiXnMS",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recvmgg58XXFmp39z",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recTxF29Nu9cMmV1V"
+    ]
+  },
+  {
+    "id": "recE97ctJEYGe0a1J",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "rec8pKfAEwucwp78c",
+      "recRxY1kG8elmfgx8",
+      "recrVbpPI7LXWIHSb"
+    ]
+  },
+  {
+    "id": "recc0TkIO70DIgDPT",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "rec8pKfAEwucwp78c"
+    ]
+  },
+  {
+    "id": "rec15JQtLca5boe7u",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec390kb1G7IaUn2C",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recfd5JeMqK1ATqja"
+    ]
+  },
+  {
+    "id": "recbbqKvfnBC3We0D",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recCWkiQNA2RRmeAK",
+    "mandatory_ingredients": [
+      "recXcLIAOrRGAMMKB",
+      "recCpEHMnCe4qFMsW",
+      "recJRSfXW0NfRFpb5",
+      "rec5qqpo1HWIuSRQp"
+    ]
+  },
+  {
+    "id": "recUIejryjt24BEup",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "reczQZC91BKURKqqO",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recYwXvuFUjt5aQ7f",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recwBioz8XpuFnixo",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec0DE0FIqE44Np0Y",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recm6PYVTbsdl5MbO",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recNwU0FlNQHRFYrj",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recfFWxxXd7xm7enJ",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recD7pmawIVd4HnXG",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recxJWyPAQgXaJjO7",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec3k8xJXLoP5NGCa",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recdexKNaO7GQYnWL",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recaRRGkKnWTvkWir",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recdmgAkJDO4DzXKC",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec61gYMPAICyoA47",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "reclmCx63w3tAqRhW",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rechriTkhDZHVlDIR",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec25kqLEnjvqpfdk",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "reciSw7saLciTEYXm",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recAzVtyLhFPo8bIe",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recK1iW3Vqw5R8grC",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recHU47vKZwnErKIr",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec3aF0MDAchzDiV0",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recwq3MjHheNAWg3v",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recL48mP1OxnZox39",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recGmtuzjjX2Mdg6w",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recW2mOy3IhOggUoE",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec3K4t9U69TWzqDb",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recCMz7MMYFkRTepU",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "rec9upzBJR6YVq0zG",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "receTKr1xNZH0inYG",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl"
+    ]
+  },
+  {
+    "id": "recHhVzDCGLesbV2n",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recCybMhEFpg7LFgZ",
+      "recUbXDwTIVaajLp9"
+    ]
+  },
+  {
+    "id": "recQTX5akr39GdpIS",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "rec5qqpo1HWIuSRQp",
+      "recUbXDwTIVaajLp9",
+      "recpIiQLboizMe8J9",
+      "recJDcBSFboCJJiZv"
+    ]
+  },
+  {
+    "id": "recp2kzeKDZps1Otk",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recJRSfXW0NfRFpb5",
+      "rec6s9tr5zrz8OSLd"
+    ]
+  },
+  {
+    "id": "recGHZ4CzBJny8MSC",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "reco9dbAt2nXBUlkB",
+      "recOtCA1zVlI5DJJU",
+      "recUbXDwTIVaajLp9",
+      "rec6s9tr5zrz8OSLd"
+    ]
+  },
+  {
+    "id": "recdj1KEDfG5CHYKT",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recdgu5RLqBlNC0il",
+      "recCybMhEFpg7LFgZ",
+      "recUbXDwTIVaajLp9"
+    ]
+  },
+  {
+    "id": "recIhGoVb6QtQjaLk",
+    "mandatory_ingredients": [
+      "recXcLIAOrRGAMMKB",
+      "rec5rtRKRDimBWzLl",
+      "recHdsvNHQgPr3m5h",
+      "recQQTWbnpiPNVQ4l"
+    ]
+  },
+  {
+    "id": "rec9lsEspOKtDTHVt",
+    "Choice_ingredients": [
+      "recDrDva5YMoTZCoG"
+    ]
+  },
+  {
+    "id": "recC8Q8vvERcplAR0",
+    "mandatory_ingredients": [
+      "rec8pKfAEwucwp78c",
+      "recRxY1kG8elmfgx8",
+      "recFuO6I7MwihsFFs",
+      "rec8RW5156UY8jwkn"
+    ]
+  },
+  {
+    "id": "recSRhD8xU1jLwYTU",
+    "mandatory_ingredients": [
+      "rec5rtRKRDimBWzLl",
+      "recnJSPZvEgh3w2Tj",
+      "rec8NQp1w9MXaW6qg",
+      "rec8pKfAEwucwp78c"
+    ]
+  },
+  {
+    "id": "recUi1cYYNQO9y2Ss",
+    "mandatory_ingredients": [
+      "recycSnqXC75byJ6Q"
+    ]
+  },
+  {
+    "id": "recBlkpRdahubI44v",
+    "mandatory_ingredients": [
+      "recwvNsKBWFAyWheP"
+    ]
+  },
+  {
+    "id": "rec4EvNhmdytz6LgM",
+    "mandatory_ingredients": [
+      "recHPSya6wEE087rJ"
+    ]
+  },
+  {
+    "id": "recB2FEuM4pmJh8ew",
+    "mandatory_ingredients": [
+      "recvr8kIqxedjZztj",
+      "rec8pKfAEwucwp78c"
     ]
   }
 ]

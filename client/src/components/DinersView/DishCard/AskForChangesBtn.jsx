@@ -90,7 +90,7 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
               </List>
             </Box>
 
-            <img alt="waiter" src={waiterSrc} width={100} />
+            <img alt="waiter" src={waiterSrc} width={100} loading="lazy" />
           </Paper>
         )}
       </Popover>

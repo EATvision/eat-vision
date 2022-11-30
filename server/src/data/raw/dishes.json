@@ -165,6 +165,9 @@
     "category": [
       "reckyoyehbSI7TMhZ"
     ],
+    "recipe": [
+      "recktdpNl5VbfmZls"
+    ],
     "price": 47,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -181,6 +184,9 @@
     "name": " ערק פרמיום נח 12 לימון",
     "category": [
       "reckyoyehbSI7TMhZ"
+    ],
+    "recipe": [
+      "recw85U746oe1Kzlc"
     ],
     "price": 47,
     "kitchenIds": [
@@ -199,6 +205,9 @@
     "category": [
       "reckyoyehbSI7TMhZ"
     ],
+    "recipe": [
+      "recsmdIPQ8FtQbcow"
+    ],
     "price": 49,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -216,6 +225,9 @@
     "category": [
       "reckyoyehbSI7TMhZ"
     ],
+    "recipe": [
+      "reciuVveVbi3MduM8"
+    ],
     "price": 39,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -232,6 +244,9 @@
     "name": "ערק אשקלון",
     "category": [
       "reckyoyehbSI7TMhZ"
+    ],
+    "recipe": [
+      "recr8rQ1TmzCrD9Lt"
     ],
     "price": 39,
     "kitchenIds": [
@@ -251,6 +266,9 @@
     "category": [
       "reckyoyehbSI7TMhZ"
     ],
+    "recipe": [
+      "receJLCNP2VG61oq3"
+    ],
     "price": 410,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -267,6 +285,9 @@
     "name": "פסטיס",
     "category": [
       "reckyoyehbSI7TMhZ"
+    ],
+    "recipe": [
+      "recrDnjg56YL8x4ZI"
     ],
     "price": 39,
     "kitchenIds": [
@@ -285,6 +306,9 @@
     "category": [
       "reckyoyehbSI7TMhZ"
     ],
+    "recipe": [
+      "rec8P51TPcDWsdwxG"
+    ],
     "price": 39,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -301,6 +325,9 @@
     "name": "ייגרמאסטר",
     "category": [
       "recDjduFG46dxH9mF"
+    ],
+    "recipe": [
+      "recDEiddRNMjTxCdl"
     ],
     "price": 49,
     "kitchenIds": [
@@ -319,6 +346,9 @@
     "category": [
       "recDjduFG46dxH9mF"
     ],
+    "recipe": [
+      "rec5CMG5kb4iKqiiR"
+    ],
     "price": 46,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -335,6 +365,9 @@
     "name": "קמפרי",
     "category": [
       "recDjduFG46dxH9mF"
+    ],
+    "recipe": [
+      "recPVAiG8MSNn8Rm7"
     ],
     "price": 46,
     "kitchenIds": [
@@ -353,6 +386,9 @@
     "category": [
       "recDjduFG46dxH9mF"
     ],
+    "recipe": [
+      "recaSq0yYn5Hc0yqw"
+    ],
     "price": 58,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -370,6 +406,9 @@
     "category": [
       "recQSWJ6qGJUSZ3kK"
     ],
+    "recipe": [
+      "recjE9hVkH0TfB85k"
+    ],
     "price": 29,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -384,8 +423,12 @@
   {
     "id": "recH5V6QX45JHcaww",
     "name": "גולדסטאר לא מסוננת",
+    "longDescription": "בירה לאגר כהה בעלת גוף מלא, המיוצרת ללא סינון, ולכן מאופיינת במרקם סמיך יותר ובטעם פירותי חזק יותר.\nהבירה מבושלת על פי המתכון האהוב והאיכותי של גולדסטאר, אך אינה עוברת את התהליך האחרון של סינון לפני ביקבוק, דבר שמאפשר לה לשמר את רכיבי הטעם והצבע המשובחים שלה.\nגולדסטאר UNFILTERD מאופיינת בתחושה סמיכה, בעלת גוף מלא ומראה מעט סמיך ו\"מעונן\"\n\nלבסוף, מתקבלת תוצאה עוצמתית בעלת טעם עמוק, ארומה קרמלית וגיזוז נמוך.\nלמרות אחוזי האלכוהול והגוף העשיר, ה-SLOWBREW נעימה וקלה לשתייה.",
     "category": [
       "recQSWJ6qGJUSZ3kK"
+    ],
+    "recipe": [
+      "rec3l8i8VtoMo0h7j"
     ],
     "price": 25,
     "kitchenIds": [
@@ -400,9 +443,13 @@
   },
   {
     "id": "recEJPaWEm6aolABh",
-    "name": "גולדסטאר לא מסוננת",
+    "name": "גולדסטאר ",
+    "longDescription": "בירת לאגר כהה ישראלית, המכילה 4.9% אלכוהול ומיוצרת במבשלות חברת טמפו בנתניה.\nהבירה מיוצרת לפי מתכון בן למעלה מ-60 שנה, מתערובת של סוגי לתת בהירים וקלויים, בתהליך מסורתי שנותן לה את הטעם העמוק והארומה הייחודית.\nהבירה בושלה לראשונה בשנת 1950 על ידי הברומייסטר מנחם ברלינר. בשנותיו הראשונות שווק גולדסטאר כתת-מותג של הבירה המובילה של המבשלות באותה התקופה - בירה נשר - ונקרא \"נשר גולדסטאר\".\nגולדסטאר\" הייתה הבירה הראשונה בישראל שנמכרה בחבית, והתחילה את דרכה בפאב \"המוזג\" המיתולוגי בתחנה המרכזית הישנה.",
     "category": [
       "recQSWJ6qGJUSZ3kK"
+    ],
+    "recipe": [
+      "recjHaZMFMAgx6rG9"
     ],
     "price": 25,
     "kitchenIds": [
@@ -421,6 +468,9 @@
     "category": [
       "recQSWJ6qGJUSZ3kK"
     ],
+    "recipe": [
+      "recFIWHBR4UgFl3Y6"
+    ],
     "price": 27,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -438,6 +488,9 @@
     "category": [
       "recQSWJ6qGJUSZ3kK"
     ],
+    "recipe": [
+      "reca4jnrtAsPcxMWk"
+    ],
     "price": 33,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -452,8 +505,12 @@
   {
     "id": "rec9KNsAhi2t9kiZm",
     "name": "מכבי\n 7.9%",
+    "longDescription": "בירה לאגר חזקה ומאוזנת, במכבי 7.9% הוגדלה כמות הלתת למקסימום האפשרי, ליצירת לאגר עוצמתי בטעם אך נעים לשתייה. בירה עשירה בטעמי לתת עם מרירות כשותית עדינה השומרת על המאפיין הבסיסי\nשל מכבי: לאגר נעים וטעים לשתייה.",
     "category": [
       "recQSWJ6qGJUSZ3kK"
+    ],
+    "recipe": [
+      "recZO9CIegoqsEXk3"
     ],
     "price": 24,
     "kitchenIds": [
@@ -472,6 +529,9 @@
     "category": [
       "recQSWJ6qGJUSZ3kK"
     ],
+    "recipe": [
+      "rec5NsTlgmr1iCOgH"
+    ],
     "price": 34,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -486,8 +546,12 @@
   {
     "id": "rechDv9dUcOwSbbWm",
     "name": "סול",
+    "longDescription": "בירה סול, מותג בירה מקסיקני ובינלאומי מבית היינקן\"\nבירה סול היא בירת לאגר בהירה וקלילה לשתייה עם שילוב של שמרים, תירס ומאלט השומרים על הטעם המקורי, בעלת 4.5% אלכוהול\nסול הינו מותג מקסיקני וותיק מאוד, הקיים משנת 1899, נמכר בכ-80 מדינות וזוכה להצלחה רבה ברחבי העולם.\nמבשלת סול במקסיקו ממוקמת בהר אוריזבה, בסמוך למאגר המים\nהקרוב ביותר לשמש.\nהאגדה מספרת שהבירה קיבלה את שמה \"סול\"\nבהשראת קרני השמש שהאירו את פניו של הברומאסטר בסיום הכנת\nהבירה הראשונה ומאז הפכה סול לאייקון מקסיקני.",
     "category": [
       "recQSWJ6qGJUSZ3kK"
+    ],
+    "recipe": [
+      "recVC8QDrUfVa7vzm"
     ],
     "price": 29,
     "kitchenIds": [
@@ -506,6 +570,9 @@
     "category": [
       "recQSWJ6qGJUSZ3kK"
     ],
+    "recipe": [
+      "recVXjg1xoWxqexWF"
+    ],
     "price": 28,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -522,6 +589,9 @@
     "name": "פאולנר",
     "category": [
       "recQSWJ6qGJUSZ3kK"
+    ],
+    "recipe": [
+      "recDfIHYz4P5IP94t"
     ],
     "price": 29,
     "kitchenIds": [
@@ -540,24 +610,10 @@
     "category": [
       "recQSWJ6qGJUSZ3kK"
     ],
+    "recipe": [
+      "reciTLAwIpULz2TX5"
+    ],
     "price": 39,
-    "kitchenIds": [
-      "recCtQEnXUUqDHBfF"
-    ],
-    "dishType": [
-      "drink "
-    ],
-    "sizes": [
-      "recpGfIxejmPdxWCs"
-    ]
-  },
-  {
-    "id": "reckwuwDn0wedl66K",
-    "name": "שפירא",
-    "category": [
-      "recQSWJ6qGJUSZ3kK"
-    ],
-    "price": 35,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
     ],
@@ -571,8 +627,12 @@
   {
     "id": "reckXKGQJ3YkGruKg",
     "name": "בומביי",
+    "longDescription": "בקבוק Bombay Sapphire הראשון שיוצר היה בשנת 1950, אולם המתכון המקורי נולד מתוך נוסחה שהתגלתה במזקקה ישנה בשנת 1761 Bombay Sapphire .הינו משקה ג'ין אולטרה פרמיום אודות לתהליך הייצור הייחודי שלו והשימוש בחומרי גלם מובחרים, עיצוב ותדמית מובילים וכמובן טעם משובח.\nלאחר זיקוק משולש של 100% שעורה, מוכנס התזקיק לדוד נוסף - יחיד בעולם. מבנה הדוד, המשמש לייצור המשקה Bombay Sapphire החל מיום היווסדו, מאפשר רק לאדי האלכוהול הזכים ביותר לעבור דרכו. מה שהופך את ג'ין Bombay Sapphire לכה עדין, עשיר ואיכותי, במסלולם עוברים האדים דרך סלי נחושת המלאים בתבלינים המשמשים להעשרת הטעם של התזקיק הראשוני. מותגי ג'ין אחרים מרתיחים את התזקיק ביחד עם התבלינים, אולם Bombay Sapphire, בשאיפה להשיג טעם עשיר רחב יותר וארומטי עם איזון יוצא דופן משתמשים בשיטה זו המכונה העשרה באדים.",
     "category": [
       "recVgG1UaXKHcWTto"
+    ],
+    "recipe": [
+      "recGWqDenHg6j8P5Q"
     ],
     "price": 49,
     "kitchenIds": [
@@ -591,6 +651,9 @@
     "category": [
       "recVgG1UaXKHcWTto"
     ],
+    "recipe": [
+      "recYH7PpY9zloIzaB"
+    ],
     "price": 44,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -605,8 +668,12 @@
   {
     "id": "recyD7FsWWm47XGiX",
     "name": "הנדריקס",
+    "longDescription": "הנדריקס הוא ג'ין לחלוטין לא סטנדרטי, שקובע עבור עצמו את הכללים. הוא מזוקק בסקוטלנד ומתובל בעלי וורדים ומלפפון ומגיע בבקבוק רוקחים מסתורי. ההיסטוריה האלטרנטיבית של הג'ין בא במקור לעולם במטרה להציל חיים, כתרופה.",
     "category": [
       "recVgG1UaXKHcWTto"
+    ],
+    "recipe": [
+      "recvkSmNbueuTIvzz"
     ],
     "price": 59,
     "kitchenIds": [
@@ -625,6 +692,9 @@
     "category": [
       "recVgG1UaXKHcWTto"
     ],
+    "recipe": [
+      "recylgMc9XXydouWg"
+    ],
     "price": 49,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -641,6 +711,9 @@
     "name": "בד אפל",
     "category": [
       "recQidYJn8gCwjVVj"
+    ],
+    "recipe": [
+      "recCJvesuzoJJjdpJ"
     ],
     "price": 45,
     "kitchenIds": [
@@ -659,6 +732,9 @@
     "category": [
       "recQidYJn8gCwjVVj"
     ],
+    "recipe": [
+      "recIBpdujvWpVgiKd"
+    ],
     "price": 57,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -675,6 +751,9 @@
     "name": "בייליס",
     "category": [
       "recQidYJn8gCwjVVj"
+    ],
+    "recipe": [
+      "recPVQgSZ9lqtlFN7"
     ],
     "price": 39,
     "kitchenIds": [
@@ -693,6 +772,9 @@
     "category": [
       "recQidYJn8gCwjVVj"
     ],
+    "recipe": [
+      "reccRdoJ6AkGSwuzj"
+    ],
     "price": 47,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -707,8 +789,12 @@
   {
     "id": "recEgUwot7v5OtYhr",
     "name": "טובי 60",
+    "longDescription": "טובי 60 הוא משקה אלכוהולי שפותח ומיוצר בארץ על ידי חברת טובי 60 בע\"מ ומוכר בתור המשקה הלאומי של ישראל. הטובי מיוצר מרכיבים טבעיים של פרי הדר, צמחים, תבלינים ומכיל 40% אלכוהול.",
     "category": [
       "recQidYJn8gCwjVVj"
+    ],
+    "recipe": [
+      "rec0lyNzBDEwiXnMS"
     ],
     "price": 49,
     "kitchenIds": [
@@ -724,8 +810,12 @@
   {
     "id": "recBoPsAkZa6YbLAt",
     "name": "מידורי",
+    "longDescription": "Neutral grain spirit, brandy, sugar, melon.",
     "category": [
       "recQidYJn8gCwjVVj"
+    ],
+    "recipe": [
+      "recvmgg58XXFmp39z"
     ],
     "price": 45,
     "kitchenIds": [
@@ -741,8 +831,12 @@
   {
     "id": "recNLge43TSNvqK45",
     "name": "מליבו",
+    "longDescription": "Caribbean rum (molasses/sugarcane distillate), water, sugar, natural flavouring, acid: citric acid.",
     "category": [
       "recQidYJn8gCwjVVj"
+    ],
+    "recipe": [
+      "recE97ctJEYGe0a1J"
     ],
     "price": 39,
     "kitchenIds": [
@@ -758,8 +852,12 @@
   {
     "id": "recZdG82AxpqjIKud",
     "name": "סאווטרן קונפרוט",
+    "longDescription": "World famous liqueur, Southern Comfort, is made by infusing peach and other fruit and spice flavours including citrus and orange tones into a bourbon base to provide the distinctive original taste of the traditional American spirit, allowing it to be enjoyed by all.",
     "category": [
       "recQidYJn8gCwjVVj"
+    ],
+    "recipe": [
+      "recc0TkIO70DIgDPT"
     ],
     "price": 45,
     "kitchenIds": [
@@ -778,6 +876,9 @@
     "category": [
       "recQidYJn8gCwjVVj"
     ],
+    "recipe": [
+      "rec15JQtLca5boe7u"
+    ],
     "price": 37,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -794,6 +895,9 @@
     "name": "קלואה",
     "category": [
       "recQidYJn8gCwjVVj"
+    ],
+    "recipe": [
+      "rec390kb1G7IaUn2C"
     ],
     "price": 39,
     "kitchenIds": [
@@ -812,6 +916,9 @@
     "category": [
       "recRo9VXPFhzJCSF9"
     ],
+    "recipe": [
+      "recbbqKvfnBC3We0D"
+    ],
     "price": 45,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -828,6 +935,9 @@
     "name": "בקרדי",
     "category": [
       "recRo9VXPFhzJCSF9"
+    ],
+    "recipe": [
+      "recUIejryjt24BEup"
     ],
     "price": 48,
     "kitchenIds": [
@@ -846,6 +956,9 @@
     "category": [
       "recRo9VXPFhzJCSF9"
     ],
+    "recipe": [
+      "reczQZC91BKURKqqO"
+    ],
     "price": 49,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -862,6 +975,9 @@
     "name": "אביון סילבר",
     "category": [
       "rec4zYf6NrdzNhjt1"
+    ],
+    "recipe": [
+      "recYwXvuFUjt5aQ7f"
     ],
     "price": 48,
     "kitchenIds": [
@@ -880,6 +996,9 @@
     "category": [
       "rec4zYf6NrdzNhjt1"
     ],
+    "recipe": [
+      "recwBioz8XpuFnixo"
+    ],
     "price": 46,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -896,6 +1015,9 @@
     "name": "אולמקה סילבר",
     "category": [
       "rec4zYf6NrdzNhjt1"
+    ],
+    "recipe": [
+      "rec0DE0FIqE44Np0Y"
     ],
     "price": 46,
     "kitchenIds": [
@@ -914,6 +1036,9 @@
     "category": [
       "rec4zYf6NrdzNhjt1"
     ],
+    "recipe": [
+      "recm6PYVTbsdl5MbO"
+    ],
     "price": 39,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -931,6 +1056,9 @@
     "category": [
       "rec4zYf6NrdzNhjt1"
     ],
+    "recipe": [
+      "recNwU0FlNQHRFYrj"
+    ],
     "price": 75,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -947,6 +1075,9 @@
     "name": "אבסולוט",
     "category": [
       "recVkBdWfZy8JqP3C"
+    ],
+    "recipe": [
+      "recfFWxxXd7xm7enJ"
     ],
     "price": 39,
     "kitchenIds": [
@@ -966,6 +1097,9 @@
     "category": [
       "recVkBdWfZy8JqP3C"
     ],
+    "recipe": [
+      "recD7pmawIVd4HnXG"
+    ],
     "price": 55,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -982,6 +1116,9 @@
     "name": "וואן גוך אסאי\\אננס",
     "category": [
       "recVkBdWfZy8JqP3C"
+    ],
+    "recipe": [
+      "recxJWyPAQgXaJjO7"
     ],
     "price": 59,
     "kitchenIds": [
@@ -1001,6 +1138,9 @@
     "category": [
       "recBoXPzX6TwCnY6z"
     ],
+    "recipe": [
+      "rec3k8xJXLoP5NGCa"
+    ],
     "price": 49,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1018,6 +1158,9 @@
     "description": "סקוטי",
     "category": [
       "recBoXPzX6TwCnY6z"
+    ],
+    "recipe": [
+      "recdexKNaO7GQYnWL"
     ],
     "price": 59,
     "kitchenIds": [
@@ -1037,6 +1180,9 @@
     "category": [
       "recBoXPzX6TwCnY6z"
     ],
+    "recipe": [
+      "recaRRGkKnWTvkWir"
+    ],
     "price": 45,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1053,6 +1199,9 @@
     "name": "ג'ק דניאלס",
     "category": [
       "recBoXPzX6TwCnY6z"
+    ],
+    "recipe": [
+      "recdmgAkJDO4DzXKC"
     ],
     "price": 58,
     "kitchenIds": [
@@ -1072,6 +1221,9 @@
     "category": [
       "recBoXPzX6TwCnY6z"
     ],
+    "recipe": [
+      "rec61gYMPAICyoA47"
+    ],
     "price": 62,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1089,6 +1241,9 @@
     "description": "סקוטי",
     "category": [
       "recBoXPzX6TwCnY6z"
+    ],
+    "recipe": [
+      "reclmCx63w3tAqRhW"
     ],
     "price": 74,
     "kitchenIds": [
@@ -1108,6 +1263,9 @@
     "category": [
       "recBoXPzX6TwCnY6z"
     ],
+    "recipe": [
+      "rechriTkhDZHVlDIR"
+    ],
     "price": 66,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1126,6 +1284,9 @@
     "category": [
       "recBoXPzX6TwCnY6z"
     ],
+    "recipe": [
+      "rec25kqLEnjvqpfdk"
+    ],
     "price": 77,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1142,6 +1303,9 @@
     "name": "שיבאס 12",
     "category": [
       "recBoXPzX6TwCnY6z"
+    ],
+    "recipe": [
+      "reciSw7saLciTEYXm"
     ],
     "price": 51,
     "kitchenIds": [
@@ -1162,6 +1326,9 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "recipe": [
+      "recAzVtyLhFPo8bIe"
+    ],
     "price": 38,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1180,6 +1347,9 @@
       "reccKFL0KLPTD1jo2",
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
+    ],
+    "recipe": [
+      "recK1iW3Vqw5R8grC"
     ],
     "price": 39,
     "kitchenIds": [
@@ -1200,6 +1370,9 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "recipe": [
+      "recHU47vKZwnErKIr"
+    ],
     "price": 39,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1218,6 +1391,9 @@
       "reccKFL0KLPTD1jo2",
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
+    ],
+    "recipe": [
+      "rec3aF0MDAchzDiV0"
     ],
     "price": 98,
     "kitchenIds": [
@@ -1238,6 +1414,9 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "recipe": [
+      "recwq3MjHheNAWg3v"
+    ],
     "price": 49,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1256,6 +1435,9 @@
       "reccKFL0KLPTD1jo2",
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
+    ],
+    "recipe": [
+      "recL48mP1OxnZox39"
     ],
     "price": 129,
     "kitchenIds": [
@@ -1277,6 +1459,9 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "recipe": [
+      "recGmtuzjjX2Mdg6w"
+    ],
     "price": 38,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1295,6 +1480,9 @@
       "reccKFL0KLPTD1jo2",
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
+    ],
+    "recipe": [
+      "recW2mOy3IhOggUoE"
     ],
     "price": 98,
     "kitchenIds": [
@@ -1315,6 +1503,9 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "recipe": [
+      "rec3K4t9U69TWzqDb"
+    ],
     "price": 38,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1333,6 +1524,9 @@
       "reccKFL0KLPTD1jo2",
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
+    ],
+    "recipe": [
+      "recCMz7MMYFkRTepU"
     ],
     "price": 43,
     "kitchenIds": [
@@ -1353,6 +1547,9 @@
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
     ],
+    "recipe": [
+      "rec9upzBJR6YVq0zG"
+    ],
     "price": 49,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1371,6 +1568,9 @@
       "reccKFL0KLPTD1jo2",
       "recSaYm2kSUrkvw7b",
       "recZvEB73pCX5CLtB"
+    ],
+    "recipe": [
+      "receTKr1xNZH0inYG"
     ],
     "price": 39,
     "kitchenIds": [
@@ -1755,6 +1955,9 @@
     "category": [
       "recXpNrVlnXVfiUJv"
     ],
+    "recipe": [
+      "recCWkiQNA2RRmeAK"
+    ],
     "price": 46,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1769,6 +1972,9 @@
     "description": "וויסקי ג׳יימסון, רוטן אפרסק ומיץ לימון",
     "category": [
       "recXpNrVlnXVfiUJv"
+    ],
+    "recipe": [
+      "recHhVzDCGLesbV2n"
     ],
     "price": 53,
     "kitchenIds": [
@@ -1785,6 +1991,9 @@
     "category": [
       "recXpNrVlnXVfiUJv"
     ],
+    "recipe": [
+      "recQTX5akr39GdpIS"
+    ],
     "price": 49,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1800,6 +2009,9 @@
     "category": [
       "recXpNrVlnXVfiUJv"
     ],
+    "recipe": [
+      "recp2kzeKDZps1Otk"
+    ],
     "price": 44,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1814,6 +2026,9 @@
     "description": "רום הוואנה קלאב, רוטן אבטיח, חמוציות מיץ לימון ונענע",
     "category": [
       "recXpNrVlnXVfiUJv"
+    ],
+    "recipe": [
+      "recGHZ4CzBJny8MSC"
     ],
     "price": 45,
     "kitchenIds": [
@@ -1851,6 +2066,9 @@
     "category": [
       "recXpNrVlnXVfiUJv"
     ],
+    "recipe": [
+      "recdj1KEDfG5CHYKT"
+    ],
     "price": 49,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1866,6 +2084,9 @@
     "category": [
       "recXpNrVlnXVfiUJv"
     ],
+    "recipe": [
+      "recIhGoVb6QtQjaLk"
+    ],
     "price": 53,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -1880,6 +2101,9 @@
     "description": "גין ביפיאטר, ליקר פסואה, מיץ לימון, מיץ תפוזים רוטן וסורבה פסיפלורה",
     "category": [
       "recXpNrVlnXVfiUJv"
+    ],
+    "recipe": [
+      "recSRhD8xU1jLwYTU"
     ],
     "price": 49,
     "kitchenIds": [
@@ -5113,6 +5337,9 @@
     "category": [
       "recWz1oglIgIu3x61"
     ],
+    "recipe": [
+      "rec9lsEspOKtDTHVt"
+    ],
     "price": 13,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -5154,6 +5381,9 @@
     ],
     "category": [
       "recWz1oglIgIu3x61"
+    ],
+    "recipe": [
+      "recUi1cYYNQO9y2Ss"
     ],
     "price": 14,
     "kitchenIds": [
@@ -5197,6 +5427,9 @@
     "category": [
       "recWz1oglIgIu3x61"
     ],
+    "recipe": [
+      "recBlkpRdahubI44v"
+    ],
     "price": 13,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -5238,6 +5471,9 @@
     ],
     "category": [
       "recWz1oglIgIu3x61"
+    ],
+    "recipe": [
+      "rec4EvNhmdytz6LgM"
     ],
     "price": 13,
     "kitchenIds": [
@@ -5281,6 +5517,9 @@
     "category": [
       "recWz1oglIgIu3x61"
     ],
+    "recipe": [
+      "recB2FEuM4pmJh8ew"
+    ],
     "price": 14,
     "kitchenIds": [
       "recCtQEnXUUqDHBfF"
@@ -5322,6 +5561,9 @@
     ],
     "category": [
       "recWz1oglIgIu3x61"
+    ],
+    "recipe": [
+      "recC8Q8vvERcplAR0"
     ],
     "price": 14,
     "kitchenIds": [
