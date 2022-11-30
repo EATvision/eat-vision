@@ -1,13 +1,19 @@
 import React from 'react'
 import { List, ListItem } from '@mui/material'
 import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
+import IngredientsTree from 'components/DinersView/DishCard/IngredientsTree'
 
 const _keyBy = require('lodash/keyBy')
 
 function IngredientsInfo({ data }) {
   const relevantIds = [
-    ...data.recipe.putaside.map((c) => c.id),
     ...data.recipe.mandatory.map((c) => c.id),
+    ...data.recipe.excludable.map((c) => c.id),
+    ...data.recipe.putaside.map((c) => c.id),
+    ...data.recipe.choice.map((c) => c.id),
+    ...data.recipe.sideDish.map((c) => c.id),
+    ...data.recipe.addableIngredients.map((c) => c.id),
+    ...data.recipe.addableDishes.map((c) => c.id),
   ]
 
   const { ingredients } = useV1IngredientsByIds(relevantIds)
@@ -15,13 +21,16 @@ function IngredientsInfo({ data }) {
   const getComponentLabel = useGetComponentLabel()
 
   return (
-    <List>
-      {ingredients?.map((ing) => (
-        <ListItem key={ing.id}>
-          {getComponentLabel(ingredientsById?.[ing.id])}
-        </ListItem>
-      ))}
-    </List>
+    <>
+      <IngredientsTree />
+      <List>
+        {ingredients?.map((ing) => (
+          <ListItem key={ing.id}>
+            {getComponentLabel(ingredientsById?.[ing.id])}
+          </ListItem>
+        ))}
+      </List>
+    </>
   )
 }
 
