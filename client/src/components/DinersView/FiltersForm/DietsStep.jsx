@@ -93,7 +93,7 @@ function DietsSelector({ onNext, onBack }) {
         <Button variant="text" onClick={handleClickBack}>
           {t('back')}
         </Button>
-        <Grow direction="up" in>
+        <Grow direction="up" in key={dinerUser.user.filters.diets.length === 0}>
           <Button variant="contained" fullWidth onClick={handleClickDone}>
             {dinerUser.user.filters.diets.length === 0
               ? t('no_specific_diet')

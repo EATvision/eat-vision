@@ -51,11 +51,11 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
       setLoading(true)
 
       const selectedFoodGroupsData =
-        filters[filterType].length > 0
+        filters[filterType]?.length > 0
           ? await getFoodGroupsByIds(filters[filterType])
           : []
       const selectedIngredientsData =
-        filters[filterType].length > 0
+        filters[filterType]?.length > 0
           ? await getIngredientsByIds(filters[filterType])
           : []
       const foodGroupsData = await loadFoodGroupsOptions(debouncedInputValue)
