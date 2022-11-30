@@ -60,30 +60,13 @@ function DietsSelector({ onNext, onBack }) {
         orientation="vertical"
         sx={{
           display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
-          gap: theme.spacing(1),
-          marginBottom: 'auto',
+          gridTemplateColumns: '1fr',
+          gridAutoFlow: 'row',
+          gap: `0 ${theme.spacing(1)}`,
+          marginBottom: '50px',
+          overflow: 'auto',
         }}
       >
-        <ToggleButton
-          color="primary"
-          selected={dinerUser.user.filters.diets.length === 0}
-          value="none"
-          sx={{
-            justifyContent: 'flex-start',
-            fontSize: 16,
-            padding: '15px 10px',
-            border: 0,
-            textAlign: 'start',
-          }}
-        >
-          {t('no_specific_diet')}
-
-          {dinerUser.user.filters.diets.length === 0 && (
-            <CheckIcon sx={{ marginLeft: 'auto' }} />
-          )}
-        </ToggleButton>
-
         {diets.map((diet) => (
           <ToggleButton
             key={diet.id}
@@ -91,9 +74,10 @@ function DietsSelector({ onNext, onBack }) {
             sx={{
               justifyContent: 'flex-start',
               fontSize: 16,
-              padding: '15px 10px',
+              padding: `${theme.spacing(1)} ${theme.spacing(1)}`,
               border: 0,
               textAlign: 'start',
+              borderBottom: `1px solid ${theme.palette.divider}`,
             }}
           >
             {kitchen?.locale === 'he-IL' ? diet.translation_heb : diet.name}
@@ -111,7 +95,9 @@ function DietsSelector({ onNext, onBack }) {
         </Button>
         <Grow direction="up" in>
           <Button variant="contained" fullWidth onClick={handleClickDone}>
-            {t('im_done')}
+            {dinerUser.user.filters.diets.length === 0
+              ? t('no_specific_diet')
+              : t('im_done')}
           </Button>
         </Grow>
       </FixedBottomConrainer>
