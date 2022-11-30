@@ -40,7 +40,8 @@
       "rec9yjBCcVZ7zwjtY",
       "recIOEnCRlkLDgLx9",
       "rec1bA8rnko5Ojw1c"
-    ]
+    ],
+    "description": "Available all day, every day.\n\n"
   },
   {
     "id": "recpkRfU7CWEwxaf7",
@@ -153,7 +154,8 @@
       "rec0vVZyy3H7q4em5",
       "reczzSojG4ygwQDh1",
       "recjqhcWNlL7ixifo"
-    ]
+    ],
+    "description": "Breakfast is served all day "
   },
   {
     "id": "recYzvx9xQMS3cHU9",
@@ -202,7 +204,8 @@
   {
     "id": "rec5M7nQCV67N4wLz",
     "name": "למרכז שולחן",
-    "position": 1
+    "position": 1,
+    "description": "לא כלול בעיסקיות"
   },
   {
     "id": "recIiq6ZHol2WD138",
@@ -305,7 +308,8 @@
   {
     "id": "recngW5z4xCeLl6J6",
     "name": "Sharing DEAL",
-    "position": 2
+    "position": 2,
+    "description": "שלוש מנות ב-131 | חמש מנות ב-211 | שבע מנות ב-282"
   },
   {
     "id": "reclHlEtu675LitzL",
@@ -383,12 +387,14 @@
       "recZfnNlkUtyhYYc2",
       "recmSPNikDN9MfTgd",
       "recpJFFT7m3rrcYWl"
-    ]
+    ],
+    "description": "ALL SERVED WITH FRIES AND SALAD\n"
   },
   {
     "id": "recr16WRBGuoT50HA",
     "name": "BURGER AND SANDWICHES",
-    "position": 3
+    "position": 3,
+    "description": "ALL SERVED WITH FRIES AND SALAD\n"
   },
   {
     "id": "rec6pML5m9ZXqAJXF",
@@ -400,7 +406,8 @@
       "recZfnNlkUtyhYYc2",
       "recmSPNikDN9MfTgd",
       "recpJFFT7m3rrcYWl"
-    ]
+    ],
+    "description": "ALL SERVED WITH FRIES AND SALAD\n"
   },
   {
     "id": "recH81nAEgiNirTDC",
@@ -532,7 +539,8 @@
       "rec0QjAif9yCZwgpv",
       "recvXYp22XmwLO63C",
       "recnmrNYnbWXYUA0J"
-    ]
+    ],
+    "description": "Choose any 4 for $25. Served with warm pita bread."
   },
   {
     "id": "recHkB0jXsbrxDMjm",
@@ -725,7 +733,8 @@
     "position": 6,
     "dishes": [
       "recrdCthAjv6yOR02"
-    ]
+    ],
+    "description": "מבחר שיפודים לחלוקה למרכז שולחן, ניגובים וממרחים"
   },
   {
     "id": "reckXyHBjuL2EIiiB",
@@ -832,7 +841,8 @@
       "recsvdEKoCdbXbQPP",
       "reczRFDktOP1axxrT",
       "recTwDmGfIAQEds2s"
-    ]
+    ],
+    "description": "שלוש קטנות - 49 / חמש קטנות - 76"
   },
   {
     "id": "rec29XLbGqtdWPd9z",
@@ -855,7 +865,8 @@
       "recGEheT63TRFwjL2",
       "recMGcEtTlp8fMIux",
       "recyXjEJX5zRoFtoW"
-    ]
+    ],
+    "description": "You can add protein to all salads -  chicken/ smoked tuna/ schnitzel/ smoked salmon/ falafel.\n"
   },
   {
     "id": "recxh2MkmEPyJC1ag",
@@ -939,7 +950,8 @@
       "recu386ANJdibd0of",
       "recVTirjQZbmPQM5x",
       "recZvfQ7zRE5mcbFs"
-    ]
+    ],
+    "description": "All sandwiches are served with Israeli salad on the side. it can be substituted with mixed greens/ home fries/ sweet potato fries/ mashed potato or potato wedges"
   },
   {
     "id": "recyUMYfuotNtAuxB",
@@ -1077,7 +1089,8 @@
       "recGrCEqcOGqlsV8U",
       "recvomWaeLp7A5KZj",
       "recqbhsIpkuwWK8Ff"
-    ]
+    ],
+    "description": "Saturday and Sunday only"
   },
   {
     "id": "recBoXPzX6TwCnY6z",
@@ -1098,7 +1111,8 @@
       "reczXHEWEJs0krYhT",
       "recaA9QPuuemOmRRT",
       "recHV9mnEMIeXkDCs"
-    ]
+    ],
+    "description": "אנחנו מאמינים שאוכל ישראלי טוב הולך עם יין ישראלי טוב\n"
   },
   {
     "id": "recPSakMllJ38Tdy1",
@@ -1122,7 +1136,8 @@
       "rech46lwGjPkmXlvj",
       "rechOfhegHxwXYWyo",
       "rec23UYYuQ3tB71tf"
-    ]
+    ],
+    "description": "אנחנו מאמינים שאוכל ישראלי טוב הולך עם יין ישראלי טוב\n"
   },
   {
     "id": "recqGOBMgoWUdasTr",
@@ -1138,7 +1153,8 @@
       "recY07JAGxNXp8plS",
       "recBKu7oKOWG1uhEz",
       "recXBX9092hUpxOVo"
-    ]
+    ],
+    "description": "All coffee drinks are available decaffeinated"
   },
   {
     "id": "recDjduFG46dxH9mF",
@@ -1159,7 +1175,8 @@
       "recX3sBlvL7nDgBDb",
       "rec2bam4BSsmwjAGb",
       "recC3d7wvAkg9AJpm"
-    ]
+    ],
+    "description": "אנחנו מאמינים שאוכל ישראלי טוב הולך עם יין ישראלי טוב\n"
   },
   {
     "id": "recOsuX64dp6jHNS5",

@@ -101,31 +101,49 @@ function DishesPage({ dishes }) {
                   display: 'flex',
                   flexDirection: 'column',
                   alignItems: 'center',
-                  padding: `0 ${theme.spacing(2)}`,
                   maxWidth: 750,
                   margin: 'auto',
                 }}
               >
-                <Typography
+                <Box
                   sx={{
                     backgroundColor: '#E9E9E9',
                     margin: theme.spacing(2),
                     padding: theme.spacing(1),
-                    fontWeight: 'bold',
-                    fontSize: 22,
-                    textAlign: 'initial',
                     width: '100%',
+                    position: 'sticky',
+                    top: 0,
+                    zIndex: 10,
+                    textAlign: 'initial',
                   }}
                 >
-                  {category?.name}
-                </Typography>
-                {orderedDishesByCategoryId?.[category.id]?.map((dish) =>
-                  dish.dishType === 'drink' ? (
-                    <DrinkDish key={dish.id} data={dish} />
-                  ) : (
-                    <FoodDish key={dish.id} data={dish} />
-                  )
-                )}
+                  <Typography
+                    sx={{
+                      fontWeight: 'bold',
+                      fontSize: 22,
+                      textAlign: 'initial',
+                      width: '100%',
+                    }}
+                  >
+                    {category?.name}
+                  </Typography>
+                  {category.description && <Box>{category.description}</Box>}
+                </Box>
+
+                <Box
+                  sx={{
+                    width: '100%',
+                    padding: `0 ${theme.spacing(2)}`,
+                  }}
+                >
+                  {orderedDishesByCategoryId?.[category.id]?.map((dish) =>
+                    dish.dishType === 'drink' ? (
+                      <DrinkDish key={dish.id} data={dish} />
+                    ) : (
+                      <FoodDish key={dish.id} data={dish} />
+                    )
+                  )}
+                </Box>
               </Box>
             </div>
           ))}
