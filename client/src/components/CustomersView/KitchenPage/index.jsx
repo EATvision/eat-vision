@@ -110,6 +110,7 @@ function KitchenPage() {
                       <img
                         src={url}
                         alt={`${formik.values.name}_${index + 1}`}
+                        loading="lazy"
                       />
                     </SplideSlide>
                   ))}
