@@ -7,6 +7,7 @@ import TreeItem, { treeItemClasses } from '@mui/lab/TreeItem'
 import Collapse from '@mui/material/Collapse'
 // web.cjs is required for IE11 support
 import { useSpring, animated } from 'react-spring'
+import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
 
 function MinusSquare(props) {
   return (
@@ -81,7 +82,7 @@ const StyledTreeItem = styled((props) => (
   },
 }))
 
-export default function IngredientsTree() {
+export default function IngredientsTreeWrapper({ ingredients }) {
   return (
     <TreeView
       aria-label="customized"
@@ -91,20 +92,27 @@ export default function IngredientsTree() {
       defaultEndIcon={<CloseSquare />}
       sx={{ flexGrow: 1, overflowY: 'auto' }}
     >
-      <StyledTreeItem nodeId="1" label="Main">
-        <StyledTreeItem nodeId="2" label="Hello" />
-        <StyledTreeItem nodeId="3" label="Subtree with children">
-          <StyledTreeItem nodeId="6" label="Hello" />
-          <StyledTreeItem nodeId="7" label="Sub-subtree with children">
-            <StyledTreeItem nodeId="9" label="Child 1" />
-            <StyledTreeItem nodeId="10" label="Child 2" />
-            <StyledTreeItem nodeId="11" label="Child 3" />
-          </StyledTreeItem>
-          <StyledTreeItem nodeId="8" label="Hello" />
-        </StyledTreeItem>
-        <StyledTreeItem nodeId="4" label="World" />
-        <StyledTreeItem nodeId="5" label="Something something" />
-      </StyledTreeItem>
+      {ingredients?.map((ing) => (
+        <IngredientsTree key={ing.id} ingridient={ing} />
+      ))}
     </TreeView>
+  )
+}
+
+const IngredientsTree = ({ ingridient }) => {
+  const subIngredients = ingridient.subIngredients
+  const { ingredients } = useV1IngredientsByIds(subIngredients)
+
+  const getComponentLabel = useGetComponentLabel()
+
+  return (
+    <StyledTreeItem
+      nodeId={ingridient.id}
+      label={getComponentLabel(ingridient)}
+    >
+      {ingredients?.map((ing) => (
+        <IngredientsTree key={ing.id} ingridient={ing} />
+      ))}
+    </StyledTreeItem>
   )
 }

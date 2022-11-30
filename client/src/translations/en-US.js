@@ -95,4 +95,11 @@ export default {
   size_type_shot: 'shot',
   size_type_Half: 'half',
   size_type_full: 'full',
+  mandatory_ingredients: 'mandatory ingredients',
+  excludable_ingredients: 'excludable ingredients',
+  putaside_ingredients: 'putaside ingredients',
+  choice_ingredients: 'choice ingredients',
+  sideDish_ingredients: 'sideDish ingredients',
+  addable_ingredients: 'addable ingredients',
+  addableDishes_ingredients: 'addableDishes ingredients',
 }

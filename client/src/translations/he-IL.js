@@ -94,4 +94,11 @@ export default {
   size_type_shot: 'שוט',
   size_type_Half: 'חצי',
   size_type_full: 'מלא',
+  mandatory_ingredients: 'רכיבים כלולים',
+  excludable_ingredients: 'רכיבים שניתן להוציא',
+  putaside_ingredients: 'רכיבים שאפשר לשים בצד',
+  choice_ingredients: 'רכיבי בחירה',
+  sideDish_ingredients: 'רכיבי מנות צד',
+  addable_ingredients: 'רכיבים הניתנים להוספה',
+  addableDishes_ingredients: 'מנות הניתנות להוספה',
 }
