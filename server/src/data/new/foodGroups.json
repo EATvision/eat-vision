@@ -168,11 +168,6 @@
     ]
   },
   {
-    "id": "rec9Q92pD2saKKraa",
-    "name": "Dairy and Meat Separation",
-    "translation_heb": "הפרדת חלב ובשר"
-  },
-  {
     "id": "reclrqMHo7sdRGeLH",
     "name": "Desserts",
     "translation_heb": "קינוחים"
@@ -203,7 +198,7 @@
   {
     "id": "recv4O8R7YyTwXVVU",
     "name": "Fish",
-    "translation_heb": "דג",
+    "translation_heb": "דגים",
     "parentGroups": [
       "recrqKQvYZiLXvitS",
       "recX7LWBWgvLk0fXO"
@@ -307,11 +302,6 @@
     "translation_heb": "קטוגני"
   },
   {
-    "id": "recYO9q4bBbdO1YEj",
-    "name": "Kosher",
-    "translation_heb": "כשר"
-  },
-  {
     "id": "recOIozrNx1boQsS6",
     "name": "Lactose Free",
     "translation_heb": "ללא לקטוז"
@@ -399,19 +389,9 @@
     "translation_heb": "ללא סוכר"
   },
   {
-    "id": "reccf7t3iRH9SpLQo",
-    "name": "Non-Halal",
-    "translation_heb": "לא חלאל"
-  },
-  {
     "id": "recNkG1aZNZ0wePeo",
     "name": "Non-kosher",
     "translation_heb": "לא כשר"
-  },
-  {
-    "id": "rec4sRKkZxHihPpye",
-    "name": "Non-Kosher Proteins",
-    "translation_heb": "בשר לא כשר"
   },
   {
     "id": "recq9yODwJSsgHZ5U",
@@ -879,21 +859,33 @@
   {
     "id": "recB1W1GDN8MiyV8z",
     "name": "spelt product",
+    "translation_heb": "מוצרי כוסמין",
     "parentGroups": [
       "recurt87JNmeE6SzQ"
     ]
   },
   {
     "id": "recxRrdYnGRXlmiXh",
-    "name": "Animal products"
+    "name": "Animal products",
+    "translation_heb": "מוצרים מן החי"
   },
   {
     "id": "rec5HBd96Kk2t02au",
-    "name": "processed food"
+    "name": "processed food",
+    "translation_heb": "מזון מעובד"
   },
   {
     "id": "recI9Q7Z1Eluqpgfu",
     "name": "aioli",
     "translation_heb": "איולי"
+  },
+  {
+    "id": "recshRojqcVWbJnty",
+    "name": "natural low calorie sweeteners",
+    "translation_heb": "ממתיקים מופחתי קלוריות טבעיים"
+  },
+  {
+    "id": "recAgeTXwvunDQZeO",
+    "name": "soda"
   }
 ]

@@ -383,5 +383,14 @@
       "recUSiFQ5KWOcJ5Tk"
     ],
     "ingredient3_delta_price": 6
+  },
+  {
+    "id": "recDrDva5YMoTZCoG",
+    "ingredient1": [
+      "recKH5wZl8gsZH7a4"
+    ],
+    "ingredient2": [
+      "rectCnGpWfYXBEVVK"
+    ]
   }
 ]
