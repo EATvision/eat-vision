@@ -107,7 +107,7 @@ function DishPage() {
                 maxHeight={theme.spacing(24)}
                 maxWidth={theme.spacing(36)}
               >
-                <img src={formik.values.image?.url} />
+                <img src={formik.values.image?.url} loading="lazy" />
               </Box>
             </Stack>
             <TextInput

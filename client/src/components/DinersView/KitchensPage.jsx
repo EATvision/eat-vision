@@ -36,6 +36,7 @@ function KitchensPage() {
                     src={kitchen?.image?.[0]?.url}
                     alt="kitchen logo"
                     className="w-full h-full object-center object-fit group-hover:opacity-75"
+                    loading="lazy"
                   />
                 </div>
                 <h3 className="mt-4 text-sm text-gray-700 group-hover:opacity-75">
