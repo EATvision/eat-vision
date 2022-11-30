@@ -83,7 +83,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
         <Button variant="text" onClick={handleClickStepBack}>
           {t('back')}
         </Button>
-        <Grow direction="up" in>
+        <Grow direction="up" in key={isNoRestrictions}>
           <Button variant="contained" fullWidth onClick={handleClickDoneStep}>
             {isNoRestrictions ? t('no_food_restrictions') : t('done')}
           </Button>
@@ -159,9 +159,10 @@ function RestrictionFilter({ filters, title, type, onClick }) {
           flexDirection: 'column',
           justifyContent: 'flex-start',
           fontSize: 16,
-          padding: '16px 20px',
+          padding: theme.spacing(1),
           border: 0,
           textAlign: 'start',
+          borderBottom: `1px solid ${theme.palette.divider}`,
         }}
       >
         <Box>{title}</Box>
