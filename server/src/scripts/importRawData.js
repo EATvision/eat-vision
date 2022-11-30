@@ -83,6 +83,7 @@ base('tblkCqIh4FIs6rVXE')
       name: r.get('display_name'),
       position: r.get('position'),
       dishes: r.get('Dishes'),
+      description: r.get('description'),
     }))
     categories = data
     fs.writeFileSync(

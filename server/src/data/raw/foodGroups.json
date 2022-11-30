@@ -886,6 +886,49 @@
   },
   {
     "id": "recAgeTXwvunDQZeO",
-    "name": "soda"
+    "name": "soda",
+    "translation_heb": "סודה"
+  },
+  {
+    "id": "recbwkcvn4kDnToiL",
+    "name": "rum",
+    "translation_heb": "רום",
+    "parentGroups": [
+      "recAvCd37VjynjiAV"
+    ]
+  },
+  {
+    "id": "recx4yr5O5xQnY7L0",
+    "name": "anise liquors",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recDDXjev73zW9NBZ",
+      "rec4hF1tOBgrmX0bn"
+    ]
+  },
+  {
+    "id": "rec4hF1tOBgrmX0bn",
+    "name": "Anise flavor",
+    "translation_heb": "טעם של אניס"
+  },
+  {
+    "id": "recB0ZyanZko4pN86",
+    "name": "arak",
+    "translation_heb": " ערק",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recDDXjev73zW9NBZ",
+      "rec4hF1tOBgrmX0bn",
+      "recx4yr5O5xQnY7L0"
+    ]
+  },
+  {
+    "id": "recyilZLaW9xX8Qlt",
+    "name": "tequila",
+    "translation_heb": "טקילה",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recDDXjev73zW9NBZ"
+    ]
   }
 ]
