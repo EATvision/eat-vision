@@ -1,6 +1,14 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { Box, useTheme, Stack, FormLabel, Chip, Badge } from '@mui/material'
+import {
+  Box,
+  useTheme,
+  Stack,
+  FormLabel,
+  Badge,
+  Typography,
+  Divider,
+} from '@mui/material'
 
 import { useKitchenById } from 'hooks/kitchens'
 import { useGetComponentLabel } from 'hooks/ingredients'
@@ -40,26 +48,45 @@ export default function DishRecipeChips({ data, label }) {
                 horizontal: 'left',
               }}
             >
-              <Chip
-                variant="outlined"
-                disabled={
-                  component.isMainComponentFilteredOut ||
-                  component.isFilteredOut
-                }
+              <Box
                 sx={{
-                  textDecoration:
-                    component.isMainComponentFilteredOut ||
-                    component.isFilteredOut
-                      ? 'line-through'
-                      : 'none',
-                  marginRight: theme.spacing(1),
+                  borderRadius: 50,
+                  margin: '2px',
+                  display: 'flex',
+                  backgroundColor: 'white',
+                  padding: theme.spacing(1),
                 }}
-                label={`${getComponentLabel(component).toLocaleLowerCase()} ${
-                  component.price > 0
-                    ? `(+${component.price}${kitchen?.currency})`
-                    : ''
-                }`}
-              />
+              >
+                <Typography
+                  sx={{
+                    textDecoration:
+                      component.isMainComponentFilteredOut ||
+                      component.isFilteredOut
+                        ? 'line-through'
+                        : 'none',
+                    marginRight: theme.spacing(1),
+                  }}
+                >
+                  {getComponentLabel(component).toLocaleLowerCase()}
+                </Typography>
+
+                {component.price > 0 && (
+                  <>
+                    <Divider
+                      orientation="vertical"
+                      variant="middle"
+                      flexItem
+                      sx={{ margin: `0 ${theme.spacing(1)}` }}
+                    />
+
+                    <Typography>
+                      {component.price > 0
+                        ? `(+${component.price}${kitchen?.currency})`
+                        : ''}
+                    </Typography>
+                  </>
+                )}
+              </Box>
             </Badge>
           )
         })}
