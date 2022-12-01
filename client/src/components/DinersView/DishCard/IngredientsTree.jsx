@@ -90,7 +90,7 @@ export default function IngredientsTreeWrapper({ ingredients }) {
       defaultCollapseIcon={<MinusSquare />}
       defaultExpandIcon={<PlusSquare />}
       defaultEndIcon={<CloseSquare />}
-      sx={{ flexGrow: 1, overflowY: 'auto' }}
+      sx={{ flexGrow: 1, overflowY: 'auto', overflowX: 'hidden' }}
     >
       {ingredients?.map((ing) => (
         <IngredientsTree key={ing.id} ingridient={ing} />
