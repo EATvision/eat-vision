@@ -185,7 +185,7 @@ export default function DrinkDish({ data }) {
                   orientation="vertical"
                   variant="middle"
                   flexItem
-                  sx={{ margin: `0 ${theme.spacing(2)}` }}
+                  sx={{ margin: `0 ${theme.spacing(1)}` }}
                 />
 
                 <Typography>{`${kitchen.currency}${
