@@ -56,12 +56,60 @@
     "id": "recom2n2FIHHlF2Sq",
     "name": "AVION SILVER TEQUILA",
     "subIngredients": [
-      "recwr4yIyRc6Xj1QQ"
+      "recwr4yIyRc6Xj1QQ",
+      "rec5rtRKRDimBWzLl"
     ],
+    "isSearchable": false,
     "groups": [
       "recyilZLaW9xX8Qlt"
     ],
     "translation_heb": "אביון סילבר",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recTqrrExyN2M0oG8",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recyilZLaW9xX8Qlt",
+      "recA1DeocMW69g9QP",
+      "recAvCd37VjynjiAV"
+    ]
+  },
+  {
+    "id": "recsD32IIxJnuHh1d",
+    "name": "absolut vodka",
+    "subIngredients": [
+      "recvr8kIqxedjZztj",
+      "recV0Yp3ExeSRnwzX"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recLuWPP2OSHlG8pt"
+    ],
+    "translation_heb": "אבסולוט",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recLuWPP2OSHlG8pt",
+      "recwq1XAJ50UwIOWX",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recpzaNGXinzHUSZU",
+    "name": "Olmeca Tequila gold",
+    "subIngredients": [
+      "recwr4yIyRc6Xj1QQ"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recyilZLaW9xX8Qlt"
+    ],
+    "translation_heb": "אולמקה גולד",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
       "recDlVagQGOiParjH",
@@ -70,449 +118,1116 @@
     "foodGroups": [
       "recyilZLaW9xX8Qlt",
       "recA1DeocMW69g9QP"
-    ],
-    "isSearchable": false
-  },
-  {
-    "id": "recsD32IIxJnuHh1d",
-    "translation_heb": "אבסולוט",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
-  },
-  {
-    "id": "recpzaNGXinzHUSZU",
-    "translation_heb": "אולמקה גולד",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recp6FqwMk8n2y4Jn",
+    "name": "olmeca tequila silver",
+    "subIngredients": [
+      "recwr4yIyRc6Xj1QQ"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recyilZLaW9xX8Qlt"
+    ],
     "translation_heb": "אולמקה סילבר",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recyilZLaW9xX8Qlt",
+      "recA1DeocMW69g9QP"
+    ]
   },
   {
     "id": "recrqPkkGQ9dH6eU3",
+    "name": "Altos Reposado",
+    "subIngredients": [
+      "recwr4yIyRc6Xj1QQ"
+    ],
+    "isSearchable": false,
+    "description": "טקילה בעלת ארומה המשלבת נגיעות של פרות הדר מתוקים, כגון תפוז ואשכולית עסיסיים ורעננים. האגבה המבושלת וניחוחות הווניל משלימים זה את זה ומותירים ארומה מאוזנת היטב, עשירה וחזקה. תחילה, הטעם בפה מותיר תחושה מתוקה של הדרים כשהסיומת ארוכה ומשלבת באופן מאוזן ביותר בין מתיקות מהאגבה המבושלת לבין טעמי וניל וטעמים עציים.",
+    "groups": [
+      "recyilZLaW9xX8Qlt"
+    ],
     "translation_heb": "אלטוס רפוסאדו",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recyilZLaW9xX8Qlt",
+      "recA1DeocMW69g9QP"
+    ]
   },
   {
     "id": "recyvD3XAbh1v2Hth",
+    "name": "Bad Apple",
+    "subIngredients": [
+      "recQFER5YwOd9emrb"
+    ],
+    "isSearchable": false,
+    "description": ".ליקר באד אפל הינו שנאפס תפוחי עץ גרמני מסורתי, המיוצר בגרמניה משנת 1876 בשיטה מסורתית העוברת מדוד לדור.",
+    "groups": [
+      "recV5fHl7YWRNelyQ"
+    ],
     "translation_heb": "בד אפל",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recV5fHl7YWRNelyQ",
+      "recmCzPUKuoYcsS42"
+    ]
   },
   {
     "id": "recQzEWkHpORJkLjm",
+    "name": "Becherovka",
+    "isSearchable": false,
+    "description": "הבחרובקה (בצכ'ית: Becherovka) מיוצרת מ-32 סוגי עשבים, המרכיבים את התערובת המתוקה-מרירה המאפיינת את הליקר. את הבחרובקה נוהגים לשתות כדז'יסטיף (משקה ששותים לאחר הארוחה), והיא נחשבת כיום למשקה הלאומי של צ'כיה. היא יוצרה לראשונה בתחילת המאה ה-19 על ידי סוחר התבלינים ג'וזף ויטוס בחר, שניסה למצוא תרופה לאין אונות. המשקה מיוצר מ-32 סוגי עשבים, היוצרים את התערובת המתוקה-מרירה המאפיינת כל כך את הליקר.",
+    "groups": [
+      "recW39Jnf34VWgWEd"
+    ],
     "translation_heb": "בחרובקה",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recW39Jnf34VWgWEd"
+    ]
   },
   {
     "id": "recRyy8szmMSR7Rlh",
+    "name": "Baileys Irish Cream Original",
+    "isSearchable": false,
+    "groups": [
+      "recV5fHl7YWRNelyQ"
+    ],
     "translation_heb": "בייליס",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recV5fHl7YWRNelyQ"
+    ]
   },
   {
     "id": "reczrqilI5oneytWa",
+    "name": "blue nun",
+    "subIngredients": [
+      "recXk7rwRxFr7Nsru"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recrclGxty3NZm7tq",
+      "recSSm7hnZBRicJIY",
+      "recQayV39KmB1rvCq"
+    ],
     "translation_heb": "בלו נאן",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recrclGxty3NZm7tq",
+      "recSSm7hnZBRicJIY",
+      "recQayV39KmB1rvCq",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "reczkKZIRa0b3EOb3",
+    "name": "blue nun kosher",
+    "subIngredients": [
+      "recXk7rwRxFr7Nsru"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recrclGxty3NZm7tq",
+      "recSSm7hnZBRicJIY",
+      "recQayV39KmB1rvCq",
+      "recCsSQnlG1KJxvtd"
+    ],
     "translation_heb": "בלו נאן כשר",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recrclGxty3NZm7tq",
+      "recSSm7hnZBRicJIY",
+      "recQayV39KmB1rvCq",
+      "recCsSQnlG1KJxvtd",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recsazkO823aMOqUq",
+    "name": "Beluga",
+    "isSearchable": false,
+    "groups": [
+      "recLuWPP2OSHlG8pt"
+    ],
     "translation_heb": "בלוגה",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recLuWPP2OSHlG8pt"
+    ]
   },
   {
     "id": "recuR02Rlu0BWVvRL",
+    "name": "Ballentines Finest",
+    "isSearchable": false,
+    "description": "מיוצר בסקוטלנד החל משנת 1827 ע\"י ג'ורג' בלנטיין ,בבלנטיינס יש שילוב של מלאטים וויסקי דגנים מכל רחבי סקוטלנד המיושנים מינימום 3 שנים כל אחד , הוויסקי הוא מעודן ואלגנטי בעל טעמים נרמזים של וניל ,שוקולד ותפוח.",
+    "groups": [
+      "recIS31LLynTCDKyp"
+    ],
     "translation_heb": "בלנטיינס",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recIS31LLynTCDKyp"
+    ]
   },
   {
     "id": "recoxS9cd9E0HBwnw",
-    "translation_heb": "בקרדי",
+    "name": "Bacardi Carta Blanca",
+    "isSearchable": false,
+    "groups": [
+      "recbwkcvn4kDnToiL"
+    ],
+    "translation_heb": "בקרדי לבן",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recbwkcvn4kDnToiL"
+    ]
   },
   {
     "id": "recOFloggqRzQEjds",
+    "name": "Bacardi Breezer Watermelon",
+    "isSearchable": false,
+    "groups": [
+      "recFZXXGFLCRMNR5o",
+      "recbwkcvn4kDnToiL"
+    ],
     "translation_heb": "בריזר אבטיח",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recFZXXGFLCRMNR5o",
+      "recbwkcvn4kDnToiL"
+    ]
   },
   {
     "id": "recuEUzUFoiqMSGav",
+    "name": "Johnnie Walker Black label",
+    "isSearchable": false,
+    "description": "ג'וני ווקר שחור, או כמו שהוא מוכר בכל העולם - ג'וני ווקר בלאק לייבל, ידוע כמותג הפרימיום וויסקי הראשון שמצהיר כי הוא מורכב מבלנדים של וויסקי שעברו תהליך יישון של 12 שנה לפחות. ג'וני ווקר בלאק לייבל מורכב מתערובת של לפחות 40 סוגי וויסקי מאלט, ביניהם הסינגל מאלטים קארדו וקאול אילה. למשקה טעמים מתקתקים של מאלט וטעמים מעושנים של כבול. בקבוק הפורר מגיע עם וסת מזיגה השולט בכמות המשקה הנמזגת לכוס.",
+    "groups": [
+      "recIS31LLynTCDKyp",
+      "reco7sODroUb7TMZB"
+    ],
     "translation_heb": "ג'וני ווקר בלאק לייבל",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recIS31LLynTCDKyp",
+      "reco7sODroUb7TMZB"
+    ]
   },
   {
     "id": "recvHTpZCcxhCxtHj",
+    "name": "Jameson",
+    "isSearchable": false,
+    "description": "וויסקי בלנדד אירי המופק מסוגים שונים של וויסקי שיושנו בנפרד בחביות שונות. טעמו של הג'יימסון נובע בעיקר מהתערובת הייחודית של מאלט, יחד עם דגנים שעוד לא הפכו למאלט. זאת לצד רכיבים כמו שעורה ודגנים ייחודיים נוספים. הוויסקי עובר תהליך זיקוק משולש והוא בעל טעם טבעי וחלק, ללא טעמי עישון.",
+    "groups": [
+      "recIS31LLynTCDKyp"
+    ],
     "translation_heb": "ג'יימסון",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recIS31LLynTCDKyp"
+    ]
   },
   {
     "id": "recvKjZaRPBdJg9Y4",
+    "name": "Jack Daniel's",
+    "isSearchable": false,
+    "groups": [
+      "recIS31LLynTCDKyp"
+    ],
     "translation_heb": "ג'ק דניאלס",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recIS31LLynTCDKyp"
+    ]
   },
   {
     "id": "recv5dP3rNxy5eRVj",
+    "name": "Jack Daniel's Tennessee Honey",
+    "isSearchable": false,
+    "groups": [
+      "recIS31LLynTCDKyp"
+    ],
     "translation_heb": "ג'ק דניאלס דבש",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recIS31LLynTCDKyp"
+    ]
   },
   {
     "id": "recAM6HWVtg5jFMpt",
+    "name": "Beefeater Gin",
+    "isSearchable": false,
+    "description": "ביפיטר גיין (Beefeater Gin) זהו ג'ין אנגלי המיוצר בלונדון בסגנון \"לונדון דריי ג'ין\" (London Dry Gin) אשר הושק לראשונה בשנת 1820, ומיוצר עד היום באותה השיטה ועם אותם המרכיבים. השם ביפיטר מגיע מהכינוי שדבק בשומרי מצודת לונדון, המהווים סמל בריטי מובהק, ואיור של אחד השומרים מופיע על תווית הבקבוק. ",
+    "groups": [
+      "recG1zS7YLvPucxsK"
+    ],
     "translation_heb": "ג‘ין ביפאיטר",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recG1zS7YLvPucxsK"
+    ]
   },
   {
     "id": "reck7H2MMliapJcWA",
+    "name": "Goldstar",
+    "isSearchable": false,
+    "groups": [
+      "recU1j9CMgCKG535c"
+    ],
     "translation_heb": "גולדסטאר ",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recU1j9CMgCKG535c"
+    ]
   },
   {
     "id": "recDOvd26ZmbAL7jm",
+    "name": "Goldstar Unfiltered",
+    "isSearchable": false,
+    "description": "מהדורה זו של בירה גולדסטאר אנפילטרד הושקה ב-2013 המיוצרת לפי המתכון המסורתי של גולדסטאר, בו עושים שימוש כבר למעלה מ-60 שנים, אך אינה עוברת את התהליך האחרון של סינון שאריות השמרים לפני הבקבוק. כך היא משמרת את הטעם והצבע המקוריים והמשובחים שלה.",
+    "groups": [
+      "recU1j9CMgCKG535c",
+      "rec5YDC6O0XmPvW6P"
+    ],
     "translation_heb": "גולדסטאר לא מסוננת",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recU1j9CMgCKG535c",
+      "rec5YDC6O0XmPvW6P"
+    ]
   },
   {
     "id": "recviJa7ROTdOBYNb",
+    "name": "Glenlivet 12",
+    "isSearchable": false,
+    "description": "וויסקי סינגל מאלט (לא מעורבב) מאזור ספייסייד שבסקוטלנד. המשקה מיושן 12 שנה בחביות עץ אלון המקנות לו ארומה מעושנת של שרי. גלנליווט 12 שנים הוא וויסקי קליל ואלגנטי, המכיל טעמים וארומה פרחוניים לצד מתיקות המזכירה דבש ווניל.",
+    "groups": [
+      "recIS31LLynTCDKyp"
+    ],
     "translation_heb": "גלנליווט 12",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recIS31LLynTCDKyp"
+    ]
   },
   {
     "id": "recRCwYXNXpVAO8xP",
+    "name": "Drambuie",
+    "subIngredients": [
+      "recbM6amyeBOkNVSs",
+      "recEsLLi7WO3oBS0I",
+      "recjakgmzALOL4AbL"
+    ],
+    "isSearchable": false,
+    "description": "Drambuie is a golden-coloured, 40% ABV liqueur made from Scotch whisky, heather honey, herbs and spices. The brand was owned by the MacKinnon family for 100 years, and was bought by William Grant & Sons in 2014",
+    "groups": [
+      "recIS31LLynTCDKyp",
+      "recV5fHl7YWRNelyQ"
+    ],
     "translation_heb": "דרמבוי",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "reczLN4jNH5npEarc",
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recIS31LLynTCDKyp",
+      "recV5fHl7YWRNelyQ",
+      "recIS31LLynTCDKyp",
+      "recA1DeocMW69g9QP",
+      "recX7LWBWgvLk0fXO",
+      "rec9aef6vga0ZHQHN"
+    ]
   },
   {
     "id": "recT2jgGc2G7TViL6",
+    "name": "Heineken",
+    "isSearchable": false,
+    "description": "בירה הייניקן היא בירת לאגר הולנדית בהירה המיוצרת במלמעלה מ-130 מבשלות ברחבי העולם ונחשבת לבירה הרביעית הנמכרת ביותר בעולם. סימן ההיכר של הבירה ההולנדית הוא הבקבוק הירוק והכוכב האדום והיא אחד מהאייקונים המזוהים ביותר של הולנד (שדווקא בה היא נמכרת בבקבוקים חומים). מבשלת הייניקן החלה את דרכה כבר ב-1863 ובשנות ה-30 של המאה הקודמת החלה לייצא את הבירה למערב אירופה וגם למערב אפריקה ואינדונזיה (שהייתה אז מושבה של הולנד). ",
+    "groups": [
+      "recU1j9CMgCKG535c"
+    ],
     "translation_heb": "הייניקן",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recU1j9CMgCKG535c"
+    ]
   },
   {
     "id": "recMKNHLSDQMvbpop",
+    "name": "Hendrick's Gin",
+    "isSearchable": false,
+    "description": "הנדריקס (Hendrick’s), המיוצר בסקוטלנד, נחשב לאחד מסוגי הג'ין הייחודיים בעולם. הוא ניזון מהמים המצוינים של מחוז אירשייר, מאופיין בארומה של פירות הדר ומתובל ב-11 מרכיבים בוטניים ייחודיים. בין מרכיביו: כוסברה, קמומיל, קימל, פלפל, מלפפונים, אירוסים וורדים. המשקה, שנהגה על ידי מאסטר דיסטילר, מיוצר על ידי חברת גלנפידיך, והוא בעל 41% אלכוהול.",
+    "groups": [
+      "recG1zS7YLvPucxsK"
+    ],
     "translation_heb": "הנדריקס",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
-  },
-  {
-    "id": "recKzuE46UucNtQn3",
-    "translation_heb": "וואלק ערק",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recG1zS7YLvPucxsK"
+    ]
   },
   {
     "id": "recsi9v8rCBdeEdZf",
-    "translation_heb": "וואן גוך אסאי\\אננס",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "name": "Van Gogh Vodka Pineapple",
+    "subIngredients": [
+      "recvr8kIqxedjZztj",
+      "rec5rtRKRDimBWzLl",
+      "rec8pKfAEwucwp78c",
+      "recI5QYk0ygZhr6KG"
+    ],
+    "isSearchable": false,
+    "description": "וודקה אולטרה-פרימיום מבית ואן גוך, המבוססת על תמצית אננס טרופי טבעי וטרי. המשקה מיוצר בתהליך הייצור הקפדני של כל מותגי ואן גוך, במנות קטנות של עד 20 ליטר. התמצית מושרית במשך שישה שבועות בוודקה הקלאסית עד לקבלת טעם האננס והמרקם המושלם.",
+    "groups": [
+      "recLuWPP2OSHlG8pt",
+      "recCsSQnlG1KJxvtd"
+    ],
+    "translation_heb": "ואן גוך אננס",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recTqrrExyN2M0oG8",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recLuWPP2OSHlG8pt",
+      "recCsSQnlG1KJxvtd",
+      "recAvCd37VjynjiAV",
+      "recA1DeocMW69g9QP",
+      "recDXBerbCvKBauuo"
+    ]
+  },
+  {
+    "id": "recvADVUt8c0YlUZV",
+    "name": "Van Gogh Açaí-Blueberry",
+    "subIngredients": [
+      "recvr8kIqxedjZztj",
+      "rec5rtRKRDimBWzLl",
+      "rec8pKfAEwucwp78c",
+      "recWq5aTTOv2bgGbu"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recLuWPP2OSHlG8pt",
+      "recCsSQnlG1KJxvtd"
+    ],
+    "translation_heb": "וואן גוך אסאי",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recTqrrExyN2M0oG8",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recLuWPP2OSHlG8pt",
+      "recCsSQnlG1KJxvtd",
+      "recAvCd37VjynjiAV",
+      "recA1DeocMW69g9QP",
+      "recy2Nh2sfSLTNXbH"
+    ]
   },
   {
     "id": "recRFfGOcMlJC73XP",
+    "name": "Tubi 60",
+    "subIngredients": [
+      "rec5rtRKRDimBWzLl",
+      "recUbXDwTIVaajLp9",
+      "rec8pKfAEwucwp78c",
+      "recfxI6jiHdvPw4sU"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recx4yr5O5xQnY7L0",
+      "recCsSQnlG1KJxvtd"
+    ],
     "translation_heb": "טובי 60",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recTqrrExyN2M0oG8",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recx4yr5O5xQnY7L0",
+      "recCsSQnlG1KJxvtd",
+      "recAvCd37VjynjiAV",
+      "reccATkRbfWDQGzvn",
+      "recRQstqYOST4uTB1",
+      "recA1DeocMW69g9QP",
+      "recN0HIrikkUk6AvS"
+    ]
   },
   {
     "id": "recmoRmXeBxzQYIZa",
+    "name": "Jagermeister",
+    "isSearchable": false,
+    "description": "ליקר עשבי התיבול המתוק-מריר הגיע מגרמניה והפך לאחד ממשקאות האלכוהול האהובים ביותר בישראל. הוא מורכב מ-56 עשבי תיבול ופירות יער שונים העוברים זיקוק והשרייה. שמו (\"אמן הציד\" בגרמנית) והלוגו שלו, עליו מופיע אייל עם צלב זוהר בין קרניו, מיוחסים לקדוש נוצרי מהמאה השביעית שיצא לצוד אייל ובמקום זה זכה בחזיון של ישו. ",
+    "groups": [
+      "recV5fHl7YWRNelyQ"
+    ],
     "translation_heb": "ייגרמאסטר",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recV5fHl7YWRNelyQ"
+    ]
   },
   {
     "id": "recEGNxR4jeMtiBQJ",
+    "name": "Les Jamelles malbec",
+    "subIngredients": [
+      "rec1hfLlllUuy5rFx"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recHFAtr2WZkQ98Im",
+      "recSSm7hnZBRicJIY"
+    ],
     "translation_heb": "לה ז'אמל מלבק",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recHFAtr2WZkQ98Im",
+      "recSSm7hnZBRicJIY",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recEMzQ18w7oa4SJZ",
-    "translation_heb": "למברוסקו אלמיליאנו\n  רוזה",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "name": "lambrusco emiliano rosata",
+    "subIngredients": [
+      "recXzsrr54HZhm6Rc"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "rec17syXperdobDf8",
+      "recq5k3ySOqOC5oui",
+      "recelzDwH6cna2uAC"
+    ],
+    "translation_heb": "למברוסקו אמיליאנו רוזטו",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "rec17syXperdobDf8",
+      "recq5k3ySOqOC5oui",
+      "recelzDwH6cna2uAC",
+      "recDXBerbCvKBauuo"
+    ]
   },
   {
     "id": "reccrLVzyykuHGtZx",
+    "name": "Leffe Brown",
+    "isSearchable": false,
+    "description": "לף בראון היא בירת אייל בלגית כהה בעלת 6.5% אלכוהול, צבע כהה ועמוק וטעמים עשירים ומאוזנים של קרמל ומאלט קלוי המעניקים לה תווים מתקתקים וסיומת עדינה בטעם קפה. הבירה מומלצת להגשה לצד מגוון גבינות, מנות פיקנטיות וקינוחים עשירים. לף בראון מומלצת להגשה לאחר קירור ממושך, המאפשר לכל הרכיבים לבוא לידי ביטוי בשלמות.",
+    "groups": [
+      "recg6oDGmlDZ7q2RQ"
+    ],
     "translation_heb": "לף בראון",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recg6oDGmlDZ7q2RQ"
+    ]
   },
   {
     "id": "recxsVKYdfQ5PaKe7",
+    "name": "Laphroaig 10",
+    "isSearchable": false,
+    "description": "לפרויג 10 הינו וויסקי סקוטי, סינגל מאלט, אשר יושן בחביות עץ אלון במשך 10 שנים. טעמו מועשן, כבול וקצת מלוח ביחס לגילו. בעיני רבים נחשב לוויסקי המעושן ביותר.",
+    "groups": [
+      "recDawO8L5QbLNa8h"
+    ],
     "translation_heb": "לפרואיג' 10",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recDawO8L5QbLNa8h"
+    ]
   },
   {
     "id": "recrdnNwG6KIy9YtQ",
+    "name": "Monkey 47",
+    "isSearchable": false,
+    "description": "מזקקת שוורצוואלד, המייצרת את מאנקי 47, מודה שטענתה כי \"מתכון לג'ין יכול לאחד בין מסורות בריטיות עתיקות, אקזוטיות הודית וטהרתו של היער השחור\" היא מעט אקסצנטרית. ועם זאת, הם הצליחו לעשות בדיוק את זה. שליש מהרכיבים בג'ין המיוחד הזה מגיעים מהיער השחור, והם בהחלט לא מוגדרים כטעמי ג'ין טיפוסיים. 47 רכיבים סה\"כ, מעורבבים במי מעיין רכים במיוחד מהיער השחור, והנשק הסודי של חמוציות מיוחדות הגדלות רק ביער, מעניקים למאנקי 47 מורכבות ואיכות שטרם ראיתם בג'ין.",
+    "groups": [
+      "recG1zS7YLvPucxsK"
+    ],
     "translation_heb": "מאנקי 47",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recG1zS7YLvPucxsK"
+    ]
   },
   {
     "id": "recF4OPVfkh7Zc3Xb",
+    "name": "Mud House",
+    "subIngredients": [
+      "recYKeoEuowf0pF2e"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recrclGxty3NZm7tq",
+      "recHFAtr2WZkQ98Im"
+    ],
     "translation_heb": "מד האוס",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recrclGxty3NZm7tq",
+      "recHFAtr2WZkQ98Im",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recFmxRKkYqopLoeJ",
+    "name": "blue nun moscato",
+    "subIngredients": [
+      "recXzsrr54HZhm6Rc",
+      "recAHYRDSRDBT8aCn"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recelzDwH6cna2uAC",
+      "recF5IDsUG8oUgKyE"
+    ],
     "translation_heb": "מוסקטו בלו נאן",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recelzDwH6cna2uAC",
+      "recF5IDsUG8oUgKyE",
+      "recDXBerbCvKBauuo",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recRoA13I3fD5iYdX",
+    "name": "midori liqueur",
+    "subIngredients": [
+      "recII3r5eg52cdYtQ",
+      "rec5rtRKRDimBWzLl",
+      "rec8pKfAEwucwp78c",
+      "recTxF29Nu9cMmV1V"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recV5fHl7YWRNelyQ"
+    ],
     "translation_heb": "מידורי",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recTqrrExyN2M0oG8",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recV5fHl7YWRNelyQ",
+      "recAvCd37VjynjiAV",
+      "recAvCd37VjynjiAV",
+      "recA1DeocMW69g9QP",
+      "recmCzPUKuoYcsS42"
+    ]
   },
   {
     "id": "reckx60aIYyiSIaCG",
+    "name": "Maccabi Strong Beer 7.9%",
+    "isSearchable": false,
+    "description": "בירה מכבי 7.9% היא בירת לאגר חזקה העשירה בטעמי לתת ובעלי תווי כשות מרירים עדינים ומרווים, השומרים על גוף בירה חלק ונעים.",
+    "groups": [
+      "rec5YDC6O0XmPvW6P"
+    ],
     "translation_heb": "מכבי\n 7.9%",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "rec5YDC6O0XmPvW6P"
+    ]
   },
   {
     "id": "recTLCV68dv1FD69t",
+    "name": "Malibu ",
+    "subIngredients": [
+      "recgBVAPqhSS4p5Se",
+      "rec8pKfAEwucwp78c",
+      "recVWOhuOmEzVQZrY"
+    ],
+    "isSearchable": false,
+    "description": "מליבו הוא ליקר על בסיס רום משובח שזוקק באיים הקאריביים ותמציות קוקוס טבעיות. מומלץ לשתייה עם קולה, נקי או במגוון קוקטיילים.",
+    "groups": [
+      "recbwkcvn4kDnToiL"
+    ],
     "translation_heb": "מליבו",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recbwkcvn4kDnToiL",
+      "recbwkcvn4kDnToiL",
+      "recA1DeocMW69g9QP",
+      "recA1DeocMW69g9QP",
+      "recN0HIrikkUk6AvS",
+      "recHJLhfoFpQuTVOI"
+    ]
   },
   {
     "id": "recbsiIhRZ6m4dw2a",
+    "name": " Malka Pale Ale ",
+    "subIngredients": [
+      "recvr8kIqxedjZztj",
+      "receN4iLyolSoIN3c",
+      "recfRWIkDiPdhk0A1",
+      "recXKaSUiiJldsPBU"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "rec2BddwjEjsweP95"
+    ],
     "translation_heb": "מלכה אדמונית",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "rec2BddwjEjsweP95",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX",
+      "recKixXejzsCDapen"
+    ]
   },
   {
     "id": "recxi8ifhj5zCJLeL",
+    "name": "Macallan 12",
+    "isSearchable": false,
+    "groups": [
+      "recDawO8L5QbLNa8h"
+    ],
     "translation_heb": "מקלאן 12",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recDawO8L5QbLNa8h"
+    ]
   },
   {
     "id": "rec9S2Gj4CVD92QG0",
-    "translation_heb": "מרטיני ביאנקו \\ רוסו\n  \\ דריי",
+    "name": "MARTINI Bianco",
+    "isSearchable": false,
+    "groups": [
+      "recHuy7gZNEvA3RKZ",
+      "recyFHxNKx10XMK6M"
+    ],
+    "translation_heb": "מרטיני ביאנקו",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recHuy7gZNEvA3RKZ",
+      "recyFHxNKx10XMK6M"
+    ]
+  },
+  {
+    "id": "rec9Unv1NoPxQFFyo",
+    "name": "Martini Rosso",
+    "isSearchable": false,
+    "groups": [
+      "recHuy7gZNEvA3RKZ",
+      "recyFHxNKx10XMK6M"
+    ],
+    "translation_heb": "מרטיני רוסו",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recHuy7gZNEvA3RKZ",
+      "recyFHxNKx10XMK6M"
+    ]
+  },
+  {
+    "id": "recmhvUUPQYgxszGZ",
+    "name": "Martini  extra dry",
+    "isSearchable": false,
+    "groups": [
+      "recHuy7gZNEvA3RKZ",
+      "recyFHxNKx10XMK6M"
+    ],
+    "translation_heb": "מרטיני דריי",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recHuy7gZNEvA3RKZ",
+      "recyFHxNKx10XMK6M"
+    ]
   },
   {
     "id": "recGJ3ivdQTnU86Sk",
+    "name": "Merlo SPECIAL RESERVE Barkan",
+    "subIngredients": [
+      "recXzsrr54HZhm6Rc",
+      "rec21cIuZJfWBpga0"
+    ],
+    "isSearchable": false,
+    "description": "קור ענבי מרלו SPECIAL RESERVE הוא בכרמי היקב שבגליל העליון ובהרי ירושלים המאופיינים באדמות טרה רוסה סלעית, אקלים קר ואויר יבש. יין מובחר זה, מרלו מסדרת ספיישל רזרב, שהתיישן בחביות עץ אלון במשך 18 חודשים, אלגנטי וקטיפתי ויוסיף להשתבח בתנאי יישון נאותים.",
+    "groups": [
+      "recSSm7hnZBRicJIY",
+      "recHFAtr2WZkQ98Im"
+    ],
     "translation_heb": "מרלו ברקן\n\"ספיישל ריזרב\"",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recSSm7hnZBRicJIY",
+      "recHFAtr2WZkQ98Im",
+      "recDXBerbCvKBauuo",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recTM8wZDEskgtVfD",
-    "translation_heb": "סאווטרן קונפרוט",
+    "name": "Southern Comfort",
+    "isSearchable": false,
+    "description": "סאות'רן קומפורט יוצר כבר ב-1874 על-ידי ברמן שהאמין שצריך ליהנות מוויסקי ולא לסבול משתייתו. הוא ערבב וויסקי עם תערובת של פירות ותבלינים שרקח ויצר משקה טעים שמחליק בגרון. הסאות'רן קומפורט מיוצר כיום מתזקיק דגנים טבעי ומתערובת של וויסקי, וניל, סוכר, קינמון ופירות שונים, בראשם האפרסק.  ",
+    "groups": [
+      "recV5fHl7YWRNelyQ"
+    ],
+    "translation_heb": "סאות'רן קומפורט",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recV5fHl7YWRNelyQ"
+    ]
   },
   {
     "id": "recmkM4kgt3jpCz3l",
+    "name": "sol beer",
+    "subIngredients": [
+      "receN4iLyolSoIN3c",
+      "recKzibs119a7JAF5",
+      "recXKaSUiiJldsPBU"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "rec5YDC6O0XmPvW6P"
+    ],
     "translation_heb": "סול",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "rec5YDC6O0XmPvW6P",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX",
+      "recA1DeocMW69g9QP",
+      "recKixXejzsCDapen"
+    ]
   },
   {
     "id": "recNLQ82fGUEc4Rs5",
+    "name": "Strongbow apple Cider",
+    "isSearchable": false,
+    "description": "הכירו את הסיידר הנמכר ביותר בעולם: סיידר תפוחים מתוק וזהוב עם טעם מרענן, תווים של תפוחים ירוקים וסיומת מתוקה-מרירה ומתמשכת. הסיידר עשוי מרכז תפוחים טבעי ואינו מכיל גלוטן. הוא מתאפיין בארומות פירותיות ועשירות של סוגי תפוחים שונים ועסיסיים ומאזן בין חמיצות ומרירות עדינות לטעם מתוק, מרענן ורך.",
+    "groups": [
+      "recQkc9oCqz4PzdnQ"
+    ],
     "translation_heb": "סטרונגבואו",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recQkc9oCqz4PzdnQ"
+    ]
   },
   {
     "id": "recJsdVCukz895F4D",
+    "name": "Arak Askalon",
+    "isSearchable": false,
+    "groups": [
+      "recB0ZyanZko4pN86"
+    ],
     "translation_heb": "ערק אשקלון",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recB0ZyanZko4pN86"
+    ]
   },
   {
     "id": "rectUeCjeASqIkEIj",
+    "name": "Elite Ha'arak 40%",
+    "isSearchable": false,
+    "description": "הארק מופק מהתססת תמרים או ענבים וטפטוף הנוזל הנוצר בתהליך על עלי אניס, המעניקים לו את טעמו הייחודי. מקור הטעם והריח של המשקה הוא באתנול – שמן אתרי המצוי באניס. ארק עלית מכיל 1/3 ארק ו-2/3 מים טהורים ובתוספת קרח הוא משנה את צבעו ללבן-חלבי מכיוון שהאתנול מסיס בארק אך לא במים",
+    "groups": [
+      "recB0ZyanZko4pN86"
+    ],
     "translation_heb": "ערק עלית",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recB0ZyanZko4pN86"
+    ]
   },
   {
     "id": "recoVgXacOe9yyMr0",
+    "name": "Paulaner",
+    "isSearchable": false,
+    "description": "בירת חיטה בווארית לא מסוננת המיוצרת במבשלת פאולנר השוכנת במינכן, גרמניה. הפאולנר מסוג ווייסביר מוגזת יותר מבירות אחרות ולכן נהוג לשתות אותה בכוס גבוהה (שצוננה קודם לכן) בזווית של 45 מעלות ומזיגת ¾ מהבקבוק אל דופן הכוס, כדי להקטין את שטח הפנים הבא במגע עם האוויר. לפאולנר טעם פירותי עדין, צבע זהוב יפהפה וגוף מלא.",
+    "groups": [
+      "recp0WQugkOwzQEE8"
+    ],
     "translation_heb": "פאולנר",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recp0WQugkOwzQEE8"
+    ]
   },
   {
     "id": "recrlJlsE1kEuznZr",
+    "name": "Patron Silver",
+    "isSearchable": false,
+    "description": "הטקילה הבסיסית של מותג הפרימיום \"פטרון\". לסילבר, שאינה מיושנת, טעם רענן ונקי והיא מיוצרת מ-100% אגבה כחולה בזיקוק דודי כפול. המשקה שקוף, קליל וחלק ומתאים כבסיס לקוקטיילים איכותיים, אם כי רבים מעדיפים לשתות אותו נקי.",
+    "groups": [
+      "recyilZLaW9xX8Qlt"
+    ],
     "translation_heb": "פטרון סילבר",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recyilZLaW9xX8Qlt"
+    ]
   },
   {
     "id": "recUV393mAjfqGFyd",
-    "translation_heb": "פידג'\n  תאנים",
+    "name": " Feigling",
+    "isSearchable": false,
+    "description": "פידג' תאנים הוא ליקר ממשפחת משקאות הפידג', המיוצר מתרכיז מיץ טבעי וטהור. זהו ליקר קליל בעל 20% אלכוהול, שנהוג לשתות באופן נקי בכוס צ'ייסר (או שוט) קפואה, או על בסיס קוקטיילים. הפידג' מיוצר במזקקה משפחתית  בעיירת נופש שנקראת בבאד בוונסן, בצפון גרמניה.",
+    "groups": [
+      "recV5fHl7YWRNelyQ"
+    ],
+    "translation_heb": "פידג'\nתאנים",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recV5fHl7YWRNelyQ"
+    ]
   },
   {
     "id": "recVyW6Xpoet0zd1b",
+    "name": "Pastis",
+    "isSearchable": false,
+    "groups": [
+      "recx4yr5O5xQnY7L0",
+      "recdunSceEXLZP7tz"
+    ],
     "translation_heb": "פסטיס",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recx4yr5O5xQnY7L0",
+      "recdunSceEXLZP7tz"
+    ]
   },
   {
     "id": "recWakRKhpIdhFMKR",
+    "name": "Pernod",
+    "isSearchable": false,
+    "description": "הפרנו (Pernod) אניס קרוי על שמו\nשל הנרי לואי פרנו, שהקים ב-1805 את המזקקה הראשונה בצרפת לייצור אבסינת, לאחר שגילה מתכון המבוסס על צמח הלענה ורקח ממנו שיקוי המיועד לטיפול בבעיות עיכול. למרות שלעתים נהוג לקטלג את הפרנו בין סוגי משקאות הפסטיס, פרנו הוא משקה אניס. בשנת 1920 ייצר לואי פרנו משקה חדש נטול צמח הלענה, אשר יצא מחוץ לחוק 5 שנים קודם לכן לאחר שיוחסו לו תכונות הגורמות להזיות.",
+    "groups": [
+      "recdunSceEXLZP7tz"
+    ],
     "translation_heb": "פרנו",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recdunSceEXLZP7tz"
+    ]
   },
   {
     "id": "recH0bKdSkn3zTu9h",
+    "name": "cava",
+    "subIngredients": [
+      "recmkcx21sbwCvUM2",
+      "recxEwXAnKxj5Tjqg",
+      "rec7ehk3vmx4habQt"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recelzDwH6cna2uAC",
+      "recNgHoP7RU6nyN8S"
+    ],
     "translation_heb": "קאווה דה לאומה",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recelzDwH6cna2uAC",
+      "recNgHoP7RU6nyN8S",
+      "recgo0VQQt0W4HGik",
+      "recgo0VQQt0W4HGik",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recJVn67ELgPwKOkt",
+    "name": "Cabernet Sauvignon",
+    "subIngredients": [
+      "recWaFH2MtGpG3ZqL"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recSSm7hnZBRicJIY"
+    ],
     "translation_heb": "קברנה סובניון",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recSSm7hnZBRicJIY",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recJEHEMNZwttME56",
+    "name": "Chianti",
+    "subIngredients": [
+      "rec4pqaEHKOLLMh1Z"
+    ],
+    "isSearchable": false,
+    "description": "יין בעל גוף בינוני עם טאנינים רכים וחמיצות מאוזנת.ליין ניחוחות עשירים של פרחים, פטל ופלפל. יין לשתייה יומיומית שלא ישעמם אף פעם.",
+    "groups": [
+      "recSSm7hnZBRicJIY",
+      "recHFAtr2WZkQ98Im"
+    ],
     "translation_heb": "קיאנטי רופינו",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recSSm7hnZBRicJIY",
+      "recHFAtr2WZkQ98Im",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recUxOir0HO26E2iv",
+    "name": "Kahlua",
+    "isSearchable": false,
+    "description": "ליקר הקלואה (Kahlua) מיוצר מזן הקפה המשובח ערביקה. הערביקה מופק מפולי הקפה \"פולי ההר הכחול\" שמקורם בג'מייקה. את המשקה הקליל והמתקתק הזה נהוג לשתות כדז'יסטיף",
+    "groups": [
+      "recV5fHl7YWRNelyQ"
+    ],
     "translation_heb": "קלואה",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recV5fHl7YWRNelyQ"
+    ]
   },
   {
     "id": "recyoa7YkJ2PlsUew",
+    "name": "Campari",
+    "isSearchable": false,
+    "description": "תחילתו של הקמפרי באמצע המאה ה-19, כשג'ספר קמפרי החל להגיש משקה מריר ושקוף אותו רקח במיוחד ללקוחות בית הקפה שלו. את המשקה הכין קמפרי מתערובת של כ-60 עשבי מרפא, פירות ותבלינים. כיום נחשב קמפרי כביטר-אפריטיף (משקה ששותים לפני הארוחה) הפופולרי ביותר בעולם. על אף טעמו, הקמפרי הפך להצלחה ברחבי איטליה והחלו להגיש אותו בצורה המוכרת לנו כיום - מוערבב בסודה.",
+    "groups": [
+      "recW39Jnf34VWgWEd",
+      "recyFHxNKx10XMK6M"
+    ],
     "translation_heb": "קמפרי",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recW39Jnf34VWgWEd",
+      "recyFHxNKx10XMK6M"
+    ]
   },
   {
     "id": "recYWXOXDt8tNVjOb",
+    "name": "Kasteel Rouge ",
+    "isSearchable": false,
+    "groups": [
+      "recg6oDGmlDZ7q2RQ"
+    ],
     "translation_heb": "קסטיל רוז'",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recg6oDGmlDZ7q2RQ"
+    ]
   },
   {
     "id": "recoHenG9P0FOodFL",
+    "name": "Captain Morgan's",
+    "isSearchable": false,
+    "description": "רום איכותי החביב במיוחד על אניני טעם, בעל מרקם חלק וגוף בינוני. צבעו הזהוב היפהפה וטעמיו העשירים מושגים משילוב של רום קאריבי מיושן, תבלינים וטעמים טבעיים כמו וניל, הל וקינמון. ניתן לחוש בנוסף בטעמי פירות יבשים, סוכר חום ואף רמזים של עץ אלון, היוצרים משקה מאוזן בעל סיומת חלקה ונעימה.",
+    "groups": [
+      "recbwkcvn4kDnToiL"
+    ],
     "translation_heb": "קפטן מורגן ספייס",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recbwkcvn4kDnToiL"
+    ]
   },
   {
     "id": "recJNnZMYs7UTaz0L",
+    "name": "Chablis",
+    "subIngredients": [
+      "rech5DzFAF2zRUHyT"
+    ],
+    "isSearchable": false,
+    "description": " הענבים מקורם בכרמי שאבלי בצפון חבל בורגון על אדמת אבנית האופיינית לאיזור. לאחר בציר קפדני, הענבים עוברים להתססה מסורתית בטמפרטורה מבוקרת. היין מתבגר במיכלי נירוסטה מבוקרי טמפרטורה לשמירה על טעמי הפרי הרעננים.",
+    "groups": [
+      "recrclGxty3NZm7tq"
+    ],
     "translation_heb": "שאבלי",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recrclGxty3NZm7tq",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recZSr9UtfG96s5EL",
+    "name": "Chartreuse",
+    "isSearchable": false,
+    "description": "שארטרז הוא ליקר על בסיס עשבי תיבול המיוצר בצרפת מיין מזוקק ומתובל ב-130 סוגי עשבים לערך. הליקר נקרא על שם מנזר \"גראנד שארטרז\", בו הוא מיוצר על ידי נזירים מהמסדר הקארטוזיאני.",
+    "groups": [
+      "recV5fHl7YWRNelyQ"
+    ],
     "translation_heb": "שארטרז ירוק",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recV5fHl7YWRNelyQ"
+    ]
   },
   {
     "id": "reczq2EHHezfYSctf",
+    "name": "Chivas Regal 12",
+    "isSearchable": false,
+    "description": "מהדורה מיוחדת שעוברת סיומת בחביות שיפון אמריקאיות המעניקות טעמים מתקתקים, שוקו ווניל . סיומת ארוכה וחלקה עם נגיעות תפוז, שוקולד חלב וקינמון.",
+    "groups": [
+      "reco7sODroUb7TMZB"
+    ],
     "translation_heb": "שיבאס 12",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "reco7sODroUb7TMZB"
+    ]
   },
   {
     "id": "recJeFtOPXzYAEx3W",
-    "translation_heb": "שרדונה ברקן\n\"ספיישל ריזרב\"",
+    "name": "Barkan Special Reserve Chardonnay",
+    "subIngredients": [
+      "rech5DzFAF2zRUHyT"
+    ],
+    "isSearchable": false,
+    "description": "יין עשיר ואלגנטי העשוי מ-100% ענבי שרדונה ורזרב שרדונה עשוי מבלנד המשלב יינות שתססו חצי שנה בחביות אלון חדשות לבין יינות שתססו במיכלי נירוסטה. שילוב זה יצר יין מורכב- בעל פרי איכותי הבוקע מתוך גוף מלא עוצמה. היין מומלץ להגשה בטמפ' 8 מעלות.",
+    "groups": [
+      "recSSm7hnZBRicJIY",
+      "recHFAtr2WZkQ98Im"
+    ],
+    "translation_heb": "ברקן ספיישל רזרב שרדונה",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "recSSm7hnZBRicJIY",
+      "recHFAtr2WZkQ98Im",
+      "recgo0VQQt0W4HGik"
+    ]
   },
   {
     "id": "recCI7L02KrKzW3DZ",
@@ -579,9 +1294,24 @@
   {
     "id": "rectCnGpWfYXBEVVK",
     "name": "7UP diet",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "subIngredients": [
+      "recjiO3V9Q82pI8zq",
+      "recRxY1kG8elmfgx8",
+      "recFuO6I7MwihsFFs",
+      "recuQjzvZI67uXd8U"
+    ],
+    "isSearchable": true,
+    "groups": [
+      "rec2m2Z8keGUVLwNA"
+    ],
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "rec2m2Z8keGUVLwNA",
+      "recN0HIrikkUk6AvS",
+      "recDXBerbCvKBauuo"
+    ]
   },
   {
     "id": "recwb99EU1ZyqWc8F",
@@ -694,6 +1424,7 @@
       "recDXBerbCvKBauuo",
       "recRLRNG6VRO3pnoY",
       "recWpISCcCcAIX1lr",
+      "recWpISCcCcAIX1lr",
       "recRLRNG6VRO3pnoY",
       "rec75vhLm4p0l8HfZ"
     ]
@@ -731,6 +1462,7 @@
   {
     "id": "rec5rtRKRDimBWzLl",
     "name": "alcohol",
+    "isSearchable": false,
     "groups": [
       "recAvCd37VjynjiAV"
     ],
@@ -740,8 +1472,7 @@
     ],
     "foodGroups": [
       "recAvCd37VjynjiAV"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recYrM0woazEWjnAj",
@@ -780,6 +1511,7 @@
     ],
     "translation_heb": "קמח לבן",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -805,6 +1537,7 @@
   {
     "id": "reckK6MEjk8BdwKSW",
     "name": "E129",
+    "isSearchable": false,
     "groups": [
       "recy2Nh2sfSLTNXbH"
     ],
@@ -812,8 +1545,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recy2Nh2sfSLTNXbH"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recYJXFMyC7DOmEqo",
@@ -1136,6 +1868,7 @@
   {
     "id": "recyydYtAC5UzzYQC",
     "name": "antioxidant",
+    "isSearchable": false,
     "groups": [
       "recDXBerbCvKBauuo"
     ],
@@ -1145,8 +1878,7 @@
     ],
     "foodGroups": [
       "recDXBerbCvKBauuo"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recUAV6F2wG8PyexP",
@@ -1248,6 +1980,7 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -1888,6 +2621,7 @@
     ],
     "translation_heb": "תערובת בירה",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recTqrrExyN2M0oG8",
       "recqkfhdi9py4PNCJ"
@@ -2067,8 +2801,7 @@
     "subIngredients": [
       "rec8pKfAEwucwp78c",
       "recvr8kIqxedjZztj",
-      "recRxY1kG8elmfgx8",
-      "recJXPMJgqWVcQ6ZD"
+      "recRxY1kG8elmfgx8"
     ],
     "isSearchable": false,
     "tags": [
@@ -2086,8 +2819,7 @@
     "foodGroups": [
       "recDXBerbCvKBauuo",
       "recA1DeocMW69g9QP",
-      "recN0HIrikkUk6AvS",
-      "recDXBerbCvKBauuo"
+      "recN0HIrikkUk6AvS"
     ]
   },
   {
@@ -2105,6 +2837,7 @@
     ],
     "translation_heb": "ביסקויט , עוגיה",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -2251,6 +2984,7 @@
     "translation_heb": "בלינצ'ס , חביתיות",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recFh4JVbTqqu9Rhf",
       "recqkfhdi9py4PNCJ"
@@ -2439,6 +3173,7 @@
     ],
     "translation_heb": "לחם",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -2662,6 +3397,7 @@
     ],
     "translation_heb": "בורגול",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -3108,10 +3844,10 @@
   {
     "id": "recjiO3V9Q82pI8zq",
     "name": "CARBONATED WATER",
+    "isSearchable": true,
     "translation_heb": "סודה",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": []
   },
   {
     "id": "recVuvav79CA7uS2i",
@@ -3476,6 +4212,7 @@
   {
     "id": "recJvctGatqNma273",
     "name": "cherries",
+    "isSearchable": true,
     "groups": [
       "recjdvSMxTyphSetE",
       "recmCzPUKuoYcsS42"
@@ -3485,12 +4222,12 @@
     "foodGroups": [
       "recjdvSMxTyphSetE",
       "recmCzPUKuoYcsS42"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recBB9umwbyPvARWo",
     "name": "cherry flavor",
+    "isSearchable": false,
     "groups": [
       "recDXBerbCvKBauuo"
     ],
@@ -3500,8 +4237,7 @@
     ],
     "foodGroups": [
       "recDXBerbCvKBauuo"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recLflBv3FnTuDdZ9",
@@ -4144,6 +4880,7 @@
     ],
     "translation_heb": "לחם ג'בטה",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -4176,6 +4913,7 @@
     ],
     "translation_heb": "בצק סיגר",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -4753,6 +5491,7 @@
     "isSearchable": false,
     "translation_heb": "עוגת סרטנים",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -4876,6 +5615,7 @@
     "synonyms": "mini toast ",
     "translation_heb": "טוסטונים",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -4927,6 +5667,7 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -5027,12 +5768,16 @@
     ],
     "isSearchable": false,
     "translation_heb": "תערובת קארי POW WOW",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recQlw7MMtl1KlpNP",
+      "recTqrrExyN2M0oG8"
+    ],
     "foodGroups": [
       "recRLRNG6VRO3pnoY",
       "recKixXejzsCDapen",
       "recWpISCcCcAIX1lr",
       "recRLRNG6VRO3pnoY",
+      "recAjiOEZMV6ObquU",
       "recRQstqYOST4uTB1",
       "reclWKSsmJOut9eRI",
       "rec9aef6vga0ZHQHN",
@@ -5647,6 +6392,7 @@
     "translation_heb": "אטריות ביצים",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -5745,6 +6491,7 @@
   {
     "id": "rec2QtxjN7OAyXslQ",
     "name": "elderberry",
+    "isSearchable": true,
     "groups": [
       "recjdvSMxTyphSetE"
     ],
@@ -5752,8 +6499,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recjdvSMxTyphSetE"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recvG0oF3IPQHh2kf",
@@ -5795,6 +6541,7 @@
     ],
     "translation_heb": "קמח לבן מועשר",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -5829,6 +6576,7 @@
     ],
     "translation_heb": "קמח מועשר",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -6279,6 +7027,7 @@
       "rec8pKfAEwucwp78c",
       "recXeFEPeNz9MTGnu"
     ],
+    "isSearchable": false,
     "groups": [
       "recZmajE2LE8mmq1m",
       "recurt87JNmeE6SzQ"
@@ -6300,8 +7049,7 @@
       "rec33e05fmRcCDf4i",
       "recA1DeocMW69g9QP",
       "recRQstqYOST4uTB1"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recWm1DUJ1I7W0Pck",
@@ -6384,6 +7132,7 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -6407,10 +7156,12 @@
       "recglV0UGjl0Vxop7",
       "recSvjLrmp9KKltut"
     ],
+    "isSearchable": false,
     "translation_heb": "קוד בציפוי טמפורה",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recTqrrExyN2M0oG8",
       "recqkfhdi9py4PNCJ"
@@ -6424,8 +7175,7 @@
       "recPRWumn2WpzArWA",
       "recSE80ZWX568HCiz",
       "reccATkRbfWDQGzvn"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recavapFAQR3ZEzqO",
@@ -6442,6 +7192,7 @@
     ],
     "translation_heb": "כופתאות מטוגנות",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -6472,6 +7223,7 @@
     "translation_heb": "חציל מטוגן",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -6494,14 +7246,14 @@
       "rec9nzkNGPE3RbNEq",
       "recOKQe2BPlJ4MaOt"
     ],
+    "isSearchable": false,
     "translation_heb": "פלפל חריף מטוגן",
     "excludedInDiets": [],
     "foodGroups": [
       "recWpISCcCcAIX1lr",
       "recRLRNG6VRO3pnoY",
       "reccATkRbfWDQGzvn"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recNdEkPs65ibAD7J",
@@ -6566,6 +7318,7 @@
     "translation_heb": "בטטה מטוגנת",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -6651,13 +7404,13 @@
       "recunwwkCTGfBX5yn",
       "recOKQe2BPlJ4MaOt"
     ],
+    "isSearchable": false,
     "translation_heb": "קונפי שום",
     "excludedInDiets": [],
     "foodGroups": [
       "recRLRNG6VRO3pnoY",
       "reccATkRbfWDQGzvn"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recXDd0dmvErgJ3jc",
@@ -6903,6 +7656,7 @@
   {
     "id": "recdWi50BqABCsZR2",
     "name": "goose breast",
+    "isSearchable": false,
     "groups": [
       "recwJ3CsMWeKmDBlS"
     ],
@@ -6914,8 +7668,7 @@
     ],
     "foodGroups": [
       "recwJ3CsMWeKmDBlS"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rec1jR8aookD3hYl3",
@@ -7180,6 +7933,7 @@
   {
     "id": "recvKjpunfNfZhNPH",
     "name": "green olives",
+    "isSearchable": true,
     "groups": [
       "recpmsyjcMOP7g6yR"
     ],
@@ -7187,8 +7941,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recpmsyjcMOP7g6yR"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recDPH3nHZw2fuVdg",
@@ -7253,6 +8006,7 @@
       "rec0OnKP0IIRt69My",
       "recXeFEPeNz9MTGnu"
     ],
+    "isSearchable": true,
     "translation_heb": "סחוג",
     "excludedInDiets": [],
     "foodGroups": [
@@ -7263,8 +8017,7 @@
       "recKixXejzsCDapen",
       "recKixXejzsCDapen",
       "recRQstqYOST4uTB1"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recLkLvEKOfNQP2Lb",
@@ -7507,6 +8260,7 @@
   {
     "id": "reccDJKRa85dU8fKi",
     "name": "E445",
+    "isSearchable": false,
     "synonyms": "glycerol ester",
     "groups": [
       "recDXBerbCvKBauuo"
@@ -7517,8 +8271,7 @@
     ],
     "foodGroups": [
       "recDXBerbCvKBauuo"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recqhHExlwejWiOaw",
@@ -7579,6 +8332,7 @@
     ],
     "translation_heb": "לחמניות המבורגר",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -7648,9 +8402,13 @@
     ],
     "isSearchable": false,
     "description": "Harissa is a hot chili pepper paste, native to the Maghreb",
+    "groups": [
+      "recWpISCcCcAIX1lr"
+    ],
     "translation_heb": "אריסה",
     "excludedInDiets": [],
     "foodGroups": [
+      "recWpISCcCcAIX1lr",
       "recWpISCcCcAIX1lr",
       "recRLRNG6VRO3pnoY",
       "recRLRNG6VRO3pnoY",
@@ -7677,6 +8435,7 @@
   {
     "id": "recoVI8FOsAdsrAGS",
     "name": "HAVANA CLUB 3",
+    "isSearchable": false,
     "description": "white rum, 100% made and aged in Cuba from local sugarcane molasses, this light aged white rum combines the fresh, green notes of sugarcane with the fruity notes of Caribbean rum",
     "groups": [
       "recbwkcvn4kDnToiL"
@@ -7685,8 +8444,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recbwkcvn4kDnToiL"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recYXHwcwPu6dWAs7",
@@ -7896,6 +8654,7 @@
       "recEsLLi7WO3oBS0I",
       "recUbXDwTIVaajLp9"
     ],
+    "isSearchable": false,
     "translation_heb": "רוטב דבש לימון",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
@@ -7909,8 +8668,7 @@
       "recX7LWBWgvLk0fXO",
       "reccATkRbfWDQGzvn",
       "recRQstqYOST4uTB1"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recwqZChSuSD8CMHe",
@@ -8008,6 +8766,7 @@
   {
     "id": "recXKaSUiiJldsPBU",
     "name": "Hop Extract",
+    "isSearchable": false,
     "groups": [
       "recKixXejzsCDapen"
     ],
@@ -8015,8 +8774,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recKixXejzsCDapen"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recWHDfMwJUbvQbUF",
@@ -8571,6 +9329,7 @@
     "description": " A very fine vermicelli-like pastry used to make desserts in various Mediterranean and Middle Eastern cuisines",
     "translation_heb": "קדאיף",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -8718,6 +9477,7 @@
       "recpNLk4146tpNVy6",
       "recKzibs119a7JAF5"
     ],
+    "isSearchable": false,
     "synonyms": "Klik",
     "translation_heb": "קליק",
     "excludedInDiets": [
@@ -8737,8 +9497,7 @@
       "recGrdvYp4KJzbvdd",
       "rec1i6OIh6k0ujUih",
       "recA1DeocMW69g9QP"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recWq6iDyhEVIJb2R",
@@ -8877,6 +9636,7 @@
   {
     "id": "reczNV3SyERPbAnQX",
     "name": "lamb fat",
+    "isSearchable": false,
     "groups": [
       "rec3OxjSiLWyj8hx5"
     ],
@@ -8884,8 +9644,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "rec3OxjSiLWyj8hx5"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recznqv7a1CC0kJ1V",
@@ -9154,8 +9913,7 @@
     "name": "Light Sour Cream",
     "subIngredients": [
       "recAeUdJprwtRSDxN",
-      "reckoshXX8J5KR37j",
-      "recJXPMJgqWVcQ6ZD"
+      "reckoshXX8J5KR37j"
     ],
     "isSearchable": false,
     "tags": [
@@ -9166,14 +9924,12 @@
     ],
     "translation_heb": "שמנת חמוצה דלת שומן ",
     "excludedInDiets": [
-      "rec9lyqSGhtIFE6pM",
-      "rec8pz0YYIGmScPu5"
+      "rec9lyqSGhtIFE6pM"
     ],
     "foodGroups": [
       "recDKed5TeW8D5XTO",
       "recasLcin4Wr9ihNx",
-      "recN0HIrikkUk6AvS",
-      "recDXBerbCvKBauuo"
+      "recN0HIrikkUk6AvS"
     ]
   },
   {
@@ -10070,6 +10826,10 @@
       "recx5oxBA7cxb2y1f",
       "reccDJKRa85dU8fKi"
     ],
+    "isSearchable": false,
+    "groups": [
+      "rec2m2Z8keGUVLwNA"
+    ],
     "translation_heb": "מירנדה",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -10077,6 +10837,7 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec2m2Z8keGUVLwNA",
       "recA1DeocMW69g9QP",
       "recN0HIrikkUk6AvS",
       "recDigAI6dMidBT0X",
@@ -10084,8 +10845,7 @@
       "recN0HIrikkUk6AvS",
       "recN0HIrikkUk6AvS",
       "recDXBerbCvKBauuo"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "reccmTxa4vDXdobA2",
@@ -10226,6 +10986,7 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec9aef6vga0ZHQHN",
       "recYgJLdDlWsTxVGe",
       "recHJLhfoFpQuTVOI",
       "recA1DeocMW69g9QP",
@@ -10297,6 +11058,7 @@
     "translation_heb": "רוטב מורני",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recFh4JVbTqqu9Rhf",
       "recqkfhdi9py4PNCJ"
@@ -11291,6 +12053,7 @@
   {
     "id": "recdlGU92qTqLmALu",
     "name": "palm sugar",
+    "isSearchable": true,
     "groups": [
       "recA1DeocMW69g9QP"
     ],
@@ -11302,8 +12065,7 @@
     ],
     "foodGroups": [
       "recA1DeocMW69g9QP"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rectNxFPxTgnZXOua",
@@ -11473,6 +12235,7 @@
   {
     "id": "rec8NQp1w9MXaW6qg",
     "name": "Passion fruit",
+    "isSearchable": true,
     "groups": [
       "recmCzPUKuoYcsS42"
     ],
@@ -11480,8 +12243,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recmCzPUKuoYcsS42"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recR0kTrHjoROdmjp",
@@ -11748,6 +12510,7 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -11799,9 +12562,15 @@
     ],
     "isSearchable": true,
     "description": "is the generic Italian name for hot chili peppers",
+    "groups": [
+      "recjiQfjWqXpnBZ9K",
+      "recWpISCcCcAIX1lr"
+    ],
     "translation_heb": "פלפלים חריפים",
     "excludedInDiets": [],
     "foodGroups": [
+      "recjiQfjWqXpnBZ9K",
+      "recWpISCcCcAIX1lr",
       "recWpISCcCcAIX1lr",
       "recRLRNG6VRO3pnoY"
     ]
@@ -11812,6 +12581,10 @@
     "subIngredients": [
       "rec8pKfAEwucwp78c"
     ],
+    "isSearchable": true,
+    "groups": [
+      "rec2m2Z8keGUVLwNA"
+    ],
     "translation_heb": "פפסי",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -11819,33 +12592,48 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec2m2Z8keGUVLwNA",
       "recA1DeocMW69g9QP"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recFFI26d806duXDz",
     "name": "pepsi max",
+    "isSearchable": true,
+    "groups": [
+      "rec2m2Z8keGUVLwNA"
+    ],
     "translation_heb": "פפסי מקס",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "rec2m2Z8keGUVLwNA"
+    ]
   },
   {
     "id": "recoLPpaM6J7uRp86",
     "name": "perrier water - small ",
+    "isSearchable": false,
+    "groups": [
+      "rec5FGOyTzybyseEx"
+    ],
     "translation_heb": " פרייה קטן",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "rec5FGOyTzybyseEx"
+    ]
   },
   {
     "id": "recAoqCqJXdOlTVzw",
     "name": "perrier water - large",
+    "isSearchable": false,
+    "groups": [
+      "rec5FGOyTzybyseEx"
+    ],
     "translation_heb": "פרייה גדול",
     "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "foodGroups": [
+      "rec5FGOyTzybyseEx"
+    ]
   },
   {
     "id": "recuk6HVjWlSQCx5A",
@@ -11893,6 +12681,7 @@
       "rec1wJsgIiNYuaV1u",
       "recgmqC1UIdbKTSd5"
     ],
+    "isSearchable": false,
     "translation_heb": "תערובת תבלינים פילדלפיה ",
     "excludedInDiets": [],
     "foodGroups": [
@@ -11905,8 +12694,7 @@
       "recRLRNG6VRO3pnoY",
       "recKixXejzsCDapen",
       "recKixXejzsCDapen"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recYYRcHTkcngGfZJ",
@@ -12056,6 +12844,7 @@
     "translation_heb": "פירוגי",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -12217,6 +13006,7 @@
     ],
     "translation_heb": "פיתה",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -12236,11 +13026,13 @@
       "recc0DmCDcXGYqD3j",
       "recOKQe2BPlJ4MaOt"
     ],
+    "isSearchable": true,
     "groups": [
       "recurt87JNmeE6SzQ"
     ],
     "translation_heb": "בצק פיצה",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -12251,8 +13043,7 @@
       "recPRWumn2WpzArWA",
       "rec33e05fmRcCDf4i",
       "reccATkRbfWDQGzvn"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rechxTbqAb2qWZcaD",
@@ -12296,6 +13087,7 @@
       "reckoshXX8J5KR37j",
       "recjakgmzALOL4AbL"
     ],
+    "isSearchable": false,
     "translation_heb": "רוטב שזיפים",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -12317,8 +13109,7 @@
       "recN0HIrikkUk6AvS",
       "recN0HIrikkUk6AvS",
       "rec9aef6vga0ZHQHN"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recJfHuSoz2Asj2qI",
@@ -12383,6 +13174,7 @@
       "rec9lyqSGhtIFE6pM",
       "recQlw7MMtl1KlpNP",
       "reczLN4jNH5npEarc",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recFh4JVbTqqu9Rhf",
       "recqkfhdi9py4PNCJ"
@@ -12646,30 +13438,11 @@
   {
     "id": "rec9y3fOFjDyxb6EB",
     "name": "E244",
+    "isSearchable": false,
     "groups": [
       "recDXBerbCvKBauuo"
     ],
     "translation_heb": "אשלגן דו גפרתי",
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
-    ],
-    "foodGroups": [
-      "recDXBerbCvKBauuo"
-    ],
-    "isSearchable": false
-  },
-  {
-    "id": "recJXPMJgqWVcQ6ZD",
-    "name": "Potassium Sorbate",
-    "isSearchable": false,
-    "description": "Preservative",
-    "tags": [
-      "recDXBerbCvKBauuo"
-    ],
-    "groups": [
-      "recDXBerbCvKBauuo"
-    ],
-    "translation_heb": "אשלגן סורבט",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5"
     ],
@@ -12680,6 +13453,7 @@
   {
     "id": "recI8lS3CF5AibMHJ",
     "name": "E202",
+    "isSearchable": false,
     "groups": [
       "recN0HIrikkUk6AvS"
     ],
@@ -12687,8 +13461,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recN0HIrikkUk6AvS"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recHtj3nfYdQqUFmO",
@@ -12968,6 +13741,7 @@
     ],
     "translation_heb": "לחמניית פרצל",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -12987,11 +13761,13 @@
       "rec22WY65XYvEccUt",
       "recuFLsNpIMHWdQWr"
     ],
+    "isSearchable": true,
     "groups": [
       "recurt87JNmeE6SzQ"
     ],
     "translation_heb": "בייגלה",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -13001,8 +13777,7 @@
       "recurt87JNmeE6SzQ",
       "recPRWumn2WpzArWA",
       "reccATkRbfWDQGzvn"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rechleKz26xVtaDb4",
@@ -13051,6 +13826,7 @@
   {
     "id": "rec256FsmuOVGr3pe",
     "name": "Quinine",
+    "isSearchable": false,
     "groups": [
       "recN0HIrikkUk6AvS"
     ],
@@ -13058,8 +13834,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recN0HIrikkUk6AvS"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rec1IABrfNV7Yyge6",
@@ -13091,6 +13866,7 @@
     ],
     "translation_heb": "אטריות ראמן",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -13437,12 +14213,16 @@
     ],
     "isSearchable": true,
     "translation_heb": "משחת קארי אדומה",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recQlw7MMtl1KlpNP",
+      "recTqrrExyN2M0oG8"
+    ],
     "foodGroups": [
       "recRLRNG6VRO3pnoY",
       "recKixXejzsCDapen",
       "recWpISCcCcAIX1lr",
       "recRLRNG6VRO3pnoY",
+      "recAjiOEZMV6ObquU",
       "recRQstqYOST4uTB1",
       "reclWKSsmJOut9eRI",
       "rec9aef6vga0ZHQHN"
@@ -13892,21 +14672,26 @@
       "recBCVie0Si6xaSTp",
       "rec790UdQSjJXmK6w"
     ],
+    "isSearchable": true,
+    "groups": [
+      "recRLRNG6VRO3pnoY"
+    ],
     "translation_heb": "ירקות שורש",
     "excludedInDiets": [],
     "foodGroups": [
+      "recRLRNG6VRO3pnoY",
       "reciEjtCi62wG3bkB",
       "recRLRNG6VRO3pnoY",
       "recRLRNG6VRO3pnoY",
       "recapwT9gLHskncZS",
       "recRLRNG6VRO3pnoY",
       "recjQPuY0MXSND7wJ"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rec5CP9lwweFpP2wt",
     "name": "rose water",
+    "isSearchable": true,
     "groups": [
       "recN0HIrikkUk6AvS"
     ],
@@ -13914,8 +14699,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recN0HIrikkUk6AvS"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recCX3d0ZTTmN4c9o",
@@ -13942,12 +14726,17 @@
       "recpIiQLboizMe8J9",
       "reccDJKRa85dU8fKi"
     ],
+    "groups": [
+      "rec6sIEbuBWYos6Wk"
+    ],
+    "translation_heb": "רוטן תפוזים",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
       "recDlVagQGOiParjH",
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec6sIEbuBWYos6Wk",
       "recA1DeocMW69g9QP",
       "recN0HIrikkUk6AvS",
       "rec0ZY6yIjGm0lEMV",
@@ -13966,6 +14755,9 @@
       "recRxY1kG8elmfgx8",
       "recOHsYSOS2AjnLOX"
     ],
+    "groups": [
+      "rec6sIEbuBWYos6Wk"
+    ],
     "translation_heb": "רוטן אפרסק",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -13973,6 +14765,7 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec6sIEbuBWYos6Wk",
       "recA1DeocMW69g9QP",
       "recmCzPUKuoYcsS42",
       "recJ0Kp5PBpH5pAeR",
@@ -13990,6 +14783,9 @@
       "recx5oxBA7cxb2y1f",
       "reccDJKRa85dU8fKi"
     ],
+    "groups": [
+      "rec6sIEbuBWYos6Wk"
+    ],
     "translation_heb": "רוטן אננס",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -13997,6 +14793,7 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec6sIEbuBWYos6Wk",
       "recA1DeocMW69g9QP",
       "recN0HIrikkUk6AvS",
       "recDXBerbCvKBauuo"
@@ -14013,6 +14810,9 @@
       "recRxY1kG8elmfgx8",
       "reckK6MEjk8BdwKSW"
     ],
+    "groups": [
+      "rec6sIEbuBWYos6Wk"
+    ],
     "translation_heb": "רוטן תותים",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -14020,6 +14820,7 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec6sIEbuBWYos6Wk",
       "recA1DeocMW69g9QP",
       "rec0ZY6yIjGm0lEMV",
       "recH9WbjaML3hib6B",
@@ -14039,6 +14840,9 @@
       "recRxY1kG8elmfgx8",
       "reckK6MEjk8BdwKSW"
     ],
+    "groups": [
+      "rec6sIEbuBWYos6Wk"
+    ],
     "translation_heb": "רוטן אבטיח",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -14046,6 +14850,7 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec6sIEbuBWYos6Wk",
       "recA1DeocMW69g9QP",
       "rec0ZY6yIjGm0lEMV",
       "recmCzPUKuoYcsS42",
@@ -14194,6 +14999,9 @@
       "rec2g69uwG7Spfq1n"
     ],
     "isSearchable": false,
+    "groups": [
+      "recZmajE2LE8mmq1m"
+    ],
     "translation_heb": "טוסט שיפון",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -14201,6 +15009,7 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "recZmajE2LE8mmq1m",
       "recZmajE2LE8mmq1m",
       "recqqxsvSS6LY3Aab",
       "recurt87JNmeE6SzQ",
@@ -14235,9 +15044,14 @@
     "tags": [
       "rec9aef6vga0ZHQHN"
     ],
+    "groups": [
+      "rec9aef6vga0ZHQHN"
+    ],
     "translation_heb": "זעפרן",
     "excludedInDiets": [],
-    "foodGroups": []
+    "foodGroups": [
+      "rec9aef6vga0ZHQHN"
+    ]
   },
   {
     "id": "receB7vNspb9AEpnf",
@@ -15044,12 +15858,16 @@
       "recSGWptHcUJPavx1",
       "recXeFEPeNz9MTGnu"
     ],
+    "isSearchable": false,
     "translation_heb": "ממרח חסילונים",
-    "excludedInDiets": [],
-    "foodGroups": [
-      "recRQstqYOST4uTB1"
+    "excludedInDiets": [
+      "recQlw7MMtl1KlpNP",
+      "recTqrrExyN2M0oG8"
     ],
-    "isSearchable": false
+    "foodGroups": [
+      "recAjiOEZMV6ObquU",
+      "recRQstqYOST4uTB1"
+    ]
   },
   {
     "id": "recSGWptHcUJPavx1",
@@ -15058,9 +15876,17 @@
     "tags": [
       "recAjiOEZMV6ObquU"
     ],
+    "groups": [
+      "recAjiOEZMV6ObquU"
+    ],
     "translation_heb": "שרימפס",
-    "excludedInDiets": [],
-    "foodGroups": []
+    "excludedInDiets": [
+      "recQlw7MMtl1KlpNP",
+      "recTqrrExyN2M0oG8"
+    ],
+    "foodGroups": [
+      "recAjiOEZMV6ObquU"
+    ]
   },
   {
     "id": "rec7LYd94Idl7ET9z",
@@ -15383,6 +16209,7 @@
   {
     "id": "rectP6TYqJoZVWhss",
     "name": "E211",
+    "isSearchable": false,
     "groups": [
       "recDXBerbCvKBauuo"
     ],
@@ -15392,8 +16219,7 @@
     ],
     "foodGroups": [
       "recDXBerbCvKBauuo"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rectgljNOF55XLODk",
@@ -15416,10 +16242,17 @@
   {
     "id": "rec9765BycwVV8I9r",
     "name": "e223",
+    "isSearchable": false,
+    "groups": [
+      "recDXBerbCvKBauuo"
+    ],
     "translation_heb": "e223",
-    "excludedInDiets": [],
-    "foodGroups": [],
-    "isSearchable": false
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recDXBerbCvKBauuo"
+    ]
   },
   {
     "id": "recv8uW4wJgsJjTCr",
@@ -15557,6 +16390,7 @@
     ],
     "translation_heb": "לחם מחמצת",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -15662,6 +16496,7 @@
     "subIngredients": [
       "rec3qeLzpfTiAbKIu"
     ],
+    "isSearchable": true,
     "groups": [
       "recVSf3qwSKLDfbw2"
     ],
@@ -15672,8 +16507,7 @@
     "foodGroups": [
       "recVSf3qwSKLDfbw2",
       "recGrdvYp4KJzbvdd"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recMUYWFSwTybo3yY",
@@ -16362,6 +17196,7 @@
     ],
     "translation_heb": "כופתאות מאודות",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -16376,6 +17211,7 @@
   {
     "id": "recXttFK8qnkFsjw1",
     "name": "steviol glycosides",
+    "isSearchable": true,
     "groups": [
       "recshRojqcVWbJnty"
     ],
@@ -16383,8 +17219,7 @@
     "excludedInDiets": [],
     "foodGroups": [
       "recshRojqcVWbJnty"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recCpEHMnCe4qFMsW",
@@ -16454,7 +17289,6 @@
       "recvr8kIqxedjZztj",
       "recRxY1kG8elmfgx8",
       "recadiNZKw2SVjGQc",
-      "recJXPMJgqWVcQ6ZD",
       "recnzpz0Qi6h0B52f"
     ],
     "isSearchable": false,
@@ -16472,7 +17306,6 @@
       "recH9WbjaML3hib6B",
       "recN0HIrikkUk6AvS",
       "recN0HIrikkUk6AvS",
-      "recDXBerbCvKBauuo",
       "recmCzPUKuoYcsS42",
       "recUHO5l7YHCs0J3f"
     ]
@@ -16485,7 +17318,6 @@
       "recvr8kIqxedjZztj",
       "recRxY1kG8elmfgx8",
       "recadiNZKw2SVjGQc",
-      "recJXPMJgqWVcQ6ZD",
       "recocCLDLgXRd3cZM"
     ],
     "isSearchable": false,
@@ -16499,7 +17331,6 @@
       "recA1DeocMW69g9QP",
       "recN0HIrikkUk6AvS",
       "recN0HIrikkUk6AvS",
-      "recDXBerbCvKBauuo",
       "recmCzPUKuoYcsS42"
     ]
   },
@@ -16532,7 +17363,7 @@
     "groups": [
       "recA1DeocMW69g9QP"
     ],
-    "translation_heb": "סוכר",
+    "translation_heb": "סוכר לבן",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
       "recDlVagQGOiParjH",
@@ -16670,7 +17501,6 @@
       "recdcaoIvREFe3hVo",
       "rec1JNaCC05fZCsq8",
       "recXeFEPeNz9MTGnu",
-      "recJXPMJgqWVcQ6ZD",
       "recRxY1kG8elmfgx8",
       "recHQJ9tn3GBL8IrT",
       "recjakgmzALOL4AbL",
@@ -16684,7 +17514,6 @@
     "foodGroups": [
       "rec75vhLm4p0l8HfZ",
       "recRQstqYOST4uTB1",
-      "recDXBerbCvKBauuo",
       "recN0HIrikkUk6AvS",
       "reccATkRbfWDQGzvn",
       "recGrdvYp4KJzbvdd",
@@ -17119,6 +17948,8 @@
       "reccATkRbfWDQGzvn",
       "recRQstqYOST4uTB1",
       "reccATkRbfWDQGzvn",
+      "recjiQfjWqXpnBZ9K",
+      "recWpISCcCcAIX1lr",
       "recWpISCcCcAIX1lr",
       "recRLRNG6VRO3pnoY"
     ]
@@ -17175,6 +18006,7 @@
       "recV32ATO1E8lqGEJ",
       "recuFLsNpIMHWdQWr"
     ],
+    "isSearchable": true,
     "groups": [
       "recurt87JNmeE6SzQ",
       "recr0yKu9WGc9p4QB"
@@ -17182,6 +18014,7 @@
     "translation_heb": "טמפורה",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -17193,8 +18026,7 @@
       "recPRWumn2WpzArWA",
       "recSE80ZWX568HCiz",
       "reccATkRbfWDQGzvn"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recQfDpGxN0czUKnQ",
@@ -17247,7 +18079,6 @@
       "recMcaihUfxU5mjpi",
       "recS1UF0vnTJsSbMp",
       "recRkU5fwMqeQq79N",
-      "recJXPMJgqWVcQ6ZD",
       "recuFLsNpIMHWdQWr"
     ],
     "isSearchable": false,
@@ -17277,7 +18108,6 @@
       "rec9aef6vga0ZHQHN",
       "rec9aef6vga0ZHQHN",
       "rec9aef6vga0ZHQHN",
-      "recDXBerbCvKBauuo",
       "reccATkRbfWDQGzvn"
     ]
   },
@@ -17336,6 +18166,7 @@
     ],
     "translation_heb": "פיתה קלויה",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -17347,6 +18178,8 @@
       "recqqxsvSS6LY3Aab",
       "recurt87JNmeE6SzQ",
       "recPRWumn2WpzArWA",
+      "rec0QscXGfFUDTzBr",
+      "recKixXejzsCDapen",
       "receelNsoQTM6LFwT",
       "recRQstqYOST4uTB1"
     ]
@@ -17427,6 +18260,7 @@
       "rec7O6th1UojW4jyh",
       "recuFLsNpIMHWdQWr"
     ],
+    "isSearchable": false,
     "translation_heb": "סלסת עגבניות ",
     "excludedInDiets": [],
     "foodGroups": [
@@ -17436,31 +18270,26 @@
       "recRLRNG6VRO3pnoY",
       "reclWKSsmJOut9eRI",
       "reccATkRbfWDQGzvn"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rec3JP2ZPysvm6FwJ",
     "name": "tomato salsa",
     "subIngredients": [
-      "recGBGHbizVMrwzF2",
       "rec9nzkNGPE3RbNEq",
       "recuFLsNpIMHWdQWr",
       "recXeFEPeNz9MTGnu",
       "recTPTrGyhfjnLqiQ"
     ],
+    "isSearchable": false,
     "translation_heb": "סלסת עגבניות ",
     "excludedInDiets": [],
     "foodGroups": [
-      "rec3INPlyw5xpVWeX",
       "recWpISCcCcAIX1lr",
       "recRLRNG6VRO3pnoY",
-      "recRLRNG6VRO3pnoY",
-      "reclWKSsmJOut9eRI",
       "reccATkRbfWDQGzvn",
       "recRQstqYOST4uTB1"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rec85vHYHO9z7w0oP",
@@ -17507,6 +18336,10 @@
       "rectP6TYqJoZVWhss",
       "rec256FsmuOVGr3pe"
     ],
+    "isSearchable": true,
+    "groups": [
+      "rec2m2Z8keGUVLwNA"
+    ],
     "translation_heb": "מי טוניק",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -17514,12 +18347,12 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rec2m2Z8keGUVLwNA",
       "recA1DeocMW69g9QP",
       "recN0HIrikkUk6AvS",
       "recDXBerbCvKBauuo",
       "recN0HIrikkUk6AvS"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recJhzUZyzgF7xy0X",
@@ -17758,6 +18591,7 @@
     ],
     "translation_heb": "אטריות אודון",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -17857,6 +18691,10 @@
       "recZPOOcWYQa4wykN",
       "recVGIsR18inCi7Te"
     ],
+    "isSearchable": false,
+    "groups": [
+      "rechZhfFBvUUZrGER"
+    ],
     "translation_heb": "גלידת וניל ואוריאו",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
@@ -17867,6 +18705,7 @@
       "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
+      "rechZhfFBvUUZrGER",
       "recYgJLdDlWsTxVGe",
       "recA1DeocMW69g9QP",
       "recqqxsvSS6LY3Aab",
@@ -17880,8 +18719,7 @@
       "recGrdvYp4KJzbvdd",
       "rec33e05fmRcCDf4i",
       "recUHO5l7YHCs0J3f"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rec21hubarbHAsCQZ",
@@ -17891,6 +18729,7 @@
       "rec8pKfAEwucwp78c",
       "recAeUdJprwtRSDxN"
     ],
+    "isSearchable": false,
     "translation_heb": "קרם ברולה טבעוני",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5",
@@ -17903,8 +18742,7 @@
       "recHJLhfoFpQuTVOI",
       "recA1DeocMW69g9QP",
       "recasLcin4Wr9ihNx"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recShJc6HNFiHeqkU",
@@ -18380,6 +19218,7 @@
   {
     "id": "recV0Yp3ExeSRnwzX",
     "name": "wheat",
+    "isSearchable": false,
     "groups": [
       "recwq1XAJ50UwIOWX",
       "recurt87JNmeE6SzQ"
@@ -18393,8 +19232,7 @@
     "foodGroups": [
       "recwq1XAJ50UwIOWX",
       "recurt87JNmeE6SzQ"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recsHEhPSi3ji9Tyk",
@@ -18430,6 +19268,7 @@
     ],
     "translation_heb": "קמח חיטה",
     "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
       "recuDusYlnKtOh2pZ",
       "recqkfhdi9py4PNCJ"
     ],
@@ -18569,6 +19408,7 @@
       "rec16wGmMSx4tObxu",
       "rec8pKfAEwucwp78c"
     ],
+    "isSearchable": true,
     "groups": [
       "rec1i6OIh6k0ujUih"
     ],
@@ -18582,8 +19422,7 @@
       "rec1i6OIh6k0ujUih",
       "reccATkRbfWDQGzvn",
       "recA1DeocMW69g9QP"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recWiDJ3H4VotgnHQ",
@@ -18591,6 +19430,11 @@
     "subIngredients": [
       "recpNLk4146tpNVy6",
       "recat7Yw4co0QeCHO"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "rec1i6OIh6k0ujUih",
+      "recYgJLdDlWsTxVGe"
     ],
     "translation_heb": "גנאש שוקולד לבן",
     "excludedInDiets": [
@@ -18602,12 +19446,13 @@
     ],
     "foodGroups": [
       "rec1i6OIh6k0ujUih",
+      "recYgJLdDlWsTxVGe",
+      "rec1i6OIh6k0ujUih",
       "reccATkRbfWDQGzvn",
       "recA1DeocMW69g9QP",
       "recYgJLdDlWsTxVGe",
       "recYgJLdDlWsTxVGe"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rec0pmtE3eJWdqp1x",
@@ -18676,7 +19521,6 @@
       "recRxY1kG8elmfgx8",
       "recadiNZKw2SVjGQc",
       "reckoshXX8J5KR37j",
-      "recJXPMJgqWVcQ6ZD",
       "recx5oxBA7cxb2y1f"
     ],
     "isSearchable": false,
@@ -18692,7 +19536,6 @@
       "recN0HIrikkUk6AvS",
       "recN0HIrikkUk6AvS",
       "recN0HIrikkUk6AvS",
-      "recDXBerbCvKBauuo",
       "recN0HIrikkUk6AvS"
     ]
   },
@@ -19070,12 +19913,16 @@
     "tags": [
       "recYgJLdDlWsTxVGe"
     ],
+    "groups": [
+      "recYgJLdDlWsTxVGe"
+    ],
     "translation_heb": "יוגורט",
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
       "recFh4JVbTqqu9Rhf"
     ],
     "foodGroups": [
+      "recYgJLdDlWsTxVGe",
       "recYgJLdDlWsTxVGe",
       "recRQstqYOST4uTB1"
     ]
@@ -19116,9 +19963,14 @@
     "tags": [
       "recKixXejzsCDapen"
     ],
+    "groups": [
+      "recKixXejzsCDapen"
+    ],
     "translation_heb": "אזוב , צמח זעתר ",
     "excludedInDiets": [],
-    "foodGroups": []
+    "foodGroups": [
+      "recKixXejzsCDapen"
+    ]
   },
   {
     "id": "recfY7zuiP4jB3LnD",
@@ -19134,9 +19986,14 @@
     "tags": [
       "rec0QscXGfFUDTzBr"
     ],
+    "groups": [
+      "rec0QscXGfFUDTzBr"
+    ],
     "translation_heb": "זעתר",
     "excludedInDiets": [],
     "foodGroups": [
+      "rec0QscXGfFUDTzBr",
+      "recKixXejzsCDapen",
       "receelNsoQTM6LFwT",
       "recRQstqYOST4uTB1"
     ]
@@ -19149,15 +20006,19 @@
       "recYYRcHTkcngGfZJ",
       "recP0U0YK11UrKq8j"
     ],
-    "translation_heb": "קולה זירה ",
+    "isSearchable": true,
+    "groups": [
+      "rec2m2Z8keGUVLwNA"
+    ],
+    "translation_heb": "קולה זירו ",
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5"
     ],
     "foodGroups": [
+      "rec2m2Z8keGUVLwNA",
       "recN0HIrikkUk6AvS",
       "recUHO5l7YHCs0J3f"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "rec7LIrXaMukwp1Cx",
@@ -19218,6 +20079,7 @@
   {
     "id": "recEdQjvWMb37hRaD",
     "name": "grape alcohol",
+    "isSearchable": false,
     "groups": [
       "recAvCd37VjynjiAV"
     ],
@@ -19227,8 +20089,7 @@
     ],
     "foodGroups": [
       "recAvCd37VjynjiAV"
-    ],
-    "isSearchable": false
+    ]
   },
   {
     "id": "recz9TarhQNcuTAMr",
@@ -19260,6 +20121,379 @@
     ],
     "foodGroups": [
       "recA1DeocMW69g9QP"
+    ]
+  },
+  {
+    "id": "recbM6amyeBOkNVSs",
+    "name": "Whiskey",
+    "isSearchable": false,
+    "groups": [
+      "recIS31LLynTCDKyp"
+    ],
+    "translation_heb": "וויסקי",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recIS31LLynTCDKyp"
+    ]
+  },
+  {
+    "id": "recXk7rwRxFr7Nsru",
+    "name": "Riesling",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "ריזלינג",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recWaFH2MtGpG3ZqL",
+    "name": "Cabernet Sauvignon",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "קברנה סוביניון",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "rec4pqaEHKOLLMh1Z",
+    "name": "Sangiovese ",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "סנג'ובזה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recJvCWXpMJL8UF79",
+    "name": "Pinot Noir",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "פינו נואר",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recBnUGNyPVSYmpmH",
+    "name": "Pinot Grigio",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "פינו גריגיו",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "rech5DzFAF2zRUHyT",
+    "name": "Chardonnay ",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "שרדונה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recYKeoEuowf0pF2e",
+    "name": "Sauvignon Blanc",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "סוביניון בלאן",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recYo73p3lxl4LNYD",
+    "name": "Shiraz ",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "שיראז",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recXvhtGffFIsljZ3",
+    "name": "Zinfandel",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "זינפנדל",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recRorOQIfs6iQTs1",
+    "name": "Zinfandel",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "זינפנדל",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recBgayClSxb7hYaX",
+    "name": "Syrah ",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "סירה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recIncW4wnVfOv3d4",
+    "name": "Gewurztraminer ",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "גווירצטרמינר",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "rec1hfLlllUuy5rFx",
+    "name": "malbec",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "מלבק",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recENttm5GvZW4uFc",
+    "name": "Lambrusco",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "למברוסקו",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "rec21cIuZJfWBpga0",
+    "name": "Merlot",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "מרלו",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "rec7ehk3vmx4habQt",
+    "name": "Macabeo",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "מקבאו",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recxEwXAnKxj5Tjqg",
+    "name": "Xarel-lo",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "שארל-לו",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recmkcx21sbwCvUM2",
+    "name": "Paellada",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "פרלדה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recI5QYk0ygZhr6KG",
+    "name": "Pineapple extract",
+    "isSearchable": false,
+    "groups": [
+      "recDXBerbCvKBauuo"
+    ],
+    "translation_heb": "תמצית אננס",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recDXBerbCvKBauuo"
+    ]
+  },
+  {
+    "id": "recWq5aTTOv2bgGbu",
+    "name": "E133",
+    "isSearchable": false,
+    "groups": [
+      "recy2Nh2sfSLTNXbH"
+    ],
+    "translation_heb": "כחול בוהק FCF - E133",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recy2Nh2sfSLTNXbH"
+    ]
+  },
+  {
+    "id": "recfxI6jiHdvPw4sU",
+    "name": "rose extract",
+    "isSearchable": false,
+    "groups": [
+      "recN0HIrikkUk6AvS"
+    ],
+    "translation_heb": "תמצית ורדים",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recN0HIrikkUk6AvS"
+    ]
+  },
+  {
+    "id": "recXzsrr54HZhm6Rc",
+    "name": "Sulfur dioxide",
+    "isSearchable": false,
+    "groups": [
+      "recDXBerbCvKBauuo"
+    ],
+    "translation_heb": "גופרית דו-חמצנית",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recDXBerbCvKBauuo"
+    ]
+  },
+  {
+    "id": "recAHYRDSRDBT8aCn",
+    "name": "Muscat",
+    "isSearchable": true,
+    "groups": [
+      "recgo0VQQt0W4HGik"
+    ],
+    "translation_heb": "מוסקט",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recgo0VQQt0W4HGik"
+    ]
+  },
+  {
+    "id": "recgBVAPqhSS4p5Se",
+    "name": "Caribbean rum",
+    "subIngredients": [
+      "recRYoKgSDERqVEHN",
+      "rec8pKfAEwucwp78c"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recbwkcvn4kDnToiL"
+    ],
+    "translation_heb": "רום",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recbwkcvn4kDnToiL",
+      "recA1DeocMW69g9QP",
+      "recA1DeocMW69g9QP"
+    ]
+  },
+  {
+    "id": "recRYoKgSDERqVEHN",
+    "name": "sugarcane distillate",
+    "isSearchable": false,
+    "groups": [
+      "recA1DeocMW69g9QP"
+    ],
+    "translation_heb": "תזקיק סוכר קנים",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recA1DeocMW69g9QP"
+    ]
+  },
+  {
+    "id": "recVWOhuOmEzVQZrY",
+    "name": "coconut extract",
+    "subIngredients": [
+      "recrVbpPI7LXWIHSb"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recN0HIrikkUk6AvS"
+    ],
+    "translation_heb": "תמצית קוקוס",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recN0HIrikkUk6AvS",
+      "recHJLhfoFpQuTVOI"
     ]
   }
 ]
