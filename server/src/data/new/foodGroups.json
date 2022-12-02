@@ -838,7 +838,7 @@
   {
     "id": "recfqsjPJYOLjkUvT",
     "name": "Wine",
-    "translation_heb": "יין",
+    "translation_heb": "יינות",
     "parentGroups": [
       "recAvCd37VjynjiAV"
     ]
@@ -900,6 +900,7 @@
   {
     "id": "recx4yr5O5xQnY7L0",
     "name": "anise liquors",
+    "translation_heb": "ליקרים בטעמי אניס",
     "parentGroups": [
       "recAvCd37VjynjiAV",
       "recDDXjev73zW9NBZ",
@@ -930,5 +931,275 @@
       "recAvCd37VjynjiAV",
       "recDDXjev73zW9NBZ"
     ]
+  },
+  {
+    "id": "recrclGxty3NZm7tq",
+    "name": "White wines",
+    "translation_heb": "יינות לבנים",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recfqsjPJYOLjkUvT"
+    ]
+  },
+  {
+    "id": "recSSm7hnZBRicJIY",
+    "name": "red wines",
+    "translation_heb": "יינות אדומים",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recfqsjPJYOLjkUvT"
+    ]
+  },
+  {
+    "id": "recQayV39KmB1rvCq",
+    "name": "red wines",
+    "translation_heb": "יינות אדומים",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recfqsjPJYOLjkUvT"
+    ]
+  },
+  {
+    "id": "recLuWPP2OSHlG8pt",
+    "name": "vodka",
+    "translation_heb": "וודקה",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recDDXjev73zW9NBZ"
+    ]
+  },
+  {
+    "id": "recIS31LLynTCDKyp",
+    "name": "Whiskey",
+    "translation_heb": "וויסקי",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recDDXjev73zW9NBZ"
+    ]
+  },
+  {
+    "id": "recV5fHl7YWRNelyQ",
+    "name": "Liqueurs",
+    "translation_heb": "ליקרים",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recDDXjev73zW9NBZ"
+    ]
+  },
+  {
+    "id": "recW39Jnf34VWgWEd",
+    "name": "bitters",
+    "translation_heb": "ביטרים",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recDDXjev73zW9NBZ"
+    ]
+  },
+  {
+    "id": "recFZXXGFLCRMNR5o",
+    "name": "Alcopop , spirit cooler",
+    "translation_heb": "אלכופופ",
+    "parentGroups": [
+      "recAvCd37VjynjiAV",
+      "recDDXjev73zW9NBZ"
+    ]
+  },
+  {
+    "id": "recG1zS7YLvPucxsK",
+    "name": "gin",
+    "translation_heb": "ג'ין",
+    "parentGroups": [
+      "recAvCd37VjynjiAV"
+    ]
+  },
+  {
+    "id": "reco7sODroUb7TMZB",
+    "name": "Blended whiskey",
+    "translation_heb": "בלנדד ויסקי",
+    "parentGroups": [
+      "recIS31LLynTCDKyp"
+    ]
+  },
+  {
+    "id": "recgo0VQQt0W4HGik",
+    "name": "grapes",
+    "translation_heb": "ענבים",
+    "parentGroups": [
+      "recmCzPUKuoYcsS42"
+    ]
+  },
+  {
+    "id": "rec5YDC6O0XmPvW6P",
+    "name": "lager",
+    "translation_heb": "בירות לאגר",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "rec2m2Z8keGUVLwNA",
+    "name": "soft drinks",
+    "translation_heb": "משקאות קלים",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "rectaf1dNJEkPQdhE",
+    "name": "ale",
+    "translation_heb": "אייל",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recq2iB1sBgUQqcd2",
+    "name": "Porter",
+    "translation_heb": "פורטר",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recbq2gfD9qtGkuKF",
+    "name": "Stout",
+    "translation_heb": "סטאוט",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recHzsfnDksLUzdgG",
+    "name": "Blonde Ale",
+    "translation_heb": "בלונד אייל",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recg6oDGmlDZ7q2RQ",
+    "name": "Brown Ales ",
+    "translation_heb": "בראון אייל",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ",
+      "rectaf1dNJEkPQdhE"
+    ]
+  },
+  {
+    "id": "rec2BddwjEjsweP95",
+    "name": "Pale Ale",
+    "translation_heb": "פייל אייל",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recZMBt40CnR3OnUx",
+    "name": "IPA",
+    "translation_heb": "בירות IPA",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recp0WQugkOwzQEE8",
+    "name": "Wheat beer",
+    "translation_heb": "בירות חיטה",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "reco3k2OiNm5PtX2K",
+    "name": "Pilsner",
+    "translation_heb": "פילסנר",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recbsb2LExLF5IP91",
+    "name": "Sour Ale ",
+    "translation_heb": "בירות חמוצות",
+    "parentGroups": [
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ"
+    ]
+  },
+  {
+    "id": "recCsSQnlG1KJxvtd",
+    "name": "kosher",
+    "translation_heb": "כשר"
+  },
+  {
+    "id": "recHFAtr2WZkQ98Im"
+  },
+  {
+    "id": "rec17syXperdobDf8"
+  },
+  {
+    "id": "recq5k3ySOqOC5oui"
+  },
+  {
+    "id": "recelzDwH6cna2uAC",
+    "name": "Sparkling wines",
+    "translation_heb": "יינות מבעבעים"
+  },
+  {
+    "id": "recDawO8L5QbLNa8h",
+    "name": "Single malt whisky",
+    "parentGroups": [
+      "recIS31LLynTCDKyp"
+    ]
+  },
+  {
+    "id": "reczQovi5wQJZkFSs"
+  },
+  {
+    "id": "recF5IDsUG8oUgKyE"
+  },
+  {
+    "id": "recHuy7gZNEvA3RKZ"
+  },
+  {
+    "id": "recyFHxNKx10XMK6M"
+  },
+  {
+    "id": "recQkc9oCqz4PzdnQ"
+  },
+  {
+    "id": "rec9dNWW9jcV7AkOb"
+  },
+  {
+    "id": "recdunSceEXLZP7tz",
+    "name": "Pastis",
+    "translation_heb": "פסטיס",
+    "parentGroups": [
+      "recx4yr5O5xQnY7L0",
+      "rec4hF1tOBgrmX0bn"
+    ]
+  },
+  {
+    "id": "recNgHoP7RU6nyN8S"
+  },
+  {
+    "id": "rec5FGOyTzybyseEx"
+  },
+  {
+    "id": "rec6sIEbuBWYos6Wk"
+  },
+  {
+    "id": "rechZhfFBvUUZrGER"
   }
 ]
