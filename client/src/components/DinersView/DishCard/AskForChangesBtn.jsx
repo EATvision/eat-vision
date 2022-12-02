@@ -40,7 +40,7 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
         size="small"
         onClick={handleClick}
         sx={{
-          fontSize: 10,
+          fontSize: 12,
           fontStyle: 'italic',
           color: theme.palette.common.white,
         }}
