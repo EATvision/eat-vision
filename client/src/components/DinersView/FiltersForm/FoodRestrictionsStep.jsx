@@ -12,7 +12,9 @@ import {
   Dialog,
   Chip,
   Grow,
+  Typography,
 } from '@mui/material'
+import { BiSearchAlt2 as SearchIcon } from 'react-icons/bi'
 
 import RestrictionsSelector from './RestrictionsSelector'
 import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
@@ -165,9 +167,14 @@ function RestrictionFilter({ filters, title, type, onClick }) {
           borderBottom: `1px solid ${theme.palette.divider}`,
         }}
       >
-        <Box>{title}</Box>
+        <Box sx={{ display: 'flex', alignItems: 'center' }}>
+          <Typography sx={{ marginRight: theme.spacing(1) }}>
+            {title}
+          </Typography>
+          <SearchIcon />
+        </Box>
 
-        {
+        {componentsList?.length > 0 && (
           <Box sx={{ padding: theme.spacing(1) }}>
             {componentsList.map((c) => (
               <Chip
@@ -178,7 +185,7 @@ function RestrictionFilter({ filters, title, type, onClick }) {
               />
             ))}
           </Box>
-        }
+        )}
       </ToggleButton>
     </ToggleButtonGroup>
   )
