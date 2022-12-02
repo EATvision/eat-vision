@@ -1,12 +1,11 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Box, Typography, useTheme } from '@mui/material'
+import { Box, Paper, Typography, useTheme } from '@mui/material'
 
 import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 
 import FoodDish from './DishCard/FoodDish'
-import DrinkDish from './DishCard/DrinkDish'
 import Footer from './Footer'
 
 function DishesPage({ dishes }) {
@@ -77,7 +76,9 @@ function DishesPage({ dishes }) {
                   margin: 'auto',
                 }}
               >
-                <Box
+                <Paper
+                  elevation={2}
+                  square
                   sx={{
                     backgroundColor: '#E9E9E9',
                     margin: theme.spacing(2),
@@ -100,7 +101,7 @@ function DishesPage({ dishes }) {
                     {category?.name}
                   </Typography>
                   {category.description && <Box>{category.description}</Box>}
-                </Box>
+                </Paper>
 
                 <Box
                   sx={{
@@ -108,13 +109,9 @@ function DishesPage({ dishes }) {
                     padding: `0 ${theme.spacing(2)}`,
                   }}
                 >
-                  {orderedDishesByCategoryId?.[category.id]?.map((dish) =>
-                    dish.dishType === 'drink' ? (
-                      <DrinkDish key={dish.id} data={dish} />
-                    ) : (
-                      <FoodDish key={dish.id} data={dish} />
-                    )
-                  )}
+                  {orderedDishesByCategoryId?.[category.id]?.map((dish) => (
+                    <FoodDish key={dish.id} data={dish} />
+                  ))}
                 </Box>
               </Box>
             </div>
