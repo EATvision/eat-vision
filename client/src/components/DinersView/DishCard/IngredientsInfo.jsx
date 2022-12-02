@@ -1,8 +1,6 @@
 import React from 'react'
-import { Typography } from '@mui/material'
 import { useV1IngredientsByIds } from 'hooks/ingredients'
 import IngredientsTree from 'components/DinersView/DishCard/IngredientsTree'
-import { t } from 'i18next'
 
 function IngredientsInfo({ data }) {
   const { ingredients: mandatoryIngredients } = useV1IngredientsByIds(
@@ -33,49 +31,34 @@ function IngredientsInfo({ data }) {
     data.recipe.addableDishes.map((c) => c.id)
   )
 
+  const allTopLevelIngredients = React.useMemo(
+    () => [
+      ...new Set([
+        ...(mandatoryIngredients || []),
+        ...(excludableIngredients || []),
+        ...(putasideIngredients || []),
+        ...(choiceIngredients || []),
+        ...(sideDishIngredients || []),
+        ...(addableIngredientsIngredients || []),
+        ...(addableDishesIngredients || []),
+      ]),
+    ],
+    [
+      addableDishesIngredients,
+      addableIngredientsIngredients,
+      choiceIngredients,
+      excludableIngredients,
+      mandatoryIngredients,
+      putasideIngredients,
+      sideDishIngredients,
+    ]
+  )
+
   return (
     <>
-      {mandatoryIngredients?.length > 0 && (
+      {allTopLevelIngredients?.length > 0 && (
         <>
-          <Typography>{t('mandatory_ingredients')}</Typography>
-          <IngredientsTree ingredients={mandatoryIngredients} />
-        </>
-      )}
-
-      {excludableIngredients?.length > 0 && (
-        <>
-          <Typography>{t('excludable_ingredients')}</Typography>
-          <IngredientsTree ingredients={excludableIngredients} />
-        </>
-      )}
-      {putasideIngredients?.length > 0 && (
-        <>
-          <Typography>{t('putaside_ingredients')}</Typography>
-          <IngredientsTree ingredients={putasideIngredients} />
-        </>
-      )}
-      {choiceIngredients?.length > 0 && (
-        <>
-          <Typography>{t('choice_ingredients')}</Typography>
-          <IngredientsTree ingredients={choiceIngredients} />
-        </>
-      )}
-      {sideDishIngredients?.length > 0 && (
-        <>
-          <Typography>{t('sideDish_ingredients')}</Typography>
-          <IngredientsTree ingredients={sideDishIngredients} />
-        </>
-      )}
-      {addableIngredientsIngredients?.length > 0 && (
-        <>
-          <Typography>{t('addable_ingredients')}</Typography>
-          <IngredientsTree ingredients={addableIngredientsIngredients} />
-        </>
-      )}
-      {addableDishesIngredients?.length > 0 && (
-        <>
-          <Typography>{t('addableDishes_ingredients')}</Typography>
-          <IngredientsTree ingredients={addableDishesIngredients} />
+          <IngredientsTree ingredients={allTopLevelIngredients} />
         </>
       )}
     </>
