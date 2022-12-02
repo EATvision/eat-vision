@@ -4,7 +4,7 @@ const intersection = require('lodash/intersection')
 
 const dishes = require('../data/new/dishes.json')
 const ingredients = require('../data/new/ingredients.json')
-const foodGroups = require(('../../src/data/raw/foodGroups.json'))
+const foodGroups = require('../data/new/foodGroups.json')
 
 const foodGroupsById = keyBy(foodGroups, 'id')
 const ingredientsById = keyBy(ingredients, 'id')
