@@ -65,6 +65,7 @@ function DietsSelector({ onNext, onBack }) {
           gap: `0 ${theme.spacing(1)}`,
           marginBottom: '50px',
           overflow: 'auto',
+          // boxShadow: 'inset 0px 0px 9px 0px #726c66',
         }}
       >
         {diets.map((diet) => (

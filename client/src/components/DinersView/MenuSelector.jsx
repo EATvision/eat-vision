@@ -29,11 +29,7 @@ function MenuOptionsBanner() {
     return (
       <Typography
         sx={{
-          fontSize: 20,
-          flex: 1,
-          minWidth: 120,
           color: theme.palette.common.white,
-          textAlign: 'center',
         }}
       >
         {menus[0].name.toLocaleUpperCase()}
@@ -43,7 +39,7 @@ function MenuOptionsBanner() {
 
   return (
     <Select
-      sx={{ minWidth: 120, color: theme.palette.common.white, flex: 1 }}
+      sx={{ color: theme.palette.common.white }}
       value={menuId}
       onChange={handleChange}
       variant="standard"

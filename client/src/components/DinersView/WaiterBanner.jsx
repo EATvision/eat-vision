@@ -54,41 +54,28 @@ function WaiterBanner({ title, subtitle }) {
         sx={{
           margin: 'auto 0px',
           position: 'relative',
-          right: theme.spacing(2),
         }}
       >
         <Grow direction="up" in key={title}>
           <Paper
             elevation={3}
             sx={{
-              marginBottom: theme.spacing(2),
+              margin: `${theme.spacing(2)} 0`,
               position: 'relative',
               borderTopLeftRadius: 0,
-              padding: `0 ${theme.spacing(1)}`,
+              padding: '0 4px',
             }}
           >
             {isRTL ? <RTLTriangle /> : <LTRTriangle />}
             <Typography
               sx={{
+                fontSize: '1.25rem',
                 letterSpacing: -0.5,
+                fontWeight: 'bold',
               }}
             >
               {title}
             </Typography>
-          </Paper>
-        </Grow>
-
-        <Grow direction="up" in key={`${title}-${subtitle}`} timeout={1000}>
-          <Paper
-            elevation={3}
-            sx={{
-              position: 'relative',
-              left: theme.spacing(2),
-              padding: `0 ${theme.spacing(1)}`,
-              borderTopLeftRadius: 0,
-            }}
-          >
-            {isRTL ? <RTLTriangle /> : <LTRTriangle />}
 
             <Typography sx={{ letterSpacing: -0.5 }}>{subtitle}</Typography>
           </Paper>

@@ -12,6 +12,7 @@ import FiltersWizardPage from 'components/DinersView/FiltersWizardPage'
 import ServiceWizardPage from 'components/DinersView/ServiceWizardPage'
 
 import DinerView from '../views/DinerView'
+import MyOrderPage from 'components/DinersView/MyOrderPage'
 
 const DinersRoutes = () => {
   const [dishes, setDishes] = useState({ total: [], filtered: [] })
@@ -37,19 +38,18 @@ const DinersRoutes = () => {
             path="dishes"
             element={<DishesPage dishes={dishes} setDishes={setDishes} />}
           />
+
+          <Route path="myorder" element={<MyOrderPage />} />
         </Route>
       </Route>
-
       <Route
         path="filters"
         element={<Navigate replace to="/diners/filters/1" />}
       />
-
       <Route
         path="filters/:step"
         element={<FiltersWizardPage dishes={dishes} />}
       />
-
       <Route path="settings" element={<Settings />} />
     </Route>
   )

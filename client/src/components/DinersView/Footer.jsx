@@ -1,98 +1,121 @@
-import React from 'react'
-import { Avatar, Box, Fab, styled, Typography, useTheme } from '@mui/material'
-import { useTranslation } from 'react-i18next'
-import MenuSelector from './MenuSelector'
-import waiterSrc from '../../images/waiter_transparent_halfbody.png'
+import * as React from 'react'
+import { styled } from '@mui/material/styles'
+import TuneIcon from '@mui/icons-material/Tune'
+import OrderIcon from '@mui/icons-material/FeedOutlined'
+import CallWaiterIcon from '@mui/icons-material/EmojiPeopleOutlined'
 
-const WAITER_AVATAR_WIDTH = 70
+import {
+  AppBar,
+  Badge,
+  Box,
+  CssBaseline,
+  Fab,
+  IconButton,
+  Toolbar,
+} from '@mui/material'
+import { useDinerUser } from 'contexts/diner'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
+// import { GroupsIcon } from 'components/Icons/GroupsIcon'
+import { SlSettings as SettingsIcon } from 'react-icons/sl'
 
 const StyledFab = styled(Fab)({
+  position: 'absolute',
   zIndex: 1,
-  top: -20,
+  top: -30,
   left: 0,
   right: 0,
   margin: '0 auto',
-  width: 'fit-content',
-  height: 'fit-content',
-  borderRadius: 100,
 })
 
-const LtrBox = styled(Box)`
-  /* @noflip */
-  direction: ltr;
-  display: flex;
-  align-items: end;
-`
+export default function Footer() {
+  const navigate = useNavigate()
+  const location = useLocation()
+  const { kitchenId, menuId } = useParams()
 
-function Footer({ dishes, showWaiterBtn }) {
-  const theme = useTheme()
-  return (
-    <Box
-      sx={{
-        display: 'flex',
-        backgroundColor: theme.palette.primary.main,
-        color: theme.palette.common.white,
-        alignItems: 'center',
-        fontFamily: 'Roboto',
-        padding: theme.spacing(1),
-        bottom: 0,
-        width: '100vw',
-        right: 0,
-      }}
-    >
-      <MenuSelector />
-
-      {showWaiterBtn && (
-        <StyledFab
-          sx={{ border: `1px solid ${theme.palette.primary.main}` }}
-          aria-label="add"
-          variant="contained"
-        >
-          <Avatar
-            src={waiterSrc}
-            sx={{
-              width: WAITER_AVATAR_WIDTH,
-              height: WAITER_AVATAR_WIDTH,
-            }}
-          />
-          {/* <Typography>
-              Need Help?
-            </Typography> */}
-        </StyledFab>
-      )}
-
-      <Box sx={{ flexGrow: 1 }} />
-
-      <OptionsContainer dishes={dishes} />
-    </Box>
+  const dinerUser = useDinerUser()
+  const numberOfFiltersOn = Object.keys(dinerUser.user.filters).reduce(
+    (acc, filterName) => acc + dinerUser.user.filters[filterName].length,
+    0
   )
-}
 
-function OptionsContainer({ dishes }) {
-  const theme = useTheme()
-  const { t } = useTranslation()
-  const filteredDishes = dishes.filtered.filter((d) => !d.isMainDishFilteredOut)
+  const numberOfDishesInMyOrder = 0
+
+  const handleClickMyOrder = () => {
+    if (kitchenId && menuId) {
+      navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/myorder`)
+    } else {
+      navigate(-1)
+    }
+  }
+
+  const handleClickFilters = () => {
+    if (kitchenId && menuId) {
+      navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/filters/1`)
+    } else {
+      navigate(-1)
+    }
+  }
+
+  const handleClickSettings = () => {
+    navigate('/diners/settings', { state: { kitchenId, menuId } })
+  }
 
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        alignItems: 'center',
-        flex: 1,
-      }}
-    >
-      <LtrBox>
-        <Typography sx={{ fontSize: '1.2rem' }}>
-          {filteredDishes.length}/
-        </Typography>
-        <Typography>{dishes.total.length}</Typography>
-      </LtrBox>
+    <React.Fragment>
+      <CssBaseline />
 
-      <Typography sx={{ margin: `0 ${theme.spacing(1)}`, fontSize: '1.2rem' }}>
-        {t('options').toLocaleUpperCase()}
-      </Typography>
-    </Box>
+      <AppBar
+        position="fixed"
+        sx={{ top: 'auto', bottom: 0, backgroundColor: '#E9E9E9' }}
+      >
+        <Toolbar>
+          <IconButton
+            disabled={location.pathname.includes('/oreder')}
+            onClick={handleClickMyOrder}
+          >
+            <Badge
+              color="primary"
+              invisible={numberOfDishesInMyOrder === 0}
+              badgeContent={numberOfDishesInMyOrder}
+            >
+              <OrderIcon />
+            </Badge>
+          </IconButton>
+
+          <StyledFab color="secondary" aria-label="add">
+            <CallWaiterIcon />
+          </StyledFab>
+
+          <Box sx={{ flexGrow: 1 }} />
+
+          {/* <IconButton disableRipple>
+            <GroupsIcon />
+          </IconButton> */}
+
+          <IconButton
+            disabled={location.pathname.includes('/filters')}
+            onClick={handleClickFilters}
+          >
+            <Badge
+              color="primary"
+              invisible={numberOfFiltersOn === 0}
+              badgeContent={numberOfFiltersOn}
+            >
+              <TuneIcon />
+            </Badge>
+          </IconButton>
+
+          <IconButton
+            disableRipple
+            onClick={handleClickSettings}
+            disabled={
+              location.pathname.includes('/settings') || !dinerUser.token
+            }
+          >
+            <SettingsIcon />
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+    </React.Fragment>
   )
 }
-
-export default Footer
