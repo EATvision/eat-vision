@@ -60,10 +60,8 @@ function GreetingPage() {
           height: '100%',
         }}
       >
-        <Box sx={{ margin: 'auto', marginTop: theme.spacing(5) }}>
-          <Box
-            sx={{ width: 150, margin: 'auto', marginBottom: theme.spacing(2) }}
-          >
+        <Box sx={{ margin: 'auto', marginTop: theme.spacing(1) }}>
+          <Box sx={{ width: 150, margin: 'auto' }}>
             <img
               className="w-full h-full object-center object-fit group-hover:opacity-75"
               src={kitchen?.image?.[0]?.url}
@@ -86,7 +84,7 @@ function GreetingPage() {
             <Box
               sx={{
                 height: 300,
-                width: 'fit-content',
+                width: 105,
                 position: 'absolute',
                 bottom: 0,
               }}
@@ -167,11 +165,7 @@ function GreetingPage() {
               }}
             >
               <Link className="group flex flex-col" to="filters/1">
-                <Button
-                  variant="contained"
-                  color="primary"
-                  sx={{ fontSize: 18 }}
-                >
+                <Button variant="contained" color="primary">
                   {t('lets_get_started')}
                 </Button>
               </Link>
@@ -182,7 +176,6 @@ function GreetingPage() {
                 onClick={handleClickSignin}
                 disabled={dinerUser.token}
                 sx={{
-                  fontSize: 18,
                   margin: `${theme.spacing(1)} 0`,
                 }}
               >
