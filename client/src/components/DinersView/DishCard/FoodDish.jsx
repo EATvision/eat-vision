@@ -145,8 +145,8 @@ export default function FoodDish({ data }) {
               <CardMedia
                 component="img"
                 sx={{
-                  width: 100,
-                  maxHeight: 100,
+                  width: 120,
+                  maxHeight: 120,
                   margin: theme.spacing(1),
                 }}
                 image={data?.image?.url}
@@ -164,16 +164,24 @@ export default function FoodDish({ data }) {
         </Box>
 
         <Box sx={{ marginTop: theme.spacing(1) }}>
-          {data.recipe?.choice?.length > 0 &&
-            data.recipe?.choice.map((choices, index) => (
-              <DishRecipeTypeChips
-                key={index}
-                data={choices}
-                label={t('choice')}
-                selectedComponents={selectedComponents.choice}
-                onSelect={handleSelect('choice', { exclusive: true })}
-              />
-            ))}
+          {data.recipe?.choice?.length > 0 && (
+            <>
+              <Typography
+                sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
+              >
+                {t('choice')}:
+              </Typography>
+              {data.recipe?.choice.map((choices, index) => (
+                <DishRecipeTypeChips
+                  key={index}
+                  data={choices}
+                  label={t('options')}
+                  selectedComponents={selectedComponents.choice}
+                  onSelect={handleSelect('choice', { exclusive: true })}
+                />
+              ))}
+            </>
+          )}
 
           {data.recipe?.sideDish?.length > 0 && (
             <DishRecipeTypeChips

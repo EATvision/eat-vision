@@ -27,12 +27,10 @@ export default function DishRecipeChips({ data, label }) {
         backgroundColor: theme.palette.grey[200],
         padding: theme.spacing(1),
         alignItems: 'center',
-        marginBottom: theme.spacing(1),
+        marginBottom: '4px',
       }}
     >
-      <FormLabel sx={{ textAlign: 'initial', minWidth: 75 }}>
-        {label}:
-      </FormLabel>
+      <FormLabel sx={{ textAlign: 'initial' }}>{label}:</FormLabel>
       <Box sx={{ textAlign: 'initial' }}>
         {data?.map((component) => {
           const componentsExcludableComponentsFilteredOut =
@@ -54,7 +52,7 @@ export default function DishRecipeChips({ data, label }) {
                   margin: '2px',
                   display: 'flex',
                   backgroundColor: 'white',
-                  padding: theme.spacing(1),
+                  padding: '4px 8px',
                 }}
               >
                 <Typography

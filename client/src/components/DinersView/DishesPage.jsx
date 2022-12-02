@@ -81,7 +81,7 @@ function DishesPage({ dishes }) {
                   sx={{
                     backgroundColor: '#E9E9E9',
                     margin: theme.spacing(2),
-                    padding: theme.spacing(1),
+                    padding: theme.spacing(2),
                     width: '100%',
                     position: 'sticky',
                     top: 0,
