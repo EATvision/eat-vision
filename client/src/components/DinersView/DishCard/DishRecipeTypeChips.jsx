@@ -62,7 +62,6 @@ export default function DishRecipeChips({ data, label }) {
                       component.isFilteredOut
                         ? 'line-through'
                         : 'none',
-                    marginRight: theme.spacing(1),
                   }}
                 >
                   {getComponentLabel(component).toLocaleLowerCase()}

@@ -193,6 +193,46 @@ export default function FoodDish({ data }) {
           )}
         </Box>
 
+        {data?.sizes?.length > 0 && (
+          <Box
+            sx={{
+              backgroundColor: theme.palette.grey[200],
+              padding: theme.spacing(1),
+              alignItems: 'center',
+              marginBottom: theme.spacing(1),
+              display: 'flex',
+            }}
+          >
+            {data.sizes.map((size) => (
+              <Box
+                key={size.type}
+                sx={{
+                  borderRadius: 50,
+                  margin: `0 ${theme.spacing(1)}`,
+                  display: 'flex',
+                  backgroundColor: 'white',
+                  padding: '4px 8px',
+                }}
+              >
+                <Typography sx={{ margin: 0 }}>
+                  {t(`size_type_${size.type}`)}
+                </Typography>
+
+                <Divider
+                  orientation="vertical"
+                  variant="middle"
+                  flexItem
+                  sx={{ margin: `0 ${theme.spacing(1)}` }}
+                />
+
+                <Typography sx={{ margin: 0 }}>{`${kitchen.currency}${
+                  (Number(size.price) || 0) + Number(data.price)
+                }`}</Typography>
+              </Box>
+            ))}
+          </Box>
+        )}
+
         {(data.longDescription ||
           data.recipe.putaside.length > 0 ||
           data.recipe.excludable.length > 0 ||
@@ -263,7 +303,7 @@ export default function FoodDish({ data }) {
             </IconButton>
           )}
 
-          {data.sizes?.length > 0 && (
+          {data.dishType !== 'drink' && data.sizes?.length > 0 && (
             <IconButton
               sx={{
                 display: 'flex',
@@ -278,7 +318,7 @@ export default function FoodDish({ data }) {
             </IconButton>
           )}
 
-          {data.recipe.mandatory.length > 0 && (
+          {data.dishType !== 'drink' && data.recipe.mandatory.length > 0 && (
             <IconButton
               sx={{
                 display: 'flex',
