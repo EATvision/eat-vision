@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Box, Paper, Tab, Tabs, Typography, useTheme } from '@mui/material'
+import { Box, Typography, useTheme } from '@mui/material'
 
 import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 
@@ -15,7 +15,6 @@ function DishesPage({ dishes }) {
   const { t } = useTranslation()
 
   const [showFilteredOutDishes] = React.useState(false)
-  const [currentCategory, setCurrentCategory] = React.useState(0)
 
   const { categories, isLoading } = useKitchenCategoriesByMenu(
     kitchenId,
@@ -54,38 +53,11 @@ function DishesPage({ dishes }) {
     [categories, dishes.filtered, defaultCategories, showFilteredOutDishes]
   )
 
-  const handleChangeCategory = (event, newValue) => {
-    setCurrentCategory(newValue)
-  }
-
   if (isLoading) return <div>LOADING</div>
 
   return (
     <>
-      <div className="top-0 sticky text-sm z-10">
-        <Paper elevation={2}>
-          <Tabs
-            value={currentCategory}
-            onChange={handleChangeCategory}
-            variant="scrollable"
-            scrollButtons
-            allowScrollButtonsMobile
-            indicatorColor="primary"
-            textColor="primary"
-          >
-            {orderedCategories
-              .filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
-              .map((category) => (
-                <Tab
-                  key={category.id}
-                  label={category.name}
-                  href={`#${category.id}`}
-                />
-              ))}
-          </Tabs>
-        </Paper>
-      </div>
-
+      {' '}
       <Box sx={{ overflow: 'auto' }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
@@ -148,7 +120,6 @@ function DishesPage({ dishes }) {
             </div>
           ))}
       </Box>
-
       {dishes?.total?.length > 0 && <Footer dishes={dishes} />}
     </>
   )

@@ -136,7 +136,7 @@ export default function DrinkDish({ data }) {
           </Box>
         </Box>
 
-        <Box>
+        <Box sx={{ marginTop: theme.spacing(1) }}>
           {data.recipe?.choice?.length > 0 &&
             data.recipe?.choice.map((choices, index) => (
               <DishRecipeTypeChips

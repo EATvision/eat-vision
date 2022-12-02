@@ -60,7 +60,7 @@ function GreetingPage() {
           height: '100%',
         }}
       >
-        <Box sx={{ margin: 'auto', marginTop: theme.spacing(1) }}>
+        <Box sx={{ margin: 'auto', marginTop: theme.spacing(3) }}>
           <Box sx={{ width: 150, margin: 'auto' }}>
             <img
               className="w-full h-full object-center object-fit group-hover:opacity-75"
