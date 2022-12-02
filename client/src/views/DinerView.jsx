@@ -3,7 +3,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 
 import getTheme from '../theme'
-import NavBar from 'components/DinersView/NavBar'
+import Header from 'components/DinersView/Header'
 import RTL from 'components/RTL'
 import useIsRTL from 'hooks/useRTL'
 import { ProvideDinerUser } from 'contexts/diner'
@@ -23,7 +23,7 @@ function DinerView() {
             height: '100vh',
           }}
         >
-          <NavBar />
+          <Header />
           <Box
             sx={{
               position: 'relative',

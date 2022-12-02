@@ -78,7 +78,7 @@ export default {
   login: 'התחברות',
   enter_phone_number: 'הזנת מספר טלפון',
   login_plea: 'שנשמור את ההעדפות שלך?',
-  login_plea_subtext: 'צרו CULINARY.ID להתאמה אישית',
+  login_plea_subtext: 'צרו תעודת זהות קולינרית להתאמה אישית',
   no_login: 'ללא התחברות',
   dish_possible_changes: 'שינויים אפשריים למנה',
   ingredient: 'רכיב',

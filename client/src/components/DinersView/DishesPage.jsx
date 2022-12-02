@@ -117,7 +117,7 @@ function DishesPage({ dishes }) {
             </div>
           ))}
       </Box>
-      {dishes?.total?.length > 0 && <Footer dishes={dishes} />}
+      <Footer dishes={dishes} />
     </>
   )
 }
