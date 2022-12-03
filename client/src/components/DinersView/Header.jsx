@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 
 import { useKitchenById } from 'hooks/kitchens'
 import MenuSelector from './MenuSelector'
+import logo30Src from '../../images/logo30.png'
 
 function Header() {
   const theme = useTheme()
@@ -34,6 +35,16 @@ function Header() {
       <Box sx={{ flexGrow: 1 }} />
 
       <MenuSelector />
+
+      <Box sx={{ flexGrow: 1 }} />
+
+      <Box sx={{ height: 30, margin: 'auto' }}>
+        <img
+          className="w-full h-full object-center object-fit group-hover:opacity-75"
+          src={logo30Src}
+          alt=""
+        />
+      </Box>
     </AppBar>
   )
 }

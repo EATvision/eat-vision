@@ -20495,5 +20495,39 @@
       "recN0HIrikkUk6AvS",
       "recHJLhfoFpQuTVOI"
     ]
+  },
+  {
+    "id": "recDxAxCP7peMhg2Y",
+    "name": "Hummus",
+    "subIngredients": [
+      "recXS6pQMaJExzdXe",
+      "recoql0cf50gaWgBT"
+    ],
+    "isSearchable": true,
+    "groups": [
+      "recYZdiI4Znpthzj5"
+    ],
+    "translation_heb": "ממרח חומוס",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recYZdiI4Znpthzj5",
+      "recGrdvYp4KJzbvdd",
+      "receelNsoQTM6LFwT"
+    ]
+  },
+  {
+    "id": "recj7pwjPP3A0MLEw",
+    "name": "dill",
+    "isSearchable": true,
+    "groups": [
+      "recKixXejzsCDapen"
+    ],
+    "translation_heb": " שמיר",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recKixXejzsCDapen"
+    ]
   }
 ]

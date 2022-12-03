@@ -52,13 +52,18 @@ function FoodRestrictionsStep({ onNext, onBack }) {
   return (
     <Box
       sx={{
-        padding: theme.spacing(2),
         flex: 1,
         display: 'flex',
         flexDirection: 'column',
       }}
     >
-      <Box sx={{ textAlign: 'start', marginBottom: 'auto' }}>
+      <Box
+        sx={{
+          textAlign: 'start',
+          marginBottom: 'auto',
+          padding: theme.spacing(2),
+        }}
+      >
         <RestrictionFilter
           filters={dinerUser.user.filters}
           title={t('i_dont_eat_specific_foods')}
@@ -68,16 +73,16 @@ function FoodRestrictionsStep({ onNext, onBack }) {
 
         <RestrictionFilter
           filters={dinerUser.user.filters}
-          title={t('allergies')}
-          type="allergies"
-          onClick={handleClickSelectRestriction('allergies')}
+          title={t('things_i_avoid_or_reduce')}
+          type="avoidOrReduce"
+          onClick={handleClickSelectRestriction('avoidOrReduce')}
         />
 
         <RestrictionFilter
           filters={dinerUser.user.filters}
-          title={t('things_i_avoid_or_reduce')}
-          type="avoidOrReduce"
-          onClick={handleClickSelectRestriction('avoidOrReduce')}
+          title={t('allergies')}
+          type="allergies"
+          onClick={handleClickSelectRestriction('allergies')}
         />
       </Box>
 
