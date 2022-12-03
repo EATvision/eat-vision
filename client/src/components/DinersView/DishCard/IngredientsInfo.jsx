@@ -33,15 +33,17 @@ function IngredientsInfo({ data }) {
 
   const allTopLevelIngredients = React.useMemo(
     () => [
-      ...new Set([
-        ...(mandatoryIngredients || []),
-        ...(excludableIngredients || []),
-        ...(putasideIngredients || []),
-        ...(choiceIngredients || []),
-        ...(sideDishIngredients || []),
-        ...(addableIngredientsIngredients || []),
-        ...(addableDishesIngredients || []),
-      ]),
+      ...new Map(
+        [
+          ...(mandatoryIngredients || []),
+          ...(excludableIngredients || []),
+          ...(putasideIngredients || []),
+          ...(choiceIngredients || []),
+          ...(sideDishIngredients || []),
+          ...(addableIngredientsIngredients || []),
+          ...(addableDishesIngredients || []),
+        ].map((item) => [item['id'], item])
+      ).values(),
     ],
     [
       addableDishesIngredients,
