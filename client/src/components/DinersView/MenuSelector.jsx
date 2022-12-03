@@ -43,6 +43,8 @@ function MenuOptionsBanner() {
       value={menuId}
       onChange={handleChange}
       variant="standard"
+      disableUnderline
+      autoWidth
     >
       {menus?.map((menu) => (
         <MenuItem key={menu.id} value={menu.id}>
