@@ -101,4 +101,8 @@ export default {
   sideDish_ingredients: 'רכיבי מנות צד',
   addable_ingredients: 'רכיבים הניתנים להוספה',
   addableDishes_ingredients: 'מנות הניתנות להוספה',
+  settings: 'הגדרות',
+  connect: 'קבוצה',
+  my_list: 'הרשימה שלי',
+  profile: 'פרופיל',
 }
