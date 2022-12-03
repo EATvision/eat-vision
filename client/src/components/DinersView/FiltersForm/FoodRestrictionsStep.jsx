@@ -6,7 +6,6 @@ import {
   ToggleButtonGroup,
   ToggleButton,
   Button,
-  DialogActions,
   DialogContent,
   useMediaQuery,
   Dialog,
@@ -104,7 +103,6 @@ function FoodRestrictionsStep({ onNext, onBack }) {
         disableEscapeKeyDown
         PaperProps={{
           sx: {
-            padding: theme.spacing(2),
             height: '100vh',
             maxHeight: '100vh',
           },
@@ -113,7 +111,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
         <DialogContent
           sx={{
             // padding: 0,
-            // marginBottom: theme.spacing(6),
+            padding: theme.spacing(2),
             ...(!fullScreen ? { minWidth: 500, minHeight: 500 } : {}),
           }}
         >
@@ -124,20 +122,18 @@ function FoodRestrictionsStep({ onNext, onBack }) {
             selectProps={{ defaultMenuIsOpen: true }}
           />
         </DialogContent>
-        <DialogActions disableSpacing sx={{ padding: 0 }}>
-          <FixedBottomConrainer>
-            <Button
-              variant="contained"
-              color="primary"
-              fullWidth
-              onClick={handleClickDoneFilter}
-            >
-              {t('im_done')}
-              {dinerUser.user.filters[filterType]?.length > 0 &&
-                ` (${dinerUser.user.filters[filterType]?.length})`}
-            </Button>
-          </FixedBottomConrainer>
-        </DialogActions>
+        <FixedBottomConrainer>
+          <Button
+            variant="contained"
+            color="primary"
+            fullWidth
+            onClick={handleClickDoneFilter}
+          >
+            {t('im_done')}
+            {dinerUser.user.filters[filterType]?.length > 0 &&
+              ` (${dinerUser.user.filters[filterType]?.length})`}
+          </Button>
+        </FixedBottomConrainer>
       </Dialog>
     </Box>
   )
