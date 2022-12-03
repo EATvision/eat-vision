@@ -17,27 +17,28 @@ function WaiterBanner({ title, subtitle }) {
         alignItems: 'start',
         justifyContent: 'center',
         position: 'relative',
-        margin: `${theme.spacing(5)} ${theme.spacing(2)}`,
-        marginBottom: theme.spacing(2),
+        margin: `${theme.spacing(5)} 0`,
+        marginBottom: theme.spacing(4),
         background: 'none',
+        height: 100,
       }}
     >
       <Box
         sx={{
-          position: 'relative',
-          margin: `0 ${theme.spacing(1)}`,
+          position: 'absolute',
           top: 0,
+          left: 0,
         }}
       >
         <Box
           sx={{
-            height: 120,
+            height: 115,
             width: 80,
             borderRadius: 50,
             backgroundColor: theme.palette.secondary.main,
             position: 'absolute',
-            transform: isRTL ? 'rotate(30deg)' : 'rotate(-30deg)',
-            right: 10,
+            transform: 'rotate(20deg)',
+            [isRTL ? 'left' : 'right']: 6,
           }}
         ></Box>
         <Avatar
@@ -53,7 +54,9 @@ function WaiterBanner({ title, subtitle }) {
       <Box
         sx={{
           margin: 'auto 0px',
-          position: 'relative',
+          position: 'absolute',
+          top: 10,
+          left: 95,
         }}
       >
         <Grow direction="up" in key={title}>
@@ -63,7 +66,7 @@ function WaiterBanner({ title, subtitle }) {
               margin: `${theme.spacing(2)} 0`,
               position: 'relative',
               borderTopLeftRadius: 0,
-              padding: '0 4px',
+              padding: `${theme.spacing(1)}`,
             }}
           >
             {isRTL ? <RTLTriangle /> : <LTRTriangle />}
@@ -95,17 +98,19 @@ const RTLTriangle = () => {
       style={{
         color: 'white',
         position: 'absolute',
+        right: -26,
         top: 0,
-        right: -8,
+        width: 41,
+        height: 20,
       }}
     >
       <path
         opacity=".13"
-        d="M5.188 1H0v11.193l6.467-8.625C7.526 2.156 6.958 1 5.188 1z"
+        d="M 11 1 H 0 v 11.193 l 15 -9.193 C 17 2 16 1 13 1 z"
       ></path>
       <path
         fill="currentColor"
-        d="M5.188 0H0v11.193l6.467-8.625C7.526 1.156 6.958 0 5.188 0z"
+        d="M 11 0 H 0 v 11.193 l 15 -9.193 C 17 1 16 0 12 0 z"
       ></path>
     </svg>
   )
@@ -122,17 +127,19 @@ const LTRTriangle = () => {
         color: 'white',
         position: 'absolute',
         top: 0,
-        left: -8,
+        left: -26,
+        width: 41,
+        height: 20,
+        transform: 'scaleX(-1)',
       }}
     >
       <path
         opacity=".13"
-        fill="#0000000"
-        d="M1.533 3.568 8 12.193V1H2.812C1.042 1 .474 2.156 1.533 3.568z"
+        d="M 11 1 H 0 v 11.193 l 15 -9.193 C 17 2 16 1 13 1 z"
       ></path>
       <path
         fill="currentColor"
-        d="M1.533 2.568 8 11.193V0H2.812C1.042 0 .474 1.156 1.533 2.568z"
+        d="M 11 0 H 0 v 11.193 l 15 -9.193 C 17 1 16 0 12 0 z"
       ></path>
     </svg>
   )
