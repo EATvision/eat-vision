@@ -97,12 +97,18 @@ function FoodRestrictionsStep({ onNext, onBack }) {
         open={Boolean(filterType)}
         // onClose={handleClickBack}
         disableEscapeKeyDown
-        PaperProps={{ sx: { padding: theme.spacing(2), height: '100vh' } }}
+        PaperProps={{
+          sx: {
+            padding: theme.spacing(2),
+            height: '100vh',
+            maxHeight: '100vh',
+          },
+        }}
       >
         <DialogContent
           sx={{
             // padding: 0,
-            marginBottom: theme.spacing(6),
+            // marginBottom: theme.spacing(6),
             ...(!fullScreen ? { minWidth: 500, minHeight: 500 } : {}),
           }}
         >
@@ -167,10 +173,8 @@ function RestrictionFilter({ filters, title, type, onClick }) {
           borderBottom: `1px solid ${theme.palette.divider}`,
         }}
       >
-        <Box sx={{ display: 'flex', alignItems: 'center' }}>
-          <Typography sx={{ marginRight: theme.spacing(1) }}>
-            {title}
-          </Typography>
+        <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+          <Typography sx={{ marginRight: 'auto' }}>{title}</Typography>
           <SearchIcon />
         </Box>
 
