@@ -23,7 +23,7 @@ function MenuOptionsBanner() {
     [location, navigate]
   )
 
-  if (!menus) return null
+  if (!menus || !menuId) return null
 
   if (menus?.length === 1) {
     return (
