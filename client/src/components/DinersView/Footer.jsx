@@ -87,16 +87,20 @@ export default function Footer() {
             <Typography sx={{ fontSize: 12 }}>{t('settings')}</Typography>
           </IconButton>
 
-          <IconButton
-            disabled
-            sx={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-            }}
-          >
-            <ConnectIcon />
-            <Typography sx={{ fontSize: 12 }}>{t('connect')}</Typography>
+          <IconButton disabled>
+            <Badge
+              color="info"
+              invisible
+              badgeContent={t('coming_soon')}
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <ConnectIcon />
+              <Typography sx={{ fontSize: 12 }}>{t('connect')}</Typography>
+            </Badge>
           </IconButton>
 
           <Box sx={{ flexGrow: 1 }} />
