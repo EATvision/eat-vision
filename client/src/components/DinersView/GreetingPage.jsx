@@ -61,7 +61,7 @@ function GreetingPage() {
         }}
       >
         <Box sx={{ margin: 'auto', marginTop: theme.spacing(3) }}>
-          <Box sx={{ width: 150, margin: 'auto' }}>
+          <Box sx={{ width: 100, margin: 'auto', marginTop: '40px' }}>
             <img
               className="w-full h-full object-center object-fit group-hover:opacity-75"
               src={kitchen?.image?.[0]?.url}
