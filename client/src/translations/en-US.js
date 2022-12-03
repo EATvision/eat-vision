@@ -102,4 +102,8 @@ export default {
   sideDish_ingredients: 'sideDish ingredients',
   addable_ingredients: 'addable ingredients',
   addableDishes_ingredients: 'addableDishes ingredients',
+  settings: 'settings',
+  connect: 'connect',
+  my_list: 'my list',
+  profile: 'profile',
 }
