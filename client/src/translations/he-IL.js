@@ -27,7 +27,8 @@ export default {
   add: 'הוספה',
   change: 'שינוי',
   // before_we_begin: 'לפני שאציג מה יש לנו היום',
-  do_you_have_restrictions_etc: 'האם יש לך מגבלות מזון, \n או מוצרים שתרצו להימנע מהם?',
+  do_you_have_restrictions_etc:
+    'האם יש לך מגבלות מזון, \n או מוצרים שתרצו להימנע מהם?',
   // to_show_only_relevant_dishes: 'כדי להראות רק את המנות הרלוונטיות לך',
   choose_relevant_options: 'יש לבחור את כל האפשרויות הרלוונטיות',
   i_have_a_specific_diet: 'יש לי תזונה ספציפית',
@@ -101,4 +102,18 @@ export default {
   sideDish_ingredients: 'רכיבי מנות צד',
   addable_ingredients: 'רכיבים הניתנים להוספה',
   addableDishes_ingredients: 'מנות הניתנות להוספה',
+  tabs: {
+    admin: {
+      foodGroups: 'קבוצות אוכל',
+      customers: 'צרכנים',
+      ingredients: 'רכיבים',
+      diets: 'דיאטות',
+    },
+    customers: {
+      overview: 'סקירה כללית',
+      generalInfo: 'מידע כללי',
+      dishes: 'מנות',
+      menus: 'תפריטים',
+    },
+  },
 }

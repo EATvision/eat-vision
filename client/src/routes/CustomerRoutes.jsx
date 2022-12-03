@@ -9,13 +9,15 @@ import MenuPage from 'components/CustomersView/MenuPage'
 import MenusPage from 'components/CustomersView/MenusPage'
 import KitchenPage from 'components/CustomersView/KitchenPage'
 import OverviewPage from 'components/CustomersView/OverviewPage'
-import CustomerLoginPage from 'components/CustomersView/CustomerLoginPage'
+import LoginView from 'views/LoginView'
 
 const CustomerRoutes = () => (
   <Route path="customers" element={<CustomersView />}>
     <Route index element={<Navigate replace to="/customers/login" />} />
-    <Route path="login" element={<CustomerLoginPage />} />
-
+    <Route
+      path="login"
+      element={<LoginView defaultLoginOrigin="/customers/overview" />}
+    />
     <Route
       path="overview"
       element={

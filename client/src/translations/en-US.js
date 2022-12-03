@@ -102,4 +102,18 @@ export default {
   sideDish_ingredients: 'sideDish ingredients',
   addable_ingredients: 'addable ingredients',
   addableDishes_ingredients: 'addableDishes ingredients',
+  tabs: {
+    admin: {
+      foodGroups: 'food groups',
+      customers: 'customers',
+      ingredients: 'ingredients',
+      diets: 'diets',
+    },
+    customers: {
+      overview: 'overview',
+      generalInfo: 'generalInfo',
+      dishes: 'dishes',
+      menus: 'menus',
+    },
+  },
 }
