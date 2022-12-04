@@ -30,61 +30,64 @@ export default function DishRecipeChips({ data, label }) {
         marginBottom: '4px',
       }}
     >
-      <FormLabel sx={{ textAlign: 'initial' }}>{label}:</FormLabel>
-      <Box sx={{ textAlign: 'initial' }}>
-        {data?.map((component) => {
+      {label && <FormLabel sx={{ textAlign: 'initial' }}>{label}:</FormLabel>}
+      <Box sx={{ textAlign: 'initial', display: 'flex', alignItems: 'center' }}>
+        {data?.map((component, index) => {
           const componentsExcludableComponentsFilteredOut =
             component?.recipe?.excludable?.filter((c) => c.isFilteredOut)
           return (
-            <Badge
-              variant="dot"
-              color="error"
-              key={component.id}
-              invisible={!componentsExcludableComponentsFilteredOut?.length}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-            >
-              <Box
-                sx={{
-                  borderRadius: 50,
-                  margin: '2px',
-                  display: 'flex',
-                  backgroundColor: 'white',
-                  padding: '4px 8px',
+            <>
+              <Badge
+                variant="dot"
+                color="error"
+                key={component.id}
+                invisible={!componentsExcludableComponentsFilteredOut?.length}
+                anchorOrigin={{
+                  vertical: 'top',
+                  horizontal: 'left',
                 }}
               >
-                <Typography
+                <Box
                   sx={{
-                    textDecoration:
-                      component.isMainComponentFilteredOut ||
-                      component.isFilteredOut
-                        ? 'line-through'
-                        : 'none',
+                    borderRadius: 50,
+                    margin: '2px',
+                    display: 'flex',
+                    backgroundColor: 'white',
+                    padding: '4px 8px',
                   }}
                 >
-                  {getComponentLabel(component).toLocaleLowerCase()}
-                </Typography>
+                  <Typography
+                    sx={{
+                      textDecoration:
+                        component.isMainComponentFilteredOut ||
+                        component.isFilteredOut
+                          ? 'line-through'
+                          : 'none',
+                    }}
+                  >
+                    {getComponentLabel(component).toLocaleLowerCase()}
+                  </Typography>
 
-                {component.price > 0 && (
-                  <>
-                    <Divider
-                      orientation="vertical"
-                      variant="middle"
-                      flexItem
-                      sx={{ margin: `0 ${theme.spacing(1)}` }}
-                    />
+                  {component.price > 0 && (
+                    <>
+                      <Divider
+                        orientation="vertical"
+                        variant="middle"
+                        flexItem
+                        sx={{ margin: `0 ${theme.spacing(1)}` }}
+                      />
 
-                    <Typography>
-                      {component.price > 0
-                        ? `(+${component.price}${kitchen?.currency})`
-                        : ''}
-                    </Typography>
-                  </>
-                )}
-              </Box>
-            </Badge>
+                      <Typography>
+                        {component.price > 0
+                          ? `(+${component.price}${kitchen?.currency})`
+                          : ''}
+                      </Typography>
+                    </>
+                  )}
+                </Box>
+              </Badge>
+              {index !== data.length - 1 && <Typography>/</Typography>}
+            </>
           )
         })}
       </Box>
