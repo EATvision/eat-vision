@@ -11,6 +11,7 @@ import {
   Divider,
   IconButton,
   Paper,
+  styled,
   Typography,
   useTheme,
 } from '@mui/material'
@@ -36,6 +37,14 @@ import AskForChangesBtn from './AskForChangesBtn'
 import ChangesInfo from './ChangesInfo'
 import DescriptionInfo from './DescriptionInfo'
 import IngredientsInfo from './IngredientsInfo'
+
+const ActionButton = styled(IconButton)({
+  width: 60,
+  height: 60,
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+})
 
 export default function FoodDish({ data }) {
   const theme = useTheme()
@@ -242,109 +251,74 @@ export default function FoodDish({ data }) {
           data.warnings) && <Divider />}
         <CardActions>
           {data.longDescription && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'description' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('description')}
             >
               <DescriptionIcon />
               <Typography sx={{ fontSize: 12 }}>{t('description')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {(data.recipe.putaside.length > 0 ||
             data.recipe.excludable.length > 0) && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'changes' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('changes')}
             >
               <ChangesIcon />
               <Typography sx={{ fontSize: 12 }}>{t('changes')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.recipe.nutrition && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'nutrition' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('nutrition')}
             >
               <NutritionIcon />
               <Typography sx={{ fontSize: 12 }}>{t('nutrition')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.recipe.updates && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'upgrades' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('upgrades')}
             >
               <UpgradesIcon />
               <Typography sx={{ fontSize: 12 }}>{t('upgrades')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.dishType !== 'drink' && data.sizes?.length > 0 && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'sizes' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('sizes')}
             >
               <SizesIcon />
               <Typography sx={{ fontSize: 12 }}>{t('sizes')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.dishType !== 'drink' && data.recipe.mandatory.length > 0 && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'ingredients' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('ingredients')}
             >
               <IngredientsIcon />
               <Typography sx={{ fontSize: 12 }}>{t('ingredients')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.warnings && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'warnings' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('warnings')}
             >
               <WarningsIcon />
               <Typography sx={{ fontSize: 12 }}>{t('warnings')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
         </CardActions>
 
