@@ -17,8 +17,8 @@ import { ConnectIcon } from 'components/Icons/ConnectIcon'
 import { SettingsIcon } from 'components/Icons/SettingsIcon'
 import { MyListIcon } from 'components/Icons/MyListIcon'
 import { ProfileIcon } from 'components/Icons/ProfileIcon'
-import { RaiseHandIcon } from 'components/Icons/RaiseHandIcon2'
 import { t } from 'i18next'
+import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 
 const StyledFab = styled(Fab)({
   position: 'absolute',
@@ -27,6 +27,10 @@ const StyledFab = styled(Fab)({
   left: 0,
   right: 0,
   margin: '0 auto',
+  width: 75,
+  height: 75,
+  overflow: 'hidden',
+  border: '1px solid #e9e9e9',
 })
 
 export default function Footer() {
@@ -106,7 +110,8 @@ export default function Footer() {
           <Box sx={{ flexGrow: 1 }} />
 
           <StyledFab color="secondary" aria-label="add">
-            <RaiseHandIcon fonSize="large" />
+            <img src={waiterSrc} />
+            {/* <RaiseHandIcon style={{ fontSize: '2.75rem', color: 'white' }} /> */}
           </StyledFab>
 
           <Box sx={{ flexGrow: 1 }} />

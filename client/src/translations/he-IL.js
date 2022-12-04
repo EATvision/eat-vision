@@ -105,4 +105,5 @@ export default {
   connect: 'קבוצה',
   my_list: 'הרשימה שלי',
   profile: 'פרופיל',
+  deal: 'DEAL',
 }

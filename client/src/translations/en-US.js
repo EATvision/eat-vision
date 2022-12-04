@@ -106,4 +106,5 @@ export default {
   connect: 'connect',
   my_list: 'my list',
   profile: 'profile',
+  deal: 'deal',
 }
