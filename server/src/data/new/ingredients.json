@@ -175,7 +175,9 @@
       "recV5fHl7YWRNelyQ"
     ],
     "translation_heb": "בד אפל",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recDlVagQGOiParjH"
+    ],
     "foodGroups": [
       "recV5fHl7YWRNelyQ",
       "recmCzPUKuoYcsS42"
@@ -203,7 +205,9 @@
       "recV5fHl7YWRNelyQ"
     ],
     "translation_heb": "בייליס",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recDlVagQGOiParjH"
+    ],
     "foodGroups": [
       "recV5fHl7YWRNelyQ"
     ]
@@ -295,16 +299,42 @@
   {
     "id": "recOFloggqRzQEjds",
     "name": "Bacardi Breezer Watermelon",
+    "subIngredients": [
+      "rec8pKfAEwucwp78c",
+      "recjiO3V9Q82pI8zq",
+      "rec5rtRKRDimBWzLl",
+      "recoxS9cd9E0HBwnw",
+      "recRxY1kG8elmfgx8",
+      "recI8lS3CF5AibMHJ",
+      "recOHsYSOS2AjnLOX",
+      "reckK6MEjk8BdwKSW",
+      "rec2vikCN13YP1Dq8",
+      "reccDJKRa85dU8fKi"
+    ],
     "isSearchable": false,
     "groups": [
       "recFZXXGFLCRMNR5o",
       "recbwkcvn4kDnToiL"
     ],
     "translation_heb": "בריזר אבטיח",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recTqrrExyN2M0oG8",
+      "recqkfhdi9py4PNCJ"
+    ],
     "foodGroups": [
       "recFZXXGFLCRMNR5o",
-      "recbwkcvn4kDnToiL"
+      "recbwkcvn4kDnToiL",
+      "recA1DeocMW69g9QP",
+      "recAvCd37VjynjiAV",
+      "recbwkcvn4kDnToiL",
+      "recN0HIrikkUk6AvS",
+      "recN0HIrikkUk6AvS",
+      "recy2Nh2sfSLTNXbH",
+      "recy2Nh2sfSLTNXbH",
+      "recN0HIrikkUk6AvS",
+      "recDXBerbCvKBauuo"
     ]
   },
   {
@@ -380,21 +410,35 @@
   {
     "id": "reck7H2MMliapJcWA",
     "name": "Goldstar",
+    "subIngredients": [
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU"
+    ],
     "isSearchable": false,
     "groups": [
       "recU1j9CMgCKG535c"
     ],
     "translation_heb": "גולדסטאר ",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
-      "recU1j9CMgCKG535c"
+      "recU1j9CMgCKG535c",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX",
+      "recKixXejzsCDapen"
     ]
   },
   {
     "id": "recDOvd26ZmbAL7jm",
     "name": "Goldstar Unfiltered",
+    "subIngredients": [
+      "recc0DmCDcXGYqD3j",
+      "recXKaSUiiJldsPBU",
+      "receN4iLyolSoIN3c"
+    ],
     "isSearchable": false,
     "description": "מהדורה זו של בירה גולדסטאר אנפילטרד הושקה ב-2013 המיוצרת לפי המתכון המסורתי של גולדסטאר, בו עושים שימוש כבר למעלה מ-60 שנים, אך אינה עוברת את התהליך האחרון של סינון שאריות השמרים לפני הבקבוק. כך היא משמרת את הטעם והצבע המקוריים והמשובחים שלה.",
     "groups": [
@@ -403,11 +447,17 @@
     ],
     "translation_heb": "גולדסטאר לא מסוננת",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
       "recU1j9CMgCKG535c",
-      "rec5YDC6O0XmPvW6P"
+      "rec5YDC6O0XmPvW6P",
+      "rec33e05fmRcCDf4i",
+      "recKixXejzsCDapen",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX"
     ]
   },
   {
@@ -458,6 +508,10 @@
   {
     "id": "recT2jgGc2G7TViL6",
     "name": "Heineken",
+    "subIngredients": [
+      "recXKaSUiiJldsPBU",
+      "receN4iLyolSoIN3c"
+    ],
     "isSearchable": false,
     "description": "בירה הייניקן היא בירת לאגר הולנדית בהירה המיוצרת במלמעלה מ-130 מבשלות ברחבי העולם ונחשבת לבירה הרביעית הנמכרת ביותר בעולם. סימן ההיכר של הבירה ההולנדית הוא הבקבוק הירוק והכוכב האדום והיא אחד מהאייקונים המזוהים ביותר של הולנד (שדווקא בה היא נמכרת בבקבוקים חומים). מבשלת הייניקן החלה את דרכה כבר ב-1863 ובשנות ה-30 של המאה הקודמת החלה לייצא את הבירה למערב אירופה וגם למערב אפריקה ואינדונזיה (שהייתה אז מושבה של הולנד). ",
     "groups": [
@@ -465,10 +519,15 @@
     ],
     "translation_heb": "הייניקן",
     "excludedInDiets": [
-      "rec8pz0YYIGmScPu5"
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
     ],
     "foodGroups": [
-      "recU1j9CMgCKG535c"
+      "recU1j9CMgCKG535c",
+      "recKixXejzsCDapen",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX"
     ]
   },
   {
@@ -584,7 +643,9 @@
       "recV5fHl7YWRNelyQ"
     ],
     "translation_heb": "ייגרמאסטר",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recDlVagQGOiParjH"
+    ],
     "foodGroups": [
       "recV5fHl7YWRNelyQ"
     ]
@@ -634,15 +695,32 @@
   {
     "id": "reccrLVzyykuHGtZx",
     "name": "Leffe Brown",
+    "subIngredients": [
+      "receN4iLyolSoIN3c",
+      "rec29iAOTt52XzWFZ",
+      "recfRWIkDiPdhk0A1",
+      "recXKaSUiiJldsPBU",
+      "rec8pKfAEwucwp78c"
+    ],
     "isSearchable": false,
     "description": "לף בראון היא בירת אייל בלגית כהה בעלת 6.5% אלכוהול, צבע כהה ועמוק וטעמים עשירים ומאוזנים של קרמל ומאלט קלוי המעניקים לה תווים מתקתקים וסיומת עדינה בטעם קפה. הבירה מומלצת להגשה לצד מגוון גבינות, מנות פיקנטיות וקינוחים עשירים. לף בראון מומלצת להגשה לאחר קירור ממושך, המאפשר לכל הרכיבים לבוא לידי ביטוי בשלמות.",
     "groups": [
       "recg6oDGmlDZ7q2RQ"
     ],
     "translation_heb": "לף בראון",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
     "foodGroups": [
-      "recg6oDGmlDZ7q2RQ"
+      "recg6oDGmlDZ7q2RQ",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX",
+      "recRLRNG6VRO3pnoY",
+      "recKixXejzsCDapen",
+      "recA1DeocMW69g9QP"
     ]
   },
   {
@@ -746,15 +824,26 @@
   {
     "id": "reckx60aIYyiSIaCG",
     "name": "Maccabi Strong Beer 7.9%",
+    "subIngredients": [
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU"
+    ],
     "isSearchable": false,
     "description": "בירה מכבי 7.9% היא בירת לאגר חזקה העשירה בטעמי לתת ובעלי תווי כשות מרירים עדינים ומרווים, השומרים על גוף בירה חלק ונעים.",
     "groups": [
       "rec5YDC6O0XmPvW6P"
     ],
     "translation_heb": "מכבי\n 7.9%",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
+    ],
     "foodGroups": [
-      "rec5YDC6O0XmPvW6P"
+      "rec5YDC6O0XmPvW6P",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX",
+      "recKixXejzsCDapen"
     ]
   },
   {
@@ -902,7 +991,9 @@
       "recV5fHl7YWRNelyQ"
     ],
     "translation_heb": "סאות'רן קומפורט",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recDlVagQGOiParjH"
+    ],
     "foodGroups": [
       "recV5fHl7YWRNelyQ"
     ]
@@ -937,15 +1028,32 @@
   {
     "id": "recNLQ82fGUEc4Rs5",
     "name": "Strongbow apple Cider",
+    "subIngredients": [
+      "recQJr0srHNh8eEHr",
+      "recKzibs119a7JAF5",
+      "rec9765BycwVV8I9r",
+      "recyydYtAC5UzzYQC",
+      "recc6knKmjy3mFt0P"
+    ],
     "isSearchable": false,
     "description": "הכירו את הסיידר הנמכר ביותר בעולם: סיידר תפוחים מתוק וזהוב עם טעם מרענן, תווים של תפוחים ירוקים וסיומת מתוקה-מרירה ומתמשכת. הסיידר עשוי מרכז תפוחים טבעי ואינו מכיל גלוטן. הוא מתאפיין בארומות פירותיות ועשירות של סוגי תפוחים שונים ועסיסיים ומאזן בין חמיצות ומרירות עדינות לטעם מתוק, מרענן ורך.",
     "groups": [
       "recQkc9oCqz4PzdnQ"
     ],
     "translation_heb": "סטרונגבואו",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
     "foodGroups": [
-      "recQkc9oCqz4PzdnQ"
+      "recQkc9oCqz4PzdnQ",
+      "rec0ZY6yIjGm0lEMV",
+      "recmCzPUKuoYcsS42",
+      "recA1DeocMW69g9QP",
+      "recDXBerbCvKBauuo",
+      "recDXBerbCvKBauuo",
+      "recN0HIrikkUk6AvS"
     ]
   },
   {
@@ -978,15 +1086,26 @@
   {
     "id": "recoVgXacOe9yyMr0",
     "name": "Paulaner",
+    "subIngredients": [
+      "receN4iLyolSoIN3c",
+      "recXKaSUiiJldsPBU"
+    ],
     "isSearchable": false,
     "description": "בירת חיטה בווארית לא מסוננת המיוצרת במבשלת פאולנר השוכנת במינכן, גרמניה. הפאולנר מסוג ווייסביר מוגזת יותר מבירות אחרות ולכן נהוג לשתות אותה בכוס גבוהה (שצוננה קודם לכן) בזווית של 45 מעלות ומזיגת ¾ מהבקבוק אל דופן הכוס, כדי להקטין את שטח הפנים הבא במגע עם האוויר. לפאולנר טעם פירותי עדין, צבע זהוב יפהפה וגוף מלא.",
     "groups": [
       "recp0WQugkOwzQEE8"
     ],
     "translation_heb": "פאולנר",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
+    ],
     "foodGroups": [
-      "recp0WQugkOwzQEE8"
+      "recp0WQugkOwzQEE8",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX",
+      "recKixXejzsCDapen"
     ]
   },
   {
@@ -1012,7 +1131,9 @@
       "recV5fHl7YWRNelyQ"
     ],
     "translation_heb": "פידג'\nתאנים",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recDlVagQGOiParjH"
+    ],
     "foodGroups": [
       "recV5fHl7YWRNelyQ"
     ]
@@ -1115,7 +1236,9 @@
       "recV5fHl7YWRNelyQ"
     ],
     "translation_heb": "קלואה",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recDlVagQGOiParjH"
+    ],
     "foodGroups": [
       "recV5fHl7YWRNelyQ"
     ]
@@ -1190,7 +1313,9 @@
       "recV5fHl7YWRNelyQ"
     ],
     "translation_heb": "שארטרז ירוק",
-    "excludedInDiets": [],
+    "excludedInDiets": [
+      "recDlVagQGOiParjH"
+    ],
     "foodGroups": [
       "recV5fHl7YWRNelyQ"
     ]
@@ -1302,13 +1427,15 @@
     ],
     "isSearchable": true,
     "groups": [
-      "rec2m2Z8keGUVLwNA"
+      "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA"
     ],
     "excludedInDiets": [
       "rec8pz0YYIGmScPu5"
     ],
     "foodGroups": [
       "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA",
       "recN0HIrikkUk6AvS",
       "recDXBerbCvKBauuo"
     ]
@@ -10828,7 +10955,8 @@
     ],
     "isSearchable": false,
     "groups": [
-      "rec2m2Z8keGUVLwNA"
+      "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA"
     ],
     "translation_heb": "מירנדה",
     "excludedInDiets": [
@@ -10838,6 +10966,7 @@
     ],
     "foodGroups": [
       "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA",
       "recA1DeocMW69g9QP",
       "recN0HIrikkUk6AvS",
       "recDigAI6dMidBT0X",
@@ -12583,7 +12712,8 @@
     ],
     "isSearchable": true,
     "groups": [
-      "rec2m2Z8keGUVLwNA"
+      "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA"
     ],
     "translation_heb": "פפסי",
     "excludedInDiets": [
@@ -12593,6 +12723,7 @@
     ],
     "foodGroups": [
       "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA",
       "recA1DeocMW69g9QP"
     ]
   },
@@ -12601,12 +12732,14 @@
     "name": "pepsi max",
     "isSearchable": true,
     "groups": [
-      "rec2m2Z8keGUVLwNA"
+      "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA"
     ],
     "translation_heb": "פפסי מקס",
     "excludedInDiets": [],
     "foodGroups": [
-      "rec2m2Z8keGUVLwNA"
+      "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA"
     ]
   },
   {
@@ -18338,7 +18471,8 @@
     ],
     "isSearchable": true,
     "groups": [
-      "rec2m2Z8keGUVLwNA"
+      "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA"
     ],
     "translation_heb": "מי טוניק",
     "excludedInDiets": [
@@ -18348,6 +18482,7 @@
     ],
     "foodGroups": [
       "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA",
       "recA1DeocMW69g9QP",
       "recN0HIrikkUk6AvS",
       "recDXBerbCvKBauuo",
@@ -20008,7 +20143,8 @@
     ],
     "isSearchable": true,
     "groups": [
-      "rec2m2Z8keGUVLwNA"
+      "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA"
     ],
     "translation_heb": "קולה זירו ",
     "excludedInDiets": [
@@ -20016,6 +20152,7 @@
     ],
     "foodGroups": [
       "rec2m2Z8keGUVLwNA",
+      "rec9TFbNApiiNfSzA",
       "recN0HIrikkUk6AvS",
       "recUHO5l7YHCs0J3f"
     ]
