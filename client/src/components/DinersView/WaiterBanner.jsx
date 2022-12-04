@@ -56,7 +56,7 @@ function WaiterBanner({ title, subtitle }) {
           margin: 'auto 0px',
           position: 'absolute',
           top: 10,
-          left: 95,
+          left: 92,
         }}
       >
         <Grow direction="up" in key={title}>

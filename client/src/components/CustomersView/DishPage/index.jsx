@@ -86,7 +86,7 @@ function DishPage() {
     setOpenDialog(DIALOGS.REMOVE_MENU)
   }
 
-  if (!isNew && isLoading) return <div>LOADING</div>
+  if (!isNew && isLoading) return <div>{t('loading')}</div>
 
   return (
     <>

@@ -1,4 +1,5 @@
 export default {
+  loading: 'בטעינה',
   kitchens_list: 'מטבחים שאיתנו',
   register_or_sign_in: 'התחברות',
   already_registered: 'את\\ה כבר מחובר',
@@ -106,4 +107,5 @@ export default {
   my_list: 'הרשימה שלי',
   profile: 'פרופיל',
   deal: 'DEAL',
+  empty_components_restriction_selector: 'טרם נבחרו אופציות'
 }
