@@ -175,7 +175,6 @@ export default function FoodDish({ data }) {
                 <DishRecipeTypeChips
                   key={index}
                   data={choices}
-                  label={t('options')}
                   selectedComponents={selectedComponents.choice}
                   onSelect={handleSelect('choice', { exclusive: true })}
                 />
