@@ -43,6 +43,7 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
           fontSize: 12,
           fontStyle: 'italic',
           color: theme.palette.common.white,
+          borderRadius: 50,
         }}
         disabled={open}
       >
