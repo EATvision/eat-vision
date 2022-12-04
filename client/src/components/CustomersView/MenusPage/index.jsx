@@ -12,6 +12,7 @@ import {
 
 import { useKitchen } from 'contexts/kitchen'
 import { useMenusByKitchenId } from 'hooks/menus'
+import { t } from 'i18next'
 
 const MenuCard = styled(ListItem)(({ theme }) => ({
   border: '1px solid',
@@ -26,7 +27,7 @@ function MenusManagerPage() {
   const { kitchenId } = useKitchen()
   const { menus, isLoading } = useMenusByKitchenId(kitchenId)
 
-  if (isLoading) return 'Loading...'
+  if (isLoading) return <div>{t('loading')}</div>
 
   const handleOnClickMenu = (menuId) => () => {
     navigate(`/customers/menus/${menuId}`)

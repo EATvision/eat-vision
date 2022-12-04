@@ -5,6 +5,7 @@ import {
   ListItem,
   ListItemText,
   TextField,
+  Typography,
 } from '@mui/material'
 import { Box } from '@mui/system'
 import axios from 'axios'
@@ -128,17 +129,33 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
         }}
       />
 
-      <List sx={{ flex: 1, overflow: 'auto', marginBottom: '50px' }}>
-        {options.map((option) => (
-          <OptionListItem
-            key={option.id}
-            data={option}
-            filters={filters}
-            setFilters={setFilters}
-            filterType={filterType}
-          />
-        ))}
-      </List>
+      {options.length === 0 ? (
+        <Typography
+          sx={{
+            fontSize: '2.5rem',
+            textAlign: 'center',
+            margin: 'auto',
+            flex: 1,
+            alignItems: 'center',
+            display: 'flex',
+            color: 'rgb(128 128 128 / 25%)',
+          }}
+        >
+          {t('empty_components_restriction_selector')}
+        </Typography>
+      ) : (
+        <List sx={{ flex: 1, overflow: 'auto', marginBottom: '50px' }}>
+          {options.map((option) => (
+            <OptionListItem
+              key={option.id}
+              data={option}
+              filters={filters}
+              setFilters={setFilters}
+              filterType={filterType}
+            />
+          ))}
+        </List>
+      )}
     </Box>
   )
 }

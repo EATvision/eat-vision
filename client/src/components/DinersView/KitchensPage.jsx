@@ -12,7 +12,7 @@ function KitchensPage() {
   const handleClickKitchen = (kitchen) => () =>
     i18n.changeLanguage(kitchen.locale)
 
-  if (isLoading) return <div>LOADING</div>
+  if (isLoading) return <div>{t('loading')}</div>
   if (isError) return <div>ERROR</div>
 
   return (

@@ -40,7 +40,7 @@ function DietsSelector({ onNext, onBack }) {
     onBack()
   }
 
-  if (isLoading) return <div>LOADING</div>
+  if (isLoading) return <div>{t('loading')}</div>
 
   return (
     <Box

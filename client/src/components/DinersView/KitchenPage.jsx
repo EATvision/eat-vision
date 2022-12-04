@@ -3,6 +3,7 @@ import { Outlet, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 import { useKitchenById } from 'hooks/kitchens'
+import { t } from 'i18next'
 
 function KitchenPage() {
   const { kitchenId } = useParams()
@@ -16,7 +17,7 @@ function KitchenPage() {
     }
   }, [i18n, kitchen])
 
-  if (isLoading) return <div>LOADING</div>
+  if (isLoading) return <div>{t('loading')}</div>
   if (isError) return <div>ERROR</div>
 
   return (

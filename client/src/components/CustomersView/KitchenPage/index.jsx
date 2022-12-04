@@ -61,7 +61,7 @@ function KitchenPage() {
     )
   }
 
-  if (isLoading) return <div>LOADING</div>
+  if (isLoading) return <div>{t('loading')}</div>
 
   return (
     <>

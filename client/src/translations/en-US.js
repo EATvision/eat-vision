@@ -1,4 +1,5 @@
 export default {
+  loading: 'loading',
   kitchens_list: 'kitchens list',
   register_or_sign_in: 'sign in',
   already_registered: 'already registered',
@@ -107,4 +108,5 @@ export default {
   my_list: 'my list',
   profile: 'profile',
   deal: 'deal',
+  empty_components_restriction_selector: 'No choices selected yet'
 }
