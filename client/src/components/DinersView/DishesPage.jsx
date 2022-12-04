@@ -7,6 +7,7 @@ import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 
 import FoodDish from './DishCard/FoodDish'
 import Footer from './Footer'
+import DealBtn from './DealBtn'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()
@@ -56,7 +57,6 @@ function DishesPage({ dishes }) {
 
   return (
     <>
-      {' '}
       <Box sx={{ overflow: 'auto' }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
@@ -88,6 +88,7 @@ function DishesPage({ dishes }) {
                     top: 0,
                     zIndex: 10,
                     textAlign: 'initial',
+                    display: 'flex',
                   }}
                 >
                   <Typography
@@ -95,12 +96,17 @@ function DishesPage({ dishes }) {
                       fontWeight: 'bold',
                       fontSize: 22,
                       textAlign: 'initial',
-                      width: '100%',
+                      flex: 1,
                     }}
                   >
                     {category?.name}
                   </Typography>
-                  {category.description && <Box>{category.description}</Box>}
+
+                  {category.description && (
+                    <Box sx={{ marginRight: theme.spacing(2) }}>
+                      <DealBtn dealDescription={category.description} />
+                    </Box>
+                  )}
                 </Paper>
 
                 <Box

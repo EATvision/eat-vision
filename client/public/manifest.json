@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "EAT App",
+  "name": "EAT - virtual waiter",
   "icons": [
     {
       "src": "favicon.ico",

@@ -6,7 +6,7 @@ import TuneIcon from '@mui/icons-material/Tune'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { t } from 'i18next'
 import { useDinerUser } from 'contexts/diner'
-import { GroupsIcon } from 'components/Icons/GroupsIcon'
+import { GroupsIcon } from 'components/Icons/ConnectIcon'
 
 function NavBar() {
   const navigate = useNavigate()

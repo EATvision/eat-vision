@@ -128,7 +128,7 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
         }}
       />
 
-      <List sx={{ flex: 1, overflow: 'auto' }}>
+      <List sx={{ flex: 1, overflow: 'auto', marginBottom: '50px' }}>
         {options.map((option) => (
           <OptionListItem
             key={option.id}

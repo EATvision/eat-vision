@@ -31,7 +31,7 @@ function MenusPage() {
       <>
         <Box sx={{ margin: theme.spacing(5) }}>
           <Box
-            sx={{ width: 150, margin: 'auto', marginBottom: theme.spacing(2) }}
+            sx={{ width: 100, margin: 'auto', marginBottom: theme.spacing(2) }}
           >
             <img
               className="w-full h-full object-center object-fit group-hover:opacity-75"

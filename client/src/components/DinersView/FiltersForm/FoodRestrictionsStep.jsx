@@ -6,7 +6,6 @@ import {
   ToggleButtonGroup,
   ToggleButton,
   Button,
-  DialogActions,
   DialogContent,
   useMediaQuery,
   Dialog,
@@ -52,13 +51,18 @@ function FoodRestrictionsStep({ onNext, onBack }) {
   return (
     <Box
       sx={{
-        padding: theme.spacing(2),
         flex: 1,
         display: 'flex',
         flexDirection: 'column',
       }}
     >
-      <Box sx={{ textAlign: 'start', marginBottom: 'auto' }}>
+      <Box
+        sx={{
+          textAlign: 'start',
+          marginBottom: 'auto',
+          padding: theme.spacing(2),
+        }}
+      >
         <RestrictionFilter
           filters={dinerUser.user.filters}
           title={t('i_dont_eat_specific_foods')}
@@ -68,16 +72,16 @@ function FoodRestrictionsStep({ onNext, onBack }) {
 
         <RestrictionFilter
           filters={dinerUser.user.filters}
-          title={t('allergies')}
-          type="allergies"
-          onClick={handleClickSelectRestriction('allergies')}
+          title={t('things_i_avoid_or_reduce')}
+          type="avoidOrReduce"
+          onClick={handleClickSelectRestriction('avoidOrReduce')}
         />
 
         <RestrictionFilter
           filters={dinerUser.user.filters}
-          title={t('things_i_avoid_or_reduce')}
-          type="avoidOrReduce"
-          onClick={handleClickSelectRestriction('avoidOrReduce')}
+          title={t('allergies')}
+          type="allergies"
+          onClick={handleClickSelectRestriction('allergies')}
         />
       </Box>
 
@@ -97,12 +101,17 @@ function FoodRestrictionsStep({ onNext, onBack }) {
         open={Boolean(filterType)}
         // onClose={handleClickBack}
         disableEscapeKeyDown
-        PaperProps={{ sx: { padding: theme.spacing(2), height: '100vh' } }}
+        PaperProps={{
+          sx: {
+            height: '100vh',
+            maxHeight: '100vh',
+          },
+        }}
       >
         <DialogContent
           sx={{
             // padding: 0,
-            marginBottom: theme.spacing(6),
+            padding: theme.spacing(2),
             ...(!fullScreen ? { minWidth: 500, minHeight: 500 } : {}),
           }}
         >
@@ -113,20 +122,18 @@ function FoodRestrictionsStep({ onNext, onBack }) {
             selectProps={{ defaultMenuIsOpen: true }}
           />
         </DialogContent>
-        <DialogActions disableSpacing sx={{ padding: 0 }}>
-          <FixedBottomConrainer>
-            <Button
-              variant="contained"
-              color="primary"
-              fullWidth
-              onClick={handleClickDoneFilter}
-            >
-              {t('im_done')}
-              {dinerUser.user.filters[filterType]?.length > 0 &&
-                ` (${dinerUser.user.filters[filterType]?.length})`}
-            </Button>
-          </FixedBottomConrainer>
-        </DialogActions>
+        <FixedBottomConrainer>
+          <Button
+            variant="contained"
+            color="primary"
+            fullWidth
+            onClick={handleClickDoneFilter}
+          >
+            {t('im_done')}
+            {dinerUser.user.filters[filterType]?.length > 0 &&
+              ` (${dinerUser.user.filters[filterType]?.length})`}
+          </Button>
+        </FixedBottomConrainer>
       </Dialog>
     </Box>
   )
@@ -167,10 +174,8 @@ function RestrictionFilter({ filters, title, type, onClick }) {
           borderBottom: `1px solid ${theme.palette.divider}`,
         }}
       >
-        <Box sx={{ display: 'flex', alignItems: 'center' }}>
-          <Typography sx={{ marginRight: theme.spacing(1) }}>
-            {title}
-          </Typography>
+        <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+          <Typography sx={{ marginRight: 'auto' }}>{title}</Typography>
           <SearchIcon />
         </Box>
 

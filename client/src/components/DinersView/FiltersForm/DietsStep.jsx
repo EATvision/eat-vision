@@ -45,7 +45,6 @@ function DietsSelector({ onNext, onBack }) {
   return (
     <Box
       sx={{
-        padding: theme.spacing(2),
         flex: 1,
         display: 'flex',
         flexDirection: 'column',
@@ -63,8 +62,10 @@ function DietsSelector({ onNext, onBack }) {
           gridTemplateColumns: '1fr',
           gridAutoFlow: 'row',
           gap: `0 ${theme.spacing(1)}`,
-          marginBottom: '50px',
+          marginBottom: theme.spacing(10),
           overflow: 'auto',
+          padding: theme.spacing(2),
+
           // boxShadow: 'inset 0px 0px 9px 0px #726c66',
         }}
       >

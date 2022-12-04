@@ -312,6 +312,12 @@
     "description": "שלוש מנות ב-131 | חמש מנות ב-211 | שבע מנות ב-282"
   },
   {
+    "id": "rec6rvS1EB1YuMUK8",
+    "name": "Sharing DEAL",
+    "position": 2,
+    "description": "שלוש מנות ב-131 | חמש מנות ב-211 | שבע מנות ב-282\nHappy hour 20% הנחה עד השעה 20:00"
+  },
+  {
     "id": "reclHlEtu675LitzL",
     "name": "Soups",
     "position": 2,
@@ -437,6 +443,12 @@
     "id": "recbszxblMsGh4bbq",
     "name": "מנות אישיות",
     "position": 3
+  },
+  {
+    "id": "rec9eW8LSa8PrYyDQ",
+    "name": "מנות אישיות",
+    "position": 3,
+    "description": "Happy hour 20% הנחה עד השעה 20:00"
   },
   {
     "id": "reca65UNT1nuSqS91",
@@ -823,8 +835,14 @@
   },
   {
     "id": "recXpNrVlnXVfiUJv",
-    "name": "קוקטלים ",
+    "name": "קוקטיילים",
     "position": 7
+  },
+  {
+    "id": "reco2uIrzD3VFoVX7",
+    "name": "קוקטיילים ",
+    "position": 7,
+    "description": "1+1 על כל הקוקטיילים עד 20:00"
   },
   {
     "id": "recowZ8cG2zZUqwVE",
@@ -884,9 +902,15 @@
     "position": 8
   },
   {
-    "id": "recSaYm2kSUrkvw7b",
+    "id": "recke8BNWZXhDFYSn",
     "name": "יינות לבנים",
     "position": 8
+  },
+  {
+    "id": "recSaYm2kSUrkvw7b",
+    "name": "יינות לבנים",
+    "position": 8,
+    "description": "1+1 על כל היינות עד 20:00"
   },
   {
     "id": "recrDQMnlZyvJfuSz",
@@ -965,6 +989,12 @@
     ]
   },
   {
+    "id": "recyhtVUgrz6AhKKc",
+    "name": "יינות אדומים",
+    "position": 9,
+    "description": "1+1 על כל היינות עד 20:00"
+  },
+  {
     "id": "recZvEB73pCX5CLtB",
     "name": "יינות אדומים",
     "position": 9
@@ -1024,6 +1054,12 @@
       "recpaTpld67wJg7QU",
       "rec8bV1hFIieqrEXs"
     ]
+  },
+  {
+    "id": "recbN4Qpd9spzFO1P",
+    "name": "יינות מבעבעים",
+    "position": 10,
+    "description": "1+1 על כל היינות עד 20:00"
   },
   {
     "id": "reccKFL0KLPTD1jo2",
@@ -1124,6 +1160,12 @@
     ]
   },
   {
+    "id": "rect4Kiwvisc94AWM",
+    "name": "בירות",
+    "position": 12,
+    "description": "1+1 על כל הבירות מהחבית עד השעה 20:00"
+  },
+  {
     "id": "recQSWJ6qGJUSZ3kK",
     "name": "בירות",
     "position": 12
@@ -1204,12 +1246,14 @@
   {
     "id": "recVgG1UaXKHcWTto",
     "name": "ג'ין",
-    "position": 14
+    "position": 14,
+    "description": "\"דיל צייסרים 4 ב:\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית\""
   },
   {
     "id": "recVkBdWfZy8JqP3C",
     "name": "וודקה",
-    "position": 15
+    "position": 15,
+    "description": "\"דיל צייסרים 4 ב:\nדיל 55 – ערק אשקלון, וואלק ערק, אבסולוט, פידג'\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית\""
   },
   {
     "id": "reciPBo3MtrS0zOfK",
@@ -1225,7 +1269,8 @@
   {
     "id": "reckyoyehbSI7TMhZ",
     "name": "אניס",
-    "position": 16
+    "position": 16,
+    "description": "\"דיל צייסרים 4 ב:\nדיל 55 – ערק אשקלון, וואלק ערק, אבסולוט, פידג'\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית\""
   },
   {
     "id": "recD4JdjxF1KxiYJ7",
@@ -1248,7 +1293,8 @@
   {
     "id": "rec4zYf6NrdzNhjt1",
     "name": "טקילה",
-    "position": 17
+    "position": 17,
+    "description": "דיל צייסרים 4 ב:\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית"
   },
   {
     "id": "recHTfuxUeHBVl3xU",
@@ -1282,7 +1328,8 @@
   {
     "id": "recQidYJn8gCwjVVj",
     "name": "ליקרים",
-    "position": 19
+    "position": 19,
+    "description": "דיל צייסרים 4 ב:\nדיל 55 – ערק אשקלון, וואלק ערק, אבסולוט, פידג'\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית"
   },
   {
     "id": "recrAf64Sr3tbU8Ft",

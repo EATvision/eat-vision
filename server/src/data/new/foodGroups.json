@@ -877,7 +877,10 @@
   {
     "id": "recI9Q7Z1Eluqpgfu",
     "name": "aioli",
-    "translation_heb": "איולי"
+    "translation_heb": "איולי",
+    "parentGroups": [
+      "recdx1s8hodBvQIHm"
+    ]
   },
   {
     "id": "recshRojqcVWbJnty",
@@ -1042,9 +1045,14 @@
     "name": "soft drinks",
     "translation_heb": "משקאות קלים",
     "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
+      "recA1DeocMW69g9QP",
+      "recJ0Kp5PBpH5pAeR"
     ]
+  },
+  {
+    "id": "rec9TFbNApiiNfSzA",
+    "name": "soft drinks",
+    "translation_heb": "משקאות קלים"
   },
   {
     "id": "rectaf1dNJEkPQdhE",
@@ -1143,18 +1151,30 @@
     "translation_heb": "כשר"
   },
   {
-    "id": "recHFAtr2WZkQ98Im"
+    "id": "recHFAtr2WZkQ98Im",
+    "parentGroups": [
+      "recfqsjPJYOLjkUvT"
+    ]
   },
   {
-    "id": "rec17syXperdobDf8"
+    "id": "rec17syXperdobDf8",
+    "parentGroups": [
+      "recfqsjPJYOLjkUvT"
+    ]
   },
   {
-    "id": "recq5k3ySOqOC5oui"
+    "id": "recq5k3ySOqOC5oui",
+    "parentGroups": [
+      "recfqsjPJYOLjkUvT"
+    ]
   },
   {
     "id": "recelzDwH6cna2uAC",
     "name": "Sparkling wines",
-    "translation_heb": "יינות מבעבעים"
+    "translation_heb": "יינות מבעבעים",
+    "parentGroups": [
+      "recfqsjPJYOLjkUvT"
+    ]
   },
   {
     "id": "recDawO8L5QbLNa8h",
@@ -1164,22 +1184,34 @@
     ]
   },
   {
-    "id": "reczQovi5wQJZkFSs"
+    "id": "reczQovi5wQJZkFSs",
+    "parentGroups": [
+      "recfqsjPJYOLjkUvT"
+    ]
   },
   {
-    "id": "recF5IDsUG8oUgKyE"
+    "id": "recF5IDsUG8oUgKyE",
+    "parentGroups": [
+      "recfqsjPJYOLjkUvT"
+    ]
   },
   {
-    "id": "recHuy7gZNEvA3RKZ"
+    "id": "recHuy7gZNEvA3RKZ",
+    "parentGroups": [
+      "recAvCd37VjynjiAV"
+    ]
   },
   {
-    "id": "recyFHxNKx10XMK6M"
+    "id": "recyFHxNKx10XMK6M",
+    "parentGroups": [
+      "recAvCd37VjynjiAV"
+    ]
   },
   {
-    "id": "recQkc9oCqz4PzdnQ"
-  },
-  {
-    "id": "rec9dNWW9jcV7AkOb"
+    "id": "recQkc9oCqz4PzdnQ",
+    "parentGroups": [
+      "recJ0Kp5PBpH5pAeR"
+    ]
   },
   {
     "id": "recdunSceEXLZP7tz",
@@ -1191,15 +1223,25 @@
     ]
   },
   {
-    "id": "recNgHoP7RU6nyN8S"
+    "id": "recNgHoP7RU6nyN8S",
+    "parentGroups": [
+      "recelzDwH6cna2uAC",
+      "recfqsjPJYOLjkUvT"
+    ]
   },
   {
     "id": "rec5FGOyTzybyseEx"
   },
   {
-    "id": "rec6sIEbuBWYos6Wk"
+    "id": "rec6sIEbuBWYos6Wk",
+    "parentGroups": [
+      "recA1DeocMW69g9QP"
+    ]
   },
   {
-    "id": "rechZhfFBvUUZrGER"
+    "id": "rechZhfFBvUUZrGER",
+    "parentGroups": [
+      "reclrqMHo7sdRGeLH"
+    ]
   }
 ]

@@ -1,1 +1,234 @@
-[{"id":"recsHn5ysBHYm7FDS","name":"Bustan NYC","image":[{"id":"attP7Nj0RfF7V74w1","width":200,"height":82,"url":"https://dl.airtable.com/.attachments/f884fc40cb76606a8465ea90f7e96e46/76bd341e/bustan-logo2.png","filename":"bustan-logo2.png","size":5855,"type":"image/png","thumbnails":{"small":{"url":"https://dl.airtable.com/.attachmentThumbnails/1ea2229de127657a37c814a44d930e4c/aab58855","width":88,"height":36},"large":{"url":"https://dl.airtable.com/.attachmentThumbnails/80ae11a93cea98ed234d416537d6d055/95eb38d3","width":200,"height":82},"full":{"url":"https://dl.airtable.com/.attachmentThumbnails/313b7f824f2c5590d3d2cc843383fd03/b80e634b","width":3000,"height":3000}}}],"website":"https://bustannyc.com/","intentions":["Dine-in","Takeout","Delivery"],"menus":["rec7R2UglfNyQj2uM"],"currency":"$","locale":"en-US"},{"id":"recipajs7uV1pWw1h","name":"12 Chairs Cafe ","image":[{"id":"attxJHnpG6H0gpkmS","width":220,"height":220,"url":"https://dl.airtable.com/.attachments/ebde65d8c1e509dc1b39802a4d218230/bb8c6aaa/logo_220X220.jpg","filename":"logo_220X220.jpg","size":13547,"type":"image/jpeg","thumbnails":{"small":{"url":"https://dl.airtable.com/.attachmentThumbnails/684f70527cb537e7196dd3ee8c222a88/abc38e78","width":36,"height":36},"large":{"url":"https://dl.airtable.com/.attachmentThumbnails/35b5f4f00eb0f0236145e9b38cb84ef2/1e1af05d","width":220,"height":220},"full":{"url":"https://dl.airtable.com/.attachmentThumbnails/ca8f4d5d941322bb8d3c35768b23893d/5a6612cb","width":3000,"height":3000}}}],"website":"https://12chairscafe.com/brooklyn/menu/","intentions":["Dine-in","Takeout","Delivery"],"location":["recVKDYGF5Z5jp7fz"],"workingHours":["recsOApPfuoqg065a","reclLWEiXq2Kkmwlx"],"menus":["rech9gf7rUFNDEoMD"],"currency":"$","locale":"en-US"},{"id":"recnsNrn3KakAcOX5","name":"האחים","image":[{"id":"attJMS2RZwA5K3tBP","width":297,"height":103,"url":"https://dl.airtable.com/.attachments/2c71a16dcd5a4fde76046c990a64b290/50d7b6cd/logo.jpg","filename":"logo.jpg","size":4806,"type":"image/jpeg","thumbnails":{"small":{"url":"https://dl.airtable.com/.attachmentThumbnails/547e92710d6c675958ff099807764e99/91a19fbb","width":104,"height":36},"large":{"url":"https://dl.airtable.com/.attachmentThumbnails/66c6817fb90db6a62e663e078952d2aa/c4fad2f8","width":297,"height":103},"full":{"url":"https://dl.airtable.com/.attachmentThumbnails/a9bfa2becfaec9cb4f9c86c765761a98/61738784","width":3000,"height":3000}}}],"website":"https://www.haachim.co.il/","intentions":["Dine-in","Takeout","Delivery"],"location":["recNg4hzEgtdK7S7T"],"workingHours":["recfn3FiKEpe7QwIx"],"menus":["recjlbno2inHuMHZf","recqNn2ltXmve4Eh5"],"currency":"₪","locale":"he-IL"},{"id":"rectt2czyDaeql4Lc","name":"לנדוור","image":[{"id":"attHKtBeBPFXeG5S1","width":200,"height":200,"url":"https://dl.airtable.com/.attachments/71cd691fea37a6bfc2b9ac1edc9126c6/c5774cdf/logo200X200.png","filename":"logo 200X200.png","size":13734,"type":"image/png","thumbnails":{"small":{"url":"https://dl.airtable.com/.attachmentThumbnails/badb3338d5cc674a16fa20893f0b5a21/a7bc8b82","width":36,"height":36},"large":{"url":"https://dl.airtable.com/.attachmentThumbnails/a45a8d181bffe5eb5faae564228a7581/00447376","width":200,"height":200},"full":{"url":"https://dl.airtable.com/.attachmentThumbnails/7b2129bd5faeb9f3bbf146011d8141bc/0fe1ef22","width":3000,"height":3000}}}],"website":"https://www.landwercafe.co.il/","menus":["recCGTRXNQCMOpc3E"],"currency":"₪","locale":"he-IL"},{"id":"recCtQEnXUUqDHBfF","name":"POW WOW","image":[{"id":"attclhYzWstEYr6Gw","width":234,"height":148,"url":"https://dl.airtable.com/.attachments/7df320c18949d94cf642af72291fb506/2a35aeb8/RML_600558_637314371800453474.png","filename":"RML_600558_637314371800453474.png","size":4213,"type":"image/png","thumbnails":{"small":{"url":"https://dl.airtable.com/.attachmentThumbnails/9f767645f9a71eac2c56b44314873fe5/808517ca","width":57,"height":36},"large":{"url":"https://dl.airtable.com/.attachmentThumbnails/937936a263c1411c9c4f9725e36a0f55/8b659913","width":234,"height":148},"full":{"url":"https://dl.airtable.com/.attachmentThumbnails/76c7c0ab18f96b126f093f6eeaaf36a0/38fe137f","width":3000,"height":3000}}}],"website":"https://www.pow-wow.co.il/","intentions":["Dine-in","Takeout","Delivery"],"location":["recJNjpkJnJmuhG8P"],"workingHours":["recAGERuhNI8tYyRH","recA42k6lnuz9sD2K"],"menus":["recE7KpeDFYeEp7Ka","recNuJVSBD6eGMqXH"],"currency":"₪","locale":"he-IL"}]
+[
+  {
+    "id": "recsHn5ysBHYm7FDS",
+    "name": "Bustan NYC",
+    "image": [
+      {
+        "id": "attP7Nj0RfF7V74w1",
+        "width": 200,
+        "height": 82,
+        "url": "https://dl.airtable.com/.attachments/f884fc40cb76606a8465ea90f7e96e46/76bd341e/bustan-logo2.png",
+        "filename": "bustan-logo2.png",
+        "size": 5855,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/1ea2229de127657a37c814a44d930e4c/aab58855",
+            "width": 88,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/80ae11a93cea98ed234d416537d6d055/95eb38d3",
+            "width": 200,
+            "height": 82
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/313b7f824f2c5590d3d2cc843383fd03/b80e634b",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "website": "https://bustannyc.com/",
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "menus": [
+      "rec7R2UglfNyQj2uM"
+    ],
+    "currency": "$",
+    "locale": "en-US"
+  },
+  {
+    "id": "recipajs7uV1pWw1h",
+    "name": "12 Chairs Cafe ",
+    "image": [
+      {
+        "id": "attxJHnpG6H0gpkmS",
+        "width": 220,
+        "height": 220,
+        "url": "https://dl.airtable.com/.attachments/ebde65d8c1e509dc1b39802a4d218230/bb8c6aaa/logo_220X220.jpg",
+        "filename": "logo_220X220.jpg",
+        "size": 13547,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/684f70527cb537e7196dd3ee8c222a88/abc38e78",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/35b5f4f00eb0f0236145e9b38cb84ef2/1e1af05d",
+            "width": 220,
+            "height": 220
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ca8f4d5d941322bb8d3c35768b23893d/5a6612cb",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "website": "https://12chairscafe.com/brooklyn/menu/",
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recVKDYGF5Z5jp7fz"
+    ],
+    "workingHours": [
+      "recsOApPfuoqg065a",
+      "reclLWEiXq2Kkmwlx"
+    ],
+    "menus": [
+      "rech9gf7rUFNDEoMD"
+    ],
+    "currency": "$",
+    "locale": "en-US"
+  },
+  {
+    "id": "recnsNrn3KakAcOX5",
+    "name": "האחים",
+    "image": [
+      {
+        "id": "attJMS2RZwA5K3tBP",
+        "width": 297,
+        "height": 103,
+        "url": "https://dl.airtable.com/.attachments/2c71a16dcd5a4fde76046c990a64b290/50d7b6cd/logo.jpg",
+        "filename": "logo.jpg",
+        "size": 4806,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/547e92710d6c675958ff099807764e99/91a19fbb",
+            "width": 104,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/66c6817fb90db6a62e663e078952d2aa/c4fad2f8",
+            "width": 297,
+            "height": 103
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a9bfa2becfaec9cb4f9c86c765761a98/61738784",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "website": "https://www.haachim.co.il/",
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recNg4hzEgtdK7S7T"
+    ],
+    "workingHours": [
+      "recfn3FiKEpe7QwIx"
+    ],
+    "menus": [
+      "recjlbno2inHuMHZf",
+      "recqNn2ltXmve4Eh5"
+    ],
+    "currency": "₪",
+    "locale": "he-IL"
+  },
+  {
+    "id": "rectt2czyDaeql4Lc",
+    "name": "לנדוור",
+    "image": [
+      {
+        "id": "attHKtBeBPFXeG5S1",
+        "width": 200,
+        "height": 200,
+        "url": "https://dl.airtable.com/.attachments/71cd691fea37a6bfc2b9ac1edc9126c6/c5774cdf/logo200X200.png",
+        "filename": "logo 200X200.png",
+        "size": 13734,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/badb3338d5cc674a16fa20893f0b5a21/a7bc8b82",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a45a8d181bffe5eb5faae564228a7581/00447376",
+            "width": 200,
+            "height": 200
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7b2129bd5faeb9f3bbf146011d8141bc/0fe1ef22",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "website": "https://www.landwercafe.co.il/",
+    "menus": [
+      "recCGTRXNQCMOpc3E"
+    ],
+    "currency": "₪",
+    "locale": "he-IL"
+  },
+  {
+    "id": "recCtQEnXUUqDHBfF",
+    "name": "POW WOW",
+    "image": [
+      {
+        "id": "attaM1r7pgHlmYHYA",
+        "width": 143,
+        "height": 145,
+        "url": "https://dl.airtable.com/.attachments/766882c285e89b3f4fa59c2b76328784/d270c37d/RLL_600558_6373143718155092232.png",
+        "filename": "RLL_600558_6373143718155092232.png",
+        "size": 5636,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3089803062ae79f2c76f4c5ee692c5df/48e57c38",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f3b26561ce64b5af1b8ebf47c0e06456/c3f866c0",
+            "width": 143,
+            "height": 145
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/03eca6ae3024a2ca07ca958c90a36799/c2359348",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "website": "https://www.pow-wow.co.il/",
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recJNjpkJnJmuhG8P"
+    ],
+    "workingHours": [
+      "recAGERuhNI8tYyRH",
+      "recA42k6lnuz9sD2K"
+    ],
+    "menus": [
+      "recE7KpeDFYeEp7Ka",
+      "recNuJVSBD6eGMqXH"
+    ],
+    "currency": "₪",
+    "locale": "he-IL"
+  }
+]

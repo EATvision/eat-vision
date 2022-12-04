@@ -23,7 +23,7 @@ function MenuOptionsBanner() {
     [location, navigate]
   )
 
-  if (!menus) return null
+  if (!menus || !menuId) return null
 
   if (menus?.length === 1) {
     return (
@@ -43,6 +43,8 @@ function MenuOptionsBanner() {
       value={menuId}
       onChange={handleChange}
       variant="standard"
+      disableUnderline
+      autoWidth
     >
       {menus?.map((menu) => (
         <MenuItem key={menu.id} value={menu.id}>

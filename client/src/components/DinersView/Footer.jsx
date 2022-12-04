@@ -1,8 +1,5 @@
 import * as React from 'react'
 import { styled } from '@mui/material/styles'
-import TuneIcon from '@mui/icons-material/Tune'
-import OrderIcon from '@mui/icons-material/FeedOutlined'
-import CallWaiterIcon from '@mui/icons-material/EmojiPeopleOutlined'
 
 import {
   AppBar,
@@ -12,11 +9,16 @@ import {
   Fab,
   IconButton,
   Toolbar,
+  Typography,
 } from '@mui/material'
 import { useDinerUser } from 'contexts/diner'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
-// import { GroupsIcon } from 'components/Icons/GroupsIcon'
-import { SlSettings as SettingsIcon } from 'react-icons/sl'
+import { ConnectIcon } from 'components/Icons/ConnectIcon'
+import { SettingsIcon } from 'components/Icons/SettingsIcon'
+import { MyListIcon } from 'components/Icons/MyListIcon'
+import { ProfileIcon } from 'components/Icons/ProfileIcon'
+import { t } from 'i18next'
+import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 
 const StyledFab = styled(Fab)({
   position: 'absolute',
@@ -25,6 +27,10 @@ const StyledFab = styled(Fab)({
   left: 0,
   right: 0,
   margin: '0 auto',
+  width: 75,
+  height: 75,
+  overflow: 'hidden',
+  border: '1px solid #e9e9e9',
 })
 
 export default function Footer() {
@@ -70,27 +76,64 @@ export default function Footer() {
       >
         <Toolbar>
           <IconButton
-            disabled={location.pathname.includes('/oreder')}
+            disableRipple
+            onClick={handleClickSettings}
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+            }}
+            disabled={
+              location.pathname.includes('/settings') || !dinerUser.token
+            }
+          >
+            <SettingsIcon />
+            <Typography sx={{ fontSize: 12 }}>{t('settings')}</Typography>
+          </IconButton>
+
+          <IconButton disabled>
+            <Badge
+              color="info"
+              invisible
+              badgeContent={t('coming_soon')}
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <ConnectIcon />
+              <Typography sx={{ fontSize: 12 }}>{t('connect')}</Typography>
+            </Badge>
+          </IconButton>
+
+          <Box sx={{ flexGrow: 1 }} />
+
+          <StyledFab color="secondary" aria-label="add">
+            <img src={waiterSrc} />
+            {/* <RaiseHandIcon style={{ fontSize: '2.75rem', color: 'white' }} /> */}
+          </StyledFab>
+
+          <Box sx={{ flexGrow: 1 }} />
+
+          <IconButton
+            disabled={location.pathname.includes('/myorder')}
             onClick={handleClickMyOrder}
           >
             <Badge
               color="primary"
               invisible={numberOfDishesInMyOrder === 0}
               badgeContent={numberOfDishesInMyOrder}
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
             >
-              <OrderIcon />
+              <MyListIcon />
+              <Typography sx={{ fontSize: 12 }}>{t('my_list')}</Typography>
             </Badge>
           </IconButton>
-
-          <StyledFab color="secondary" aria-label="add">
-            <CallWaiterIcon />
-          </StyledFab>
-
-          <Box sx={{ flexGrow: 1 }} />
-
-          {/* <IconButton disableRipple>
-            <GroupsIcon />
-          </IconButton> */}
 
           <IconButton
             disabled={location.pathname.includes('/filters')}
@@ -100,19 +143,15 @@ export default function Footer() {
               color="primary"
               invisible={numberOfFiltersOn === 0}
               badgeContent={numberOfFiltersOn}
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
             >
-              <TuneIcon />
+              <ProfileIcon />
+              <Typography sx={{ fontSize: 12 }}>{t('profile')}</Typography>
             </Badge>
-          </IconButton>
-
-          <IconButton
-            disableRipple
-            onClick={handleClickSettings}
-            disabled={
-              location.pathname.includes('/settings') || !dinerUser.token
-            }
-          >
-            <SettingsIcon />
           </IconButton>
         </Toolbar>
       </AppBar>

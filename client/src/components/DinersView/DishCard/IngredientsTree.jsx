@@ -102,14 +102,12 @@ export default function IngredientsTreeWrapper({ ingredients }) {
 const IngredientsTree = ({ ingridient }) => {
   const subIngredients = ingridient.subIngredients
   const { ingredients } = useV1IngredientsByIds(subIngredients)
+  const nodeId = React.useId()
 
   const getComponentLabel = useGetComponentLabel()
 
   return (
-    <StyledTreeItem
-      nodeId={ingridient.id}
-      label={getComponentLabel(ingridient)}
-    >
+    <StyledTreeItem nodeId={nodeId} label={getComponentLabel(ingridient)}>
       {ingredients?.map((ing) => (
         <IngredientsTree key={ing.id} ingridient={ing} />
       ))}
