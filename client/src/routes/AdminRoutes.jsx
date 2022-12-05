@@ -4,11 +4,11 @@ import { Navigate, Route } from 'react-router-dom'
 import AdminView from 'views/AdminView'
 import LoginView from 'views/LoginView'
 
-import DietsView from 'components/AdminView/Diets'
+import DietsView from 'components/AdminView/DietsTab'
 import ProtectedRoute from 'components/ProtectedRoute'
-import FoodGroupsView from 'components/AdminView/FoodGroups'
-import IngrdientsView from 'components/AdminView/IngredientsView'
-import CustomersView from 'components/AdminView/CustomersTab/CustomersView'
+import FoodGroupsView from 'components/AdminView/FoodGroupsTab'
+import IngrdientsView from 'components/AdminView/ingredientsTab'
+import CustomersView from 'components/AdminView/CustomersTab'
 
 const AdminRoutes = () => (
   <Route
