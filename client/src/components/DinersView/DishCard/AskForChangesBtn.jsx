@@ -8,6 +8,7 @@ import {
   Typography,
   Box,
   useTheme,
+  Badge,
 } from '@mui/material'
 import { t } from 'i18next'
 
@@ -32,23 +33,38 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
   const id = open ? 'simple-popover' : undefined
 
   return (
-    <div>
-      <Button
-        aria-describedby={id}
-        variant="contained"
-        color="secondary"
-        size="small"
-        onClick={handleClick}
-        sx={{
-          fontSize: 12,
-          fontStyle: 'italic',
-          color: theme.palette.common.white,
-          borderRadius: 50,
+    <>
+      <Badge
+        color="error"
+        invisible={!dishExcludableComponentsFilteredOut}
+        badgeContent={dishExcludableComponentsFilteredOut?.length}
+        sx={{ width: '100%' }}
+        anchorOrigin={{
+          vertical: 'top',
+          horizontal: 'left',
         }}
-        disabled={open}
       >
-        {t('ask_for_changes')}
-      </Button>
+        <Button
+          aria-describedby={id}
+          variant="contained"
+          color="secondary"
+          size="small"
+          fullWidth
+          onClick={handleClick}
+          fullWudth
+          sx={{
+            fontSize: 12,
+            fontStyle: 'italic',
+            color: theme.palette.common.white,
+            borderRadius: 50,
+            borderBottomRightRadius: 0,
+            borderTopRightRadius: 0,
+          }}
+          disabled={open}
+        >
+          {t('ask_for_changes')}
+        </Button>
+      </Badge>
       <Popover
         id={id}
         open={open}
@@ -95,7 +111,7 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
           </Paper>
         )}
       </Popover>
-    </div>
+    </>
   )
 }
 

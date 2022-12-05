@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
   Box,
+  Button,
   Card,
   CardActions,
   CardContent,
@@ -26,9 +27,7 @@ import {
 import { VscVersions as SizesIcon } from 'react-icons/vsc'
 import { BsBasket as IngredientsIcon } from 'react-icons/bs'
 import { TiWarningOutline as WarningsIcon } from 'react-icons/ti'
-
 import ClampLines from 'react-clamp-lines'
-
 import { t } from 'i18next'
 import { useKitchenById } from 'hooks/kitchens'
 
@@ -37,10 +36,12 @@ import AskForChangesBtn from './AskForChangesBtn'
 import ChangesInfo from './ChangesInfo'
 import DescriptionInfo from './DescriptionInfo'
 import IngredientsInfo from './IngredientsInfo'
+import { Add as AddIcon } from '@mui/icons-material'
 
 const ActionButton = styled(IconButton)({
   width: 60,
   height: 60,
+  margin: 0,
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -109,7 +110,7 @@ export default function FoodDish({ data }) {
         }}
         elevation={0}
       >
-        <Box sx={{ display: 'flex' }}>
+        <Box>
           <CardHeader
             sx={{ textAlign: 'initial', flex: 1, alignItems: 'flex-start' }}
             title={
@@ -119,9 +120,7 @@ export default function FoodDish({ data }) {
                   justifyContent: 'space-between',
                 }}
               >
-                <Typography variant="h6" gutterBottom>
-                  {data.name}
-                </Typography>
+                <Typography variant="h6">{data.name}</Typography>
 
                 {data.price && (
                   <Typography
@@ -135,7 +134,12 @@ export default function FoodDish({ data }) {
                 )}
               </Box>
             }
-            subheader={
+          />
+
+          <Box sx={{ display: 'flex' }}>
+            <Box
+              sx={{ flex: 1, textAlign: 'start', padding: theme.spacing(1) }}
+            >
               <ClampLines
                 text={data.description || ''}
                 id={data.id}
@@ -146,29 +150,33 @@ export default function FoodDish({ data }) {
                 className="custom-class"
                 innerElement="p"
               />
-            }
-          />
-
-          <Box>
-            {data?.image?.url && (
-              <CardMedia
-                component="img"
-                sx={{
-                  width: 120,
-                  maxHeight: 120,
-                  margin: theme.spacing(1),
-                }}
-                image={data?.image?.url}
-                alt=""
-              />
-            )}
-            {dishExcludableComponentsFilteredOut?.length > 0 && (
-              <AskForChangesBtn
-                dishExcludableComponentsFilteredOut={
-                  dishExcludableComponentsFilteredOut
-                }
-              />
-            )}
+            </Box>
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'flex-end',
+              }}
+            >
+              {data?.image?.url && (
+                <CardMedia
+                  component="img"
+                  sx={{
+                    width: 110,
+                    height: 110,
+                  }}
+                  image={data?.image?.url}
+                  alt=""
+                />
+              )}
+              {dishExcludableComponentsFilteredOut?.length > 0 && (
+                <AskForChangesBtn
+                  dishExcludableComponentsFilteredOut={
+                    dishExcludableComponentsFilteredOut
+                  }
+                />
+              )}
+            </Box>
           </Box>
         </Box>
 
@@ -249,7 +257,7 @@ export default function FoodDish({ data }) {
           data.sizes.length > 0 ||
           data.recipe.mandatory.length > 0 ||
           data.warnings) && <Divider />}
-        <CardActions>
+        <CardActions disableSpacing sx={{ padding: 0 }}>
           {data.longDescription && (
             <ActionButton
               color={expandedMoreInfo === 'description' ? 'primary' : 'default'}
@@ -320,6 +328,22 @@ export default function FoodDish({ data }) {
               <Typography sx={{ fontSize: 12 }}>{t('warnings')}</Typography>
             </ActionButton>
           )}
+
+          <Button
+            endIcon={<AddIcon />}
+            variant="contained"
+            sx={{
+              height: 60,
+              width: 110,
+              borderRadius: 2,
+              borderBottomRightRadius: 0,
+              borderTopRightRadius: 0,
+              marginLeft: 'auto',
+              fontSize: '1.15rem',
+            }}
+          >
+            {t('add')}
+          </Button>
         </CardActions>
 
         <Divider />
