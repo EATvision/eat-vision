@@ -37,6 +37,7 @@ import ChangesInfo from './ChangesInfo'
 import DescriptionInfo from './DescriptionInfo'
 import IngredientsInfo from './IngredientsInfo'
 import { Add as AddIcon } from '@mui/icons-material'
+import { useDinerOrder } from 'contexts/order'
 
 const ActionButton = styled(IconButton)({
   width: 60,
@@ -339,21 +340,7 @@ export default function FoodDish({ data }) {
             </ActionButton>
           )}
 
-          <Button
-            endIcon={<AddIcon />}
-            variant="contained"
-            sx={{
-              width: 110,
-              borderRadius: 2,
-              borderBottomRightRadius: 0,
-              borderTopRightRadius: 0,
-              marginLeft: 'auto',
-              // height: 60,
-              // fontSize: '1.15rem',
-            }}
-          >
-            {t('add')}
-          </Button>
+          <DinerOrderController data={data} />
         </CardActions>
 
         <Divider />
@@ -381,4 +368,30 @@ function ExpandedInfo({ type, data }) {
   default:
     return null
   }
+}
+
+function DinerOrderController({ data }) {
+  const dinerOrder = useDinerOrder()
+  const handleClickAddDishToOrder = () => {
+    dinerOrder.setOrder((currOrder) => [...currOrder, data])
+  }
+
+  return (
+    <Button
+      endIcon={<AddIcon />}
+      variant="contained"
+      onClick={handleClickAddDishToOrder}
+      sx={{
+        width: 110,
+        borderRadius: 2,
+        borderBottomRightRadius: 0,
+        borderTopRightRadius: 0,
+        marginLeft: 'auto',
+        // height: 60,
+        // fontSize: '1.15rem',
+      }}
+    >
+      {t('add')}
+    </Button>
+  )
 }
