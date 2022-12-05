@@ -8,6 +8,7 @@ import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 import FoodDish from './DishCard/FoodDish'
 import Footer from './Footer'
 import DealBtn from './DealBtn'
+import Header from './Header'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()
@@ -57,6 +58,8 @@ function DishesPage({ dishes }) {
 
   return (
     <>
+      <Header />
+
       <Box sx={{ overflow: 'auto' }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
