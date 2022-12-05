@@ -112,7 +112,12 @@ export default function FoodDish({ data }) {
       >
         <Box>
           <CardHeader
-            sx={{ textAlign: 'initial', flex: 1, alignItems: 'flex-start' }}
+            sx={{
+              textAlign: 'initial',
+              flex: 1,
+              alignItems: 'flex-start',
+              paddingBottom: 0,
+            }}
             title={
               <Box
                 sx={{
@@ -138,7 +143,12 @@ export default function FoodDish({ data }) {
 
           <Box sx={{ display: 'flex' }}>
             <Box
-              sx={{ flex: 1, textAlign: 'start', padding: theme.spacing(1) }}
+              sx={{
+                flex: 1,
+                textAlign: 'start',
+                padding: theme.spacing(2),
+                paddingTop: 0,
+              }}
             >
               <ClampLines
                 text={data.description || ''}
