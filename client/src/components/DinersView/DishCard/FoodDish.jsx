@@ -343,13 +343,13 @@ export default function FoodDish({ data }) {
             endIcon={<AddIcon />}
             variant="contained"
             sx={{
-              height: 60,
               width: 110,
               borderRadius: 2,
               borderBottomRightRadius: 0,
               borderTopRightRadius: 0,
               marginLeft: 'auto',
-              fontSize: '1.15rem',
+              // height: 60,
+              // fontSize: '1.15rem',
             }}
           >
             {t('add')}
