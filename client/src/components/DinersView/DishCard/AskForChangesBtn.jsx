@@ -51,7 +51,6 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
           size="small"
           fullWidth
           onClick={handleClick}
-          fullWudth
           sx={{
             fontSize: 12,
             fontStyle: 'italic',
