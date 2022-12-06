@@ -60,7 +60,7 @@ function DishesPage({ dishes }) {
     <>
       <Header />
 
-      <Box sx={{ overflow: 'auto' }}>
+      <Box sx={{ overflow: 'auto', paddingBottom: '100px' }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
           .map((category) => (
