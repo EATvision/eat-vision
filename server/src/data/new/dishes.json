@@ -291,6 +291,7 @@
     "categories": [
       "recbP0zdJ5c8RAGvd"
     ],
+    "price": 49,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
@@ -708,7 +709,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recviJa7ROTdOBYNb"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -800,15 +806,58 @@
     "categories": [
       "rec5WS5yD5h3Qj8dR"
     ],
+    "price": 27,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rectxf7uOgyy3slB7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recF0p1gJUlLyMoXQ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqkZ7ml0XKKctjX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recvyskNhuZyanrR1"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [],
+      "sideDish": [
+        {
+          "type": "dish",
+          "id": "recpQT9Hzx6Waitfo",
+          "price": 0
+        },
+        {
+          "type": "dish",
+          "id": "rec2Kzp6cbEuRX89m",
+          "price": 0
+        },
+        {
+          "type": "dish",
+          "id": "recNx5jWptwm2tves",
+          "price": 0
+        },
+        {
+          "type": "dish",
+          "id": "recoIlFxMgXxwqSuu",
+          "price": 0
+        }
+      ],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -897,13 +946,40 @@
     "categories": [
       "recbP0zdJ5c8RAGvd"
     ],
+    "price": 32,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rech5ZnW3A9yu6SeN"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "recyljnPmldIlL0RZ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqkZ7ml0XKKctjX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        }
+      ],
       "excludable": [],
-      "putaside": [],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "rec0kpM82GnTvoxl7"
+        }
+      ],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1212,13 +1288,49 @@
     "categories": [
       "rec5UBFLohYRSiMky"
     ],
+    "price": 47,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
-      "putaside": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec8HNDoAlkIKr78L"
+        },
+        {
+          "type": "ingredient",
+          "id": "recYY4CMOn1ZiyZTt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqkZ7ml0XKKctjX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCW9WUJc8yDnzZ7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoplktAmVagJ46S"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        }
+      ],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1422,7 +1534,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "reckx60aIYyiSIaCG"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1457,11 +1574,45 @@
     "categories": [
       "rec5UBFLohYRSiMky"
     ],
+    "price": 49,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec8XVBp65VqRHpiK"
+        },
+        {
+          "type": "ingredient",
+          "id": "recp7fNhhlPENrUOX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoplktAmVagJ46S"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJViSTBnD2qrDj0"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectpZHKSyKnbUYSb"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfY7zuiP4jB3LnD"
+        },
+        {
+          "type": "ingredient",
+          "id": "recukEv4z95uIZqBx"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1481,9 +1632,52 @@
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
-      "putaside": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rectxf7uOgyy3slB7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCW9WUJc8yDnzZ7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recQewXbyKlFOqkWT"
+        },
+        {
+          "type": "ingredient",
+          "id": "recm2QBme7jDrV5Sw"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczZxPObmm6McdHg"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczWOjwDSvwMfeXV"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfidZyVXAu01ney"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqkZ7ml0XKKctjX"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recen8e7SyQCPXznx"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recen8e7SyQCPXznx"
+        }
+      ],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1662,11 +1856,29 @@
     "categories": [
       "recHkB0jXsbrxDMjm"
     ],
+    "price": 54,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recZUCAcvUznPzspa"
+        },
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recyljnPmldIlL0RZ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1718,16 +1930,64 @@
     "categories": [
       "rec5UBFLohYRSiMky"
     ],
+    "price": 59,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec1rgKdljBKDDBYx"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8XVBp65VqRHpiK"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJViSTBnD2qrDj0"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczZxPObmm6McdHg"
+        },
+        {
+          "type": "ingredient",
+          "id": "recppvTDsSIPvvRPG"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoplktAmVagJ46S"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCW9WUJc8yDnzZ7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfidZyVXAu01ney"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [],
+      "addableIngredients": [
+        {
+          "type": "ingredient",
+          "id": "rec1yFSKghcG6Z3WR",
+          "price": 10
+        }
+      ],
       "addableDishes": []
     }
   },
@@ -1790,15 +2050,51 @@
     "id": "rec6nHbyINYEUOxfG",
     "name": "סלט עגבניות חריף",
     "description": "שרי תמר, כוסברה, פלפל חריף, שום, גבינת המאירי",
+    "longDescription": "עגבניות שרי תמר  חתוכות גס  ,כוסברה , פלפל חריף, שום , גבינת פטה המאירי (כבשים). תיבול: שמן זית, מיץ לימון, מלח.\n",
     "categories": [
       "recbP0zdJ5c8RAGvd"
     ],
+    "price": 49,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "reccJhziGTnbUbIEd"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "rec94BZ9WXxBHtkTf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recyljnPmldIlL0RZ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectpZHKSyKnbUYSb"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeFEPeNz9MTGnu"
+        }
+      ],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -1813,11 +2109,37 @@
     "categories": [
       "recbP0zdJ5c8RAGvd"
     ],
+    "price": 56,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recVGUtW7tgIJnRqR"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec23XQwifRDsV1hK"
+        },
+        {
+          "type": "ingredient",
+          "id": "recukEv4z95uIZqBx"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec4FgBC6dd5MtrcE"
+        },
+        {
+          "type": "ingredient",
+          "id": "recM0IEOvEHWdExSV"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec13FdjaMaGhkFdV"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1833,6 +2155,7 @@
     "categories": [
       "recbP0zdJ5c8RAGvd"
     ],
+    "price": 57,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
@@ -1892,12 +2215,55 @@
     "categories": [
       "recbP0zdJ5c8RAGvd"
     ],
+    "price": 47,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recm2QBme7jDrV5Sw"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec6JuKZrj1Dz6X7X"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczNV3SyERPbAnQX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqkZ7ml0XKKctjX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recQewXbyKlFOqkWT"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recGBGHbizVMrwzF2"
+        },
+        {
+          "type": "ingredient",
+          "id": "recyljnPmldIlL0RZ"
+        }
+      ],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -1909,16 +2275,57 @@
     "id": "recKKFR8bAdGdL2PX",
     "name": "ספאייח תרד",
     "description": "פיתה צלויה ממולאת תרד תורכי, בצל מקורמל, זעתר טרי, גבינת המאירי ויוגורט כבשים",
+    "longDescription": "פיתה במילוי תרד תורכי,  גבינת פטה המאירי (כבשים), זעתר טרי, תבלין זעתר ובצל מקורמל . מוגשת בליווי של יוגורט כבשים בעיטור תבלין זעתר. המנה נפרסת ל- 4 חתיכות",
     "categories": [
       "recbP0zdJ5c8RAGvd"
     ],
+    "price": 45,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
-      "putaside": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recm2QBme7jDrV5Sw"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectpZHKSyKnbUYSb"
+        },
+        {
+          "type": "ingredient",
+          "id": "recvyskNhuZyanrR1"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfY7zuiP4jB3LnD"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczZxPObmm6McdHg"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recen8e7SyQCPXznx"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfY7zuiP4jB3LnD"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recen8e7SyQCPXznx"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfY7zuiP4jB3LnD"
+        }
+      ],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1989,7 +2396,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recJsdVCukz895F4D"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2008,7 +2420,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rectUeCjeASqIkEIj"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2138,7 +2555,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recUV393mAjfqGFyd"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2154,15 +2576,32 @@
     "categories": [
       "rec5WS5yD5h3Qj8dR"
     ],
+    "price": 82,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recPR6VPIPvpowg6A"
+        }
+      ],
       "excludable": [],
-      "putaside": [],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recen8e7SyQCPXznx"
+        }
+      ],
       "choice": [],
-      "sideDish": [],
+      "sideDish": [
+        {
+          "type": "dish",
+          "id": "recbTjeaNcqU44MpI",
+          "price": 0
+        }
+      ],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -2265,14 +2704,37 @@
     "id": "recJfSqV8I9d0YhQn",
     "name": "פרוסות סינטה",
     "description": "רוסטביף סינטה, עשבים, פיסטוקים, וינגרט סילאן ופרי העונה",
+    "longDescription": "נתחי סינטה מצופים בדואה תערובת תבלינים מצרית. מוגש קר במידת עשייה רייר מגיע עם סלט עשבים (פטרוזיליה, נענע, בצל ירוק), פיסטוקים ופרי עונתי טרי (בד\"כ ענבים בקיץ, ופומלה בחורף) ברוטב ויניגרט בלסמי חרדל סילאן.\nהמנה לא מתאימה לנשים בהריון",
     "categories": [
       "recbP0zdJ5c8RAGvd"
     ],
+    "price": 65,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec78dcogqTb5pncv"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoplktAmVagJ46S"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJ0AluXY6CKkE1y"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec13FdjaMaGhkFdV"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUmBfpXVOw2hC5p"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2374,7 +2836,7 @@
   },
   {
     "id": "rec2Kzp6cbEuRX89m",
-    "name": "צ'פס",
+    "name": "צי'פס",
     "categories": [
       "recPEueYqRnH1KVT1"
     ],
@@ -2469,11 +2931,53 @@
     "categories": [
       "rec5WS5yD5h3Qj8dR"
     ],
+    "price": 78,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "reczkx8wE48NKnrIe"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec94BZ9WXxBHtkTf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recYY4CMOn1ZiyZTt"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8ZUgyVbqES75bw"
+        },
+        {
+          "type": "ingredient",
+          "id": "reciKnGs1VNwHzgMu"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recen8e7SyQCPXznx"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCW9WUJc8yDnzZ7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoplktAmVagJ46S"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2615,7 +3119,12 @@
     "dishType": "drink",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recyoa7YkJ2PlsUew"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -13576,6 +14085,47 @@
           "id": "recHmrzDcl8w7Mo8Z"
         }
       ],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recbTjeaNcqU44MpI",
+    "name": "fresh salad",
+    "description": "סלט רענן",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "rec790UdQSjJXmK6w"
+        },
+        {
+          "type": "ingredient",
+          "id": "recHpqpxNchhnr7jS"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJViSTBnD2qrDj0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recYY4CMOn1ZiyZTt"
+        }
+      ],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
