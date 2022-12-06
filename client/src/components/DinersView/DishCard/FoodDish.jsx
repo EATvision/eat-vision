@@ -48,7 +48,7 @@ const ActionButton = styled(IconButton)({
   alignItems: 'center',
 })
 
-export default function FoodDish({ data }) {
+export default function FoodDish({ data, hideOrderControls }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
@@ -340,7 +340,7 @@ export default function FoodDish({ data }) {
             </ActionButton>
           )}
 
-          <DinerOrderController data={data} />
+          {!hideOrderControls && <DinerOrderController data={data} />}
         </CardActions>
 
         <Divider />

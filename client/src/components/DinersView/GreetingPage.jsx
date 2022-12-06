@@ -111,7 +111,7 @@ function GreetingPage() {
                 {t('that_are_relevant_to_you')}
               </Typography>
 
-              <Typography
+              <Box
                 variant="body2"
                 sx={{
                   display: 'flex',
@@ -136,7 +136,7 @@ function GreetingPage() {
                     {t('tofull_menu')}
                   </Typography>
                 </Link>
-              </Typography>
+              </Box>
             </Box>
           </Box>
           <Box

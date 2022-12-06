@@ -107,5 +107,7 @@ export default {
   my_list: 'הרשימה שלי',
   profile: 'פרופיל',
   deal: 'DEAL',
-  empty_components_restriction_selector: 'טרם נבחרו אופציות'
+  empty_components_restriction_selector: 'טרם נבחרו אופציות',
+  order_summary: 'סיכום הזמנה',
+  complete_order: 'אישור'
 }
