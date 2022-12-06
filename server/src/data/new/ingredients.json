@@ -20926,5 +20926,320 @@
     "excludedInDiets": [],
     "foodGroups": [],
     "isSearchable": false
+  },
+  {
+    "id": "recyljnPmldIlL0RZ",
+    "name": "green chili pepper",
+    "isSearchable": true,
+    "groups": [
+      "recjiQfjWqXpnBZ9K",
+      "recWpISCcCcAIX1lr"
+    ],
+    "translation_heb": "פלפל חריף",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recjiQfjWqXpnBZ9K",
+      "recWpISCcCcAIX1lr"
+    ]
+  },
+  {
+    "id": "rec78dcogqTb5pncv",
+    "name": "sirloin slices",
+    "subIngredients": [
+      "recKP9gmvdeBVd3PC",
+      "recn0K4ENRqjHlCAY"
+    ],
+    "translation_heb": "פרוסות סינטה",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc",
+      "recTqrrExyN2M0oG8"
+    ],
+    "foodGroups": [
+      "recmkvtZD6t6WKl07",
+      "recNVPxM2A8o2elhG",
+      "rec0QscXGfFUDTzBr",
+      "rec9aef6vga0ZHQHN",
+      "receelNsoQTM6LFwT",
+      "recHJLhfoFpQuTVOI"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recn0K4ENRqjHlCAY",
+    "name": "Duqqa",
+    "subIngredients": [
+      "rec2qirj7PNaNPheG",
+      "recNBt7XWtpoaihEE",
+      "rec17BciDXqPJq56b",
+      "recFmr8LcrevhXL18"
+    ],
+    "synonyms": "Duqqa , du'ah , do'a , dukkah ",
+    "groups": [
+      "rec0QscXGfFUDTzBr"
+    ],
+    "translation_heb": "דואה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "rec0QscXGfFUDTzBr",
+      "rec9aef6vga0ZHQHN",
+      "receelNsoQTM6LFwT",
+      "recHJLhfoFpQuTVOI"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recFmr8LcrevhXL18",
+    "name": "Peanuts",
+    "isSearchable": true,
+    "groups": [
+      "recHJLhfoFpQuTVOI"
+    ],
+    "translation_heb": "בוטנים",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recHJLhfoFpQuTVOI"
+    ]
+  },
+  {
+    "id": "rec13FdjaMaGhkFdV",
+    "name": "Vinagrete haachim",
+    "subIngredients": [
+      "recjA6WfuqGEQpHEf",
+      "recHtp7feIuyKBefx",
+      "recqnDva5HocsoMPo"
+    ],
+    "isSearchable": false,
+    "translation_heb": "ויניגרט בלסמי חרדל סילאן",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "rec75vhLm4p0l8HfZ",
+      "rec75vhLm4p0l8HfZ",
+      "rec9aef6vga0ZHQHN",
+      "recRQstqYOST4uTB1",
+      "rec9aef6vga0ZHQHN",
+      "rec9aef6vga0ZHQHN",
+      "rec9aef6vga0ZHQHN",
+      "recA1DeocMW69g9QP",
+      "recmoMwkVsy3dUCFu"
+    ]
+  },
+  {
+    "id": "recUmBfpXVOw2hC5p",
+    "name": "Pomelo",
+    "isSearchable": true,
+    "groups": [
+      "recGvVrIfqmts2vCj"
+    ],
+    "translation_heb": "פומלה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recGvVrIfqmts2vCj"
+    ]
+  },
+  {
+    "id": "recM0IEOvEHWdExSV",
+    "name": "Shahat cheese",
+    "subIngredients": [
+      "recP3ckx3sgZrFIkW"
+    ],
+    "isSearchable": false,
+    "description": "גבינת עיזים מפוחמת, בעלת טעם חזק",
+    "groups": [
+      "recdUoO2zbt196H0V",
+      "recYgJLdDlWsTxVGe",
+      "recskJLfd1Ydg6Dpo",
+      "rechdBUA5LiWfnnuE"
+    ],
+    "translation_heb": "גבינת שחת",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recTqrrExyN2M0oG8",
+      "recFh4JVbTqqu9Rhf"
+    ],
+    "foodGroups": [
+      "recdUoO2zbt196H0V",
+      "recYgJLdDlWsTxVGe",
+      "recskJLfd1Ydg6Dpo",
+      "rechdBUA5LiWfnnuE",
+      "recYgJLdDlWsTxVGe",
+      "rechdBUA5LiWfnnuE"
+    ]
+  },
+  {
+    "id": "reczZxPObmm6McdHg",
+    "name": "caramelized onions",
+    "subIngredients": [
+      "reco4QENFZZfn59Rv",
+      "recuFLsNpIMHWdQWr"
+    ],
+    "isSearchable": false,
+    "translation_heb": "בצלים מקורמלים",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recRLRNG6VRO3pnoY",
+      "reccATkRbfWDQGzvn"
+    ]
+  },
+  {
+    "id": "recen8e7SyQCPXznx",
+    "name": "sheep's yogurt",
+    "subIngredients": [
+      "recn1uc0nendi3w0g"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recYgJLdDlWsTxVGe"
+    ],
+    "translation_heb": "יוגורט כבשים",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "reczLN4jNH5npEarc",
+      "recFh4JVbTqqu9Rhf"
+    ],
+    "foodGroups": [
+      "recYgJLdDlWsTxVGe",
+      "recX7LWBWgvLk0fXO",
+      "recYgJLdDlWsTxVGe"
+    ]
+  },
+  {
+    "id": "rec1yFSKghcG6Z3WR",
+    "name": "redefine meat",
+    "subIngredients": [
+      "recLjs8M6mH8MEYus",
+      "recrM59HGbA7gVq10",
+      "rechD3wgxd5jy1frU",
+      "recumxTxqOo3lI6Li",
+      "reco4QENFZZfn59Rv",
+      "rec7Z0FBOohFlRD28",
+      "receN4iLyolSoIN3c",
+      "recbkJd1XomV4uqBb",
+      "recOtCA1zVlI5DJJU"
+    ],
+    "translation_heb": "רידיפיין",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recVSf3qwSKLDfbw2",
+      "recGrdvYp4KJzbvdd",
+      "recVSf3qwSKLDfbw2",
+      "recjJU30Y4c7lLRbf",
+      "recRLRNG6VRO3pnoY",
+      "reccATkRbfWDQGzvn",
+      "recHJLhfoFpQuTVOI",
+      "reccATkRbfWDQGzvn",
+      "recRLRNG6VRO3pnoY",
+      "recN0HIrikkUk6AvS",
+      "recurt87JNmeE6SzQ",
+      "recwq1XAJ50UwIOWX",
+      "rec0ZY6yIjGm0lEMV",
+      "reciEjtCi62wG3bkB",
+      "recRLRNG6VRO3pnoY",
+      "recjdvSMxTyphSetE"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "rechD3wgxd5jy1frU",
+    "name": "Coconut Fat ",
+    "subIngredients": [
+      "recrVbpPI7LXWIHSb"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "reccATkRbfWDQGzvn"
+    ],
+    "translation_heb": "שומן קוקוס",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "reccATkRbfWDQGzvn",
+      "recHJLhfoFpQuTVOI"
+    ]
+  },
+  {
+    "id": "recumxTxqOo3lI6Li",
+    "name": "Rapeseed oil",
+    "isSearchable": false,
+    "groups": [
+      "reccATkRbfWDQGzvn"
+    ],
+    "translation_heb": "שמן קנולה מזוכך , שמן קלוזה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "reccATkRbfWDQGzvn"
+    ]
+  },
+  {
+    "id": "rec7Z0FBOohFlRD28",
+    "name": "Methyl cellulose",
+    "groups": [
+      "recN0HIrikkUk6AvS"
+    ],
+    "translation_heb": "מתיל תאית",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recN0HIrikkUk6AvS"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recPR6VPIPvpowg6A",
+    "name": "Trout",
+    "groups": [
+      "recv4O8R7YyTwXVVU"
+    ],
+    "translation_heb": "דג פורל",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "recTqrrExyN2M0oG8"
+    ],
+    "foodGroups": [
+      "recv4O8R7YyTwXVVU"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recHpqpxNchhnr7jS",
+    "name": "smoked artichoke and Parboil beans",
+    "subIngredients": [
+      "recF4kNRSYYyYeq44",
+      "recVuqlhzq3oLm1B0"
+    ],
+    "isSearchable": false,
+    "translation_heb": "ארטישוקים מעושנים ושעועית חלוטה",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recRLRNG6VRO3pnoY",
+      "recGrdvYp4KJzbvdd"
+    ]
+  },
+  {
+    "id": "reczkx8wE48NKnrIe",
+    "name": "seabass",
+    "groups": [
+      "recv4O8R7YyTwXVVU"
+    ],
+    "translation_heb": "לברק",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "recTqrrExyN2M0oG8"
+    ],
+    "foodGroups": [
+      "recv4O8R7YyTwXVVU"
+    ],
+    "isSearchable": false
   }
 ]

@@ -99,7 +99,7 @@ const modifiedDishes = dishes.map(dish => {
     categories: dish.category,
     image: dish?.image?.[0],
     price: dish?.price,
-    kitchenId: dish?.kitchenIds[0],
+    kitchenId: dish?.kitchenIds?.[0],
     dishType: dish?.dishType?.[0]?.trim(),
     sizes,
     recipe: {
