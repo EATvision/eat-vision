@@ -34,7 +34,7 @@ function MyOrderPage() {
       >
         {dinerOrder.order.map((dish, index) => (
           <Box key={`${dish.id}-${index}`}>
-            <FoodDish data={dish} hideOrderControls />
+            <FoodDish data={dish} index={index} isOrdering />
           </Box>
         ))}
       </Box>

@@ -37,6 +37,8 @@ import ChangesInfo from './ChangesInfo'
 import DescriptionInfo from './DescriptionInfo'
 import IngredientsInfo from './IngredientsInfo'
 import { Add as AddIcon } from '@mui/icons-material'
+import { Remove as MinusIcon } from '@mui/icons-material'
+
 import { useDinerOrder } from 'contexts/order'
 
 const ActionButton = styled(IconButton)({
@@ -48,7 +50,7 @@ const ActionButton = styled(IconButton)({
   alignItems: 'center',
 })
 
-export default function FoodDish({ data, hideOrderControls }) {
+export default function FoodDish({ data, index, isOrdering }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
@@ -340,7 +342,11 @@ export default function FoodDish({ data, hideOrderControls }) {
             </ActionButton>
           )}
 
-          {!hideOrderControls && <DinerOrderController data={data} />}
+          <DinerOrderController
+            data={data}
+            index={index}
+            isOrdering={isOrdering}
+          />
         </CardActions>
 
         <Divider />
@@ -370,17 +376,22 @@ function ExpandedInfo({ type, data }) {
   }
 }
 
-function DinerOrderController({ data }) {
+function DinerOrderController({ data, index, isOrdering }) {
   const dinerOrder = useDinerOrder()
-  const handleClickAddDishToOrder = () => {
-    dinerOrder.setOrder((currOrder) => [...currOrder, data])
+  const handleClickToggleDishToOrder = () => {
+    dinerOrder.setOrder((currOrder) =>
+      isOrdering
+        ? currOrder.slice(0, index).concat(currOrder.slice(index + 1))
+        : [...currOrder, data]
+    )
   }
 
   return (
     <Button
-      endIcon={<AddIcon />}
+      endIcon={isOrdering ? <MinusIcon /> : <AddIcon />}
+      color={isOrdering ? 'error' : 'primary'}
       variant="contained"
-      onClick={handleClickAddDishToOrder}
+      onClick={handleClickToggleDishToOrder}
       sx={{
         width: 110,
         borderRadius: 2,
@@ -391,7 +402,7 @@ function DinerOrderController({ data }) {
         // fontSize: '1.15rem',
       }}
     >
-      {t('add')}
+      {isOrdering ? t('remove') : t('add')}
     </Button>
   )
 }
