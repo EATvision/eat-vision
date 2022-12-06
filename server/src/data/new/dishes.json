@@ -109,6 +109,238 @@
     }
   },
   {
+    "id": "recKht7ea6ojpUjwG",
+    "name": "אבוקדו בגריל",
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recWTa5e1E7HOtmKC",
+    "name": "אבסולוט",
+    "categories": [
+      "reciPBo3MtrS0zOfK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recsD32IIxJnuHh1d"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recHEq88GRTVubkCC",
+    "name": "אדום, כרם שבו 2018",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recS7eYm3hGAehJ5o",
+    "name": "אור מאופל, יעקב אוריה 2019",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recNx5jWptwm2tves",
+    "name": "אורז",
+    "description": "אורז לבן עם פטרוזיליה ושום",
+    "categories": [
+      "recPEueYqRnH1KVT1"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recx4Eh6JZbu0fCOo",
+    "name": "אורז ירוקים",
+    "categories": [
+      "recrDQMnlZyvJfuSz"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recLowzMbtTmw8Yer",
+    "name": "אוריגינל",
+    "description": "אבסולוט, אפרול, אשכולית, אננס, לימון, אורגנו מרענן במיוחד, הולך טוב עם לבנה",
+    "categories": [
+      "recG8y3OTLcpVeikI"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recSXNNfyqggdWtBk",
+    "name": "אניס ועשבים מהגינה",
+    "description": "200 מ",
+    "categories": [
+      "recG8y3OTLcpVeikI"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recu9BgOPjqzozUno",
+    "name": "אפרול שפריץ",
+    "categories": [
+      "recMzHts4sQTobYhO"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recUHdRcDa7MX0U9V",
+    "name": "ארטישוק בלבנה",
+    "description": "לבנה, שום ופטרוזיליה",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recktgbNKfstLrqUU"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recqkZ7ml0XKKctjX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeFEPeNz9MTGnu"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recqkZ7ml0XKKctjX"
+        }
+      ],
+      "choice": [
+        [
+          {
+            "type": "ingredient",
+            "id": "recPLDzBzlW7gd5QJ",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "reciU0S1tp7lgENK6",
+            "price": 0
+          }
+        ]
+      ],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
     "id": "recxp8Vh6M7KErVLe",
     "name": "באן פאד קפאו",
     "description": "תבשיל תאילנדי של בשר טחון, מיקס עשבים, בזיליקום, בצל ירוק, צ'ילי אדום ורוטב איולי לימון.",
@@ -208,6 +440,910 @@
     }
   },
   {
+    "id": "recHuvwGjVhnbzmNo",
+    "name": "בוואריה",
+    "description": "קרם וניל טרי,  עם שוקולד קפה , קוקוס קלוי וקראנצ' אגוזי לוז",
+    "categories": [
+      "recIW8vp7m3CLdHtK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec9dOZHr59LHWWn2",
+    "name": "בומביי ספייר",
+    "categories": [
+      "recD4JdjxF1KxiYJ7"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recaKZImETk7eSXwE"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recpDg1TvdEVRTBPD",
+    "name": "ביפיטר",
+    "categories": [
+      "recD4JdjxF1KxiYJ7"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recAM6HWVtg5jFMpt"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recLIvDjT7JBx0Onp",
+    "name": "בלנטיינס",
+    "categories": [
+      "recW8hi9SdkVIwJ3P"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recuR02Rlu0BWVvRL"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recikw7eQ82Hti3V6",
+    "name": "ברברה ומרלו, רקאנטי 2019",
+    "categories": [
+      "recbmDMfuCXDohClb"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recE1MuDwvjMHFm5M",
+    "name": "ג'יימסון",
+    "categories": [
+      "recW8hi9SdkVIwJ3P"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recvHTpZCcxhCxtHj"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recE0pzQsGzjFIbNO",
+    "name": "ג'ק דניאלס",
+    "categories": [
+      "recW8hi9SdkVIwJ3P"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recvKjZaRPBdJg9Y4"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recxDlM71rlDyDVN8",
+    "name": "ג‘וני שחור",
+    "categories": [
+      "recW8hi9SdkVIwJ3P"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recuEUzUFoiqMSGav"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recmRUNG0aLZVOdxt",
+    "name": "גאראג' דה פפה, לוינסון 2019",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recy4n9AgCzJecCyT",
+    "name": "גאראג׳ דה פאפא, לוינסון 2019",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recD3CXleDk3BerN9",
+    "name": "גוורצטרמינר שנין בלאן ודבוקי, טפרברג",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recC2HYEJ5GBxu8IV",
+    "name": "גולדסטאר מהחבית",
+    "categories": [
+      "recHm73TsuaH8hODh"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recXWUN7eaNOhNooF",
+    "name": "גלנפידיך 12",
+    "categories": [
+      "recW8hi9SdkVIwJ3P"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recfWoF7a8qTgJvRA",
+    "name": "גריי גוס",
+    "categories": [
+      "reciPBo3MtrS0zOfK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rectquQm63Om0HEkE",
+    "name": "גשם ורוד, שאטו גולן 2020",
+    "categories": [
+      "recbmDMfuCXDohClb"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recH9N72ktxoiL3oJ",
+    "name": "דבוקי קדומים, סגל 2019",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recSx5jU3NcMRGvIu",
+    "name": "דון חוליו",
+    "categories": [
+      "recxaCcumXPUkWw9g"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8GW1jEiEApNKKT",
+    "name": "דניס שלם ",
+    "description": "ממולא בעשבים ומוגש עם תוספת חמה לבחירה. המחיר הוא ל 100 גרם",
+    "categories": [
+      "rec5WS5yD5h3Qj8dR"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recRWTSKDLR13g6wy",
+    "name": "האחים, קולומבר, ברקן 2020",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recrvzGJqx0bWJqqs",
+    "name": "המרענן הרשמי",
+    "description": "ג'ין ביפיטר, בזיליקום, נענע, מלפפון, לימון",
+    "categories": [
+      "recG8y3OTLcpVeikI"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recRVw6Qq4YzypuWI",
+    "name": "הרי יהודה, צרעה, 2020",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recPbX06wl8picZiM",
+    "name": "ווילד טרקי 81",
+    "categories": [
+      "recW8hi9SdkVIwJ3P"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recGmoW0MQKUvWNl9",
+    "name": "חומוס הבית",
+    "description": "עשבים, בצל סגול קצוץ פלפל חריף ושמן זית",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recqKVnNwXMNhozVD",
+    "name": "חומוס בשר",
+    "description": "עשבים, בצל סגול קצוץ פלפל חריף ושמן זית",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rech5ZnW3A9yu6SeN"
+        },
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recsfWgW36ds1mCNx"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec2Y6ahOmtvQhhMu",
+    "name": "חזה עוף",
+    "description": "בגריל פחמים, דיבאס, שמן זית ותוספת חמה לבחירה",
+    "categories": [
+      "rechhKwbUGUu00KGE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recAZa2PJaf6WH4Z6",
+    "name": "חצילים",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec1rgKdljBKDDBYx"
+        },
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "recxZ1iasWtCP65h4"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCW9WUJc8yDnzZ7"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recjxFM8fqCpn117V",
+    "name": "טארט לימון",
+    "description": "קרם לימון על קלתית בצק פריך ",
+    "categories": [
+      "recIW8vp7m3CLdHtK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recNgYwsEqL4Xmdnh",
+    "name": "טארט שוקולד",
+    "description": "רם שוקולד עם מלח אטלנטי. שכבת טופי קרמל, על קלתית בצק פריך",
+    "categories": [
+      "recIW8vp7m3CLdHtK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec3iWidunMi8taeS",
+    "name": "טבולה סלק",
+    "description": "סלק חי מגורד, בורגול דק ומיקס עשבים",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec3cWtI5IJ1NQmzj"
+        },
+        {
+          "type": "ingredient",
+          "id": "reclJK4TANPTWSTV7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoplktAmVagJ46S"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recBoo2v55k8kEOA9",
+    "name": "טחינה מתובלת",
+    "description": "טחינה לבנה מסוג היונה",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recRxY1kG8elmfgx8"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeFEPeNz9MTGnu"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec3lTBmVAGnD86Yq",
+    "name": "טחינה מתובלת",
+    "description": "טחינה לבנה מסוג היונה",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "reciU0S1tp7lgENK6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recE5Ayeth06z4mvS"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7LIrXaMukwp1Cx"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reckak1Z9GPKIhpGC",
+    "name": "טייבה גולד",
+    "categories": [
+      "recHm73TsuaH8hODh"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recSGCWl2a1ya28MD",
+    "name": "יחזקאל",
+    "description": "אבסולוט, שרטרז ירוק, אננס, לימון, טבסקו ירוק",
+    "categories": [
+      "recG8y3OTLcpVeikI"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recWwRHeV49jzPbGy",
+    "name": "ינעלהעולמבורגר",
+    "description": "220 גרם של בשר עגל עם לחמנייה קלויה, פסטו כוסברה, עשבי תיבול, עגבניות, צנוברים, גרידת לימון וטחינה מתובלת. מוגש עם תוספת חמה לבחירה",
+    "categories": [
+      "recHkB0jXsbrxDMjm"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recsXEewr2FrjQo9x",
+    "name": "כרובית בתנור פחם",
+    "description": "טחינה, סומק, עשבים, שום, לימון כבוש",
+    "categories": [
+      "rec5UBFLohYRSiMky"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recRKHVcuZ2Y1xCs5",
+    "name": "לבנה ביתית",
+    "description": "לבנה עדינה וקרמית מוגשת עם תערובת אגוזים, שמן זית ונענע מיובת",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recPLDzBzlW7gd5QJ"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recXOqFWWOVV4iyHd"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recMAmvgN9rP95bS5"
+        }
+      ],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recdxLw8aylq1h9ix",
+    "name": "מבחר לחלוקה למרכז שולחן",
+    "description": "שיפודים ניגובים וממרחים",
+    "categories": [
+      "recFJUOY68Me5hf11"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rectq0YL56FvTad3n",
+    "name": "מדפונה טלה",
+    "description": "ברוסט טלה בבישול ארוך, עשבים, פיתה שראק, איולי עמבה וטחינה",
+    "categories": [
+      "recHkB0jXsbrxDMjm"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recvaMC5FdaK5xtp8",
+    "name": "מובערק",
+    "description": "ערק, קמפרי, צינזאנו רוסו, לימון מתקתק, חמצמץ, מריר ואניסי, לא רק לאוהבי הערק",
+    "categories": [
+      "recG8y3OTLcpVeikI"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec80D8MelqL5qJnS",
+    "name": "מושיקו",
+    "description": "רום לבן, רום ג'מייקני, מיץ אננס, אנגוסטרה, לימון ונענע",
+    "categories": [
+      "recG8y3OTLcpVeikI"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
     "id": "recxKpMTjV9LjJ77L",
     "name": "מיפ מיפ באן",
     "description": "חזה עוף מצופה פירורי פאנקו, מלפפון חמוץ, עלי סלנובה, רוטב איולי צ'יפוטלה פינקטי.",
@@ -277,6 +1413,188 @@
     }
   },
   {
+    "id": "recm2YU1q80cd7zd6",
+    "name": "מכבי מהחבית",
+    "categories": [
+      "recHm73TsuaH8hODh"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec7sd3AkFnHDiXdv",
+    "name": "מלבי",
+    "categories": [
+      "recIW8vp7m3CLdHtK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recUPrJpIpFUw4lBV",
+    "name": "מלפוף ",
+    "description": "כרוב ערבי בבישול ארוך, שמן זית, יין לבן, עשבים, עגבניות שרי צלויות, צ'ימיצ'ורי זעתר וגבינת המאירי",
+    "categories": [
+      "rec5UBFLohYRSiMky"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recxZLlwbsY2EIb1Y",
+    "name": "מסאחן דג ים",
+    "description": "על פיתה שרופה, בצל מקורמל, שקדים, צנוברים, עשבים בצל סגול ויוגורט",
+    "categories": [
+      "rec5WS5yD5h3Qj8dR"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rece7TfhPSoyeZj6i",
+    "name": "מסבחה חמה",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recDxAxCP7peMhg2Y"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXS6pQMaJExzdXe"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoql0cf50gaWgBT"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recCW9WUJc8yDnzZ7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recxZ1iasWtCP65h4"
+        },
+        {
+          "type": "ingredient",
+          "id": "recyxKNABRVILX1WL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recvYxeuh92qkRxXF"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        }
+      ],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec09obConWJpGV4C",
+    "name": "מעלמון",
+    "categories": [
+      "recMzHts4sQTobYhO"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recueoMCxldWoLeHn",
+    "name": "מרלו, יקב סלע 2020",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
     "id": "recyL4eJDSHY5Lewr",
     "name": "נמו באן",
     "description": "נתחי דג קוד בטמפורה אדומה, מיקס שורשים ורוטב איולי לימון.",
@@ -329,6 +1647,1256 @@
           "id": "recFBu7s3RHulU06u"
         }
       ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recVJl7PrG5HZJowk",
+    "name": "נקניקיות מרגז חריפות",
+    "description": "מוגש עם טחינה, עגבניות ופלפל חריף",
+    "categories": [
+      "recHkB0jXsbrxDMjm"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recCpueq2iPMLNNFq",
+    "name": "סוביניון בלאן, פלטר, 2020",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recapwcDBctfWihQ3",
+    "name": "סטייק",
+    "description": "סטייק",
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recglnhgz5Mp2w9ZQ",
+    "name": "סינייה ירקות צלויים",
+    "description": "עשבים, סומק, צנוברים, טחינה",
+    "categories": [
+      "rec5UBFLohYRSiMky"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recoIlFxMgXxwqSuu",
+    "name": "סלט ירקות",
+    "categories": [
+      "recPEueYqRnH1KVT1"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqxARDw9YU3hhtf"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8XVBp65VqRHpiK"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        }
+      ],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh",
+          "price": 0
+        }
+      ],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec6nHbyINYEUOxfG",
+    "name": "סלט עגבניות חריף",
+    "description": "שרי תמר, כוסברה, פלפל חריף, שום, גבינת המאירי",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recOeKgtMyqKSw9Uo",
+    "name": "סלט עלים",
+    "description": "אייסברג, סלנובה, פקאן צלוי, עשבים, גבינת שחת",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec2HVP1u6bZl3d3J",
+    "name": "סלט פאטוש",
+    "description": "ירקות טריים, עשבי תיבול, זיתים סורים, פטה כבשים ופיתה שראק מטוגנת",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recLflBv3FnTuDdZ9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqxARDw9YU3hhtf"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recukEv4z95uIZqBx"
+        },
+        {
+          "type": "ingredient",
+          "id": "recQr7n4Kr7f24oao"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUSiFQ5KWOcJ5Tk"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectpZHKSyKnbUYSb"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec9roCnBtOB9PKrU"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "rectpZHKSyKnbUYSb"
+        }
+      ],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recWL2vyZPOsMi3D2",
+    "name": "ספאייח טלה",
+    "description": "פיתה צלויה ממולאת בשר עגל וטלה, עגבניות ועשבי תיבול",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recKKFR8bAdGdL2PX",
+    "name": "ספאייח תרד",
+    "description": "פיתה צלויה ממולאת תרד תורכי, בצל מקורמל, זעתר טרי, גבינת המאירי ויוגורט כבשים",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recgzgnPiZMuxYSTx",
+    "name": "סשימי דג ים",
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recOp7FO83sgzHv5p",
+    "name": "עין הסערה, יעקב אוריה 2017",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recSiTjGcPRHzJdPX",
+    "name": "ערק אשכולית אדומה",
+    "categories": [
+      "recMzHts4sQTobYhO"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec9N7QRJtR9IB2tg",
+    "name": "ערק אשקלון",
+    "categories": [
+      "recHTfuxUeHBVl3xU"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recesYqVMxhYRtu60",
+    "name": "ערק עלית",
+    "categories": [
+      "recHTfuxUeHBVl3xU"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reck24q3kRXqk4e42",
+    "name": "פאי פקאן ",
+    "description": "מלית פקאן על קלתית של בצק פריך טבעוני. מוגש עם סורבה קוקוס בצד ופרלין פיסטוק.",
+    "categories": [
+      "recIW8vp7m3CLdHtK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recR1YpdFTnMCle5K",
+    "name": "פור ביטרס",
+    "description": "קמפרי, ביפיטר, אשכוליות, אונגוסטרה, לימון ונענע",
+    "categories": [
+      "recG8y3OTLcpVeikI"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec1KXICuFSarnsOy",
+    "name": "פטה כבשים",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rectpZHKSyKnbUYSb"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recGBGHbizVMrwzF2"
+        },
+        {
+          "type": "ingredient",
+          "id": "recvYxeuh92qkRxXF"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recPirajpCZVMK9RM",
+    "name": "פטיט קסטל, קסטל 2019",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recIOJ1vfloK9qCz3",
+    "name": "פטריות יער צלויות",
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recQBN4Wokh3ndMFC",
+    "name": "פיג'לינג",
+    "categories": [
+      "reciPBo3MtrS0zOfK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recaGRZPw1kp2xpDE",
+    "name": "פילה פורל",
+    "description": "על יוגורט כבשים, סלט שעועית ירוקה עם ארטישוק מעושן, שרי תמר ובצל סגול, מתובל בלימון כבוש",
+    "categories": [
+      "rec5WS5yD5h3Qj8dR"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recvEdTAnJvKazyxV",
+    "name": "פינו גרי, יקב טפרברג 2020",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recy1MbRfenJ86oQm",
+    "name": "פירה 2",
+    "categories": [
+      "recWaQqG4Ojv7nCfk"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recqUMENLLreO1ALl",
+    "name": "פלפל חריף בגריל",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec9nzkNGPE3RbNEq"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recvYxeuh92qkRxXF"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recliz1erz3Y2g53V",
+    "name": "פרגית מסאח'ן",
+    "description": "על אורז, בצל מקורמל, צנוברים, שקדים ויוגורט",
+    "categories": [
+      "rechhKwbUGUu00KGE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recJfSqV8I9d0YhQn",
+    "name": "פרוסות סינטה",
+    "description": "רוסטביף סינטה, עשבים, פיסטוקים, וינגרט סילאן ופרי העונה",
+    "categories": [
+      "recbP0zdJ5c8RAGvd"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recifnEjLTwu1SNkx",
+    "name": "פריקי כרובית",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "price": 17,
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recYkUyBPCXYLcBOM"
+        },
+        {
+          "type": "ingredient",
+          "id": "reczWOjwDSvwMfeXV"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "recxZ1iasWtCP65h4"
+        },
+        {
+          "type": "ingredient",
+          "id": "recCW9WUJc8yDnzZ7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recF0p1gJUlLyMoXQ"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8ZUgyVbqES75bw"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recc7BED9Lc3eLMkM",
+    "name": "פרנה ברנקה",
+    "categories": [
+      "recL78dLe4QCsDoNR"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recUse9IBy55wTML5",
+    "name": "צ'יפס",
+    "categories": [
+      "recrDQMnlZyvJfuSz"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec2Kzp6cbEuRX89m",
+    "name": "צ'פס",
+    "categories": [
+      "recPEueYqRnH1KVT1"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec7XJen4in9fCEOx",
+    "name": "צזיקי",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recqxARDw9YU3hhtf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recNB3sJpbzujpFXy"
+        },
+        {
+          "type": "ingredient",
+          "id": "recMJ2atl9RmHOM0z"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recMAmvgN9rP95bS5"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfY7zuiP4jB3LnD"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recED0E1j0VXb4yeS",
+    "name": "צנזאנו רוסו",
+    "categories": [
+      "recHTfuxUeHBVl3xU"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reclZa1gvfdMJc6nn",
+    "name": "קבב דג ים ",
+    "description": "מג'אדרה של האייבי",
+    "categories": [
+      "rec5WS5yD5h3Qj8dR"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recXzIygX33Ihc8x1",
+    "name": "קוארבו",
+    "categories": [
+      "recxaCcumXPUkWw9g"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recjI32MOhlWKIg8y",
+    "name": "קולורבי אפוי בפחם ",
+    "description": "גבינת המאירי, פרג, נבטי טימין, שמן זית ופלפל חריף",
+    "categories": [
+      "rec5UBFLohYRSiMky"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recd2mCSfpE0QXM1g",
+    "name": "קומולוס, קברנה פרנק, מרלו וקברנה, מטר פלטר 2019",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recmsDQZn8gIO9BIM",
+    "name": "קטל וואן",
+    "categories": [
+      "reciPBo3MtrS0zOfK"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recsG2E53YuZ6YxED",
+    "name": "קישואים חיים ביוגורט",
+    "categories": [
+      "recowZ8cG2zZUqwVE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recppvTDsSIPvvRPG"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUolcTNGduopgul"
+        }
+      ],
+      "putaside": [],
+      "choice": [
+        [
+          {
+            "type": "ingredient",
+            "id": "reciU0S1tp7lgENK6",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "recNB3sJpbzujpFXy",
+            "price": 0
+          }
+        ]
+      ],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recn5PdNwPYZyLMwQ",
+    "name": "קמפרי",
+    "categories": [
+      "recHTfuxUeHBVl3xU"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recznQD2eyNy2qdPt",
+    "name": "רוזה, כרם שבו",
+    "categories": [
+      "recbmDMfuCXDohClb"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec34eDlTPEFhryxd",
+    "name": "רוח, שאטו גולן, 2018",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8HcQJcPryUvNN2",
+    "name": "ריזלינג, בטא ברקן 2019",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recHwHpbI09hYHPvr",
+    "name": "שווארמה ",
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recuV1u3lMv6d2kQP",
+    "name": "שיפוד דונר",
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recFLfaC6gNJIvO55",
+    "name": "שיפוד סינטה",
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recyJUAkNDMYFDYJ9",
+    "name": "שיפודי כבד",
+    "description": "על גריל פחמים, מלח אטלנטי ופלפל גרוס",
+    "categories": [
+      "rechhKwbUGUu00KGE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recAsPmmsDEBqcRLz",
+    "name": "שיפודי פילה עוף",
+    "description": "במרינדה של תבליני מסאלה אדומה וחלב קוקוס",
+    "categories": [
+      "rechhKwbUGUu00KGE"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recXqoxJxA5rcf8N7",
+    "name": "שיראז מהמדבר, יקב פינטו 2020",
+    "categories": [
+      "recDlbG1Sv8UZme5n"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recCssmgd3LY3ZSQx",
+    "name": "שישקבב ",
+    "description": "פיתה שרופה על הגריל",
+    "categories": [
+      "recHkB0jXsbrxDMjm"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recdarEHrrrFx4vRu",
+    "name": "שרדונה וסובניון בלאן, לה ויה, קסטל 2020",
+    "categories": [
+      "recmQQv4z8lgCUxdJ"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec9yq7KXF46wJzmQ",
+    "name": "שרטרז",
+    "categories": [
+      "recL78dLe4QCsDoNR"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recZSr9UtfG96s5EL"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec5spEJxoHfjbTzS",
+    "name": "תירס הוואנה סטייל ",
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recpQT9Hzx6Waitfo",
+    "name": "תפו\"א מדורה",
+    "categories": [
+      "recPEueYqRnH1KVT1"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recGA5yqZ3VDnCN9o",
+    "name": "תפוח אדמה מדורה",
+    "description": "עם חמאת סחוג/ שמנת חמוצה",
+    "categories": [
+      "recrDQMnlZyvJfuSz"
+    ],
+    "kitchenId": "recnsNrn3KakAcOX5",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -728,36 +3296,6 @@
         {
           "type": "ingredient",
           "id": "recZSr9UtfG96s5EL"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recqO53nSt9nrQkVI",
-    "name": "בריזר אבטיח",
-    "categories": [
-      "recQSWJ6qGJUSZ3kK",
-      "rect4Kiwvisc94AWM"
-    ],
-    "price": 29,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "bottle"
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recOFloggqRzQEjds"
         }
       ],
       "excludable": [],
@@ -1542,6 +4080,111 @@
     }
   },
   {
+    "id": "recZTOcpLaBDaj71M",
+    "name": "לה ז'אמל מלבק",
+    "categories": [
+      "recZvEB73pCX5CLtB",
+      "recyhtVUgrz6AhKKc"
+    ],
+    "price": 39,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 90
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recEGNxR4jeMtiBQJ"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recFGoUdc7v4tMamb",
+    "name": "קברנה סובניון",
+    "categories": [
+      "recZvEB73pCX5CLtB",
+      "recyhtVUgrz6AhKKc"
+    ],
+    "price": 38,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 88
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recJVn67ELgPwKOkt"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recyN1Q6ZOOE1XTbQ",
+    "name": "קיאנטי רופינו",
+    "categories": [
+      "recZvEB73pCX5CLtB",
+      "recyhtVUgrz6AhKKc"
+    ],
+    "price": 43,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 126
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recJEHEMNZwttME56"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
     "id": "rec8vo1Y1GoraPgnJ",
     "name": " הוואנה קלאב 3",
     "categories": [
@@ -1606,6 +4249,35 @@
     }
   },
   {
+    "id": "recqO53nSt9nrQkVI",
+    "name": "בריזר אבטיח",
+    "categories": [
+      "recRo9VXPFhzJCSF9"
+    ],
+    "price": 29,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle"
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recOFloggqRzQEjds"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
     "id": "recD10bzBG8CuJEgw",
     "name": "קפטן מורגן ספייס",
     "categories": [
@@ -1636,131 +4308,10 @@
     }
   },
   {
-    "id": "reczfPEZOT11qY7Up",
-    "name": "בלו נאן",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 38,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "bottle",
-        "price": 93
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "reczrqilI5oneytWa"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recfT7krjmPe3WG3H",
-    "name": "בלו נאן כשר",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 39,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "bottle",
-        "price": 97
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "reczkKZIRa0b3EOb3"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recZTOcpLaBDaj71M",
-    "name": "לה ז'אמל מלבק",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 39,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "bottle",
-        "price": 90
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recEGNxR4jeMtiBQJ"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
     "id": "recElWkOrCSxQPaUR",
     "name": "למברוסקו אלמיליאנו\n  רוזה",
     "categories": [
       "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
       "recbN4Qpd9spzFO1P"
     ],
     "price": 98,
@@ -1788,53 +4339,10 @@
     }
   },
   {
-    "id": "recbsTqCMex3fWFfE",
-    "name": "מד האוס",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 49,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "bottle",
-        "price": 140
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recF4OPVfkh7Zc3Xb"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
     "id": "recuoPEjmu7cYzdu8",
     "name": "מוסקטו בלו נאן",
     "categories": [
       "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
       "recbN4Qpd9spzFO1P"
     ],
     "price": 129,
@@ -1851,6 +4359,37 @@
         {
           "type": "ingredient",
           "id": "recFmxRKkYqopLoeJ"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recirKjZnQ0jtAkTh",
+    "name": "קאווה דה לאומה",
+    "categories": [
+      "reccKFL0KLPTD1jo2",
+      "recbN4Qpd9spzFO1P"
+    ],
+    "price": 98,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "bottle",
+        "price": 0
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recH0bKdSkn3zTu9h"
         }
       ],
       "excludable": [],
@@ -1891,197 +4430,6 @@
         {
           "type": "ingredient",
           "id": "recGJ3ivdQTnU86Sk"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recirKjZnQ0jtAkTh",
-    "name": "קאווה דה לאומה",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 98,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "bottle",
-        "price": 0
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recH0bKdSkn3zTu9h"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recFGoUdc7v4tMamb",
-    "name": "קברנה סובניון",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 38,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "bottle",
-        "price": 88
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recJVn67ELgPwKOkt"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recyN1Q6ZOOE1XTbQ",
-    "name": "קיאנטי רופינו",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 43,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "bottle",
-        "price": 126
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recJEHEMNZwttME56"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recDUhmi1jeU9ljGd",
-    "name": "שאבלי",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 49,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "bottle",
-        "price": 140
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recJNnZMYs7UTaz0L"
-        }
-      ],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recQTTAMDjsGeVKsh",
-    "name": "שרדונה ברקן\n\"ספיישל ריזרב\"",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
-    ],
-    "price": 39,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "bottle",
-        "price": 89
-      }
-    ],
-    "recipe": {
-      "mandatory": [
-        {
-          "type": "ingredient",
-          "id": "recJeFtOPXzYAEx3W"
         }
       ],
       "excludable": [],
@@ -2632,6 +4980,181 @@
         {
           "type": "ingredient",
           "id": "reczq2EHHezfYSctf"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reczfPEZOT11qY7Up",
+    "name": "בלו נאן",
+    "categories": [
+      "recSaYm2kSUrkvw7b",
+      "recke8BNWZXhDFYSn"
+    ],
+    "price": 38,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 93
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "reczrqilI5oneytWa"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recfT7krjmPe3WG3H",
+    "name": "בלו נאן כשר",
+    "categories": [
+      "recSaYm2kSUrkvw7b",
+      "recke8BNWZXhDFYSn"
+    ],
+    "price": 39,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 97
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "reczkKZIRa0b3EOb3"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recbsTqCMex3fWFfE",
+    "name": "מד האוס",
+    "categories": [
+      "recSaYm2kSUrkvw7b",
+      "recke8BNWZXhDFYSn"
+    ],
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 140
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recF4OPVfkh7Zc3Xb"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recDUhmi1jeU9ljGd",
+    "name": "שאבלי",
+    "categories": [
+      "recSaYm2kSUrkvw7b",
+      "recke8BNWZXhDFYSn"
+    ],
+    "price": 49,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 140
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recJNnZMYs7UTaz0L"
+        }
+      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recQTTAMDjsGeVKsh",
+    "name": "שרדונה ברקן\n\"ספיישל ריזרב\"",
+    "categories": [
+      "recSaYm2kSUrkvw7b",
+      "recke8BNWZXhDFYSn"
+    ],
+    "price": 39,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "bottle",
+        "price": 89
+      }
+    ],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recJeFtOPXzYAEx3W"
         }
       ],
       "excludable": [],
@@ -3777,50 +6300,6 @@
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [],
-      "addableIngredients": [],
-      "addableDishes": []
-    }
-  },
-  {
-    "id": "recw1v2PLlsWizpXU",
-    "name": "סחוטים",
-    "description": "מיץ סחוט ",
-    "categories": [
-      "recXpNrVlnXVfiUJv",
-      "reco2uIrzD3VFoVX7"
-    ],
-    "price": 14,
-    "kitchenId": "recCtQEnXUUqDHBfF",
-    "dishType": "drink",
-    "sizes": [
-      {
-        "type": "glass",
-        "price": 0
-      },
-      {
-        "type": "pitcher",
-        "price": 27
-      }
-    ],
-    "recipe": {
-      "mandatory": [],
-      "excludable": [],
-      "putaside": [],
-      "choice": [
-        [
-          {
-            "type": "ingredient",
-            "id": "recpIiQLboizMe8J9",
-            "price": 0
-          },
-          {
-            "type": "ingredient",
-            "id": "recJRSfXW0NfRFpb5",
-            "price": 0
-          }
-        ]
-      ],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -7838,6 +10317,10 @@
         {
           "type": "ingredient",
           "id": "recwzUqc8oxDIMRh6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recR7z1AdPpoU1MKG"
         }
       ],
       "putaside": [
@@ -7860,6 +10343,10 @@
         {
           "type": "ingredient",
           "id": "recwzUqc8oxDIMRh6"
+        },
+        {
+          "type": "ingredient",
+          "id": "recR7z1AdPpoU1MKG"
         }
       ],
       "choice": [],
@@ -7871,7 +10358,7 @@
   {
     "id": "recsNOAkYg4mysNub",
     "name": "באן עננים",
-    "description": "לחמניות סיניות מאודות, אסאדו מפורק בבישול ארוך של 8 שעות, מיקס שורשים, נבטים אסייתים ואיולי לימון.\nבתוספת 7₪ של SHARING",
+    "description": "לחמניות סיניות מאודות, אסאדו מפורק בבישול ארוך של 8 שעות, מיקס שורשים, נבטים אסייתים ואיולי לימון.\nבתוספת של  7₪ ל DEAL",
     "categories": [
       "recngW5z4xCeLl6J6",
       "rec6rvS1EB1YuMUK8"
@@ -8020,7 +10507,7 @@
   {
     "id": "reccFlrS2XKsdo0x3",
     "name": "בטטה טריפ",
-    "description": "צ'יפס בטטה עם בשר אסאדו מפורק, מוגש עם רוטב דיינר'ס אמריקאי וחלפיניו.\nבתוספת 7₪ של SHARING",
+    "description": "צ'יפס בטטה עם בשר אסאדו מפורק, מוגש עם רוטב דיינר'ס אמריקאי וחלפיניו.\nבתוספת של  7₪ ל DEAL",
     "categories": [
       "recngW5z4xCeLl6J6",
       "rec6rvS1EB1YuMUK8"
@@ -8280,7 +10767,7 @@
   {
     "id": "recUKWnHtfi6KyO7N",
     "name": "טרטר יאסו",
-    "description": "טרטר דג ים עם בורגול, צנונית, מיקס ירוקים, נגיעת סחוג מונח על יוגורט יווני וסומק.\n\nבתוספת 7₪ של SHARING",
+    "description": "טרטר דג ים עם בורגול, צנונית, מיקס ירוקים, נגיעת סחוג מונח על יוגורט יווני וסומק.\n\nבתוספת של  7₪ ל DEAL",
     "categories": [
       "recngW5z4xCeLl6J6",
       "rec6rvS1EB1YuMUK8"
@@ -8843,7 +11330,7 @@
   {
     "id": "rec7J32KI1UosYP5H",
     "name": "פיצה WOW",
-    "description": "בתוספת מיקס עשבים, עלי רוקט, שום קונפי ושבבי פרמז'ן.\nבתוספת 9₪ של SHARING",
+    "description": "בתוספת מיקס עשבים, עלי רוקט, שום קונפי ושבבי פרמז'ן.\n\nבתוספת של 9₪ ל DEAL",
     "categories": [
       "recngW5z4xCeLl6J6",
       "rec6rvS1EB1YuMUK8"
@@ -9152,7 +11639,7 @@
   {
     "id": "recUbTYSAkdOc4OZI",
     "name": "קרפצ'ו בקר",
-    "description": "סינטה פרוסה, בלסמי מצומצם, רוטב ויניגרט, שמן זית, שום קונפי, צנונית, מיקס עשבים, פרמז'ן וטוסטונים.\n\nבתוספת 7₪ של SHARING",
+    "description": "סינטה פרוסה, בלסמי מצומצם, רוטב ויניגרט, שמן זית, שום קונפי, צנונית, מיקס עשבים, פרמז'ן וטוסטונים.\n\nבתוספת של  7₪ ל DEAL",
     "categories": [
       "recngW5z4xCeLl6J6",
       "rec6rvS1EB1YuMUK8"
@@ -10242,6 +12729,49 @@
       "excludable": [],
       "putaside": [],
       "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recw1v2PLlsWizpXU",
+    "name": "סחוטים",
+    "description": "מיץ סחוט ",
+    "categories": [
+      "recWz1oglIgIu3x61"
+    ],
+    "price": 14,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      {
+        "type": "glass",
+        "price": 0
+      },
+      {
+        "type": "pitcher",
+        "price": 27
+      }
+    ],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [
+        [
+          {
+            "type": "ingredient",
+            "id": "recpIiQLboizMe8J9",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "recJRSfXW0NfRFpb5",
+            "price": 0
+          }
+        ]
+      ],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
