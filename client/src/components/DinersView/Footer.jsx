@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { styled } from '@mui/material/styles'
+import { styled, useTheme } from '@mui/material/styles'
 
 import {
   AppBar,
@@ -35,6 +35,7 @@ const StyledFab = styled(Fab)({
 })
 
 export default function Footer() {
+  const theme = useTheme()
   const navigate = useNavigate()
   const location = useLocation()
   const { kitchenId, menuId } = useParams()
@@ -63,7 +64,12 @@ export default function Footer() {
 
       <AppBar
         position="fixed"
-        sx={{ top: 'auto', bottom: 0, backgroundColor: '#E9E9E9' }}
+        sx={{
+          top: 'auto',
+          bottom: 0,
+          backgroundColor: '#E9E9E9',
+          pddingTop: theme.spacing(1),
+        }}
       >
         <Toolbar>
           <IconButton

@@ -18,7 +18,16 @@ export const useDinerOrder = () => {
 function useProvideDinerOrder() {
   const [order, setOrder] = React.useState([])
 
+  const totalSum = React.useMemo(
+    () =>
+      order.reduce((acc, dish) => {
+        return acc + Number(dish.price || 0)
+      }, 0),
+    [order]
+  )
+
   return {
+    totalSum,
     order,
     setOrder,
   }

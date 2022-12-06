@@ -108,5 +108,7 @@ export default {
   my_list: 'my list',
   profile: 'profile',
   deal: 'deal',
-  empty_components_restriction_selector: 'No choices selected yet'
+  empty_components_restriction_selector: 'No choices selected yet',
+  order_summary: 'order summary',
+  complete_order: 'complete order'
 }
