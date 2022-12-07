@@ -1268,12 +1268,47 @@
     "categories": [
       "recHkB0jXsbrxDMjm"
     ],
+    "price": 75,
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec6JuKZrj1Dz6X7X"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "reco5tKjgYPwabN8R"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoplktAmVagJ46S"
+        },
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfidZyVXAu01ney"
+        },
+        {
+          "type": "ingredient",
+          "id": "recWm1DUJ1I7W0Pck"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJlMioMSTxpOOWU"
+        },
+        {
+          "type": "ingredient",
+          "id": "recBnnaRcaiUcK20o"
+        }
+      ],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -3308,7 +3343,12 @@
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recH3XvCUoJF5lS63"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
