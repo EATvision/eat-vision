@@ -5182,6 +5182,9 @@
     "id": "recJkWkZUhstbZimQ",
     "name": "טרטר יאסו",
     "description": "טרטר דג ים עם בורגול, צנונית, מיקס ירוקים, נגיעת סחוג מונח על יוגורט יווני וסומק.\n\nבתוספת של  7₪ ל DEAL",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "image": {
       "id": "attKZThxrLlAXxVLr",
       "width": 200,
@@ -5277,6 +5280,9 @@
     "id": "recZDjHxojHqV6xlu",
     "name": "כבד אווז",
     "description": "קרם חלווה, קראמבל פיצוחים ואנדיב לימוני",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "price": 82,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
@@ -5332,6 +5338,9 @@
     "id": "recTSO5XimaTP6BpR",
     "name": "לחם פראנה ומטבלים",
     "description": "מוגש עם טחינה ״הר ברכה״, שמן זית בלסמי וטפנד זיתים",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "image": {
       "id": "attnAY63DGzmR5ia3",
       "width": 190,
@@ -5393,6 +5402,9 @@
     "id": "recW05hztg8S2WKCo",
     "name": "מיני המבורגר כפול",
     "description": "ירקות קלאסיים, צ'יפס בטטה וציפס צפוחי אדמה בתיבול גרידת לימון צ'ילי ונענע, רוטב ג'יג'ר טריאקי, חמוצים ביתיים",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "price": 68,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
@@ -5578,6 +5590,9 @@
     "id": "recKg7nNqm1PGtXPr",
     "name": "סלט פאטוש",
     "description": "קולורבי, שרי צהוב, פלפל חריף, מלפפון, זיתי קלמטה, בצל סגול ועלי זעתר טריים.",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "image": {
       "id": "attITtKhnDhY9uxY0",
       "width": 190,
@@ -5676,6 +5691,9 @@
     "id": "recTEwgSWejvzMTlk",
     "name": "פילה עגל",
     "description": "קרם כמהין, ציר וניל ומרלו",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "price": 78,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
@@ -5711,6 +5729,9 @@
     "id": "recuAlJdeac14IdNG",
     "name": "קרפצ'ו עגל",
     "description": "זרעי עגבנייה, נגיעות חרדל, ירוקים, שקדים וחמוציות טוויל לחם ",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "price": 58,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
@@ -5759,6 +5780,9 @@
     "id": "rechuwBQjYjGCvSSS",
     "name": "רביולי שחור",
     "description": "במילוי פולנטה, רוטב פונזו ואגוזים",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "price": 62,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
@@ -5798,6 +5822,9 @@
     "id": "recL35UEdtYX9hsol",
     "name": "שניצל בחלה",
     "description": "השניצל המוכר במדינה:חלה טרייה וחמה עם שניצל קרסיפי, חציל מטוגן קריספי, מטבוחה בבישול של 6 שעות ובצל ירוק.",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "image": {
       "id": "att2bMS6CQUgpwzMc",
       "width": 190,
@@ -5869,6 +5896,9 @@
     "id": "recDvOfPVTfELdu5u",
     "name": "תבשיל בשר צפון אפריקאי",
     "description": "קוקוס, טחינה לבנה סמיכה",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "price": 72,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
@@ -8186,6 +8216,9 @@
   {
     "id": "recBpGlFnUcZoIWNS",
     "name": "7UP",
+    "categories": [
+      "recCgejc8KK6i0TQQ"
+    ],
     "price": 13,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
@@ -8216,6 +8249,9 @@
   {
     "id": "recWUXVGFkw3ZYlRv",
     "name": "XL",
+    "categories": [
+      "recCgejc8KK6i0TQQ"
+    ],
     "price": 14,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
@@ -8242,6 +8278,9 @@
   {
     "id": "recpEDrMELteN6iTx",
     "name": "בירה שחורה",
+    "categories": [
+      "recCgejc8KK6i0TQQ"
+    ],
     "price": 14,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
@@ -8264,6 +8303,9 @@
   {
     "id": "recmhWgmjSxa99mXS",
     "name": "בירה שחורה",
+    "categories": [
+      "recCgejc8KK6i0TQQ"
+    ],
     "price": 14,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
@@ -8287,6 +8329,9 @@
     "id": "recHpU0PWwikiYnpP",
     "name": "סחוטים",
     "description": "מיץ סחוט ",
+    "categories": [
+      "recCgejc8KK6i0TQQ"
+    ],
     "price": 14,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
@@ -8326,6 +8371,9 @@
   {
     "id": "rec9Id8TmuV0oqEJK",
     "name": "סן בנדטו",
+    "categories": [
+      "recCgejc8KK6i0TQQ"
+    ],
     "price": 10,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
@@ -8348,6 +8396,9 @@
   {
     "id": "recLobnUMU2XQNTFu",
     "name": "פרייה",
+    "categories": [
+      "recCgejc8KK6i0TQQ"
+    ],
     "price": 14,
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
@@ -11595,8 +11646,12 @@
     "id": "recUTFXAajZKjkDnA",
     "name": "טרטר סלמון בגספצ'ו מנגו ",
     "description": " בגספצ'ו מנגו",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "price": 52,
     "kitchenId": "recLz9mL6RCu3NIrK",
+    "dishType": "food",
     "sizes": [],
     "recipe": {
       "mandatory": [
@@ -11641,8 +11696,12 @@
     "id": "rec4vhXZCvGtuHEos",
     "name": "ניקס סלט",
     "description": "חסה אייסברג, אנדיב סגול, שרי צהוב, שרי תמר, בצל שאלוט, רוקט, בצל ירוק, ויניגרט חרדל קריספי בצל",
+    "categories": [
+      "recnWblELRZGuP2Ug"
+    ],
     "price": 48,
     "kitchenId": "recLz9mL6RCu3NIrK",
+    "dishType": "food",
     "sizes": [],
     "recipe": {
       "mandatory": [
@@ -12109,10 +12168,11 @@
     "name": "פילה פורל",
     "description": "על יוגורט כבשים, סלט שעועית ירוקה עם ארטישוק מעושן, שרי תמר ובצל סגול, מתובל בלימון כבוש",
     "categories": [
-      "rec5WS5yD5h3Qj8dR"
+      "recnWblELRZGuP2Ug"
     ],
     "price": 82,
     "kitchenId": "recLz9mL6RCu3NIrK",
+    "dishType": "food",
     "sizes": [],
     "recipe": {
       "mandatory": [
@@ -13148,9 +13208,10 @@
     "name": "טבולה סלק",
     "description": "סלק חי מגורד, בורגול דק ומיקס עשבים",
     "categories": [
-      "recowZ8cG2zZUqwVE"
+      "recnWblELRZGuP2Ug"
     ],
     "kitchenId": "recLz9mL6RCu3NIrK",
+    "dishType": "food",
     "sizes": [],
     "recipe": {
       "mandatory": [

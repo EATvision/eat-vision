@@ -1,11 +1,12 @@
 import React from 'react'
 import {
   Paper,
-  Popover,
+  Popper,
   Typography,
   Box,
   useTheme,
   Button,
+  ClickAwayListener,
 } from '@mui/material'
 
 function DealBtn({ dealDescription }) {
@@ -22,29 +23,29 @@ function DealBtn({ dealDescription }) {
   }
 
   const open = Boolean(anchorEl)
-  const id = open ? 'simple-popover' : undefined
+  const id = open ? 'simple-popper' : undefined
 
   return (
     <div>
-      <Button
-        aria-describedby={id}
-        onClick={handleClick}
-        variant="contained"
-        color="error"
-        sx={{ flex: 1 }}
-      >
-        {'DEAL 4 U'}
-      </Button>
+      <ClickAwayListener onClickAway={handleClose}>
+        <Button
+          aria-describedby={id}
+          onClick={handleClick}
+          variant="contained"
+          color="error"
+          sx={{ flex: 1 }}
+        >
+          {'DEAL 4 U'}
+        </Button>
+      </ClickAwayListener>
 
-      <Popover
+      <Popper
         id={id}
         open={open}
         anchorEl={anchorEl}
         onClose={handleClose}
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'left',
-        }}
+        placement="bottom-start"
+        sx={{ zIndex: 1000 }}
       >
         <Paper
           elevation={0}
@@ -61,7 +62,7 @@ function DealBtn({ dealDescription }) {
             <Typography>{dealDescription}</Typography>
           </Box>
         </Paper>
-      </Popover>
+      </Popper>
     </div>
   )
 }
