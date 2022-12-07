@@ -3,7 +3,9 @@
     "id": "recoNZ8sopQsuADZ0",
     "name": "menu",
     "description": "menu",
-    "workingHours": ["recNk4JNbX6GMGRrf"],
+    "workingHours": [
+      "recNk4JNbX6GMGRrf"
+    ],
     "startDate": "2021-12-21",
     "endDate": "2032-03-01",
     "categories": [
@@ -63,7 +65,9 @@
   {
     "id": "recz74tEeQH49umO9",
     "name": "lunch",
-    "workingHours": ["recuVD7jjP0W8GpPu"],
+    "workingHours": [
+      "recuVD7jjP0W8GpPu"
+    ],
     "startDate": "2022-01-01",
     "endDate": "2024-03-01",
     "categories": [
@@ -127,7 +131,9 @@
   {
     "id": "rec91KB45Y0i3kvPX",
     "name": "BRUNCH",
-    "workingHours": ["recvIrQ8vc15FiUdO"],
+    "workingHours": [
+      "recvIrQ8vc15FiUdO"
+    ],
     "startDate": "2022-01-01",
     "endDate": "2024-03-01",
     "categories": [
@@ -263,7 +269,9 @@
   {
     "id": "recIuXVY4ldSNacfj",
     "name": "Happy Hour",
-    "workingHours": ["recrDWxGVStRdd39d"],
+    "workingHours": [
+      "recrDWxGVStRdd39d"
+    ],
     "dishes": [
       "recvznQ98MBIxW75e",
       "recYmhCflUy9Ny5S1",
@@ -313,8 +321,12 @@
   },
   {
     "id": "rec7R2UglfNyQj2uM",
-    "kitchens": ["recsHn5ysBHYm7FDS"],
-    "workingHours": ["recNk4JNbX6GMGRrf"],
+    "kitchens": [
+      "recsHn5ysBHYm7FDS"
+    ],
+    "workingHours": [
+      "recNk4JNbX6GMGRrf"
+    ],
     "startDate": "2022-01-01",
     "endDate": "2024-03-01",
     "categories": [
@@ -377,9 +389,13 @@
   },
   {
     "id": "rech9gf7rUFNDEoMD",
-    "kitchens": ["recipajs7uV1pWw1h"],
+    "kitchens": [
+      "recipajs7uV1pWw1h"
+    ],
     "name": "Menu ",
-    "workingHours": ["reclLWEiXq2Kkmwlx"],
+    "workingHours": [
+      "reclLWEiXq2Kkmwlx"
+    ],
     "startDate": "2022-02-01",
     "endDate": "2024-01-01",
     "categories": [
@@ -485,7 +501,9 @@
   {
     "id": "recKCY8dwiKe52Q8o",
     "name": "Menu ",
-    "workingHours": ["reclLWEiXq2Kkmwlx"],
+    "workingHours": [
+      "reclLWEiXq2Kkmwlx"
+    ],
     "startDate": "2022-02-01",
     "endDate": "2024-02-01",
     "categories": [
@@ -590,9 +608,13 @@
   },
   {
     "id": "recjlbno2inHuMHZf",
-    "kitchens": ["recnsNrn3KakAcOX5"],
+    "kitchens": [
+      "recnsNrn3KakAcOX5"
+    ],
     "name": "צהריים",
-    "workingHours": ["reciPJJSuzoxA7SD1"],
+    "workingHours": [
+      "reciPJJSuzoxA7SD1"
+    ],
     "startDate": "2022-04-01",
     "endDate": "2025-04-01",
     "categories": [
@@ -606,13 +628,20 @@
       "recMWvVyCPjMnpiLz",
       "recbP0zdJ5c8RAGvd"
     ],
-    "dishes": ["recHclOzuz2RAZXdl"]
+    "dishes": [
+      "recHclOzuz2RAZXdl"
+    ]
   },
   {
     "id": "recqNn2ltXmve4Eh5",
-    "kitchens": ["recnsNrn3KakAcOX5"],
+    "kitchens": [
+      "recnsNrn3KakAcOX5"
+    ],
     "name": "האחים ערב וסופ\"ש ",
-    "workingHours": ["recqETAlg07ow1MdW", "recA42k6lnuz9sD2K"],
+    "workingHours": [
+      "recqETAlg07ow1MdW",
+      "recA42k6lnuz9sD2K"
+    ],
     "startDate": "2022-04-01",
     "endDate": "2025-04-01",
     "categories": [
@@ -717,9 +746,14 @@
   },
   {
     "id": "recCGTRXNQCMOpc3E",
-    "kitchens": ["rectt2czyDaeql4Lc"],
+    "kitchens": [
+      "rectt2czyDaeql4Lc"
+    ],
     "name": "תפריט ",
-    "workingHours": ["recqlxAOxzsSj494Q", "reccddKAoBxdKdP9J"],
+    "workingHours": [
+      "recqlxAOxzsSj494Q",
+      "reccddKAoBxdKdP9J"
+    ],
     "startDate": "2022-05-01",
     "endDate": "2025-05-31",
     "categories": [
@@ -833,9 +867,13 @@
   },
   {
     "id": "recE7KpeDFYeEp7Ka",
-    "kitchens": ["recCtQEnXUUqDHBfF"],
+    "kitchens": [
+      "recCtQEnXUUqDHBfF"
+    ],
     "name": "ערב ",
-    "workingHours": ["recko2I0RM1NDFGYW"],
+    "workingHours": [
+      "recko2I0RM1NDFGYW"
+    ],
     "startDate": "2022-11-01",
     "endDate": "2024-07-01",
     "categories": [
@@ -862,9 +900,13 @@
   },
   {
     "id": "recNuJVSBD6eGMqXH",
-    "kitchens": ["recCtQEnXUUqDHBfF"],
+    "kitchens": [
+      "recCtQEnXUUqDHBfF"
+    ],
     "name": "Happy Hour",
-    "workingHours": ["recl1w0UAVmGVU0B7"],
+    "workingHours": [
+      "recl1w0UAVmGVU0B7"
+    ],
     "startDate": "2022-11-01",
     "endDate": "2034-12-01",
     "categories": [
