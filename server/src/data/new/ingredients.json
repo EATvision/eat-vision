@@ -6441,7 +6441,8 @@
     ],
     "groups": [
       "recqqxsvSS6LY3Aab",
-      "recurt87JNmeE6SzQ"
+      "recurt87JNmeE6SzQ",
+      "recd15KxweGAE9dEv"
     ],
     "translation_heb": "קמח דורום",
     "excludedInDiets": [
@@ -6450,7 +6451,8 @@
     ],
     "foodGroups": [
       "recqqxsvSS6LY3Aab",
-      "recurt87JNmeE6SzQ"
+      "recurt87JNmeE6SzQ",
+      "recd15KxweGAE9dEv"
     ]
   },
   {
@@ -11554,7 +11556,8 @@
     ],
     "foodGroups": [
       "recqqxsvSS6LY3Aab",
-      "recurt87JNmeE6SzQ"
+      "recurt87JNmeE6SzQ",
+      "recd15KxweGAE9dEv"
     ]
   },
   {
@@ -21357,5 +21360,439 @@
       "recRLRNG6VRO3pnoY",
       "recRLRNG6VRO3pnoY"
     ]
+  },
+  {
+    "id": "recY2aw3bRozW0rr4",
+    "name": "Raw salmon",
+    "groups": [
+      "recv4O8R7YyTwXVVU",
+      "recIKbAVjYmPtQWrk"
+    ],
+    "translation_heb": "סלמון נא",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "recTqrrExyN2M0oG8"
+    ],
+    "foodGroups": [
+      "recv4O8R7YyTwXVVU",
+      "recIKbAVjYmPtQWrk"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recuEfat9FZlR4brm",
+    "name": "salmon tartare",
+    "subIngredients": [
+      "recY2aw3bRozW0rr4",
+      "recqnDva5HocsoMPo",
+      "rec94BZ9WXxBHtkTf",
+      "recMUYWFSwTybo3yY",
+      "rec7O6th1UojW4jyh"
+    ],
+    "translation_heb": "טרטר סלמון",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recTqrrExyN2M0oG8",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recv4O8R7YyTwXVVU",
+      "recIKbAVjYmPtQWrk",
+      "recA1DeocMW69g9QP",
+      "recmoMwkVsy3dUCFu",
+      "recKixXejzsCDapen",
+      "recdx1s8hodBvQIHm",
+      "reclWKSsmJOut9eRI"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recxNWSgnvfpdiZFq",
+    "name": "mango gazpacho",
+    "subIngredients": [
+      "recrVd5wAPB1bOnVu",
+      "recqxARDw9YU3hhtf",
+      "recmKAIA290556k9l",
+      "reco4QENFZZfn59Rv",
+      "recunwwkCTGfBX5yn",
+      "recpIiQLboizMe8J9",
+      "recOKQe2BPlJ4MaOt"
+    ],
+    "translation_heb": "גספצ'ו מנגו",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recmCzPUKuoYcsS42",
+      "recRLRNG6VRO3pnoY",
+      "recRLRNG6VRO3pnoY",
+      "recRLRNG6VRO3pnoY",
+      "recRLRNG6VRO3pnoY",
+      "rec0ZY6yIjGm0lEMV",
+      "recH9WbjaML3hib6B",
+      "reccATkRbfWDQGzvn"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recYCcUAwSqKnZFCz",
+    "name": "bread tuile",
+    "subIngredients": [
+      "rec4MgljYewqFlIVR",
+      "recAeOWZp2x6n9uMZ",
+      "recnav4IGBhqWGFbB",
+      "recXeP1xYyxAkCH3C"
+    ],
+    "translation_heb": "טויל לחם",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recuDusYlnKtOh2pZ",
+      "recFh4JVbTqqu9Rhf",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recqqxsvSS6LY3Aab",
+      "recurt87JNmeE6SzQ",
+      "recYgJLdDlWsTxVGe",
+      "recYgJLdDlWsTxVGe",
+      "recRQstqYOST4uTB1",
+      "recYgJLdDlWsTxVGe",
+      "recYgJLdDlWsTxVGe",
+      "recN0HIrikkUk6AvS",
+      "recN0HIrikkUk6AvS"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "reclxcnZSbbtBwiBh",
+    "name": "Endive",
+    "isSearchable": true,
+    "groups": [
+      "recsEhBTtFcgcCF4O",
+      "rec1mnTK3JO3ItGjp"
+    ],
+    "translation_heb": "אנדיב",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recsEhBTtFcgcCF4O",
+      "rec1mnTK3JO3ItGjp"
+    ]
+  },
+  {
+    "id": "recYf5xe43NVO2sk4",
+    "name": "Foie gras",
+    "isSearchable": false,
+    "groups": [
+      "recV4tBYJKxXVWfeH",
+      "recwJ3CsMWeKmDBlS"
+    ],
+    "translation_heb": "כבד אווז",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ],
+    "foodGroups": [
+      "recV4tBYJKxXVWfeH",
+      "recwJ3CsMWeKmDBlS"
+    ]
+  },
+  {
+    "id": "recfwRZdciPcwb2ov",
+    "name": "pasta dough",
+    "subIngredients": [
+      "rec26ycUuNkfo6m8R",
+      "recizlllj1Y0sB5uC"
+    ],
+    "translation_heb": "בצק פסטה",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recuDusYlnKtOh2pZ",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recSE80ZWX568HCiz",
+      "recqqxsvSS6LY3Aab",
+      "recurt87JNmeE6SzQ",
+      "recd15KxweGAE9dEv"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recKd4PBy4dI8BUrL",
+    "name": "Zinc",
+    "isSearchable": false,
+    "groups": [
+      "recDXBerbCvKBauuo"
+    ],
+    "translation_heb": "אבץ",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recDXBerbCvKBauuo"
+    ]
+  },
+  {
+    "id": "recDG2H7zaSfddBT8",
+    "name": "ponzu sauce",
+    "subIngredients": [
+      "recMUYWFSwTybo3yY",
+      "recKzibs119a7JAF5",
+      "recLNIkYf1Lh0LBME",
+      "recNlcmo3rwUCME96",
+      "rec8pKfAEwucwp78c",
+      "recc0DmCDcXGYqD3j",
+      "recRxY1kG8elmfgx8",
+      "rect2ssiRQkclJz1F",
+      "recw6gYCB8dMLrniV"
+    ],
+    "translation_heb": "רוטב פונזו",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recdx1s8hodBvQIHm",
+      "recA1DeocMW69g9QP",
+      "rec75vhLm4p0l8HfZ",
+      "recGvVrIfqmts2vCj",
+      "recA1DeocMW69g9QP",
+      "rec33e05fmRcCDf4i",
+      "recN0HIrikkUk6AvS",
+      "recDXBerbCvKBauuo",
+      "recDXBerbCvKBauuo"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recX1JNfolRIt9yKc",
+    "excludedInDiets": [],
+    "foodGroups": [],
+    "isSearchable": false
+  },
+  {
+    "id": "recNlcmo3rwUCME96",
+    "name": "Yuzu",
+    "isSearchable": false,
+    "groups": [
+      "recGvVrIfqmts2vCj"
+    ],
+    "translation_heb": "יוזו",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recGvVrIfqmts2vCj"
+    ]
+  },
+  {
+    "id": "recw6gYCB8dMLrniV",
+    "name": "E631",
+    "groups": [
+      "recDXBerbCvKBauuo"
+    ],
+    "translation_heb": "דיסודיום אינוזין",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5"
+    ],
+    "foodGroups": [
+      "recDXBerbCvKBauuo"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recx4CLKcuF4kX4va",
+    "name": "Beef tenderloin",
+    "isSearchable": true,
+    "groups": [
+      "recmkvtZD6t6WKl07"
+    ],
+    "translation_heb": "פילה עגל",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ],
+    "foodGroups": [
+      "recmkvtZD6t6WKl07"
+    ]
+  },
+  {
+    "id": "recKn6gB1vb5xrYpb",
+    "name": "white truffles",
+    "groups": [
+      "recOkLXIqL70I5L8I"
+    ],
+    "translation_heb": "כמהין לבנה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recOkLXIqL70I5L8I"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recCkeQ0yHl7XkNdc",
+    "name": "truffles cream",
+    "subIngredients": [
+      "recKn6gB1vb5xrYpb",
+      "recnyRoPL7wAntZF9",
+      "recRWtMrrIKuynzj3"
+    ],
+    "groups": [
+      "recOkLXIqL70I5L8I"
+    ],
+    "translation_heb": "קרם כמהין",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recFh4JVbTqqu9Rhf"
+    ],
+    "foodGroups": [
+      "recOkLXIqL70I5L8I",
+      "recOkLXIqL70I5L8I",
+      "recYgJLdDlWsTxVGe",
+      "recYgJLdDlWsTxVGe"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "rectZFqNQsObZWzdx",
+    "name": "chicken skewers",
+    "subIngredients": [
+      "recrf44xmq1p0m7j4"
+    ],
+    "isSearchable": false,
+    "groups": [
+      "recwJ3CsMWeKmDBlS"
+    ],
+    "translation_heb": "שיפודוני עוף",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ],
+    "foodGroups": [
+      "recwJ3CsMWeKmDBlS"
+    ]
+  },
+  {
+    "id": "recfOc9bh9nkK728W",
+    "name": "lamb breast",
+    "isSearchable": false,
+    "groups": [
+      "rec3OxjSiLWyj8hx5"
+    ],
+    "translation_heb": "חזה טלה , ברוסט טלה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "rec3OxjSiLWyj8hx5"
+    ]
+  },
+  {
+    "id": "recfHUWtiUN9WH783",
+    "name": "Bitter orange jam",
+    "subIngredients": [
+      "recJjH5fSEMBUNmmM",
+      "rec8pKfAEwucwp78c"
+    ],
+    "translation_heb": "ריבת חושחש",
+    "excludedInDiets": [
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recGvVrIfqmts2vCj",
+      "rec1mnTK3JO3ItGjp",
+      "recA1DeocMW69g9QP"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recJjH5fSEMBUNmmM",
+    "name": "Bitter orange",
+    "isSearchable": false,
+    "groups": [
+      "recGvVrIfqmts2vCj",
+      "rec1mnTK3JO3ItGjp"
+    ],
+    "translation_heb": "חושחש",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recGvVrIfqmts2vCj",
+      "rec1mnTK3JO3ItGjp"
+    ]
+  },
+  {
+    "id": "recAkh3I6DVuzZN6l",
+    "name": "sage",
+    "isSearchable": true,
+    "groups": [
+      "recKixXejzsCDapen"
+    ],
+    "translation_heb": "מרווה",
+    "excludedInDiets": [],
+    "foodGroups": [
+      "recKixXejzsCDapen"
+    ]
+  },
+  {
+    "id": "reccU93rwdb7EC5Ne",
+    "name": "aioli amba",
+    "subIngredients": [
+      "recE5Ayeth06z4mvS",
+      "recJgv6UgURqUhTeC",
+      "recunwwkCTGfBX5yn"
+    ],
+    "isSearchable": false,
+    "translation_heb": "איולי עמבה",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "rec8pz0YYIGmScPu5",
+      "recDlVagQGOiParjH",
+      "recqkfhdi9py4PNCJ"
+    ],
+    "foodGroups": [
+      "recXI5x68lU5F4IzP",
+      "recmCzPUKuoYcsS42",
+      "recmCzPUKuoYcsS42",
+      "rec75vhLm4p0l8HfZ",
+      "recA1DeocMW69g9QP",
+      "recRQstqYOST4uTB1",
+      "rec9aef6vga0ZHQHN",
+      "recWpISCcCcAIX1lr",
+      "recRLRNG6VRO3pnoY",
+      "rec9aef6vga0ZHQHN",
+      "recYZdiI4Znpthzj5",
+      "recYZdiI4Znpthzj5",
+      "reccATkRbfWDQGzvn",
+      "recSE80ZWX568HCiz",
+      "reccATkRbfWDQGzvn",
+      "recasLcin4Wr9ihNx",
+      "recN0HIrikkUk6AvS",
+      "recN0HIrikkUk6AvS",
+      "recDXBerbCvKBauuo",
+      "recRLRNG6VRO3pnoY"
+    ]
+  },
+  {
+    "id": "rec8uiLapioI9ebIt",
+    "name": "spring chicken",
+    "groups": [
+      "recwJ3CsMWeKmDBlS"
+    ],
+    "translation_heb": "פרגית",
+    "excludedInDiets": [
+      "rec9lyqSGhtIFE6pM",
+      "recQlw7MMtl1KlpNP",
+      "reczLN4jNH5npEarc"
+    ],
+    "foodGroups": [
+      "recwJ3CsMWeKmDBlS"
+    ],
+    "isSearchable": false
   }
 ]

@@ -230,5 +230,50 @@
     ],
     "currency": "₪",
     "locale": "he-IL"
+  },
+  {
+    "id": "recLz9mL6RCu3NIrK",
+    "name": "Fattal",
+    "image": [
+      {
+        "id": "attIp61jgd6R1jSMc",
+        "width": 220,
+        "height": 120,
+        "url": "https://dl.airtable.com/.attachments/6118268d26ea3b0bfdac7bb5c5dd6323/872015e0/logo.png",
+        "filename": "logo.png",
+        "size": 26676,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ada5f2e6805e6956a2821e07bbc415cc/974418bd",
+            "width": 66,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0aaf195aaeebf322138c4afdb65d59ee/fe7612a9",
+            "width": 220,
+            "height": 120
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/978c3a276755e04f79e8b1b67b79615d/7ed03f1a",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "website": "https://www.fattal.co.il/",
+    "intentions": [
+      "Dine-in"
+    ],
+    "workingHours": [
+      "rec3OkNeMfar0Sc2u"
+    ],
+    "menus": [
+      "recLlYO0QzHNhc0r1",
+      "recyO7hcKchjbzIJ1"
+    ],
+    "currency": "₪",
+    "locale": "he-IL"
   }
 ]

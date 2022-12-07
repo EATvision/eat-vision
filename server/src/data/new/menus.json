@@ -932,6 +932,40 @@
     ]
   },
   {
-    "id": "recMWu24JitNVvH6F"
+    "id": "recLlYO0QzHNhc0r1",
+    "kitchens": [
+      "recLz9mL6RCu3NIrK"
+    ],
+    "name": "Room Service",
+    "workingHours": [
+      "recuSCuW9hynmYuna"
+    ],
+    "startDate": "2022-12-07",
+    "endDate": "2023-05-31",
+    "categories": [
+      "recnWblELRZGuP2Ug",
+      "recCgejc8KK6i0TQQ"
+    ]
+  },
+  {
+    "id": "recyO7hcKchjbzIJ1",
+    "kitchens": [
+      "recLz9mL6RCu3NIrK"
+    ],
+    "name": "Breakfast",
+    "workingHours": [
+      "recBSJkElQ7gpN2uk"
+    ],
+    "startDate": "2022-12-07",
+    "endDate": "2023-04-29"
+  },
+  {
+    "id": "recwKgdI7MsvRFBQJ",
+    "name": "NYX BISTRO",
+    "workingHours": [
+      "recpAe759z0fBl2TB"
+    ],
+    "startDate": "2022-12-07",
+    "endDate": "2023-04-29"
   }
 ]

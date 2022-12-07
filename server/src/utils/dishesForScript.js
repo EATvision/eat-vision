@@ -8,7 +8,6 @@ const foodGroups = require('../data/raw/foodGroups.json')
 
 const foodGroupsById = keyBy(foodGroups, 'id')
 const ingredientsById = keyBy(ingredients, 'id')
-
 const dishesById = keyBy(dishes, 'id')
 
 const setAllChildIngredients = (result, ingredientId) => {
