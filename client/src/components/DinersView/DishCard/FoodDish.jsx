@@ -213,12 +213,35 @@ export default function FoodDish({ data, index, isOrdering }) {
           )}
 
           {data.recipe?.sideDish?.length > 0 && (
-            <DishRecipeTypeChips
-              data={data.recipe.sideDish}
-              label={t('sidedish')}
-              selectedComponents={selectedComponents.sideDish}
-              onSelect={handleSelect('sideDish', { exclusive: false })}
-            />
+            <>
+              <Typography
+                sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
+              >
+                {t('sidedish')}:
+              </Typography>
+              <DishRecipeTypeChips
+                data={data.recipe.sideDish}
+                selectedComponents={selectedComponents.sideDish}
+                onSelect={handleSelect('sideDish', { exclusive: false })}
+              />
+            </>
+          )}
+
+          {data.recipe?.addableComponents?.length > 0 && (
+            <>
+              <Typography
+                sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
+              >
+                {t('addableComponents')}:
+              </Typography>
+              <DishRecipeTypeChips
+                data={data.recipe.addableComponents}
+                selectedComponents={selectedComponents.addableComponents}
+                onSelect={handleSelect('addableComponents', {
+                  exclusive: false,
+                })}
+              />
+            </>
           )}
         </Box>
 

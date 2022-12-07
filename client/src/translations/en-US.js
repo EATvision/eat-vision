@@ -73,6 +73,8 @@ export default {
   allergens: 'allergens',
   menu_options: 'Menus Options',
   choice: 'choice',
+  addableComponents: 'addable components',
+  sidedish: 'side dishes',
   changes: 'changes',
   expand: 'expand',
   collapse: 'collapse',

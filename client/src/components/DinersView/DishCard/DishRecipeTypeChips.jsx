@@ -3,15 +3,20 @@ import { useParams } from 'react-router-dom'
 import {
   Box,
   useTheme,
-  Stack,
   FormLabel,
   Badge,
   Typography,
   Divider,
+  styled,
 } from '@mui/material'
 
 import { useKitchenById } from 'hooks/kitchens'
 import { useGetComponentLabel } from 'hooks/ingredients'
+
+const LTRTypography = styled(Typography)`
+  /* @noflip */
+  direction: ltr;
+`
 
 export default function DishRecipeChips({ data, label }) {
   const theme = useTheme()
@@ -20,8 +25,7 @@ export default function DishRecipeChips({ data, label }) {
 
   const getComponentLabel = useGetComponentLabel()
   return (
-    <Stack
-      direction="row"
+    <Box
       spacing={1}
       sx={{
         backgroundColor: theme.palette.grey[200],
@@ -31,7 +35,7 @@ export default function DishRecipeChips({ data, label }) {
       }}
     >
       {label && <FormLabel sx={{ textAlign: 'initial' }}>{label}:</FormLabel>}
-      <Box sx={{ textAlign: 'initial', display: 'flex', alignItems: 'center' }}>
+      <Box sx={{ textAlign: 'initial' }}>
         {data?.map((component, index) => {
           const componentsExcludableComponentsFilteredOut =
             component?.recipe?.excludable?.filter((c) => c.isFilteredOut)
@@ -65,7 +69,7 @@ export default function DishRecipeChips({ data, label }) {
                         : 'none',
                   }}
                 >
-                  {getComponentLabel(component).toLocaleLowerCase()}
+                  {getComponentLabel(component)?.toLocaleLowerCase()}
                 </Typography>
 
                 {component.price > 0 && (
@@ -77,11 +81,11 @@ export default function DishRecipeChips({ data, label }) {
                       sx={{ margin: `0 ${theme.spacing(1)}` }}
                     />
 
-                    <Typography>
+                    <LTRTypography>
                       {component.price > 0
                         ? `(+${component.price}${kitchen?.currency})`
                         : ''}
-                    </Typography>
+                    </LTRTypography>
                   </>
                 )}
               </Box>
@@ -90,6 +94,6 @@ export default function DishRecipeChips({ data, label }) {
           )
         })}
       </Box>
-    </Stack>
+    </Box>
   )
 }
