@@ -1,6 +1,7 @@
 import {
   CircularProgress,
   Divider,
+  IconButton,
   List,
   ListItem,
   ListItemText,
@@ -11,7 +12,7 @@ import { Box } from '@mui/system'
 import axios from 'axios'
 import { t } from 'i18next'
 import React from 'react'
-import { Check as CheckIcon } from '@mui/icons-material'
+import { Check as CheckIcon, Close as CloseIcon } from '@mui/icons-material'
 import { useDebounce } from 'use-debounce'
 
 import { useGetComponentLabel } from 'hooks/ingredients'
@@ -44,6 +45,10 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
 
   const handleChangeInputValue = (e) => {
     setInputValue(e.target.value)
+  }
+
+  const handleClearInputValue = () => {
+    setInputValue('')
   }
 
   React.useEffect(() => {
@@ -124,6 +129,11 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
           endAdornment: (
             <>
               {loading ? <CircularProgress color="inherit" size={20} /> : null}
+              {!loading && inputValue?.length > 0 && (
+                <IconButton sx={{ padding: 0 }} onClick={handleClearInputValue}>
+                  <CloseIcon size="small" />
+                </IconButton>
+              )}
             </>
           ),
         }}
