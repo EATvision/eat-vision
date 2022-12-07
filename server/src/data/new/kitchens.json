@@ -97,26 +97,26 @@
     "name": "האחים",
     "image": [
       {
-        "id": "attJMS2RZwA5K3tBP",
-        "width": 297,
-        "height": 103,
-        "url": "https://dl.airtable.com/.attachments/2c71a16dcd5a4fde76046c990a64b290/50d7b6cd/logo.jpg",
-        "filename": "logo.jpg",
-        "size": 4806,
-        "type": "image/jpeg",
+        "id": "attaRx7SkppSJGEPo",
+        "width": 225,
+        "height": 225,
+        "url": "https://dl.airtable.com/.attachments/f04afc91ee5e8157db6e908d36a02770/5f2d4a7c/logo.png",
+        "filename": "logo.png",
+        "size": 1231,
+        "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/547e92710d6c675958ff099807764e99/91a19fbb",
-            "width": 104,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a9c050c798b31a9eba3c6e130f3fc747/d7ec0e8b",
+            "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/66c6817fb90db6a62e663e078952d2aa/c4fad2f8",
-            "width": 297,
-            "height": 103
+            "url": "https://dl.airtable.com/.attachmentThumbnails/950c9927be0133a15bc77175e03746b5/c01e27a4",
+            "width": 225,
+            "height": 225
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/a9bfa2becfaec9cb4f9c86c765761a98/61738784",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ddd92609dde53a75c55843352ba7cbdf/aeaab5d3",
             "width": 3000,
             "height": 3000
           }
