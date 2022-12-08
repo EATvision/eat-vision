@@ -377,7 +377,6 @@
   },
   {
     "id": "rech9gf7rUFNDEoMD",
-    "kitchens": ["recipajs7uV1pWw1h"],
     "name": "Menu ",
     "workingHours": ["reclLWEiXq2Kkmwlx"],
     "startDate": "2022-02-01",
@@ -901,7 +900,20 @@
     "name": "Breakfast",
     "workingHours": ["recBSJkElQ7gpN2uk"],
     "startDate": "2022-12-07",
-    "endDate": "2023-04-29"
+    "endDate": "2023-04-29",
+    "categories": [
+      "recCbbPwQDG5F33T0",
+      "recpku4APvg1idRaY",
+      "recqGerbTr69t5TIU",
+      "reclT14FtHvh32jWC",
+      "recqGOBMgoWUdasTr",
+      "recOsuX64dp6jHNS5",
+      "recjU7rW5EwrcSCBe",
+      "rectklIbQzx7V9nnP",
+      "recZWYhdnctZOQI36",
+      "recmqDtfG1vvjBoPo",
+      "recRM3vqx1Ndm4Y1t"
+    ]
   },
   {
     "id": "recwKgdI7MsvRFBQJ",
@@ -909,6 +921,7 @@
     "name": "NYX BISTRO",
     "workingHours": ["recpAe759z0fBl2TB"],
     "startDate": "2022-12-07",
-    "endDate": "2023-04-29"
+    "endDate": "2023-04-29",
+    "categories": ["recUxPfV3HD18vBio"]
   }
 ]

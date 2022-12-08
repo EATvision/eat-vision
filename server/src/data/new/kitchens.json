@@ -71,7 +71,7 @@
     "intentions": ["Dine-in", "Takeout", "Delivery"],
     "location": ["recVKDYGF5Z5jp7fz"],
     "workingHours": ["recsOApPfuoqg065a", "reclLWEiXq2Kkmwlx"],
-    "menus": ["rech9gf7rUFNDEoMD", "recyO7hcKchjbzIJ1"],
+    "menus": ["recyO7hcKchjbzIJ1"],
     "currency": "$",
     "locale": "en-US"
   },
