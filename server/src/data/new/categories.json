@@ -12,10 +12,7 @@
   {
     "id": "rect6ZufaSGWEwKhH",
     "name": "COCKTAIL",
-    "dishes": [
-      "recYm3jdlsVhUDfIx",
-      "recrL1VB31r3YMO0g"
-    ]
+    "dishes": ["recYm3jdlsVhUDfIx", "recrL1VB31r3YMO0g"]
   },
   {
     "id": "recpXmQR5Nraoj41P",
@@ -88,25 +85,41 @@
     ]
   },
   {
-    "id": "recYmUBLHQCYJDRgL",
-    "name": "דוכן\n  המזרח הרחוק"
+    "id": "recbFw1ys85l8Oafh",
+    "name": "HOT DISHES",
+    "dishes": [
+      "recEsUjOY0mV1U0aY",
+      "rec9Sha9IoXTkw9g7",
+      "recA7RSpL5wYmnm5L",
+      "recok5MzSazmIWXXH",
+      "reccWevVF3uVoNoG5",
+      "recsTEsyUw3JRjZ72",
+      "rec8zTCX0UmDkc22x",
+      "rechkG7Ygk1UC2eei",
+      "rec5j7aGHeKqnHKpG",
+      "recmq69vlef7BXO53",
+      "rec5j8Uzob01xE7gk",
+      "recOigShDX9er9Cwu",
+      "recWeaK7lmPpgz4Yy",
+      "rec4Kr8Wp9uHdZeat"
+    ]
   },
   {
-    "id": "recnAfSsXLfAzMXlK",
-    "name": "דוכן BUN BUN BUN"
+    "id": "recpUPPCOf4FFjXlM",
+    "name": "SIDES",
+    "dishes": [
+      "rec7VhLRGkpK0bsir",
+      "recsqkCAtqRsjG8Dj",
+      "recxTG8xlfLQtYwE2",
+      "recUNFcnDdkIuoJ92",
+      "recNELtB71PMNKiQz"
+    ]
   },
-  {
-    "id": "recL9dqeTNVaxblrb",
-    "name": "דוכן המזרח התיכון"
-  },
-  {
-    "id": "recRnOl9xpftulXc1",
-    "name": "דוכן יורו טריפ"
-  },
-  {
-    "id": "reckUAAkbUH4MnmUm",
-    "name": "דוכן של הדוד סאם"
-  },
+  { "id": "recYmUBLHQCYJDRgL", "name": "דוכן\n  המזרח הרחוק" },
+  { "id": "recnAfSsXLfAzMXlK", "name": "דוכן BUN BUN BUN" },
+  { "id": "recL9dqeTNVaxblrb", "name": "דוכן המזרח התיכון" },
+  { "id": "recRnOl9xpftulXc1", "name": "דוכן יורו טריפ" },
+  { "id": "reckUAAkbUH4MnmUm", "name": "דוכן של הדוד סאם" },
   {
     "id": "recPEueYqRnH1KVT1",
     "name": "תוספות",
@@ -120,9 +133,20 @@
   {
     "id": "recWaQqG4Ojv7nCfk",
     "name": "תוספות ",
+    "dishes": ["recrFkR8gBABwRAhR"]
+  },
+  {
+    "id": "rech0wuHHfAJ4EpjX",
+    "name": "SANDWICHES",
     "dishes": [
-      "recrFkR8gBABwRAhR"
-    ]
+      "recoSKdLePJ5tm2ap",
+      "recGcF1irueg97nTy",
+      "recOV30kgh3q82AvN",
+      "recu386ANJdibd0of",
+      "recVTirjQZbmPQM5x",
+      "recZvfQ7zRE5mcbFs"
+    ],
+    "description": "All sandwiches are served with Israeli salad on the side. it can be substituted with mixed greens/ home fries/ sweet potato fries/ mashed potato or potato wedges"
   },
   {
     "id": "rectJzx1T08Bsfna2",
@@ -142,30 +166,10 @@
     ]
   },
   {
-    "id": "reclT14FtHvh32jWC",
-    "name": "Breakfast ",
-    "position": 1,
-    "dishes": [
-      "recjK4s18mXnxOT1A",
-      "recrwDiO6vU33Ty6H",
-      "recqX0rsk1aUg9pDH",
-      "recSy4yxXPfKwF4Rc",
-      "reczheDNpyiK2t4g9",
-      "rec0vVZyy3H7q4em5",
-      "reczzSojG4ygwQDh1",
-      "recjqhcWNlL7ixifo"
-    ],
-    "description": "Breakfast is served all day "
-  },
-  {
     "id": "recYzvx9xQMS3cHU9",
     "name": "SOUP & SALADS",
     "position": 1,
-    "dishes": [
-      "recL4MD9t8RRJubXR",
-      "rechkr845gT4vYKOU",
-      "recbEJWvRlpxqK27k"
-    ]
+    "dishes": ["recL4MD9t8RRJubXR", "rechkr845gT4vYKOU", "recbEJWvRlpxqK27k"]
   },
   {
     "id": "recjwSr1ulhXPkaJZ",
@@ -202,21 +206,29 @@
     ]
   },
   {
+    "id": "reclT14FtHvh32jWC",
+    "name": "station 1",
+    "position": 1,
+    "dishes": [
+      "recjK4s18mXnxOT1A",
+      "recrwDiO6vU33Ty6H",
+      "recqX0rsk1aUg9pDH",
+      "recSy4yxXPfKwF4Rc",
+      "reczheDNpyiK2t4g9",
+      "rec0vVZyy3H7q4em5",
+      "reczzSojG4ygwQDh1",
+      "recjqhcWNlL7ixifo"
+    ],
+    "description": "Breakfast is served all day "
+  },
+  {
     "id": "rec5M7nQCV67N4wLz",
     "name": "למרכז שולחן",
     "position": 1,
     "description": "לא כלול בעיסקיות"
   },
-  {
-    "id": "recIiq6ZHol2WD138",
-    "name": "מנות פתיחה",
-    "position": 1
-  },
-  {
-    "id": "recnWblELRZGuP2Ug",
-    "name": "משהו לאכול",
-    "position": 1
-  },
+  { "id": "recIiq6ZHol2WD138", "name": "מנות פתיחה", "position": 1 },
+  { "id": "recnWblELRZGuP2Ug", "name": "משהו לאכול", "position": 1 },
   {
     "id": "recbP0zdJ5c8RAGvd",
     "name": "סלטים ועניינים",
@@ -326,20 +338,21 @@
     "id": "reclHlEtu675LitzL",
     "name": "Soups",
     "position": 2,
-    "dishes": [
-      "recnFLhM6aAe1BhSP"
-    ]
+    "dishes": ["recnFLhM6aAe1BhSP"]
   },
   {
-    "id": "recZWYhdnctZOQI36",
-    "name": "SWEET MORNING",
+    "id": "recjU7rW5EwrcSCBe",
+    "name": "station 2",
     "position": 2,
     "dishes": [
-      "recM18E6SzE3RScpd",
-      "rec3lhl9DiMznT7Ku",
-      "recTHHSoIZsHXg10g",
-      "rec2clqjXTXPVGCgn"
-    ]
+      "recOnYAu0qbpVq0Nx",
+      "rechaLTNraSqX25xc",
+      "recqzvU6urmlzrgbX",
+      "rec0QjAif9yCZwgpv",
+      "recvXYp22XmwLO63C",
+      "recnmrNYnbWXYUA0J"
+    ],
+    "description": "Choose any 4 for $25. Served with warm pita bread."
   },
   {
     "id": "rec5UBFLohYRSiMky",
@@ -352,11 +365,7 @@
       "recKGk17CVrpAzU1t"
     ]
   },
-  {
-    "id": "recCgejc8KK6i0TQQ",
-    "name": "משקאות",
-    "position": 2
-  },
+  { "id": "recCgejc8KK6i0TQQ", "name": "משקאות", "position": 2 },
   {
     "id": "recxOLISKY73v0uUD",
     "name": "סלטים",
@@ -389,11 +398,7 @@
       "recE1I7Ft3vm3UA6s"
     ]
   },
-  {
-    "id": "recMWvVyCPjMnpiLz",
-    "name": "עסקית סלטים ועניינים",
-    "position": 2
-  },
+  { "id": "recMWvVyCPjMnpiLz", "name": "עסקית סלטים ועניינים", "position": 2 },
   {
     "id": "recLV2ZH0X91IRCZJ",
     "name": "BURGER AND SANDWICHES",
@@ -425,17 +430,24 @@
     ],
     "description": "ALL SERVED WITH FRIES AND SALAD\n"
   },
-  {
-    "id": "recH81nAEgiNirTDC",
-    "name": "HUMMUS BOWL",
-    "position": 3
-  },
+  { "id": "recH81nAEgiNirTDC", "name": "HUMMUS BOWL", "position": 3 },
   {
     "id": "reckNeUDElRdHSVP8",
     "name": "Seafood ",
     "position": 3,
+    "dishes": ["recyB0xQeBegbDM1I"]
+  },
+  {
+    "id": "rectklIbQzx7V9nnP",
+    "name": "station 3",
+    "position": 3,
     "dishes": [
-      "recyB0xQeBegbDM1I"
+      "recrIMpGqgcafZ4H6",
+      "recD8f1dX4F97ADgY",
+      "rec7YlK9EZQ8uVv5A",
+      "recDGAAEiibEb2cQh",
+      "recpdTxDTos0FurO8",
+      "recmtkKFJasnbV3cm"
     ]
   },
   {
@@ -449,22 +461,14 @@
       "reclreoT6cKKnWVcC"
     ]
   },
-  {
-    "id": "recbszxblMsGh4bbq",
-    "name": "מנות אישיות",
-    "position": 3
-  },
+  { "id": "recbszxblMsGh4bbq", "name": "מנות אישיות", "position": 3 },
   {
     "id": "rec9eW8LSa8PrYyDQ",
     "name": "מנות אישיות",
     "position": 3,
     "description": "Happy hour 20% הנחה עד השעה 20:00"
   },
-  {
-    "id": "reca65UNT1nuSqS91",
-    "name": "עסקית שיפודים",
-    "position": 3
-  },
+  { "id": "reca65UNT1nuSqS91", "name": "עסקית שיפודים", "position": 3 },
   {
     "id": "recVLxtGC3w3RN1wQ",
     "name": "פסטות",
@@ -535,34 +539,19 @@
     "id": "recWYESDuTVG6IYmt",
     "name": "FOR THE TABLE",
     "position": 4,
-    "dishes": [
-      "recxcAvr3c9NG04nn",
-      "recirizy0PXnMnDs8",
-      "recb1NUipmE3uBelf"
-    ]
+    "dishes": ["recxcAvr3c9NG04nn", "recirizy0PXnMnDs8", "recb1NUipmE3uBelf"]
   },
   {
     "id": "recreE3wCxyKWKZwa",
     "name": "Sandwiches ",
     "position": 4,
-    "dishes": [
-      "recfkjlZpIGuiBECW",
-      "recZU3wHHKxADLJtE"
-    ]
+    "dishes": ["recfkjlZpIGuiBECW", "recZU3wHHKxADLJtE"]
   },
   {
-    "id": "recjU7rW5EwrcSCBe",
-    "name": "SMALL PLATES",
+    "id": "recpku4APvg1idRaY",
+    "name": "station 4",
     "position": 4,
-    "dishes": [
-      "recOnYAu0qbpVq0Nx",
-      "rechaLTNraSqX25xc",
-      "recqzvU6urmlzrgbX",
-      "rec0QjAif9yCZwgpv",
-      "recvXYp22XmwLO63C",
-      "recnmrNYnbWXYUA0J"
-    ],
-    "description": "Choose any 4 for $25. Served with warm pita bread."
+    "dishes": ["receplTGHi0vT5uSl"]
   },
   {
     "id": "recHkB0jXsbrxDMjm",
@@ -575,11 +564,7 @@
       "rec4auYtjq2fmRCja"
     ]
   },
-  {
-    "id": "rece5ngIPpy3SxNRe",
-    "name": "עסקית מהגריל",
-    "position": 4
-  },
+  { "id": "rece5ngIPpy3SxNRe", "name": "עסקית מהגריל", "position": 4 },
   {
     "id": "rec94ahsl9Q76OazY",
     "name": "פיצות וטוסטים",
@@ -592,24 +577,7 @@
       "reckArN0o4Y9fY2wV"
     ]
   },
-  {
-    "id": "recWz1oglIgIu3x61",
-    "name": "שתיה",
-    "position": 4
-  },
-  {
-    "id": "rectklIbQzx7V9nnP",
-    "name": "IN THE MIDDLE",
-    "position": 5,
-    "dishes": [
-      "recrIMpGqgcafZ4H6",
-      "recD8f1dX4F97ADgY",
-      "rec7YlK9EZQ8uVv5A",
-      "recDGAAEiibEb2cQh",
-      "recpdTxDTos0FurO8",
-      "recmtkKFJasnbV3cm"
-    ]
-  },
+  { "id": "recWz1oglIgIu3x61", "name": "שתיה", "position": 4 },
   {
     "id": "recKRuIzp9K7qltVq",
     "name": "Mezze",
@@ -658,21 +626,27 @@
     "id": "recAtLhDQypxZ8XUW",
     "name": "SIDES",
     "position": 5,
-    "dishes": [
-      "recTm1OzLUxCDfZVO",
-      "rec217mNAg0C1mmEp",
-      "recuDbN4yasA44CLJ"
-    ]
+    "dishes": ["recTm1OzLUxCDfZVO", "rec217mNAg0C1mmEp", "recuDbN4yasA44CLJ"]
   },
   {
     "id": "recAgrVObF6l67H6O",
     "name": "SIDES",
     "position": 5,
+    "dishes": ["rec0BRNvBsgLpYHFI", "recEOVrAc8KKUwzcA", "recuDbN4yasA44CLJ"]
+  },
+  {
+    "id": "recqGerbTr69t5TIU",
+    "name": "station 5",
+    "position": 5,
     "dishes": [
-      "rec0BRNvBsgLpYHFI",
-      "recEOVrAc8KKUwzcA",
-      "recuDbN4yasA44CLJ"
-    ]
+      "rec47OiDjmE5zvWBE",
+      "recorjbNHsijMi6X7",
+      "recTe63MF1OWSD5cF",
+      "recGEheT63TRFwjL2",
+      "recMGcEtTlp8fMIux",
+      "recyXjEJX5zRoFtoW"
+    ],
+    "description": "You can add protein to all salads -  chicken/ smoked tuna/ schnitzel/ smoked salmon/ falafel.\n"
   },
   {
     "id": "rechhKwbUGUu00KGE",
@@ -700,39 +674,26 @@
       "recpsaIzIwZNpwxeW"
     ]
   },
-  {
-    "id": "reckVRhNTnmMAEL6v",
-    "name": "משקאות חמים",
-    "position": 5
-  },
-  {
-    "id": "recQNXuU0VxrhnX2W",
-    "name": "קינוחים",
-    "position": 5
-  },
-  {
-    "id": "recpku4APvg1idRaY",
-    "name": "HUMMUS",
-    "position": 6,
-    "dishes": [
-      "receplTGHi0vT5uSl"
-    ]
-  },
+  { "id": "reckVRhNTnmMAEL6v", "name": "משקאות חמים", "position": 5 },
+  { "id": "recQNXuU0VxrhnX2W", "name": "קינוחים", "position": 5 },
   {
     "id": "recqzC3R28b5TBPP9",
     "name": "Pastas",
     "position": 6,
-    "dishes": [
-      "recdVtPT0W2doar1w"
-    ]
+    "dishes": ["recdVtPT0W2doar1w"]
+  },
+  {
+    "id": "recmqDtfG1vvjBoPo",
+    "name": "station 6",
+    "position": 6,
+    "dishes": ["recGrCEqcOGqlsV8U", "recvomWaeLp7A5KZj", "recqbhsIpkuwWK8Ff"],
+    "description": "Saturday and Sunday only"
   },
   {
     "id": "recMLMHJDmLet3aHc",
     "name": "WINE - SPARKLING",
     "position": 6,
-    "dishes": [
-      "recsYrtc9q2LpjQAI"
-    ]
+    "dishes": ["recsYrtc9q2LpjQAI"]
   },
   {
     "id": "recdpDnIlYFnCexZ6",
@@ -753,42 +714,11 @@
     "id": "recFJUOY68Me5hf11",
     "name": "צלחת אליפות",
     "position": 6,
-    "dishes": [
-      "recrdCthAjv6yOR02"
-    ],
+    "dishes": ["recrdCthAjv6yOR02"],
     "description": "מבחר שיפודים לחלוקה למרכז שולחן, ניגובים וממרחים"
   },
-  {
-    "id": "reckXyHBjuL2EIiiB",
-    "name": "קינוחים",
-    "position": 6
-  },
-  {
-    "id": "rec1r4IHznbhuFCM8",
-    "name": "שתייה",
-    "position": 6
-  },
-  {
-    "id": "recbFw1ys85l8Oafh",
-    "name": "HOT DISHES",
-    "position": 7,
-    "dishes": [
-      "recEsUjOY0mV1U0aY",
-      "rec9Sha9IoXTkw9g7",
-      "recA7RSpL5wYmnm5L",
-      "recok5MzSazmIWXXH",
-      "reccWevVF3uVoNoG5",
-      "recsTEsyUw3JRjZ72",
-      "rec8zTCX0UmDkc22x",
-      "rechkG7Ygk1UC2eei",
-      "rec5j7aGHeKqnHKpG",
-      "recmq69vlef7BXO53",
-      "rec5j8Uzob01xE7gk",
-      "recOigShDX9er9Cwu",
-      "recWeaK7lmPpgz4Yy",
-      "rec4Kr8Wp9uHdZeat"
-    ]
-  },
+  { "id": "reckXyHBjuL2EIiiB", "name": "קינוחים", "position": 6 },
+  { "id": "rec1r4IHznbhuFCM8", "name": "שתייה", "position": 6 },
   {
     "id": "recyYneU1VxnDniko",
     "name": "Main",
@@ -803,31 +733,23 @@
     ]
   },
   {
-    "id": "recpUPPCOf4FFjXlM",
-    "name": "SIDES",
+    "id": "recZWYhdnctZOQI36",
+    "name": "station 7",
     "position": 7,
     "dishes": [
-      "rec7VhLRGkpK0bsir",
-      "recsqkCAtqRsjG8Dj",
-      "recxTG8xlfLQtYwE2",
-      "recUNFcnDdkIuoJ92",
-      "recNELtB71PMNKiQz"
+      "recM18E6SzE3RScpd",
+      "rec3lhl9DiMznT7Ku",
+      "recTHHSoIZsHXg10g",
+      "rec2clqjXTXPVGCgn"
     ]
   },
   {
     "id": "rec5EXQs8ncwbQPDB",
     "name": "WINE - ROSÉ",
     "position": 7,
-    "dishes": [
-      "recjYP6iiXAuIe4yi",
-      "reccloeOapoYqdW1d"
-    ]
+    "dishes": ["recjYP6iiXAuIe4yi", "reccloeOapoYqdW1d"]
   },
-  {
-    "id": "recTbPNH6RqWBKYz2",
-    "name": "יין",
-    "position": 7
-  },
+  { "id": "recTbPNH6RqWBKYz2", "name": "יין", "position": 7 },
   {
     "id": "recVOON6Ib5LW7R6b",
     "name": "ילדים",
@@ -843,11 +765,7 @@
       "recDyW3QOk86ipCY6"
     ]
   },
-  {
-    "id": "recXpNrVlnXVfiUJv",
-    "name": "קוקטיילים",
-    "position": 7
-  },
+  { "id": "recXpNrVlnXVfiUJv", "name": "קוקטיילים", "position": 7 },
   {
     "id": "reco2uIrzD3VFoVX7",
     "name": "קוקטיילים ",
@@ -876,46 +794,28 @@
     "id": "rec29XLbGqtdWPd9z",
     "name": "Grill",
     "position": 8,
-    "dishes": [
-      "recmGOOSviPiEn1iP",
-      "recaxWJsCqt4LsUSM",
-      "recF84qRLiFs91qQj"
-    ]
+    "dishes": ["recmGOOSviPiEn1iP", "recaxWJsCqt4LsUSM", "recF84qRLiFs91qQj"]
   },
   {
-    "id": "recqGerbTr69t5TIU",
-    "name": "SALADS",
+    "id": "recCbbPwQDG5F33T0",
+    "name": "station 8",
     "position": 8,
     "dishes": [
-      "rec47OiDjmE5zvWBE",
-      "recorjbNHsijMi6X7",
-      "recTe63MF1OWSD5cF",
-      "recGEheT63TRFwjL2",
-      "recMGcEtTlp8fMIux",
-      "recyXjEJX5zRoFtoW"
-    ],
-    "description": "You can add protein to all salads -  chicken/ smoked tuna/ schnitzel/ smoked salmon/ falafel.\n"
+      "recBpw8qqWflupg8y",
+      "recv7hu1IA7HnUS4k",
+      "recopeWrKvCHPGbKC",
+      "recpaTpld67wJg7QU",
+      "rec8bV1hFIieqrEXs"
+    ]
   },
   {
     "id": "recxh2MkmEPyJC1ag",
     "name": "WINE - RED ",
     "position": 8,
-    "dishes": [
-      "recZKUOckK5xCi0fJ",
-      "recNk5WZ4IaOd7YWn",
-      "rec5cHolwZCMlVhH0"
-    ]
+    "dishes": ["recZKUOckK5xCi0fJ", "recNk5WZ4IaOd7YWn", "rec5cHolwZCMlVhH0"]
   },
-  {
-    "id": "rec7Y5Ue4jJxo3e9y",
-    "name": "אלכוהול",
-    "position": 8
-  },
-  {
-    "id": "recke8BNWZXhDFYSn",
-    "name": "יינות לבנים",
-    "position": 8
-  },
+  { "id": "rec7Y5Ue4jJxo3e9y", "name": "אלכוהול", "position": 8 },
+  { "id": "recke8BNWZXhDFYSn", "name": "יינות לבנים", "position": 8 },
   {
     "id": "recSaYm2kSUrkvw7b",
     "name": "יינות לבנים",
@@ -926,11 +826,7 @@
     "id": "recrDQMnlZyvJfuSz",
     "name": "מהצד",
     "position": 8,
-    "dishes": [
-      "rec1f9ZqOrhYtZdj5",
-      "recWBptYBOerRWamQ",
-      "recUF3IucLR6aIP0g"
-    ]
+    "dishes": ["rec1f9ZqOrhYtZdj5", "recWBptYBOerRWamQ", "recUF3IucLR6aIP0g"]
   },
   {
     "id": "recQtsiYDavjot6GG",
@@ -955,37 +851,16 @@
     ]
   },
   {
-    "id": "recRM3vqx1Ndm4Y1t",
-    "name": "BREAKFAST BEVERAGES",
-    "position": 9,
-    "dishes": [
-      "recWxc7HeW1J8ogtU",
-      "reclqARSUeHaccA4g"
-    ]
-  },
-  {
     "id": "recQsssaHi5Zixx2E",
     "name": "Brunch",
     "position": 9,
-    "dishes": [
-      "recOv4cgs5xL0DnJ7",
-      "recUPdP1cJOSK1sMK",
-      "recWuWmOjgiNwoFJu"
-    ]
+    "dishes": ["recOv4cgs5xL0DnJ7", "recUPdP1cJOSK1sMK", "recWuWmOjgiNwoFJu"]
   },
   {
-    "id": "rech0wuHHfAJ4EpjX",
-    "name": "SANDWICHES",
+    "id": "recRM3vqx1Ndm4Y1t",
+    "name": "station 9",
     "position": 9,
-    "dishes": [
-      "recoSKdLePJ5tm2ap",
-      "recGcF1irueg97nTy",
-      "recOV30kgh3q82AvN",
-      "recu386ANJdibd0of",
-      "recVTirjQZbmPQM5x",
-      "recZvfQ7zRE5mcbFs"
-    ],
-    "description": "All sandwiches are served with Israeli salad on the side. it can be substituted with mixed greens/ home fries/ sweet potato fries/ mashed potato or potato wedges"
+    "dishes": ["recWxc7HeW1J8ogtU", "reclqARSUeHaccA4g"]
   },
   {
     "id": "recyUMYfuotNtAuxB",
@@ -1004,11 +879,7 @@
     "position": 9,
     "description": "1+1 על כל היינות עד 20:00"
   },
-  {
-    "id": "recZvEB73pCX5CLtB",
-    "name": "יינות אדומים",
-    "position": 9
-  },
+  { "id": "recZvEB73pCX5CLtB", "name": "יינות אדומים", "position": 9 },
   {
     "id": "reckDE68tDC11ZZMM",
     "name": "משקאות קרים",
@@ -1020,11 +891,7 @@
       "recV0TNTAJHRE49xl"
     ]
   },
-  {
-    "id": "rec0deeXSYMfhQNKs",
-    "name": "ספיישלים - האחים",
-    "position": 9
-  },
+  { "id": "rec0deeXSYMfhQNKs", "name": "ספיישלים - האחים", "position": 9 },
   {
     "id": "recqJPHUhUy4ulcvi",
     "name": "Asian",
@@ -1054,15 +921,16 @@
     ]
   },
   {
-    "id": "recCbbPwQDG5F33T0",
-    "name": "SWEETS",
+    "id": "recOsuX64dp6jHNS5",
+    "name": "station 10",
     "position": 10,
     "dishes": [
-      "recBpw8qqWflupg8y",
-      "recv7hu1IA7HnUS4k",
-      "recopeWrKvCHPGbKC",
-      "recpaTpld67wJg7QU",
-      "rec8bV1hFIieqrEXs"
+      "rec0URmClXPswyoR3",
+      "recINyobakDhMwXnM",
+      "rec7bclEhyVx67XrT",
+      "recW5n5ke3jTKXS0n",
+      "recCvvkDNovtOyPZN",
+      "recu5GLuPf74oLd2w"
     ]
   },
   {
@@ -1071,11 +939,7 @@
     "position": 10,
     "description": "1+1 על כל היינות עד 20:00"
   },
-  {
-    "id": "reccKFL0KLPTD1jo2",
-    "name": "יינות מבעבעים",
-    "position": 10
-  },
+  { "id": "reccKFL0KLPTD1jo2", "name": "יינות מבעבעים", "position": 10 },
   {
     "id": "recdHRu4hZtmJulGH",
     "name": "משקאות קרים ומיוחדים",
@@ -1113,36 +977,32 @@
     "id": "recsHxMetZyZmVcVw",
     "name": "CRAFT COCKTAILS",
     "position": 11,
+    "dishes": ["recUsxdqH1M9OSBxl", "recJOw6wKhb3P1IU2", "recr91rnwAyrLt6sd"]
+  },
+  {
+    "id": "recqGOBMgoWUdasTr",
+    "name": "station 11",
+    "position": 11,
     "dishes": [
-      "recUsxdqH1M9OSBxl",
-      "recJOw6wKhb3P1IU2",
-      "recr91rnwAyrLt6sd"
-    ]
+      "reciMBaeHtNYHOvGe",
+      "recRgOPiGduYPxxSY",
+      "recTRQU0RWUoBoefv",
+      "recVLXFxGB4fr20YB",
+      "recSBYvyz2rWckymU",
+      "recq6TNVUmW0YRNgz",
+      "recY07JAGxNXp8plS",
+      "recBKu7oKOWG1uhEz",
+      "recXBX9092hUpxOVo"
+    ],
+    "description": "All coffee drinks are available decaffeinated"
   },
   {
     "id": "recttIyGZItIwyPTM",
     "name": "Taco",
     "position": 11,
-    "dishes": [
-      "recP0yWwes9WrTVIs"
-    ]
+    "dishes": ["recP0yWwes9WrTVIs"]
   },
-  {
-    "id": "recmqDtfG1vvjBoPo",
-    "name": "WEEKEND Specials",
-    "position": 11,
-    "dishes": [
-      "recGrCEqcOGqlsV8U",
-      "recvomWaeLp7A5KZj",
-      "recqbhsIpkuwWK8Ff"
-    ],
-    "description": "Saturday and Sunday only"
-  },
-  {
-    "id": "recBoXPzX6TwCnY6z",
-    "name": "ויסקי",
-    "position": 11
-  },
+  { "id": "recBoXPzX6TwCnY6z", "name": "ויסקי", "position": 11 },
   {
     "id": "recmQQv4z8lgCUxdJ",
     "name": "יין מקומי - לבן",
@@ -1164,10 +1024,7 @@
     "id": "recPSakMllJ38Tdy1",
     "name": "קינוחים",
     "position": 11,
-    "dishes": [
-      "recLIQlOfIsh1pPNs",
-      "rechxc7vZlndDRirH"
-    ]
+    "dishes": ["recLIQlOfIsh1pPNs", "rechxc7vZlndDRirH"]
   },
   {
     "id": "rect4Kiwvisc94AWM",
@@ -1175,44 +1032,15 @@
     "position": 12,
     "description": "1+1 על כל הבירות מהחבית עד השעה 20:00"
   },
-  {
-    "id": "recQSWJ6qGJUSZ3kK",
-    "name": "בירות",
-    "position": 12
-  },
+  { "id": "recQSWJ6qGJUSZ3kK", "name": "בירות", "position": 12 },
   {
     "id": "recbmDMfuCXDohClb",
     "name": "יין מקומי - רוזה",
     "position": 12,
-    "dishes": [
-      "rech46lwGjPkmXlvj",
-      "rechOfhegHxwXYWyo",
-      "rec23UYYuQ3tB71tf"
-    ],
+    "dishes": ["rech46lwGjPkmXlvj", "rechOfhegHxwXYWyo", "rec23UYYuQ3tB71tf"],
     "description": "אנחנו מאמינים שאוכל ישראלי טוב הולך עם יין ישראלי טוב\n"
   },
-  {
-    "id": "recqGOBMgoWUdasTr",
-    "name": "HOT DRINKS\n",
-    "position": 13,
-    "dishes": [
-      "reciMBaeHtNYHOvGe",
-      "recRgOPiGduYPxxSY",
-      "recTRQU0RWUoBoefv",
-      "recVLXFxGB4fr20YB",
-      "recSBYvyz2rWckymU",
-      "recq6TNVUmW0YRNgz",
-      "recY07JAGxNXp8plS",
-      "recBKu7oKOWG1uhEz",
-      "recXBX9092hUpxOVo"
-    ],
-    "description": "All coffee drinks are available decaffeinated"
-  },
-  {
-    "id": "recDjduFG46dxH9mF",
-    "name": "אפרטיף \\ דיז'סטיף",
-    "position": 13
-  },
+  { "id": "recDjduFG46dxH9mF", "name": "אפרטיף \\ דיז'סטיף", "position": 13 },
   {
     "id": "recDlbG1Sv8UZme5n",
     "name": "יין מקומי - אדום",
@@ -1231,27 +1059,10 @@
     "description": "אנחנו מאמינים שאוכל ישראלי טוב הולך עם יין ישראלי טוב\n"
   },
   {
-    "id": "recOsuX64dp6jHNS5",
-    "name": "COLD DRINKS\n",
-    "position": 14,
-    "dishes": [
-      "rec0URmClXPswyoR3",
-      "recINyobakDhMwXnM",
-      "rec7bclEhyVx67XrT",
-      "recW5n5ke3jTKXS0n",
-      "recCvvkDNovtOyPZN",
-      "recu5GLuPf74oLd2w"
-    ]
-  },
-  {
     "id": "recHm73TsuaH8hODh",
     "name": "בירות מקומיות ",
     "position": 14,
-    "dishes": [
-      "recz0TipMZSgEKzq7",
-      "recV3nC4NN0MMxObD",
-      "recUxfwxYrje7G9cs"
-    ]
+    "dishes": ["recz0TipMZSgEKzq7", "recV3nC4NN0MMxObD", "recUxfwxYrje7G9cs"]
   },
   {
     "id": "recVgG1UaXKHcWTto",
@@ -1286,19 +1097,13 @@
     "id": "recD4JdjxF1KxiYJ7",
     "name": "חריפים - ג'ין",
     "position": 16,
-    "dishes": [
-      "recMJj3T9herZ33SC",
-      "recBYML6HKt6GWr7M"
-    ]
+    "dishes": ["recMJj3T9herZ33SC", "recBYML6HKt6GWr7M"]
   },
   {
     "id": "recxaCcumXPUkWw9g",
     "name": "חריפים - טקילה",
     "position": 17,
-    "dishes": [
-      "recRY06JiNkx12tbw",
-      "recBmOj27kseBxbhS"
-    ]
+    "dishes": ["recRY06JiNkx12tbw", "recBmOj27kseBxbhS"]
   },
   {
     "id": "rec4zYf6NrdzNhjt1",
@@ -1317,11 +1122,7 @@
       "recLBeY1RPdhg5hRj"
     ]
   },
-  {
-    "id": "recRo9VXPFhzJCSF9",
-    "name": "רום",
-    "position": 18
-  },
+  { "id": "recRo9VXPFhzJCSF9", "name": "רום", "position": 18 },
   {
     "id": "recW8hi9SdkVIwJ3P",
     "name": "וייסקי",
@@ -1345,20 +1146,13 @@
     "id": "recMzHts4sQTobYhO",
     "name": "ערבובים",
     "position": 20,
-    "dishes": [
-      "recrdaAAtrpmfbUxi",
-      "rec1N7zDWGy8YVO4E",
-      "recZN8RnNjK3C2LCI"
-    ]
+    "dishes": ["recrdaAAtrpmfbUxi", "rec1N7zDWGy8YVO4E", "recZN8RnNjK3C2LCI"]
   },
   {
     "id": "recL78dLe4QCsDoNR",
     "name": "דג'סטיף",
     "position": 21,
-    "dishes": [
-      "recezR3oQP3xJnM3w",
-      "recoWzhs4qXxWi5Qq"
-    ]
+    "dishes": ["recezR3oQP3xJnM3w", "recoWzhs4qXxWi5Qq"]
   },
   {
     "id": "recIW8vp7m3CLdHtK",
