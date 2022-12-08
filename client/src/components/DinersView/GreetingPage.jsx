@@ -14,9 +14,9 @@ import {
 import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 
 import { defaultFilters, doesUserHaveFilters } from 'utils/filters'
-import { useKitchenById } from 'hooks/kitchens'
 import Login from 'components/Login'
 import { useDinerUser } from 'contexts/diner'
+import Header from './Header'
 
 function GreetingPage() {
   const theme = useTheme()
@@ -24,8 +24,6 @@ function GreetingPage() {
   const { kitchenId, menuId } = useParams()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
   const dinerUser = useDinerUser()
-
-  const { kitchen } = useKitchenById(kitchenId)
 
   const [isLoginOpen, setIsLoginOpen] = React.useState(false)
 
@@ -53,6 +51,8 @@ function GreetingPage() {
 
   return (
     <>
+      <Header />
+
       <Box
         sx={{
           display: 'flex',
@@ -61,14 +61,6 @@ function GreetingPage() {
         }}
       >
         <Box sx={{ margin: 'auto', marginTop: theme.spacing(3) }}>
-          <Box sx={{ width: 100, margin: 'auto', marginTop: '40px' }}>
-            <img
-              className="w-full h-full object-center object-fit group-hover:opacity-75"
-              src={kitchen?.image?.[0]?.url}
-              alt=""
-            />
-          </Box>
-
           <Box
             sx={{
               position: 'relative',
@@ -119,7 +111,7 @@ function GreetingPage() {
                 {t('that_are_relevant_to_you')}
               </Typography>
 
-              <Typography
+              <Box
                 variant="body2"
                 sx={{
                   display: 'flex',
@@ -144,7 +136,7 @@ function GreetingPage() {
                     {t('tofull_menu')}
                   </Typography>
                 </Link>
-              </Typography>
+              </Box>
             </Box>
           </Box>
           <Box

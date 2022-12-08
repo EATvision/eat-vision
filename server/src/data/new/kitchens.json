@@ -44,29 +44,29 @@
   },
   {
     "id": "recipajs7uV1pWw1h",
-    "name": "12 Chairs Cafe ",
+    "name": "breakfast",
     "image": [
       {
-        "id": "attxJHnpG6H0gpkmS",
-        "width": 220,
-        "height": 220,
-        "url": "https://dl.airtable.com/.attachments/ebde65d8c1e509dc1b39802a4d218230/bb8c6aaa/logo_220X220.jpg",
-        "filename": "logo_220X220.jpg",
-        "size": 13547,
-        "type": "image/jpeg",
+        "id": "attH8cKw9OZWWZz59",
+        "width": 840,
+        "height": 367,
+        "url": "https://dl.airtable.com/.attachments/6cb8090ec1c501768146ea8080d98edd/8780cfbd/70-702674_fattal-hotels---.png",
+        "filename": "70-702674_fattal-hotels-רשת-מלונות-פתאל.png",
+        "size": 108571,
+        "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/684f70527cb537e7196dd3ee8c222a88/abc38e78",
-            "width": 36,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/8d69ad76855ea63eac85655ef842e5a5/5646148f",
+            "width": 82,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/35b5f4f00eb0f0236145e9b38cb84ef2/1e1af05d",
-            "width": 220,
-            "height": 220
+            "url": "https://dl.airtable.com/.attachmentThumbnails/21eb7c3858ac0909d38963d9cb718a9d/661c3963",
+            "width": 840,
+            "height": 367
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/ca8f4d5d941322bb8d3c35768b23893d/5a6612cb",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/702d06fffbf92b129a16461a7e742920/f3511245",
             "width": 3000,
             "height": 3000
           }
@@ -87,7 +87,7 @@
       "reclLWEiXq2Kkmwlx"
     ],
     "menus": [
-      "rech9gf7rUFNDEoMD"
+      "recyO7hcKchjbzIJ1"
     ],
     "currency": "$",
     "locale": "en-US"
@@ -97,26 +97,26 @@
     "name": "האחים",
     "image": [
       {
-        "id": "attJMS2RZwA5K3tBP",
-        "width": 297,
-        "height": 103,
-        "url": "https://dl.airtable.com/.attachments/2c71a16dcd5a4fde76046c990a64b290/50d7b6cd/logo.jpg",
-        "filename": "logo.jpg",
-        "size": 4806,
-        "type": "image/jpeg",
+        "id": "attaRx7SkppSJGEPo",
+        "width": 225,
+        "height": 225,
+        "url": "https://dl.airtable.com/.attachments/f04afc91ee5e8157db6e908d36a02770/5f2d4a7c/logo.png",
+        "filename": "logo.png",
+        "size": 1231,
+        "type": "image/png",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/547e92710d6c675958ff099807764e99/91a19fbb",
-            "width": 104,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a9c050c798b31a9eba3c6e130f3fc747/d7ec0e8b",
+            "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/66c6817fb90db6a62e663e078952d2aa/c4fad2f8",
-            "width": 297,
-            "height": 103
+            "url": "https://dl.airtable.com/.attachmentThumbnails/950c9927be0133a15bc77175e03746b5/c01e27a4",
+            "width": 225,
+            "height": 225
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/a9bfa2becfaec9cb4f9c86c765761a98/61738784",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ddd92609dde53a75c55843352ba7cbdf/aeaab5d3",
             "width": 3000,
             "height": 3000
           }
@@ -227,6 +227,51 @@
     "menus": [
       "recE7KpeDFYeEp7Ka",
       "recNuJVSBD6eGMqXH"
+    ],
+    "currency": "₪",
+    "locale": "he-IL"
+  },
+  {
+    "id": "recLz9mL6RCu3NIrK",
+    "name": "Fattal",
+    "image": [
+      {
+        "id": "attIp61jgd6R1jSMc",
+        "width": 220,
+        "height": 120,
+        "url": "https://dl.airtable.com/.attachments/6118268d26ea3b0bfdac7bb5c5dd6323/872015e0/logo.png",
+        "filename": "logo.png",
+        "size": 26676,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ada5f2e6805e6956a2821e07bbc415cc/974418bd",
+            "width": 66,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0aaf195aaeebf322138c4afdb65d59ee/fe7612a9",
+            "width": 220,
+            "height": 120
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/978c3a276755e04f79e8b1b67b79615d/7ed03f1a",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "website": "https://www.fattal.co.il/",
+    "intentions": [
+      "Dine-in"
+    ],
+    "workingHours": [
+      "rec3OkNeMfar0Sc2u"
+    ],
+    "menus": [
+      "recLlYO0QzHNhc0r1",
+      "recwKgdI7MsvRFBQJ"
     ],
     "currency": "₪",
     "locale": "he-IL"

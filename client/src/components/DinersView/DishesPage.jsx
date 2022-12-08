@@ -8,6 +8,7 @@ import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 import FoodDish from './DishCard/FoodDish'
 import Footer from './Footer'
 import DealBtn from './DealBtn'
+import Header from './Header'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()
@@ -43,21 +44,33 @@ function DishesPage({ dishes }) {
       categories
         ? dishes.filtered.reduce((result, d) => {
           if (!showFilteredOutDishes && d.isMainDishFilteredOut) return result
-          const categoryId = d?.categories?.[0] || 'no_category'
-          return {
-            ...result,
-            [categoryId]: [...(result[categoryId] || []), d],
+          let updatedResult = { ...result }
+          d?.categories?.forEach((cId) => {
+            updatedResult = {
+              ...updatedResult,
+              [cId]: [...(updatedResult[cId] || []), d],
+            }
+          })
+
+          if (!d?.categories?.[0]) {
+            updatedResult = {
+              ...updatedResult,
+              ['no_category']: [...(updatedResult['no_category'] || []), d],
+            }
           }
+          return updatedResult
         }, defaultCategories)
         : {},
     [categories, dishes.filtered, defaultCategories, showFilteredOutDishes]
   )
 
-  if (isLoading) return <div>LOADING</div>
+  if (isLoading) return <div>{t('loading')}</div>
 
   return (
     <>
-      <Box sx={{ overflow: 'auto' }}>
+      <Header />
+
+      <Box sx={{ overflow: 'auto', paddingBottom: '100px' }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
           .map((category) => (

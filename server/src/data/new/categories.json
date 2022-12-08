@@ -88,6 +88,37 @@
     ]
   },
   {
+    "id": "recbFw1ys85l8Oafh",
+    "name": "HOT DISHES",
+    "dishes": [
+      "recEsUjOY0mV1U0aY",
+      "rec9Sha9IoXTkw9g7",
+      "recA7RSpL5wYmnm5L",
+      "recok5MzSazmIWXXH",
+      "reccWevVF3uVoNoG5",
+      "recsTEsyUw3JRjZ72",
+      "rec8zTCX0UmDkc22x",
+      "rechkG7Ygk1UC2eei",
+      "rec5j7aGHeKqnHKpG",
+      "recmq69vlef7BXO53",
+      "rec5j8Uzob01xE7gk",
+      "recOigShDX9er9Cwu",
+      "recWeaK7lmPpgz4Yy",
+      "rec4Kr8Wp9uHdZeat"
+    ]
+  },
+  {
+    "id": "recpUPPCOf4FFjXlM",
+    "name": "SIDES",
+    "dishes": [
+      "rec7VhLRGkpK0bsir",
+      "recsqkCAtqRsjG8Dj",
+      "recxTG8xlfLQtYwE2",
+      "recUNFcnDdkIuoJ92",
+      "recNELtB71PMNKiQz"
+    ]
+  },
+  {
     "id": "recYmUBLHQCYJDRgL",
     "name": "דוכן\n  המזרח הרחוק"
   },
@@ -125,6 +156,19 @@
     ]
   },
   {
+    "id": "rech0wuHHfAJ4EpjX",
+    "name": "SANDWICHES",
+    "dishes": [
+      "recoSKdLePJ5tm2ap",
+      "recGcF1irueg97nTy",
+      "recOV30kgh3q82AvN",
+      "recu386ANJdibd0of",
+      "recVTirjQZbmPQM5x",
+      "recZvfQ7zRE5mcbFs"
+    ],
+    "description": "All sandwiches are served with Israeli salad on the side. it can be substituted with mixed greens/ home fries/ sweet potato fries/ mashed potato or potato wedges"
+  },
+  {
     "id": "rectJzx1T08Bsfna2",
     "name": "APPETIZERS",
     "position": 1,
@@ -140,22 +184,6 @@
       "recLYBudLALe6p9du",
       "rec0ncU3KyBJIFVkY"
     ]
-  },
-  {
-    "id": "reclT14FtHvh32jWC",
-    "name": "Breakfast ",
-    "position": 1,
-    "dishes": [
-      "recjK4s18mXnxOT1A",
-      "recrwDiO6vU33Ty6H",
-      "recqX0rsk1aUg9pDH",
-      "recSy4yxXPfKwF4Rc",
-      "reczheDNpyiK2t4g9",
-      "rec0vVZyy3H7q4em5",
-      "reczzSojG4ygwQDh1",
-      "recjqhcWNlL7ixifo"
-    ],
-    "description": "Breakfast is served all day "
   },
   {
     "id": "recYzvx9xQMS3cHU9",
@@ -202,6 +230,22 @@
     ]
   },
   {
+    "id": "reclT14FtHvh32jWC",
+    "name": "station 1",
+    "position": 1,
+    "dishes": [
+      "recjK4s18mXnxOT1A",
+      "recrwDiO6vU33Ty6H",
+      "recqX0rsk1aUg9pDH",
+      "recSy4yxXPfKwF4Rc",
+      "reczheDNpyiK2t4g9",
+      "rec0vVZyy3H7q4em5",
+      "reczzSojG4ygwQDh1",
+      "recjqhcWNlL7ixifo"
+    ],
+    "description": "Breakfast is served all day "
+  },
+  {
     "id": "rec5M7nQCV67N4wLz",
     "name": "למרכז שולחן",
     "position": 1,
@@ -210,6 +254,11 @@
   {
     "id": "recIiq6ZHol2WD138",
     "name": "מנות פתיחה",
+    "position": 1
+  },
+  {
+    "id": "recnWblELRZGuP2Ug",
+    "name": "משהו לאכול",
     "position": 1
   },
   {
@@ -326,15 +375,18 @@
     ]
   },
   {
-    "id": "recZWYhdnctZOQI36",
-    "name": "SWEET MORNING",
+    "id": "recjU7rW5EwrcSCBe",
+    "name": "station 2",
     "position": 2,
     "dishes": [
-      "recM18E6SzE3RScpd",
-      "rec3lhl9DiMznT7Ku",
-      "recTHHSoIZsHXg10g",
-      "rec2clqjXTXPVGCgn"
-    ]
+      "recOnYAu0qbpVq0Nx",
+      "rechaLTNraSqX25xc",
+      "recqzvU6urmlzrgbX",
+      "rec0QjAif9yCZwgpv",
+      "recvXYp22XmwLO63C",
+      "recnmrNYnbWXYUA0J"
+    ],
+    "description": "Choose any 4 for $25. Served with warm pita bread."
   },
   {
     "id": "rec5UBFLohYRSiMky",
@@ -346,6 +398,11 @@
       "recMJiSLCcCoL019a",
       "recKGk17CVrpAzU1t"
     ]
+  },
+  {
+    "id": "recCgejc8KK6i0TQQ",
+    "name": "משקאות",
+    "position": 2
   },
   {
     "id": "recxOLISKY73v0uUD",
@@ -426,6 +483,19 @@
     "position": 3,
     "dishes": [
       "recyB0xQeBegbDM1I"
+    ]
+  },
+  {
+    "id": "rectklIbQzx7V9nnP",
+    "name": "station 3",
+    "position": 3,
+    "dishes": [
+      "recrIMpGqgcafZ4H6",
+      "recD8f1dX4F97ADgY",
+      "rec7YlK9EZQ8uVv5A",
+      "recDGAAEiibEb2cQh",
+      "recpdTxDTos0FurO8",
+      "recmtkKFJasnbV3cm"
     ]
   },
   {
@@ -541,18 +611,12 @@
     ]
   },
   {
-    "id": "recjU7rW5EwrcSCBe",
-    "name": "SMALL PLATES",
+    "id": "recpku4APvg1idRaY",
+    "name": "station 4",
     "position": 4,
     "dishes": [
-      "recOnYAu0qbpVq0Nx",
-      "rechaLTNraSqX25xc",
-      "recqzvU6urmlzrgbX",
-      "rec0QjAif9yCZwgpv",
-      "recvXYp22XmwLO63C",
-      "recnmrNYnbWXYUA0J"
-    ],
-    "description": "Choose any 4 for $25. Served with warm pita bread."
+      "receplTGHi0vT5uSl"
+    ]
   },
   {
     "id": "recHkB0jXsbrxDMjm",
@@ -586,19 +650,6 @@
     "id": "recWz1oglIgIu3x61",
     "name": "שתיה",
     "position": 4
-  },
-  {
-    "id": "rectklIbQzx7V9nnP",
-    "name": "IN THE MIDDLE",
-    "position": 5,
-    "dishes": [
-      "recrIMpGqgcafZ4H6",
-      "recD8f1dX4F97ADgY",
-      "rec7YlK9EZQ8uVv5A",
-      "recDGAAEiibEb2cQh",
-      "recpdTxDTos0FurO8",
-      "recmtkKFJasnbV3cm"
-    ]
   },
   {
     "id": "recKRuIzp9K7qltVq",
@@ -665,6 +716,20 @@
     ]
   },
   {
+    "id": "recqGerbTr69t5TIU",
+    "name": "station 5",
+    "position": 5,
+    "dishes": [
+      "rec47OiDjmE5zvWBE",
+      "recorjbNHsijMi6X7",
+      "recTe63MF1OWSD5cF",
+      "recGEheT63TRFwjL2",
+      "recMGcEtTlp8fMIux",
+      "recyXjEJX5zRoFtoW"
+    ],
+    "description": "You can add protein to all salads -  chicken/ smoked tuna/ schnitzel/ smoked salmon/ falafel.\n"
+  },
+  {
     "id": "rechhKwbUGUu00KGE",
     "name": "גריל פחמים - עוף",
     "position": 5,
@@ -701,20 +766,23 @@
     "position": 5
   },
   {
-    "id": "recpku4APvg1idRaY",
-    "name": "HUMMUS",
-    "position": 6,
-    "dishes": [
-      "receplTGHi0vT5uSl"
-    ]
-  },
-  {
     "id": "recqzC3R28b5TBPP9",
     "name": "Pastas",
     "position": 6,
     "dishes": [
       "recdVtPT0W2doar1w"
     ]
+  },
+  {
+    "id": "recmqDtfG1vvjBoPo",
+    "name": "station 6",
+    "position": 6,
+    "dishes": [
+      "recGrCEqcOGqlsV8U",
+      "recvomWaeLp7A5KZj",
+      "recqbhsIpkuwWK8Ff"
+    ],
+    "description": "Saturday and Sunday only"
   },
   {
     "id": "recMLMHJDmLet3aHc",
@@ -759,27 +827,6 @@
     "position": 6
   },
   {
-    "id": "recbFw1ys85l8Oafh",
-    "name": "HOT DISHES",
-    "position": 7,
-    "dishes": [
-      "recEsUjOY0mV1U0aY",
-      "rec9Sha9IoXTkw9g7",
-      "recA7RSpL5wYmnm5L",
-      "recok5MzSazmIWXXH",
-      "reccWevVF3uVoNoG5",
-      "recsTEsyUw3JRjZ72",
-      "rec8zTCX0UmDkc22x",
-      "rechkG7Ygk1UC2eei",
-      "rec5j7aGHeKqnHKpG",
-      "recmq69vlef7BXO53",
-      "rec5j8Uzob01xE7gk",
-      "recOigShDX9er9Cwu",
-      "recWeaK7lmPpgz4Yy",
-      "rec4Kr8Wp9uHdZeat"
-    ]
-  },
-  {
     "id": "recyYneU1VxnDniko",
     "name": "Main",
     "position": 7,
@@ -793,15 +840,14 @@
     ]
   },
   {
-    "id": "recpUPPCOf4FFjXlM",
-    "name": "SIDES",
+    "id": "recZWYhdnctZOQI36",
+    "name": "station 7",
     "position": 7,
     "dishes": [
-      "rec7VhLRGkpK0bsir",
-      "recsqkCAtqRsjG8Dj",
-      "recxTG8xlfLQtYwE2",
-      "recUNFcnDdkIuoJ92",
-      "recNELtB71PMNKiQz"
+      "recM18E6SzE3RScpd",
+      "rec3lhl9DiMznT7Ku",
+      "recTHHSoIZsHXg10g",
+      "rec2clqjXTXPVGCgn"
     ]
   },
   {
@@ -873,18 +919,16 @@
     ]
   },
   {
-    "id": "recqGerbTr69t5TIU",
-    "name": "SALADS",
+    "id": "recCbbPwQDG5F33T0",
+    "name": "station 8",
     "position": 8,
     "dishes": [
-      "rec47OiDjmE5zvWBE",
-      "recorjbNHsijMi6X7",
-      "recTe63MF1OWSD5cF",
-      "recGEheT63TRFwjL2",
-      "recMGcEtTlp8fMIux",
-      "recyXjEJX5zRoFtoW"
-    ],
-    "description": "You can add protein to all salads -  chicken/ smoked tuna/ schnitzel/ smoked salmon/ falafel.\n"
+      "recBpw8qqWflupg8y",
+      "recv7hu1IA7HnUS4k",
+      "recopeWrKvCHPGbKC",
+      "recpaTpld67wJg7QU",
+      "rec8bV1hFIieqrEXs"
+    ]
   },
   {
     "id": "recxh2MkmEPyJC1ag",
@@ -945,15 +989,6 @@
     ]
   },
   {
-    "id": "recRM3vqx1Ndm4Y1t",
-    "name": "BREAKFAST BEVERAGES",
-    "position": 9,
-    "dishes": [
-      "recWxc7HeW1J8ogtU",
-      "reclqARSUeHaccA4g"
-    ]
-  },
-  {
     "id": "recQsssaHi5Zixx2E",
     "name": "Brunch",
     "position": 9,
@@ -964,18 +999,13 @@
     ]
   },
   {
-    "id": "rech0wuHHfAJ4EpjX",
-    "name": "SANDWICHES",
+    "id": "recRM3vqx1Ndm4Y1t",
+    "name": "station 9",
     "position": 9,
     "dishes": [
-      "recoSKdLePJ5tm2ap",
-      "recGcF1irueg97nTy",
-      "recOV30kgh3q82AvN",
-      "recu386ANJdibd0of",
-      "recVTirjQZbmPQM5x",
-      "recZvfQ7zRE5mcbFs"
-    ],
-    "description": "All sandwiches are served with Israeli salad on the side. it can be substituted with mixed greens/ home fries/ sweet potato fries/ mashed potato or potato wedges"
+      "recWxc7HeW1J8ogtU",
+      "reclqARSUeHaccA4g"
+    ]
   },
   {
     "id": "recyUMYfuotNtAuxB",
@@ -1044,15 +1074,16 @@
     ]
   },
   {
-    "id": "recCbbPwQDG5F33T0",
-    "name": "SWEETS",
+    "id": "recOsuX64dp6jHNS5",
+    "name": "station 10",
     "position": 10,
     "dishes": [
-      "recBpw8qqWflupg8y",
-      "recv7hu1IA7HnUS4k",
-      "recopeWrKvCHPGbKC",
-      "recpaTpld67wJg7QU",
-      "rec8bV1hFIieqrEXs"
+      "rec0URmClXPswyoR3",
+      "recINyobakDhMwXnM",
+      "rec7bclEhyVx67XrT",
+      "recW5n5ke3jTKXS0n",
+      "recCvvkDNovtOyPZN",
+      "recu5GLuPf74oLd2w"
     ]
   },
   {
@@ -1110,23 +1141,29 @@
     ]
   },
   {
+    "id": "recqGOBMgoWUdasTr",
+    "name": "station 11",
+    "position": 11,
+    "dishes": [
+      "reciMBaeHtNYHOvGe",
+      "recRgOPiGduYPxxSY",
+      "recTRQU0RWUoBoefv",
+      "recVLXFxGB4fr20YB",
+      "recSBYvyz2rWckymU",
+      "recq6TNVUmW0YRNgz",
+      "recY07JAGxNXp8plS",
+      "recBKu7oKOWG1uhEz",
+      "recXBX9092hUpxOVo"
+    ],
+    "description": "All coffee drinks are available decaffeinated"
+  },
+  {
     "id": "recttIyGZItIwyPTM",
     "name": "Taco",
     "position": 11,
     "dishes": [
       "recP0yWwes9WrTVIs"
     ]
-  },
-  {
-    "id": "recmqDtfG1vvjBoPo",
-    "name": "WEEKEND Specials",
-    "position": 11,
-    "dishes": [
-      "recGrCEqcOGqlsV8U",
-      "recvomWaeLp7A5KZj",
-      "recqbhsIpkuwWK8Ff"
-    ],
-    "description": "Saturday and Sunday only"
   },
   {
     "id": "recBoXPzX6TwCnY6z",
@@ -1182,23 +1219,6 @@
     "description": "אנחנו מאמינים שאוכל ישראלי טוב הולך עם יין ישראלי טוב\n"
   },
   {
-    "id": "recqGOBMgoWUdasTr",
-    "name": "HOT DRINKS\n",
-    "position": 13,
-    "dishes": [
-      "reciMBaeHtNYHOvGe",
-      "recRgOPiGduYPxxSY",
-      "recTRQU0RWUoBoefv",
-      "recVLXFxGB4fr20YB",
-      "recSBYvyz2rWckymU",
-      "recq6TNVUmW0YRNgz",
-      "recY07JAGxNXp8plS",
-      "recBKu7oKOWG1uhEz",
-      "recXBX9092hUpxOVo"
-    ],
-    "description": "All coffee drinks are available decaffeinated"
-  },
-  {
     "id": "recDjduFG46dxH9mF",
     "name": "אפרטיף \\ דיז'סטיף",
     "position": 13
@@ -1221,19 +1241,6 @@
     "description": "אנחנו מאמינים שאוכל ישראלי טוב הולך עם יין ישראלי טוב\n"
   },
   {
-    "id": "recOsuX64dp6jHNS5",
-    "name": "COLD DRINKS\n",
-    "position": 14,
-    "dishes": [
-      "rec0URmClXPswyoR3",
-      "recINyobakDhMwXnM",
-      "rec7bclEhyVx67XrT",
-      "recW5n5ke3jTKXS0n",
-      "recCvvkDNovtOyPZN",
-      "recu5GLuPf74oLd2w"
-    ]
-  },
-  {
     "id": "recHm73TsuaH8hODh",
     "name": "בירות מקומיות ",
     "position": 14,
@@ -1247,13 +1254,13 @@
     "id": "recVgG1UaXKHcWTto",
     "name": "ג'ין",
     "position": 14,
-    "description": "\"דיל צייסרים 4 ב:\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית\""
+    "description": "דיל צייסרים 4 ב:\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית"
   },
   {
     "id": "recVkBdWfZy8JqP3C",
     "name": "וודקה",
     "position": 15,
-    "description": "\"דיל צייסרים 4 ב:\nדיל 55 – ערק אשקלון, וואלק ערק, אבסולוט, פידג'\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית\""
+    "description": "דיל צייסרים 4 ב:\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית"
   },
   {
     "id": "reciPBo3MtrS0zOfK",
@@ -1270,7 +1277,7 @@
     "id": "reckyoyehbSI7TMhZ",
     "name": "אניס",
     "position": 16,
-    "description": "\"דיל צייסרים 4 ב:\nדיל 55 – ערק אשקלון, וואלק ערק, אבסולוט, פידג'\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית\""
+    "description": "דיל צייסרים 4 ב:\nדיל 55 – ערק אשקלון, וואלק ערק, אבסולוט, פידג'\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית"
   },
   {
     "id": "recD4JdjxF1KxiYJ7",
@@ -1332,11 +1339,6 @@
     "description": "דיל צייסרים 4 ב:\nדיל 55 – ערק אשקלון, וואלק ערק, אבסולוט, פידג'\nדיל 76 – אולמקה, ג'יימסון, וואן גוך בטעמים, בלוגה, ביפיאטר, טובי 60 , קמפרי, ערק עלית"
   },
   {
-    "id": "recrAf64Sr3tbU8Ft",
-    "name": "דיל צ'יסריים",
-    "position": 20
-  },
-  {
     "id": "recMzHts4sQTobYhO",
     "name": "ערבובים",
     "position": 20,
@@ -1366,5 +1368,9 @@
       "recsadyTuZO5HA3Ww",
       "recFIyQO6yqg7f8Tf"
     ]
+  },
+  {
+    "id": "recUxPfV3HD18vBio",
+    "name": "Main"
   }
 ]

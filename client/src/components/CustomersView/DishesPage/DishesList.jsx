@@ -5,12 +5,13 @@ import { styled, List, ListItem, Box } from '@mui/material'
 
 import { useKitchen } from 'contexts/kitchen'
 import { useDishesByKitchenId } from 'hooks/dishes'
+import { t } from 'i18next'
 
 function DishesList() {
   const { kitchenId } = useKitchen()
   const { dishes, isLoading } = useDishesByKitchenId(kitchenId)
 
-  if (isLoading) return <div>LOADING</div>
+  if (isLoading) return <div>{t('loading')}</div>
 
   return (
     <Box py={2}>

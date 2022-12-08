@@ -1152,18 +1152,24 @@
   },
   {
     "id": "recHFAtr2WZkQ98Im",
+    "name": "dry wines",
+    "translation_heb": "יינות יבשים",
     "parentGroups": [
       "recfqsjPJYOLjkUvT"
     ]
   },
   {
     "id": "rec17syXperdobDf8",
+    "name": "semi dry wines",
+    "translation_heb": "יינות חצי יבשים",
     "parentGroups": [
       "recfqsjPJYOLjkUvT"
     ]
   },
   {
     "id": "recq5k3ySOqOC5oui",
+    "name": "rose wines",
+    "translation_heb": "יינות רוזה",
     "parentGroups": [
       "recfqsjPJYOLjkUvT"
     ]
@@ -1178,37 +1184,48 @@
   },
   {
     "id": "recDawO8L5QbLNa8h",
-    "name": "Single malt whisky",
+    "name": "Single malt",
+    "translation_heb": "סינגל מאלט",
     "parentGroups": [
       "recIS31LLynTCDKyp"
     ]
   },
   {
     "id": "reczQovi5wQJZkFSs",
+    "name": "semi sweet wines",
+    "translation_heb": "יינות חצי מתוקים",
     "parentGroups": [
       "recfqsjPJYOLjkUvT"
     ]
   },
   {
     "id": "recF5IDsUG8oUgKyE",
+    "name": "sweet wines",
+    "translation_heb": "יינות מתוקים",
     "parentGroups": [
       "recfqsjPJYOLjkUvT"
     ]
   },
   {
     "id": "recHuy7gZNEvA3RKZ",
+    "name": "Vermouths",
+    "translation_heb": "ורמוט",
     "parentGroups": [
       "recAvCd37VjynjiAV"
     ]
   },
   {
     "id": "recyFHxNKx10XMK6M",
+    "name": "Apéritif and digestif",
+    "translation_heb": "אפרטיף ודג'זיטיף",
     "parentGroups": [
       "recAvCd37VjynjiAV"
     ]
   },
   {
     "id": "recQkc9oCqz4PzdnQ",
+    "name": "siders",
+    "translation_heb": "סיידרים",
     "parentGroups": [
       "recJ0Kp5PBpH5pAeR"
     ]
@@ -1224,24 +1241,45 @@
   },
   {
     "id": "recNgHoP7RU6nyN8S",
+    "name": "cava wines",
+    "translation_heb": "קאוות",
     "parentGroups": [
       "recelzDwH6cna2uAC",
       "recfqsjPJYOLjkUvT"
     ]
   },
   {
-    "id": "rec5FGOyTzybyseEx"
+    "id": "rec5FGOyTzybyseEx",
+    "name": "Mineral water",
+    "translation_heb": "מים מינרלים"
   },
   {
     "id": "rec6sIEbuBWYos6Wk",
+    "name": "Syrups",
+    "translation_heb": "סירופים",
     "parentGroups": [
       "recA1DeocMW69g9QP"
     ]
   },
   {
     "id": "rechZhfFBvUUZrGER",
+    "name": "Ice creams",
+    "translation_heb": "גלידות",
     "parentGroups": [
       "reclrqMHo7sdRGeLH"
     ]
+  },
+  {
+    "id": "recWpB0Tn8iDQ0xbQ",
+    "name": "dry fruits",
+    "translation_heb": "פירות יבשים",
+    "parentGroups": [
+      "recmCzPUKuoYcsS42"
+    ]
+  },
+  {
+    "id": "reci45mNro5gmgwsK",
+    "name": "roasted",
+    "translation_heb": "קלוי"
   }
 ]

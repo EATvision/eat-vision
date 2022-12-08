@@ -2,6 +2,7 @@ import { fetchDinerByAuth, insertDiner, updateDiner } from 'api/diners'
 import axios from 'axios'
 import React from 'react'
 import { defaultFilters, doesUserHaveFilters } from 'utils/filters'
+import useLocalStorage from 'hooks/useLocalStorage'
 
 const dinerUserContext = React.createContext()
 
@@ -31,15 +32,28 @@ export const useDinerUser = () => {
 }
 
 function useProvideDinerUser() {
+  const [deafultToken, setDefaultToken] = useLocalStorage('token')
+
   const [user, setUser] = React.useState({ filters: defaultFilters })
-  const [token, setToken] = React.useState(null)
+  const [token, setToken] = React.useState(deafultToken)
+
+  React.useEffect(() => {
+    const setDefaultDinerUser = async () => {
+      setAuthToken(deafultToken)
+      const { data } = await fetchDinerByAuth()
+      setUser(data)
+    }
+    setDefaultDinerUser()
+  }, [deafultToken])
 
   const updateToken = async (token) => {
     if (token) {
       setToken(token)
       setAuthToken(token)
+      setDefaultToken(token)
     } else {
       setToken()
+      setDefaultToken()
     }
   }
 
@@ -72,7 +86,10 @@ function useProvideDinerUser() {
   }
 
   const setFilters = (filters) => {
-    setUser((currUser) => ({ ...currUser, filters }))
+    setUser((currUser) => {
+      const updatedUser = { ...currUser, filters }
+      return updatedUser
+    })
   }
 
   const saveDiner = async () => {

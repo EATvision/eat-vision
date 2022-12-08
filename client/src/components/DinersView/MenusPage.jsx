@@ -5,6 +5,7 @@ import { useParams, Navigate, useNavigate } from 'react-router-dom'
 
 import { getRelevantMenus } from 'utils/menus'
 import { useKitchenById, useKitchenMenusById } from 'hooks/kitchens'
+import Header from './Header'
 
 function MenusPage() {
   const theme = useTheme()
@@ -20,7 +21,7 @@ function MenusPage() {
   const handleClickBack = () => {
     navigate('/diners/kitchens')
   }
-  if (isLoading) return <div>LOADING</div>
+  if (isLoading) return <div>{t('loading')}</div>
   if (isError) return <div>ERROR</div>
 
   if (relevantMenus?.length === 1)
@@ -29,40 +30,44 @@ function MenusPage() {
   if (!relevantMenus.length) {
     return (
       <>
-        <Box sx={{ margin: theme.spacing(5) }}>
-          <Box
-            sx={{ width: 100, margin: 'auto', marginBottom: theme.spacing(2) }}
-          >
-            <img
-              className="w-full h-full object-center object-fit group-hover:opacity-75"
-              src={kitchen?.image?.[0]?.url}
-              alt=""
-            />
-          </Box>
-        </Box>
-
-        <Typography variant="h6">{t('no_menus_relevant_now')}</Typography>
-
-        <Typography variant="p">{t('menus_in_other_working_hours')}</Typography>
-
-        <MenusList menus={menus} />
-
+        <Header />
         <Box
           sx={{
+            maxWidth: 500,
+            display: 'flex',
+            flexDirection: 'column',
+            flex: 1,
+            margin: 'auto',
             padding: `0 ${theme.spacing(2)}`,
-            paddingBottom: theme.spacing(1),
-            margin: `${theme.spacing(1)} 0`,
-            marginTop: 'auto',
           }}
         >
-          <Button
-            variant={'test'}
-            color="primary"
-            fullWidth
-            onClick={handleClickBack}
+          <Typography variant="h6" sx={{ marginTop: theme.spacing(4) }}>
+            {t('no_menus_relevant_now')}
+          </Typography>
+
+          <Typography variant="p">
+            {t('menus_in_other_working_hours')}
+          </Typography>
+
+          <MenusList menus={menus} />
+
+          <Box
+            sx={{
+              padding: `0 ${theme.spacing(2)}`,
+              paddingBottom: theme.spacing(1),
+              margin: `${theme.spacing(1)} 0`,
+              marginTop: 'auto',
+            }}
           >
-            {t('back')}
-          </Button>
+            <Button
+              variant={'test'}
+              color="primary"
+              fullWidth
+              onClick={handleClickBack}
+            >
+              {t('back')}
+            </Button>
+          </Box>
         </Box>
       </>
     )

@@ -4,10 +4,12 @@ import {
   List,
   ListItem,
   Paper,
-  Popover,
+  Popper,
   Typography,
   Box,
   useTheme,
+  Badge,
+  ClickAwayListener,
 } from '@mui/material'
 import { t } from 'i18next'
 
@@ -29,36 +31,44 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
   }
 
   const open = Boolean(anchorEl)
-  const id = open ? 'simple-popover' : undefined
+  const id = open ? 'simple-popper' : undefined
 
   return (
-    <div>
-      <Button
-        aria-describedby={id}
-        variant="contained"
-        color="secondary"
-        size="small"
-        onClick={handleClick}
-        sx={{
-          fontSize: 12,
-          fontStyle: 'italic',
-          color: theme.palette.common.white,
-          borderRadius: 50,
-        }}
-        disabled={open}
-      >
-        {t('ask_for_changes')}
-      </Button>
-      <Popover
-        id={id}
-        open={open}
-        anchorEl={anchorEl}
-        onClose={handleClose}
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'left',
-        }}
-      >
+    <>
+      <ClickAwayListener onClickAway={handleClose}>
+        <Badge
+          color="error"
+          invisible={!dishExcludableComponentsFilteredOut}
+          badgeContent={dishExcludableComponentsFilteredOut?.length}
+          sx={{ width: '100%' }}
+          anchorOrigin={{
+            vertical: 'top',
+            horizontal: 'left',
+          }}
+        >
+          <Button
+            aria-describedby={id}
+            variant="contained"
+            color="secondary"
+            size="small"
+            fullWidth
+            onClick={handleClick}
+            sx={{
+              fontSize: 12,
+              fontStyle: 'italic',
+              color: theme.palette.common.white,
+              borderRadius: 50,
+              borderBottomRightRadius: 0,
+              borderTopRightRadius: 0,
+            }}
+            disabled={open}
+          >
+            {t('ask_for_changes')}
+          </Button>
+        </Badge>
+      </ClickAwayListener>
+
+      <Popper id={id} open={open} anchorEl={anchorEl} placement="bottom-start">
         {dishExcludableComponentsFilteredOut?.length > 0 && (
           <Paper
             elevation={0}
@@ -94,8 +104,8 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
             <img alt="waiter" src={waiterSrc} width={100} loading="lazy" />
           </Paper>
         )}
-      </Popover>
-    </div>
+      </Popper>
+    </>
   )
 }
 

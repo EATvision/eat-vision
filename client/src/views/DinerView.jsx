@@ -3,39 +3,40 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 
 import getTheme from '../theme'
-import Header from 'components/DinersView/Header'
 import RTL from 'components/RTL'
 import useIsRTL from 'hooks/useRTL'
 import { ProvideDinerUser } from 'contexts/diner'
+import { ProvideDinerOrder } from 'contexts/order'
 
 function DinerView() {
   const isRTL = useIsRTL()
 
   return (
     <ProvideDinerUser>
-      <ThemeProvider theme={getTheme(isRTL)}>
-        <Box
-          className="App"
-          sx={{
-            position: 'relative',
-            display: 'flex',
-            flexDirection: 'column',
-            height: '100vh',
-          }}
-        >
-          <Header />
+      <ProvideDinerOrder>
+        <ThemeProvider theme={getTheme(isRTL)}>
           <Box
+            className="App"
             sx={{
               position: 'relative',
               display: 'flex',
-              justifyContent: 'center',
-              flex: 1,
+              flexDirection: 'column',
+              height: '100vh',
             }}
           >
-            <Outlet />
+            <Box
+              sx={{
+                position: 'relative',
+                display: 'flex',
+                justifyContent: 'center',
+                flex: 1,
+              }}
+            >
+              <Outlet />
+            </Box>
           </Box>
-        </Box>
-      </ThemeProvider>
+        </ThemeProvider>
+      </ProvideDinerOrder>
     </ProvideDinerUser>
   )
 }

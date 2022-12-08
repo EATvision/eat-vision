@@ -1,16 +1,18 @@
 import {
   CircularProgress,
   Divider,
+  IconButton,
   List,
   ListItem,
   ListItemText,
   TextField,
+  Typography,
 } from '@mui/material'
 import { Box } from '@mui/system'
 import axios from 'axios'
 import { t } from 'i18next'
 import React from 'react'
-import { Check as CheckIcon } from '@mui/icons-material'
+import { Check as CheckIcon, Close as CloseIcon } from '@mui/icons-material'
 import { useDebounce } from 'use-debounce'
 
 import { useGetComponentLabel } from 'hooks/ingredients'
@@ -43,6 +45,10 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
 
   const handleChangeInputValue = (e) => {
     setInputValue(e.target.value)
+  }
+
+  const handleClearInputValue = () => {
+    setInputValue('')
   }
 
   React.useEffect(() => {
@@ -123,22 +129,43 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
           endAdornment: (
             <>
               {loading ? <CircularProgress color="inherit" size={20} /> : null}
+              {!loading && inputValue?.length > 0 && (
+                <IconButton sx={{ padding: 0 }} onClick={handleClearInputValue}>
+                  <CloseIcon size="small" />
+                </IconButton>
+              )}
             </>
           ),
         }}
       />
 
-      <List sx={{ flex: 1, overflow: 'auto', marginBottom: '50px' }}>
-        {options.map((option) => (
-          <OptionListItem
-            key={option.id}
-            data={option}
-            filters={filters}
-            setFilters={setFilters}
-            filterType={filterType}
-          />
-        ))}
-      </List>
+      {options.length === 0 ? (
+        <Typography
+          sx={{
+            fontSize: '2.5rem',
+            textAlign: 'center',
+            margin: 'auto',
+            flex: 1,
+            alignItems: 'center',
+            display: 'flex',
+            color: 'rgb(128 128 128 / 25%)',
+          }}
+        >
+          {t('empty_components_restriction_selector')}
+        </Typography>
+      ) : (
+        <List sx={{ flex: 1, overflow: 'auto', marginBottom: '50px' }}>
+          {options.map((option) => (
+            <OptionListItem
+              key={option.id}
+              data={option}
+              filters={filters}
+              setFilters={setFilters}
+              filterType={filterType}
+            />
+          ))}
+        </List>
+      )}
     </Box>
   )
 }

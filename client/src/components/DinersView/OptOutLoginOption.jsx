@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, useTheme } from '@mui/material'
+import { Box, Typography, useTheme } from '@mui/material'
 import { Link, useParams } from 'react-router-dom'
 import { t } from 'i18next'
 
@@ -12,8 +12,7 @@ export default function OptOutLoginOption({ onDone }) {
   }
 
   return (
-    <Typography
-      variant="body2"
+    <Box
       sx={{
         display: 'flex',
         justifyContent: 'center',
@@ -21,7 +20,7 @@ export default function OptOutLoginOption({ onDone }) {
         marginTop: theme.spacing(2),
       }}
     >
-      {t('or_skip_to_the')}
+      <Typography variant="body2">{t('or_skip_to_the')}</Typography>
       <Link
         className="group flex flex-col"
         to={`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`}
@@ -37,6 +36,6 @@ export default function OptOutLoginOption({ onDone }) {
           {t('no_login')}
         </Typography>
       </Link>
-    </Typography>
+    </Box>
   )
 }

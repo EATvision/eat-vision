@@ -1,4 +1,5 @@
 export default {
+  loading: 'loading',
   kitchens_list: 'kitchens list',
   register_or_sign_in: 'sign in',
   already_registered: 'already registered',
@@ -72,6 +73,8 @@ export default {
   allergens: 'allergens',
   menu_options: 'Menus Options',
   choice: 'choice',
+  addableComponents: 'addable components',
+  sidedish: 'side dishes',
   changes: 'changes',
   expand: 'expand',
   collapse: 'collapse',
@@ -116,4 +119,12 @@ export default {
       menus: 'menus',
     },
   },
+  settings: 'settings',
+  connect: 'connect',
+  my_list: 'my list',
+  profile: 'profile',
+  deal: 'deal',
+  empty_components_restriction_selector: 'No choices selected yet',
+  order_summary: 'order summary',
+  complete_order: 'complete order',
 }

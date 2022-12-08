@@ -4,7 +4,7 @@ const keyBy = require('lodash/keyBy')
 const get = require('lodash/get')
 const _intersection = require('lodash/intersection')
 
-const { setAllChildIngredients, setAllParentGroups } = require('../utils/dishes')
+const { setAllChildIngredients, setAllParentGroups } = require('../utils/dishesForScript')
 
 const kitchens = require(('../../src/data/raw/kitchens.json'))
 const diets = require(('../../src/data/raw/diets.json'))
@@ -99,7 +99,7 @@ const modifiedDishes = dishes.map(dish => {
     categories: dish.category,
     image: dish?.image?.[0],
     price: dish?.price,
-    kitchenId: dish?.kitchenIds[0],
+    kitchenId: dish?.kitchenIds?.[0],
     dishType: dish?.dishType?.[0]?.trim(),
     sizes,
     recipe: {

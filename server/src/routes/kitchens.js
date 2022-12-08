@@ -1,6 +1,7 @@
 const { Router } = require('express')
 const router = Router()
 const keyBy = require('lodash/keyBy')
+const _intersection = require('lodash/intersection')
 
 
 const kitchens = require('../data/new/kitchens.json')
@@ -52,7 +53,7 @@ router.post('/:kitchenId/menus/:menuId/dishes/search', (req, res) => {
   } = req
 
   const relevantMenu = menus.find(menu => menu.id === menuId)
-  const relevantDishes = dishes.filter(dish => relevantMenu?.categories?.includes(dish?.categories?.[0]))
+  const relevantDishes = dishes.filter(dish => _intersection(relevantMenu?.categories, dish?.categories)?.length > 0)
 
   const modifiedDishes = getModifiedDishes(relevantDishes, filters)
 

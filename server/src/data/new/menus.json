@@ -389,9 +389,6 @@
   },
   {
     "id": "rech9gf7rUFNDEoMD",
-    "kitchens": [
-      "recipajs7uV1pWw1h"
-    ],
     "name": "Menu ",
     "workingHours": [
       "reclLWEiXq2Kkmwlx"
@@ -405,13 +402,10 @@
       "recmqDtfG1vvjBoPo",
       "reclT14FtHvh32jWC",
       "recjU7rW5EwrcSCBe",
-      "recbFw1ys85l8Oafh",
       "recqGerbTr69t5TIU",
       "rectklIbQzx7V9nnP",
       "recZWYhdnctZOQI36",
-      "rech0wuHHfAJ4EpjX",
       "recpku4APvg1idRaY",
-      "recpUPPCOf4FFjXlM",
       "recRM3vqx1Ndm4Y1t"
     ],
     "dishes": [
@@ -884,8 +878,6 @@
       "recbszxblMsGh4bbq",
       "reckVRhNTnmMAEL6v",
       "recWz1oglIgIu3x61",
-      "recXpNrVlnXVfiUJv",
-      "recrAf64Sr3tbU8Ft",
       "recQSWJ6qGJUSZ3kK",
       "reckyoyehbSI7TMhZ",
       "rec4zYf6NrdzNhjt1",
@@ -895,14 +887,9 @@
       "recVkBdWfZy8JqP3C",
       "recQidYJn8gCwjVVj",
       "recRo9VXPFhzJCSF9",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "rec9eW8LSa8PrYyDQ",
       "reco2uIrzD3VFoVX7",
       "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P",
-      "rect4Kiwvisc94AWM"
+      "recyhtVUgrz6AhKKc"
     ]
   },
   {
@@ -919,13 +906,9 @@
     "categories": [
       "reckXyHBjuL2EIiiB",
       "recIiq6ZHol2WD138",
-      "recbszxblMsGh4bbq",
       "recWz1oglIgIu3x61",
       "recXpNrVlnXVfiUJv",
       "reckVRhNTnmMAEL6v",
-      "recrAf64Sr3tbU8Ft",
-      "reccKFL0KLPTD1jo2",
-      "recQSWJ6qGJUSZ3kK",
       "reckyoyehbSI7TMhZ",
       "rec4zYf6NrdzNhjt1",
       "recVgG1UaXKHcWTto",
@@ -938,11 +921,64 @@
       "recZvEB73pCX5CLtB",
       "rec6rvS1EB1YuMUK8",
       "rec9eW8LSa8PrYyDQ",
-      "reco2uIrzD3VFoVX7",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
       "recbN4Qpd9spzFO1P",
       "rect4Kiwvisc94AWM"
+    ]
+  },
+  {
+    "id": "recLlYO0QzHNhc0r1",
+    "kitchens": [
+      "recLz9mL6RCu3NIrK"
+    ],
+    "name": "Room Service",
+    "workingHours": [
+      "recuSCuW9hynmYuna"
+    ],
+    "startDate": "2022-12-07",
+    "endDate": "2023-05-31",
+    "categories": [
+      "recnWblELRZGuP2Ug",
+      "recCgejc8KK6i0TQQ"
+    ]
+  },
+  {
+    "id": "recyO7hcKchjbzIJ1",
+    "kitchens": [
+      "recipajs7uV1pWw1h"
+    ],
+    "name": "Breakfast",
+    "workingHours": [
+      "recBSJkElQ7gpN2uk"
+    ],
+    "startDate": "2022-12-07",
+    "endDate": "2023-04-29",
+    "categories": [
+      "recCbbPwQDG5F33T0",
+      "recpku4APvg1idRaY",
+      "recqGerbTr69t5TIU",
+      "reclT14FtHvh32jWC",
+      "recqGOBMgoWUdasTr",
+      "recOsuX64dp6jHNS5",
+      "recjU7rW5EwrcSCBe",
+      "rectklIbQzx7V9nnP",
+      "recZWYhdnctZOQI36",
+      "recmqDtfG1vvjBoPo",
+      "recRM3vqx1Ndm4Y1t"
+    ]
+  },
+  {
+    "id": "recwKgdI7MsvRFBQJ",
+    "kitchens": [
+      "recLz9mL6RCu3NIrK"
+    ],
+    "name": "NYX BISTRO",
+    "workingHours": [
+      "recpAe759z0fBl2TB"
+    ],
+    "startDate": "2022-12-07",
+    "endDate": "2023-04-29",
+    "categories": [
+      "recUxPfV3HD18vBio"
     ]
   }
 ]

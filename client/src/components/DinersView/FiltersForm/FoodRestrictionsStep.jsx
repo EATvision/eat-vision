@@ -167,15 +167,16 @@ function RestrictionFilter({ filters, title, type, onClick }) {
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'flex-start',
-          fontSize: 16,
-          padding: theme.spacing(1),
+          padding: '10px',
           border: 0,
           textAlign: 'start',
           borderBottom: `1px solid ${theme.palette.divider}`,
         }}
       >
         <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-          <Typography sx={{ marginRight: 'auto' }}>{title}</Typography>
+          <Typography sx={{ marginRight: 'auto', fontWeight: 500 }}>
+            {title}
+          </Typography>
           <SearchIcon />
         </Box>
 

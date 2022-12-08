@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
   Box,
+  Button,
   Card,
   CardActions,
   CardContent,
@@ -11,6 +12,7 @@ import {
   Divider,
   IconButton,
   Paper,
+  styled,
   Typography,
   useTheme,
 } from '@mui/material'
@@ -25,9 +27,7 @@ import {
 import { VscVersions as SizesIcon } from 'react-icons/vsc'
 import { BsBasket as IngredientsIcon } from 'react-icons/bs'
 import { TiWarningOutline as WarningsIcon } from 'react-icons/ti'
-
 import ClampLines from 'react-clamp-lines'
-
 import { t } from 'i18next'
 import { useKitchenById } from 'hooks/kitchens'
 
@@ -36,8 +36,21 @@ import AskForChangesBtn from './AskForChangesBtn'
 import ChangesInfo from './ChangesInfo'
 import DescriptionInfo from './DescriptionInfo'
 import IngredientsInfo from './IngredientsInfo'
+import { Add as AddIcon } from '@mui/icons-material'
+import { Remove as MinusIcon } from '@mui/icons-material'
 
-export default function FoodDish({ data }) {
+import { useDinerOrder } from 'contexts/order'
+
+const ActionButton = styled(IconButton)({
+  width: 60,
+  height: 60,
+  margin: 0,
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+})
+
+export default function FoodDish({ data, index, isOrdering }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
@@ -100,9 +113,14 @@ export default function FoodDish({ data }) {
         }}
         elevation={0}
       >
-        <Box sx={{ display: 'flex' }}>
+        <Box>
           <CardHeader
-            sx={{ textAlign: 'initial', flex: 1, alignItems: 'flex-start' }}
+            sx={{
+              textAlign: 'initial',
+              flex: 1,
+              alignItems: 'flex-start',
+              paddingBottom: 0,
+            }}
             title={
               <Box
                 sx={{
@@ -110,9 +128,7 @@ export default function FoodDish({ data }) {
                   justifyContent: 'space-between',
                 }}
               >
-                <Typography variant="h6" gutterBottom>
-                  {data.name}
-                </Typography>
+                <Typography variant="h6">{data.name}</Typography>
 
                 {data.price && (
                   <Typography
@@ -126,7 +142,17 @@ export default function FoodDish({ data }) {
                 )}
               </Box>
             }
-            subheader={
+          />
+
+          <Box sx={{ display: 'flex' }}>
+            <Box
+              sx={{
+                flex: 1,
+                textAlign: 'start',
+                padding: theme.spacing(2),
+                paddingTop: 0,
+              }}
+            >
               <ClampLines
                 text={data.description || ''}
                 id={data.id}
@@ -137,29 +163,33 @@ export default function FoodDish({ data }) {
                 className="custom-class"
                 innerElement="p"
               />
-            }
-          />
-
-          <Box>
-            {data?.image?.url && (
-              <CardMedia
-                component="img"
-                sx={{
-                  width: 120,
-                  maxHeight: 120,
-                  margin: theme.spacing(1),
-                }}
-                image={data?.image?.url}
-                alt=""
-              />
-            )}
-            {dishExcludableComponentsFilteredOut?.length > 0 && (
-              <AskForChangesBtn
-                dishExcludableComponentsFilteredOut={
-                  dishExcludableComponentsFilteredOut
-                }
-              />
-            )}
+            </Box>
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'flex-end',
+              }}
+            >
+              {data?.image?.url && (
+                <CardMedia
+                  component="img"
+                  sx={{
+                    width: 110,
+                    height: 110,
+                  }}
+                  image={data?.image?.url}
+                  alt=""
+                />
+              )}
+              {dishExcludableComponentsFilteredOut?.length > 0 && (
+                <AskForChangesBtn
+                  dishExcludableComponentsFilteredOut={
+                    dishExcludableComponentsFilteredOut
+                  }
+                />
+              )}
+            </Box>
           </Box>
         </Box>
 
@@ -175,7 +205,6 @@ export default function FoodDish({ data }) {
                 <DishRecipeTypeChips
                   key={index}
                   data={choices}
-                  label={t('options')}
                   selectedComponents={selectedComponents.choice}
                   onSelect={handleSelect('choice', { exclusive: true })}
                 />
@@ -184,12 +213,35 @@ export default function FoodDish({ data }) {
           )}
 
           {data.recipe?.sideDish?.length > 0 && (
-            <DishRecipeTypeChips
-              data={data.recipe.sideDish}
-              label={t('sidedish')}
-              selectedComponents={selectedComponents.sideDish}
-              onSelect={handleSelect('sideDish', { exclusive: false })}
-            />
+            <>
+              <Typography
+                sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
+              >
+                {t('sidedish')}:
+              </Typography>
+              <DishRecipeTypeChips
+                data={data.recipe.sideDish}
+                selectedComponents={selectedComponents.sideDish}
+                onSelect={handleSelect('sideDish', { exclusive: false })}
+              />
+            </>
+          )}
+
+          {data.recipe?.addableComponents?.length > 0 && (
+            <>
+              <Typography
+                sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
+              >
+                {t('addableComponents')}:
+              </Typography>
+              <DishRecipeTypeChips
+                data={data.recipe.addableComponents}
+                selectedComponents={selectedComponents.addableComponents}
+                onSelect={handleSelect('addableComponents', {
+                  exclusive: false,
+                })}
+              />
+            </>
           )}
         </Box>
 
@@ -241,112 +293,83 @@ export default function FoodDish({ data }) {
           data.sizes.length > 0 ||
           data.recipe.mandatory.length > 0 ||
           data.warnings) && <Divider />}
-        <CardActions>
+        <CardActions disableSpacing sx={{ padding: 0 }}>
           {data.longDescription && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'description' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('description')}
             >
               <DescriptionIcon />
               <Typography sx={{ fontSize: 12 }}>{t('description')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {(data.recipe.putaside.length > 0 ||
             data.recipe.excludable.length > 0) && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'changes' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('changes')}
             >
               <ChangesIcon />
               <Typography sx={{ fontSize: 12 }}>{t('changes')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.recipe.nutrition && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'nutrition' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('nutrition')}
             >
               <NutritionIcon />
               <Typography sx={{ fontSize: 12 }}>{t('nutrition')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.recipe.updates && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'upgrades' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('upgrades')}
             >
               <UpgradesIcon />
               <Typography sx={{ fontSize: 12 }}>{t('upgrades')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.dishType !== 'drink' && data.sizes?.length > 0 && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'sizes' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('sizes')}
             >
               <SizesIcon />
               <Typography sx={{ fontSize: 12 }}>{t('sizes')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.dishType !== 'drink' && data.recipe.mandatory.length > 0 && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'ingredients' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('ingredients')}
             >
               <IngredientsIcon />
               <Typography sx={{ fontSize: 12 }}>{t('ingredients')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
 
           {data.warnings && (
-            <IconButton
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <ActionButton
               color={expandedMoreInfo === 'warnings' ? 'primary' : 'default'}
               onClick={handleClickMoreInfoBtn('warnings')}
             >
               <WarningsIcon />
               <Typography sx={{ fontSize: 12 }}>{t('warnings')}</Typography>
-            </IconButton>
+            </ActionButton>
           )}
+
+          <DinerOrderController
+            data={data}
+            index={index}
+            isOrdering={isOrdering}
+          />
         </CardActions>
 
         <Divider />
@@ -374,4 +397,35 @@ function ExpandedInfo({ type, data }) {
   default:
     return null
   }
+}
+
+function DinerOrderController({ data, index, isOrdering }) {
+  const dinerOrder = useDinerOrder()
+  const handleClickToggleDishToOrder = () => {
+    dinerOrder.setOrder((currOrder) =>
+      isOrdering
+        ? currOrder.slice(0, index).concat(currOrder.slice(index + 1))
+        : [...currOrder, data]
+    )
+  }
+
+  return (
+    <Button
+      endIcon={isOrdering ? <MinusIcon /> : <AddIcon />}
+      color={isOrdering ? 'error' : 'primary'}
+      variant="contained"
+      onClick={handleClickToggleDishToOrder}
+      sx={{
+        width: 110,
+        borderRadius: 2,
+        borderBottomRightRadius: 0,
+        borderTopRightRadius: 0,
+        marginLeft: 'auto',
+        // height: 60,
+        // fontSize: '1.15rem',
+      }}
+    >
+      {isOrdering ? t('remove') : t('add')}
+    </Button>
+  )
 }

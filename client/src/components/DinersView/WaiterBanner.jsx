@@ -17,7 +17,7 @@ function WaiterBanner({ title, subtitle }) {
         alignItems: 'start',
         justifyContent: 'center',
         position: 'relative',
-        margin: `${theme.spacing(5)} 0`,
+        margin: `${theme.spacing(5)} ${theme.spacing(1)}`,
         marginBottom: theme.spacing(4),
         background: 'none',
         height: 100,
@@ -56,7 +56,7 @@ function WaiterBanner({ title, subtitle }) {
           margin: 'auto 0px',
           position: 'absolute',
           top: 10,
-          left: 95,
+          left: 92,
         }}
       >
         <Grow direction="up" in key={title}>

@@ -2,9 +2,9 @@ const uniq = require('lodash/uniq')
 const keyBy = require('lodash/keyBy')
 const intersection = require('lodash/intersection')
 
-const dishes = require('../data/new/dishes.json')
-const ingredients = require('../data/new/ingredients.json')
-const foodGroups = require('../data/new/foodGroups.json')
+const dishes = require('../data/raw/dishes.json')
+const ingredients = require('../data/raw/ingredients.json')
+const foodGroups = require('../data/raw/foodGroups.json')
 
 const foodGroupsById = keyBy(foodGroups, 'id')
 const ingredientsById = keyBy(ingredients, 'id')
@@ -35,6 +35,7 @@ const setAllParentGroups = (result, groupId) => {
     }
   }
 }
+
 
 const getComponentLimitations = (component, filters) => {
   let intersectingExcludedIngredients = []

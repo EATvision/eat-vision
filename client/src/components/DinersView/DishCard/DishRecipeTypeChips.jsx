@@ -3,15 +3,20 @@ import { useParams } from 'react-router-dom'
 import {
   Box,
   useTheme,
-  Stack,
   FormLabel,
   Badge,
   Typography,
   Divider,
+  styled,
 } from '@mui/material'
 
 import { useKitchenById } from 'hooks/kitchens'
 import { useGetComponentLabel } from 'hooks/ingredients'
+
+const LTRTypography = styled(Typography)`
+  /* @noflip */
+  direction: ltr;
+`
 
 export default function DishRecipeChips({ data, label }) {
   const theme = useTheme()
@@ -20,8 +25,7 @@ export default function DishRecipeChips({ data, label }) {
 
   const getComponentLabel = useGetComponentLabel()
   return (
-    <Stack
-      direction="row"
+    <Box
       spacing={1}
       sx={{
         backgroundColor: theme.palette.grey[200],
@@ -30,9 +34,9 @@ export default function DishRecipeChips({ data, label }) {
         marginBottom: '4px',
       }}
     >
-      <FormLabel sx={{ textAlign: 'initial' }}>{label}:</FormLabel>
+      {label && <FormLabel sx={{ textAlign: 'initial' }}>{label}:</FormLabel>}
       <Box sx={{ textAlign: 'initial' }}>
-        {data?.map((component) => {
+        {data?.map((component, index) => {
           const componentsExcludableComponentsFilteredOut =
             component?.recipe?.excludable?.filter((c) => c.isFilteredOut)
           return (
@@ -45,6 +49,7 @@ export default function DishRecipeChips({ data, label }) {
                 vertical: 'top',
                 horizontal: 'left',
               }}
+              sx={{ alignItems: 'center' }}
             >
               <Box
                 sx={{
@@ -58,13 +63,12 @@ export default function DishRecipeChips({ data, label }) {
                 <Typography
                   sx={{
                     textDecoration:
-                      component.isMainComponentFilteredOut ||
-                      component.isFilteredOut
+                      component.isMainDishFilteredOut || component.isFilteredOut
                         ? 'line-through'
                         : 'none',
                   }}
                 >
-                  {getComponentLabel(component).toLocaleLowerCase()}
+                  {getComponentLabel(component)?.toLocaleLowerCase()}
                 </Typography>
 
                 {component.price > 0 && (
@@ -76,18 +80,19 @@ export default function DishRecipeChips({ data, label }) {
                       sx={{ margin: `0 ${theme.spacing(1)}` }}
                     />
 
-                    <Typography>
+                    <LTRTypography>
                       {component.price > 0
                         ? `(+${component.price}${kitchen?.currency})`
                         : ''}
-                    </Typography>
+                    </LTRTypography>
                   </>
                 )}
               </Box>
+              {index !== data.length - 1 && <Typography>/</Typography>}
             </Badge>
           )
         })}
       </Box>
-    </Stack>
+    </Box>
   )
 }
