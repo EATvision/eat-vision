@@ -63,8 +63,7 @@ export default function DishRecipeChips({ data, label }) {
                 <Typography
                   sx={{
                     textDecoration:
-                      component.isMainComponentFilteredOut ||
-                      component.isFilteredOut
+                      component.isMainDishFilteredOut || component.isFilteredOut
                         ? 'line-through'
                         : 'none',
                   }}

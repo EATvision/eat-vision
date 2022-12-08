@@ -8,7 +8,6 @@ const foodGroups = require('../data/new/foodGroups.json')
 
 const foodGroupsById = keyBy(foodGroups, 'id')
 const ingredientsById = keyBy(ingredients, 'id')
-
 const dishesById = keyBy(dishes, 'id')
 
 const setAllChildIngredients = (result, ingredientId) => {
@@ -36,7 +35,6 @@ const setAllParentGroups = (result, groupId) => {
     }
   }
 }
-
 
 const getComponentLimitations = (component, filters) => {
   let intersectingExcludedIngredients = []
@@ -86,6 +84,7 @@ const getComponentLimitations = (component, filters) => {
   return {
     intersectingExcludedIngredients,
     ingredientsExludedInDiets,
+    ingredientsExludedInFoodGroups,
     isFilteredOut,
   }
 }
@@ -94,6 +93,7 @@ const getModifiedDishes = (dishes, filters) =>
   dishes.map((dish) => {
     let isMainDishFilteredOut = false
     let intersectingExcludedMandatoryIngredients = []
+    let intersectingExcludedMandatoryFoodGroups = []
     let mandatoryIngredientsExludedInDiets = []
 
     const modifiedMandatoryComponents = dish.recipe.mandatory?.map(
@@ -101,12 +101,17 @@ const getModifiedDishes = (dishes, filters) =>
         const {
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
+          ingredientsExludedInFoodGroups,
           isFilteredOut,
         } = getComponentLimitations(component, filters)
 
         intersectingExcludedMandatoryIngredients = uniq([
           ...intersectingExcludedIngredients,
           ...intersectingExcludedMandatoryIngredients,
+        ])
+        intersectingExcludedMandatoryFoodGroups = uniq([
+          ...ingredientsExludedInFoodGroups,
+          ...intersectingExcludedMandatoryFoodGroups,
         ])
         mandatoryIngredientsExludedInDiets = uniq([
           ...ingredientsExludedInDiets,
@@ -117,10 +122,12 @@ const getModifiedDishes = (dishes, filters) =>
           isMainDishFilteredOut ||
           isFilteredOut ||
           mandatoryIngredientsExludedInDiets.length > 0 ||
-          intersectingExcludedMandatoryIngredients.length > 0
+          intersectingExcludedMandatoryIngredients.length > 0 ||
+          intersectingExcludedMandatoryFoodGroups.length > 0
         return {
           ...component,
           intersectingExcludedIngredients,
+          intersectingExcludedMandatoryFoodGroups,
           ingredientsExludedInDiets,
           isFilteredOut,
           ...(ingredientsById[component.id]),
@@ -133,6 +140,7 @@ const getModifiedDishes = (dishes, filters) =>
         const {
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
+          ingredientsExludedInFoodGroups,
           isFilteredOut,
         } = getComponentLimitations(component, filters)
 
@@ -140,6 +148,7 @@ const getModifiedDishes = (dishes, filters) =>
           ...component,
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
+          ingredientsExludedInFoodGroups,
           isFilteredOut,
           ...(ingredientsById[component.id]),
         }
@@ -151,6 +160,7 @@ const getModifiedDishes = (dishes, filters) =>
         const {
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
+          ingredientsExludedInFoodGroups,
           isFilteredOut,
         } = getComponentLimitations(component, filters)
 
@@ -158,6 +168,7 @@ const getModifiedDishes = (dishes, filters) =>
           ...component,
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
+          ingredientsExludedInFoodGroups,
           isFilteredOut,
           ...(ingredientsById[component.id]),
         }
@@ -175,11 +186,13 @@ const getModifiedDishes = (dishes, filters) =>
       ...getModifiedDishes([dishesById[sideDish.id]], filters)[0],
       price: sideDish.price,
     }))
+
     const addableComponents = [
       ...(dish.recipe.addableIngredients?.map((component) => {
         const {
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
+          ingredientsExludedInFoodGroups,
           isFilteredOut,
         } = getComponentLimitations(component, filters)
 
@@ -187,13 +200,14 @@ const getModifiedDishes = (dishes, filters) =>
           ...component,
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
+          ingredientsExludedInFoodGroups,
           isFilteredOut,
           ...(ingredientsById[component.id])
         }
       }) || []),
-      ...(dish.recipe.addableDishes?.map((sideDish) => ({
-        ...getModifiedDishes([dishesById[sideDish.id]], filters)[0],
-        price: sideDish.price,
+      ...(dish.recipe.addableDishes?.map((d) => ({
+        ...getModifiedDishes([dishesById[d.id]], filters)[0],
+        price: d.price,
       }))) || [],
     ]
 

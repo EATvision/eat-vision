@@ -32,7 +32,10 @@
     "2nd_size_name": "bottle",
     "2nd_size_price_delta": 388
   },
-  { "id": "recpGfIxejmPdxWCs", "smallest_size_name": "bottle" },
+  {
+    "id": "recpGfIxejmPdxWCs",
+    "smallest_size_name": "bottle"
+  },
   {
     "id": "recoRBDqg1kmAwG2b",
     "smallest_size_name": "glass",

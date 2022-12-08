@@ -31,8 +31,14 @@
       }
     ],
     "website": "https://bustannyc.com/",
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "menus": ["rec7R2UglfNyQj2uM"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "menus": [
+      "rec7R2UglfNyQj2uM"
+    ],
     "currency": "$",
     "locale": "en-US"
   },
@@ -68,10 +74,21 @@
       }
     ],
     "website": "https://12chairscafe.com/brooklyn/menu/",
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "location": ["recVKDYGF5Z5jp7fz"],
-    "workingHours": ["recsOApPfuoqg065a", "reclLWEiXq2Kkmwlx"],
-    "menus": ["recyO7hcKchjbzIJ1"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recVKDYGF5Z5jp7fz"
+    ],
+    "workingHours": [
+      "recsOApPfuoqg065a",
+      "reclLWEiXq2Kkmwlx"
+    ],
+    "menus": [
+      "recyO7hcKchjbzIJ1"
+    ],
     "currency": "$",
     "locale": "en-US"
   },
@@ -107,10 +124,21 @@
       }
     ],
     "website": "https://www.haachim.co.il/",
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "location": ["recNg4hzEgtdK7S7T"],
-    "workingHours": ["recfn3FiKEpe7QwIx"],
-    "menus": ["recjlbno2inHuMHZf", "recqNn2ltXmve4Eh5"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recNg4hzEgtdK7S7T"
+    ],
+    "workingHours": [
+      "recfn3FiKEpe7QwIx"
+    ],
+    "menus": [
+      "recjlbno2inHuMHZf",
+      "recqNn2ltXmve4Eh5"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
@@ -146,7 +174,9 @@
       }
     ],
     "website": "https://www.landwercafe.co.il/",
-    "menus": ["recCGTRXNQCMOpc3E"],
+    "menus": [
+      "recCGTRXNQCMOpc3E"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
@@ -182,10 +212,22 @@
       }
     ],
     "website": "https://www.pow-wow.co.il/",
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "location": ["recJNjpkJnJmuhG8P"],
-    "workingHours": ["recAGERuhNI8tYyRH", "recA42k6lnuz9sD2K"],
-    "menus": ["recE7KpeDFYeEp7Ka", "recNuJVSBD6eGMqXH"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recJNjpkJnJmuhG8P"
+    ],
+    "workingHours": [
+      "recAGERuhNI8tYyRH",
+      "recA42k6lnuz9sD2K"
+    ],
+    "menus": [
+      "recE7KpeDFYeEp7Ka",
+      "recNuJVSBD6eGMqXH"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
@@ -221,9 +263,16 @@
       }
     ],
     "website": "https://www.fattal.co.il/",
-    "intentions": ["Dine-in"],
-    "workingHours": ["rec3OkNeMfar0Sc2u"],
-    "menus": ["recLlYO0QzHNhc0r1", "recwKgdI7MsvRFBQJ"],
+    "intentions": [
+      "Dine-in"
+    ],
+    "workingHours": [
+      "rec3OkNeMfar0Sc2u"
+    ],
+    "menus": [
+      "recLlYO0QzHNhc0r1",
+      "recwKgdI7MsvRFBQJ"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   }
