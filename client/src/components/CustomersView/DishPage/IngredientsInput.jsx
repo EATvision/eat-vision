@@ -10,7 +10,7 @@ import NumberInput from 'components/FormInputs/NumberInput'
 import SelectDishes from 'components/CustomersView/DishPage/SelectDishes'
 import SelectIngredients from 'components/CustomersView/DishPage/SelectIngredients'
 
-const { Box, Stack, Button, FormLabel, FormControl } = require('@mui/material')
+import { Box, Stack, Button, FormLabel, FormControl } from '@mui/material'
 
 const IngredientsInput = ({
   name,

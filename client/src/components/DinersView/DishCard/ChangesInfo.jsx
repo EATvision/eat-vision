@@ -9,11 +9,10 @@ import {
   useTheme,
 } from '@mui/material'
 import { t } from 'i18next'
+import _keyBy from 'lodash/keyBy'
 import CheckIcon from '@mui/icons-material/Check'
 
 import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
-
-const _keyBy = require('lodash/keyBy')
 
 function ChangesInfo({ data }) {
   const theme = useTheme()
