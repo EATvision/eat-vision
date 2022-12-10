@@ -5,7 +5,6 @@ import { useParams, Navigate, useNavigate } from 'react-router-dom'
 
 import { getRelevantMenus } from 'utils/menus'
 import { useKitchenById, useKitchenMenusById } from 'hooks/kitchens'
-import Header from './Header'
 
 function MenusPage() {
   const theme = useTheme()
@@ -29,47 +28,42 @@ function MenusPage() {
 
   if (!relevantMenus.length) {
     return (
-      <>
-        <Header />
+      <Box
+        sx={{
+          maxWidth: 500,
+          display: 'flex',
+          flexDirection: 'column',
+          flex: 1,
+          margin: 'auto',
+          padding: `0 ${theme.spacing(2)}`,
+        }}
+      >
+        <Typography variant="h6" sx={{ marginTop: theme.spacing(4) }}>
+          {t('no_menus_relevant_now')}
+        </Typography>
+
+        <Typography variant="p">{t('menus_in_other_working_hours')}</Typography>
+
+        <MenusList menus={menus} />
+
         <Box
           sx={{
-            maxWidth: 500,
-            display: 'flex',
-            flexDirection: 'column',
-            flex: 1,
-            margin: 'auto',
             padding: `0 ${theme.spacing(2)}`,
+            paddingBottom: theme.spacing(1),
+            margin: `${theme.spacing(1)} 0`,
+            marginTop: 'auto',
           }}
         >
-          <Typography variant="h6" sx={{ marginTop: theme.spacing(4) }}>
-            {t('no_menus_relevant_now')}
-          </Typography>
-
-          <Typography variant="p">
-            {t('menus_in_other_working_hours')}
-          </Typography>
-
-          <MenusList menus={menus} />
-
-          <Box
-            sx={{
-              padding: `0 ${theme.spacing(2)}`,
-              paddingBottom: theme.spacing(1),
-              margin: `${theme.spacing(1)} 0`,
-              marginTop: 'auto',
-            }}
+          <Button
+            variant={'test'}
+            color="primary"
+            fullWidth
+            onClick={handleClickBack}
           >
-            <Button
-              variant={'test'}
-              color="primary"
-              fullWidth
-              onClick={handleClickBack}
-            >
-              {t('back')}
-            </Button>
-          </Box>
+            {t('back')}
+          </Button>
         </Box>
-      </>
+      </Box>
     )
   }
 

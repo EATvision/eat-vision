@@ -126,4 +126,6 @@ export default {
   empty_components_restriction_selector: 'טרם נבחרו אופציות',
   order_summary: 'סיכום הזמנה',
   complete_order: 'אישור',
+  what_would_you_like: 'מה נשמע לכם טוב?',
+  you_can_tag_all_that_seems_to_your_liking: 'אנא סמנו מנות שמדברות אליכם'
 }

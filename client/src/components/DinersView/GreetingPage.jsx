@@ -16,7 +16,6 @@ import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 import { defaultFilters, doesUserHaveFilters } from 'utils/filters'
 import Login from 'components/Login'
 import { useDinerUser } from 'contexts/diner'
-import Header from './Header'
 
 function GreetingPage() {
   const theme = useTheme()
@@ -51,8 +50,6 @@ function GreetingPage() {
 
   return (
     <>
-      <Header />
-
       <Box
         sx={{
           display: 'flex',

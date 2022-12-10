@@ -127,4 +127,6 @@ export default {
   empty_components_restriction_selector: 'No choices selected yet',
   order_summary: 'order summary',
   complete_order: 'complete order',
+  what_would_you_like: 'what would you like?',
+  you_can_tag_all_that_seems_to_your_liking: 'you can tag all that you seems to your liking',
 }

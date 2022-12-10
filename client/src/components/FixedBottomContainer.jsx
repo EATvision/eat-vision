@@ -1,20 +1,21 @@
-import { Box, useTheme } from '@mui/material'
+import { AppBar, useTheme } from '@mui/material'
 import React from 'react'
 
 export default function FixedBottomConrainer({ children }) {
   const theme = useTheme()
   return (
-    <Box
+    <AppBar
+      position="fixed"
       sx={{
-        display: 'flex',
-        position: 'fixed',
-        padding: theme.spacing(2),
+        top: 'auto',
         bottom: 0,
-        width: '100%',
-        maxWidth: 500,
+        backgroundColor: '#E9E9E9',
+        display: 'flex',
+        flexDirection: 'row',
+        padding: theme.spacing(2),
       }}
     >
       {children}
-    </Box>
+    </AppBar>
   )
 }

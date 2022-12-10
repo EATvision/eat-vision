@@ -2,7 +2,7 @@ import React from 'react'
 import { Avatar, Box, Paper, Grow, Typography, useTheme } from '@mui/material'
 import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 import useIsRTL from 'hooks/useRTL'
-const WAITER_AVATAR_WIDTH = 100
+const WAITER_AVATAR_WIDTH = 70
 
 function WaiterBanner({ title, subtitle }) {
   const theme = useTheme()
@@ -17,10 +17,9 @@ function WaiterBanner({ title, subtitle }) {
         alignItems: 'start',
         justifyContent: 'center',
         position: 'relative',
-        margin: `${theme.spacing(5)} ${theme.spacing(1)}`,
-        marginBottom: theme.spacing(4),
+        margin: `${theme.spacing(1)} ${theme.spacing(2)}`,
         background: 'none',
-        height: 100,
+        height: 80,
       }}
     >
       <Box
@@ -32,13 +31,12 @@ function WaiterBanner({ title, subtitle }) {
       >
         <Box
           sx={{
-            height: 115,
-            width: 80,
+            height: 80,
+            width: 63,
             borderRadius: 50,
             backgroundColor: theme.palette.secondary.main,
             position: 'absolute',
-            transform: 'rotate(20deg)',
-            [isRTL ? 'left' : 'right']: 6,
+            [isRTL ? 'left' : 'right']: 0,
           }}
         ></Box>
         <Avatar
@@ -55,18 +53,17 @@ function WaiterBanner({ title, subtitle }) {
         sx={{
           margin: 'auto 0px',
           position: 'absolute',
-          top: 10,
-          left: 92,
+          top: 15,
+          left: 72,
         }}
       >
         <Grow direction="up" in key={title}>
           <Paper
             elevation={3}
             sx={{
-              margin: `${theme.spacing(2)} 0`,
               position: 'relative',
               borderTopLeftRadius: 0,
-              padding: `${theme.spacing(1)}`,
+              padding: `4px ${theme.spacing(1)}`,
             }}
           >
             {isRTL ? <RTLTriangle /> : <LTRTriangle />}

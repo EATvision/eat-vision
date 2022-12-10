@@ -1,12 +1,11 @@
 import * as React from 'react'
-import { styled, useTheme } from '@mui/material/styles'
+import { useTheme } from '@mui/material/styles'
 
 import {
   AppBar,
   Badge,
   Box,
   CssBaseline,
-  Fab,
   IconButton,
   Toolbar,
   Typography,
@@ -18,21 +17,7 @@ import { SettingsIcon } from 'components/Icons/SettingsIcon'
 import { MyListIcon } from 'components/Icons/MyListIcon'
 import { ProfileIcon } from 'components/Icons/ProfileIcon'
 import { t } from 'i18next'
-import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 import { useDinerOrder } from 'contexts/order'
-
-const StyledFab = styled(Fab)({
-  position: 'absolute',
-  zIndex: 1,
-  top: -30,
-  left: 0,
-  right: 0,
-  margin: '0 auto',
-  width: 75,
-  height: 75,
-  overflow: 'hidden',
-  border: '1px solid #e9e9e9',
-})
 
 export default function Footer() {
   const theme = useTheme()
@@ -105,11 +90,6 @@ export default function Footer() {
           </IconButton>
 
           <Box sx={{ flexGrow: 1 }} />
-
-          <StyledFab color="secondary" aria-label="add">
-            <img src={waiterSrc} />
-            {/* <RaiseHandIcon style={{ fontSize: '2.75rem', color: 'white' }} /> */}
-          </StyledFab>
 
           <Box sx={{ flexGrow: 1 }} />
 

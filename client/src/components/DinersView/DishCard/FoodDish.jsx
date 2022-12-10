@@ -50,7 +50,7 @@ const ActionButton = styled(IconButton)({
   alignItems: 'center',
 })
 
-export default function FoodDish({ data, index, isOrdering }) {
+export default function FoodDish({ data, index }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
@@ -365,11 +365,7 @@ export default function FoodDish({ data, index, isOrdering }) {
             </ActionButton>
           )}
 
-          <DinerOrderController
-            data={data}
-            index={index}
-            isOrdering={isOrdering}
-          />
+          <DinerOrderController data={data} index={index} />
         </CardActions>
 
         <Divider />
@@ -399,11 +395,14 @@ function ExpandedInfo({ type, data }) {
   }
 }
 
-function DinerOrderController({ data, index, isOrdering }) {
+function DinerOrderController({ data, index }) {
   const dinerOrder = useDinerOrder()
+
+  const isIncludedInOrder = dinerOrder.order.some((d) => d.id === data.id)
+
   const handleClickToggleDishToOrder = () => {
     dinerOrder.setOrder((currOrder) =>
-      isOrdering
+      isIncludedInOrder
         ? currOrder.slice(0, index).concat(currOrder.slice(index + 1))
         : [...currOrder, data]
     )
@@ -411,8 +410,8 @@ function DinerOrderController({ data, index, isOrdering }) {
 
   return (
     <Button
-      endIcon={isOrdering ? <MinusIcon /> : <AddIcon />}
-      color={isOrdering ? 'error' : 'primary'}
+      endIcon={isIncludedInOrder ? <MinusIcon /> : <AddIcon />}
+      color={isIncludedInOrder ? 'error' : 'primary'}
       variant="contained"
       onClick={handleClickToggleDishToOrder}
       sx={{
@@ -425,7 +424,7 @@ function DinerOrderController({ data, index, isOrdering }) {
         // fontSize: '1.15rem',
       }}
     >
-      {isOrdering ? t('remove') : t('add')}
+      {isIncludedInOrder ? t('remove') : t('add')}
     </Button>
   )
 }

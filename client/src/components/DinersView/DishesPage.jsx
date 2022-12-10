@@ -1,26 +1,50 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Box, Paper, Typography, useTheme } from '@mui/material'
+import {
+  Badge,
+  Box,
+  Button,
+  Grow,
+  Paper,
+  Typography,
+  useTheme,
+} from '@mui/material'
 
 import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 
 import FoodDish from './DishCard/FoodDish'
-import Footer from './Footer'
 import DealBtn from './DealBtn'
-import Header from './Header'
+import WaiterBanner from './WaiterBanner'
+import FixedBottomConrainer from 'components/FixedBottomContainer'
+import { useDinerOrder } from 'contexts/order'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()
+  const navigate = useNavigate()
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
 
   const [showFilteredOutDishes] = React.useState(false)
+  const dinerOrder = useDinerOrder()
+  const numberOfDishesInMyOrder = dinerOrder?.order.length
 
   const { categories, isLoading } = useKitchenCategoriesByMenu(
     kitchenId,
     menuId
   )
+
+  const handleClickBack = () => {
+    navigate(-1)
+  }
+
+  const handleClickDone = () => {
+    if (kitchenId && menuId) {
+      navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/myorder`)
+    } else {
+      navigate(-1)
+    }
+  }
 
   const defaultCategories = React.useMemo(
     () =>
@@ -67,10 +91,19 @@ function DishesPage({ dishes }) {
   if (isLoading) return <div>{t('loading')}</div>
 
   return (
-    <>
-      <Header />
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100%',
+      }}
+    >
+      <WaiterBanner
+        title={t('what_would_you_like')}
+        subtitle={t('you_can_tag_all_that_seems_to_your_liking')}
+      />
 
-      <Box sx={{ overflow: 'auto', paddingBottom: '100px' }}>
+      <Box sx={{ overflow: 'auto', paddingBottom: '100px', flex: 1 }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
           .map((category) => (
@@ -95,7 +128,8 @@ function DishesPage({ dishes }) {
                   sx={{
                     backgroundColor: '#E9E9E9',
                     margin: theme.spacing(2),
-                    padding: theme.spacing(2),
+                    marginTop: 0,
+                    padding: theme.spacing(1),
                     width: '100%',
                     position: 'sticky',
                     top: 0,
@@ -136,8 +170,25 @@ function DishesPage({ dishes }) {
             </div>
           ))}
       </Box>
-      <Footer dishes={dishes} />
-    </>
+
+      <FixedBottomConrainer>
+        <Button variant="text" onClick={handleClickBack}>
+          {t('back')}
+        </Button>
+        <Grow direction="up" in>
+          <Badge
+            color="error"
+            invisible={numberOfDishesInMyOrder === 0}
+            badgeContent={numberOfDishesInMyOrder}
+            sx={{ flex: 1 }}
+          >
+            <Button variant="contained" fullWidth onClick={handleClickDone}>
+              {t('im_done')}
+            </Button>
+          </Badge>
+        </Grow>
+      </FixedBottomConrainer>
+    </Box>
   )
 }
 
