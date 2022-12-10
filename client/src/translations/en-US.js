@@ -105,6 +105,20 @@ export default {
   sideDish_ingredients: 'sideDish ingredients',
   addable_ingredients: 'addable ingredients',
   addableDishes_ingredients: 'addableDishes ingredients',
+  tabs: {
+    admin: {
+      foodGroups: 'food groups',
+      customers: 'customers',
+      ingredients: 'ingredients',
+      diets: 'diets',
+    },
+    customers: {
+      overview: 'overview',
+      generalInfo: 'generalInfo',
+      dishes: 'dishes',
+      menus: 'menus',
+    },
+  },
   settings: 'settings',
   connect: 'connect',
   my_list: 'my list',
@@ -112,5 +126,5 @@ export default {
   deal: 'deal',
   empty_components_restriction_selector: 'No choices selected yet',
   order_summary: 'order summary',
-  complete_order: 'complete order'
+  complete_order: 'complete order',
 }
