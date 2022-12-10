@@ -12,7 +12,10 @@ router.get('/auth', authenticateToken(), async (req, res,) => {
   const {
     user,
   } = req
-  const response = await dinersCollection.findOne({ phoneNumber: user.phoneNumber })
+  if (!user?.phoneNumber) {
+    return res.status(401).send()
+  }
+  const response = await dinersCollection.findOne({ phoneNumber: user?.phoneNumber })
 
   if (!response) {
     return res.status(404).send()
