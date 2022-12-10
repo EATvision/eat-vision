@@ -6,7 +6,6 @@ import {
   FormLabel,
   Badge,
   Typography,
-  Divider,
   styled,
 } from '@mui/material'
 
@@ -37,55 +36,39 @@ export default function DishRecipeChips({ data, label }) {
       {label && <FormLabel sx={{ textAlign: 'initial' }}>{label}:</FormLabel>}
       <Box sx={{ textAlign: 'initial' }}>
         {data?.map((component, index) => {
-          const componentsExcludableComponentsFilteredOut =
-            component?.recipe?.excludable?.filter((c) => c.isFilteredOut)
           return (
             <Badge
               variant="dot"
               color="error"
               key={component.id}
-              invisible={!componentsExcludableComponentsFilteredOut?.length}
+              invisible
               anchorOrigin={{
                 vertical: 'top',
                 horizontal: 'left',
               }}
-              sx={{ alignItems: 'center' }}
+              sx={{ alignItems: 'center', marginRight: theme.spacing(1) }}
             >
               <Box
                 sx={{
                   borderRadius: 50,
-                  margin: '2px',
                   display: 'flex',
-                  backgroundColor: 'white',
-                  padding: '4px 8px',
+                  marginRight: theme.spacing(1),
+                  textDecoration:
+                    component.isMainDishFilteredOut || component.isFilteredOut
+                      ? 'line-through'
+                      : 'none',
                 }}
               >
-                <Typography
-                  sx={{
-                    textDecoration:
-                      component.isMainDishFilteredOut || component.isFilteredOut
-                        ? 'line-through'
-                        : 'none',
-                  }}
-                >
+                <Typography>
                   {getComponentLabel(component)?.toLocaleLowerCase()}
                 </Typography>
 
                 {component.price > 0 && (
-                  <>
-                    <Divider
-                      orientation="vertical"
-                      variant="middle"
-                      flexItem
-                      sx={{ margin: `0 ${theme.spacing(1)}` }}
-                    />
-
-                    <LTRTypography>
-                      {component.price > 0
-                        ? `(+${component.price}${kitchen?.currency})`
-                        : ''}
-                    </LTRTypography>
-                  </>
+                  <LTRTypography sx={{ marginLeft: theme.spacing(1) }}>
+                    {component.price > 0
+                      ? `(+${component.price}${kitchen?.currency})`
+                      : ''}
+                  </LTRTypography>
                 )}
               </Box>
               {index !== data.length - 1 && <Typography>/</Typography>}
