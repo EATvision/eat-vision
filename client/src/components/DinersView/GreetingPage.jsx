@@ -57,7 +57,7 @@ function GreetingPage() {
           height: '100%',
         }}
       >
-        <Box sx={{ margin: 'auto', marginTop: theme.spacing(3) }}>
+        <Box sx={{ margin: 'auto' }}>
           <Box
             sx={{
               position: 'relative',

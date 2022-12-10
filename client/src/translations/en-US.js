@@ -81,7 +81,7 @@ export default {
   logout: 'logout',
   login: 'login',
   enter_phone_number: 'Enter phone number',
-  login_plea: 'CREATE YOUR CULINARY.ID',
+  login_plea: 'creat your culinary.id',
   login_plea_subtext: 'Save time for next time',
   no_login: 'without login',
   dish_possible_changes: 'Dish Possible Changes',
@@ -128,5 +128,5 @@ export default {
   order_summary: 'order summary',
   complete_order: 'complete order',
   what_would_you_like: 'what would you like?',
-  you_can_tag_all_that_seems_to_your_liking: 'you can tag all that you seems to your liking',
+  you_can_tag_all_that_seems_to_your_liking: 'Add all relevant options',
 }

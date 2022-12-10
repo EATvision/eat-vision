@@ -2,60 +2,28 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import {
   Box,
-  Button,
   Card,
-  CardActions,
-  CardContent,
   CardHeader,
   CardMedia,
-  Collapse,
   Divider,
-  IconButton,
   Paper,
-  styled,
   Typography,
   useTheme,
 } from '@mui/material'
-import {
-  CgPlayListAdd as DescriptionIcon,
-  CgMathPercent as NutritionIcon,
-} from 'react-icons/cg'
-import {
-  BiMessageMinus as ChangesIcon,
-  BiMessageAdd as UpgradesIcon,
-} from 'react-icons/bi'
-import { VscVersions as SizesIcon } from 'react-icons/vsc'
-import { BsBasket as IngredientsIcon } from 'react-icons/bs'
-import { TiWarningOutline as WarningsIcon } from 'react-icons/ti'
+
 import ClampLines from 'react-clamp-lines'
 import { t } from 'i18next'
 import { useKitchenById } from 'hooks/kitchens'
 
 import DishRecipeTypeChips from './DishRecipeTypeChips'
 import AskForChangesBtn from './AskForChangesBtn'
-import ChangesInfo from './ChangesInfo'
-import DescriptionInfo from './DescriptionInfo'
-import IngredientsInfo from './IngredientsInfo'
-import { Add as AddIcon } from '@mui/icons-material'
-import { Remove as MinusIcon } from '@mui/icons-material'
+import DishExtraInfo from './DishExtraInfo'
 
-import { useDinerOrder } from 'contexts/order'
-
-const ActionButton = styled(IconButton)({
-  width: 60,
-  height: 60,
-  margin: 0,
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-})
-
-export default function FoodDish({ data, index }) {
+export default function FoodDish({ data }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useKitchenById(kitchenId)
 
-  const [expandedMoreInfo, setExpandedMoreInfo] = React.useState()
   const [selectedComponents, setSelectedComponents] = React.useState({
     choice: [],
     sideDish: [],
@@ -81,14 +49,6 @@ export default function FoodDish({ data, index }) {
             : [...currSelectedComponents[recipeType], componentId],
         }))
       }
-
-  const handleClickMoreInfoBtn = (moreInfoTab) => () => {
-    if (expandedMoreInfo !== moreInfoTab) {
-      setExpandedMoreInfo(moreInfoTab)
-    } else {
-      setExpandedMoreInfo()
-    }
-  }
 
   return (
     <Paper
@@ -285,146 +245,8 @@ export default function FoodDish({ data, index }) {
           </Box>
         )}
 
-        {(data.longDescription ||
-          data.recipe.putaside.length > 0 ||
-          data.recipe.excludable.length > 0 ||
-          data.recipe.nutrition ||
-          data.recipe.updates ||
-          data.sizes.length > 0 ||
-          data.recipe.mandatory.length > 0 ||
-          data.warnings) && <Divider />}
-        <CardActions disableSpacing sx={{ padding: 0 }}>
-          {data.longDescription && (
-            <ActionButton
-              color={expandedMoreInfo === 'description' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('description')}
-            >
-              <DescriptionIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('description')}</Typography>
-            </ActionButton>
-          )}
-
-          {(data.recipe.putaside.length > 0 ||
-            data.recipe.excludable.length > 0) && (
-            <ActionButton
-              color={expandedMoreInfo === 'changes' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('changes')}
-            >
-              <ChangesIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('changes')}</Typography>
-            </ActionButton>
-          )}
-
-          {data.recipe.nutrition && (
-            <ActionButton
-              color={expandedMoreInfo === 'nutrition' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('nutrition')}
-            >
-              <NutritionIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('nutrition')}</Typography>
-            </ActionButton>
-          )}
-
-          {data.recipe.updates && (
-            <ActionButton
-              color={expandedMoreInfo === 'upgrades' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('upgrades')}
-            >
-              <UpgradesIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('upgrades')}</Typography>
-            </ActionButton>
-          )}
-
-          {data.dishType !== 'drink' && data.sizes?.length > 0 && (
-            <ActionButton
-              color={expandedMoreInfo === 'sizes' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('sizes')}
-            >
-              <SizesIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('sizes')}</Typography>
-            </ActionButton>
-          )}
-
-          {data.dishType !== 'drink' && data.recipe.mandatory.length > 0 && (
-            <ActionButton
-              color={expandedMoreInfo === 'ingredients' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('ingredients')}
-            >
-              <IngredientsIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('ingredients')}</Typography>
-            </ActionButton>
-          )}
-
-          {data.warnings && (
-            <ActionButton
-              color={expandedMoreInfo === 'warnings' ? 'primary' : 'default'}
-              onClick={handleClickMoreInfoBtn('warnings')}
-            >
-              <WarningsIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('warnings')}</Typography>
-            </ActionButton>
-          )}
-
-          <DinerOrderController data={data} index={index} />
-        </CardActions>
-
-        <Divider />
-        <Collapse in={Boolean(expandedMoreInfo)} timeout="auto" unmountOnExit>
-          <CardContent sx={{ textAlign: 'start' }}>
-            <ExpandedInfo type={expandedMoreInfo} data={data} />
-          </CardContent>
-        </Collapse>
+        <DishExtraInfo data={data} />
       </Card>
     </Paper>
-  )
-}
-
-function ExpandedInfo({ type, data }) {
-  switch (type) {
-  case 'description':
-    return <DescriptionInfo data={data} />
-  case 'changes': {
-    return <ChangesInfo data={data} />
-  }
-  case 'ingredients': {
-    return <IngredientsInfo data={data} />
-  }
-
-  default:
-    return null
-  }
-}
-
-function DinerOrderController({ data, index }) {
-  const dinerOrder = useDinerOrder()
-
-  const isIncludedInOrder = dinerOrder.order.some((d) => d.id === data.id)
-
-  const handleClickToggleDishToOrder = () => {
-    dinerOrder.setOrder((currOrder) =>
-      isIncludedInOrder
-        ? currOrder.slice(0, index).concat(currOrder.slice(index + 1))
-        : [...currOrder, data]
-    )
-  }
-
-  return (
-    <Button
-      endIcon={isIncludedInOrder ? <MinusIcon /> : <AddIcon />}
-      color={isIncludedInOrder ? 'error' : 'primary'}
-      variant="contained"
-      onClick={handleClickToggleDishToOrder}
-      sx={{
-        width: 110,
-        borderRadius: 2,
-        borderBottomRightRadius: 0,
-        borderTopRightRadius: 0,
-        marginLeft: 'auto',
-        // height: 60,
-        // fontSize: '1.15rem',
-      }}
-    >
-      {isIncludedInOrder ? t('remove') : t('add')}
-    </Button>
   )
 }
