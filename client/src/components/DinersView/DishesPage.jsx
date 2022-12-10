@@ -1,50 +1,34 @@
 import React from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import {
-  Badge,
-  Box,
-  Button,
-  Grow,
-  Paper,
-  Typography,
-  useTheme,
-} from '@mui/material'
+import { Box, Paper, Typography, useTheme } from '@mui/material'
 
 import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 
 import FoodDish from './DishCard/FoodDish'
 import DealBtn from './DealBtn'
-import WaiterBanner from './WaiterBanner'
-import FixedBottomConrainer from 'components/FixedBottomContainer'
-import { useDinerOrder } from 'contexts/order'
+import Header from './Header'
+import Footer from './Footer'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()
-  const navigate = useNavigate()
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
 
   const [showFilteredOutDishes] = React.useState(false)
-  const dinerOrder = useDinerOrder()
-  const numberOfDishesInMyOrder = dinerOrder?.order.length
 
   const { categories, isLoading } = useKitchenCategoriesByMenu(
     kitchenId,
     menuId
   )
 
-  const handleClickBack = () => {
-    navigate(-1)
-  }
-
-  const handleClickDone = () => {
-    if (kitchenId && menuId) {
-      navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/myorder`)
-    } else {
-      navigate(-1)
-    }
-  }
+  // const handleClickDone = () => {
+  //   if (kitchenId && menuId) {
+  //     navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/myorder`)
+  //   } else {
+  //     navigate(-1)
+  //   }
+  // }
 
   const defaultCategories = React.useMemo(
     () =>
@@ -98,10 +82,11 @@ function DishesPage({ dishes }) {
         height: '100%',
       }}
     >
-      <WaiterBanner
+      <Header />
+      {/* <WaiterBanner
         title={t('what_would_you_like')}
         subtitle={t('you_can_tag_all_that_seems_to_your_liking')}
-      />
+      /> */}
 
       <Box sx={{ overflow: 'auto', paddingBottom: '100px', flex: 1 }}>
         {orderedCategories
@@ -171,10 +156,9 @@ function DishesPage({ dishes }) {
           ))}
       </Box>
 
+      <Footer dishes={dishes} />
+      {/* 
       <FixedBottomConrainer>
-        <Button variant="text" onClick={handleClickBack}>
-          {t('back')}
-        </Button>
         <Grow direction="up" in>
           <Badge
             color="error"
@@ -187,7 +171,7 @@ function DishesPage({ dishes }) {
             </Button>
           </Badge>
         </Grow>
-      </FixedBottomConrainer>
+      </FixedBottomConrainer> */}
     </Box>
   )
 }

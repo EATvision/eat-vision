@@ -27,12 +27,13 @@ import IngredientsInfo from './IngredientsInfo'
 import { t } from 'i18next'
 
 const ActionButton = styled(IconButton)({
-  width: 60,
+  minWidth: 60,
   height: 60,
   margin: 0,
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
+  borderRadius: 0,
 })
 
 export default function DishExtraInfo({ data }) {
