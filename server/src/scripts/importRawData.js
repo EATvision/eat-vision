@@ -314,3 +314,19 @@ base('tblJXmaeTIA7dp4oJ')
     fs.writeFileSync('./src/data/raw/diets.json', JSON.stringify(diets))
     console.log('finished diets')
   })
+
+//allergens
+let allergens = []
+base('tbl0tb3niAgusE64c')
+  .select({ view: 'Grid view' })
+  .all((_err, records) => {
+    const data = records.map((r) => ({
+      id: r.getId(),
+      name: r.get('name'),
+      translation_heb: r.get('translation_heb'),
+      groups: r.get('Groups'),
+    }))
+    allergens = data
+    fs.writeFileSync('./src/data/raw/allergens.json', JSON.stringify(allergens))
+    console.log('finished allergens')
+  })

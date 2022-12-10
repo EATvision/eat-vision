@@ -19,6 +19,7 @@ const foodGroups = require(('../../src/data/raw/foodGroups.json'))
 const recipes = require(('../../src/data/raw/recipes.json'))
 const choices_ingredients = require(('../../src/data/raw/choices_ingredients.json'))
 const choices_subdishes = require(('../../src/data/raw/choices_subdishes.json'))
+const allergens = require(('../../src/data/raw/allergens.json'))
 
 const ingredientsById = keyBy(ingredients, 'id')
 const sizesById = keyBy(sizes, 'id')
@@ -53,8 +54,16 @@ const modifiedIngredients = ingredients.map(ing => {
     return acc
   }, [])
 
+  const ingredientAllergens = allergens.reduce((acc, allergen) => {
+    if (_intersection(allFoodGroupsOfIng, allergen.groups).length > 0) {
+      return [...acc, allergen.id]
+    }
+    return acc
+  }, [])
+
   return ({
     ...ing,
+    allergens: ingredientAllergens,
     excludedInDiets,
     foodGroups: allllllllFoodGroupsIncludingParentsRecursively,
     isSearchable: ing.isSearchable === 'TRUE' ? true : false
@@ -88,8 +97,6 @@ const modifiedDishes = dishes.map(dish => {
       price: sizesObject['3nd_size_name']
     },
   ].filter(Boolean)
-
-
 
   return {
     id: dish.id,

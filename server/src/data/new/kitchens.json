@@ -275,5 +275,43 @@
     ],
     "currency": "₪",
     "locale": "he-IL"
+  },
+  {
+    "id": "recKS2OTdorMHdMhF",
+    "name": "NONO נונו ",
+    "image": [
+      {
+        "id": "attFaQN8GG9ZdzhBP",
+        "width": 250,
+        "height": 214,
+        "url": "https://dl.airtable.com/.attachments/3b5e718d0fc385db7ceab9bce960551f/2d27231c.png",
+        "filename": "נונו לוגו.png",
+        "size": 6330,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5206deae3d69a958cc865d0f66d48a97/08ae90ad",
+            "width": 42,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/035bdee5a4d8ad80cbb46f735ddcb7ae/ac4cb8f7",
+            "width": 250,
+            "height": 214
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/68bb542b80b90e08a0541369f0ce7b06/e7aa8b10",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "currency": "₪"
   }
 ]

@@ -15522,5 +15522,1034 @@
       "addableIngredients": [],
       "addableDishes": []
     }
+  },
+  {
+    "id": "rec9mEGx6SlkT8zsP",
+    "name": "פוקאצ׳ה ומטבלים ",
+    "description": " פוקאצ'ה בטאבון עצים מוגשת עם 2 מטבלים: סלסת עגבניות עם גבינה לבנה ושמן זית עם חומץ בלסמי, צ'ילי פרוס ושום קונפי",
+    "categories": [
+      "recd0cECtpQQWxVeQ"
+    ],
+    "image": {
+      "id": "attg8CJxH4QsFxELK",
+      "width": 700,
+      "height": 466,
+      "url": "https://dl.airtable.com/.attachments/3c53f1c3173d5e46c584c2ed9dab717d/f3b6af6c.png",
+      "filename": "פוקאצה ומטבלים.png",
+      "size": 605759,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4e8f25aea5ec427748bacb45f6e0c396/4fb09246",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6670c62ebbe8de5ea4e996d59e200bbd/b6dbdade",
+          "width": 700,
+          "height": 466
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/da396ef990739cecda12892fbb978206/12305918",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
+    "price": 27,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recBdn2nY3QkRtToi"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recPLDzBzlW7gd5QJ"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec9nzkNGPE3RbNEq"
+        },
+        {
+          "type": "ingredient",
+          "id": "recGBGHbizVMrwzF2"
+        },
+        {
+          "type": "ingredient",
+          "id": "recjA6WfuqGEQpHEf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0md0zPk2XkGAzt"
+        }
+      ],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec6BLA5EeDoOqyGQ",
+    "name": "קרפצ׳יו בקר ",
+    "description": "איולי חרדל, עגבנית קונפי, סלסה ירוקה, ארוגולה ופרמז׳ן",
+    "categories": [
+      "recd0cECtpQQWxVeQ"
+    ],
+    "price": 62,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recAdYyvsZEFIwdsm",
+    "name": "מאפה סטלה במילוי גבינות",
+    "description": "שרי תמר, ארוגולה ובלסמי",
+    "categories": [
+      "recd0cECtpQQWxVeQ"
+    ],
+    "price": 59,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8fYpYGTrTi1T8G",
+    "name": "סשימי דג ים ",
+    "description": "גספאצ'ו יוזו, צנונית, ברוקולי, מלפפון, פלפל חריף וכוסברה",
+    "categories": [
+      "recd0cECtpQQWxVeQ"
+    ],
+    "price": 59,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recVYKplvhnc1TzcB",
+    "name": "סלט קאפרי ",
+    "description": "עגבניות מגי, ארטישוק צרוב, בצל סגול, חסה אייסברג, קרעי מוצרלה, קרם יוגורט, פסטו ארוגולה לימוני, עלי בזיליקום ואורגנו, קרעי פוקאצ'ה ושמן זית",
+    "categories": [
+      "recd0cECtpQQWxVeQ"
+    ],
+    "price": 62,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recC7ZrkalznsZ5lK",
+    "name": "סלט חסות  ",
+    "description": "עגבניות שרי, צנוניות, חמוציות, מיקס גרעינים בויניגרט חרדל ולימון",
+    "categories": [
+      "recd0cECtpQQWxVeQ"
+    ],
+    "price": 52,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recarR3sXGLIo7I3G",
+    "name": "סלט איכרים  ",
+    "description": "עגבניה, מלפפון, לחם קלוי, צלפים, בצל סגול, אנשובי, סלרי, פלפל ירוק, פלפל חריף, שום, עשבי תיבול ופרמז'ן",
+    "categories": [
+      "recd0cECtpQQWxVeQ"
+    ],
+    "price": 58,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recCVQI0xNvSWy4Wc",
+    "name": "סלט כריות",
+    "description": "פולנטה ומוצרלה פריכות, קרם פרש, עגבניות שרי, ירקות ירוקים, פילה לימון, בצל ירוק, בזיליקום ופלפל חריף",
+    "price": 59,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recVQ9pPR9GUAnboB",
+    "name": "מרגריטה ",
+    "description": "רוטב עגבניות, מוצרלה, פרמז'ן ובזיליקום",
+    "price": 64,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recAtNPUYQEEI67e7",
+    "name": "פונגי ",
+    "description": "רוטב עגבניות, מוצרלה, פרמז'ן, מיקס פטריות צלויות ובזיליקום",
+    "price": 73,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recWA7chv2qOmvk2y",
+    "name": "סלמי כפרי ",
+    "description": "רוטב פומודורו, מוצרלה, פרמז'ן, סלמי (בקר ולבן), בצל סגול וירוק, תבשיל פלפלים איטלקי ופלפל חריף",
+    "price": 77,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recwAc3xQ6XnvUje3",
+    "name": "עגבניות מדורה ",
+    "description": "רוטב עגבניות, מוצרלה, פרמז'ן, שום קונפי, עגבניות מיובשות, פלפל חריף, אורגנו ופטה",
+    "price": 68,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recGUJiR4yq134lMy",
+    "name": "ספייסי פפרוני ",
+    "description": "רוטב עגבניות, מוצרלה, פרמז'ן, פפרוני עגל, צ'וריסוס, שום קונפי, פלפל חריף ואורגנו",
+    "price": 74,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reclHr7onq3inmxW7",
+    "name": "טבעונית  ",
+    "description": "רוטב פומודורו, בטטה ודלעת צלויות, בצל ירוק ובזיליקום",
+    "price": 62,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recrpab2hqnaHKEgW",
+    "name": "ארבע גבינות ",
+    "description": "רוטב שמנת, מוצרלה, פרמז'ן, גאודה, גורגונזולה ובצל ירוק",
+    "price": 73,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recB85HywpFGFbAV9",
+    "name": "כמהין ",
+    "description": "רוטב שמנת, מוצרלה, פרמז'ן, גאודה, מיקס פטריות צלויות וארוגולה",
+    "price": 75,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recVqNgLoLNWfau7q",
+    "name": "סיציליאנית ",
+    "description": "רוטב שמנת, מוצרלה, פרמז'ן, גאודה, דלעת פיקנטית, סרדינים כבושים, פלפל חריף ומרווה",
+    "price": 64,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recZmQk89XgEv5oqL",
+    "name": "ארנצ׳ה ",
+    "description": "רוטב שמנת, מוצרלה, פרמז'ן, גאודה, בטטה ודלעת צלויות, ביצת עין, אגוזי לוז, בזיליקום ופלפל חריף",
+    "price": 68,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recxT4ohrG31mOh9t",
+    "name": "עוף מדורה ",
+    "description": "תפו\"א, קרם לבנה ורוטב שום לימון",
+    "price": 74,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recZ7l4MaRm0pUAdH",
+    "name": "קדירת פירות ים ",
+    "description": "יין לבן, זעפרן, חמאת פלפלים, אפונה, תרד ועגבניות שרי",
+    "price": 118,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec3Z45ipxLsW8vSG",
+    "name": "קדירת בקר",
+    "description": "תפו\"א, אספרגוס ופלפל מתוק יבש",
+    "price": 88,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recKx7wqxsrcjrE04",
+    "name": "קונקיליה",
+    "description": "קונכיות פסטה ממולאות בקדרת אונטריב מפורק, רוטב שמנת, קוניאק וחרדל, פירורי פנקו ופרמז'ן",
+    "price": 82,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recVMwKINJgdIyNhZ",
+    "name": "לברק שלם ",
+    "description": "תפו״א, קרם לבנה וסלסה וורדה",
+    "price": 119,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recmyTMEQRxGKgcsM",
+    "name": "לינגוויני נפוליטנה ",
+    "description": "עגבניות שרי תמר, שום, מוצרלה, פרמז'ן ובזיליקום",
+    "price": 59,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recE069vnpqVzn5hq",
+    "name": "פפרדלה ראגו עגל ",
+    "description": "פסטה רחבה וטרייה ברוטב ראגו עגל עשיר עם חתיכות בשר מלא טעמים. מוגש עם פרמזן *ניתן להזמין עם פסטה ללא קמח חיטה",
+    "price": 74,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [
+        []
+      ],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recn891MlP0MBk3xR",
+    "name": "לינגוויני רוזה ",
+    "description": "רוטב עגבניות, שמנת, עגבניות שרי תמר, בזיליקום ושום",
+    "price": 59,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec712AJghWgkfXJS",
+    "name": "רביולי גבינות ",
+    "description": "ראגו פטריות וכמהין, שום, תרד בר, פרמז'ן ובזיליקום",
+    "price": 79,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recbl7OFRspvEg5Cf",
+    "name": "ניוקי תרד",
+    "description": "רוטב גורגונזולה, אגוזי לוז ובצל ירוק",
+    "price": 68,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec36XKiVeXAJTmLJ",
+    "name": "לינגוויני אליו אוליו  ",
+    "description": "שמן זית, שום, פלפל חריף, פטרוזיליה, בזיליקום, בצל ירוק ופירורי פוקאצ'ה פריכים",
+    "price": 64,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recOKXto5z8BPWsgN",
+    "name": "רוטולו",
+    "description": "גלילי פסטה ממולאים בדלעת מקורמלת, בטטה, תרד, גבינת ריקוטה, פטה ופרמז'ן, נאפה בתנור עצים ברוטב רוזה",
+    "price": 72,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec9i7fn8IEZ6qJrS",
+    "name": "פוזילי נפוליטנה טבעונית  ",
+    "price": 59,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8877Hm3yo0sD40",
+    "name": "אורז  ",
+    "price": 16,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reccnHclGBChQgJYa",
+    "name": "תפוח אדמה מדורה  ",
+    "description": "עם קרם לבנה",
+    "price": 18,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec1FaXbWwqH9EmxI",
+    "name": "סלט חסות אישי",
+    "price": 18,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec7nCmTpIqiTB0Hh",
+    "name": "צ׳יפס ",
+    "price": 18,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recOjcpmR9BvDClGr",
+    "name": "ארוחת ילדים",
+    "description": "מנת פיצה/פסטה/שניצלונים ושתיה לבחירה (תפוזים/לימונדה)",
+    "price": 51,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recIXKkDgX1wVC9ae",
+    "name": "קסטה הפוכה",
+    "description": "גלידת מסקרפונה, טוויל שקדים, עוגיות באטר-סקוטצ', קקאו וקרמל טופי",
+    "price": 46,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recTbGztoxvLVIART",
+    "name": "פיצה נונוטלה ",
+    "description": "ממרח נוטלה, קוקוס ואגוזי לוז",
+    "price": 44,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recZOt2bcjTIebJG6",
+    "name": "פס ג׳אנדויה",
+    "description": "בצק פריך, אגוזי לוז, קרם שוקולד ושנטילי שוקולד חלב, מוגש עם גלידת מסקרפונה",
+    "price": 46,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reclqJLNu4CWTtvVC",
+    "name": "עוגת גבינה אפויה ",
+    "description": "וקולי פטל",
+    "price": 44,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recxLUfM4H8kERPno",
+    "name": "מוס שוקולד קרמל ",
+    "description": "עם שקדים מסוכרים",
+    "price": 39,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reckxTJZv1xl4Gsr8",
+    "name": "טירמיסו",
+    "description": "קרם מסקרפונה, ביסקוטי, קרם קפה וקקאו",
+    "price": 45,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec03gwwKG5CCCXjT",
+    "name": "פאדג׳ שוקולד חם ",
+    "description": "מוגש עם גלידת וניל ושברי וופל",
+    "price": 45,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reccvvrJozV0s4YHK",
+    "name": "גלידת NONO  ",
+    "description": "גלידה גדולה 51",
+    "price": 22,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reciorigEXDcKNMAN",
+    "name": "פטוצ׳יני - מארז פסטה ביתית",
+    "description": "רצועות פסטה ארוכות, דקות ושטוחות עשויות מבצק עשיר בביצים",
+    "price": 31,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recGrtTmKLKXX2U5S",
+    "name": "פטוצ׳יני ארוגולה - מארז פסטה ביתית",
+    "description": "רצועות פסטה ארוכות, דקות ושטוחות עשויות מבצק עשיר בביצים וארוגולה",
+    "price": 32,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recndj7terkQFz22i",
+    "name": "פפרדלה - מארז פסטה ביתית",
+    "description": "רצועות פסטה ארוכות ושטוחות עשויות מבצק עשיר בביצים",
+    "price": 29,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recdgqgjfCNQHRzql",
+    "name": "ניוקי תפוח אדמה - מארז פסטה ביתית",
+    "description": "כופתאות איטלקיות של תפו״א ופרזמן",
+    "price": 32,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recvtTliatEyCIXOT",
+    "name": "ניוקי תרד - מארז פסטה ביתית",
+    "description": "כופתאות איטלקיות של תרד ותפו״א",
+    "price": 32,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec993myn4OV1JZBf",
+    "name": "רוטב לפסטה - שמנת פרובלונה",
+    "description": "רוטב שמנת, חמאה וגבינת פרובלונה",
+    "price": 36,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recyOeA7TlKQ9uoZH",
+    "name": "רוטב לפסטה - שרי",
+    "description": "רוטב עגבניות שרי תמר, שמן זית, שום ופלפל צ׳ומה",
+    "price": 34,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec5Fryaz8bPVN7h9",
+    "name": "רוטב לפסטה - רוזה",
+    "description": "רוטב עגבניות שרי תמר עם שמנת מתוקה",
+    "price": 36,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "receZnvcw4CQwjcgJ",
+    "name": "רוטב לפסטה - בזיליקום וגבינות",
+    "description": "רוטב פסטו בזיליקום עם יוגורט וגבינות",
+    "price": 35,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
   }
 ]
