@@ -15,6 +15,7 @@ import {
 import { VscVersions as SizesIcon } from 'react-icons/vsc'
 import { BsBasket as IngredientsIcon } from 'react-icons/bs'
 import { TiWarningOutline as WarningsIcon } from 'react-icons/ti'
+import { MdWarningAmber as AllergensIcon } from 'react-icons/md'
 import {
   CgPlayListAdd as DescriptionIcon,
   CgMathPercent as NutritionIcon,
@@ -24,6 +25,8 @@ import DinerOrderController from './DinerOrderController'
 import DescriptionInfo from './DescriptionInfo'
 import ChangesInfo from './ChangesInfo'
 import IngredientsInfo from './IngredientsInfo'
+import AllergensInfo from './AllergensInfo'
+
 import { t } from 'i18next'
 
 const ActionButton = styled(IconButton)({
@@ -78,6 +81,16 @@ export default function DishExtraInfo({ data }) {
             <Typography sx={{ fontSize: 12 }}>{t('changes')}</Typography>
           </ActionButton>
         )}
+
+        {
+          <ActionButton
+            color={expandedMoreInfo === 'allergens' ? 'primary' : 'default'}
+            onClick={handleClickMoreInfoBtn('allergens')}
+          >
+            <AllergensIcon />
+            <Typography sx={{ fontSize: 12 }}>{t('allergens')}</Typography>
+          </ActionButton>
+        }
 
         {data.recipe.nutrition && (
           <ActionButton
@@ -152,7 +165,9 @@ function ExpandedInfo({ type, data }) {
   case 'ingredients': {
     return <IngredientsInfo data={data} />
   }
-
+  case 'allergens': {
+    return <AllergensInfo data={data} />
+  }
   default:
     return null
   }

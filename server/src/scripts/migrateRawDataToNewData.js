@@ -250,6 +250,7 @@ const modifiedDishes = dishes.map(dish => {
 fs.writeFileSync('./src/data/new/sizes.json', JSON.stringify(sizes))
 fs.writeFileSync('./src/data/new/kitchens.json', JSON.stringify(kitchens))
 fs.writeFileSync('./src/data/new/diets.json', JSON.stringify(diets))
+fs.writeFileSync('./src/data/new/allergens.json', JSON.stringify(allergens))
 fs.writeFileSync('./src/data/new/menus.json', JSON.stringify(menus))
 fs.writeFileSync('./src/data/new/locations.json', JSON.stringify(locations))
 fs.writeFileSync('./src/data/new/workingHours.json', JSON.stringify(workingHours))

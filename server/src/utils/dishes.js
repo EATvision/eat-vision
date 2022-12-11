@@ -158,7 +158,13 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           ingredientsExludedInFoodGroups,
           isFilteredOut,
+          allergens: excludableIngredientsAllergens,
         } = getComponentLimitations(component, filters)
+
+        dishAllergens = uniq([
+          ...excludableIngredientsAllergens,
+          ...dishAllergens,
+        ])
 
         return {
           ...component,
@@ -178,7 +184,13 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           ingredientsExludedInFoodGroups,
           isFilteredOut,
+          allergens: choiceIngredientsAllergens,
         } = getComponentLimitations(component, filters)
+
+        dishAllergens = uniq([
+          ...choiceIngredientsAllergens,
+          ...dishAllergens,
+        ])
 
         return {
           ...component,
@@ -199,6 +211,7 @@ const getModifiedDishes = (dishes, filters) =>
       )
 
     const modifiedSideDishes = dish.recipe.sideDish?.map((sideDish) => ({
+      // TODO: this is a recursive call! Need to add a stop condition to avoid infinite loops!
       ...getModifiedDishes([dishesById[sideDish.id]], filters)[0],
       price: sideDish.price,
     }))
@@ -210,7 +223,13 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           ingredientsExludedInFoodGroups,
           isFilteredOut,
+          allergens: addableIngredientsAllergens,
         } = getComponentLimitations(component, filters)
+
+        dishAllergens = uniq([
+          ...addableIngredientsAllergens,
+          ...dishAllergens,
+        ])
 
         return {
           ...component,
@@ -229,6 +248,7 @@ const getModifiedDishes = (dishes, filters) =>
 
     return {
       ...dish,
+      dishAllergens,
       isMainDishFilteredOut,
       intersectingExcludedMandatoryIngredients,
       mandatoryIngredientsExludedInDiets,
