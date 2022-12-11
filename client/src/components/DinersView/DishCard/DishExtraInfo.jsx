@@ -82,7 +82,7 @@ export default function DishExtraInfo({ data }) {
           </ActionButton>
         )}
 
-        {
+        {data?.dishAllergens?.length > 0 && (
           <ActionButton
             color={expandedMoreInfo === 'allergens' ? 'primary' : 'default'}
             onClick={handleClickMoreInfoBtn('allergens')}
@@ -90,7 +90,7 @@ export default function DishExtraInfo({ data }) {
             <AllergensIcon />
             <Typography sx={{ fontSize: 12 }}>{t('allergens')}</Typography>
           </ActionButton>
-        }
+        )}
 
         {data.recipe.nutrition && (
           <ActionButton
