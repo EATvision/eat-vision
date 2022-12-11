@@ -2,14 +2,14 @@ import React from 'react'
 import { Outlet, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { useKitchenById } from 'hooks/kitchens'
+import { useV1KitchenById } from 'hooks/kitchens'
 import { t } from 'i18next'
 
 function KitchenPage() {
   const { kitchenId } = useParams()
   const { i18n } = useTranslation()
 
-  const { kitchen, isLoading, isError } = useKitchenById(kitchenId)
+  const { kitchen, isLoading, isError } = useV1KitchenById(kitchenId)
 
   React.useEffect(() => {
     if (kitchen) {

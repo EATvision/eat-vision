@@ -4,7 +4,7 @@ import { Box, Button, Typography, useTheme } from '@mui/material'
 import { useParams, Navigate, useNavigate } from 'react-router-dom'
 
 import { getRelevantMenus } from 'utils/menus'
-import { useKitchenById, useKitchenMenusById } from 'hooks/kitchens'
+import { useV1KitchenById, useKitchenMenusById } from 'hooks/kitchens'
 
 function MenusPage() {
   const theme = useTheme()
@@ -12,7 +12,7 @@ function MenusPage() {
   const { kitchenId } = useParams()
   const { t } = useTranslation()
 
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
   const { menus, isLoading, isError } = useKitchenMenusById(kitchenId)
 
   const relevantMenus = getRelevantMenus(menus)

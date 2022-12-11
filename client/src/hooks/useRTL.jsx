@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { useKitchenById } from './kitchens'
+import { useV1KitchenById } from './kitchens'
 
 const RTL_LANGS = ['he-IL']
 
@@ -10,7 +10,7 @@ const defaultIsRTL = RTL_LANGS.includes(defaultLang)
 const useIsRTL = () => {
   const [isRTL, setIsRTL] = React.useState(defaultIsRTL)
   const { kitchenId } = useParams()
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
 
   React.useEffect(() => {
     if (kitchen?.locale) {

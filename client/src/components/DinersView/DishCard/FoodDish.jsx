@@ -13,7 +13,7 @@ import {
 
 import ClampLines from 'react-clamp-lines'
 import { t } from 'i18next'
-import { useKitchenById } from 'hooks/kitchens'
+import { useV1KitchenById } from 'hooks/kitchens'
 
 import DishRecipeTypeChips from './DishRecipeTypeChips'
 import AskForChangesBtn from './AskForChangesBtn'
@@ -22,7 +22,7 @@ import DishExtraInfo from './DishExtraInfo'
 export default function FoodDish({ data }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
 
   const [selectedComponents, setSelectedComponents] = React.useState({
     choice: [],

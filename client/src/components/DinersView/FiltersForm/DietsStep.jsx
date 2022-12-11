@@ -13,7 +13,7 @@ import { Check as CheckIcon } from '@mui/icons-material'
 import { useTranslation } from 'react-i18next'
 import { useDinerUser } from 'contexts/diner'
 import { useDiets } from 'hooks/diets'
-import { useKitchenById } from 'hooks/kitchens'
+import { useV1KitchenById } from 'hooks/kitchens'
 import FixedBottomConrainer from 'components/FixedBottomContainer'
 
 function DietsSelector({ onNext, onBack }) {
@@ -21,7 +21,7 @@ function DietsSelector({ onNext, onBack }) {
   const { t } = useTranslation()
   const dinerUser = useDinerUser()
   const { kitchenId } = useParams()
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
 
   const { diets, isLoading } = useDiets()
 

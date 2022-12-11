@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { AppBar, IconButton, Toolbar, Typography } from '@mui/material'
 import BackIcon from '@mui/icons-material/ArrowBack'
 
-import { useKitchenById, useKitchenMenusById } from 'hooks/kitchens'
+import { useV1KitchenById, useKitchenMenusById } from 'hooks/kitchens'
 
 function KitchenHeader() {
   const navigate = useNavigate()
@@ -12,7 +12,7 @@ function KitchenHeader() {
   const { kitchenId, menuId } = useParams()
   const { i18n } = useTranslation()
 
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
   const { menus } = useKitchenMenusById(kitchenId)
 
   const handleClickBack = () => {
