@@ -86,11 +86,11 @@ const modifiedDishes = dishes.map(dish => {
   const sizes = [
     sizesObject?.['smallest_size_name'] && {
       type: sizesObject['smallest_size_name'],
-      price: sizesObject['smallest_price_delta']
+      price: sizesObject['smallest_price']
     },
     sizesObject?.['2nd_size_name'] && {
       type: sizesObject['2nd_size_name'],
-      price: sizesObject['2nd_size_price_delta']
+      price: sizesObject['2nd_size_price']
     },
     sizesObject?.['3nd_size_name'] && {
       type: sizesObject['3nd_size_name'],

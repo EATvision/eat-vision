@@ -174,11 +174,11 @@ base('tblGbdDm36AXYWlSM')
     const data = records.map((r) => ({
       id: r.getId(),
       smallest_size_name: r.get('smallest_size_name')?.trim(),
-      smallest_price_delta: r.get('smallest_price_delta'),
+      smallest_price: r.get('smallest_price'),
       '2nd_size_name': r.get('2nd_size_name')?.trim(),
-      '2nd_size_price_delta': r.get('2nd_size_price_delta'),
+      '2nd_size_price': r.get('2nd_size_price'),
       '3rd_size_name': r.get('3rd_size_name')?.trim(),
-      '3rd_size_price_delta': r.get('3rd_size_price_delta'),
+      '3rd_size_price': r.get('3rd_size_price'),
     }))
     sizes = data
     const transformStream = JSONStream.stringify()
