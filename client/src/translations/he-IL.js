@@ -72,6 +72,7 @@ export default {
   changes: 'שינויים',
   sizes: 'גדלים',
   ingredients: 'רכיבים',
+  allergens: 'אלרגנים',
   menu_options: 'תפריטים לבחירה',
   choice: 'לבחירה',
   addableComponents: 'תוספות',
