@@ -40,6 +40,7 @@ const getComponentLimitations = (component, filters) => {
   let intersectingExcludedIngredients = []
   let ingredientsExludedInFoodGroups = []
   let ingredientsExludedInDiets = []
+  let combinedChildIngredientsAllergens = []
   let isFilteredOut = false
 
   const excludedComponents = [
@@ -58,7 +59,13 @@ const getComponentLimitations = (component, filters) => {
 
     const combinedChildIngredientsFoodGroups = uniq(
       allChildIngredients.reduce((acc, ing) => {
-        return [...acc, ...(ingredientsById?.[ing]?.foodGroups || [])]
+        return [...acc, ...(ingredientsById?.[ing]?.allergens || [])]
+      }, [])
+    )
+
+    combinedChildIngredientsAllergens = uniq(
+      allChildIngredients.reduce((acc, ing) => {
+        return [...acc, ...(ingredientsById?.[ing]?.allergens || [])]
       }, [])
     )
 
@@ -66,6 +73,7 @@ const getComponentLimitations = (component, filters) => {
       excludedComponents,
       allChildIngredients
     )
+
     ingredientsExludedInDiets = intersection(
       filters.diets || [],
       combinedChildIngredientsExcludedInDiets
@@ -85,6 +93,7 @@ const getComponentLimitations = (component, filters) => {
     intersectingExcludedIngredients,
     ingredientsExludedInDiets,
     ingredientsExludedInFoodGroups,
+    allergens: combinedChildIngredientsAllergens,
     isFilteredOut,
   }
 }
@@ -95,6 +104,7 @@ const getModifiedDishes = (dishes, filters) =>
     let intersectingExcludedMandatoryIngredients = []
     let intersectingExcludedMandatoryFoodGroups = []
     let mandatoryIngredientsExludedInDiets = []
+    let dishAllergens = []
 
     const modifiedMandatoryComponents = dish.recipe.mandatory?.map(
       (component) => {
@@ -103,6 +113,7 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           ingredientsExludedInFoodGroups,
           isFilteredOut,
+          allergens: mandatoryIngredientsAllergens,
         } = getComponentLimitations(component, filters)
 
         intersectingExcludedMandatoryIngredients = uniq([
@@ -116,6 +127,11 @@ const getModifiedDishes = (dishes, filters) =>
         mandatoryIngredientsExludedInDiets = uniq([
           ...ingredientsExludedInDiets,
           ...mandatoryIngredientsExludedInDiets,
+        ])
+
+        dishAllergens = uniq([
+          ...mandatoryIngredientsAllergens,
+          ...dishAllergens,
         ])
 
         isMainDishFilteredOut =
