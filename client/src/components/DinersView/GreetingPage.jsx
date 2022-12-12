@@ -16,6 +16,7 @@ import waiterSrc from '../../images/waiter_transparent_fullbody.png'
 import { defaultFilters, doesUserHaveFilters } from 'utils/filters'
 import Login from 'components/Login'
 import { useDinerUser } from 'contexts/diner'
+import { useV1KitchenById } from 'hooks/kitchens'
 
 function GreetingPage() {
   const theme = useTheme()
@@ -23,6 +24,7 @@ function GreetingPage() {
   const { kitchenId, menuId } = useParams()
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'))
   const dinerUser = useDinerUser()
+  const { kitchen } = useV1KitchenById(kitchenId)
 
   const [isLoginOpen, setIsLoginOpen] = React.useState(false)
 
@@ -58,6 +60,15 @@ function GreetingPage() {
         }}
       >
         <Box sx={{ margin: 'auto' }}>
+          <Box>
+            <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+              <img
+                className="w-full h-full object-center object-fit group-hover:opacity-75"
+                src={kitchen?.image?.[0]?.url}
+                alt=""
+              />
+            </div>
+          </Box>
           <Box
             sx={{
               position: 'relative',
