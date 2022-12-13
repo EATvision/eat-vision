@@ -7,7 +7,10 @@ import TreeItem, { treeItemClasses } from '@mui/lab/TreeItem'
 import Collapse from '@mui/material/Collapse'
 // web.cjs is required for IE11 support
 import { useSpring, animated } from 'react-spring'
-import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
+import {
+  useGetComponentLabel,
+  useV1IngredientsByIds,
+} from 'hooks/ingredients/ingredients'
 
 function MinusSquare(props) {
   return (

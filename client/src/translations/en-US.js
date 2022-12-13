@@ -105,6 +105,7 @@ export default {
   sideDish_ingredients: 'sideDish ingredients',
   addable_ingredients: 'addable ingredients',
   addableDishes_ingredients: 'addableDishes ingredients',
+  translated_language: 'in english',
   tabs: {
     admin: {
       foodGroups: 'food groups',
@@ -127,4 +128,15 @@ export default {
   empty_components_restriction_selector: 'No choices selected yet',
   order_summary: 'order summary',
   complete_order: 'complete order',
+  edit_ingredient: 'Edit ingredient',
+  create_ingredient: 'create ingredient',
+  id: 'id',
+  name: 'name',
+  translation_heb: 'translation to hebrew',
+  synonyms: 'synonyms',
+  tags: 'tags',
+  food_groups: 'food groups',
+  is_searchable: 'is searchable',
+  sub_ingredients: 'sub ingredients',
+  excluded_in_diets: 'excluded in diet',
 }

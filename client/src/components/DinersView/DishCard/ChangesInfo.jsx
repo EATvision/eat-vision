@@ -11,7 +11,10 @@ import {
 import { t } from 'i18next'
 import CheckIcon from '@mui/icons-material/Check'
 
-import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
+import {
+  useGetComponentLabel,
+  useV1IngredientsByIds,
+} from 'hooks/ingredients/ingredients'
 
 const _keyBy = require('lodash/keyBy')
 

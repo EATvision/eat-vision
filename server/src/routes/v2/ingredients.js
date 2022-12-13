@@ -8,7 +8,7 @@ const ingredientsCollectionOperations = getCollectionOperations('ingredients')
 
 const router = Router()
 
-const getQueryAggregation = (query) => {
+const getQueryAggregation = ({ query, count }) => {
   const aggregation = []
 
   if (query.search) {
@@ -29,6 +29,16 @@ const getQueryAggregation = (query) => {
     )
   }
 
+  if (query.lookUpSubIngredients) {
+    aggregation.push({
+      $lookup: {
+        from: 'ingredients',
+        localField: 'subIngredients',
+        foreignField: 'id',
+        as: 'subIngredients',
+      },
+    })
+  }
   if (query.id) {
     aggregation.push({
       $match: {
@@ -37,19 +47,32 @@ const getQueryAggregation = (query) => {
     })
   }
 
-  aggregation.push({ $skip: query.skip || 0 }, { $limit: query.limit || 100 })
+  if (count) {
+    aggregation.push({ $count: 'id' })
+  } else {
+    aggregation.push(
+      { $skip: parseInt(query.skip) || 0 },
+      { $limit: parseInt(query.limit) || 100 }
+    )
+  }
 
   return aggregation
 }
 
 router.get('/', async (req, res, next) => {
   try {
-    const aggregation = getQueryAggregation(req.query)
+    const aggregation = getQueryAggregation({ query: req.query })
     const ingredients = await ingredientsCollectionOperations.aggregate(
       aggregation
     )
+    const amountOfIngredients = await ingredientsCollectionOperations.aggregate(
+      getQueryAggregation({ query: req.query, count: true })
+    )
 
-    return res.send(ingredients)
+    return res.send({
+      ingredients,
+      amountOfIngredients: amountOfIngredients[0]?.id || 0,
+    })
   } catch (error) {
     const message = `Could not get ingredients: ${error.message}`
     return next(createHttpError(500, message))

@@ -23,7 +23,7 @@ import { t } from 'i18next'
 import ClampLines from 'react-clamp-lines'
 
 import { useKitchenById } from 'hooks/kitchens'
-import { useGetComponentLabel } from 'hooks/ingredients'
+import { useGetComponentLabel } from 'hooks/ingredients/ingredients'
 
 export default function DishAccordion({ data }) {
   const theme = useTheme()

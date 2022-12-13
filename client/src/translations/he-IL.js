@@ -104,6 +104,7 @@ export default {
   sideDish_ingredients: 'רכיבי מנות צד',
   addable_ingredients: 'רכיבים הניתנים להוספה',
   addableDishes_ingredients: 'מנות הניתנות להוספה',
+  translated_language: 'מטורגם לעברית',
   tabs: {
     admin: {
       foodGroups: 'קבוצות אוכל',
@@ -126,4 +127,15 @@ export default {
   empty_components_restriction_selector: 'טרם נבחרו אופציות',
   order_summary: 'סיכום הזמנה',
   complete_order: 'אישור',
+  edit_ingredient: 'ערוך רכיב',
+  create_ingredient: 'צור רכיב',
+  id: 'מזהה',
+  name: 'שם',
+  translation_heb: 'תרגום לעברית',
+  synonyms: '',
+  tags: '',
+  food_groups: 'קבוצות אוכל',
+  is_searchable: 'ניתן לחיפוש',
+  sub_ingredients: 'תת מרכיבים',
+  excluded_in_diets: '??',
 }

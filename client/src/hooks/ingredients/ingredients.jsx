@@ -1,6 +1,5 @@
-import { useMemo } from 'react'
 import useSWR from 'swr'
-import _keyBy from 'lodash/keyBy'
+
 import { useParams } from 'react-router-dom'
 
 import fetcher from 'api/fetcher'
@@ -27,28 +26,6 @@ export const useV1IngredientsByIds = (ids = []) => {
 
   return {
     ingredients: data,
-    isLoading: !error && !data,
-    isError: error,
-    ...rest,
-  }
-}
-
-export const useIngredients = ({ search, mapById = false } = {}) => {
-  const options = []
-  if (search) {
-    options.push(`search=${search}`)
-  }
-  const { data, error, ...rest } = useSWR(
-    `/api/v2/ingredients?${options.join('&')}`,
-    fetcher
-  )
-  const ingredients = useMemo(() => {
-    if (!mapById) return data
-    return _keyBy(data, 'id')
-  }, [data, mapById])
-
-  return {
-    ingredients,
     isLoading: !error && !data,
     isError: error,
     ...rest,

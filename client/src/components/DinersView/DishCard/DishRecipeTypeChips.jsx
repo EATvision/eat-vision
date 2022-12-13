@@ -10,7 +10,7 @@ import {
 } from '@mui/material'
 
 import { useKitchenById } from 'hooks/kitchens'
-import { useGetComponentLabel } from 'hooks/ingredients'
+import { useGetComponentLabel } from 'hooks/ingredients/ingredients'
 
 const LTRTypography = styled(Typography)`
   /* @noflip */

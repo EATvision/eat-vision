@@ -1,5 +1,5 @@
 import React from 'react'
-import { useV1IngredientsByIds } from 'hooks/ingredients'
+import { useV1IngredientsByIds } from 'hooks/ingredients/ingredients'
 import IngredientsTree from 'components/DinersView/DishCard/IngredientsTree'
 
 function IngredientsInfo({ data }) {
