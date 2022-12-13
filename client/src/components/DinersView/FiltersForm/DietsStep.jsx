@@ -65,10 +65,29 @@ function DietsSelector({ onNext, onBack }) {
           marginBottom: theme.spacing(10),
           overflow: 'auto',
           padding: theme.spacing(2),
+          paddingTop: 0,
 
           // boxShadow: 'inset 0px 0px 9px 0px #726c66',
         }}
       >
+        <ToggleButton
+          fullWidth
+          color="primary"
+          value="none"
+          sx={{
+            justifyContent: 'flex-start',
+            fontSize: 16,
+            padding: `${theme.spacing(1)} ${theme.spacing(1)}`,
+            border: 0,
+            textAlign: 'start',
+            borderBottom: `1px solid ${theme.palette.divider}`,
+          }}
+        >
+          {t('no_specific_diet')}
+          {dinerUser.user.filters.diets.length === 0 && (
+            <CheckIcon sx={{ marginLeft: 'auto' }} />
+          )}
+        </ToggleButton>
         {diets.map((diet) => (
           <ToggleButton
             key={diet.id}

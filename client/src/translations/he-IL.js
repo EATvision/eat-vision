@@ -125,8 +125,12 @@ export default {
   profile: 'פרופיל',
   deal: 'DEAL',
   empty_components_restriction_selector: 'טרם נבחרו אופציות',
+  empty_order: 'לא נבחרו אף מנות',
   order_summary: 'סיכום הזמנה',
   complete_order: 'אישור',
   what_would_you_like: 'מה נשמע לכם טוב?',
-  you_can_tag_all_that_seems_to_your_liking: 'אנא סמנו מנות שמדברות אליכם'
+  you_can_tag_all_that_seems_to_your_liking: 'אנא סמנו מנות שמדברות אליכם',
+  my_order_title_no_choices: 'אין מנות שעניינו אותך?',
+  my_order_title: 'הזמנה דרכי בקרוב!',
+  my_order_subtitle: '(עד אז, קראו למלצר והזמינו דרכו את בחירתכם...)',
 }

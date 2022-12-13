@@ -122,7 +122,7 @@ export default function DishExtraInfo({ data }) {
           </ActionButton>
         )}
 
-        {data.dishType !== 'drink' && data.recipe.mandatory.length > 0 && (
+        {data.dishType !== 'drink' && (
           <ActionButton
             color={expandedMoreInfo === 'ingredients' ? 'primary' : 'default'}
             onClick={handleClickMoreInfoBtn('ingredients')}

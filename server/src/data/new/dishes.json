@@ -8388,7 +8388,7 @@
       },
       {
         "type": "pitcher",
-        "price": 27
+        "price": 41
       }
     ],
     "recipe": {
@@ -8455,7 +8455,7 @@
       },
       {
         "type": "Large",
-        "price": 14
+        "price": 28
       }
     ],
     "recipe": {
@@ -8484,7 +8484,7 @@
       },
       {
         "type": "bottle",
-        "price": 388
+        "price": 435
       }
     ],
     "recipe": {
@@ -8518,7 +8518,7 @@
       },
       {
         "type": "bottle",
-        "price": 388
+        "price": 435
       }
     ],
     "recipe": {
@@ -8887,7 +8887,7 @@
       },
       {
         "type": "glass",
-        "price": 1
+        "price": 25
       }
     ],
     "recipe": {
@@ -9014,7 +9014,7 @@
       },
       {
         "type": "pitcher",
-        "price": 33
+        "price": 57
       }
     ],
     "recipe": {
@@ -9160,7 +9160,7 @@
       },
       {
         "type": "pitcher",
-        "price": 39
+        "price": 68
       }
     ],
     "recipe": {
@@ -9255,7 +9255,7 @@
       },
       {
         "type": "bottle",
-        "price": 491
+        "price": 535
       }
     ],
     "recipe": {
@@ -9471,7 +9471,7 @@
       },
       {
         "type": "bottle",
-        "price": 446
+        "price": 495
       }
     ],
     "recipe": {
@@ -9659,7 +9659,7 @@
       },
       {
         "type": "bottle",
-        "price": 90
+        "price": 129
       }
     ],
     "recipe": {
@@ -9694,7 +9694,7 @@
       },
       {
         "type": "bottle",
-        "price": 88
+        "price": 126
       }
     ],
     "recipe": {
@@ -9729,7 +9729,7 @@
       },
       {
         "type": "bottle",
-        "price": 126
+        "price": 169
       }
     ],
     "recipe": {
@@ -9985,7 +9985,7 @@
       },
       {
         "type": "bottle",
-        "price": 88
+        "price": 126
       }
     ],
     "recipe": {
@@ -10169,7 +10169,7 @@
       },
       {
         "type": "bottle",
-        "price": 406
+        "price": 445
       }
     ],
     "recipe": {
@@ -10204,7 +10204,7 @@
       },
       {
         "type": "bottle",
-        "price": 630
+        "price": 685
       }
     ],
     "recipe": {
@@ -10238,7 +10238,7 @@
       },
       {
         "type": "bottle",
-        "price": 626
+        "price": 685
       }
     ],
     "recipe": {
@@ -10308,7 +10308,7 @@
       },
       {
         "type": "bottle",
-        "price": 651
+        "price": 710
       }
     ],
     "recipe": {
@@ -10343,7 +10343,7 @@
       },
       {
         "type": "bottle",
-        "price": 545
+        "price": 590
       }
     ],
     "recipe": {
@@ -10377,7 +10377,7 @@
       },
       {
         "type": "bottle",
-        "price": 652
+        "price": 710
       }
     ],
     "recipe": {
@@ -10505,7 +10505,7 @@
       },
       {
         "type": "bottle",
-        "price": 733
+        "price": 810
       }
     ],
     "recipe": {
@@ -10570,7 +10570,7 @@
       },
       {
         "type": "bottle",
-        "price": 93
+        "price": 131
       }
     ],
     "recipe": {
@@ -10605,7 +10605,7 @@
       },
       {
         "type": "bottle",
-        "price": 97
+        "price": 136
       }
     ],
     "recipe": {
@@ -10640,7 +10640,7 @@
       },
       {
         "type": "bottle",
-        "price": 140
+        "price": 189
       }
     ],
     "recipe": {
@@ -10675,7 +10675,7 @@
       },
       {
         "type": "bottle",
-        "price": 140
+        "price": 189
       }
     ],
     "recipe": {
@@ -10710,7 +10710,7 @@
       },
       {
         "type": "bottle",
-        "price": 89
+        "price": 128
       }
     ],
     "recipe": {
@@ -11206,7 +11206,7 @@
       },
       {
         "type": "pitcher",
-        "price": 27
+        "price": 41
       }
     ],
     "recipe": {
@@ -11281,7 +11281,7 @@
       },
       {
         "type": "Large",
-        "price": 14
+        "price": 28
       }
     ],
     "recipe": {
@@ -15612,9 +15612,52 @@
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
-      "putaside": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recKP9gmvdeBVd3PC"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recTXYb7Jev6hShYb"
+        },
+        {
+          "type": "ingredient",
+          "id": "recuVzDJmexZODfGR"
+        },
+        {
+          "type": "ingredient",
+          "id": "reclduOWzTIpO3pXL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXVDmuCph7L8giZ"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec790UdQSjJXmK6w"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeP1xYyxAkCH3C"
+        },
+        {
+          "type": "ingredient",
+          "id": "recHtp7feIuyKBefx"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "recTXYb7Jev6hShYb"
+        },
+        {
+          "type": "ingredient",
+          "id": "recuVzDJmexZODfGR"
+        }
+      ],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -15625,15 +15668,87 @@
     "id": "recAdYyvsZEFIwdsm",
     "name": "מאפה סטלה במילוי גבינות",
     "description": "שרי תמר, ארוגולה ובלסמי",
+    "longDescription": " בצק פיצה מגולגל בצורה של כוכב (סטלה = כוכב באיטלקית) ממולא בשש גבינות: גבינת שמנת, ריקוטה, פטה, פרמז'ן, גאודה ומוצרלה. בין \"עלי הכותרת\" של הפרח מפזרים אורוגולה ועגבניות שרי תמר מתובלות בשמן זית, בלסמי מצומצם ומלח גס. ",
     "categories": [
       "recd0cECtpQQWxVeQ"
     ],
+    "image": {
+      "id": "attXyX1dW92ngCPTM",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/1e13e47bf02d81b446012efbabdd4317/bbc0027c.png",
+      "filename": "מאפה סטלה.png",
+      "size": 1756369,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a00efd6ab1dd030103e2a759e0ab1ae6/03b54e6d",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/cfd42d6f4c0d01aa91a75eb83eae1727/c0adceb2",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/61dccc693531e3c4c7a3be3569deda82/d657c6a1",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 59,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec6X0hBxBaz2cmCE"
+        },
+        {
+          "type": "ingredient",
+          "id": "recV32ATO1E8lqGEJ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recledEGghurGJUyt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recJo42Me9nZPNvzD"
+        },
+        {
+          "type": "ingredient",
+          "id": "rectpZHKSyKnbUYSb"
+        },
+        {
+          "type": "ingredient",
+          "id": "rect1LNJrFb1vNeo9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recKSASF1pOY5YyJE"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeP1xYyxAkCH3C"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec790UdQSjJXmK6w"
+        },
+        {
+          "type": "ingredient",
+          "id": "recL6nWezrcnaFFHu"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7xylEWFzraaYWF"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -15654,7 +15769,40 @@
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recWQN9KKufUJeGN4"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqxARDw9YU3hhtf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recYF9oLRygw5LlQW"
+        },
+        {
+          "type": "ingredient",
+          "id": "recQr7n4Kr7f24oao"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec9nzkNGPE3RbNEq"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec94BZ9WXxBHtkTf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recdbDQxQOxgcKhZT"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -15667,18 +15815,117 @@
     "id": "recVYKplvhnc1TzcB",
     "name": "סלט קאפרי ",
     "description": "עגבניות מגי, ארטישוק צרוב, בצל סגול, חסה אייסברג, קרעי מוצרלה, קרם יוגורט, פסטו ארוגולה לימוני, עלי בזיליקום ואורגנו, קרעי פוקאצ'ה ושמן זית",
+    "longDescription": " עגבניות מגי, ארטישוק צרוב, בצל סגול, חסה אייסברג, קרעי מוצרלה, קרם יוגורט,\n",
     "categories": [
       "recd0cECtpQQWxVeQ"
     ],
+    "image": {
+      "id": "attXC6ja4ofBGy8ME",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/3ab6a58ec1383c49fb5b340b5ba49f3d/7695f1c9.png",
+      "filename": "סלט קאפרי.png",
+      "size": 1152288,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b3837a3615b1c284a927b38994e6a261/33f2866d",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e5c1fbc002e444e019a978b40107f598/3415fda5",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/fff06654622db552a40c53739d97a161/204da8f5",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 62,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recF4kNRSYYyYeq44"
+        },
+        {
+          "type": "ingredient",
+          "id": "recVGUtW7tgIJnRqR"
+        },
+        {
+          "type": "ingredient",
+          "id": "rect1LNJrFb1vNeo9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recvYxeuh92qkRxXF"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0OnKP0IIRt69My"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "reco4QENFZZfn59Rv"
+        },
+        {
+          "type": "ingredient",
+          "id": "recBM04SMj0GL352q"
+        },
+        {
+          "type": "ingredient",
+          "id": "recw0nalpMU6oLXX1"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "reco4QENFZZfn59Rv"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        }
+      ],
+      "choice": [
+        [
+          {
+            "type": "ingredient",
+            "id": "recBdn2nY3QkRtToi",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "recfAvmhZuKMfNzdj",
+            "price": 0
+          }
+        ]
+      ],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -15688,18 +15935,88 @@
     "id": "recC7ZrkalznsZ5lK",
     "name": "סלט חסות  ",
     "description": "עגבניות שרי, צנוניות, חמוציות, מיקס גרעינים בויניגרט חרדל ולימון",
+    "longDescription": " עגבניות שרי, צנוניות, חמוציות, מיקס גרעינים בויניגרט חרדל ולימון ",
     "categories": [
       "recd0cECtpQQWxVeQ"
     ],
+    "image": {
+      "id": "attTrhapETFf5UQrk",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/9a98709ddaaadb13c043d54fb912f51e/a700a297.png",
+      "filename": "סלט חסות.png",
+      "size": 1142023,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e94a2fe55f5e97073d07b8bca8a5ac0f/0bf0cddd",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e938a065255b00c7701569bdccbaea47/4751901a",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1fee8ce6f1b51eb04266c94ec95dad5a/4d7c41b7",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 52,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recct6n6WQDV0QYSp"
+        },
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec790UdQSjJXmK6w"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recJViSTBnD2qrDj0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recQr7n4Kr7f24oao"
+        },
+        {
+          "type": "ingredient",
+          "id": "recw1vMYHYBX1SoC7"
+        },
+        {
+          "type": "ingredient",
+          "id": "recNvPtYTTk8p5zGd"
+        }
+      ],
       "putaside": [],
-      "choice": [],
+      "choice": [
+        [
+          {
+            "type": "ingredient",
+            "id": "recMsABfcQ3F7CcIz",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "recDKhYJBiCpWgdTO",
+            "price": 0
+          }
+        ]
+      ],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -15712,15 +16029,121 @@
     "categories": [
       "recd0cECtpQQWxVeQ"
     ],
+    "image": {
+      "id": "attHXIrtIKWBO8pqx",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/d40fac28b4373763680b67d7fb7b9449/b0996802.png",
+      "filename": "סלט איכרים.png",
+      "size": 1138514,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/9c1c11cabe9fea0fb0b80c5a327ddd82/d1381506",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7a7ffa9a3399cfb1a752d315fa1852e6/790b7f2b",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a756278048d353b15675fcdbabb5b59c/84766934",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 58,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
-      "putaside": [],
-      "choice": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recamPbxsPWkEj6Ep"
+        },
+        {
+          "type": "ingredient",
+          "id": "recqxARDw9YU3hhtf"
+        },
+        {
+          "type": "ingredient",
+          "id": "recWhT3UQO9QarKQG"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "reccBjf9jB1M1wVEU"
+        },
+        {
+          "type": "ingredient",
+          "id": "recT75pPiLq4ZQ7vR"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUgu4VS97xmblmv"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec9nzkNGPE3RbNEq"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeP1xYyxAkCH3C"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec7O6th1UojW4jyh"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0OnKP0IIRt69My"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec1AM31aRHTt44cU"
+        },
+        {
+          "type": "ingredient",
+          "id": "recRRvPzQBW8i3H37"
+        }
+      ],
+      "putaside": [
+        {
+          "type": "ingredient",
+          "id": "reccBjf9jB1M1wVEU"
+        }
+      ],
+      "choice": [
+        [
+          {
+            "type": "ingredient",
+            "id": "rec3KQOVljYF5IemU",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "recQV08wksomr9liE",
+            "price": 0
+          }
+        ],
+        [
+          {
+            "type": "ingredient",
+            "id": "recRRvPzQBW8i3H37",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "rec7B5O4yjGWigO6D",
+            "price": 0
+          }
+        ]
+      ],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -15730,13 +16153,97 @@
     "id": "recCVQI0xNvSWy4Wc",
     "name": "סלט כריות",
     "description": "פולנטה ומוצרלה פריכות, קרם פרש, עגבניות שרי, ירקות ירוקים, פילה לימון, בצל ירוק, בזיליקום ופלפל חריף",
+    "longDescription": "פולנטה ומוצרלה פריכות, קרם פרש, עגבניות שרי, ירקות ירוקים,\nפילה לימון, בצל ירוק, בזיליקום ופלפל חריף",
+    "categories": [
+      "recd0cECtpQQWxVeQ"
+    ],
+    "image": {
+      "id": "attxueDlPxzya0OcJ",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/0e9a1451c6db8c6c90f97de9945e23a2/c1b7cc87.png",
+      "filename": "סלט כריות.png",
+      "size": 1300252,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ed1aba8fd056dc339f848f75cd85130b/c5fedb8d",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a8ba26ef92e47e5742eca8ce06307a28/5f66f0de",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4b7f394c1c40cab6f64ca60244d2bb24/a2a45afc",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 59,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec7DQGrmbaI4iO4U"
+        },
+        {
+          "type": "ingredient",
+          "id": "recoTNIRKrnmcP6wQ"
+        },
+        {
+          "type": "ingredient",
+          "id": "recLflBv3FnTuDdZ9"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec966AOc3ZkXrWMJ"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0AdK4RqBoVSPgE"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0KdUIbGbJYD3aX"
+        },
+        {
+          "type": "ingredient",
+          "id": "recfbcuvxkNDs1ASt"
+        },
+        {
+          "type": "ingredient",
+          "id": "recUbXDwTIVaajLp9"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0OnKP0IIRt69My"
+        },
+        {
+          "type": "ingredient",
+          "id": "recbkZ4Zdt639ldkL"
+        },
+        {
+          "type": "ingredient",
+          "id": "recunwwkCTGfBX5yn"
+        },
+        {
+          "type": "ingredient",
+          "id": "recOKQe2BPlJ4MaOt"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recyljnPmldIlL0RZ"
+        }
+      ],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -15748,15 +16255,74 @@
     "id": "recVQ9pPR9GUAnboB",
     "name": "מרגריטה ",
     "description": "רוטב עגבניות, מוצרלה, פרמז'ן ובזיליקום",
+    "categories": [
+      "recZiSGtUVh0djoaT"
+    ],
+    "image": {
+      "id": "attNJXBPjdhgf3dnK",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/21f720535eeddea9ead4c94b71d5752d/6a674b30.png",
+      "filename": "פיצה מרגריטה.png",
+      "size": 3088399,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/eeb63a8e0de12a2d77e5aba438e62fbd/b5784ce0",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ef287788af955df03446d095117fac00/e6b30393",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0f56ac1ba5f06c27963b196c24d3663d/f6293f78",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 64,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recIpthm9hHhvbgtc"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0OnKP0IIRt69My"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeP1xYyxAkCH3C"
+        },
+        {
+          "type": "ingredient",
+          "id": "rect1LNJrFb1vNeo9"
+        }
+      ],
       "excludable": [],
       "putaside": [],
-      "choice": [],
+      "choice": [
+        [
+          {
+            "type": "ingredient",
+            "id": "recOB2hz9AamdAWsb",
+            "price": 0
+          },
+          {
+            "type": "ingredient",
+            "id": "recf2ayEScMCC01SM",
+            "price": 0
+          }
+        ]
+      ],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -15766,12 +16332,62 @@
     "id": "recAtNPUYQEEI67e7",
     "name": "פונגי ",
     "description": "רוטב עגבניות, מוצרלה, פרמז'ן, מיקס פטריות צלויות ובזיליקום",
+    "categories": [
+      "recZiSGtUVh0djoaT"
+    ],
+    "image": {
+      "id": "attRfmZ4Lszblb9U3",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/e8090949d862409e437c0474a4dccb66/e2dae335.png",
+      "filename": "פיצה פונגי.png",
+      "size": 3025068,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5646b5b483c136084aeb96a30b3f7503/5da52147",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/961714a67994a508d524c031f775808c/775218ac",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a22afdb58f617afa125ce19df40216bc/3ca7d737",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 73,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "rec85vHYHO9z7w0oP"
+        },
+        {
+          "type": "ingredient",
+          "id": "rect1LNJrFb1vNeo9"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec1NCGTr5NKTH2J5"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeP1xYyxAkCH3C"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec0OnKP0IIRt69My"
+        }
+      ],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -15784,6 +16400,36 @@
     "id": "recWA7chv2qOmvk2y",
     "name": "סלמי כפרי ",
     "description": "רוטב פומודורו, מוצרלה, פרמז'ן, סלמי (בקר ולבן), בצל סגול וירוק, תבשיל פלפלים איטלקי ופלפל חריף",
+    "longDescription": " פיצה ברוטב פומודורו עשיר עם מוצרלה, פרמז'ן, סלמי כפרי (בקר ובשר לבן), בצל ירוק, בצל אדום, תבשיל פלפלים איטלקי וצ'ילי.\nרוטב פומודורו - בצל, שום, פלפל אדום, צ'ילי, עגבניות, בזיליקום, פפריקה מעושנת ומתוקה.תבשיל פלפלים איטלקי - פלפל אדום, שמן זית, שום, אורגנו טרי, עגבניות, פפריקה מעושנת, חומץ יין אדום וצ'ילי ",
+    "categories": [
+      "recZiSGtUVh0djoaT"
+    ],
+    "image": {
+      "id": "attLeRzREEobcieR5",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/a5ae18893c5b13bb82b0d641d5649d13/62bd1aa4.png",
+      "filename": "פיצה סלמי כפרי.png",
+      "size": 3154882,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a1225c192183703319c78ba2ffbc250b/3196d52b",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/72eed472072b7cd30e0b931c2bbf7af6/df191a19",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4339d064f0c3cab4e9639d9ba6751679/0e3aad00",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 77,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15802,6 +16448,36 @@
     "id": "recwAc3xQ6XnvUje3",
     "name": "עגבניות מדורה ",
     "description": "רוטב עגבניות, מוצרלה, פרמז'ן, שום קונפי, עגבניות מיובשות, פלפל חריף, אורגנו ופטה",
+    "longDescription": " פיצה עגבניות מדורה רוטב עגבניות, מוצרלה, פרמז'ן, עגבניות שרי קונפי, פלפל חריף, אורגנו טרי ופטה ",
+    "categories": [
+      "recZiSGtUVh0djoaT"
+    ],
+    "image": {
+      "id": "attxctvGgapyFC0Ma",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/c084256035cb88b4a19b660ee795f4f1/2670809c.png",
+      "filename": "פיצה עגבניות מדורה.png",
+      "size": 3148755,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d5721fa84976e2b217f17e344d7923e6/47a01e08",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/13c754be4a762060582cfac3aa1658c5/e46cb81a",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c6028a50b34172593eab0dcf0710fc4a/9012e38c",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 68,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15820,6 +16496,35 @@
     "id": "recGUJiR4yq134lMy",
     "name": "ספייסי פפרוני ",
     "description": "רוטב עגבניות, מוצרלה, פרמז'ן, פפרוני עגל, צ'וריסוס, שום קונפי, פלפל חריף ואורגנו",
+    "categories": [
+      "recZiSGtUVh0djoaT"
+    ],
+    "image": {
+      "id": "attN8dUZd8EYEsAjj",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/c9854049f344885a645f63253aadc692/e4679419.png",
+      "filename": "ספייסי פפרוני.png",
+      "size": 1895704,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/aaac5be0630327d74d20e7039b4b3a53/d20a35e5",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ed1eeef757c8cd1cf0afade2b27c3c04/d5f164a9",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5840916e8eb8fe10e90ed4cb20c50d40/9af2d83c",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 74,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15838,6 +16543,35 @@
     "id": "reclHr7onq3inmxW7",
     "name": "טבעונית  ",
     "description": "רוטב פומודורו, בטטה ודלעת צלויות, בצל ירוק ובזיליקום",
+    "categories": [
+      "recZiSGtUVh0djoaT"
+    ],
+    "image": {
+      "id": "attR669Jlh4aP8KQF",
+      "width": 700,
+      "height": 466,
+      "url": "https://dl.airtable.com/.attachments/2c38523b977141e195621787f46d2553/4698ef9e.png",
+      "filename": "פיצה טבעונית.png",
+      "size": 713688,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/535f86678747f5a9f265ecd7017ae067/2605b670",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0ea6f964f22de6f78e19f6a3c4d90d2c/1d858be7",
+          "width": 700,
+          "height": 466
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b5eae744bb09ffaebf4b7f6b9dfc7939/2b926d67",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 62,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15856,6 +16590,35 @@
     "id": "recrpab2hqnaHKEgW",
     "name": "ארבע גבינות ",
     "description": "רוטב שמנת, מוצרלה, פרמז'ן, גאודה, גורגונזולה ובצל ירוק",
+    "categories": [
+      "rec6IQRb4LlZuG6CP"
+    ],
+    "image": {
+      "id": "attZOiMZ8A8VZwRpl",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/e20244db14341d8622865d4dc1e7a50c/ed1b538c/4.png",
+      "filename": "ביאנקה 4 גבינות.png",
+      "size": 2921148,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/cbb281dfe9daedc007a1e8857ccd9533/ebdc343c",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f06d1140b594684c9ca011a2b84b4091/922dbf0c",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/fb6d68ef8ed7021674ace867f4f45336/34b29213",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 73,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15874,6 +16637,35 @@
     "id": "recB85HywpFGFbAV9",
     "name": "כמהין ",
     "description": "רוטב שמנת, מוצרלה, פרמז'ן, גאודה, מיקס פטריות צלויות וארוגולה",
+    "categories": [
+      "rec6IQRb4LlZuG6CP"
+    ],
+    "image": {
+      "id": "att5MrubHrLR85nE0",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/be81520492ba4180a2aabe6562de3244/7f24a1d6.png",
+      "filename": "ביאנקה כמהין.png",
+      "size": 3234292,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5aca1b282ead8d7a47268f6f2d0f4fbf/d3a0bfd8",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/888f36916a254b148e40e13cc2c01d13/17059057",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/12741d532894f4a736187eaa90371ff7/d3d88005",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 75,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15892,6 +16684,35 @@
     "id": "recVqNgLoLNWfau7q",
     "name": "סיציליאנית ",
     "description": "רוטב שמנת, מוצרלה, פרמז'ן, גאודה, דלעת פיקנטית, סרדינים כבושים, פלפל חריף ומרווה",
+    "categories": [
+      "rec6IQRb4LlZuG6CP"
+    ],
+    "image": {
+      "id": "attZi7XdhkSNnvySA",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/eb34a26c96515e431542f8c2cc8c1c7d/5eea9a02.png",
+      "filename": "ביאנקה סיציליאנית.png",
+      "size": 1847523,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4a56e6708250f6870bffb98008ce938d/e6982a99",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/88f9c1f0e716d74b83b1fd91d604824b/385aeb89",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/075a547b08d4aa8f3740043b424a2d45/53399702",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 64,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15910,6 +16731,35 @@
     "id": "recZmQk89XgEv5oqL",
     "name": "ארנצ׳ה ",
     "description": "רוטב שמנת, מוצרלה, פרמז'ן, גאודה, בטטה ודלעת צלויות, ביצת עין, אגוזי לוז, בזיליקום ופלפל חריף",
+    "categories": [
+      "rec3lQUQPesFI7H42"
+    ],
+    "image": {
+      "id": "attMSDaqaZ12EbpMF",
+      "width": 1000,
+      "height": 666,
+      "url": "https://dl.airtable.com/.attachments/3f332c7998dcd6e027e155fe53e45772/9bb7a0fc.png",
+      "filename": "פיצה ביאנקה ארנצה.png",
+      "size": 1349824,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4c3351bf3138f1bd6dda0c21f56a0a81/50320e56",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3858e3b532113b6785e243fb3a8127e6/282e7c6d",
+          "width": 769,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/465364cbb19f70eaa2c7f07d084c1b9c/2e1aa5f2",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 68,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15928,6 +16778,35 @@
     "id": "recxT4ohrG31mOh9t",
     "name": "עוף מדורה ",
     "description": "תפו\"א, קרם לבנה ורוטב שום לימון",
+    "categories": [
+      "rec3lQUQPesFI7H42"
+    ],
+    "image": {
+      "id": "attBQ9YI8VkqcKefJ",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/a1da9791e46009072964faf2872a4865/e465bf9c.png",
+      "filename": "עוף מדורה.png",
+      "size": 1335916,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2a8befb110d760b71acf51d3af6734f2/bb9923d4",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/73ea8d6acf2e65524ee7c5624f74c5f2/33d70f6b",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ffe5a66eb5efc131d010eb67d3281b09/52e52a92",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 74,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15946,6 +16825,36 @@
     "id": "recZ7l4MaRm0pUAdH",
     "name": "קדירת פירות ים ",
     "description": "יין לבן, זעפרן, חמאת פלפלים, אפונה, תרד ועגבניות שרי",
+    "longDescription": " מולים, שרימפס, קלמרי סגול כולל הראש בחמאת פלפלים, יין לבן, זעפרן, אפונה, עגבניות שרי, תרד, שמנת מתוקה ומיץ לימון\n מיקס עשבי תיבול טריים- כוסברה, נענע ובזיליקום. (ניתן להגיש ללא)\nמוגש עם פוקאצ'ינה לניגוב הרוטב ",
+    "categories": [
+      "rec3lQUQPesFI7H42"
+    ],
+    "image": {
+      "id": "attmgWtS4gY4aACqd",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/d623f5a8170742e18c70be96a171f52e/ddb55df8.jpg",
+      "filename": "קדירת פירות ים.jpg",
+      "size": 388579,
+      "type": "image/jpeg",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d726815d784b960b4175b4084cc1f78f/369a75e2",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4422f2ef159633fc3ff375072f4ccade/9825d1de",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/25ec938381a00f522a6915bdba1396ff/0a5d9704",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 118,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15964,6 +16873,35 @@
     "id": "rec3Z45ipxLsW8vSG",
     "name": "קדירת בקר",
     "description": "תפו\"א, אספרגוס ופלפל מתוק יבש",
+    "categories": [
+      "rec3lQUQPesFI7H42"
+    ],
+    "image": {
+      "id": "attZzoJwvyBSET5b8",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/25cb9092c2d1c26343c0aee813b5af20/9a617c11.png",
+      "filename": "קדירת בקר.png",
+      "size": 1749959,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f583e185e1e0190266f4ac5e8f7dfca8/39f6e79b",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a003cd73ee8052076ebdc2e354c2bfec/d2fb231e",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/bf73b106bc7b5218d76b3b05abcc03fd/26a27385",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 88,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -15982,6 +16920,36 @@
     "id": "recKx7wqxsrcjrE04",
     "name": "קונקיליה",
     "description": "קונכיות פסטה ממולאות בקדרת אונטריב מפורק, רוטב שמנת, קוניאק וחרדל, פירורי פנקו ופרמז'ן",
+    "longDescription": " קונכיות פסטה ממולאות בבשר אונטריב מפורק אפויות בתנור עצים עם פרמזן ופירורי לחם, ברוטב שמנת, חרדל וקוניאק ",
+    "categories": [
+      "rec3lQUQPesFI7H42"
+    ],
+    "image": {
+      "id": "att9cGOhRGJIdnrx3",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/a6b071395a1d6cc51ef7f1830e17d239/fe14ccd0.png",
+      "filename": "קונקיליה.png",
+      "size": 1811455,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2e74a7fc864a08c204c9b30cd26c0814/6a11ff89",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/923e5494aad2f38361967af3db88d7ef/812eba34",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/bea9c5891501103186865ce37fd9f58e/3f8800cd",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 82,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16000,6 +16968,35 @@
     "id": "recVMwKINJgdIyNhZ",
     "name": "לברק שלם ",
     "description": "תפו״א, קרם לבנה וסלסה וורדה",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "att9or6jhasmd4bcW",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/a957a4f5a598679700a2a217f80680cd/28032643.png",
+      "filename": "לברק שלם.png",
+      "size": 1259152,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ed26a948237260334fb578b780b45676/5e821d8d",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/914a766a5392dffbb3878debf9dfe94b/c4ac070a",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e58a511c7bc8e968610b50048cd88d7e/c9dcfd76",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 119,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16018,6 +17015,35 @@
     "id": "recmyTMEQRxGKgcsM",
     "name": "לינגוויני נפוליטנה ",
     "description": "עגבניות שרי תמר, שום, מוצרלה, פרמז'ן ובזיליקום",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "attvimpQlfyo1U0oC",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/606939fce84f6f73d576d9b79d8c2190/e5f6f559.png",
+      "filename": "פסטה נפוליטנה.png",
+      "size": 1906490,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d2eb6bb70eae1d9533dc7c2a834f9808/35906a30",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/fd640803c8e07bd4134effeb912ca9b0/0b66531b",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a42c94a0929755727b18f65f42dd620e/5922284b",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 59,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16036,6 +17062,35 @@
     "id": "recE069vnpqVzn5hq",
     "name": "פפרדלה ראגו עגל ",
     "description": "פסטה רחבה וטרייה ברוטב ראגו עגל עשיר עם חתיכות בשר מלא טעמים. מוגש עם פרמזן *ניתן להזמין עם פסטה ללא קמח חיטה",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "attmu2CpsqpzUECib",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/564c9709662f43309dc9e94b00598e9c/73e1ef6f.png",
+      "filename": "פרפרדלה ראגו עגל.png",
+      "size": 1888628,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/450f603dd4676bd7906b48f7da5d4775/baa6c35f",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f852f754e8662b2e4919d637e8c296f9/99fdba8a",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/431cf32d501b0e9f6dc565cfa49cd943/3fdc009d",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 74,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16056,6 +17111,35 @@
     "id": "recn891MlP0MBk3xR",
     "name": "לינגוויני רוזה ",
     "description": "רוטב עגבניות, שמנת, עגבניות שרי תמר, בזיליקום ושום",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "attSxxElo2W7dm54Q",
+      "width": 1000,
+      "height": 666,
+      "url": "https://dl.airtable.com/.attachments/710bbe09f04665e51e8bf3d2b52e8d97/11d96192.png",
+      "filename": "לינגוויני רוזה.png",
+      "size": 859240,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/322c291de19127dccd91e00fefe030d3/6e8e34c9",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7d7689f97cb4a021b5271f4b555e976c/d3d977db",
+          "width": 769,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/946e96d199cf6ead6645c8b708656352/e32572ea",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 59,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16074,6 +17158,36 @@
     "id": "rec712AJghWgkfXJS",
     "name": "רביולי גבינות ",
     "description": "ראגו פטריות וכמהין, שום, תרד בר, פרמז'ן ובזיליקום",
+    "longDescription": " רביולי 4 גבינות (גאודה, פטה, רוקוטה ושמנת )\nרוטב ראגו פטריות (ירדן, פורטבלו, שמפניון, פורצ'יני, שיטאקי וכמהין) עם שום, תרד בר, בזיליקום ופרמז'ן ",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "attFMjJYrMgqBR6Jl",
+      "width": 1000,
+      "height": 666,
+      "url": "https://dl.airtable.com/.attachments/fd19102ce4dad2ddf3dd0a611a70d07e/b8336771.png",
+      "filename": "רביולי גבינות.png",
+      "size": 833911,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e34cdde42bb08c38adb200f153d9bff6/c3e86afa",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c1667410515d56875c4e3cbafad1aaa4/b37031f6",
+          "width": 769,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c3516b34d68775243abbc8a4a96779f4/2cb5f6ad",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 79,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16092,6 +17206,35 @@
     "id": "recbl7OFRspvEg5Cf",
     "name": "ניוקי תרד",
     "description": "רוטב גורגונזולה, אגוזי לוז ובצל ירוק",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "att4QhXpzZ0BtiwIl",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/e9c1e3fc1a61236132204de92fd8a2d1/10d21cf9.png",
+      "filename": "ניוקי תרד.png",
+      "size": 2242486,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6b17ad2c38b716639fcdc4bac0f003ed/32ac7601",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a5b5b3af225e1c7e40db3f689c7c3ee6/0c58560a",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/902cc86508927ed68332a2fe42814d5f/183ab7bf",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 68,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16110,6 +17253,35 @@
     "id": "rec36XKiVeXAJTmLJ",
     "name": "לינגוויני אליו אוליו  ",
     "description": "שמן זית, שום, פלפל חריף, פטרוזיליה, בזיליקום, בצל ירוק ופירורי פוקאצ'ה פריכים",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "attaXgmsPeNZkqxEs",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/8e66d469779bd62aa80cee80e9504816/d1c67805.webp",
+      "filename": "לינגוויני אליו אליו.webp",
+      "size": 75482,
+      "type": "image/webp",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f7e7921b67fed27d640d494b60f01a10/c3427f4e.png",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6efe4e433d0d8151f8fccd11731d967a/b432e4f4.png",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1f41592d3a41bac4ca229b95fb682221/d21ebe84.png",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 64,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16128,6 +17300,36 @@
     "id": "recOKXto5z8BPWsgN",
     "name": "רוטולו",
     "description": "גלילי פסטה ממולאים בדלעת מקורמלת, בטטה, תרד, גבינת ריקוטה, פטה ופרמז'ן, נאפה בתנור עצים ברוטב רוזה",
+    "longDescription": " גלילי פסטה ממולאים בדלעת מקורמלת, בטטה, תרד, גבינת ריקוטה, פטה ופרמז'ן, נאפה בתנור עצים ברוטב רוזה ",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "atto0wiAWyafSHgwJ",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/157a781be37cfde47ab9942630ab0b9e/58769bb5.png",
+      "filename": "רוטולו.png",
+      "size": 2228225,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/88ed0ff5de53415c2903c8ffa6595ea6/13593fe1",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f3ea1f4845170f9979351f1f71493974/8ed03c86",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/799f50d4e9f7aa36a52d5fb10a65a1b0/b8187724",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 72,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16145,6 +17347,36 @@
   {
     "id": "rec9i7fn8IEZ6qJrS",
     "name": "פוזילי נפוליטנה טבעונית  ",
+    "longDescription": " לינגוויני - פסטה ארוכה ודקה\nמוצרלה, רוטב עגבניות איטלקי קלאסי, עגבניות שרי תמר חצויות, שום, בזיליקום\nדגשים למנה: מוגש עם גבינת פרמז'ן מעל הפסטה. \nניתן לבקש לינגוויני ברוטב \"רוזה\" (מוסיפים שמנת)\nללא גלוטן - פסטה פנה ",
+    "categories": [
+      "rec3U8T51e5rxzCG0"
+    ],
+    "image": {
+      "id": "attBBpwpLtxAdPWhm",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/ce43e9fd1ebf750f52828eb8f27b8f54/d2d179d1.png",
+      "filename": "פוזילי נפוליטנה רוזה.png",
+      "size": 1229014,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4efc28816efd96c090e13649513858e1/97b45d00",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f05c9ba54075f2bbc23d44d57536aa86/629d271d",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/88cbac083553cc0354c9af5a57c8b31e/4e3e6a26",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 59,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16162,6 +17394,35 @@
   {
     "id": "rec8877Hm3yo0sD40",
     "name": "אורז  ",
+    "categories": [
+      "recsIXoIb37EAdWm6"
+    ],
+    "image": {
+      "id": "attDDzLy9hMeRBJvG",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/86cf02fcc6f5e17e0e8d78e3021840f8/d32cd783.png",
+      "filename": "אורז.png",
+      "size": 1738082,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6c0e69cd65e51a32902578f44fc184e9/679bcacc",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0546dc8efd78356e8892d71193af26d0/87b04379",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/0606629078e2182ea8d692b3f44a35de/6d2859e1",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 16,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16180,6 +17441,35 @@
     "id": "reccnHclGBChQgJYa",
     "name": "תפוח אדמה מדורה  ",
     "description": "עם קרם לבנה",
+    "categories": [
+      "recsIXoIb37EAdWm6"
+    ],
+    "image": {
+      "id": "att8XW9br4qTeHgB9",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/9d37be8dab9c011c65be7eb3bb52bfd5/ab449868.png",
+      "filename": "תפוח אדמה וקרם לבנה.png",
+      "size": 1551334,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e327da3d52801e64dc301c10fc25f0d6/c1d09f36",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a921ff26c15d7ca1b91d7bad6e377c7a/6942cfac",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/40fac7009964eb8bea3b2b5c50c4aecd/38abb5cc",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 18,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16197,6 +17487,35 @@
   {
     "id": "rec1FaXbWwqH9EmxI",
     "name": "סלט חסות אישי",
+    "categories": [
+      "recsIXoIb37EAdWm6"
+    ],
+    "image": {
+      "id": "attZggd4DWC4Di6Dt",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/ae18bb0856cd4ad57156df734041d004/3fca23d7.png",
+      "filename": "סלט חסות אייש.png",
+      "size": 2533312,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e3c8dd015641de03507b9d18aa4ecc29/2d0afc24",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/936aa39f5e20ab5b0a19f27ef2727f9d/0e7c0112",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d3c6d4a2aca1f20d099465a4834b3720/dbbfd532",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 18,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16214,6 +17533,35 @@
   {
     "id": "rec7nCmTpIqiTB0Hh",
     "name": "צ׳יפס ",
+    "categories": [
+      "recsIXoIb37EAdWm6"
+    ],
+    "image": {
+      "id": "attkacKjmBGSoW113",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/76c5ad192802fc94d6a91ba873bfb8ce/8fa98f62.png",
+      "filename": "צ'יפס.png",
+      "size": 1658172,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c0b414b2842d856756d055f6e201bb5c/202cf8b8",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/473f5edbb31e29d76e334f93393e289d/e432ed47",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b505a67b70686c6d75a30294a3af47e9/2219ac1d",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 18,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16232,6 +17580,35 @@
     "id": "recOjcpmR9BvDClGr",
     "name": "ארוחת ילדים",
     "description": "מנת פיצה/פסטה/שניצלונים ושתיה לבחירה (תפוזים/לימונדה)",
+    "categories": [
+      "recKGhqTx4bO1Vdq2"
+    ],
+    "image": {
+      "id": "attTQxj8zScnDvoZJ",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/600b9251e215cef10589db9da871d0f3/2afeed5c.png",
+      "filename": "שניצלונים לילדים.png",
+      "size": 2062828,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/81217730c37ff3d572b8c563ccc93090/e9b6edfa",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7d31ee976280638061cedd6b00d0bab6/44a4eeb7",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/c866428dec365f79141c3b1bd86d4367/99caf3af",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 51,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16250,6 +17627,35 @@
     "id": "recIXKkDgX1wVC9ae",
     "name": "קסטה הפוכה",
     "description": "גלידת מסקרפונה, טוויל שקדים, עוגיות באטר-סקוטצ', קקאו וקרמל טופי",
+    "categories": [
+      "recIujIbMG26P0rhW"
+    ],
+    "image": {
+      "id": "attbCWgTyKJzPmyYN",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/a2ca4b7157a8069a3016f53747d77672/088c3537.png",
+      "filename": "קסטה הפוכה.png",
+      "size": 1729761,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/19ad8f21e8b561c102d7f85571f333e5/dc7b12a0",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e0890f995c34c3ed95c85b709fbd3caa/171387c9",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/5a9ca22bbbb02bd417a8aa136e3e864a/e8f4f49d",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 46,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
@@ -16268,6 +17674,35 @@
     "id": "recTbGztoxvLVIART",
     "name": "פיצה נונוטלה ",
     "description": "ממרח נוטלה, קוקוס ואגוזי לוז",
+    "categories": [
+      "recIujIbMG26P0rhW"
+    ],
+    "image": {
+      "id": "attKTRdG9YXZaNtZE",
+      "width": 1000,
+      "height": 666,
+      "url": "https://dl.airtable.com/.attachments/ce8ffbd5f242e6ea45c74d2e59a929db/1b88cbb8.png",
+      "filename": "פיצה נונוטלה.png",
+      "size": 1457306,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/1db34601540e0a8338faad32267f8e83/83ccc223",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/211a41817352226811bd8805990f0728/86cbc3e2",
+          "width": 769,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d47ff0272e54e355343302e5a68b5a37/ad5f6c18",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 44,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
@@ -16286,6 +17721,9 @@
     "id": "recZOt2bcjTIebJG6",
     "name": "פס ג׳אנדויה",
     "description": "בצק פריך, אגוזי לוז, קרם שוקולד ושנטילי שוקולד חלב, מוגש עם גלידת מסקרפונה",
+    "categories": [
+      "recIujIbMG26P0rhW"
+    ],
     "price": 46,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
@@ -16303,7 +17741,10 @@
   {
     "id": "reclqJLNu4CWTtvVC",
     "name": "עוגת גבינה אפויה ",
-    "description": "וקולי פטל",
+    "description": "עם קולי פטל",
+    "categories": [
+      "recIujIbMG26P0rhW"
+    ],
     "price": 44,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
@@ -16322,6 +17763,35 @@
     "id": "recxLUfM4H8kERPno",
     "name": "מוס שוקולד קרמל ",
     "description": "עם שקדים מסוכרים",
+    "categories": [
+      "recIujIbMG26P0rhW"
+    ],
+    "image": {
+      "id": "attFQ2OmOquL9U3p6",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/ee10c7d7f40b03eb28c936136de670d9/0a659e47.png",
+      "filename": "מוס שוקולד אישי.png",
+      "size": 1323360,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/583b523b5294a0ed464a50d9a011497f/42156998",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/94797ee07a62a05cbea9cf2241d2655e/6701ec47",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6366933015c8e0fc92c874ded9468acb/b6aa1eee",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 39,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
@@ -16340,6 +17810,35 @@
     "id": "reckxTJZv1xl4Gsr8",
     "name": "טירמיסו",
     "description": "קרם מסקרפונה, ביסקוטי, קרם קפה וקקאו",
+    "categories": [
+      "recIujIbMG26P0rhW"
+    ],
+    "image": {
+      "id": "attTRsLCcCOxdjIs1",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/ab85fadd846faf763422fc48bd7560e5/f9568058.png",
+      "filename": "טירמיסו אישי.png",
+      "size": 1977592,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/cc85fcc48ef55fcb66fcca8513a6f425/075f12bc",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/4f558a8daab7ae51ad493804bbe88567/4a7da937",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/583cf6e284c1448def1e9c57a9a39b2a/e4dd030d",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 45,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
@@ -16358,6 +17857,9 @@
     "id": "rec03gwwKG5CCCXjT",
     "name": "פאדג׳ שוקולד חם ",
     "description": "מוגש עם גלידת וניל ושברי וופל",
+    "categories": [
+      "recIujIbMG26P0rhW"
+    ],
     "price": 45,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
@@ -16376,6 +17878,35 @@
     "id": "reccvvrJozV0s4YHK",
     "name": "גלידת NONO  ",
     "description": "גלידה גדולה 51",
+    "categories": [
+      "recIujIbMG26P0rhW"
+    ],
+    "image": {
+      "id": "attrIWrJIodS2N3UO",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/343f083f957e711d044a023ea758d315/5ff0370d.png",
+      "filename": "גלידה.png",
+      "size": 1394856,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/bf5aea6f80bc1f89390d1ec355eba05a/5e12b858",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/f64be9eb24bad4437839ed294d106c21/38cdeb87",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/d2fb2587e543f7a2a02d8e1e16f51118/1350e4b9",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 22,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
@@ -16394,6 +17925,35 @@
     "id": "reciorigEXDcKNMAN",
     "name": "פטוצ׳יני - מארז פסטה ביתית",
     "description": "רצועות פסטה ארוכות, דקות ושטוחות עשויות מבצק עשיר בביצים",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
+    "image": {
+      "id": "attr7IPA9dWIA4sgS",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/2c5c5d950930c1dbfb026968e33c2e78/a4cfc3aa.png",
+      "filename": "מארז פטוציני.png",
+      "size": 1747484,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/6f6fffc9c5055f77145521e133863664/0ff58329",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/b2d2ee0981ceff038329102aa13c1bd1/7805592d",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/ccf6c6d434a050969a6cf097eda719ff/1f700909",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 31,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16412,6 +17972,9 @@
     "id": "recGrtTmKLKXX2U5S",
     "name": "פטוצ׳יני ארוגולה - מארז פסטה ביתית",
     "description": "רצועות פסטה ארוכות, דקות ושטוחות עשויות מבצק עשיר בביצים וארוגולה",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
     "price": 32,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16430,6 +17993,35 @@
     "id": "recndj7terkQFz22i",
     "name": "פפרדלה - מארז פסטה ביתית",
     "description": "רצועות פסטה ארוכות ושטוחות עשויות מבצק עשיר בביצים",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
+    "image": {
+      "id": "attt4JU0BoMe1EEFi",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/fe27f395ecf2718d250cf3ba1e1dfb30/e8bfe219.png",
+      "filename": "מארז פרפדלה.png",
+      "size": 2814402,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/a2edf8dc3e428889ed7373df0e409215/54ce9e09",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/00e122abf906de43bf0ba24ae304e345/2cd9bdbb",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/cdaab16926ffb81ced733b03bfd58d13/4f480fdb",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 29,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16448,6 +18040,35 @@
     "id": "recdgqgjfCNQHRzql",
     "name": "ניוקי תפוח אדמה - מארז פסטה ביתית",
     "description": "כופתאות איטלקיות של תפו״א ופרזמן",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
+    "image": {
+      "id": "attXkqxtSdgJwbnaC",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/1f930d5c0a48e302c22c23aa72b855fd/b77fc9d7.png",
+      "filename": "ניוקי תפוחי אדמה מארז.png",
+      "size": 1613422,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/40a955ea7b526cc97e2ceff9dfa50839/48ebefe2",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/2a3934d78b605301df8140f4692591f4/78f7ddcc",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/18e5bf3130c7d0c2beeee70ec4990835/090b14ce",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 32,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16466,6 +18087,35 @@
     "id": "recvtTliatEyCIXOT",
     "name": "ניוקי תרד - מארז פסטה ביתית",
     "description": "כופתאות איטלקיות של תרד ותפו״א",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
+    "image": {
+      "id": "att23RHBuO0GTLTbz",
+      "width": 1080,
+      "height": 720,
+      "url": "https://dl.airtable.com/.attachments/e7b6c3fe5523fa31bc0684c03ac94fe1/d1f1f502.png",
+      "filename": "ניוקי תרד מארז.png",
+      "size": 1628858,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/26cd720b7d5546fc6e3b6a70f97922b9/5f4e7c4c",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/7174c895a2d1db464582b27a6b8dc06f/a81cbe74",
+          "width": 768,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/410557be171edd4ea3da3c4a5ea27bd0/02a300aa",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 32,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16484,6 +18134,9 @@
     "id": "rec993myn4OV1JZBf",
     "name": "רוטב לפסטה - שמנת פרובלונה",
     "description": "רוטב שמנת, חמאה וגבינת פרובלונה",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
     "price": 36,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16502,6 +18155,35 @@
     "id": "recyOeA7TlKQ9uoZH",
     "name": "רוטב לפסטה - שרי",
     "description": "רוטב עגבניות שרי תמר, שמן זית, שום ופלפל צ׳ומה",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
+    "image": {
+      "id": "attj6JnxaTYTM2exC",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/c094379efeaf86a7198f69b2f9e6a93b/250e80f6.png",
+      "filename": "רוטב שרי.png",
+      "size": 1891647,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/e770d35b1ed72ceb03c7dc5cf5e042fa/2bc4e4c0",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/bb1599949bb3094c621b09033d58edd3/4f560c80",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/819ecd694332ebacac701c3588be2845/6a7b732c",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 34,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16520,6 +18202,9 @@
     "id": "rec5Fryaz8bPVN7h9",
     "name": "רוטב לפסטה - רוזה",
     "description": "רוטב עגבניות שרי תמר עם שמנת מתוקה",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
     "price": 36,
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
@@ -16538,8 +18223,1570 @@
     "id": "receZnvcw4CQwjcgJ",
     "name": "רוטב לפסטה - בזיליקום וגבינות",
     "description": "רוטב פסטו בזיליקום עם יוגורט וגבינות",
+    "categories": [
+      "recZAJdPIjQYTIlzD"
+    ],
+    "image": {
+      "id": "attW4KGIld23I3bf7",
+      "width": 1536,
+      "height": 1025,
+      "url": "https://dl.airtable.com/.attachments/32bab202ca9a25a5921200b9f1b1980b/86ea004b.png",
+      "filename": "רוטב בזיליקום גבינות.png",
+      "size": 2016988,
+      "type": "image/png",
+      "thumbnails": {
+        "small": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3109c7ade45aad817659361aa46e416d/0b05e421",
+          "width": 54,
+          "height": 36
+        },
+        "large": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/3cbaa2743f90204e62bdc4df278254c9/d5532267",
+          "width": 767,
+          "height": 512
+        },
+        "full": {
+          "url": "https://dl.airtable.com/.attachmentThumbnails/de46d8c3d603ea3c7c74e729b459d312/6ee2101d",
+          "width": 3000,
+          "height": 3000
+        }
+      }
+    },
     "price": 35,
     "kitchenId": "recKS2OTdorMHdMhF",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recjLKx05xqHYHl5X",
+    "longDescription": " פרימיטיבו רוזאטו, מאסריה בורגו די טרולי, פוליה, איטליה  \n\nהיין מיוצר מענבי פרימיטיבו שהוא הענב האדום השולט של האזור ומגיע ממחוז סולנטו שבחבל פוליה בדרום מזרח איטליה . יין רוזה קל לשתייה עם חמיצות נעימה וריחות של פרי אדום מתוק ומגרה אפשר להגיד אפילו קצת כמו מיץ פטל למבוגרים.  מתאים לכל שעה ביום ובכל מצב . \n\nבקבוק (750 מ\"ל) - 70 ₪ ",
+    "categories": [
+      "recpUWl8Tg7h0e2rf"
+    ],
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec6Fc8K3zdJ8bcqd",
+    "description": " פטיט סירה בעל גוף בינוני, ניחוחות פרי אדום ומינרליות עדינה ",
+    "categories": [
+      "recpUWl8Tg7h0e2rf"
+    ],
+    "price": 267,
+    "kitchenId": "recKS2OTdorMHdMhF",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recVtAhdVGWt7mSSM",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recwANtMdL1xLTFCo",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rectKPnigVluM1Nhx",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recfZiAhbj6Gd5w6y",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recvLyDz0m5EFPsaa",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recqZYtnhqbsQEb95",
+    "name": "מוזלי קלאסי",
+    "description": "יוגורט בקר 4.5% שומן, פירות העונה וגרנולה",
+    "categories": [
+      "reccwqdiBtb45Ph0h"
+    ],
+    "price": 35,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recNB3sJpbzujpFXy"
+        },
+        {
+          "type": "ingredient",
+          "id": "rect9ABfT374nMZgS"
+        },
+        {
+          "type": "ingredient",
+          "id": "recEsLLi7WO3oBS0I"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "recquk7qXdyYYgOCd"
+        }
+      ],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recjDBOotD7goGZrP",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recYxe2wLulj4shiy",
+    "name": "הקיסר של אביב",
+    "description": "לבבות חסה רומית, קוביות סלמון, בזיל סגול, רוטב קיסר קלאסי, גבינת פרמז'ן וקרוטוני בריוש",
+    "longDescription": "קוביות סלמון צרוב (120 גר')  לבבות חסה רומית, רוטב קיסר קלאסי, פרמז'ן, בזיליקום סגול וקרוטוני קסטן בריוש",
+    "categories": [
+      "reccU4tPR8hovYqAI"
+    ],
+    "price": 72,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [
+        {
+          "type": "ingredient",
+          "id": "recY6diacYlNLzEg0"
+        },
+        {
+          "type": "ingredient",
+          "id": "recVCl8aEg5fQfaXr"
+        },
+        {
+          "type": "ingredient",
+          "id": "recXeP1xYyxAkCH3C"
+        }
+      ],
+      "excludable": [
+        {
+          "type": "ingredient",
+          "id": "rec0OnKP0IIRt69My"
+        },
+        {
+          "type": "ingredient",
+          "id": "rec8P2dycNC4N38GD"
+        },
+        {
+          "type": "ingredient",
+          "id": "recugVQQ7NrtTBDCu"
+        }
+      ],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reccIs9HFipSq8cZL",
+    "name": "מוזלי סגול",
+    "description": "\u0015סורבה אסאי, אוכמניות, בננה\nוחלב קוקוס / על בסיס\u0015 יוגורט בקר 4.5% שומן\u0013",
+    "longDescription": "המכיל אסאי, אוכמניות, בננה, שיבולת שועל על בסיס חלב קוקוס. מעל גרנולה, זרעי צ'יה ,קוקוס קלוי ואוכמניות\n",
+    "categories": [
+      "reccwqdiBtb45Ph0h"
+    ],
+    "price": 39,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec47oAjml91UqLTL",
+    "name": "מוזלי אדום",
+    "description": "סורבה תות, מייפל, תותים, פירות יער\nוחלב קוקוס / על בסיס יוגורט בקר %5.4 שומן",
+    "longDescription": "המכיל תותים, פירות יער, סורבה תות, רוטב מייפל, שיבולת שועל על בסיס חלב קוקוס. מעל גרנולה, זרעי צ'יה , קוקוס קלוי. מוגש עם תותים",
+    "categories": [
+      "reccwqdiBtb45Ph0h"
+    ],
+    "price": 39,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec041FZRqNve1pdH",
+    "name": "מוזלי צהוב",
+    "description": "בננה, אננס, מנגו\nוחלב קוקוס / על בסיס יוגורט בקר %5.4 שומן",
+    "longDescription": "מכיל מנגו, בננה , אננס, על שיבולת שועל בסיס חלב קוקוס. מעל גרנולה, זרעי צ'יה , קוקוס קלוי. מוגש עם בננות טריות\n",
+    "categories": [
+      "reccwqdiBtb45Ph0h"
+    ],
+    "price": 39,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec2UohgivHnTdSH3",
+    "name": "כריך טונה",
+    "description": "חסה, עגבנייה, מלפפון\u0013 חמוץ\u0004, ביצה קשה, גרידת לימון\nוסלט טונה. לחם\u001a לבחירה[לחם מחמצת / לבן\u0013 / דגנים\u001a. או ללא גלוטן\u0013]",
+    "categories": [
+      "recIODPVlpy9e16FC"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recYxJoEKyyizo4jj",
+    "name": "כריך בריאות",
+    "description": "מוגש בלחם\u001aדגנים\u001aמלא. חביתת ירק, טחינה, עגבנייה,\nעלים\u001a ירוקים\u001a ומלפפונים\u0013 חמוצים. > אפשרות לחביתת ירק טבעונית",
+    "categories": [
+      "recIODPVlpy9e16FC"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recHfoRMLrunmxyW4",
+    "name": "קרואסון חלומי ופרמז'ן",
+    "description": "חלומי קריספי בזילוף דבש, ביצת עין\u0013 הפוכה רכה ועלי ארוגולה",
+    "categories": [
+      "recIODPVlpy9e16FC"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec1jA7GFd7UMeMML",
+    "name": "כריך עזים",
+    "description": "שמנת פסטו וסילאן\u0013, פלפלי\u001a קלויי\u001a, זיתי קלמטה,\nמטבעות גבינת סנט מור ועלי רוקט\nלחם\u001aלבחירה [לחם מחמצת> לבן\u0013 / דגנים. או ללא גלוטן]",
+    "categories": [
+      "recIODPVlpy9e16FC",
+      "recEbYbuwGtvCsKsZ"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recSwL3Z4OrszSD0L",
+    "name": "כריך אנטיפסטי טבעוני",
+    "description": "טפנד פלפלים, חצילי\u001a אפויי\u001a, זוקיני וכרובית מטוגנים\nטחינה ירוקה, תרד טרי, ארוגולה וצ׳ילי חריף\nלחם לבחירה [לחם מחמצת> לבן / דגנים. או ללא גלוטן]",
+    "categories": [
+      "recIODPVlpy9e16FC",
+      "recEbYbuwGtvCsKsZ"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec7fyuJQal201JwW",
+    "name": "בייגל טוסט טבעוני",
+    "description": "פטה ומוצרלה טבעוניות, פלפל קלוי, קרם חציל, פסטו,\nפרוסות עגבניה וזיתי קלמטה",
+    "categories": [
+      "recIODPVlpy9e16FC",
+      "recEbYbuwGtvCsKsZ"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reclRn7OqrOYaR5b4",
+    "name": "בייגל טוסט ישראלי",
+    "description": "חמאה, עגבניה, גבינת מוצרלה ועלי בזיליקום",
+    "categories": [
+      "recIODPVlpy9e16FC",
+      "recEbYbuwGtvCsKsZ"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recuF2hO7APS8cOEz",
+    "name": "בייגל טוסט יווני",
+    "description": "גבינה בולגרית, פסטו, גבינת מוצרלה, חמאה\nבצל וזעתר, עגבניה וזיתי קלמטה",
+    "categories": [
+      "recIODPVlpy9e16FC",
+      "recEbYbuwGtvCsKsZ"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recHkVmc1gtit2HgK",
+    "name": "פריטטה פלורנטין ",
+    "description": "אומלט אפוי עם ביצים, תרד, גבינת צ׳דר, מוצרלה,\nורוטב שמנת תרד\nמוגש עם לחם מחמצת > לבן / דגנים. או ללא גלוטן\nסלט גן\u0013, טפנד פלפלים, סלסת עגבניות וגבינת שמנת",
+    "categories": [
+      "recSQKAqdcMyhAZtF"
+    ],
+    "price": 62,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recswg0Czh8bu5dSc",
+    "name": "קרוק מיסיה",
+    "description": "טוסט מלחם קסטן\u0013בריוש במילוי ארבע גבינות ופרחי כרובית\nרוטב בשמל, עירית, כמהין וביצת עין. מוגש בליווי סלט גן",
+    "categories": [
+      "recSQKAqdcMyhAZtF"
+    ],
+    "price": 65,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rect5Ve54UoPKgsl2",
+    "name": "ברוסקטת אבוקדו",
+    "description": "ברוסקטת קסטן\u0013בריוש, גבינת לאבנה, זעתר, סלסת עגבניות\nפרוסות אבוקדו, ביצים עלומות ופלפל חריף\nמוגש בליווי סלט גן",
+    "categories": [
+      "recSQKAqdcMyhAZtF"
+    ],
+    "price": 59,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recv8W5tOGGXSKcDF",
+    "name": "סבתא דינה הכינה לנו עיג'ה",
+    "description": "לביבות עיג׳ה טבעוניות, תפוח אדמה, זוקיני, עשבי תיבול וגזר.\nטורטיה פריכה, טחינה ירוקה, צ׳ילי וסלט עשבי\u001a עם אגוזי מלך\n",
+    "categories": [
+      "recSQKAqdcMyhAZtF"
+    ],
+    "price": 55,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recs4hSqIyv6oDFkq",
+    "name": "סלט ביצים על בריוש קלוי",
+    "description": "בריוש קלוי, אבוקדו (בעונה), סלט ביצים עשיר עם מיונז,\nחרדל גרגירים ובצל מקורמל.\nסלסת עגבניות שרי צהובות, נענע, כוסברה, סלרי ובצל ירוק.\nמוגש בליווי סלט גן",
+    "categories": [
+      "recSQKAqdcMyhAZtF"
+    ],
+    "price": 59,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recQvrfUDsTcPqJ51",
+    "name": "ברוסקטת ביצים עלומות",
+    "description": "חלת בריוש חמימה, ״שניצל״ צפתית, פלפלי\u001a קלויי,\nפטריות צלויות ורוטב הולנדייז",
+    "categories": [
+      "recSQKAqdcMyhAZtF"
+    ],
+    "price": 62,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recrN0Tld0qGur281",
+    "name": "הכריך המפוזר מכפר אז\"ר",
+    "description": "לחם פרנה פתוח, גבינת שמנת, סלמון\u0013 מעושן, ביצת עין ,\nאספרגוס\u0015 ועירית, מוגש לצד סלט רוקט, עגבניות שרי,\nבצל סגול, שמן זית ובלסמי מצומצם",
+    "categories": [
+      "recSQKAqdcMyhAZtF"
+    ],
+    "price": 62,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recX9G41L5KxjzydE",
+    "name": "דייניש תרד וגבינות ",
+    "description": "מאפה בצק עלים במילוי תרד וגבינות טובות.\nבליווי סלט סלק ועשבים, גבינת לאבנה וסלסת עגבניות.",
+    "categories": [
+      "recSQKAqdcMyhAZtF",
+      "recEbYbuwGtvCsKsZ"
+    ],
+    "price": 59,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reckpSmg3mqCOlEps",
+    "name": " פרוסת עוגת קראנץ שוקולד ",
+    "categories": [
+      "recqEeeUYOh5Vz5xF"
+    ],
+    "price": 16,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recoyD0hEOeja8mwn",
+    "name": "קרואסון חמאה",
+    "description": "מוגש בליווי ריבת תות, חמאה ודבש",
+    "categories": [
+      "recqEeeUYOh5Vz5xF"
+    ],
+    "price": 23,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recZQKj5H4fgv5a0D",
+    "name": "בראוניז שוקולד צ׳יפ",
+    "categories": [
+      "recqEeeUYOh5Vz5xF"
+    ],
+    "price": 18,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recvODFe1KqUIVtcN",
+    "name": "אלפחורס",
+    "categories": [
+      "recqEeeUYOh5Vz5xF"
+    ],
+    "price": 12,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recPcShUK4WxGqB2I",
+    "name": "מאפינס גזר",
+    "categories": [
+      "recqEeeUYOh5Vz5xF"
+    ],
+    "price": 15,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "desert",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recj6JCpYa5fC9eqo",
+    "name": "כדור תמרים/בוטנים/שוקולד לבן",
+    "categories": [
+      "recqEeeUYOh5Vz5xF"
+    ],
+    "price": 7,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recqg3Io1b1oep6Vu",
+    "name": "פוקצ׳ה פיצה מרגריטה שרי",
+    "description": "רוטב עגבניות, מוצרלה מגורדת, עגבניות שרי ואורגנו.\nניתן לקבל עם גבינות טבעוניות",
+    "categories": [
+      "recEw4nZ56QQmTVcS"
+    ],
+    "price": 59,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recI8Wthyir6mZYCX",
+    "name": "פוקצ׳ה פיצה ירוקים טבעונית",
+    "description": "רוטב פסטו, ירוקים עונתיים, מוצרלה ופטה טבעונית,\nעלי ארוגולה ותרד טרי.",
+    "categories": [
+      "recEw4nZ56QQmTVcS"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recf7PCIaVwf8fL47",
+    "name": "פוקצ׳ה פולנטה",
+    "description": "קרם תירס, פטריות פורטבלו צלויות, עלי תרד, אספרגוס,\nטבעות זוקיני, גבינת מוצרלה ופרמז׳ן",
+    "categories": [
+      "recEw4nZ56QQmTVcS"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recvmN8Kf8tldCzqq",
+    "name": "פוקצ׳ה פיצה פונגי כמהין",
+    "description": "מגוון פטריות חורש צלויות, שמנת כמהין, בצל סגול\nמקורמל, מוצרלה, פרמז'ן, בלסמי מצומצם,\u001aועלי רוקט",
+    "categories": [
+      "recEw4nZ56QQmTVcS"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recsdRgba6fE9MQp6",
+    "name": "פוקצ׳ה פיצה גבינת צאן\u001aוירקות אנטיפסטי",
+    "description": "רוטב עגבניות, מוצרלה, שלל ירקות קלויי\u001a, גבינת עיזים\nובזיליקום, מוגש בזילוף רוטב בלסמי מתקתק",
+    "categories": [
+      "recEw4nZ56QQmTVcS"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec7VlgB44r9U2Zzx",
+    "name": "פוקצ׳ה פיצה בן גוריון",
+    "description": "רוטב נאפוליטנה, פלחי עגבניות, שום קונפי, עשבי תיבול\n[פטרוזיליה ועירית] וגבינות ישראליות.",
+    "categories": [
+      "recEw4nZ56QQmTVcS"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recJYSKGV5aMjpuzI",
+    "name": "פוקצ׳ה פיצה ארבע גבינות",
+    "description": "שמנת רוזה, בטטה צלויה, בצל מקורמל וגבינות טובות",
+    "categories": [
+      "recEw4nZ56QQmTVcS"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recBH8jMFoIrTxpTF",
+    "name": "שקשוקה ירוקה",
+    "description": "רוטב שמנת תרד, ביצי\u001a טריות, עגבניות שרי,\nפטריות, גרגרי חומו\u0015, בצל, עשבי תיבול וגבינת\nעיזים",
+    "categories": [
+      "rec0pirssFiV5R3Sq"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recZ6AnUKfgEB1Ble",
+    "name": "השקשוקה של איתמר",
+    "description": "ביצים טריות, תבשיל עגבניות עשיר,\nעשבי תיבול, פלפלי\u001a קלויים, בצל וכמון\u0013",
+    "categories": [
+      "rec0pirssFiV5R3Sq"
+    ],
+    "price": 65,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recJWLyqeOcZVrO5m",
+    "name": "שקשוקה טבעונית",
+    "description": "תבשיל עגבניות עשיר, בצל, כמון, ביצה\nטבעונית, גבינת פטה טבעונית ועשבי תיבול.\nמוגש עם טפנדים טבעוניים משתנים",
+    "categories": [
+      "rec0pirssFiV5R3Sq"
+    ],
+    "price": 65,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recFEpe66Iu4kwIXq",
+    "name": "לחם פרמז'ן ועשבי תיבול",
+    "description": "לחם לבחירה [לחם מחמצת > לבן / דגנים].\nעם מטבל סלסה, טחינה ופסטו.",
+    "categories": [
+      "rece6O5lc0wm0fQbP",
+      "recu1NIRPqYxvkJIx"
+    ],
+    "price": 29,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recfyzCdbLzyPZ7KV",
+    "name": "סלט סלק ועשבים",
+    "description": "סלק, פטרוזיליה, נענע, עלי סלרי,\nחמוציות, רכז רימונים, אגוזי מלך,\nפיצוחי ג'עלה, גבינת פטה וטחינה גולמית.",
+    "categories": [
+      "rece6O5lc0wm0fQbP",
+      "recu1NIRPqYxvkJIx"
+    ],
+    "price": 42,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recOUoZTmIm2j62yd",
+    "name": "פוקצ'ה חציל ולאבנה",
+    "description": "קרם חציל, בצל מקורמל, שום קונפי,\nפרמז'ן, זיתי קלמטה, פסטו ולאבנה.",
+    "categories": [
+      "rece6O5lc0wm0fQbP",
+      "recu1NIRPqYxvkJIx"
+    ],
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recVedz4MEz2nXuqf",
+    "name": "פאו די קייג'ו",
+    "description": "מיני לחמניות ביס גבינה [8 יחידות]\nמוגשות לצד שלושה מטבלים\n[פסטו, סלסת עגבניות וטפנד פלפלים]",
+    "categories": [
+      "rece6O5lc0wm0fQbP",
+      "recu1NIRPqYxvkJIx"
+    ],
+    "price": 39,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8z5IJCdI9vhaZJ",
+    "name": "כרוביות ממולאות",
+    "description": "4 כדורי כרובית וגבינות טובות בציפוי פריך\nמוגש על קרם כרובית, רוטב צ׳ילי מתוק,\nטריאקי ובצל",
+    "categories": [
+      "rece6O5lc0wm0fQbP",
+      "recu1NIRPqYxvkJIx"
+    ],
+    "price": 52,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recduYMQsUjnZva81",
+    "name": "הגן התאילנדי",
+    "description": "קוביות סלמון, פפאיה ירוקה, עגבניות שרי, כרוב סגול, פטריות,\nפלפל חריף, נבטים, גזר, בצל סגול, בצל ירוק, בזיליקום סגול,\nצנונית, בוטנים, שומשום בשני צבעים ברוטב תאילנדי קלאסי",
+    "categories": [
+      "reccU4tPR8hovYqAI"
+    ],
+    "price": 72,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recmgvcM76Yha0GgV",
+    "name": "הסלט של נחמה",
+    "description": "חסות, עלי רוקט ובייבי ברוטב ויניגרט, גבינת חלומי ופטריות\nשמפניון מוקפצות ברוטב טריאקי, מלפפון, עגבניות שרי, כרוב,\nגזר, נבטים, עלי מיקרו ושומשום קלוי. ",
+    "categories": [
+      "reccU4tPR8hovYqAI"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recCwvQR5XDxqJ25l",
+    "name": "סלט ספורטאיות",
+    "description": "גשם של מלפפונים, קינואה, עדשים ירוקות ושחורות, בצל,\nפטרוזיליה, נענע, חמוציות, אגוזי מלך\n, שרי בצבעים, פיצוחי ג'עלה,\nעל גבינת לאבנה דרוזית וטחינה גולמית / מוגש עם רוסטיקו דגנים",
+    "categories": [
+      "reccU4tPR8hovYqAI"
+    ],
+    "price": 62,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recL09O1aRIOh9bKh",
+    "name": "סלט הקפרזה שלנו",
+    "description": "מיקס עגבניות שרי, זיתי קלמטה, בצל סגול, ארטישוק\nאלה רומנה קוביות פוקצ'ת שום, קרעי גבינת מוצרלה, פסטו,\nבלסמי מצומצם ועלי בזיליקום טריים",
+    "categories": [
+      "reccU4tPR8hovYqAI"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recUtBzMzma52S331",
+    "name": "סלט שוק בצלאל",
+    "description": "מלפפונים, עגבניות, פלפלים, גזר, בצל סגול, צנונית, פטרוזיליה,\nנענע, ביצה קשה, גרגירי חומוס, גבינת פטה מגורדת וחצילים\u001a\nקלויים. מתובל בשמן זית, מיץ לימון ונגיעות פסטו.\nלצד טחינה ירוקה. מוגש על מצע חסות ופוקצ'ה חמימה\nשסופגת את טעמי הסלט",
+    "categories": [
+      "reccU4tPR8hovYqAI"
+    ],
+    "price": 69,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recrs0bi3yMfX1fuM",
+    "name": "פולנטה פטריות",
+    "description": "טריו פטריות, בצל, שום, עלי בזיליקום טריים, אספרגוס ובוטנים גרוסים בטריאקי מוגש על קרם פולנטה עשיר.",
+    "categories": [
+      "recu1NIRPqYxvkJIx"
+    ],
+    "price": 49,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recHaueBflafeNuNM",
+    "name": "סביצה סלמון",
+    "description": "קוביות סלמון טרי, מלפפונים, אספרגוס, בצל סגול, בצל ירוק, אבוקדו, כוסברה, פלפל חריף, רוסטיקו דגנים, ויניגרט יוזו, לימון ודבש",
+    "categories": [
+      "recu1NIRPqYxvkJIx"
+    ],
+    "price": 56,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec0at72sJfpOkRCs",
+    "name": "ריזוטו כתום",
+    "description": "ריזוטו עם קרם דלורית ושמנת, ערמונים, מרווה, שום, חמאה ופרמז׳ן",
+    "categories": [
+      "recu1NIRPqYxvkJIx"
+    ],
+    "price": 56,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recrEY0DHMYxpmE0d",
+    "name": "טורטליני גבינות",
+    "description": "שמנת כמהין, טריו פטריות, ערמונים, יין לבן, בזיליקום ופרמז׳ן",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 72,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recS3H3NESW9EyCFW",
+    "name": "רביולי ארטישוק ירושלמי",
+    "description": "במילוי ארטישוק ירושלמי וגבינת ריקוטה, רוטב חמאת מרווה, שום, ארטישוק אלא רומנה, מרווה קריספית, פרמז׳ן וגרמולטה",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 72,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec1ovOWy9vUO6yRH",
+    "name": "רביולי פולנטה במעטפת תרד",
+    "description": "ברוטב שמנת טימין, אספרגוס חלוט, ערמונים, שום ופרמז׳ן",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 72,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec8JWM3hgrC8NMyG",
+    "name": "ניוקי בטטה ממולא גבינות",
+    "description": "ברוטב שמנת עיזים, פטריות צלויות, בצלצלים מקורמלים, מיקס שרי, תרד ופקאנים מסוכרים",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 72,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recD1DCrk9gnS9PUQ",
+    "name": "היער השחור",
+    "description": "פסטה רדיאטורי שחורה ברוטב חמאת שמנת וטריאקי תוצרת בית, עגבניות שרי צלויות, פטריות שמפניון ובצל סגול",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 72,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recNtIh3MMQDtiSC4",
+    "name": "לזניית היום",
+    "description": "דפי לזניה טריים, רוטב נפוליטנה, שמנת, גבינות ובזיליקום",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 72,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recoxPs5WwZRxX6tA",
+    "name": "שטויות במיץ עגבניות",
+    "description": "רוטב עגבניות, שום, שמן זית וביליקום",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 52,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recs2bq4LVUZVoQec",
+    "name": "סיציליאנית",
+    "description": "רוטב עגבניות, פרמז׳ן, עגבניות שרי, חצילים,\nזיתי קלמטה, אורגנו, שום, בזיליקום וקרעי מוצרלה טרייה",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 62,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recWhVyQV1FLlYyob",
+    "name": "שמנת אדומה",
+    "description": "שמנת, רוטב עגבניות ובזיליקום",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 55,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reckk1aaK2P8XwC4h",
+    "name": "הרוטב של נועם ",
+    "description": "שמנת פסטו, יין לבן, מיקס עגבניות שרי, שום פרוס, נצל ופטריות טריות",
+    "categories": [
+      "recatIF25Lr7geCWc"
+    ],
+    "price": 59,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recuHf4HDuNdFZxHW",
+    "name": "שמנת אלפרדו ",
+    "description": "שמנת ושני סוגי פטריות",
+    "categories": [
+      "recHLxI9F9wkhh8Aa"
+    ],
+    "price": 59,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recbirMbF6uyeqXxZ",
+    "name": "פילה סלמון ואנטיפסטי",
+    "description": "מוגש לצד סלט קינואה ועדשים עם חמוציות, בצל, שום קונפי, ירקות קלויים ועשבי תיבול",
+    "categories": [
+      "recatIF25Lr7geCWc"
+    ],
+    "price": 105,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec5YKlPBNLjoodr7",
+    "name": "פילה סלמון וניוקי",
+    "description": "מוגש על ניוקי בטטה ממולא בגבינות, רוטב שמנת עיזים, גרידת לימון, בצל סגול, ברוקולי, עגבניות שרי ועלי תרד",
+    "categories": [
+      "recatIF25Lr7geCWc"
+    ],
+    "price": 105,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recsALt1S5czruRot",
+    "name": "פילה דניס וריזוטו",
+    "description": "ריזוטו כרובית, כרובית צלויה, שום, שמנת, פרמז׳ן, פטרוזיליה וגרמולטה",
+    "categories": [
+      "recatIF25Lr7geCWc"
+    ],
+    "price": 109,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recgqhmdSE192y4wK",
+    "name": "פילה דניס וירוקים",
+    "description": "קרם דלורית, קוביות דלורית צלויה, פטריות צרובות, בזיליקום וירוקים עונתיים מוקפצים במחבת",
+    "categories": [
+      "recatIF25Lr7geCWc"
+    ],
+    "price": 109,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
     "recipe": {

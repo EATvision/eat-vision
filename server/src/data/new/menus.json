@@ -3,9 +3,6 @@
     "id": "recoNZ8sopQsuADZ0",
     "name": "menu",
     "description": "menu",
-    "workingHours": [
-      "recNk4JNbX6GMGRrf"
-    ],
     "startDate": "2021-12-21",
     "endDate": "2032-03-01",
     "categories": [
@@ -323,9 +320,6 @@
     "id": "rec7R2UglfNyQj2uM",
     "kitchens": [
       "recsHn5ysBHYm7FDS"
-    ],
-    "workingHours": [
-      "recNk4JNbX6GMGRrf"
     ],
     "startDate": "2022-01-01",
     "endDate": "2024-03-01",
@@ -979,6 +973,49 @@
     "endDate": "2023-04-29",
     "categories": [
       "recUxPfV3HD18vBio"
+    ]
+  },
+  {
+    "id": "recYBff7oS6WWZn7S",
+    "kitchens": [
+      "rec1nrezZLK3Rk9n9"
+    ],
+    "name": "בוקר",
+    "workingHours": [
+      "recNk4JNbX6GMGRrf"
+    ],
+    "startDate": "2022-12-01",
+    "endDate": "2024-03-01",
+    "categories": [
+      "rece6O5lc0wm0fQbP",
+      "recIODPVlpy9e16FC",
+      "reccU4tPR8hovYqAI",
+      "reccwqdiBtb45Ph0h",
+      "recSQKAqdcMyhAZtF",
+      "rec0pirssFiV5R3Sq",
+      "recEw4nZ56QQmTVcS",
+      "recqEeeUYOh5Vz5xF"
+    ]
+  },
+  {
+    "id": "recZr1ZDEbud2Fxht",
+    "kitchens": [
+      "rec1nrezZLK3Rk9n9"
+    ],
+    "name": "ערב",
+    "workingHours": [
+      "recNlhYZFVvQofGxh"
+    ],
+    "startDate": "2022-12-01",
+    "endDate": "2024-03-01",
+    "categories": [
+      "recEbYbuwGtvCsKsZ",
+      "recatIF25Lr7geCWc",
+      "reccU4tPR8hovYqAI",
+      "recHLxI9F9wkhh8Aa",
+      "rec0pirssFiV5R3Sq",
+      "recEw4nZ56QQmTVcS",
+      "recu1NIRPqYxvkJIx"
     ]
   }
 ]

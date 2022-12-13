@@ -125,8 +125,12 @@ export default {
   profile: 'profile',
   deal: 'deal',
   empty_components_restriction_selector: 'No choices selected yet',
+  empty_order: 'no dishes were added',
   order_summary: 'order summary',
   complete_order: 'complete order',
   what_would_you_like: 'what would you like?',
   you_can_tag_all_that_seems_to_your_liking: 'Add all relevant options',
+  my_order_title_no_choices: 'No interesting dishes?',
+  my_order_title: 'Great choices! Ordering is just around the corner.',
+  my_order_subtitle: '(Please call the waiter the old-fashioned way...)',
 }

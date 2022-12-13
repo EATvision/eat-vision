@@ -238,7 +238,7 @@ export default function FoodDish({ data }) {
                 />
 
                 <Typography sx={{ margin: 0 }}>{`${kitchen.currency}${
-                  (Number(size.price) || 0) + Number(data.price)
+                  Number(size.price) || Number(data.price)
                 }`}</Typography>
               </Box>
             ))}
