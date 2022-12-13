@@ -2,35 +2,35 @@
   {
     "id": "rec2l8JHi0gO22UUJ",
     "smallest_size_name": "Small",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "Large",
-    "2nd_size_price_delta": 3
+    "2nd_size_price": 3
   },
   {
     "id": "recCBvd1DP5BHTTo1",
     "smallest_size_name": "Small",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "Large",
-    "2nd_size_price_delta": 14
+    "2nd_size_price": 28
   },
   {
     "id": "recksrszlpy2cXJc4",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "pitcher",
-    "2nd_size_price_delta": 27
+    "2nd_size_price": 41
   },
   {
     "id": "recvifWJYeQAvT7ZE",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0
+    "smallest_price": 0
   },
   {
     "id": "rec1bHgEE3bKIzmMH",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 388
+    "2nd_size_price": 435
   },
   {
     "id": "recpGfIxejmPdxWCs",
@@ -39,148 +39,165 @@
   {
     "id": "recoRBDqg1kmAwG2b",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "pitcher",
-    "2nd_size_price_delta": 33
+    "2nd_size_price": 57
   },
   {
     "id": "recPw4E7ZM0Vq0bBV",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "pitcher",
-    "2nd_size_price_delta": 39
+    "2nd_size_price": 68
   },
   {
     "id": "rechOUJqX46OHUoHR",
     "smallest_size_name": "bottle",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "glass",
-    "2nd_size_price_delta": 1,
+    "2nd_size_price": 25,
     "3rd_size_name": "pitcher",
-    "3rd_size_price_delta": 35
+    "3rd_size_price": 59
   },
   {
     "id": "recZIWT9K7tSlXatx",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 491
+    "2nd_size_price": 535
   },
   {
     "id": "rec2l4oEYQm8e8qR1",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 446
+    "2nd_size_price": 495
   },
   {
     "id": "recPKWVieJmd0rHi9",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 406
+    "2nd_size_price": 445
   },
   {
     "id": "recmn9SLrHaXdjtUW",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 630
+    "2nd_size_price": 685
   },
   {
     "id": "rec00FfjcE3k5BKZL",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 626
+    "2nd_size_price": 685
   },
   {
     "id": "recnYZwc0K0RKumw6",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 651
+    "2nd_size_price": 710
   },
   {
     "id": "recXCAthNS4tsq36T",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 545
+    "2nd_size_price": 590
   },
   {
     "id": "rec8dvzijDgMomhtU",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 652
+    "2nd_size_price": 710
   },
   {
     "id": "rec7ViMm82ngA61rS",
     "smallest_size_name": "shot",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 733
+    "2nd_size_price": 810
   },
   {
     "id": "rec8UFDUIw0Nrprov",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 93
+    "2nd_size_price": 131
   },
   {
     "id": "rec1zuxFUuuFVrCuu",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 97
+    "2nd_size_price": 136
   },
   {
     "id": "recpmbTAkjQMmlUpk",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 90
+    "2nd_size_price": 129
   },
   {
     "id": "recnMqV4MnGP1g54D",
     "smallest_size_name": "bottle",
-    "smallest_price_delta": 0
+    "smallest_price": 0
+  },
+  {
+    "id": "recRNY31CN1l8a8Ly",
+    "smallest_size_name": "bottle",
+    "smallest_price": 0
+  },
+  {
+    "id": "rechmxnG6EBN9Nvsj",
+    "smallest_size_name": "bottle",
+    "smallest_price": 0
   },
   {
     "id": "recgqqQ3KsE5WnuZS",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 140
+    "2nd_size_price": 189
   },
   {
     "id": "recFjn3QEXte0yzY4",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 88
+    "2nd_size_price": 126
+  },
+  {
+    "id": "recj0Jl1jwrhSGGLd",
+    "smallest_size_name": "glass",
+    "smallest_price": 0,
+    "2nd_size_name": "bottle",
+    "2nd_size_price": 126
   },
   {
     "id": "recuepcvlxIrr7y4p",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 126
+    "2nd_size_price": 169
   },
   {
     "id": "recDFcrsWGuZoxv93",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 140
+    "2nd_size_price": 189
   },
   {
     "id": "rec0UeVreFtWsZUFa",
     "smallest_size_name": "glass",
-    "smallest_price_delta": 0,
+    "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price_delta": 89
+    "2nd_size_price": 128
   }
 ]
