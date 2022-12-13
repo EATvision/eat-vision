@@ -35,10 +35,10 @@ function MenusManagerPage() {
 
   return (
     <Stack direction="column">
-      <Typography variant="h4">Menus</Typography>
+      <Typography variant="h4">{t('menus')}</Typography>
       <Stack direction="row" justifyContent="flex-end">
         <Button variant="contained" as={Link} to={'/customers/menus/new'}>
-          Add Menu
+          {t('add_menu')}
         </Button>
       </Stack>
       <Box py={3}>

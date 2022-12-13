@@ -147,4 +147,13 @@ export default {
   are_you_sure_you_want_to_delete_this_dish: 'are you sure tou want to delete this dish',
   is_possible_to_putaside: 'possible to put aside',
   added_price: 'added price',
+  dishes: 'dishes',
+  add_new_dish: 'add new dish',
+  menus: 'menus',
+  new_menu: 'new menu',
+  menu_categories: 'menu categories',
+  you_can_drag_and_drop_categories_to_reorder_them: 'you can drag and drop categories to reorder them',
+  add_category: 'add category',
+  delete_menu: 'delete menu',
+  are_you_sure_you_want_to_delete_this_menu: 'are you sure you want to delete this menu'
 }
