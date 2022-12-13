@@ -162,8 +162,8 @@ function DishPage() {
             <IngredientsInput
               showAddDish
               showAddIngredient
-              name="recipe.changeable"
-              label={t('Changeable Ingredients')}
+              name="recipe.choice"
+              label={t('Choice Ingredients')}
             />
             <Divider />
             <Stack direction="row" spacing={1} my={4}>
@@ -210,12 +210,12 @@ function DishPage() {
       {openDialog === DIALOGS.REMOVE_MENU && (
         <ConfirmDialog
           open
-          title="Delete Dish"
+          title={t('delete dish')}
           onClose={() => setOpenDialog('')}
           onConfirm={() => confirmCallback()}
-          labels={{ confirm: 'Delete', reject: 'Cancel' }}
+          labels={{ confirm: t('delete'), reject: t('cancel') }}
         >
-          Are you sure you want to delete this dish?
+          {t('Are you sure you want to delete this dish?')}
         </ConfirmDialog>
       )}
     </>

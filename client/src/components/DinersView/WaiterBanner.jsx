@@ -11,22 +11,23 @@ function WaiterBanner({ title, subtitle }) {
   return (
     <Paper
       square
-      elevation={0}
+      elevation={1}
       sx={{
         display: 'flex',
         alignItems: 'start',
         justifyContent: 'center',
         position: 'relative',
-        margin: `${theme.spacing(1)} ${theme.spacing(2)}`,
-        background: 'none',
-        height: 80,
+        padding: `${theme.spacing(1)} ${theme.spacing(2)}`,
+        backgroundColor: '#E9E9E9',
+        height: 100,
+        zIndex: 1000,
       }}
     >
       <Box
         sx={{
           position: 'absolute',
-          top: 0,
-          left: 0,
+          top: theme.spacing(1),
+          left: theme.spacing(2),
         }}
       >
         <Box
@@ -53,8 +54,8 @@ function WaiterBanner({ title, subtitle }) {
         sx={{
           margin: 'auto 0px',
           position: 'absolute',
-          top: 15,
-          left: 72,
+          top: `calc(15px + ${theme.spacing(1)})`,
+          left: `calc(72px + ${theme.spacing(2)})`,
         }}
       >
         <Grow direction="up" in key={title}>
