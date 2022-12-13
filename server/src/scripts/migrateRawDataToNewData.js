@@ -4,7 +4,7 @@ const keyBy = require('lodash/keyBy')
 const get = require('lodash/get')
 const _intersection = require('lodash/intersection')
 
-const { setAllChildIngredients, setAllParentGroups } = require('../utils/dishesForScript')
+const { setAllChildIngredients, setAllParentGroups } = require('../utils/dishes')
 
 const kitchens = require(('../../src/data/raw/kitchens.json'))
 const diets = require(('../../src/data/raw/diets.json'))
@@ -23,16 +23,17 @@ const allergens = require(('../../src/data/raw/allergens.json'))
 
 const ingredientsById = keyBy(ingredients, 'id')
 const sizesById = keyBy(sizes, 'id')
+const foodGroupsById = keyBy(foodGroups, 'id')
 
 const getIngSubIngredients = (ing) => {
   let allChildIngredients = []
-  setAllChildIngredients(allChildIngredients, ing.id)
+  setAllChildIngredients(allChildIngredients, ing.id, ingredientsById)
   return allChildIngredients
 }
 
 const getAllParentFoodGroups = (initialGroupIds) => {
   let foodGroups = []
-  initialGroupIds.forEach(groupId => setAllParentGroups(foodGroups, groupId))
+  initialGroupIds.forEach(groupId => setAllParentGroups(foodGroups, groupId, foodGroupsById))
   return foodGroups
 }
 

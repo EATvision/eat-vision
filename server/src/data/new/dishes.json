@@ -19798,5 +19798,22 @@
       "addableIngredients": [],
       "addableDishes": []
     }
+  },
+  {
+    "id": "recxcmVjf9BqRqcGp",
+    "name": "מוגזים/תה קר (אפרסק)",
+    "price": 13,
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "drink",
+    "sizes": [],
+    "recipe": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
   }
 ]
