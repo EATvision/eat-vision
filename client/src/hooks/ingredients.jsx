@@ -8,7 +8,7 @@ import { useV1KitchenById } from 'hooks/kitchens'
 
 export const useV1Ingredients = (q) => {
   const { data, error, ...rest } = useSWR(
-    q ? `/api/ingredients?q=${q}` : '/api/ingredients',
+    q ? `/api/v1/ingredients?q=${q}` : '/api/v1/ingredients',
     fetcher
   )
   return {
@@ -21,7 +21,7 @@ export const useV1Ingredients = (q) => {
 
 export const useV1IngredientsByIds = (ids = []) => {
   const { data, error, ...rest } = useSWR(
-    `/api/ingredients?ids=${ids.join(',')}`,
+    `/api/v1/ingredients?ids=${ids.join(',')}`,
     fetcher
   )
 

@@ -2,7 +2,7 @@ const { Router } = require('express')
 const Fuse = require('fuse.js')
 const router = Router()
 
-const ingredients = require('../data/new/ingredients.json')
+const ingredients = require('../../data/new/ingredients.json')
 const searchableIngredients = ingredients.filter(ing => ing.isSearchable)
 
 const options = {

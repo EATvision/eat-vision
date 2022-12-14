@@ -2,7 +2,7 @@ const { Router } = require('express')
 const Fuse = require('fuse.js')
 const router = Router()
 
-const foodGroups = require('../data/new/foodGroups.json')
+const foodGroups = require('../../data/new/foodGroups.json')
 const searchableFoodGroups = foodGroups
 
 const options = {

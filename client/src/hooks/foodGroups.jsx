@@ -4,7 +4,7 @@ import fetcher from 'api/fetcher'
 
 export const useV1FoodGroups = (q) => {
   const { data, error, ...rest } = useSWR(
-    q ? `/api/foodGroups?q=${q}` : '/api/foodGroups',
+    q ? `/api/v1/foodGroups?q=${q}` : '/api/v1/foodGroups',
     fetcher
   )
   return {
@@ -17,7 +17,7 @@ export const useV1FoodGroups = (q) => {
 
 export const useV1FoodGroupsByIds = (ids = []) => {
   const { data, error, ...rest } = useSWR(
-    `/api/foodGroups?ids=${ids.join(',')}`,
+    `/api/v1/foodGroups?ids=${ids.join(',')}`,
     fetcher
   )
 
