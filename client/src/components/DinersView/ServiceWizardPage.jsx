@@ -25,7 +25,12 @@ function ServiceWizardPage() {
     login: {
       waiterTitle: t('login_plea'),
       waiterSubTitle: t('login_plea_subtext'),
-      component: (
+      component: dinerUser.token ? (
+        <Navigate
+          to={`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`}
+          replace
+        />
+      ) : (
         <Login
           onDone={handleDoneLogin}
           optOutLoginOption={<OptOutLoginOption onDone={handleDoneLogin} />}
@@ -36,16 +41,6 @@ function ServiceWizardPage() {
   }
 
   const chosenOption = 'login'
-
-  // TODO: Remove once service page has more than the login step
-  if (dinerUser.token) {
-    return (
-      <Navigate
-        to={`/diners/kitchens/${kitchenId}/menus/${menuId}/dishes`}
-        replace
-      />
-    )
-  }
 
   return (
     <Box

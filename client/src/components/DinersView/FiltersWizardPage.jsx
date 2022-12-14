@@ -17,6 +17,7 @@ function FiltersWizardPage() {
     const nextStep = Number(step) + 1
     if (nextStep === maxSteps) {
       await dinerUser.saveDiner()
+      if (dinerUser.token) return navigate('../dishes') // TODO: Remove once service page has more than the login step
       return navigate('../service')
     }
     return navigate(`../filters/${nextStep}`)
