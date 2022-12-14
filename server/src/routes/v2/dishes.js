@@ -1,10 +1,17 @@
 const _omit = require('lodash/omit')
+const _keyBy = require('lodash/keyBy')
 const { Router } = require('express')
 const createHttpError = require('http-errors')
 
 const { getCollectionOperations, getDBId } = require('utils/db')
+const { getModifiedDishes } = require('src/utils/dishes')
 
+const customersCollectionOperations = getCollectionOperations('customers')
+const kitchensCollectionOperations = getCollectionOperations('kitchens')
+const menusCollectionOperations = getCollectionOperations('menus')
+const categoriesCollectionOperations = getCollectionOperations('categories')
 const dishesCollectionOperations = getCollectionOperations('dishes')
+const ingredientsCollectionOperations = getCollectionOperations('ingredients')
 
 const router = Router()
 
@@ -122,5 +129,56 @@ router.delete('/:dishId', async (req, res, next) => {
     return next(createHttpError(500, message))
   }
 })
+
+router.post('/search', async (req, res, next) => {
+  const {
+    body: { kitchenId, menuId, filters },
+  } = req
+  try {
+    const relevantKitchen = await kitchensCollectionOperations.findOne({ $or: [{ _id: getDBId(kitchenId) }, { id: kitchenId }] })
+    const relevantMenu = await menusCollectionOperations.findOne({
+      $and: [
+        { $or: [{ kitchens: relevantKitchen.id }, { kitchens: relevantKitchen._id }] },
+        { $or: [{ _id: getDBId(menuId) }, { id: menuId }] },
+      ]
+    })
+    const relevantCategories = await categoriesCollectionOperations.find({
+      $or: [{ menus: relevantMenu.id }, { menus: relevantMenu._id }]
+    })
+    const relevantCategoriesIds = relevantCategories.reduce((acc, category) => {
+      return [...acc, getDBId(category._id), category.id]
+    }, []).filter(Boolean)
+
+    const relevantDishes = await dishesCollectionOperations.find({
+      categories: { $in: relevantCategoriesIds }
+    }).map(d => ({ ...d, _id: getDBId(d._id) }))
+
+    const dishesBy_Id = _keyBy(relevantDishes, '_id')
+    const dishesById = _keyBy(relevantDishes, 'id')
+    const dishesByIds = { ...dishesBy_Id, ...dishesById }
+
+    const relevantCustomers = await customersCollectionOperations.find({ kitchens: { $in: kitchenId } })
+    const relevantCustomersId = relevantCustomers.map(c => getDBId(c._id))
+
+    const relevantIngredients = await ingredientsCollectionOperations.find({
+      $or: [
+        { owners: { $exists: false } },
+        { owners: { $in: relevantCustomersId } },
+      ]
+    }).map(ing => ({ ...ing, _id: getDBId(ing._id) }))
+
+    const ingredientsBy_Id = _keyBy(relevantIngredients, '_id')
+    const ingredientsById = _keyBy(relevantIngredients, 'id')
+    const ingredientsByIds = { ...ingredientsBy_Id, ...ingredientsById }
+
+    const modifiedDishes = getModifiedDishes(relevantDishes, filters, { dishesById: dishesByIds, ingredientsById: ingredientsByIds })
+
+    res.send({ totalDishes: modifiedDishes, filteredDishes: modifiedDishes })
+  } catch (error) {
+    const message = `Could search dishes: ${error.message}`
+    return next(createHttpError(500, message))
+  }
+})
+
 
 module.exports = router
