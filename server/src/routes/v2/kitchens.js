@@ -105,7 +105,7 @@ router.post(
       // TODO: apply filters though mongo aggregation
       const modifiedDishes = getModifiedDishes(dishes, filters)
 
-      res.send({ totalDishes: modifiedDishes, filteredDishes: modifiedDishes })
+      res.send({ totalDishes: dishes, filteredDishes: modifiedDishes })
     } catch (error) {
       const message = `Could not get dishes for menu ${menuId} in kitchen ${kitchenId}: ${error.message}`
       return next(createHttpError(500, message))

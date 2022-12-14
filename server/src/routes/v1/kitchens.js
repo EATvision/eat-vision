@@ -60,7 +60,7 @@ router.post('/:kitchenId/menus/:menuId/dishes/search', (req, res) => {
 
   const modifiedDishes = getModifiedDishes(relevantDishes, filters, { dishesById, ingredientsById })
 
-  res.send({ totalDishes: modifiedDishes, filteredDishes: modifiedDishes })
+  res.send({ totalDishes: relevantDishes, filteredDishes: modifiedDishes })
 })
 
 module.exports = router

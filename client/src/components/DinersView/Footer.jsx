@@ -1,62 +1,34 @@
 import * as React from 'react'
 import { styled, useTheme } from '@mui/material/styles'
-
-import {
-  AppBar,
-  Badge,
-  Box,
-  CssBaseline,
-  Fab,
-  IconButton,
-  Toolbar,
-  Typography,
-} from '@mui/material'
-import { useDinerUser } from 'contexts/diner'
+import { AppBar, Badge, Box, CssBaseline, Fab, Toolbar } from '@mui/material'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
-import { ConnectIcon } from 'components/Icons/ConnectIcon'
-import { SettingsIcon } from 'components/Icons/SettingsIcon'
-import { MyListIcon } from 'components/Icons/MyListIcon'
-import { ProfileIcon } from 'components/Icons/ProfileIcon'
-import { t } from 'i18next'
 import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 import { useDinerOrder } from 'contexts/order'
+import SettingsBtn from './SettingsBtn'
+import UserFiltersBtn from './UserFiltersBtn'
+import UserFiltersSwitch from './UserFiltersSwitch'
 
-const StyledFab = styled(Fab)({
+const StyledBadge = styled(Badge)({
   position: 'absolute',
-  zIndex: 1,
+  zIndex: 101,
   top: -30,
   left: 0,
   right: 0,
-  margin: '0 auto',
   width: 75,
   height: 75,
-  overflow: 'hidden',
+  margin: '0 auto',
+})
+
+const StyledFab = styled(Fab)({
+  width: 75,
+  height: 75,
   border: '1px solid #e9e9e9',
+  zIndex: 0,
+  overflow: 'hidden',
 })
 
 export default function Footer() {
   const theme = useTheme()
-  const navigate = useNavigate()
-  const location = useLocation()
-  const { kitchenId, menuId } = useParams()
-
-  const dinerUser = useDinerUser()
-  const numberOfFiltersOn = Object.keys(dinerUser.user.filters).reduce(
-    (acc, filterName) => acc + dinerUser.user.filters[filterName].length,
-    0
-  )
-
-  const handleClickFilters = () => {
-    if (kitchenId && menuId) {
-      navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/filters/1`)
-    } else {
-      navigate(-1)
-    }
-  }
-
-  const handleClickSettings = () => {
-    navigate('/diners/settings', { state: { kitchenId, menuId } })
-  }
 
   return (
     <React.Fragment>
@@ -72,78 +44,42 @@ export default function Footer() {
         }}
       >
         <Toolbar>
-          <IconButton
-            disableRipple
-            onClick={handleClickSettings}
-            sx={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
+          <UserFiltersSwitch />
+          <Box sx={{ flexGrow: 1 }} />
+
+          <MyOrderWrapper>
+            {({ onClick, disabled }) => {
+              return (
+                <StyledFab
+                  color="secondary"
+                  aria-label="add"
+                  onClick={onClick}
+                  disabled={disabled}
+                >
+                  <img src={waiterSrc} />
+                  {/* <RaiseHandIcon style={{ fontSize: '2.75rem', color: 'white' }} /> */}
+                </StyledFab>
+              )
             }}
-            disabled={
-              location.pathname.includes('/settings') || !dinerUser.token
-            }
-          >
-            <SettingsIcon />
-            <Typography sx={{ fontSize: 12 }}>{t('settings')}</Typography>
-          </IconButton>
-
-          <IconButton disabled>
-            <Badge
-              color="info"
-              invisible
-              badgeContent={t('coming_soon')}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <ConnectIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('connect')}</Typography>
-            </Badge>
-          </IconButton>
+          </MyOrderWrapper>
 
           <Box sx={{ flexGrow: 1 }} />
+          <SettingsBtn />
 
-          <StyledFab color="secondary" aria-label="add">
-            <img src={waiterSrc} />
-            {/* <RaiseHandIcon style={{ fontSize: '2.75rem', color: 'white' }} /> */}
-          </StyledFab>
-
-          <Box sx={{ flexGrow: 1 }} />
-
-          <MyOrderBtn />
-
-          <IconButton
-            disabled={location.pathname.includes('/filters')}
-            onClick={handleClickFilters}
-          >
-            <Badge
-              color="primary"
-              invisible={numberOfFiltersOn === 0}
-              badgeContent={numberOfFiltersOn}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <ProfileIcon />
-              <Typography sx={{ fontSize: 12 }}>{t('profile')}</Typography>
-            </Badge>
-          </IconButton>
+          <UserFiltersBtn />
         </Toolbar>
       </AppBar>
     </React.Fragment>
   )
 }
 
-function MyOrderBtn() {
+function MyOrderWrapper({ children }) {
   const navigate = useNavigate()
   const location = useLocation()
   const { kitchenId, menuId } = useParams()
   const dinerOrder = useDinerOrder()
+
+  const disabled = location.pathname.includes('/myorder')
 
   const numberOfDishesInMyOrder = dinerOrder?.order.length
 
@@ -156,23 +92,13 @@ function MyOrderBtn() {
   }
 
   return (
-    <IconButton
-      disabled={location.pathname.includes('/myorder')}
-      onClick={handleClickMyOrder}
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-      }}
+    <StyledBadge
+      color="error"
+      overlap="circular"
+      invisible={numberOfDishesInMyOrder === 0}
+      badgeContent={numberOfDishesInMyOrder}
     >
-      <Badge
-        color="primary"
-        invisible={numberOfDishesInMyOrder === 0}
-        badgeContent={numberOfDishesInMyOrder}
-      >
-        <MyListIcon />
-      </Badge>
-      <Typography sx={{ fontSize: 12 }}>{t('my_list')}</Typography>
-    </IconButton>
+      {children({ onClick: handleClickMyOrder, disabled })}
+    </StyledBadge>
   )
 }

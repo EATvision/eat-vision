@@ -1,17 +1,21 @@
 import React from 'react'
+import { t } from 'i18next'
 import { IconButton, Typography } from '@mui/material'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
-import { SettingsIcon } from 'components/Icons/SettingsIcon'
-import { t } from 'i18next'
 
-export default function SettingsBtn({ showLabel, sx }) {
+import { useDinerUser } from 'contexts/diner'
+import { SettingsIcon } from 'components/Icons/SettingsIcon'
+
+export default function SettingsBtn() {
   const navigate = useNavigate()
   const location = useLocation()
   const { kitchenId, menuId } = useParams()
+  const dinerUser = useDinerUser()
 
   const handleClickSettings = () => {
     navigate('/diners/settings', { state: { kitchenId, menuId } })
   }
+
   return (
     <IconButton
       disableRipple
@@ -20,14 +24,11 @@ export default function SettingsBtn({ showLabel, sx }) {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        ...sx,
       }}
-      disabled={location.pathname.includes('/settings')}
+      disabled={location.pathname.includes('/settings') || !dinerUser.token}
     >
       <SettingsIcon />
-      {showLabel && (
-        <Typography sx={{ fontSize: 12 }}>{t('settings')}</Typography>
-      )}
+      <Typography sx={{ fontSize: 12 }}>{t('settings')}</Typography>
     </IconButton>
   )
 }

@@ -173,7 +173,7 @@ router.post('/search', async (req, res, next) => {
 
     const modifiedDishes = getModifiedDishes(relevantDishes, filters, { dishesById: dishesByIds, ingredientsById: ingredientsByIds })
 
-    res.send({ totalDishes: modifiedDishes, filteredDishes: modifiedDishes })
+    res.send({ totalDishes: relevantDishes, filteredDishes: modifiedDishes })
   } catch (error) {
     const message = `Could search dishes: ${error.message}`
     return next(createHttpError(500, message))
