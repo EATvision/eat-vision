@@ -7936,7 +7936,7 @@
   {
     "id": "recMhKoAOVculymV0",
     "name": "Lettuce",
-    "isSearchable": true,
+    "isSearchable": false,
     "tags": ["recsEhBTtFcgcCF4O"],
     "groups": ["recsEhBTtFcgcCF4O"],
     "translation_heb": "חסה",
@@ -22131,5 +22131,33 @@
     "allergens": [],
     "excludedInDiets": [],
     "foodGroups": ["recgo0VQQt0W4HGik"]
+  },
+  {
+    "id": "recpxlz1bvGd9DeRQ",
+    "subIngredients": ["recEbpGvSvveLkLQD"],
+    "allergens": [],
+    "excludedInDiets": [],
+    "foodGroups": [
+      "rec9aef6vga0ZHQHN",
+      "recWpISCcCcAIX1lr",
+      "recRLRNG6VRO3pnoY",
+      "rec9aef6vga0ZHQHN",
+      "recRQstqYOST4uTB1",
+      "rec9aef6vga0ZHQHN",
+      "recRLRNG6VRO3pnoY",
+      "recKixXejzsCDapen",
+      "recKixXejzsCDapen"
+    ],
+    "isSearchable": false
+  },
+  {
+    "id": "recqhVzDwRGhFTH2k",
+    "name": "olive oil and herbs",
+    "subIngredients": ["recOKQe2BPlJ4MaOt"],
+    "translation_heb": "שמן זית ועשבי תיבול",
+    "allergens": [],
+    "excludedInDiets": [],
+    "foodGroups": ["reccATkRbfWDQGzvn"],
+    "isSearchable": false
   }
 ]
