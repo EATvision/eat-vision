@@ -4,7 +4,7 @@ const keyBy = require('lodash/keyBy')
 const get = require('lodash/get')
 const _intersection = require('lodash/intersection')
 
-const { setAllChildIngredients, setAllParentGroups } = require('../utils/dishesForScript')
+const { setAllChildIngredients, setAllParentGroups } = require('../utils/dishes')
 
 const kitchens = require(('../../src/data/raw/kitchens.json'))
 const diets = require(('../../src/data/raw/diets.json'))
@@ -19,19 +19,21 @@ const foodGroups = require(('../../src/data/raw/foodGroups.json'))
 const recipes = require(('../../src/data/raw/recipes.json'))
 const choices_ingredients = require(('../../src/data/raw/choices_ingredients.json'))
 const choices_subdishes = require(('../../src/data/raw/choices_subdishes.json'))
+const allergens = require(('../../src/data/raw/allergens.json'))
 
 const ingredientsById = keyBy(ingredients, 'id')
 const sizesById = keyBy(sizes, 'id')
+const foodGroupsById = keyBy(foodGroups, 'id')
 
 const getIngSubIngredients = (ing) => {
   let allChildIngredients = []
-  setAllChildIngredients(allChildIngredients, ing.id)
+  setAllChildIngredients(allChildIngredients, ing.id, ingredientsById)
   return allChildIngredients
 }
 
 const getAllParentFoodGroups = (initialGroupIds) => {
   let foodGroups = []
-  initialGroupIds.forEach(groupId => setAllParentGroups(foodGroups, groupId))
+  initialGroupIds.forEach(groupId => setAllParentGroups(foodGroups, groupId, foodGroupsById))
   return foodGroups
 }
 
@@ -53,8 +55,16 @@ const modifiedIngredients = ingredients.map(ing => {
     return acc
   }, [])
 
+  const ingredientAllergens = allergens.reduce((acc, allergen) => {
+    if (_intersection(allFoodGroupsOfIng, allergen.groups).length > 0) {
+      return [...acc, allergen.id]
+    }
+    return acc
+  }, [])
+
   return ({
     ...ing,
+    allergens: ingredientAllergens,
     excludedInDiets,
     foodGroups: allllllllFoodGroupsIncludingParentsRecursively,
     isSearchable: ing.isSearchable === 'TRUE' ? true : false
@@ -77,19 +87,17 @@ const modifiedDishes = dishes.map(dish => {
   const sizes = [
     sizesObject?.['smallest_size_name'] && {
       type: sizesObject['smallest_size_name'],
-      price: sizesObject['smallest_price_delta']
+      price: sizesObject['smallest_price']
     },
     sizesObject?.['2nd_size_name'] && {
       type: sizesObject['2nd_size_name'],
-      price: sizesObject['2nd_size_price_delta']
+      price: sizesObject['2nd_size_price']
     },
     sizesObject?.['3nd_size_name'] && {
       type: sizesObject['3nd_size_name'],
       price: sizesObject['3nd_size_name']
     },
   ].filter(Boolean)
-
-
 
   return {
     id: dish.id,
@@ -243,6 +251,7 @@ const modifiedDishes = dishes.map(dish => {
 fs.writeFileSync('./src/data/new/sizes.json', JSON.stringify(sizes))
 fs.writeFileSync('./src/data/new/kitchens.json', JSON.stringify(kitchens))
 fs.writeFileSync('./src/data/new/diets.json', JSON.stringify(diets))
+fs.writeFileSync('./src/data/new/allergens.json', JSON.stringify(allergens))
 fs.writeFileSync('./src/data/new/menus.json', JSON.stringify(menus))
 fs.writeFileSync('./src/data/new/locations.json', JSON.stringify(locations))
 fs.writeFileSync('./src/data/new/workingHours.json', JSON.stringify(workingHours))

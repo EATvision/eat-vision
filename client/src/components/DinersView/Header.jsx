@@ -2,7 +2,7 @@ import React from 'react'
 import { AppBar, Box, Typography, useTheme } from '@mui/material'
 import { useParams } from 'react-router-dom'
 
-import { useKitchenById } from 'hooks/kitchens'
+import { useV1KitchenById } from 'hooks/kitchens'
 import MenuSelector from './MenuSelector'
 import logo30Src from '../../images/logo30.png'
 
@@ -10,7 +10,7 @@ function Header() {
   const theme = useTheme()
   const { kitchenId } = useParams()
 
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
 
   return (
     <AppBar

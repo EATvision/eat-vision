@@ -1,16 +1,7 @@
 const uniq = require('lodash/uniq')
-const keyBy = require('lodash/keyBy')
 const intersection = require('lodash/intersection')
 
-const dishes = require('../data/new/dishes.json')
-const ingredients = require('../data/new/ingredients.json')
-const foodGroups = require('../data/new/foodGroups.json')
-
-const foodGroupsById = keyBy(foodGroups, 'id')
-const ingredientsById = keyBy(ingredients, 'id')
-const dishesById = keyBy(dishes, 'id')
-
-const setAllChildIngredients = (result, ingredientId) => {
+const setAllChildIngredients = (result, ingredientId, ingredientsById) => {
   const ingredient = ingredientsById[ingredientId]
   while (!result.includes(ingredientId)) {
     result.push(ingredientId)
@@ -18,28 +9,29 @@ const setAllChildIngredients = (result, ingredientId) => {
     if (subIngredients?.length) {
       for (let index = 0; index < subIngredients.length; index++) {
         const ing = subIngredients[index]
-        setAllChildIngredients(result, ing)
+        setAllChildIngredients(result, ing, ingredientsById)
       }
     }
   }
 }
 
-const setAllParentGroups = (result, groupId) => {
+const setAllParentGroups = (result, groupId, foodGroupsById) => {
   result.push(groupId)
   const group = foodGroupsById[groupId]
   const parentGroups = group.parentGroups
   while (parentGroups?.length && !result.includes(groupId)) {
     for (let index = 0; index < parentGroups.length; index++) {
       const gr = parentGroups[index]
-      setAllParentGroups(result, gr)
+      setAllParentGroups(result, gr, foodGroupsById)
     }
   }
 }
 
-const getComponentLimitations = (component, filters) => {
+const getComponentLimitations = (component, filters, ingredientsById) => {
   let intersectingExcludedIngredients = []
   let ingredientsExludedInFoodGroups = []
   let ingredientsExludedInDiets = []
+  let combinedChildIngredientsAllergens = []
   let isFilteredOut = false
 
   const excludedComponents = [
@@ -49,7 +41,7 @@ const getComponentLimitations = (component, filters) => {
   ]
   if (component.type === 'ingredient') {
     let allChildIngredients = []
-    setAllChildIngredients(allChildIngredients, component.id)
+    setAllChildIngredients(allChildIngredients, component.id, ingredientsById)
     const combinedChildIngredientsExcludedInDiets = uniq(
       allChildIngredients.reduce((acc, ing) => {
         return [...acc, ...(ingredientsById?.[ing]?.excludedInDiets || [])]
@@ -58,7 +50,13 @@ const getComponentLimitations = (component, filters) => {
 
     const combinedChildIngredientsFoodGroups = uniq(
       allChildIngredients.reduce((acc, ing) => {
-        return [...acc, ...(ingredientsById?.[ing]?.foodGroups || [])]
+        return [...acc, ...(ingredientsById?.[ing]?.allergens || [])]
+      }, [])
+    )
+
+    combinedChildIngredientsAllergens = uniq(
+      allChildIngredients.reduce((acc, ing) => {
+        return [...acc, ...(ingredientsById?.[ing]?.allergens || [])]
       }, [])
     )
 
@@ -66,6 +64,7 @@ const getComponentLimitations = (component, filters) => {
       excludedComponents,
       allChildIngredients
     )
+
     ingredientsExludedInDiets = intersection(
       filters.diets || [],
       combinedChildIngredientsExcludedInDiets
@@ -85,16 +84,18 @@ const getComponentLimitations = (component, filters) => {
     intersectingExcludedIngredients,
     ingredientsExludedInDiets,
     ingredientsExludedInFoodGroups,
+    allergens: combinedChildIngredientsAllergens,
     isFilteredOut,
   }
 }
 
-const getModifiedDishes = (dishes, filters) =>
+const getModifiedDishes = (dishes, filters, { dishesById, ingredientsById }) =>
   dishes.map((dish) => {
     let isMainDishFilteredOut = false
     let intersectingExcludedMandatoryIngredients = []
     let intersectingExcludedMandatoryFoodGroups = []
     let mandatoryIngredientsExludedInDiets = []
+    let dishAllergens = []
 
     const modifiedMandatoryComponents = dish.recipe.mandatory?.map(
       (component) => {
@@ -103,7 +104,8 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           ingredientsExludedInFoodGroups,
           isFilteredOut,
-        } = getComponentLimitations(component, filters)
+          allergens: mandatoryIngredientsAllergens,
+        } = getComponentLimitations(component, filters, ingredientsById)
 
         intersectingExcludedMandatoryIngredients = uniq([
           ...intersectingExcludedIngredients,
@@ -116,6 +118,11 @@ const getModifiedDishes = (dishes, filters) =>
         mandatoryIngredientsExludedInDiets = uniq([
           ...ingredientsExludedInDiets,
           ...mandatoryIngredientsExludedInDiets,
+        ])
+
+        dishAllergens = uniq([
+          ...mandatoryIngredientsAllergens,
+          ...dishAllergens,
         ])
 
         isMainDishFilteredOut =
@@ -142,7 +149,13 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           ingredientsExludedInFoodGroups,
           isFilteredOut,
-        } = getComponentLimitations(component, filters)
+          allergens: excludableIngredientsAllergens,
+        } = getComponentLimitations(component, filters, ingredientsById)
+
+        dishAllergens = uniq([
+          ...excludableIngredientsAllergens,
+          ...dishAllergens,
+        ])
 
         return {
           ...component,
@@ -162,7 +175,13 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           ingredientsExludedInFoodGroups,
           isFilteredOut,
-        } = getComponentLimitations(component, filters)
+          allergens: choiceIngredientsAllergens,
+        } = getComponentLimitations(component, filters, ingredientsById)
+
+        dishAllergens = uniq([
+          ...choiceIngredientsAllergens,
+          ...dishAllergens,
+        ])
 
         return {
           ...component,
@@ -183,7 +202,8 @@ const getModifiedDishes = (dishes, filters) =>
       )
 
     const modifiedSideDishes = dish.recipe.sideDish?.map((sideDish) => ({
-      ...getModifiedDishes([dishesById[sideDish.id]], filters)[0],
+      // TODO: this is a recursive call! Need to add a stop condition to avoid infinite loops!
+      ...getModifiedDishes([dishesById[sideDish.id]], filters, { dishesById, ingredientsById })[0],
       price: sideDish.price,
     }))
 
@@ -194,7 +214,13 @@ const getModifiedDishes = (dishes, filters) =>
           ingredientsExludedInDiets,
           ingredientsExludedInFoodGroups,
           isFilteredOut,
-        } = getComponentLimitations(component, filters)
+          allergens: addableIngredientsAllergens,
+        } = getComponentLimitations(component, filters, ingredientsById)
+
+        dishAllergens = uniq([
+          ...addableIngredientsAllergens,
+          ...dishAllergens,
+        ])
 
         return {
           ...component,
@@ -206,13 +232,14 @@ const getModifiedDishes = (dishes, filters) =>
         }
       }) || []),
       ...(dish.recipe.addableDishes?.map((d) => ({
-        ...getModifiedDishes([dishesById[d.id]], filters)[0],
+        ...getModifiedDishes([dishesById[d.id]], filters, { dishesById, ingredientsById })[0],
         price: d.price,
       }))) || [],
     ]
 
     return {
       ...dish,
+      dishAllergens,
       isMainDishFilteredOut,
       intersectingExcludedMandatoryIngredients,
       mandatoryIngredientsExludedInDiets,

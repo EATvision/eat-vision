@@ -16,14 +16,14 @@ function DishesManagerPage() {
 
   return (
     <Stack direction="column">
-      <Typography variant="h4">{t('Dishes')}</Typography>
+      <Typography variant="h4">{t('dishes')}</Typography>
       <Stack direction="row" justifyContent="flex-end">
         <Button
           variant="contained"
           color="primary"
           onClick={handleClickAddNewDish}
         >
-          Add new dish
+          {t('add_new_dish')}
         </Button>
       </Stack>
       <DishesList />

@@ -92,14 +92,14 @@ function DishPage() {
     <>
       <Stack spacing={3}>
         <Typography variant="h4">
-          {isNew ? t('New Dish') : formik.values.name}
+          {isNew ? t('new_dish') : formik.values.name}
         </Typography>
         <FormikProvider value={formik}>
           <Stack as={Form} direction="column" maxWidth="md">
             <Stack direction="row" alignItems="flex-end" spacing={2}>
               <Stack flex={1} direction="column" alignItems="stretch">
-                <TextInput name="name" label="Name" required fullWidth />
-                <TextInput name="image.url" label={t('Image URL')} fullWidth />
+                <TextInput name="name" label={t('name')} required fullWidth />
+                <TextInput name="image.url" label={t('image_URL')} fullWidth />
               </Stack>
               <Box
                 overflow="hidden"
@@ -112,7 +112,7 @@ function DishPage() {
             </Stack>
             <TextInput
               name="description"
-              label="Description"
+              label={t('description')}
               fullWidth
               multiline
               minRows={2}
@@ -121,12 +121,12 @@ function DishPage() {
             <Stack direction="row" alignItems="flex-start" spacing={1}>
               <SelectCategories
                 name="categories"
-                label={t('Categories')}
+                label={t('categories')}
                 required
                 multiple
                 fullWidth
               />
-              <Tooltip title={t('Create new category')}>
+              <Tooltip title={t('create_ne_category')}>
                 <Button
                   onClick={() => setOpenDialog(DIALOGS.ADD_CATEGORY)}
                   component={Box}
@@ -141,14 +141,14 @@ function DishPage() {
             <IngredientsInput
               name="recipe.mandatory"
               showAddIngredient
-              label={t('Mandatory Ingredients')}
+              label={t('mandatory_ingredients')}
             />
             <Divider />
             <IngredientsInput
               name="recipe.addable"
               showAddDish
               showAddIngredient
-              label={t('Addable Ingredients')}
+              label={t('addable_ingredients')}
               showDishAddedPrice
               showIngredientAddedPrice
             />
@@ -156,14 +156,14 @@ function DishPage() {
             <IngredientsInput
               showAddIngredient
               name="recipe.excludible"
-              label={t('Excludible Ingredients')}
+              label={t('excludible_ingredients')}
             />
             <Divider />
             <IngredientsInput
               showAddDish
               showAddIngredient
-              name="recipe.changeable"
-              label={t('Changeable Ingredients')}
+              name="recipe.choice"
+              label={t('choice_ingredients')}
             />
             <Divider />
             <Stack direction="row" spacing={1} my={4}>
@@ -172,7 +172,7 @@ function DishPage() {
                 onClick={handleOnClickDelete}
                 color="error"
               >
-                {t('Delete')}
+                {t('delete')}
               </Button>
               <Box flex={1} />
               <Button
@@ -210,12 +210,12 @@ function DishPage() {
       {openDialog === DIALOGS.REMOVE_MENU && (
         <ConfirmDialog
           open
-          title="Delete Dish"
+          title={t('delete dish')}
           onClose={() => setOpenDialog('')}
           onConfirm={() => confirmCallback()}
-          labels={{ confirm: 'Delete', reject: 'Cancel' }}
+          labels={{ confirm: t('delete'), reject: t('cancel') }}
         >
-          Are you sure you want to delete this dish?
+          {t('are_you_sure_you_want_to_delete_this_dish')}?
         </ConfirmDialog>
       )}
     </>

@@ -9,8 +9,8 @@ import {
   styled,
 } from '@mui/material'
 
-import { useKitchenById } from 'hooks/kitchens'
-import { useGetComponentLabel } from 'hooks/ingredients/ingredients'
+import { useV1KitchenById } from 'hooks/kitchens'
+import { useGetComponentLabel } from 'hooks/ingredients'
 
 const LTRTypography = styled(Typography)`
   /* @noflip */
@@ -20,7 +20,7 @@ const LTRTypography = styled(Typography)`
 export default function DishRecipeChips({ data, label }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
 
   const getComponentLabel = useGetComponentLabel()
   return (

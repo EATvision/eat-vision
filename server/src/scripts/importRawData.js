@@ -174,11 +174,11 @@ base('tblGbdDm36AXYWlSM')
     const data = records.map((r) => ({
       id: r.getId(),
       smallest_size_name: r.get('smallest_size_name')?.trim(),
-      smallest_price_delta: r.get('smallest_price_delta'),
+      smallest_price: r.get('smallest_price'),
       '2nd_size_name': r.get('2nd_size_name')?.trim(),
-      '2nd_size_price_delta': r.get('2nd_size_price_delta'),
+      '2nd_size_price': r.get('2nd_size_price'),
       '3rd_size_name': r.get('3rd_size_name')?.trim(),
-      '3rd_size_price_delta': r.get('3rd_size_price_delta'),
+      '3rd_size_price': r.get('3rd_size_price'),
     }))
     sizes = data
     const transformStream = JSONStream.stringify()
@@ -313,4 +313,20 @@ base('tblJXmaeTIA7dp4oJ')
     diets = data
     fs.writeFileSync('./src/data/raw/diets.json', JSON.stringify(diets))
     console.log('finished diets')
+  })
+
+//allergens
+let allergens = []
+base('tbl0tb3niAgusE64c')
+  .select({ view: 'Grid view' })
+  .all((_err, records) => {
+    const data = records.map((r) => ({
+      id: r.getId(),
+      name: r.get('name'),
+      translation_heb: r.get('translation_heb'),
+      groups: r.get('Groups'),
+    }))
+    allergens = data
+    fs.writeFileSync('./src/data/raw/allergens.json', JSON.stringify(allergens))
+    console.log('finished allergens')
   })

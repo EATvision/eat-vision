@@ -13,7 +13,7 @@ import { Check as CheckIcon } from '@mui/icons-material'
 import { useTranslation } from 'react-i18next'
 import { useDinerUser } from 'contexts/diner'
 import { useDiets } from 'hooks/diets'
-import { useKitchenById } from 'hooks/kitchens'
+import { useV1KitchenById } from 'hooks/kitchens'
 import FixedBottomConrainer from 'components/FixedBottomContainer'
 
 function DietsSelector({ onNext, onBack }) {
@@ -21,7 +21,7 @@ function DietsSelector({ onNext, onBack }) {
   const { t } = useTranslation()
   const dinerUser = useDinerUser()
   const { kitchenId } = useParams()
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
 
   const { diets, isLoading } = useDiets()
 
@@ -65,10 +65,29 @@ function DietsSelector({ onNext, onBack }) {
           marginBottom: theme.spacing(10),
           overflow: 'auto',
           padding: theme.spacing(2),
+          paddingTop: 0,
 
           // boxShadow: 'inset 0px 0px 9px 0px #726c66',
         }}
       >
+        <ToggleButton
+          fullWidth
+          color="primary"
+          value="none"
+          sx={{
+            justifyContent: 'flex-start',
+            fontSize: 16,
+            padding: `${theme.spacing(1)} ${theme.spacing(1)}`,
+            border: 0,
+            textAlign: 'start',
+            borderBottom: `1px solid ${theme.palette.divider}`,
+          }}
+        >
+          {t('no_specific_diet')}
+          {dinerUser.user.filters.diets.length === 0 && (
+            <CheckIcon sx={{ marginLeft: 'auto' }} />
+          )}
+        </ToggleButton>
         {diets.map((diet) => (
           <ToggleButton
             key={diet.id}

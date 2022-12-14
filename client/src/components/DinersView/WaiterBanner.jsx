@@ -2,7 +2,7 @@ import React from 'react'
 import { Avatar, Box, Paper, Grow, Typography, useTheme } from '@mui/material'
 import waiterSrc from '../../images/waiter_transparent_halfbody.png'
 import useIsRTL from 'hooks/useRTL'
-const WAITER_AVATAR_WIDTH = 100
+const WAITER_AVATAR_WIDTH = 70
 
 function WaiterBanner({ title, subtitle }) {
   const theme = useTheme()
@@ -11,34 +11,33 @@ function WaiterBanner({ title, subtitle }) {
   return (
     <Paper
       square
-      elevation={0}
+      elevation={1}
       sx={{
         display: 'flex',
         alignItems: 'start',
         justifyContent: 'center',
         position: 'relative',
-        margin: `${theme.spacing(5)} ${theme.spacing(1)}`,
-        marginBottom: theme.spacing(4),
-        background: 'none',
+        padding: `${theme.spacing(1)} ${theme.spacing(2)}`,
+        backgroundColor: '#E9E9E9',
         height: 100,
+        zIndex: 1000,
       }}
     >
       <Box
         sx={{
           position: 'absolute',
-          top: 0,
-          left: 0,
+          top: theme.spacing(1),
+          left: theme.spacing(2),
         }}
       >
         <Box
           sx={{
-            height: 115,
-            width: 80,
+            height: 80,
+            width: 63,
             borderRadius: 50,
             backgroundColor: theme.palette.secondary.main,
             position: 'absolute',
-            transform: 'rotate(20deg)',
-            [isRTL ? 'left' : 'right']: 6,
+            [isRTL ? 'left' : 'right']: 0,
           }}
         ></Box>
         <Avatar
@@ -55,18 +54,17 @@ function WaiterBanner({ title, subtitle }) {
         sx={{
           margin: 'auto 0px',
           position: 'absolute',
-          top: 10,
-          left: 92,
+          top: `calc(15px + ${theme.spacing(1)})`,
+          left: `calc(72px + ${theme.spacing(2)})`,
         }}
       >
         <Grow direction="up" in key={title}>
           <Paper
             elevation={3}
             sx={{
-              margin: `${theme.spacing(2)} 0`,
               position: 'relative',
               borderTopLeftRadius: 0,
-              padding: `${theme.spacing(1)}`,
+              padding: `4px ${theme.spacing(1)}`,
             }}
           >
             {isRTL ? <RTLTriangle /> : <LTRTriangle />}

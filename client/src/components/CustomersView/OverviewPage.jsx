@@ -2,10 +2,9 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 function OverviewPage() {
-  // eslint-disable-next-line no-unused-vars
-  const { i18n } = useTranslation()
+  const { t } = useTranslation()
 
-  return <div>Overview</div>
+  return <div>{t('tabs.customers.overview')}</div>
 }
 
 export default OverviewPage

@@ -43,7 +43,6 @@ function Select({
       <Autocomplete
         autoComplete
         size="small"
-        labelId={`${label}-select-label`}
         variant="outlined"
         {...field}
         fullWidth={fullWidth}

@@ -25,7 +25,7 @@ const dishValidationSchema = yup.object({
       addable: yup.array().of(recipeItemSchema),
       mandatory: yup.array().of(recipeItemSchema),
       excludible: yup.array().of(recipeItemSchema),
-      changeable: yup.array().of(recipeItemSchema),
+      choice: yup.array().of(recipeItemSchema),
     })
     .default(undefined),
 })

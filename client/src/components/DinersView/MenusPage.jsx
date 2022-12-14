@@ -4,8 +4,7 @@ import { Box, Button, Typography, useTheme } from '@mui/material'
 import { useParams, Navigate, useNavigate } from 'react-router-dom'
 
 import { getRelevantMenus } from 'utils/menus'
-import { useKitchenById, useKitchenMenusById } from 'hooks/kitchens'
-import Header from './Header'
+import { useV1KitchenById, useKitchenMenusById } from 'hooks/kitchens'
 
 function MenusPage() {
   const theme = useTheme()
@@ -13,7 +12,7 @@ function MenusPage() {
   const { kitchenId } = useParams()
   const { t } = useTranslation()
 
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
   const { menus, isLoading, isError } = useKitchenMenusById(kitchenId)
 
   const relevantMenus = getRelevantMenus(menus)
@@ -29,47 +28,42 @@ function MenusPage() {
 
   if (!relevantMenus.length) {
     return (
-      <>
-        <Header />
+      <Box
+        sx={{
+          maxWidth: 500,
+          display: 'flex',
+          flexDirection: 'column',
+          flex: 1,
+          margin: 'auto',
+          padding: `0 ${theme.spacing(2)}`,
+        }}
+      >
+        <Typography variant="h6" sx={{ marginTop: theme.spacing(4) }}>
+          {t('no_menus_relevant_now')}
+        </Typography>
+
+        <Typography variant="p">{t('menus_in_other_working_hours')}</Typography>
+
+        <MenusList menus={menus} />
+
         <Box
           sx={{
-            maxWidth: 500,
-            display: 'flex',
-            flexDirection: 'column',
-            flex: 1,
-            margin: 'auto',
             padding: `0 ${theme.spacing(2)}`,
+            paddingBottom: theme.spacing(1),
+            margin: `${theme.spacing(1)} 0`,
+            marginTop: 'auto',
           }}
         >
-          <Typography variant="h6" sx={{ marginTop: theme.spacing(4) }}>
-            {t('no_menus_relevant_now')}
-          </Typography>
-
-          <Typography variant="p">
-            {t('menus_in_other_working_hours')}
-          </Typography>
-
-          <MenusList menus={menus} />
-
-          <Box
-            sx={{
-              padding: `0 ${theme.spacing(2)}`,
-              paddingBottom: theme.spacing(1),
-              margin: `${theme.spacing(1)} 0`,
-              marginTop: 'auto',
-            }}
+          <Button
+            variant={'test'}
+            color="primary"
+            fullWidth
+            onClick={handleClickBack}
           >
-            <Button
-              variant={'test'}
-              color="primary"
-              fullWidth
-              onClick={handleClickBack}
-            >
-              {t('back')}
-            </Button>
-          </Box>
+            {t('back')}
+          </Button>
         </Box>
-      </>
+      </Box>
     )
   }
 

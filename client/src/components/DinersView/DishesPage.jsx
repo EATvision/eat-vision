@@ -6,9 +6,9 @@ import { Box, Paper, Typography, useTheme } from '@mui/material'
 import { useKitchenCategoriesByMenu } from 'hooks/kitchens'
 
 import FoodDish from './DishCard/FoodDish'
-import Footer from './Footer'
 import DealBtn from './DealBtn'
 import Header from './Header'
+import Footer from './Footer'
 
 function DishesPage({ dishes }) {
   const theme = useTheme()
@@ -21,6 +21,14 @@ function DishesPage({ dishes }) {
     kitchenId,
     menuId
   )
+
+  // const handleClickDone = () => {
+  //   if (kitchenId && menuId) {
+  //     navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/myorder`)
+  //   } else {
+  //     navigate(-1)
+  //   }
+  // }
 
   const defaultCategories = React.useMemo(
     () =>
@@ -67,10 +75,20 @@ function DishesPage({ dishes }) {
   if (isLoading) return <div>{t('loading')}</div>
 
   return (
-    <>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100%',
+      }}
+    >
       <Header />
+      {/* <WaiterBanner
+        title={t('what_would_you_like')}
+        subtitle={t('you_can_tag_all_that_seems_to_your_liking')}
+      /> */}
 
-      <Box sx={{ overflow: 'auto', paddingBottom: '100px' }}>
+      <Box sx={{ overflow: 'auto', paddingBottom: '100px', flex: 1 }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
           .map((category) => (
@@ -95,7 +113,8 @@ function DishesPage({ dishes }) {
                   sx={{
                     backgroundColor: '#E9E9E9',
                     margin: theme.spacing(2),
-                    padding: theme.spacing(2),
+                    marginTop: 0,
+                    padding: theme.spacing(1),
                     width: '100%',
                     position: 'sticky',
                     top: 0,
@@ -136,8 +155,24 @@ function DishesPage({ dishes }) {
             </div>
           ))}
       </Box>
+
       <Footer dishes={dishes} />
-    </>
+      {/* 
+      <FixedBottomConrainer>
+        <Grow direction="up" in>
+          <Badge
+            color="error"
+            invisible={numberOfDishesInMyOrder === 0}
+            badgeContent={numberOfDishesInMyOrder}
+            sx={{ flex: 1 }}
+          >
+            <Button variant="contained" fullWidth onClick={handleClickDone}>
+              {t('im_done')}
+            </Button>
+          </Badge>
+        </Grow>
+      </FixedBottomConrainer> */}
+    </Box>
   )
 }
 

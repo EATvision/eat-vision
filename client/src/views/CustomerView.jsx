@@ -5,41 +5,43 @@ import MenusIcon from '@mui/icons-material/MenuBook'
 import InfoIcon from '@mui/icons-material/InfoOutlined'
 import KitchenSelector from 'components/KitchenSelector'
 import KitchenProvider from 'contexts/kitchen'
-import { t } from 'i18next'
 import ViewWrapper from './ViewWrapper'
-
-const drawerTabs = [
-  {
-    name: t('tabs.customers.overview'),
-    route: '/customers/overview',
-    icon: <OverviewIcon />,
-  },
-  {
-    name: t('tabs.customers.generalInfo'),
-    route: '/customers/generalInfo',
-    icon: <InfoIcon />,
-  },
-  {
-    name: t('tabs.customers.dishes'),
-    route: '/customers/dishes',
-    icon: <DishesIcon />,
-  },
-  {
-    name: t('tabs.customers.menus'),
-    route: '/customers/menus',
-    icon: <MenusIcon />,
-  },
-]
+import { useTranslation } from 'react-i18next'
 
 const CustomerView = () => {
+  const { t } = useTranslation()
+  const drawerTabs = [
+    {
+      name: t('tabs.customers.overview'),
+      route: '/customers/overview',
+      icon: <OverviewIcon />,
+    },
+    {
+      name: t('tabs.customers.generalInfo'),
+      route: '/customers/generalInfo',
+      icon: <InfoIcon />,
+    },
+    {
+      name: t('tabs.customers.dishes'),
+      route: '/customers/dishes',
+      icon: <DishesIcon />,
+    },
+    {
+      name: t('tabs.customers.menus'),
+      route: '/customers/menus',
+      icon: <MenusIcon />,
+    },
+  ]
+
   return (
-    <KitchenProvider>
-      <ViewWrapper
-        drawerTabs={drawerTabs}
-        appBarContent={<KitchenSelector />}
-      />
-    </KitchenProvider>
+    <ViewWrapper drawerTabs={drawerTabs} appBarContent={<KitchenSelector />} />
   )
 }
 
-export default CustomerView
+export default function WrappedCustomerView() {
+  return (
+    <KitchenProvider>
+      <CustomerView />
+    </KitchenProvider>
+  )
+}

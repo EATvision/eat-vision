@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Typography } from '@mui/material'
 
-import { useKitchens } from 'hooks/kitchens'
+import { useV1Kitchens } from 'hooks/kitchens'
 
 function KitchensPage() {
   const { i18n, t } = useTranslation()
-  const { kitchens, isLoading, isError } = useKitchens()
+  const { kitchens, isLoading, isError } = useV1Kitchens()
 
   const handleClickKitchen = (kitchen) => () =>
     i18n.changeLanguage(kitchen.locale)
@@ -31,7 +31,7 @@ function KitchensPage() {
                 key={kitchen.id}
                 onClick={handleClickKitchen(kitchen)}
               >
-                <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8  flex-1">
+                <div className="w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8  flex-1">
                   <img
                     src={kitchen?.image?.[0]?.url}
                     alt="kitchen logo"

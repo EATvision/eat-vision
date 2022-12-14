@@ -32,7 +32,7 @@ function DealBtn({ dealDescription }) {
           aria-describedby={id}
           onClick={handleClick}
           variant="contained"
-          color="error"
+          color="warning"
           sx={{ flex: 1 }}
         >
           {'DEAL 4 U'}
@@ -49,12 +49,13 @@ function DealBtn({ dealDescription }) {
       >
         <Paper
           elevation={0}
+          square
           sx={{
             display: 'flex',
             alignItems: 'start',
             justifyContent: 'center',
             position: 'relative',
-            backgroundColor: theme.palette.secondary.light,
+            backgroundColor: 'black',
             color: theme.palette.common.white,
           }}
         >

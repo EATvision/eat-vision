@@ -3,7 +3,7 @@ import useSWR from 'swr'
 import { useParams } from 'react-router-dom'
 
 import fetcher from 'api/fetcher'
-import { useKitchenById } from 'hooks/kitchens'
+import { useV1KitchenById } from 'hooks/kitchens'
 
 export const useV1Ingredients = (q) => {
   const { data, error, ...rest } = useSWR(
@@ -63,7 +63,7 @@ export const useIngredientsByIds = (ids = []) => {
 export const useGetComponentLabel = () => {
   const { kitchenId } = useParams()
 
-  const { kitchen } = useKitchenById(kitchenId)
+  const { kitchen } = useV1KitchenById(kitchenId)
 
   const getComponentLabel = (c) =>
     (kitchen?.locale === 'he-IL' ? c?.translation_heb : c?.name) || c?.name

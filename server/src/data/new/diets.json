@@ -46,7 +46,6 @@
       "recsMGbSlC9cPVJ8o",
       "recwJ3CsMWeKmDBlS",
       "recv7oLK0b2mCFamv",
-      "recX7LWBWgvLk0fXO",
       "recRuJgFOBk98fk8i",
       "recmkvtZD6t6WKl07",
       "recNVPxM2A8o2elhG"
@@ -83,10 +82,7 @@
     "id": "recDlVagQGOiParjH",
     "name": "sugar free",
     "translation_heb": "ללא סוכר",
-    "excluded_groups": [
-      "recA1DeocMW69g9QP",
-      "recV5fHl7YWRNelyQ"
-    ]
+    "excluded_groups": ["recA1DeocMW69g9QP", "recV5fHl7YWRNelyQ"]
   },
   {
     "id": "recTqrrExyN2M0oG8",
@@ -106,10 +102,7 @@
     "id": "recFh4JVbTqqu9Rhf",
     "name": "dairy free",
     "translation_heb": "ללא לקטוז ",
-    "excluded_groups": [
-      "recYgJLdDlWsTxVGe",
-      "recdUoO2zbt196H0V"
-    ]
+    "excluded_groups": ["recYgJLdDlWsTxVGe", "recdUoO2zbt196H0V"]
   },
   {
     "id": "recqkfhdi9py4PNCJ",
