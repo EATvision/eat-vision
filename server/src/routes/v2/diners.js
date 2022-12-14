@@ -8,14 +8,11 @@ const authenticateToken = require('src/middlewares/auth')
 
 const dinersCollection = getCollectionOperations('diners')
 
-router.get('/auth', authenticateToken(), async (req, res,) => {
-  const {
-    user,
-  } = req
-  if (!user?.phoneNumber) {
-    return res.status(401).send()
-  }
-  const response = await dinersCollection.findOne({ phoneNumber: user?.phoneNumber })
+router.get('/auth', authenticateToken(), async (req, res) => {
+  const user = req.user || {}
+  const response = await dinersCollection.findOne({
+    phoneNumber: user.phoneNumber,
+  })
 
   if (!response) {
     return res.status(404).send()
@@ -25,18 +22,21 @@ router.get('/auth', authenticateToken(), async (req, res,) => {
 
 router.get('/:id', async (req, res) => {
   const {
-    params: { id }
+    params: { id },
   } = req
-  const { data } = await dinersCollection.findOne({ $or: [{ id: id }, { _id: getDBId(id) }] })
+  const { data } = await dinersCollection.findOne({
+    $or: [{ id: id }, { _id: getDBId(id) }],
+  })
   res.send(data)
 })
-
 
 router.post('/', authenticateToken(), async (req, res) => {
   const { body: diner, user } = req
 
   if (user?.phoneNumber) {
-    const existingUser = await dinersCollection.findOne({ phoneNumber: user?.phoneNumber })
+    const existingUser = await dinersCollection.findOne({
+      phoneNumber: user?.phoneNumber,
+    })
 
     if (existingUser) {
       await dinersCollection.findOneAndReplace(
@@ -49,7 +49,9 @@ router.post('/', authenticateToken(), async (req, res) => {
 
   const anonymousDiner = { ...diner, phoneNumber: user?.phoneNumber }
   const response = await dinersCollection.insertOne(anonymousDiner)
-  res.status(201).send({ ...anonymousDiner, _id: response.insertedId.toString() })
+  res
+    .status(201)
+    .send({ ...anonymousDiner, _id: response.insertedId.toString() })
 })
 
 router.put('/:id', authenticateToken(), async (req, res) => {

@@ -5,16 +5,12 @@ import {
   Table,
   TableRow,
   TableCell,
-  useTheme,
   TableBody,
   TableHead,
-  IconButton,
   TableContainer,
   TablePagination,
 } from '@mui/material'
 import { Box } from '@mui/system'
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward'
 
 import {
   flexRender,
@@ -26,41 +22,12 @@ import {
 import './table.css'
 
 import { editColumn, expanderColumn } from './customColumns'
+import {
+  ReactTableProvider,
+  useReactTableContext,
+} from './useReactTableContext'
+import SortHeader from './actionHeaders/SortHeader'
 
-const SortHeader = ({ header, children }) => {
-  const theme = useTheme()
-
-  const { disableColumnSort } = header.column.columnDef
-
-  if (disableColumnSort) return children
-
-  const ascendingOrderIcon = <ArrowDownwardIcon fontSize="inherit" />
-  const descendingOrderIcon = <ArrowUpwardIcon fontSize="inherit" />
-
-  const chosenSortIcon = disableColumnSort
-    ? ''
-    : {
-      asc: ascendingOrderIcon,
-      desc: descendingOrderIcon,
-    }[header.column.getIsSorted() + '']
-
-  return (
-    <div id="hover-parent">
-      {children}
-      <IconButton
-        className="hidden-child"
-        size="small"
-        sx={{
-          margin: `0px ${theme.spacing(1)}`,
-          ...(chosenSortIcon && { visibility: 'visible !important' }),
-        }}
-        onClick={header.column.getToggleSortingHandler()}
-      >
-        {chosenSortIcon ?? ascendingOrderIcon}
-      </IconButton>
-    </div>
-  )
-}
 const TableHeaderCell = ({ header }) => {
   const cellValue = header.isPlaceholder
     ? null
@@ -94,13 +61,8 @@ const TableRowCell = ({ row, header, onEditRow }) => {
   )
 }
 
-const ExpandableTableRow = ({
-  row,
-  headerAmount,
-  isExpandable,
-  expandableRowComponent,
-}) => {
-  if (!isExpandable) return null
+const ExpandableTableRow = ({ row, headerAmount, expandableRowComponent }) => {
+  if (!expandableRowComponent) return null
 
   if (row.getIsExpanded())
     return (
@@ -116,13 +78,11 @@ const ExpandableTableRow = ({
   return null
 }
 
-const TableRows = ({
-  tableRows,
-  tableHeaders,
-  onEditRow,
-  isExpandable,
-  expandableRowComponent,
-}) => {
+const TableRows = ({ onEditRow, expandableRowComponent } = {}) => {
+  const { getRowModel, getHeaderGroups } = useReactTableContext()
+  const tableHeaders = getHeaderGroups()[0].headers
+  const tableRows = getRowModel().rows
+
   return (
     <>
       {tableRows.map((row) => (
@@ -140,7 +100,6 @@ const TableRows = ({
           <ExpandableTableRow
             row={row}
             headerAmount={tableHeaders.length}
-            isExpandable={isExpandable}
             expandableRowComponent={expandableRowComponent}
           />
         </React.Fragment>
@@ -148,13 +107,54 @@ const TableRows = ({
     </>
   )
 }
+
+const TableHeaders = () => {
+  const { getHeaderGroups } = useReactTableContext()
+  const tableHeaders = getHeaderGroups()[0].headers
+
+  return (
+    <TableHead>
+      <TableRow>
+        {tableHeaders.map((header) => (
+          <TableHeaderCell key={header.id} header={header} />
+        ))}
+      </TableRow>
+    </TableHead>
+  )
+}
+
+const PagePicker = ({
+  page,
+  dataCount,
+  rowsPerPage,
+  onPageChange,
+  onRowsPerPageChange,
+}) => {
+  const handlePageChange = (e, newPage) => onPageChange(newPage)
+
+  const handleRowsPerPageChange = (e) => {
+    const page = Number(e.target.value) || 10
+    onRowsPerPageChange(page)
+  }
+
+  return (
+    <TablePagination
+      page={page}
+      component={Paper}
+      count={dataCount}
+      rowsPerPage={rowsPerPage}
+      onPageChange={handlePageChange}
+      onRowsPerPageChange={handleRowsPerPageChange}
+    />
+  )
+}
 const ReactTable = ({
   data,
+  page,
   columns,
   dataCount,
   onEditRow,
-  isExpandable,
-  rowsPerPage = 10,
+  rowsPerPage,
   onPageChange,
   onRowsPerPageChange,
   expandableRowComponent,
@@ -163,11 +163,11 @@ const ReactTable = ({
 
   const computedHeaders = useMemo(
     () => [
-      ...(isExpandable ? [expanderColumn] : []),
+      ...(expandableRowComponent ? [expanderColumn] : []),
       ...(onEditRow ? [editColumn] : []),
       ...columns,
     ],
-    [columns, isExpandable, onEditRow]
+    [columns, expandableRowComponent, onEditRow]
   )
   const ReactTable = useReactTable({
     state: {
@@ -175,46 +175,35 @@ const ReactTable = ({
     },
     data,
     columns: computedHeaders,
+    debugTable: true, //TODO: REMOVE
     onSortingChange: setSorting,
     getCoreRowModel: getCoreRowModel(),
+    getRowCanExpand: () => !!expandableRowComponent,
     getSortedRowModel: getSortedRowModel(),
-    getRowCanExpand: () => isExpandable,
-    debugTable: true, //TODO: REMOVE
   })
-
-  const tableHeaders = ReactTable.getHeaderGroups()[0].headers
-  const tableRows = ReactTable.getRowModel().rows
 
   return (
     <Box>
-      <TableContainer component={Paper}>
-        <Table>
-          <TableHead>
-            <TableRow>
-              {tableHeaders.map((header) => (
-                <TableHeaderCell key={header.id} header={header} />
-              ))}
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            <TableRows
-              tableRows={tableRows}
-              tableHeaders={tableHeaders}
-              onEditRow={onEditRow}
-              isExpandable={isExpandable}
-              expandableRowComponent={expandableRowComponent}
-            />
-          </TableBody>
-        </Table>
-      </TableContainer>
-      <TablePagination
-        page={0}
-        component={Paper}
-        count={dataCount}
-        rowsPerPage={rowsPerPage}
-        onPageChange={onPageChange}
-        onRowsPerPageChange={onRowsPerPageChange}
-      />
+      <ReactTableProvider ReactTable={ReactTable}>
+        <TableContainer component={Paper}>
+          <Table>
+            <TableHeaders />
+            <TableBody>
+              <TableRows
+                onEditRow={onEditRow}
+                expandableRowComponent={expandableRowComponent}
+              />
+            </TableBody>
+          </Table>
+        </TableContainer>
+        <PagePicker
+          page={page}
+          dataCount={dataCount}
+          rowsPerPage={rowsPerPage}
+          onRowsPerPageChange={onRowsPerPageChange}
+          onPageChange={onPageChange}
+        />
+      </ReactTableProvider>
     </Box>
   )
 }
