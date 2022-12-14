@@ -1,7 +1,7 @@
 const { Router } = require('express')
 const router = Router()
 
-const { client: dbClient } = require('../db')
+const { client: dbClient } = require('utils/db')
 const database = dbClient.db('eat')
 const customersCollection = database.collection('customers')
 

@@ -7,7 +7,7 @@ const errorHandler = require('middlewares/errorHandler')
 const morganMiddleware = require('middlewares/morganMiddleware')
 const passportMiddleware = require('middlewares/passportMiddleware')
 
-const apiRoutes = require('routes/index')
+const apiV1Routes = require('src/routes/v1/index')
 const verifyRoutes = require('routes/verify')
 const apiV2Routes = require('routes/v2/index')
 
@@ -29,7 +29,7 @@ const createServer = () => {
   if (process.env.NODE_ENV !== 'test') app.use(morganMiddleware)
   app.use(passportMiddleware())
 
-  app.use('/api', apiRoutes)
+  app.use('/api/v1', apiV1Routes)
   app.use('/api/v2', apiV2Routes)
   app.use('/verify', verifyRoutes)
 

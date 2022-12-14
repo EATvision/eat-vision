@@ -174,7 +174,7 @@ function GreetingPage() {
                 variant="outlined"
                 fullWidth
                 onClick={handleClickSignin}
-                disabled={dinerUser.token}
+                disabled={Boolean(dinerUser.token)}
                 sx={{
                   margin: `${theme.spacing(1)} 0`,
                 }}

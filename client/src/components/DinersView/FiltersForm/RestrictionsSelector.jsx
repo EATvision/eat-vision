@@ -18,22 +18,22 @@ import { useDebounce } from 'use-debounce'
 import { useGetComponentLabel } from 'hooks/ingredients'
 
 const loadFoodGroupsOptions = async (inputValue) => {
-  const { data } = await axios.get(`/api/foodGroups?q=${inputValue}`)
+  const { data } = await axios.get(`/api/v1/foodGroups?q=${inputValue}`)
   return data
 }
 
 const getFoodGroupsByIds = async (ids) => {
-  const { data } = await axios.get(`/api/foodGroups?ids=${ids?.join(',')}`)
+  const { data } = await axios.get(`/api/v1/foodGroups?ids=${ids?.join(',')}`)
   return data
 }
 
 const loadIngredientsOptions = async (inputValue) => {
-  const { data } = await axios.get(`/api/ingredients?q=${inputValue}`)
+  const { data } = await axios.get(`/api/v1/ingredients?q=${inputValue}`)
   return data
 }
 
 const getIngredientsByIds = async (ids) => {
-  const { data } = await axios.get(`/api/ingredients?ids=${ids?.join(',')}`)
+  const { data } = await axios.get(`/api/v1/ingredients?ids=${ids?.join(',')}`)
   return data
 }
 

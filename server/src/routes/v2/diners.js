@@ -34,8 +34,8 @@ router.post('/', authenticateToken(), async (req, res) => {
   const { body: diner, user } = req
 
   if (user?.phoneNumber) {
-    const existingUser = await dinersCollection.findOne({
-      phoneNumber: user?.phoneNumber,
+    const existingUser = user?.phoneNumber && await dinersCollection.findOne({
+      phoneNumber: user.phoneNumber,
     })
 
     if (existingUser) {

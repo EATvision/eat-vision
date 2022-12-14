@@ -5,6 +5,7 @@ import { useParams, Navigate, useNavigate } from 'react-router-dom'
 
 import { getRelevantMenus } from 'utils/menus'
 import { useV1KitchenById, useKitchenMenusById } from 'hooks/kitchens'
+import FixedBottomConrainer from 'components/FixedBottomContainer'
 
 function MenusPage() {
   const theme = useTheme()
@@ -38,6 +39,16 @@ function MenusPage() {
           padding: `0 ${theme.spacing(2)}`,
         }}
       >
+        <Box>
+          <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <img
+              className="w-full h-full object-center object-fit group-hover:opacity-75"
+              src={kitchen?.image?.[0]?.url}
+              alt=""
+            />
+          </div>
+        </Box>
+
         <Typography variant="h6" sx={{ marginTop: theme.spacing(4) }}>
           {t('no_menus_relevant_now')}
         </Typography>
@@ -46,44 +57,14 @@ function MenusPage() {
 
         <MenusList menus={menus} />
 
-        <Box
-          sx={{
-            padding: `0 ${theme.spacing(2)}`,
-            paddingBottom: theme.spacing(1),
-            margin: `${theme.spacing(1)} 0`,
-            marginTop: 'auto',
-          }}
-        >
-          <Button
-            variant={'test'}
-            color="primary"
-            fullWidth
-            onClick={handleClickBack}
-          >
+        <FixedBottomConrainer>
+          <Button color="primary" fullWidth onClick={handleClickBack}>
             {t('back')}
           </Button>
-        </Box>
+        </FixedBottomConrainer>
       </Box>
     )
   }
-
-  return (
-    <>
-      <Box sx={{ margin: theme.spacing(2) }}>
-        <div className="w-[150px] mx-auto aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-          <img
-            className="w-full h-full object-center object-fit group-hover:opacity-75"
-            src={kitchen?.image?.[0]?.url}
-            alt=""
-          />
-        </div>
-        <Typography variant="h5">{kitchen.name}</Typography>
-      </Box>
-
-      <Typography variant="h5">{t('menu_options')}</Typography>
-      <MenusList menus={relevantMenus} />
-    </>
-  )
 }
 
 const MenusList = ({ menus }) => {

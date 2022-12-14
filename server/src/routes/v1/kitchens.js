@@ -4,18 +4,18 @@ const keyBy = require('lodash/keyBy')
 const _intersection = require('lodash/intersection')
 
 
-const menus = require('../data/new/menus.json')
-const dishes = require('../data/new/dishes.json')
-const kitchens = require('../data/new/kitchens.json')
-const categories = require('../data/new/categories.json')
-const ingredients = require('../data/new/ingredients.json')
-const workingHours = require('../data/new/workingHours.json')
+const menus = require('../../data/new/menus.json')
+const dishes = require('../../data/new/dishes.json')
+const kitchens = require('../../data/new/kitchens.json')
+const categories = require('../../data/new/categories.json')
+const ingredients = require('../../data/new/ingredients.json')
+const workingHours = require('../../data/new/workingHours.json')
 
 const dishesById = keyBy(dishes, 'id')
 const ingredientsById = keyBy(ingredients, 'id')
 const workingHoursById = keyBy(workingHours, 'id')
 
-const { getModifiedDishes } = require('../utils/dishes')
+const { getModifiedDishes } = require('utils/dishes')
 
 router.get('/', (_req, res) => {
   res.send(kitchens)

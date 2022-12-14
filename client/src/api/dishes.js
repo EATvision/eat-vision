@@ -17,7 +17,7 @@ export const removeDish = async (dishId) => {
 
 export const postSearchDishes = async (filters, { kitchenId, menuId }) => {
   const { data } = await axios.post(
-    `/api/kitchens/${kitchenId}/menus/${menuId}/dishes/search`,
+    `/api/v1/kitchens/${kitchenId}/menus/${menuId}/dishes/search`,
     filters
   )
   return data
