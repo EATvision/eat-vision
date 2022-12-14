@@ -17,7 +17,7 @@ import { Box } from '@mui/system'
 import TextInput from 'components/FormInputs/TextInput'
 import Checkbox from 'components/FormInputs/Checkbox'
 import ChipSelection from 'components/FormInputs/ChipSelection'
-import useIngredients from 'hooks/ingredients/useIngredients'
+import { useIngredients } from 'hooks/ingredients'
 
 import { useDebounce } from 'use-debounce'
 

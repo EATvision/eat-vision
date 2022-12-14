@@ -3,8 +3,7 @@ import { useField } from 'formik'
 import { useDebounce } from 'use-debounce'
 
 import Select from 'components/FormInputs/Select'
-import { useIngredientById } from 'hooks/ingredients/ingredients'
-import useIngredients from 'hooks/ingredients/useIngredients'
+import { useIngredientById, useIngredients } from 'hooks/ingredients'
 
 const DEBOUNCE = 500
 

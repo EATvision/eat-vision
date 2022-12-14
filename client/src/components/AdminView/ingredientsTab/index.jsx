@@ -6,7 +6,7 @@ import AddCircleIcon from '@mui/icons-material/AddCircle'
 
 import ReactTable from '../ReactTable'
 import useTableSettings from '../ReactTable/useTableSettings'
-import useIngredients from 'hooks/ingredients/useIngredients'
+import { useIngredients } from 'hooks/ingredients'
 import useIngredientsColumns from './useIngredientsColumns'
 import IngredientsDialog from './IngredientsDialog'
 

@@ -16,10 +16,7 @@ import {
 import { BiSearchAlt2 as SearchIcon } from 'react-icons/bi'
 
 import RestrictionsSelector from './RestrictionsSelector'
-import {
-  useGetComponentLabel,
-  useV1IngredientsByIds,
-} from 'hooks/ingredients/ingredients'
+import { useGetComponentLabel, useV1IngredientsByIds } from 'hooks/ingredients'
 import { useDinerUser } from 'contexts/diner'
 import { useV1FoodGroupsByIds } from 'hooks/foodGroups'
 import FixedBottomConrainer from 'components/FixedBottomContainer'

@@ -15,7 +15,7 @@ import React from 'react'
 import { Check as CheckIcon, Close as CloseIcon } from '@mui/icons-material'
 import { useDebounce } from 'use-debounce'
 
-import { useGetComponentLabel } from 'hooks/ingredients/ingredients'
+import { useGetComponentLabel } from 'hooks/ingredients'
 
 const loadFoodGroupsOptions = async (inputValue) => {
   const { data } = await axios.get(`/api/foodGroups?q=${inputValue}`)

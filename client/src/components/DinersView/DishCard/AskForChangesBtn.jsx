@@ -14,7 +14,7 @@ import {
 import { t } from 'i18next'
 
 import waiterSrc from '../../../images/waiter_transparent_halfbody.png'
-import { useGetComponentLabel } from 'hooks/ingredients/ingredients'
+import { useGetComponentLabel } from 'hooks/ingredients'
 
 function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
   const theme = useTheme()
