@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import React from 'react'
 import useSWR from 'swr'
 import _keyBy from 'lodash/keyBy'
 import { useParams } from 'react-router-dom'
@@ -27,28 +27,6 @@ export const useV1IngredientsByIds = (ids = []) => {
 
   return {
     ingredients: data,
-    isLoading: !error && !data,
-    isError: error,
-    ...rest,
-  }
-}
-
-export const useIngredients = ({ search, mapById = false } = {}) => {
-  const options = []
-  if (search) {
-    options.push(`search=${search}`)
-  }
-  const { data, error, ...rest } = useSWR(
-    `/api/v2/ingredients?${options.join('&')}`,
-    fetcher
-  )
-  const ingredients = useMemo(() => {
-    if (!mapById) return data
-    return _keyBy(data, 'id')
-  }, [data, mapById])
-
-  return {
-    ingredients,
     isLoading: !error && !data,
     isError: error,
     ...rest,
@@ -91,4 +69,52 @@ export const useGetComponentLabel = () => {
   const getComponentLabel = (c) =>
     (kitchen?.locale === 'he-IL' ? c?.translation_heb : c?.name) || c?.name
   return getComponentLabel
+}
+
+const getQuery = ({ page, search, rowsPerPage, lookUpIngredients }) => {
+  const query = []
+
+  if (page) {
+    query.push(`skip=${page * rowsPerPage}`)
+    query.push(`limit=${rowsPerPage}`)
+  }
+  if (rowsPerPage) query.push(`limit=${rowsPerPage}`)
+  if (search) query.push(`search=${search}`)
+  if (lookUpIngredients) query.push('lookUpSubIngredients=true')
+  return query.length === 0 ? '' : `?${query.join('&')}`
+}
+
+export const useIngredients = ({
+  page = 0,
+  search = '',
+  rowsPerPage = 15,
+  mapById = false,
+  lookUpIngredients = false,
+} = {}) => {
+  const [ingredients, setIngredients] = React.useState([])
+  const [amountOfIngredients, setAmountOfIngredients] = React.useState(0)
+
+  const query = getQuery({ page, search, rowsPerPage, lookUpIngredients })
+
+  const { data, error, ...rest } = useSWR(
+    `/api/v2/ingredients/${query}`,
+    fetcher
+  )
+
+  const isLoading = !error && !data
+
+  React.useEffect(() => {
+    if (!isLoading && data) {
+      setIngredients(!mapById ? data.ingredients : _keyBy(data, 'id'))
+      setAmountOfIngredients(data.amountOfIngredients)
+    }
+  }, [isLoading, data, mapById])
+
+  return {
+    ...rest,
+    ingredients,
+    isLoading: !error && !data,
+    isError: error,
+    amountOfIngredients,
+  }
 }

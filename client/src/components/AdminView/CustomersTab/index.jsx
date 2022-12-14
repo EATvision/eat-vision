@@ -28,6 +28,7 @@ import useCustomers from 'hooks/admin/useCustomers'
 import ReactTable from '../ReactTable'
 import useCustomerActions from './useCustomerActions'
 import useCustomerColumns from './useCustomerColumns'
+import useTableSettings from '../ReactTable/useTableSettings'
 
 const KitchensDisplay = ({
   kitchens,
@@ -241,9 +242,15 @@ const CustomersView = () => {
   const [customerToEdit, setCustomerToEdit] = useState()
   const [selectedDialog, setSelectedDialog] = useState()
 
-  const [page, setPage] = useState(0)
-  const [searchQuery, setSearchQuery] = useState()
-  const [rowsPerPage, setRowsPerPage] = useState()
+  const {
+    page,
+    setPage,
+    rowsPerPage,
+    searchQuery,
+    setSearchQuery,
+    setRowsPerPage,
+  } = useTableSettings()
+
   const {
     customers,
     amountOfCustomers,
@@ -254,7 +261,6 @@ const CustomersView = () => {
     searchQuery,
   })
 
-  const onIsSuspendedClick = useCallback(() => {}, [])
   const onCloseDialogs = useCallback(() => {
     setCustomerToEdit(undefined)
     setSelectedDialog(undefined)
@@ -269,7 +275,7 @@ const CustomersView = () => {
     onSuccess: onCloseDialogs,
   })
   const { kitchens = [] } = useKitchens()
-  const columns = useCustomerColumns({ onIsSuspendedClick })
+  const columns = useCustomerColumns()
 
   const onSearchChange = (e) => setSearchQuery(e.currentTarget.value)
   const onRowsPerPageChange = (e) => setRowsPerPage(e.target.value)
@@ -330,7 +336,6 @@ const CustomersView = () => {
         >
           <TextField
             onChange={onSearchChange}
-            id="outlined-search"
             label="Search Users"
             type="search"
           />
@@ -344,6 +349,7 @@ const CustomersView = () => {
         </Box>
         <Box sx={{ paddingTop: 4 }}>
           <ReactTable
+            page={page}
             data={customers}
             columns={columns}
             onEditRow={onEditRow}

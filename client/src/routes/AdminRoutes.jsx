@@ -7,7 +7,7 @@ import LoginView from 'views/LoginView'
 import DietsView from 'components/AdminView/DietsTab'
 import ProtectedRoute from 'components/ProtectedRoute'
 import FoodGroupsView from 'components/AdminView/FoodGroupsTab'
-import IngrdientsView from 'components/AdminView/ingredientsTab'
+import IngrdientsView from 'components/AdminView/IngredientsTab'
 import CustomersView from 'components/AdminView/CustomersTab'
 
 const AdminRoutes = () => (
