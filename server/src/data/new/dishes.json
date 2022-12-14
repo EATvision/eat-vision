@@ -3649,16 +3649,18 @@
         { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
         { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" }
+        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
+        { "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }
       ],
       "putaside": [
-        { "type": "ingredient", "id": "recWq6iDyhEVIJb2R" },
         { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
+        { "type": "ingredient", "id": "recWq6iDyhEVIJb2R" },
         { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
         { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
         { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" }
+        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
+        { "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }
       ],
       "choice": [],
       "sideDish": [],
@@ -4760,16 +4762,18 @@
         { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
         { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" }
+        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
+        { "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }
       ],
       "putaside": [
-        { "type": "ingredient", "id": "recWq6iDyhEVIJb2R" },
         { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
+        { "type": "ingredient", "id": "recWq6iDyhEVIJb2R" },
         { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
         { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
         { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" }
+        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
+        { "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }
       ],
       "choice": [],
       "sideDish": [],
@@ -6198,7 +6202,7 @@
   },
   {
     "id": "recFGoUdc7v4tMamb",
-    "name": "קברנה סובניון",
+    "name": "קברנה סובניון ברקן \"ספיישל רזרב\"",
     "categories": ["recZvEB73pCX5CLtB", "recyhtVUgrz6AhKKc"],
     "price": 38,
     "kitchenId": "recCtQEnXUUqDHBfF",
@@ -6370,7 +6374,6 @@
   {
     "id": "recQbFuiKEieBpuMe",
     "name": "מרלו ברקן\n\"ספיישל ריזרב\"",
-    "description": "38",
     "categories": [
       "reccKFL0KLPTD1jo2",
       "recSaYm2kSUrkvw7b",
@@ -7137,7 +7140,6 @@
   {
     "id": "recw1v2PLlsWizpXU",
     "name": "סחוטים",
-    "description": "מיץ סחוט ",
     "categories": ["recWz1oglIgIu3x61"],
     "price": 14,
     "kitchenId": "recCtQEnXUUqDHBfF",

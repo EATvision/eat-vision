@@ -161,9 +161,10 @@
   },
   {
     "id": "reczrqilI5oneytWa",
-    "name": "blue nun",
-    "subIngredients": ["recXk7rwRxFr7Nsru"],
+    "name": "blue nun - Blue Nun Authentic White",
+    "subIngredients": ["recOmpRwEYVDHTxO8"],
     "isSearchable": false,
+    "description": "יין ארומטי, פירותי ועסיסי המופק מענבי Rivaner הגדלים באזור נהר הריין ואהובים במיוחד על אניני טעם. הענבים הבשלים מעניקים ליין ארומה מינרלית וחמיצות מרעננת המדגישים את העידון העסיסי ואת המתיקות העדינה של היין. בלו נאן אותנטיק מומלץ לשתיה כליווי למנות עוף, דגים, תבשילים אסייתיים וצמחוניים.",
     "groups": ["recrclGxty3NZm7tq", "recSSm7hnZBRicJIY", "recQayV39KmB1rvCq"],
     "translation_heb": "בלו נאן",
     "allergens": [],
@@ -178,8 +179,9 @@
   {
     "id": "reczkKZIRa0b3EOb3",
     "name": "blue nun kosher",
-    "subIngredients": ["recXk7rwRxFr7Nsru"],
+    "subIngredients": ["recXk7rwRxFr7Nsru", "recIncW4wnVfOv3d4"],
     "isSearchable": false,
+    "description": " לבלו נאן גוורצטרמינר ריזלינג אותם תווים מוכרים ואהובים על כל קהל הבלו נאן, אותה תווית אהודה ואופי פירותי מתקתק. היין הזה ארומתי יותר מהאותנטיק ומציג תווים של אגסים, תפוח ירוק בשל וטעמים מתקתקים ופריכים ",
     "groups": [
       "recrclGxty3NZm7tq",
       "recSSm7hnZBRicJIY",
@@ -194,6 +196,7 @@
       "recSSm7hnZBRicJIY",
       "recQayV39KmB1rvCq",
       "recCsSQnlG1KJxvtd",
+      "recgo0VQQt0W4HGik",
       "recgo0VQQt0W4HGik"
     ]
   },
@@ -979,11 +982,12 @@
   },
   {
     "id": "recJVn67ELgPwKOkt",
-    "name": "Cabernet Sauvignon",
+    "name": "Cabernet Sauvignon barkan \"special reserve\"",
     "subIngredients": ["recWaFH2MtGpG3ZqL"],
     "isSearchable": false,
+    "description": "מקור ענבי קברנה סוביניון SPECIAL RESERVE הוא בכרמי היקב שבגליל העליון המאופיינים באדמות בזלת וטרה רוסה. יין מובחר זה, שהתיישן בחביות עץ אלון במשך 18 חודשים, עוצמתי ומורכב ויוסיף להשתבח בתנאי יישון נאותים.\n",
     "groups": ["recSSm7hnZBRicJIY"],
-    "translation_heb": "קברנה סובניון",
+    "translation_heb": "קברנה סובניון ברקן \"ספיישל רזרב\"",
     "allergens": [],
     "excludedInDiets": [],
     "foodGroups": ["recSSm7hnZBRicJIY", "recgo0VQQt0W4HGik"]
@@ -1049,10 +1053,10 @@
   },
   {
     "id": "recJNnZMYs7UTaz0L",
-    "name": "Chablis",
+    "name": " Chablis",
     "subIngredients": ["rech5DzFAF2zRUHyT"],
     "isSearchable": false,
-    "description": " הענבים מקורם בכרמי שאבלי בצפון חבל בורגון על אדמת אבנית האופיינית לאיזור. לאחר בציר קפדני, הענבים עוברים להתססה מסורתית בטמפרטורה מבוקרת. היין מתבגר במיכלי נירוסטה מבוקרי טמפרטורה לשמירה על טעמי הפרי הרעננים.",
+    "description": "יין לבן שאבלי דומיין דה שאטיון, יין יבש העשוי מענבי שרדונה.",
     "groups": ["recrclGxty3NZm7tq"],
     "translation_heb": "שאבלי",
     "allergens": [],
@@ -1208,7 +1212,7 @@
     ],
     "isSearchable": false,
     "groups": ["recI9Q7Z1Eluqpgfu"],
-    "translation_heb": "איולי",
+    "translation_heb": "איולי לימוני",
     "allergens": ["recSjxS7kF3zNmNl4"],
     "excludedInDiets": [
       "rec9lyqSGhtIFE6pM",
@@ -2328,30 +2332,6 @@
       "recyJA8IMB03C5DkT",
       "recYgJLdDlWsTxVGe",
       "recYgJLdDlWsTxVGe"
-    ]
-  },
-  {
-    "id": "recZssT7RgQjITtOf",
-    "name": "Birthday Cake Flavor",
-    "subIngredients": [
-      "rec8pKfAEwucwp78c",
-      "recvr8kIqxedjZztj",
-      "recRxY1kG8elmfgx8"
-    ],
-    "isSearchable": false,
-    "tags": ["recDXBerbCvKBauuo"],
-    "groups": ["recDXBerbCvKBauuo"],
-    "translation_heb": "טעם יום הולדת",
-    "allergens": [],
-    "excludedInDiets": [
-      "rec8pz0YYIGmScPu5",
-      "recDlVagQGOiParjH",
-      "recqkfhdi9py4PNCJ"
-    ],
-    "foodGroups": [
-      "recDXBerbCvKBauuo",
-      "recA1DeocMW69g9QP",
-      "recN0HIrikkUk6AvS"
     ]
   },
   {
@@ -22141,5 +22121,15 @@
       "recTqrrExyN2M0oG8"
     ],
     "foodGroups": ["recv4O8R7YyTwXVVU"]
+  },
+  {
+    "id": "recOmpRwEYVDHTxO8",
+    "name": "Rivaner grapes",
+    "isSearchable": false,
+    "groups": ["recgo0VQQt0W4HGik"],
+    "translation_heb": "ענבי רוינר",
+    "allergens": [],
+    "excludedInDiets": [],
+    "foodGroups": ["recgo0VQQt0W4HGik"]
   }
 ]
