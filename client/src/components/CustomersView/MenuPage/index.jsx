@@ -100,18 +100,18 @@ function MenuPage() {
         <Form>
           <Stack direction="column" maxWidth="md">
             <Typography variant="h4">
-              {isNew ? t('New Menu') : menu?.name}
+              {isNew ? t('new_menu') : menu?.name}
             </Typography>
-            <TextInput name="name" label={t('Name')} required />
+            <TextInput name="name" label={t('name')} required />
             <TextInput
               name="description"
-              label={t('Description')}
+              label={t('description')}
               multiline
               minRows={2}
               required
             />
             <FormControl required margin="normal">
-              <FormLabel>{t('Menu Categories')}</FormLabel>
+              <FormLabel>{t('menu_categories')}</FormLabel>
               <CategoriesList
                 categories={formik.values.categories?.map(
                   (categoryId) =>
@@ -128,7 +128,7 @@ function MenuPage() {
                 }
               />
               <FormHelperText>
-                {t('You can drag and drop categories to reorder them.')}
+                {t('you_can_drag_and_drop_categories_to_reorder_them.')}
               </FormHelperText>
             </FormControl>
             <Stack direction="row" justifyContent="flex-end">
@@ -136,7 +136,7 @@ function MenuPage() {
                 variant="outlined"
                 onClick={() => setOpenDialog(DIALOGS.ADD_EXISTING_CATEGORY)}
               >
-                {t('Add category')}
+                {t('add_category')}
               </Button>
             </Stack>
             <Stack direction="row" spacing={1} my={4}>
@@ -145,7 +145,7 @@ function MenuPage() {
                 onClick={handleOnClickDelete}
                 color="error"
               >
-                {t('Delete')}
+                {t('delete')}
               </Button>
               <Box flex={1} />
               <Button
@@ -184,13 +184,13 @@ function MenuPage() {
       )}
       {openDialog === DIALOGS.REMOVE_MENU && (
         <ConfirmDialog
-          title="Delete Menu"
+          title={t('delete_menu')}
           open={open}
           onClose={() => setOpenDialog('')}
           onConfirm={() => confirmCallback()}
-          labels={{ confirm: 'Delete', reject: 'Cancel' }}
+          labels={{ confirm: t('delete'), reject: t('cancel') }}
         >
-          Are you sure you want to delete this menu?
+          {t('are_you_sure_you_want_to_delete_this_menu')}?
         </ConfirmDialog>
       )}
     </>

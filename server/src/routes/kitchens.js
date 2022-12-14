@@ -4,12 +4,15 @@ const keyBy = require('lodash/keyBy')
 const _intersection = require('lodash/intersection')
 
 
-const kitchens = require('../data/new/kitchens.json')
 const menus = require('../data/new/menus.json')
 const dishes = require('../data/new/dishes.json')
+const kitchens = require('../data/new/kitchens.json')
 const categories = require('../data/new/categories.json')
+const ingredients = require('../data/new/ingredients.json')
 const workingHours = require('../data/new/workingHours.json')
 
+const dishesById = keyBy(dishes, 'id')
+const ingredientsById = keyBy(ingredients, 'id')
 const workingHoursById = keyBy(workingHours, 'id')
 
 const { getModifiedDishes } = require('../utils/dishes')
@@ -55,7 +58,7 @@ router.post('/:kitchenId/menus/:menuId/dishes/search', (req, res) => {
   const relevantMenu = menus.find(menu => menu.id === menuId)
   const relevantDishes = dishes.filter(dish => _intersection(relevantMenu?.categories, dish?.categories)?.length > 0)
 
-  const modifiedDishes = getModifiedDishes(relevantDishes, filters)
+  const modifiedDishes = getModifiedDishes(relevantDishes, filters, { dishesById, ingredientsById })
 
   res.send({ totalDishes: modifiedDishes, filteredDishes: modifiedDishes })
 })

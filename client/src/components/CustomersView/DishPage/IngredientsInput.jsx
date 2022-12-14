@@ -4,6 +4,7 @@ import update from 'immutability-helper'
 import { useTranslation } from 'react-i18next'
 
 import { Close } from '@mui/icons-material'
+import { Add as AddIcon } from '@mui/icons-material'
 
 import Checkbox from 'components/FormInputs/Checkbox'
 import NumberInput from 'components/FormInputs/NumberInput'
@@ -53,14 +54,14 @@ const IngredientsInput = ({
                 {ingredient.type === 'ingredient' && (
                   <SelectIngredients
                     name={`${name}.${index}.id`}
-                    placeholder={`${t('Ingredient')} ${index + 1}`}
+                    placeholder={`${t('ingredient')} ${index + 1}`}
                     fullWidth
                   />
                 )}
                 {ingredient.type === 'dish' && (
                   <SelectDishes
                     name={`${name}.${index}.id`}
-                    placeholder={`${t('Dish')} ${index + 1}`}
+                    placeholder={`${t('dish')} ${index + 1}`}
                     fullWidth
                   />
                 )}
@@ -69,7 +70,7 @@ const IngredientsInput = ({
                 <Box>
                   <NumberInput
                     name={`${name}.${index}.price`}
-                    placeholder={t('Added price')}
+                    placeholder={t('added_price')}
                   />
                 </Box>
               )}
@@ -77,7 +78,7 @@ const IngredientsInput = ({
                 <Box pt={1}>
                   <Checkbox
                     name={`${name}.${index}.putaside`}
-                    label={t('Putaside')}
+                    label={t('is_possible_to_putaside')}
                   />
                 </Box>
               )}
@@ -99,8 +100,9 @@ const IngredientsInput = ({
               variant="outlined"
               onClick={handleOnClickAddIngredient('dish')}
               color="warning"
+              startIcon={<AddIcon />}
             >
-              + Dish
+              Dish
             </Button>
           )}
           {showAddIngredient && (
@@ -109,8 +111,9 @@ const IngredientsInput = ({
               variant="outlined"
               onClick={handleOnClickAddIngredient('ingredient')}
               color="info"
+              startIcon={<AddIcon />}
             >
-              + Ingredient
+              Ingredient
             </Button>
           )}
         </Stack>
