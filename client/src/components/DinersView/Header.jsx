@@ -1,6 +1,6 @@
 import React from 'react'
 import { AppBar, Box, Typography, useTheme } from '@mui/material'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 import { useV1KitchenById } from 'hooks/kitchens'
 import MenuSelector from './MenuSelector'
@@ -8,7 +8,7 @@ import logo30Src from '../../images/logo30.png'
 
 function Header() {
   const theme = useTheme()
-  const { kitchenId } = useParams()
+  const { kitchenId, menuId } = useParams()
 
   const { kitchen } = useV1KitchenById(kitchenId)
 
@@ -49,11 +49,13 @@ function Header() {
           Powered By
         </Typography>
         <Box sx={{ height: 40, width: 40, margin: 'auto' }}>
-          <img
-            className="w-full h-full object-center object-fit group-hover:opacity-75"
-            src={logo30Src}
-            alt=""
-          />
+          <Link to={`/diners/kitchens/${kitchenId}/menus/${menuId}`}>
+            <img
+              className="w-full h-full object-center object-fit group-hover:opacity-75"
+              src={logo30Src}
+              alt=""
+            />
+          </Link>
         </Box>
       </Box>
     </AppBar>
