@@ -171,9 +171,10 @@ router.post('/search', async (req, res, next) => {
     const ingredientsById = _keyBy(relevantIngredients, 'id')
     const ingredientsByIds = { ...ingredientsBy_Id, ...ingredientsById }
 
-    const modifiedDishes = getModifiedDishes(relevantDishes, filters, { dishesById: dishesByIds, ingredientsById: ingredientsByIds })
+    const modifiedFilteredDishes = getModifiedDishes(relevantDishes, filters, { dishesById: dishesByIds, ingredientsById: ingredientsByIds })
+    const modifiedTotalDishes = getModifiedDishes(relevantDishes, [], { dishesById: dishesByIds, ingredientsById: ingredientsByIds })
 
-    res.send({ totalDishes: relevantDishes, filteredDishes: modifiedDishes })
+    res.send({ totalDishes: modifiedTotalDishes, filteredDishes: modifiedFilteredDishes })
   } catch (error) {
     const message = `Could search dishes: ${error.message}`
     return next(createHttpError(500, message))
