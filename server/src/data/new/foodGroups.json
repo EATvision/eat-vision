@@ -3,11 +3,7 @@
     "id": "recAvCd37VjynjiAV",
     "name": "Alcohol",
     "translation_heb": "אלכוהול",
-    "subGroups": [
-      "recDDXjev73zW9NBZ",
-      "recfqsjPJYOLjkUvT",
-      "recU1j9CMgCKG535c"
-    ]
+    "subGroups": ["recDDXjev73zW9NBZ", "recfqsjPJYOLjkUvT", "recU1j9CMgCKG535c"]
   },
   {
     "id": "recX7LWBWgvLk0fXO",
@@ -18,9 +14,7 @@
     "id": "recRuJgFOBk98fk8i",
     "name": "Animal proteins",
     "translation_heb": "חלבונים מן החי",
-    "parentGroups": [
-      "recX7LWBWgvLk0fXO"
-    ]
+    "parentGroups": ["recX7LWBWgvLk0fXO"]
   },
   {
     "id": "recDXBerbCvKBauuo",
@@ -41,78 +35,55 @@
     "id": "recmkvtZD6t6WKl07",
     "name": "Beef",
     "translation_heb": "בשר בקר",
-    "parentGroups": [
-      "recm30EduNkl4SSxj"
-    ]
+    "parentGroups": ["recm30EduNkl4SSxj"]
   },
   {
     "id": "recU1j9CMgCKG535c",
     "name": "beer",
     "translation_heb": "בירה",
-    "parentGroups": [
-      "recAvCd37VjynjiAV"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV"]
   },
   {
     "id": "recjdvSMxTyphSetE",
     "name": "Berries",
     "translation_heb": "פירות יער",
-    "parentGroups": [
-      "recmCzPUKuoYcsS42"
-    ]
+    "parentGroups": ["recmCzPUKuoYcsS42"]
   },
   {
     "id": "recJ0Kp5PBpH5pAeR",
     "name": "Beverages ",
     "translation_heb": "משקאות"
   },
-  {
-    "id": "rec1mnTK3JO3ItGjp",
-    "name": "Bitter",
-    "translation_heb": "טעם מר"
-  },
+  { "id": "rec1mnTK3JO3ItGjp", "name": "Bitter", "translation_heb": "טעם מר" },
   {
     "id": "recyJA8IMB03C5DkT",
     "name": "Blue cheeses",
     "translation_heb": "גבינות כחולות",
-    "parentGroups": [
-      "recYgJLdDlWsTxVGe"
-    ]
+    "parentGroups": ["recYgJLdDlWsTxVGe"]
   },
   {
     "id": "rec0nX9k5y0YySRlD",
     "name": "Braised",
     "translation_heb": "טיגון ובישול במעט מים"
   },
-  {
-    "id": "recZmajE2LE8mmq1m",
-    "name": "Breads",
-    "translation_heb": "לחמים"
-  },
+  { "id": "recZmajE2LE8mmq1m", "name": "Breads", "translation_heb": "לחמים" },
   {
     "id": "recdUoO2zbt196H0V",
     "name": "Cheese",
     "translation_heb": "גבינה",
-    "parentGroups": [
-      "recYgJLdDlWsTxVGe"
-    ]
+    "parentGroups": ["recYgJLdDlWsTxVGe"]
   },
   {
     "id": "recv7oLK0b2mCFamv",
     "name": "Chicken",
     "translation_heb": "עוף",
-    "parentGroups": [
-      "recm30EduNkl4SSxj"
-    ]
+    "parentGroups": ["recm30EduNkl4SSxj"]
   },
   {
     "id": "recjiQfjWqXpnBZ9K",
     "name": "Chili Peppers",
     "translation_heb": "פלפלי צ'ילי",
-    "parentGroups": [
-      "recRLRNG6VRO3pnoY",
-      "recWpISCcCcAIX1lr"
-    ]
+    "parentGroups": ["recRLRNG6VRO3pnoY", "recWpISCcCcAIX1lr"]
   },
   {
     "id": "rec1i6OIh6k0ujUih",
@@ -123,49 +94,32 @@
     "id": "rec9VIokQblaMYM61",
     "name": "Ciders",
     "translation_heb": "סיידר",
-    "parentGroups": [
-      "recJ0Kp5PBpH5pAeR"
-    ]
+    "parentGroups": ["recJ0Kp5PBpH5pAeR"]
   },
   {
     "id": "recGvVrIfqmts2vCj",
     "name": "Citrus Fruits",
     "translation_heb": "פירות הדר",
-    "parentGroups": [
-      "recmCzPUKuoYcsS42"
-    ]
+    "parentGroups": ["recmCzPUKuoYcsS42"]
   },
   {
     "id": "recGFPw3YY8vYHOL6",
     "name": "Coffee",
     "translation_heb": "קפה",
-    "parentGroups": [
-      "recJ0Kp5PBpH5pAeR"
-    ]
+    "parentGroups": ["recJ0Kp5PBpH5pAeR"]
   },
   {
     "id": "recUKnfUVIMEBscO0",
     "name": "Cooked",
     "translation_heb": "מְבוּשָׁל"
   },
-  {
-    "id": "rec5N7lVeiN0cIl5S",
-    "name": "Crisp",
-    "translation_heb": "פָּרִיך"
-  },
-  {
-    "id": "recjfAKr9ZF0loMtu",
-    "name": "crispy",
-    "translation_heb": "פריך"
-  },
+  { "id": "rec5N7lVeiN0cIl5S", "name": "Crisp", "translation_heb": "פָּרִיך" },
+  { "id": "recjfAKr9ZF0loMtu", "name": "crispy", "translation_heb": "פריך" },
   {
     "id": "recYgJLdDlWsTxVGe",
     "name": "Dairy",
     "translation_heb": "דברי חלב",
-    "subGroups": [
-      "recDKed5TeW8D5XTO",
-      "recm0zwS84JCKOaNG"
-    ]
+    "subGroups": ["recDKed5TeW8D5XTO", "recm0zwS84JCKOaNG"]
   },
   {
     "id": "reclrqMHo7sdRGeLH",
@@ -186,9 +140,7 @@
     "id": "recSE80ZWX568HCiz",
     "name": "Eggs",
     "translation_heb": "ביצים",
-    "parentGroups": [
-      "recX7LWBWgvLk0fXO"
-    ]
+    "parentGroups": ["recX7LWBWgvLk0fXO"]
   },
   {
     "id": "recXEbECnlRTH9Ssj",
@@ -199,84 +151,47 @@
     "id": "recv4O8R7YyTwXVVU",
     "name": "Fish",
     "translation_heb": "דגים",
-    "parentGroups": [
-      "recrqKQvYZiLXvitS",
-      "recX7LWBWgvLk0fXO"
-    ]
+    "parentGroups": ["recrqKQvYZiLXvitS", "recX7LWBWgvLk0fXO"]
   },
-  {
-    "id": "recqqxsvSS6LY3Aab",
-    "name": "Flours",
-    "translation_heb": "קמחים"
-  },
+  { "id": "recqqxsvSS6LY3Aab", "name": "Flours", "translation_heb": "קמחים" },
   {
     "id": "recy2Nh2sfSLTNXbH",
     "name": "Food Coloring",
     "translation_heb": "צבע מאכל"
   },
-  {
-    "id": "recr0yKu9WGc9p4QB",
-    "name": "Fried",
-    "translation_heb": "מטוגן"
-  },
+  { "id": "recr0yKu9WGc9p4QB", "name": "Fried", "translation_heb": "מטוגן" },
   {
     "id": "recrqKQvYZiLXvitS",
     "name": "from the ocean",
     "translation_heb": "מהים",
-    "subGroups": [
-      "recv4O8R7YyTwXVVU",
-      "recAjiOEZMV6ObquU",
-      "recxmfzeYNRFcsBdv"
-    ]
+    "subGroups": ["recv4O8R7YyTwXVVU", "recAjiOEZMV6ObquU", "recxmfzeYNRFcsBdv"]
   },
-  {
-    "id": "recmCzPUKuoYcsS42",
-    "name": "Fruits",
-    "translation_heb": "פירות"
-  },
+  { "id": "recmCzPUKuoYcsS42", "name": "Fruits", "translation_heb": "פירות" },
   {
     "id": "recurt87JNmeE6SzQ",
     "name": "Gluten",
     "translation_heb": "גלוטן",
-    "subGroups": [
-      "recPRWumn2WpzArWA",
-      "recB1W1GDN8MiyV8z",
-      "recd15KxweGAE9dEv"
-    ]
+    "subGroups": ["recPRWumn2WpzArWA", "recB1W1GDN8MiyV8z", "recd15KxweGAE9dEv"]
   },
   {
     "id": "rechdBUA5LiWfnnuE",
     "name": "Goats products",
     "translation_heb": "מוצרי עיזים",
-    "parentGroups": [
-      "recX7LWBWgvLk0fXO"
-    ]
+    "parentGroups": ["recX7LWBWgvLk0fXO"]
   },
-  {
-    "id": "recwq1XAJ50UwIOWX",
-    "name": "Grains",
-    "translation_heb": "דגנים"
-  },
+  { "id": "recwq1XAJ50UwIOWX", "name": "Grains", "translation_heb": "דגנים" },
   {
     "id": "recjJU30Y4c7lLRbf",
     "name": "Green vegetables",
     "translation_heb": "ירקות ירוקים",
-    "parentGroups": [
-      "recRLRNG6VRO3pnoY"
-    ]
+    "parentGroups": ["recRLRNG6VRO3pnoY"]
   },
-  {
-    "id": "recv59Bv2dbmRfKSZ",
-    "name": "Grilled",
-    "translation_heb": "גריל"
-  },
+  { "id": "recv59Bv2dbmRfKSZ", "name": "Grilled", "translation_heb": "גריל" },
   {
     "id": "recm0zwS84JCKOaNG",
     "name": "Hard Cheese",
     "translation_heb": "גבינות קשות",
-    "parentGroups": [
-      "recYgJLdDlWsTxVGe"
-    ]
+    "parentGroups": ["recYgJLdDlWsTxVGe"]
   },
   {
     "id": "recKixXejzsCDapen",
@@ -292,9 +207,7 @@
     "id": "rec0ZY6yIjGm0lEMV",
     "name": "Juices",
     "translation_heb": "מיצים",
-    "parentGroups": [
-      "recJ0Kp5PBpH5pAeR"
-    ]
+    "parentGroups": ["recJ0Kp5PBpH5pAeR"]
   },
   {
     "id": "receRGvMlEi5L7ZEY",
@@ -310,39 +223,26 @@
     "id": "rec3OxjSiLWyj8hx5",
     "name": "Lamb or Mutton",
     "translation_heb": "בשר כבש",
-    "parentGroups": [
-      "recX7LWBWgvLk0fXO"
-    ]
+    "parentGroups": ["recX7LWBWgvLk0fXO"]
   },
   {
     "id": "recjQPuY0MXSND7wJ",
     "name": "Leafy Greens",
     "translation_heb": "עלים ירוקים",
-    "parentGroups": [
-      "recRLRNG6VRO3pnoY"
-    ]
+    "parentGroups": ["recRLRNG6VRO3pnoY"]
   },
-  {
-    "id": "recGrdvYp4KJzbvdd",
-    "name": "Legumes",
-    "translation_heb": "קטניות"
-  },
+  { "id": "recGrdvYp4KJzbvdd", "name": "Legumes", "translation_heb": "קטניות" },
   {
     "id": "recoCo9cKsScq8nOV",
     "name": "Lentils",
     "translation_heb": "עדשים",
-    "parentGroups": [
-      "recGrdvYp4KJzbvdd"
-    ]
+    "parentGroups": ["recGrdvYp4KJzbvdd"]
   },
   {
     "id": "recsEhBTtFcgcCF4O",
     "name": "Lettuces",
     "translation_heb": "חסה",
-    "parentGroups": [
-      "recjJU30Y4c7lLRbf",
-      "recRLRNG6VRO3pnoY"
-    ]
+    "parentGroups": ["recjJU30Y4c7lLRbf", "recRLRNG6VRO3pnoY"]
   },
   {
     "id": "recO6si9JrhGrREmw",
@@ -364,9 +264,7 @@
       "recsMGbSlC9cPVJ8o",
       "recwJ3CsMWeKmDBlS"
     ],
-    "parentGroups": [
-      "recX7LWBWgvLk0fXO"
-    ]
+    "parentGroups": ["recX7LWBWgvLk0fXO"]
   },
   {
     "id": "recOkLXIqL70I5L8I",
@@ -393,11 +291,7 @@
     "name": "Non-kosher",
     "translation_heb": "לא כשר"
   },
-  {
-    "id": "recq9yODwJSsgHZ5U",
-    "name": "Noodles",
-    "translation_heb": "נודלס"
-  },
+  { "id": "recq9yODwJSsgHZ5U", "name": "Noodles", "translation_heb": "נודלס" },
   {
     "id": "recAdkUWMljbxRuWI",
     "name": "Nut free",
@@ -408,59 +302,29 @@
     "name": "Nutrition Supplements",
     "translation_heb": "תוספי תזונה"
   },
-  {
-    "id": "recHJLhfoFpQuTVOI",
-    "name": "Nuts",
-    "translation_heb": "אֱגוֹזִים"
-  },
+  { "id": "recHJLhfoFpQuTVOI", "name": "Nuts", "translation_heb": "אֱגוֹזִים" },
   {
     "id": "recV4tBYJKxXVWfeH",
     "name": "Offal",
     "translation_heb": "חלקי פנים",
-    "parentGroups": [
-      "recX7LWBWgvLk0fXO"
-    ]
+    "parentGroups": ["recX7LWBWgvLk0fXO"]
   },
-  {
-    "id": "reccATkRbfWDQGzvn",
-    "name": "Oils",
-    "translation_heb": "שמנים"
-  },
-  {
-    "id": "recpmsyjcMOP7g6yR",
-    "name": "Olives",
-    "translation_heb": "זיתים"
-  },
+  { "id": "reccATkRbfWDQGzvn", "name": "Oils", "translation_heb": "שמנים" },
+  { "id": "recpmsyjcMOP7g6yR", "name": "Olives", "translation_heb": "זיתים" },
   {
     "id": "reclWKSsmJOut9eRI",
     "name": "Onions",
     "translation_heb": "בצלים",
-    "parentGroups": [
-      "recRLRNG6VRO3pnoY"
-    ]
+    "parentGroups": ["recRLRNG6VRO3pnoY"]
   },
-  {
-    "id": "recHKCRJmfaLYrXbo",
-    "name": "Paleo",
-    "translation_heb": "פליאו"
-  },
-  {
-    "id": "recXI5x68lU5F4IzP",
-    "name": "Pastas",
-    "translation_heb": "פסטות"
-  },
-  {
-    "id": "recuzlWR7Aq8Pem8e",
-    "name": "Pastries",
-    "translation_heb": "מאפים"
-  },
+  { "id": "recHKCRJmfaLYrXbo", "name": "Paleo", "translation_heb": "פליאו" },
+  { "id": "recXI5x68lU5F4IzP", "name": "Pastas", "translation_heb": "פסטות" },
+  { "id": "recuzlWR7Aq8Pem8e", "name": "Pastries", "translation_heb": "מאפים" },
   {
     "id": "recdROcDJGFaMnOVT",
     "name": "peas",
     "translation_heb": "אפונים",
-    "parentGroups": [
-      "recGrdvYp4KJzbvdd"
-    ]
+    "parentGroups": ["recGrdvYp4KJzbvdd"]
   },
   {
     "id": "recu9AkhHU2Hbq0Xh",
@@ -476,20 +340,14 @@
     "id": "recLmG2zgcHvVdI4Z",
     "name": "plant derived beverage",
     "translation_heb": "משקה צמחי",
-    "parentGroups": [
-      "recJ0Kp5PBpH5pAeR"
-    ]
+    "parentGroups": ["recJ0Kp5PBpH5pAeR"]
   },
   {
     "id": "recVSf3qwSKLDfbw2",
     "name": "Plant Proteins",
     "translation_heb": "חלבונים צמחיים"
   },
-  {
-    "id": "recUuvtEsG5XRWVqd",
-    "name": "poached",
-    "translation_heb": "חָלוּט"
-  },
+  { "id": "recUuvtEsG5XRWVqd", "name": "poached", "translation_heb": "חָלוּט" },
   {
     "id": "recsMGbSlC9cPVJ8o",
     "name": "pork",
@@ -504,56 +362,34 @@
     "id": "recwJ3CsMWeKmDBlS",
     "name": "poultry",
     "translation_heb": "עוֹפוֹת",
-    "parentGroups": [
-      "recm30EduNkl4SSxj",
-      "recX7LWBWgvLk0fXO"
-    ]
+    "parentGroups": ["recm30EduNkl4SSxj", "recX7LWBWgvLk0fXO"]
   },
-  {
-    "id": "recasLcin4Wr9ihNx",
-    "name": "Powders",
-    "translation_heb": "אבקות"
-  },
+  { "id": "recasLcin4Wr9ihNx", "name": "Powders", "translation_heb": "אבקות" },
   {
     "id": "recbI3BuTcIISfJW6",
     "name": "Pregnancy",
     "translation_heb": "הֵרָיוֹן",
-    "subGroups": [
-      "recZBrVXsRItPQkxJ",
-      "recAjiOEZMV6ObquU",
-      "recAvCd37VjynjiAV"
-    ]
+    "subGroups": ["recZBrVXsRItPQkxJ", "recAjiOEZMV6ObquU", "recAvCd37VjynjiAV"]
   },
   {
     "id": "recR3zNAfHFv5vRsD",
     "name": "Preserved Fruit",
     "translation_heb": "פירות משומרים",
-    "parentGroups": [
-      "rec5HBd96Kk2t02au"
-    ]
+    "parentGroups": ["rec5HBd96Kk2t02au"]
   },
   {
     "id": "recH9WbjaML3hib6B",
     "name": "Processed Fruit and Vegetables",
     "translation_heb": "פירות וירקות מעובדים",
-    "parentGroups": [
-      "rec5HBd96Kk2t02au"
-    ]
+    "parentGroups": ["rec5HBd96Kk2t02au"]
   },
   {
     "id": "recZpJAzIEOcIs9Fe",
     "name": "pumpkin ",
     "translation_heb": "דלעת",
-    "parentGroups": [
-      "recRLRNG6VRO3pnoY",
-      "reclaSHDqdG6SON8b"
-    ]
+    "parentGroups": ["recRLRNG6VRO3pnoY", "reclaSHDqdG6SON8b"]
   },
-  {
-    "id": "recskJLfd1Ydg6Dpo",
-    "name": "raw",
-    "translation_heb": "נא"
-  },
+  { "id": "recskJLfd1Ydg6Dpo", "name": "raw", "translation_heb": "נא" },
   {
     "id": "recZBrVXsRItPQkxJ",
     "name": "Raw Food",
@@ -563,44 +399,28 @@
     "id": "recNVPxM2A8o2elhG",
     "name": "Raw or Uncooked Beef",
     "translation_heb": "בקר נא",
-    "parentGroups": [
-      "recskJLfd1Ydg6Dpo"
-    ]
+    "parentGroups": ["recskJLfd1Ydg6Dpo"]
   },
   {
     "id": "recIKbAVjYmPtQWrk",
     "name": "Raw or Uncooked Fish",
     "translation_heb": "דגים נאים",
-    "parentGroups": [
-      "recskJLfd1Ydg6Dpo"
-    ]
+    "parentGroups": ["recskJLfd1Ydg6Dpo"]
   },
   {
     "id": "receKfT46qKVbw4fC",
     "name": "Rice",
     "translation_heb": "אורז",
-    "parentGroups": [
-      "recwq1XAJ50UwIOWX"
-    ]
+    "parentGroups": ["recwq1XAJ50UwIOWX"]
   },
   {
     "id": "reciEjtCi62wG3bkB",
     "name": "root vegetables",
     "translation_heb": "ירקות שורש",
-    "parentGroups": [
-      "recRLRNG6VRO3pnoY"
-    ]
+    "parentGroups": ["recRLRNG6VRO3pnoY"]
   },
-  {
-    "id": "recJSvVpSiYmYN34i",
-    "name": "Salads",
-    "translation_heb": "סלטים"
-  },
-  {
-    "id": "recRQstqYOST4uTB1",
-    "name": "salts",
-    "translation_heb": "מלחים"
-  },
+  { "id": "recJSvVpSiYmYN34i", "name": "Salads", "translation_heb": "סלטים" },
+  { "id": "recRQstqYOST4uTB1", "name": "salts", "translation_heb": "מלחים" },
   {
     "id": "recdx1s8hodBvQIHm",
     "name": "Sauces & dressing",
@@ -611,80 +431,42 @@
     "name": "sausages ",
     "translation_heb": "נקניקיות"
   },
-  {
-    "id": "recsUWQmUdjJpI9AO",
-    "name": "savory",
-    "translation_heb": "מלוח"
-  },
+  { "id": "recsUWQmUdjJpI9AO", "name": "savory", "translation_heb": "מלוח" },
   {
     "id": "recAjiOEZMV6ObquU",
     "name": "Seafood",
     "translation_heb": "פירות ים",
-    "parentGroups": [
-      "recrqKQvYZiLXvitS",
-      "recNkG1aZNZ0wePeo"
-    ]
+    "parentGroups": ["recrqKQvYZiLXvitS", "recNkG1aZNZ0wePeo"]
   },
-  {
-    "id": "recO8lxOLuXUNmPbf",
-    "name": "seared",
-    "translation_heb": "צרוב "
-  },
+  { "id": "recO8lxOLuXUNmPbf", "name": "seared", "translation_heb": "צרוב " },
   {
     "id": "recxmfzeYNRFcsBdv",
     "name": "Seaweed",
     "translation_heb": "אצות ",
-    "parentGroups": [
-      "recrqKQvYZiLXvitS"
-    ]
+    "parentGroups": ["recrqKQvYZiLXvitS"]
   },
-  {
-    "id": "receelNsoQTM6LFwT",
-    "name": "Seeds",
-    "translation_heb": "זרעים"
-  },
+  { "id": "receelNsoQTM6LFwT", "name": "Seeds", "translation_heb": "זרעים" },
   {
     "id": "recbOlhvf3pTmwIWk",
     "name": "Shellfish",
     "translation_heb": "רכיכות",
-    "parentGroups": [
-      "recrqKQvYZiLXvitS",
-      "recNkG1aZNZ0wePeo"
-    ]
+    "parentGroups": ["recrqKQvYZiLXvitS", "recNkG1aZNZ0wePeo"]
   },
   {
     "id": "recAEEsSFlexlibKD",
     "name": "slow-roasted",
     "translation_heb": "קלייה איטית"
   },
-  {
-    "id": "recC3sMa5yw4yPtyT",
-    "name": "smoked",
-    "translation_heb": "מעושן"
-  },
-  {
-    "id": "recQ36LO1SCbjLirg",
-    "name": "soft",
-    "translation_heb": "רך"
-  },
+  { "id": "recC3sMa5yw4yPtyT", "name": "smoked", "translation_heb": "מעושן" },
+  { "id": "recQ36LO1SCbjLirg", "name": "soft", "translation_heb": "רך" },
   {
     "id": "recDKed5TeW8D5XTO",
     "name": "Soft Cheese",
     "translation_heb": "גבינות רכות",
-    "parentGroups": [
-      "recYgJLdDlWsTxVGe"
-    ]
+    "parentGroups": ["recYgJLdDlWsTxVGe"]
   },
-  {
-    "id": "recQbmnhqniZAawpj",
-    "name": "Soups",
-    "translation_heb": "מרקים"
-  },
-  {
-    "id": "reckgMulgJQ3zP3xG",
-    "name": "Sour",
-    "translation_heb": "חמוץ"
-  },
+  { "id": "recQbmnhqniZAawpj", "name": "Soups", "translation_heb": "מרקים" },
+  { "id": "reckgMulgJQ3zP3xG", "name": "Sour", "translation_heb": "חמוץ" },
   {
     "id": "recsWG9qiSgYH8byz",
     "name": "soy sauce",
@@ -699,10 +481,7 @@
     "id": "rec1TE0xK1AoVx5V6",
     "name": "spelt product ",
     "translation_heb": "כוסמין",
-    "parentGroups": [
-      "recurt87JNmeE6SzQ",
-      "recwq1XAJ50UwIOWX"
-    ]
+    "parentGroups": ["recurt87JNmeE6SzQ", "recwq1XAJ50UwIOWX"]
   },
   {
     "id": "rec0QscXGfFUDTzBr",
@@ -714,69 +493,31 @@
     "name": "Spices",
     "translation_heb": "תבלינים יבשים"
   },
-  {
-    "id": "recWpISCcCcAIX1lr",
-    "name": "Spicy",
-    "translation_heb": "חריף"
-  },
+  { "id": "recWpISCcCcAIX1lr", "name": "Spicy", "translation_heb": "חריף" },
   {
     "id": "recDDXjev73zW9NBZ",
     "name": "Spirits",
     "translation_heb": "ליקרים",
-    "parentGroups": [
-      "recAvCd37VjynjiAV"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV"]
   },
-  {
-    "id": "recYZdiI4Znpthzj5",
-    "name": "Spreads",
-    "translation_heb": "ממרחים"
-  },
+  { "id": "recYZdiI4Znpthzj5", "name": "Spreads", "translation_heb": "ממרחים" },
   {
     "id": "recapwT9gLHskncZS",
     "name": "sprouts ",
     "translation_heb": "נבטים",
-    "parentGroups": [
-      "recRLRNG6VRO3pnoY"
-    ]
+    "parentGroups": ["recRLRNG6VRO3pnoY"]
   },
-  {
-    "id": "reclaSHDqdG6SON8b",
-    "name": "squashs",
-    "translation_heb": "דלעות "
-  },
-  {
-    "id": "recDigAI6dMidBT0X",
-    "name": "Starch",
-    "translation_heb": "עמילן"
-  },
-  {
-    "id": "recnHMoLrJWo7LqDk",
-    "name": "steamed",
-    "translation_heb": "מאודה"
-  },
-  {
-    "id": "recA1DeocMW69g9QP",
-    "name": "Sugars",
-    "translation_heb": "סוכרים"
-  },
-  {
-    "id": "recmoMwkVsy3dUCFu",
-    "name": "Sweet",
-    "translation_heb": "מתוק"
-  },
-  {
-    "id": "rec8EgoVJm1bcW4Vn",
-    "name": "Tea",
-    "translation_heb": "תה"
-  },
+  { "id": "reclaSHDqdG6SON8b", "name": "squashs", "translation_heb": "דלעות " },
+  { "id": "recDigAI6dMidBT0X", "name": "Starch", "translation_heb": "עמילן" },
+  { "id": "recnHMoLrJWo7LqDk", "name": "steamed", "translation_heb": "מאודה" },
+  { "id": "recA1DeocMW69g9QP", "name": "Sugars", "translation_heb": "סוכרים" },
+  { "id": "recmoMwkVsy3dUCFu", "name": "Sweet", "translation_heb": "מתוק" },
+  { "id": "rec8EgoVJm1bcW4Vn", "name": "Tea", "translation_heb": "תה" },
   {
     "id": "rec3INPlyw5xpVWeX",
     "name": "Tomatoes",
     "translation_heb": "עגבניות",
-    "parentGroups": [
-      "rec3INPlyw5xpVWeX"
-    ]
+    "parentGroups": ["rec3INPlyw5xpVWeX"]
   },
   {
     "id": "reczBdehghSnHIzcf",
@@ -796,9 +537,7 @@
     "id": "recRLRNG6VRO3pnoY",
     "name": "Vegetables",
     "translation_heb": "ירקות",
-    "subGroups": [
-      "recjQPuY0MXSND7wJ"
-    ]
+    "subGroups": ["recjQPuY0MXSND7wJ"]
   },
   {
     "id": "recJw1LIfWuUfhbLY",
@@ -821,35 +560,25 @@
     "id": "recd15KxweGAE9dEv",
     "name": "wheat flours",
     "translation_heb": "קמחי חיטה",
-    "parentGroups": [
-      "recurt87JNmeE6SzQ",
-      "recPRWumn2WpzArWA"
-    ]
+    "parentGroups": ["recurt87JNmeE6SzQ", "recPRWumn2WpzArWA"]
   },
   {
     "id": "recPRWumn2WpzArWA",
     "name": "Wheat products",
     "translation_heb": "מוצרי חיטה",
-    "parentGroups": [
-      "recurt87JNmeE6SzQ",
-      "recwq1XAJ50UwIOWX"
-    ]
+    "parentGroups": ["recurt87JNmeE6SzQ", "recwq1XAJ50UwIOWX"]
   },
   {
     "id": "recfqsjPJYOLjkUvT",
     "name": "Wine",
     "translation_heb": "יינות",
-    "parentGroups": [
-      "recAvCd37VjynjiAV"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV"]
   },
   {
     "id": "rec4AN9AtvRJyyqOf",
     "name": "yogurts",
     "translation_heb": "יוגורטים",
-    "parentGroups": [
-      "recYgJLdDlWsTxVGe"
-    ]
+    "parentGroups": ["recYgJLdDlWsTxVGe"]
   },
   {
     "id": "recbNpBc1x3riE6IU",
@@ -860,9 +589,7 @@
     "id": "recB1W1GDN8MiyV8z",
     "name": "spelt product",
     "translation_heb": "מוצרי כוסמין",
-    "parentGroups": [
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recurt87JNmeE6SzQ"]
   },
   {
     "id": "recxRrdYnGRXlmiXh",
@@ -878,27 +605,19 @@
     "id": "recI9Q7Z1Eluqpgfu",
     "name": "aioli",
     "translation_heb": "איולי",
-    "parentGroups": [
-      "recdx1s8hodBvQIHm"
-    ]
+    "parentGroups": ["recdx1s8hodBvQIHm"]
   },
   {
     "id": "recshRojqcVWbJnty",
     "name": "natural low calorie sweeteners",
     "translation_heb": "ממתיקים מופחתי קלוריות טבעיים"
   },
-  {
-    "id": "recAgeTXwvunDQZeO",
-    "name": "soda",
-    "translation_heb": "סודה"
-  },
+  { "id": "recAgeTXwvunDQZeO", "name": "soda", "translation_heb": "סודה" },
   {
     "id": "recbwkcvn4kDnToiL",
     "name": "rum",
     "translation_heb": "רום",
-    "parentGroups": [
-      "recAvCd37VjynjiAV"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV"]
   },
   {
     "id": "recx4yr5O5xQnY7L0",
@@ -930,124 +649,85 @@
     "id": "recyilZLaW9xX8Qlt",
     "name": "tequila",
     "translation_heb": "טקילה",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recDDXjev73zW9NBZ"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recDDXjev73zW9NBZ"]
   },
   {
     "id": "recrclGxty3NZm7tq",
     "name": "White wines",
     "translation_heb": "יינות לבנים",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recfqsjPJYOLjkUvT"]
   },
   {
     "id": "recSSm7hnZBRicJIY",
     "name": "red wines",
     "translation_heb": "יינות אדומים",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recfqsjPJYOLjkUvT"]
   },
   {
     "id": "recQayV39KmB1rvCq",
     "name": "red wines",
     "translation_heb": "יינות אדומים",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recfqsjPJYOLjkUvT"]
   },
   {
     "id": "recLuWPP2OSHlG8pt",
     "name": "vodka",
     "translation_heb": "וודקה",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recDDXjev73zW9NBZ"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recDDXjev73zW9NBZ"]
   },
   {
     "id": "recIS31LLynTCDKyp",
     "name": "Whiskey",
     "translation_heb": "וויסקי",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recDDXjev73zW9NBZ"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recDDXjev73zW9NBZ"]
   },
   {
     "id": "recV5fHl7YWRNelyQ",
     "name": "Liqueurs",
     "translation_heb": "ליקרים",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recDDXjev73zW9NBZ"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recDDXjev73zW9NBZ"]
   },
   {
     "id": "recW39Jnf34VWgWEd",
     "name": "bitters",
     "translation_heb": "ביטרים",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recDDXjev73zW9NBZ"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recDDXjev73zW9NBZ"]
   },
   {
     "id": "recFZXXGFLCRMNR5o",
     "name": "Alcopop , spirit cooler",
     "translation_heb": "אלכופופ",
-    "parentGroups": [
-      "recAvCd37VjynjiAV",
-      "recDDXjev73zW9NBZ"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV", "recDDXjev73zW9NBZ"]
   },
   {
     "id": "recG1zS7YLvPucxsK",
     "name": "gin",
     "translation_heb": "ג'ין",
-    "parentGroups": [
-      "recAvCd37VjynjiAV"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV"]
   },
   {
     "id": "reco7sODroUb7TMZB",
     "name": "Blended whiskey",
     "translation_heb": "בלנדד ויסקי",
-    "parentGroups": [
-      "recIS31LLynTCDKyp"
-    ]
+    "parentGroups": ["recIS31LLynTCDKyp"]
   },
   {
     "id": "recgo0VQQt0W4HGik",
     "name": "grapes",
     "translation_heb": "ענבים",
-    "parentGroups": [
-      "recmCzPUKuoYcsS42"
-    ]
+    "parentGroups": ["recmCzPUKuoYcsS42"]
   },
   {
     "id": "rec5YDC6O0XmPvW6P",
     "name": "lager",
     "translation_heb": "בירות לאגר",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "rec2m2Z8keGUVLwNA",
     "name": "soft drinks",
     "translation_heb": "משקאות קלים",
-    "parentGroups": [
-      "recA1DeocMW69g9QP",
-      "recJ0Kp5PBpH5pAeR"
-    ]
+    "parentGroups": ["recA1DeocMW69g9QP", "recJ0Kp5PBpH5pAeR"]
   },
   {
     "id": "rec9TFbNApiiNfSzA",
@@ -1058,37 +738,25 @@
     "id": "rectaf1dNJEkPQdhE",
     "name": "ale",
     "translation_heb": "אייל",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "recq2iB1sBgUQqcd2",
     "name": "Porter",
     "translation_heb": "פורטר",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "recbq2gfD9qtGkuKF",
     "name": "Stout",
     "translation_heb": "סטאוט",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "recHzsfnDksLUzdgG",
     "name": "Blonde Ale",
     "translation_heb": "בלונד אייל",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "recg6oDGmlDZ7q2RQ",
@@ -1104,149 +772,104 @@
     "id": "rec2BddwjEjsweP95",
     "name": "Pale Ale",
     "translation_heb": "פייל אייל",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "recZMBt40CnR3OnUx",
     "name": "IPA",
     "translation_heb": "בירות IPA",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "recp0WQugkOwzQEE8",
     "name": "Wheat beer",
     "translation_heb": "בירות חיטה",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "reco3k2OiNm5PtX2K",
     "name": "Pilsner",
     "translation_heb": "פילסנר",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
   {
     "id": "recbsb2LExLF5IP91",
     "name": "Sour Ale ",
     "translation_heb": "בירות חמוצות",
-    "parentGroups": [
-      "recU1j9CMgCKG535c",
-      "recurt87JNmeE6SzQ"
-    ]
+    "parentGroups": ["recU1j9CMgCKG535c", "recurt87JNmeE6SzQ"]
   },
-  {
-    "id": "recCsSQnlG1KJxvtd",
-    "name": "kosher",
-    "translation_heb": "כשר"
-  },
+  { "id": "recCsSQnlG1KJxvtd", "name": "kosher", "translation_heb": "כשר" },
   {
     "id": "recHFAtr2WZkQ98Im",
     "name": "dry wines",
     "translation_heb": "יינות יבשים",
-    "parentGroups": [
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recfqsjPJYOLjkUvT"]
   },
   {
     "id": "rec17syXperdobDf8",
     "name": "semi dry wines",
     "translation_heb": "יינות חצי יבשים",
-    "parentGroups": [
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recfqsjPJYOLjkUvT"]
   },
   {
     "id": "recq5k3ySOqOC5oui",
     "name": "rose wines",
     "translation_heb": "יינות רוזה",
-    "parentGroups": [
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recfqsjPJYOLjkUvT"]
   },
   {
     "id": "recelzDwH6cna2uAC",
     "name": "Sparkling wines",
     "translation_heb": "יינות מבעבעים",
-    "parentGroups": [
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recfqsjPJYOLjkUvT"]
   },
   {
     "id": "recDawO8L5QbLNa8h",
     "name": "Single malt",
     "translation_heb": "סינגל מאלט",
-    "parentGroups": [
-      "recIS31LLynTCDKyp"
-    ]
+    "parentGroups": ["recIS31LLynTCDKyp"]
   },
   {
     "id": "reczQovi5wQJZkFSs",
     "name": "semi sweet wines",
     "translation_heb": "יינות חצי מתוקים",
-    "parentGroups": [
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recfqsjPJYOLjkUvT"]
   },
   {
     "id": "recF5IDsUG8oUgKyE",
     "name": "sweet wines",
     "translation_heb": "יינות מתוקים",
-    "parentGroups": [
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recfqsjPJYOLjkUvT"]
   },
   {
     "id": "recHuy7gZNEvA3RKZ",
     "name": "Vermouths",
     "translation_heb": "ורמוט",
-    "parentGroups": [
-      "recAvCd37VjynjiAV"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV"]
   },
   {
     "id": "recyFHxNKx10XMK6M",
     "name": "Apéritif and digestif",
     "translation_heb": "אפרטיף ודג'זיטיף",
-    "parentGroups": [
-      "recAvCd37VjynjiAV"
-    ]
+    "parentGroups": ["recAvCd37VjynjiAV"]
   },
   {
     "id": "recQkc9oCqz4PzdnQ",
     "name": "siders",
     "translation_heb": "סיידרים",
-    "parentGroups": [
-      "recJ0Kp5PBpH5pAeR"
-    ]
+    "parentGroups": ["recJ0Kp5PBpH5pAeR"]
   },
   {
     "id": "recdunSceEXLZP7tz",
     "name": "Pastis",
     "translation_heb": "פסטיס",
-    "parentGroups": [
-      "recx4yr5O5xQnY7L0",
-      "rec4hF1tOBgrmX0bn"
-    ]
+    "parentGroups": ["recx4yr5O5xQnY7L0", "rec4hF1tOBgrmX0bn"]
   },
   {
     "id": "recNgHoP7RU6nyN8S",
     "name": "cava wines",
     "translation_heb": "קאוות",
-    "parentGroups": [
-      "recelzDwH6cna2uAC",
-      "recfqsjPJYOLjkUvT"
-    ]
+    "parentGroups": ["recelzDwH6cna2uAC", "recfqsjPJYOLjkUvT"]
   },
   {
     "id": "rec5FGOyTzybyseEx",
@@ -1257,31 +880,21 @@
     "id": "rec6sIEbuBWYos6Wk",
     "name": "Syrups",
     "translation_heb": "סירופים",
-    "parentGroups": [
-      "recA1DeocMW69g9QP"
-    ]
+    "parentGroups": ["recA1DeocMW69g9QP"]
   },
   {
     "id": "rechZhfFBvUUZrGER",
     "name": "Ice creams",
     "translation_heb": "גלידות",
-    "parentGroups": [
-      "reclrqMHo7sdRGeLH"
-    ]
+    "parentGroups": ["reclrqMHo7sdRGeLH"]
   },
   {
     "id": "recWpB0Tn8iDQ0xbQ",
     "name": "dry fruits",
     "translation_heb": "פירות יבשים",
-    "parentGroups": [
-      "recmCzPUKuoYcsS42"
-    ]
+    "parentGroups": ["recmCzPUKuoYcsS42"]
   },
-  {
-    "id": "reci45mNro5gmgwsK",
-    "name": "roasted",
-    "translation_heb": "קלוי"
-  },
+  { "id": "reci45mNro5gmgwsK", "name": "roasted", "translation_heb": "קלוי" },
   {
     "id": "recaT3H5XVPhVsmuY",
     "name": "Long- and medium-length pasta",
@@ -1292,34 +905,21 @@
     "name": "Short-cut pasta",
     "translation_heb": "פסטה קצרה"
   },
-  {
-    "id": "recUP947VADcK5Gry"
-  },
-  {
-    "id": "recxdRU4QUJc1zsgE"
-  },
-  {
-    "id": "recOKjFNrhMtYT3TV"
-  },
-  {
-    "id": "recJrdVHH1XDwap1o"
-  },
-  {
-    "id": "recoAJGVrl4Vikc5m",
-    "name": "sesame ",
-    "translation_heb": "שומשום"
-  },
-  {
-    "id": "rec8QnlVN3QXu6gEq"
-  },
-  {
-    "id": "recsW6wCspoZ2jVHa",
-    "name": "peanuts",
-    "translation_heb": "בוטנים"
-  },
+  { "id": "recUP947VADcK5Gry" },
+  { "id": "recxdRU4QUJc1zsgE" },
+  { "id": "recOKjFNrhMtYT3TV" },
+  { "id": "recJrdVHH1XDwap1o" },
+  { "id": "recoAJGVrl4Vikc5m", "name": "sesame ", "translation_heb": "שומשום" },
+  { "id": "rec8QnlVN3QXu6gEq" },
+  { "id": "recsW6wCspoZ2jVHa", "name": "peanuts", "translation_heb": "בוטנים" },
   {
     "id": "recw07FY6G8dugeQW",
     "name": "gluten free",
     "translation_heb": "ללא גלוטן"
+  },
+  {
+    "id": "recY1ajk5tgEDu6gp",
+    "name": "confectionery ",
+    "translation_heb": "דברי מתיקה , ממתקים"
   }
 ]
