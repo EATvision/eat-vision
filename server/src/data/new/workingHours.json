@@ -1,18 +1,13 @@
 [
   {
     "id": "rec3N2KJ88DKwVLF7",
-    "day": [
-      "monday",
-      "friday"
-    ],
+    "day": ["monday", "friday"],
     "start": "02:00",
     "end": "05:00"
   },
   {
     "id": "recgIASj1v9ltpO5O",
-    "day": [
-      "sunday"
-    ],
+    "day": ["sunday"],
     "start": "17:00",
     "end": "21:00"
   },
@@ -32,126 +27,79 @@
   },
   {
     "id": "recTkyms57aFcFTQ9",
-    "day": [
-      "sunday",
-      "monday",
-      "friday"
-    ],
+    "day": ["sunday", "monday", "friday"],
     "start": "08:00",
     "end": "11:00"
   },
   {
     "id": "recItIN7OyxBGAokT",
-    "day": [
-      "monday"
-    ],
+    "day": ["monday"],
     "start": "11:30",
     "end": "23:00"
   },
   {
     "id": "reccbyfWQtmjvs6fX",
-    "day": [
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "friday"
-    ],
+    "day": ["tuesday", "wednesday", "thursday", "friday"],
     "start": "11:30",
     "end": "00:00"
   },
   {
     "id": "rec99kSS7NiouvcTi",
-    "day": [
-      "saturday"
-    ],
+    "day": ["saturday"],
     "start": "11:00",
     "end": "00:00"
   },
   {
     "id": "recJegI1kKaEJgjTq",
-    "day": [
-      "sunday"
-    ],
+    "day": ["sunday"],
     "start": "11:00",
     "end": "23:00"
   },
   {
     "id": "recuVD7jjP0W8GpPu",
-    "day": [
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "friday"
-    ],
+    "day": ["monday", "tuesday", "wednesday", "thursday", "friday"],
     "start": "12:00",
     "end": "16:00"
   },
   {
     "id": "recvIrQ8vc15FiUdO",
-    "day": [
-      "saturday",
-      "sunday"
-    ],
+    "day": ["saturday", "sunday"],
     "start": "12:00",
     "end": "16:00"
   },
   {
     "id": "recQKYbjSa5Dw9ll0",
-    "day": [
-      "sunday"
-    ],
+    "day": ["sunday"],
     "start": "16:00",
     "end": "23:00"
   },
   {
     "id": "recT2rqYkKxSFQKpn",
-    "day": [
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "friday"
-    ],
+    "day": ["tuesday", "wednesday", "thursday", "friday"],
     "start": "19:00",
     "end": "00:00"
   },
   {
     "id": "recrDWxGVStRdd39d",
-    "day": [
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "friday"
-    ],
+    "day": ["monday", "tuesday", "wednesday", "thursday", "friday"],
     "start": "16:00",
     "end": "19:00"
   },
   {
     "id": "recPSWOY8zJ6zdRps",
-    "day": [
-      "saturday"
-    ],
+    "day": ["saturday"],
     "start": "16:00",
     "end": "00:00"
   },
   {
     "id": "recG8KWhALl39eAyI",
-    "day": [
-      "monday"
-    ],
+    "day": ["monday"],
     "start": "19:00",
     "end": "23:00"
   },
   {
     "id": "recsOApPfuoqg065a",
-    "day": [
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "sunday"
-    ],
+    "day": ["monday", "tuesday", "wednesday", "thursday", "sunday"],
     "start": "08:00",
     "end": "23:00"
   },
@@ -185,98 +133,55 @@
   },
   {
     "id": "reciPJJSuzoxA7SD1",
-    "day": [
-      "sunday",
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday"
-    ],
+    "day": ["sunday", "monday", "tuesday", "wednesday", "thursday"],
     "start": "12:00",
     "end": "16:00"
   },
   {
     "id": "recqETAlg07ow1MdW",
-    "day": [
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "sunday"
-    ],
+    "day": ["monday", "tuesday", "wednesday", "thursday", "sunday"],
     "start": "16:00",
     "end": "23:30"
   },
   {
     "id": "recA42k6lnuz9sD2K",
-    "day": [
-      "friday",
-      "saturday"
-    ],
+    "day": ["friday", "saturday"],
     "start": "12:00",
     "end": "23:30"
   },
   {
     "id": "recqlxAOxzsSj494Q",
-    "day": [
-      "sunday",
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday"
-    ],
+    "day": ["sunday", "monday", "tuesday", "wednesday", "thursday"],
     "start": "08:00",
     "end": "21:00"
   },
   {
     "id": "reccddKAoBxdKdP9J",
-    "day": [
-      "friday"
-    ],
+    "day": ["friday"],
     "start": "08:00",
     "end": "14:00"
   },
   {
     "id": "recAGERuhNI8tYyRH",
-    "day": [
-      "sunday",
-      "monday",
-      "wednesday",
-      "tuesday",
-      "thursday"
-    ],
+    "day": ["sunday", "monday", "wednesday", "tuesday", "thursday"],
     "start": "17:00",
     "end": "23:30"
   },
   {
     "id": "recSgRIA26QB5eon8",
-    "day": [
-      "friday"
-    ],
+    "day": ["friday"],
     "start": "12:00",
     "end": "23:30"
   },
   {
     "id": "recko2I0RM1NDFGYW",
-    "day": [
-      "sunday",
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday"
-    ],
+    "day": ["sunday", "monday", "tuesday", "wednesday", "thursday"],
     "start": "20:00",
     "end": "23:30"
   },
   {
     "id": "recl1w0UAVmGVU0B7",
-    "day": [
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "sunday"
-    ],
+    "day": ["monday", "tuesday", "wednesday", "thursday", "sunday"],
     "start": "17:00",
     "end": "20:00"
   },
