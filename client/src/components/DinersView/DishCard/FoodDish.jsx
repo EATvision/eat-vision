@@ -6,6 +6,7 @@ import {
   CardHeader,
   CardMedia,
   Divider,
+  Grow,
   Paper,
   Typography,
   useTheme,
@@ -51,202 +52,204 @@ export default function FoodDish({ data }) {
       }
 
   return (
-    <Paper
-      elevation={5}
-      sx={{
-        width: '100%',
-        maxWidth: 750,
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        position: 'relative',
-        marginBottom: theme.spacing(2),
-        flex: 1,
-      }}
-    >
-      <Card
+    <Grow in>
+      <Paper
+        elevation={5}
         sx={{
           width: '100%',
-          opacity: data.isMainDishFilteredOut ? 0.2 : 1,
-          pointerEvents: data.isMainDishFilteredOut ? 'none' : 'all',
+          maxWidth: 750,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          position: 'relative',
+          marginBottom: theme.spacing(2),
+          flex: 1,
         }}
-        elevation={0}
       >
-        <Box>
-          <CardHeader
-            sx={{
-              textAlign: 'initial',
-              flex: 1,
-              alignItems: 'flex-start',
-              paddingBottom: 0,
-            }}
-            title={
+        <Card
+          sx={{
+            width: '100%',
+            opacity: data.isMainDishFilteredOut ? 0.2 : 1,
+            pointerEvents: data.isMainDishFilteredOut ? 'none' : 'all',
+          }}
+          elevation={0}
+        >
+          <Box>
+            <CardHeader
+              sx={{
+                textAlign: 'initial',
+                flex: 1,
+                alignItems: 'flex-start',
+                paddingBottom: 0,
+              }}
+              title={
+                <Box
+                  sx={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                  }}
+                >
+                  <Typography variant="h6">{data.name}</Typography>
+
+                  {data.price && (
+                    <Typography
+                      variant="h6"
+                      sx={{
+                        marginLeft: theme.spacing(1),
+                      }}
+                    >
+                      {`${data.price}${kitchen?.currency}`}
+                    </Typography>
+                  )}
+                </Box>
+              }
+            />
+
+            <Box sx={{ display: 'flex' }}>
+              <Box
+                sx={{
+                  flex: 1,
+                  textAlign: 'start',
+                  padding: theme.spacing(2),
+                  paddingTop: 0,
+                }}
+              >
+                <ClampLines
+                  text={data.description || ''}
+                  id={data.id}
+                  lines={10}
+                  ellipsis="..."
+                  moreText="Expand"
+                  lessText="Collapse"
+                  className="custom-class"
+                  innerElement="p"
+                />
+              </Box>
               <Box
                 sx={{
                   display: 'flex',
-                  justifyContent: 'space-between',
+                  flexDirection: 'column',
+                  alignItems: 'flex-end',
                 }}
               >
-                <Typography variant="h6">{data.name}</Typography>
-
-                {data.price && (
-                  <Typography
-                    variant="h6"
+                {data?.image?.url && (
+                  <CardMedia
+                    component="img"
                     sx={{
-                      marginLeft: theme.spacing(1),
+                      width: 110,
+                      height: 110,
                     }}
-                  >
-                    {`${data.price}${kitchen?.currency}`}
-                  </Typography>
+                    image={data?.image?.url}
+                    alt=""
+                  />
+                )}
+                {dishExcludableComponentsFilteredOut?.length > 0 && (
+                  <AskForChangesBtn
+                    dishExcludableComponentsFilteredOut={
+                      dishExcludableComponentsFilteredOut
+                    }
+                  />
                 )}
               </Box>
-            }
-          />
-
-          <Box sx={{ display: 'flex' }}>
-            <Box
-              sx={{
-                flex: 1,
-                textAlign: 'start',
-                padding: theme.spacing(2),
-                paddingTop: 0,
-              }}
-            >
-              <ClampLines
-                text={data.description || ''}
-                id={data.id}
-                lines={10}
-                ellipsis="..."
-                moreText="Expand"
-                lessText="Collapse"
-                className="custom-class"
-                innerElement="p"
-              />
-            </Box>
-            <Box
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'flex-end',
-              }}
-            >
-              {data?.image?.url && (
-                <CardMedia
-                  component="img"
-                  sx={{
-                    width: 110,
-                    height: 110,
-                  }}
-                  image={data?.image?.url}
-                  alt=""
-                />
-              )}
-              {dishExcludableComponentsFilteredOut?.length > 0 && (
-                <AskForChangesBtn
-                  dishExcludableComponentsFilteredOut={
-                    dishExcludableComponentsFilteredOut
-                  }
-                />
-              )}
             </Box>
           </Box>
-        </Box>
 
-        <Box sx={{ marginTop: theme.spacing(1) }}>
-          {data.recipe?.choice?.length > 0 && (
-            <>
-              <Typography
-                sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
-              >
-                {t('choice')}:
-              </Typography>
-              {data.recipe?.choice.map((choices, index) => (
-                <DishRecipeTypeChips
-                  key={index}
-                  data={choices}
-                  selectedComponents={selectedComponents.choice}
-                  onSelect={handleSelect('choice', { exclusive: true })}
-                />
-              ))}
-            </>
-          )}
-
-          {data.recipe?.sideDish?.length > 0 && (
-            <>
-              <Typography
-                sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
-              >
-                {t('sidedish')}:
-              </Typography>
-              <DishRecipeTypeChips
-                data={data.recipe.sideDish}
-                selectedComponents={selectedComponents.sideDish}
-                onSelect={handleSelect('sideDish', { exclusive: false })}
-              />
-            </>
-          )}
-
-          {data.recipe?.addableComponents?.length > 0 && (
-            <>
-              <Typography
-                sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
-              >
-                {t('addableComponents')}:
-              </Typography>
-              <DishRecipeTypeChips
-                data={data.recipe.addableComponents}
-                selectedComponents={selectedComponents.addableComponents}
-                onSelect={handleSelect('addableComponents', {
-                  exclusive: false,
-                })}
-              />
-            </>
-          )}
-        </Box>
-
-        {data?.sizes?.length > 0 && (
-          <Box
-            sx={{
-              backgroundColor: theme.palette.grey[200],
-              padding: theme.spacing(1),
-              alignItems: 'center',
-              marginBottom: theme.spacing(1),
-              display: 'flex',
-            }}
-          >
-            {data.sizes.map((size) => (
-              <Box
-                key={size.type}
-                sx={{
-                  borderRadius: 50,
-                  margin: `0 ${theme.spacing(1)}`,
-                  display: 'flex',
-                  backgroundColor: 'white',
-                  padding: '4px 8px',
-                }}
-              >
-                <Typography sx={{ margin: 0 }}>
-                  {t(`size_type_${size.type}`)}
+          <Box sx={{ marginTop: theme.spacing(1) }}>
+            {data.recipe?.choice?.length > 0 && (
+              <>
+                <Typography
+                  sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
+                >
+                  {t('choice')}:
                 </Typography>
+                {data.recipe?.choice.map((choices, index) => (
+                  <DishRecipeTypeChips
+                    key={index}
+                    data={choices}
+                    selectedComponents={selectedComponents.choice}
+                    onSelect={handleSelect('choice', { exclusive: true })}
+                  />
+                ))}
+              </>
+            )}
 
-                <Divider
-                  orientation="vertical"
-                  variant="middle"
-                  flexItem
-                  sx={{ margin: `0 ${theme.spacing(1)}` }}
+            {data.recipe?.sideDish?.length > 0 && (
+              <>
+                <Typography
+                  sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
+                >
+                  {t('sidedish')}:
+                </Typography>
+                <DishRecipeTypeChips
+                  data={data.recipe.sideDish}
+                  selectedComponents={selectedComponents.sideDish}
+                  onSelect={handleSelect('sideDish', { exclusive: false })}
                 />
+              </>
+            )}
 
-                <Typography sx={{ margin: 0 }}>{`${kitchen.currency}${
-                  Number(size.price) || Number(data.price)
-                }`}</Typography>
-              </Box>
-            ))}
+            {data.recipe?.addableComponents?.length > 0 && (
+              <>
+                <Typography
+                  sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
+                >
+                  {t('addableComponents')}:
+                </Typography>
+                <DishRecipeTypeChips
+                  data={data.recipe.addableComponents}
+                  selectedComponents={selectedComponents.addableComponents}
+                  onSelect={handleSelect('addableComponents', {
+                    exclusive: false,
+                  })}
+                />
+              </>
+            )}
           </Box>
-        )}
 
-        <DishExtraInfo data={data} />
-      </Card>
-    </Paper>
+          {data?.sizes?.length > 0 && (
+            <Box
+              sx={{
+                backgroundColor: theme.palette.grey[200],
+                padding: theme.spacing(1),
+                alignItems: 'center',
+                marginBottom: theme.spacing(1),
+                display: 'flex',
+              }}
+            >
+              {data.sizes.map((size) => (
+                <Box
+                  key={size.type}
+                  sx={{
+                    borderRadius: 50,
+                    margin: `0 ${theme.spacing(1)}`,
+                    display: 'flex',
+                    backgroundColor: 'white',
+                    padding: '4px 8px',
+                  }}
+                >
+                  <Typography sx={{ margin: 0 }}>
+                    {t(`size_type_${size.type}`)}
+                  </Typography>
+
+                  <Divider
+                    orientation="vertical"
+                    variant="middle"
+                    flexItem
+                    sx={{ margin: `0 ${theme.spacing(1)}` }}
+                  />
+
+                  <Typography sx={{ margin: 0 }}>{`${kitchen.currency}${
+                    Number(size.price) || Number(data.price)
+                  }`}</Typography>
+                </Box>
+              ))}
+            </Box>
+          )}
+
+          <DishExtraInfo data={data} />
+        </Card>
+      </Paper>
+    </Grow>
   )
 }
