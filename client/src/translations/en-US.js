@@ -166,5 +166,9 @@ export default {
   you_can_drag_and_drop_categories_to_reorder_them: 'you can drag and drop categories to reorder them',
   add_category: 'add category',
   delete_menu: 'delete menu',
-  are_you_sure_you_want_to_delete_this_menu: 'are you sure you want to delete this menu'
+  are_you_sure_you_want_to_delete_this_menu: 'are you sure you want to delete this menu',
+  personal_preferences: 'personal menu',
+  you_dont_have_any_preferences: 'you haven\'t set any preferences',
+  would_you_like_to_personalize_the_menu: 'would you like to personalize the menu?',
+  personalize: 'personalize',
 }

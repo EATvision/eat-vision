@@ -35,6 +35,8 @@ function useProvideDinerUser() {
   const [deafultToken, setDefaultToken] = useLocalStorage('token')
 
   const [user, setUser] = React.useState({ filters: defaultFilters })
+  const [areFiltersOn, setAreFiltersOn] = React.useState(true)
+
   const [token, setToken] = React.useState(deafultToken)
 
   React.useEffect(() => {
@@ -107,5 +109,7 @@ function useProvideDinerUser() {
     signout,
     setFilters,
     saveDiner,
+    areFiltersOn,
+    setAreFiltersOn,
   }
 }

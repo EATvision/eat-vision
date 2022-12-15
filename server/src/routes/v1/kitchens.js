@@ -58,9 +58,10 @@ router.post('/:kitchenId/menus/:menuId/dishes/search', (req, res) => {
   const relevantMenu = menus.find(menu => menu.id === menuId)
   const relevantDishes = dishes.filter(dish => _intersection(relevantMenu?.categories, dish?.categories)?.length > 0)
 
-  const modifiedDishes = getModifiedDishes(relevantDishes, filters, { dishesById, ingredientsById })
+  const modifiedFilteredDishes = getModifiedDishes(relevantDishes, filters, { dishesById, ingredientsById })
+  const modifiedTotalDishes = getModifiedDishes(relevantDishes, [], { dishesById, ingredientsById })
 
-  res.send({ totalDishes: modifiedDishes, filteredDishes: modifiedDishes })
+  res.send({ totalDishes: modifiedTotalDishes, filteredDishes: modifiedFilteredDishes })
 })
 
 module.exports = router
