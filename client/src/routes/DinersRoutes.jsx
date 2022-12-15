@@ -22,10 +22,7 @@ const DinersRoutes = () => {
       <Route index path="kitchens" element={<KitchensPage />} />
       <Route path="kitchens/:kitchenId" element={<KitchenPage />}>
         <Route path="menus" element={<MenusPage />} />
-        <Route
-          path="menus/:menuId"
-          element={<MenuPage setDishes={setDishes} />}
-        >
+        <Route path="menus/:menuId" element={<MenuPage />}>
           <Route index element={<GreetingPage />} />
           <Route
             path="filters/:step"

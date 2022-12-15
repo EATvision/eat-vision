@@ -10,27 +10,32 @@ import DealBtn from './DealBtn'
 import Header from './Header'
 import Footer from './Footer'
 import { useDinerUser } from 'contexts/diner'
+import { postSearchDishes } from 'api/dishes'
 
-function DishesPage({ dishes }) {
+function DishesPage({ dishes, setDishes }) {
   const theme = useTheme()
   const { kitchenId, menuId } = useParams()
   const { t } = useTranslation()
   const dinerUser = useDinerUser()
-
-  const [showFilteredOutDishes] = React.useState(false)
+  const [isLoadingDishes, setIsLoadingDishes] = React.useState(true)
 
   const { categories, isLoading } = useKitchenCategoriesByMenu(
     kitchenId,
     menuId
   )
 
-  // const handleClickDone = () => {
-  //   if (kitchenId && menuId) {
-  //     navigate(`/diners/kitchens/${kitchenId}/menus/${menuId}/myorder`)
-  //   } else {
-  //     navigate(-1)
-  //   }
-  // }
+  React.useEffect(() => {
+    const getRelevantDishes = async () => {
+      setIsLoadingDishes(true)
+      const {
+        totalDishes: updatedTotalDishes,
+        filteredDishes: updatedFilteredDishes,
+      } = await postSearchDishes(dinerUser.user.filters, { kitchenId, menuId })
+      setDishes({ total: updatedTotalDishes, filtered: updatedFilteredDishes })
+      setIsLoadingDishes(false)
+    }
+    getRelevantDishes()
+  }, [dinerUser.user.filters, kitchenId, menuId, setDishes])
 
   const defaultCategories = React.useMemo(
     () =>
@@ -54,8 +59,7 @@ function DishesPage({ dishes }) {
       categories
         ? dishes[dinerUser.areFiltersOn ? 'filtered' : 'total'].reduce(
           (result, d) => {
-            if (!showFilteredOutDishes && d.isMainDishFilteredOut)
-              return result
+            if (d.isMainDishFilteredOut) return result
             let updatedResult = { ...result }
             d?.categories?.forEach((cId) => {
               updatedResult = {
@@ -75,16 +79,10 @@ function DishesPage({ dishes }) {
           defaultCategories
         )
         : {},
-    [
-      categories,
-      dishes,
-      dinerUser.areFiltersOn,
-      defaultCategories,
-      showFilteredOutDishes,
-    ]
+    [categories, dishes, dinerUser.areFiltersOn, defaultCategories]
   )
 
-  if (isLoading) return <div>{t('loading')}</div>
+  if (isLoading || isLoadingDishes) return <div>{t('loading')}</div>
 
   return (
     <Box
