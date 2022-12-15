@@ -61,6 +61,7 @@ function FoodRestrictionsStep({ onNext, onBack }) {
           textAlign: 'start',
           marginBottom: 'auto',
           padding: theme.spacing(2),
+          paddingBottom: '100px',
         }}
       >
         <RestrictionFilter
@@ -187,7 +188,7 @@ function RestrictionFilter({ filters, title, type, onClick }) {
                 key={c.id}
                 size="small"
                 label={getComponentLabel(c)}
-                sx={{ marginRight: theme.spacing(1) }}
+                sx={{ marginRight: '2px', marginBottom: '2px' }}
               />
             ))}
           </Box>

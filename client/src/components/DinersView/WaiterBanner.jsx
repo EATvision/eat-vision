@@ -15,19 +15,16 @@ function WaiterBanner({ title, subtitle }) {
       sx={{
         display: 'flex',
         alignItems: 'start',
-        justifyContent: 'center',
         position: 'relative',
         padding: `${theme.spacing(1)} ${theme.spacing(2)}`,
         backgroundColor: '#E9E9E9',
-        height: 100,
+        minHeight: 100,
         zIndex: 1000,
       }}
     >
       <Box
         sx={{
-          position: 'absolute',
-          top: theme.spacing(1),
-          left: theme.spacing(2),
+          position: 'relative',
         }}
       >
         <Box
@@ -37,6 +34,7 @@ function WaiterBanner({ title, subtitle }) {
             borderRadius: 50,
             backgroundColor: theme.palette.secondary.main,
             position: 'absolute',
+            top: 0,
             [isRTL ? 'left' : 'right']: 0,
           }}
         ></Box>
@@ -52,10 +50,8 @@ function WaiterBanner({ title, subtitle }) {
 
       <Box
         sx={{
-          margin: 'auto 0px',
-          position: 'absolute',
-          top: `calc(15px + ${theme.spacing(1)})`,
-          left: `calc(72px + ${theme.spacing(2)})`,
+          position: 'relative',
+          top: `calc(8px + ${theme.spacing(1)})`,
         }}
       >
         <Grow direction="up" in key={title}>
