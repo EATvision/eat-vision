@@ -50,7 +50,7 @@ const getComponentLimitations = (component, filters, ingredientsById) => {
 
     const combinedChildIngredientsFoodGroups = uniq(
       allChildIngredients.reduce((acc, ing) => {
-        return [...acc, ...(ingredientsById?.[ing]?.allergens || [])]
+        return [...acc, ...(ingredientsById?.[ing]?.foodGroups || [])]
       }, [])
     )
 
