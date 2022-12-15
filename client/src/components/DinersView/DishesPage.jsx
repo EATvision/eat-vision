@@ -103,7 +103,7 @@ function DishesPage({ dishes }) {
       <Box sx={{ overflow: 'auto', paddingBottom: '100px', flex: 1 }}>
         {orderedCategories
           ?.filter((c) => orderedDishesByCategoryId?.[c.id]?.length > 0)
-          .map((category) => (
+          ?.map((category) => (
             <div
               className="mx-auto flex flex-col justify-center items-start gap-2"
               key={category.id}

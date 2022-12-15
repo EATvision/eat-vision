@@ -10,7 +10,7 @@ function AllergensInfo({ data }) {
   return (
     <>
       {allergens &&
-        data.dishAllergens.map((allergenId) => {
+        data.dishAllergens?.map((allergenId) => {
           const allergenData = allergens.find((a) => a.id === allergenId)
           return (
             <Box key={allergenId}>

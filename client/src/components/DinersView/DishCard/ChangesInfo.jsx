@@ -53,7 +53,7 @@ function ChangesInfo({ data }) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {Object.entries(ingredientsSummary).map((row) => (
+          {Object.entries(ingredientsSummary)?.map((row) => (
             <TableRow
               key={row[0]}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}

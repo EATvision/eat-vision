@@ -88,7 +88,7 @@ function AskForChangesBtn({ dishExcludableComponentsFilteredOut }) {
                 {t('my_reccomendations_for_you')}
               </Typography>
               <List dense disablePadding sx={{ fontSize: 16 }}>
-                {dishExcludableComponentsFilteredOut.map((component) => (
+                {dishExcludableComponentsFilteredOut?.map((component) => (
                   <ListItem
                     key={component.id}
                     // disableGutters

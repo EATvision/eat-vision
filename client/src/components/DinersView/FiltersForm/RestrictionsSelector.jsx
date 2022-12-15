@@ -155,7 +155,7 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
         </Typography>
       ) : (
         <List sx={{ flex: 1, overflow: 'auto', marginBottom: '50px' }}>
-          {options.map((option) => (
+          {options?.map((option) => (
             <OptionListItem
               key={option.id}
               data={option}

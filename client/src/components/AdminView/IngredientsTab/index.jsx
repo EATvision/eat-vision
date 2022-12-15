@@ -42,7 +42,7 @@ const ChipChooser = ({
           },
         }}
       >
-        {entities.map((entity) => (
+        {entities?.map((entity) => (
           <Chip
             key={entity._id}
             label={getEntitiyLabel(entity)}

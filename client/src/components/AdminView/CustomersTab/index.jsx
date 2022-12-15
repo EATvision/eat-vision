@@ -61,7 +61,7 @@ const KitchensDisplay = ({
           },
         }}
       >
-        {kitchens.map((kitchen) => (
+        {kitchens?.map((kitchen) => (
           <Chip
             key={kitchen._id}
             label={kitchen.name}
@@ -96,10 +96,10 @@ const KitchenSelect = ({ chosenKitchen, customer = {}, setChosenKitchen }) => {
   const { kitchens = [], isLoading: isKitchensLoading } = useKitchens()
 
   const { kitchens: customerKitchen = [] } = customer
-  const customerKitchenIds = customerKitchen.map((kitchen) => kitchen._id)
+  const customerKitchenIds = customerKitchen?.map((kitchen) => kitchen._id)
 
-  const filteredKitchens = kitchens.filter(
-    (kitchen) => !customerKitchenIds.includes(kitchen._id)
+  const filteredKitchens = kitchens?.filter(
+    (kitchen) => !customerKitchenIds?.includes(kitchen._id)
   )
 
   if (isKitchensLoading) return 'loading kitchens...'
@@ -110,7 +110,7 @@ const KitchenSelect = ({ chosenKitchen, customer = {}, setChosenKitchen }) => {
       label="Kitchen"
       onChange={(event) => setChosenKitchen(event.target.value)}
     >
-      {filteredKitchens.map((kitchen) => (
+      {filteredKitchens?.map((kitchen) => (
         <MenuItem key={kitchen._id} value={kitchen._id}>
           {kitchen.name}
         </MenuItem>

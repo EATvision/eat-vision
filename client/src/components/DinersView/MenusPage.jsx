@@ -78,7 +78,7 @@ const MenusList = ({ menus }) => {
 
   return (
     <Box sx={{ maxWidth: 300, margin: '0 auto', width: '100%' }}>
-      {menus.map((menu) => (
+      {menus?.map((menu) => (
         <Button
           key={menu.id}
           fullWidth
