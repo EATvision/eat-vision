@@ -20,7 +20,7 @@ function useProvideDinerOrder() {
 
   const totalSum = React.useMemo(
     () =>
-      order.reduce((acc, dish) => {
+      order?.reduce((acc, dish) => {
         return acc + Number(dish.price || 0)
       }, 0),
     [order]

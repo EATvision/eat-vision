@@ -144,8 +144,8 @@ export default {
   what_would_you_like: 'מה נשמע לכם טוב?',
   you_can_tag_all_that_seems_to_your_liking: 'אנא סמנו מנות שמדברות אליכם',
   my_order_title_no_choices: 'אין מנות שעניינו אותך?',
-  my_order_title: 'הזמנה דרכי בקרוב!',
-  my_order_subtitle: '(עד אז, קראו למלצר והזמינו דרכו את בחירתכם...)',
+  my_order_title: 'ההזמנה דרכי בקרוב!',
+  my_order_subtitle: '(קראו למלצר והזמינו דרכו את בחירתכם...)',
   new_dish: 'מנה חדשה',
   image_URL: 'כתובת התמונה',
   categories: 'קטגוריות',
@@ -167,4 +167,8 @@ export default {
   add_category: 'הוספת קטגוריה',
   delete_menu: 'מחיקת תפריט',
   are_you_sure_you_want_to_delete_this_menu: '\\ה בטוח\\ה שאת\\ה רוצה למחוק את התפריטהאם את',
+  personal_preferences: 'מותאם אישית',
+  you_dont_have_any_preferences: 'אפשר להתאים לך אישית את התפריט?',
+  would_you_like_to_personalize_the_menu: 'זה לוקח ממש כמה שניות',
+  personalize: 'להתאמה אישית'
 }
