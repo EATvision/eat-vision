@@ -13,6 +13,7 @@ export default function FixedBottomConrainer({ children }) {
         display: 'flex',
         flexDirection: 'row',
         padding: theme.spacing(2),
+        marginTop: 'auto',
       }}
     >
       {children}

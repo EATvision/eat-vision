@@ -12,6 +12,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff9f2;
+  /* https://www.magicpattern.design/tools/css-backgrounds */
+  /* opacity: 1;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(45deg, #fcfcfc 0, #fcfcfc 1px, #fff9f2 0, #fff9f2 50%); */
 }
 
 code {

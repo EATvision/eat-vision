@@ -120,7 +120,6 @@ function Login({ onDone, optOutLoginOption, onBack }) {
         display: 'flex',
         width: '100%',
         marginTop: theme.spacing(5),
-        padding: theme.spacing(2),
       }}
     >
       <Box

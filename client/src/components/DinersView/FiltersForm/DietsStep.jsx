@@ -62,7 +62,7 @@ function DietsSelector({ onNext, onBack }) {
           gridTemplateColumns: '1fr',
           gridAutoFlow: 'row',
           gap: `0 ${theme.spacing(1)}`,
-          marginBottom: theme.spacing(10),
+          marginBottom: '70px',
           overflow: 'auto',
           padding: theme.spacing(2),
           paddingTop: 0,
