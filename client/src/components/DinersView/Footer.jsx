@@ -96,6 +96,10 @@ function MyOrderWrapper({ children }) {
       color="error"
       overlap="circular"
       invisible={numberOfDishesInMyOrder === 0}
+      anchorOrigin={{
+        vertical: 'top',
+        horizontal: 'left',
+      }}
       badgeContent={numberOfDishesInMyOrder}
     >
       {children({ onClick: handleClickMyOrder, disabled })}

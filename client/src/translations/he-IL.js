@@ -167,4 +167,8 @@ export default {
   add_category: 'הוספת קטגוריה',
   delete_menu: 'מחיקת תפריט',
   are_you_sure_you_want_to_delete_this_menu: '\\ה בטוח\\ה שאת\\ה רוצה למחוק את התפריטהאם את',
+  personal_preferences: 'מותאם אישית',
+  you_dont_have_any_preferences: 'אפשר להתאים לך אישית את התפריט?',
+  would_you_like_to_personalize_the_menu: 'זה לוקח ממש כמה שניות',
+  personalize: 'להתאמה אישית'
 }

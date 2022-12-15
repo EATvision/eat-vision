@@ -34,6 +34,10 @@ export default function UserFiltersBtn() {
         color="primary"
         invisible={numberOfFiltersOn === 0}
         badgeContent={numberOfFiltersOn}
+        anchorOrigin={{
+          vertical: 'top',
+          horizontal: 'left',
+        }}
         sx={{
           display: 'flex',
           flexDirection: 'column',
