@@ -6098,7 +6098,7 @@
     "dishType": "drink",
     "sizes": [
       { "type": "glass", "price": 0 },
-      { "type": "bottle", "price": 169 }
+      { "type": "bottle", "price": 171 }
     ],
     "recipe": {
       "mandatory": [{ "type": "ingredient", "id": "recJEHEMNZwttME56" }],
@@ -6152,7 +6152,7 @@
   {
     "id": "recqO53nSt9nrQkVI",
     "name": "בריזר אבטיח",
-    "categories": ["recRo9VXPFhzJCSF9"],
+    "categories": ["rect4Kiwvisc94AWM", "recQSWJ6qGJUSZ3kK"],
     "price": 29,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
@@ -6192,12 +6192,9 @@
     "price": 98,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
-    "sizes": [
-      { "type": "bottle", "price": 0 },
-      { "type": "bottle", "price": 98 }
-    ],
+    "sizes": [{ "type": "bottle", "price": 0 }],
     "recipe": {
-      "mandatory": [{ "type": "ingredient", "id": "recEMzQ18w7oa4SJZ" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6234,10 +6231,7 @@
     "price": 98,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
-    "sizes": [
-      { "type": "bottle", "price": 0 },
-      { "type": "bottle", "price": 98 }
-    ],
+    "sizes": [{ "type": "bottle", "price": 0 }],
     "recipe": {
       "mandatory": [{ "type": "ingredient", "id": "recH0bKdSkn3zTu9h" }],
       "excludable": [],
@@ -6251,14 +6245,28 @@
   {
     "id": "recQbFuiKEieBpuMe",
     "name": "מרלו ברקן\n\"ספיישל ריזרב\"",
-    "categories": [
-      "reccKFL0KLPTD1jo2",
-      "recSaYm2kSUrkvw7b",
-      "recZvEB73pCX5CLtB",
-      "recke8BNWZXhDFYSn",
-      "recyhtVUgrz6AhKKc",
-      "recbN4Qpd9spzFO1P"
+    "categories": ["recZvEB73pCX5CLtB", "recyhtVUgrz6AhKKc"],
+    "price": 39,
+    "kitchenId": "recCtQEnXUUqDHBfF",
+    "dishType": "drink",
+    "sizes": [
+      { "type": "glass", "price": 0 },
+      { "type": "bottle", "price": 133 }
     ],
+    "recipe": {
+      "mandatory": [{ "type": "ingredient", "id": "recGJ3ivdQTnU86Sk" }],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "rec5b0qGFcz8WgaJk",
+    "name": "שרדונה ברקן\n\"ספיישל ריזרב\"",
+    "categories": ["recSaYm2kSUrkvw7b", "recke8BNWZXhDFYSn"],
     "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
@@ -6460,10 +6468,7 @@
     "price": 59,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
-    "sizes": [
-      { "type": "shot", "price": 0 },
-      { "type": "bottle", "price": 710 }
-    ],
+    "sizes": [{ "type": "shot", "price": 0 }],
     "recipe": {
       "mandatory": [{ "type": "ingredient", "id": "recuEUzUFoiqMSGav" }],
       "excludable": [],
@@ -6618,7 +6623,7 @@
     "id": "rec7uTJ1kUAvUQIVp",
     "name": " XV שיבאס ",
     "categories": ["recBoXPzX6TwCnY6z"],
-    "price": 51,
+    "price": 61,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
@@ -6636,7 +6641,7 @@
     "id": "reczfPEZOT11qY7Up",
     "name": "בלו נאן",
     "categories": ["recSaYm2kSUrkvw7b", "recke8BNWZXhDFYSn"],
-    "price": 38,
+    "price": 39,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [
@@ -6657,7 +6662,7 @@
     "id": "recfT7krjmPe3WG3H",
     "name": "בלו נאן כשר",
     "categories": ["recSaYm2kSUrkvw7b", "recke8BNWZXhDFYSn"],
-    "price": 39,
+    "price": 41,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [
