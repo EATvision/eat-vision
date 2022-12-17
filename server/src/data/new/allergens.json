@@ -3,72 +3,54 @@
     "id": "recLSb7MoxiSncJ2G",
     "name": "treenuts",
     "translation_heb": "אגוזים",
-    "groups": [
-      "recHJLhfoFpQuTVOI"
-    ]
+    "groups": ["recHJLhfoFpQuTVOI"]
   },
   {
     "id": "recFMhH3QGPDTaicW",
     "name": "fish",
     "translation_heb": "דגים",
-    "groups": [
-      "recv4O8R7YyTwXVVU"
-    ]
+    "groups": ["recv4O8R7YyTwXVVU"]
   },
   {
     "id": "recSjxS7kF3zNmNl4",
     "name": "eggs",
     "translation_heb": "ביצים",
-    "groups": [
-      "recSE80ZWX568HCiz"
-    ]
+    "groups": ["recSE80ZWX568HCiz"]
   },
   {
     "id": "recEndQX5yczWnYqx",
     "name": "sesame",
     "translation_heb": "שומשום",
-    "groups": [
-      "recoAJGVrl4Vikc5m"
-    ]
+    "groups": ["recoAJGVrl4Vikc5m"]
   },
   {
     "id": "recbY4SMdaIkgMLeE",
     "name": "shellfish",
     "translation_heb": "רכיכות",
-    "groups": [
-      "recAjiOEZMV6ObquU"
-    ]
+    "groups": ["recAjiOEZMV6ObquU"]
   },
   {
     "id": "rectckT0JGuvlyS2A",
     "name": "soybean",
     "translation_heb": "פולי סויה",
-    "groups": [
-      "rec8QnlVN3QXu6gEq"
-    ]
+    "groups": ["rec8QnlVN3QXu6gEq"]
   },
   {
     "id": "recL7GEPSz6WqC1zq",
     "name": "wheat",
     "translation_heb": "חיטה",
-    "groups": [
-      "recurt87JNmeE6SzQ"
-    ]
+    "groups": ["recurt87JNmeE6SzQ"]
   },
   {
     "id": "recC6KSg1TNIIFGZe",
     "name": "peanuts",
     "translation_heb": "בוטנים",
-    "groups": [
-      "recsW6wCspoZ2jVHa"
-    ]
+    "groups": ["recsW6wCspoZ2jVHa"]
   },
   {
     "id": "recJFOmc1EzbFTdP8",
     "name": "milk",
     "translation_heb": "חלב ",
-    "groups": [
-      "recYgJLdDlWsTxVGe"
-    ]
+    "groups": ["recYgJLdDlWsTxVGe"]
   }
 ]

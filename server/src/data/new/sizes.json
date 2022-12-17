@@ -99,8 +99,7 @@
     "id": "recnYZwc0K0RKumw6",
     "smallest_size_name": "shot",
     "smallest_price": 0,
-    "2nd_size_name": "bottle",
-    "2nd_size_price": 710
+    "2nd_size_name": ""
   },
   {
     "id": "recXCAthNS4tsq36T",
@@ -148,8 +147,7 @@
     "id": "recnMqV4MnGP1g54D",
     "smallest_size_name": "bottle",
     "smallest_price": 0,
-    "2nd_size_name": "bottle",
-    "2nd_size_price": 98
+    "2nd_size_name": ""
   },
   {
     "id": "recRNY31CN1l8a8Ly",
@@ -162,8 +160,7 @@
     "id": "rechmxnG6EBN9Nvsj",
     "smallest_size_name": "bottle",
     "smallest_price": 0,
-    "2nd_size_name": "bottle",
-    "2nd_size_price": 98
+    "2nd_size_name": ""
   },
   {
     "id": "recgqqQ3KsE5WnuZS",
@@ -191,7 +188,7 @@
     "smallest_size_name": "glass",
     "smallest_price": 0,
     "2nd_size_name": "bottle",
-    "2nd_size_price": 169
+    "2nd_size_price": 171
   },
   {
     "id": "recDFcrsWGuZoxv93",
