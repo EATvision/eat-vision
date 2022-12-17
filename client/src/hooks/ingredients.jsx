@@ -1,10 +1,9 @@
 import React from 'react'
 import useSWR from 'swr'
 import _keyBy from 'lodash/keyBy'
-import { useParams } from 'react-router-dom'
 
 import fetcher from 'api/fetcher'
-import { useV1KitchenById } from 'hooks/kitchens'
+import { useLanguage } from 'contexts/language'
 
 export const useV1Ingredients = (q) => {
   const { data, error, ...rest } = useSWR(
@@ -19,10 +18,11 @@ export const useV1Ingredients = (q) => {
   }
 }
 
-export const useV1IngredientsByIds = (ids = []) => {
+export const useV1IngredientsByIds = (ids = [], options) => {
   const { data, error, ...rest } = useSWR(
     `/api/v1/ingredients?ids=${ids.join(',')}`,
-    fetcher
+    fetcher,
+    options
   )
 
   return {
@@ -47,10 +47,11 @@ export const useIngredientById = (id) => {
   }
 }
 
-export const useIngredientsByIds = (ids = []) => {
+export const useIngredientsByIds = (ids = [], options) => {
   const { data, error, ...rest } = useSWR(
     `/api/v2/ingredients?id=${ids.join(',')}`,
-    fetcher
+    fetcher,
+    options
   )
 
   return {
@@ -62,12 +63,10 @@ export const useIngredientsByIds = (ids = []) => {
 }
 
 export const useGetComponentLabel = () => {
-  const { kitchenId } = useParams()
-
-  const { kitchen } = useV1KitchenById(kitchenId)
+  const { language } = useLanguage()
 
   const getComponentLabel = (c) =>
-    (kitchen?.locale === 'he-IL' ? c?.translation_heb : c?.name) || c?.name
+    (language === 'he-IL' ? c?.translation_heb : c?.name) || c?.name
   return getComponentLabel
 }
 

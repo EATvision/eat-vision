@@ -85,7 +85,6 @@ const StyledTreeItem = styled((props) => (
 export default function IngredientsTreeWrapper({ ingredients }) {
   return (
     <TreeView
-      aria-label="customized"
       defaultExpanded={['1']}
       defaultCollapseIcon={<MinusSquare />}
       defaultExpandIcon={<PlusSquare />}

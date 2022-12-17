@@ -6,11 +6,8 @@ import { Typography } from '@mui/material'
 import { useV1Kitchens } from 'hooks/kitchens'
 
 function KitchensPage() {
-  const { i18n, t } = useTranslation()
+  const { t } = useTranslation()
   const { kitchens, isLoading, isError } = useV1Kitchens()
-
-  const handleClickKitchen = (kitchen) => () =>
-    i18n.changeLanguage(kitchen.locale)
 
   if (isLoading) return <div>{t('loading')}</div>
   if (isError) return <div>ERROR</div>
@@ -29,7 +26,6 @@ function KitchensPage() {
                 className="group flex flex-col"
                 to={`${kitchen.id}/menus`}
                 key={kitchen.id}
-                onClick={handleClickKitchen(kitchen)}
               >
                 <div className="w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8  flex-1">
                   <img

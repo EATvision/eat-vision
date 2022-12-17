@@ -1,6 +1,5 @@
 import React from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
 import { AppBar, IconButton, Toolbar, Typography } from '@mui/material'
 import BackIcon from '@mui/icons-material/ArrowBack'
 
@@ -10,7 +9,6 @@ function KitchenHeader() {
   const navigate = useNavigate()
   const location = useLocation()
   const { kitchenId, menuId } = useParams()
-  const { i18n } = useTranslation()
 
   const { kitchen } = useV1KitchenById(kitchenId)
   const { menus } = useKitchenMenusById(kitchenId)
@@ -31,12 +29,6 @@ function KitchenHeader() {
 
     return navigate(-1)
   }
-
-  React.useEffect(() => {
-    if (kitchen) {
-      i18n.changeLanguage(kitchen.locale)
-    }
-  }, [kitchen, i18n])
 
   return (
     <AppBar position="static" color="default">

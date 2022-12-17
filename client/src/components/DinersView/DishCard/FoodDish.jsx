@@ -217,9 +217,9 @@ export default function FoodDish({ data }) {
                 display: 'flex',
               }}
             >
-              {data.sizes.map((size) => (
+              {data.sizes.map((size, index) => (
                 <Box
-                  key={size.type}
+                  key={`${data.id}-${size.type}-${index}`}
                   sx={{
                     borderRadius: 50,
                     margin: `0 ${theme.spacing(1)}`,

@@ -183,7 +183,7 @@ function RestrictionFilter({ filters, title, type, onClick }) {
 
         {componentsList?.length > 0 && (
           <Box sx={{ padding: theme.spacing(1) }}>
-            {componentsList.map((c) => (
+            {componentsList?.map((c) => (
               <Chip
                 key={c.id}
                 size="small"

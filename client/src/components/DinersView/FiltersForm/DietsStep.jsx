@@ -88,7 +88,7 @@ function DietsSelector({ onNext, onBack }) {
             <CheckIcon sx={{ marginLeft: 'auto' }} />
           )}
         </ToggleButton>
-        {diets.map((diet) => (
+        {diets?.map((diet) => (
           <ToggleButton
             key={diet.id}
             value={diet.id}
