@@ -3380,10 +3380,10 @@
         { "type": "ingredient", "id": "recdINQKOqItu2Egq" }
       ],
       "excludable": [
-        { "type": "ingredient", "id": "recqXdm01Ey8kAUWu" },
         { "type": "ingredient", "id": "recP7Yp3fLx8zsLQj" },
         { "type": "ingredient", "id": "rec7IA12t3QqvhYC8" },
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" }
+        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" },
+        { "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }
       ],
       "putaside": [
         { "type": "ingredient", "id": "recqXdm01Ey8kAUWu" },
@@ -4169,7 +4169,11 @@
     "id": "rec3loBD2qXF1GeGN",
     "name": "חלה אסדו",
     "description": "חלה טרייה וחמה עם בשר אסאדו בבישול ארוך טחינה עמבה, סלסלת עגבניות, פלפל חריף ובצל ירוק.",
-    "categories": ["rec9eW8LSa8PrYyDQ", "recbszxblMsGh4bbq"],
+    "categories": [
+      "rec9eW8LSa8PrYyDQ",
+      "recbszxblMsGh4bbq",
+      "recEJVJxb2JZtmk8g"
+    ],
     "image": {
       "id": "attFduqc2LCcP6tB7",
       "width": 190,
@@ -4572,10 +4576,10 @@
         { "type": "ingredient", "id": "recdINQKOqItu2Egq" }
       ],
       "excludable": [
-        { "type": "ingredient", "id": "recqXdm01Ey8kAUWu" },
         { "type": "ingredient", "id": "recP7Yp3fLx8zsLQj" },
         { "type": "ingredient", "id": "rec7IA12t3QqvhYC8" },
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" }
+        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" },
+        { "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }
       ],
       "putaside": [
         { "type": "ingredient", "id": "recqXdm01Ey8kAUWu" },
@@ -5155,7 +5159,11 @@
     "id": "rec3g0s8kj1GiHtTj",
     "name": "חלה שניצל",
     "description": "חלה טרייה וחמה עם שניצל קריספי, מטבוחה\nבבישול של 6 שעות, חציל מטוגן קריספי ובצל ירוק",
-    "categories": ["recbszxblMsGh4bbq", "rec9eW8LSa8PrYyDQ"],
+    "categories": [
+      "recbszxblMsGh4bbq",
+      "rec9eW8LSa8PrYyDQ",
+      "recEJVJxb2JZtmk8g"
+    ],
     "image": {
       "id": "att2bMS6CQUgpwzMc",
       "width": 190,
@@ -13814,8 +13822,11 @@
     "dishType": "food",
     "sizes": [],
     "recipe": {
-      "mandatory": [],
-      "excludable": [],
+      "mandatory": [{ "type": "ingredient", "id": "recT5zWE8WnXzNB0M" }],
+      "excludable": [
+        { "type": "ingredient", "id": "rechw2XjIz7JHZRjI" },
+        { "type": "ingredient", "id": "rec5iz7wE8n3SbeoG" }
+      ],
       "putaside": [],
       "choice": [],
       "sideDish": [],
