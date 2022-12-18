@@ -35,7 +35,7 @@ router.get('/:kitchenId/menus', (req, res) => {
   const kitchenMenus = menus.filter(menu => menu?.kitchens?.includes(kitchenId))
   const kitchenMenusFullData = kitchenMenus.map(menu => ({
     ...menu,
-    workingHours: menu.workingHours.map(workingHourId => (workingHoursById[workingHourId]))
+    workingHours: menu?.workingHours?.map(workingHourId => (workingHoursById[workingHourId])) || []
   }))
 
   res.send(kitchenMenusFullData)

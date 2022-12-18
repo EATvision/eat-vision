@@ -32,7 +32,7 @@ function MenuOptionsBanner() {
           color: theme.palette.common.white,
         }}
       >
-        {menus[0].name.toLocaleUpperCase()}
+        {menus?.[0]?.name?.toLocaleUpperCase()}
       </Typography>
     )
   }

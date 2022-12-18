@@ -1,20 +1,28 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Typography } from '@mui/material'
+import { Box, Typography, useTheme } from '@mui/material'
 
 import { useV1Kitchens } from 'hooks/kitchens'
 
 function KitchensPage() {
   const { t } = useTranslation()
+  const theme = useTheme()
   const { kitchens, isLoading, isError } = useV1Kitchens()
 
   if (isLoading) return <div>{t('loading')}</div>
   if (isError) return <div>ERROR</div>
 
   return (
-    <main>
-      <Typography variant="h2">{t('kitchens_list')}</Typography>
+    <Box
+      sx={{
+        height: '100vh',
+        width: '100vw',
+        overflow: 'auto',
+        padding: `0 ${theme.spacing(1)}`,
+      }}
+    >
+      <Typography variant="h3">{t('kitchens_list')}</Typography>
 
       <div className="bg-white">
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -43,7 +51,7 @@ function KitchensPage() {
           </div>
         </div>
       </div>
-    </main>
+    </Box>
   )
 }
 

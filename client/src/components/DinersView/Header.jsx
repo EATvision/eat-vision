@@ -24,13 +24,17 @@ function Header() {
         backgroundColor: theme.palette.primary.main,
       }}
     >
-      <Box sx={{ height: 50, margin: 'auto' }}>
-        <img
-          className="w-full h-full object-center object-fit group-hover:opacity-75"
-          src={kitchen?.image?.[0]?.url}
-          alt=""
-        />
-      </Box>
+      <Box
+        sx={{
+          height: 50,
+          width: 50,
+          backgroundSize: 'contain',
+          backgroundImage: `url(${kitchen?.image?.[0]?.url})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          margin: 'auto',
+        }}
+      ></Box>
 
       <Box sx={{ flexGrow: 1 }} />
 
@@ -48,10 +52,16 @@ function Header() {
         >
           Powered By
         </Typography>
-        <Box sx={{ height: 40, width: 40, margin: 'auto' }}>
+        <Box
+          sx={{
+            width: 40,
+            height: 40,
+            margin: 'auto',
+          }}
+        >
           <Link to={`/diners/kitchens/${kitchenId}/menus/${menuId}`}>
             <img
-              className="w-full h-full object-center object-fit group-hover:opacity-75"
+              className="w-full h-full cover object-center group-hover:opacity-75"
               src={logo30Src}
               alt=""
             />
