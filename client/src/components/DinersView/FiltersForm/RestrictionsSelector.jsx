@@ -7,6 +7,7 @@ import {
   ListItemText,
   TextField,
   Typography,
+  useTheme,
 } from '@mui/material'
 import { Box } from '@mui/system'
 import axios from 'axios'
@@ -38,6 +39,7 @@ const getIngredientsByIds = async (ids) => {
 }
 
 function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
+  const theme = useTheme()
   const [inputValue, setInputValue] = React.useState('')
   const [options, setOptions] = React.useState([])
   const [loading, setLoading] = React.useState(false)
@@ -117,7 +119,13 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
   // }
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100%',
+      }}
+    >
       <TextField
         autoFocus
         fullWidth
@@ -125,6 +133,7 @@ function RestrictionsSelector({ filters, setFilters, filterType, disabled }) {
         value={inputValue}
         onChange={handleChangeInputValue}
         label={!disabled && t('ingredients_selector_placeholder')}
+        sx={{ marginTop: theme.spacing(2) }}
         InputProps={{
           endAdornment: (
             <>

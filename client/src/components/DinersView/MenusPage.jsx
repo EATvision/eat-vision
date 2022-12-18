@@ -41,7 +41,7 @@ function MenusPage() {
       >
         <Box
           sx={{
-            margin: 'auto',
+            margin: '0 auto',
             marginTop: theme.spacing(2),
             height: 100,
             width: 250,

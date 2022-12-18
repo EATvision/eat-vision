@@ -62,7 +62,7 @@ function GreetingPage() {
         <Box sx={{ margin: 'auto' }}>
           <Box
             sx={{
-              margin: 'auto',
+              margin: '0 auto',
               marginTop: theme.spacing(2),
               height: 100,
               width: 250,
