@@ -119,6 +119,7 @@ function Login({ onDone, optOutLoginOption, onBack }) {
         flexDirection: 'column',
         display: 'flex',
         width: '100%',
+        margin: theme.spacing(1),
         marginTop: theme.spacing(5),
       }}
     >

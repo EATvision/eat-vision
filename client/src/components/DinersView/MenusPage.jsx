@@ -39,15 +39,18 @@ function MenusPage() {
           padding: `0 ${theme.spacing(2)}`,
         }}
       >
-        <Box>
-          <div className="w-[150px] mx-auto mt-4 aspect-w-1 aspect-h-1overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <img
-              className="w-full h-full object-center object-fit group-hover:opacity-75"
-              src={kitchen?.image?.[0]?.url}
-              alt=""
-            />
-          </div>
-        </Box>
+        <Box
+          sx={{
+            margin: 'auto',
+            marginTop: theme.spacing(2),
+            height: 100,
+            width: 250,
+            backgroundSize: 'contain',
+            backgroundImage: `url(${kitchen?.image?.[0]?.url})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+          }}
+        ></Box>
 
         <Typography variant="h6" sx={{ marginTop: theme.spacing(4) }}>
           {t('no_menus_relevant_now')}
