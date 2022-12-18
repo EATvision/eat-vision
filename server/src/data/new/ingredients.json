@@ -2296,7 +2296,7 @@
   {
     "id": "recmKAIA290556k9l",
     "name": "Bell peppers",
-    "isSearchable": false,
+    "isSearchable": true,
     "description": "bell peppers",
     "tags": ["recRLRNG6VRO3pnoY"],
     "groups": ["recRLRNG6VRO3pnoY"],
