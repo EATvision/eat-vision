@@ -16,7 +16,7 @@ import ClampLines from 'react-clamp-lines'
 import { t } from 'i18next'
 import { useV1KitchenById } from 'hooks/kitchens'
 
-import DishRecipeTypeChips from './DishRecipeTypeChips'
+import DishCompositionTypeChips from './DishCompositionTypeChips'
 import AskForChangesBtn from './AskForChangesBtn'
 import DishExtraInfo from './DishExtraInfo'
 
@@ -31,23 +31,26 @@ export default function FoodDish({ data }) {
     addableComponents: [],
   })
 
-  const dishExcludableComponentsFilteredOut = data?.recipe?.excludable?.filter(
-    (component) => component.isFilteredOut
-  )
+  const dishExcludableComponentsFilteredOut =
+    data?.composition?.excludable?.filter(
+      (component) => component.isFilteredOut
+    )
 
   const handleSelect =
-    (recipeType, options = { exclusive: false }) =>
+    (compositionType, options = { exclusive: false }) =>
       (componentId) => {
         setSelectedComponents((currSelectedComponents) => ({
           ...currSelectedComponents,
           // eslint-disable-next-line no-nested-ternary
-          [recipeType]: currSelectedComponents[recipeType].includes(componentId)
+          [compositionType]: currSelectedComponents[compositionType].includes(
+            componentId
+          )
             ? options.exclusive
               ? [componentId]
-              : currSelectedComponents[recipeType].filter(
+              : currSelectedComponents[compositionType].filter(
                 (c) => c !== componentId
               )
-            : [...currSelectedComponents[recipeType], componentId],
+            : [...currSelectedComponents[compositionType], componentId],
         }))
       }
 
@@ -156,15 +159,15 @@ export default function FoodDish({ data }) {
           </Box>
 
           <Box sx={{ marginTop: theme.spacing(1) }}>
-            {data.recipe?.choice?.length > 0 && (
+            {data.composition?.choice?.length > 0 && (
               <>
                 <Typography
                   sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
                 >
                   {t('choice')}:
                 </Typography>
-                {data.recipe?.choice.map((choices, index) => (
-                  <DishRecipeTypeChips
+                {data.composition?.choice.map((choices, index) => (
+                  <DishCompositionTypeChips
                     key={index}
                     data={choices}
                     selectedComponents={selectedComponents.choice}
@@ -174,30 +177,30 @@ export default function FoodDish({ data }) {
               </>
             )}
 
-            {data.recipe?.sideDish?.length > 0 && (
+            {data.composition?.sideDish?.length > 0 && (
               <>
                 <Typography
                   sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
                 >
                   {t('sidedish')}:
                 </Typography>
-                <DishRecipeTypeChips
-                  data={data.recipe.sideDish}
+                <DishCompositionTypeChips
+                  data={data.composition.sideDish}
                   selectedComponents={selectedComponents.sideDish}
                   onSelect={handleSelect('sideDish', { exclusive: false })}
                 />
               </>
             )}
 
-            {data.recipe?.addableComponents?.length > 0 && (
+            {data.composition?.addableComponents?.length > 0 && (
               <>
                 <Typography
                   sx={{ textAlign: 'start', margin: `0 ${theme.spacing(1)}` }}
                 >
                   {t('addableComponents')}:
                 </Typography>
-                <DishRecipeTypeChips
-                  data={data.recipe.addableComponents}
+                <DishCompositionTypeChips
+                  data={data.composition.addableComponents}
                   selectedComponents={selectedComponents.addableComponents}
                   onSelect={handleSelect('addableComponents', {
                     exclusive: false,

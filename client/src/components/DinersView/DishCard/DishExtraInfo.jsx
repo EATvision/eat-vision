@@ -53,12 +53,12 @@ export default function DishExtraInfo({ data }) {
   return (
     <>
       {(data.longDescription ||
-        data.recipe.putaside.length > 0 ||
-        data.recipe.excludable.length > 0 ||
-        data.recipe.nutrition ||
-        data.recipe.updates ||
+        data.composition.putaside.length > 0 ||
+        data.composition.excludable.length > 0 ||
+        data.composition.nutrition ||
+        data.composition.updates ||
         data.sizes.length > 0 ||
-        data.recipe.mandatory.length > 0 ||
+        data.composition.mandatory.length > 0 ||
         data.warnings) && <Divider />}
       <CardActions disableSpacing sx={{ padding: 0 }}>
         {data.longDescription && (
@@ -71,8 +71,8 @@ export default function DishExtraInfo({ data }) {
           </ActionButton>
         )}
 
-        {(data.recipe.putaside.length > 0 ||
-          data.recipe.excludable.length > 0) && (
+        {(data.composition.putaside.length > 0 ||
+          data.composition.excludable.length > 0) && (
           <ActionButton
             color={expandedMoreInfo === 'changes' ? 'primary' : 'default'}
             onClick={handleClickMoreInfoBtn('changes')}
@@ -92,7 +92,7 @@ export default function DishExtraInfo({ data }) {
           </ActionButton>
         )}
 
-        {data.recipe.nutrition && (
+        {data.composition.nutrition && (
           <ActionButton
             color={expandedMoreInfo === 'nutrition' ? 'primary' : 'default'}
             onClick={handleClickMoreInfoBtn('nutrition')}
@@ -102,7 +102,7 @@ export default function DishExtraInfo({ data }) {
           </ActionButton>
         )}
 
-        {data.recipe.updates && (
+        {data.composition.updates && (
           <ActionButton
             color={expandedMoreInfo === 'upgrades' ? 'primary' : 'default'}
             onClick={handleClickMoreInfoBtn('upgrades')}

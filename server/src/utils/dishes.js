@@ -97,7 +97,7 @@ const getModifiedDishes = (dishes, filters, { dishesById, ingredientsById }) =>
     let mandatoryIngredientsExludedInDiets = []
     let dishAllergens = []
 
-    const modifiedMandatoryComponents = dish.recipe.mandatory?.map(
+    const modifiedMandatoryComponents = dish.composition.mandatory?.map(
       (component) => {
         const {
           intersectingExcludedIngredients,
@@ -142,7 +142,7 @@ const getModifiedDishes = (dishes, filters, { dishesById, ingredientsById }) =>
       }
     )
 
-    const modifiedExcludableComponents = dish.recipe.excludable?.map(
+    const modifiedExcludableComponents = dish.composition.excludable?.map(
       (component) => {
         const {
           intersectingExcludedIngredients,
@@ -168,7 +168,7 @@ const getModifiedDishes = (dishes, filters, { dishesById, ingredientsById }) =>
       }
     )
 
-    const modifiedChoice = dish.recipe.choice?.map(choice => {
+    const modifiedChoice = dish.composition.choice?.map(choice => {
       return choice.map((component) => {
         const {
           intersectingExcludedIngredients,
@@ -201,14 +201,14 @@ const getModifiedDishes = (dishes, filters, { dishesById, ingredientsById }) =>
         modifiedChoice.some(choice => choice.every((c) => c.isFilteredOut))
       )
 
-    const modifiedSideDishes = dish.recipe.sideDish?.map((sideDish) => ({
+    const modifiedSideDishes = dish.composition.sideDish?.map((sideDish) => ({
       // TODO: this is a recursive call! Need to add a stop condition to avoid infinite loops!
       ...getModifiedDishes([dishesById[sideDish.id]], filters, { dishesById, ingredientsById })[0],
       price: sideDish.price,
     }))
 
     const addableComponents = [
-      ...(dish.recipe.addableIngredients?.map((component) => {
+      ...(dish.composition.addableIngredients?.map((component) => {
         const {
           intersectingExcludedIngredients,
           ingredientsExludedInDiets,
@@ -231,7 +231,7 @@ const getModifiedDishes = (dishes, filters, { dishesById, ingredientsById }) =>
           ...(ingredientsById[component.id])
         }
       }) || []),
-      ...(dish.recipe.addableDishes?.map((d) => ({
+      ...(dish.composition.addableDishes?.map((d) => ({
         ...getModifiedDishes([dishesById[d.id]], filters, { dishesById, ingredientsById })[0],
         price: d.price,
       }))) || [],
@@ -243,8 +243,8 @@ const getModifiedDishes = (dishes, filters, { dishesById, ingredientsById }) =>
       isMainDishFilteredOut,
       intersectingExcludedMandatoryIngredients,
       mandatoryIngredientsExludedInDiets,
-      recipe: {
-        ...dish.recipe,
+      composition: {
+        ...dish.composition,
         mandatory: modifiedMandatoryComponents,
         excludable: modifiedExcludableComponents,
         choice: modifiedChoice,

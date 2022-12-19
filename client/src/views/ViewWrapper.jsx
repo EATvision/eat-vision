@@ -230,7 +230,7 @@ const ViewPicker = ({ drawerTabs = [], appBarContent }) => {
 
   return (
     <ThemeProvider theme={getTheme(isRTL)}>
-      <Box sx={{ display: 'flex' }}>
+      <Box sx={{ display: 'flex', height: '100vh' }}>
         <CssBaseline />
 
         <CustomAppBar
@@ -246,7 +246,7 @@ const ViewPicker = ({ drawerTabs = [], appBarContent }) => {
           handleDrawerClose={handleDrawerClose}
         />
 
-        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+        <Box component="main" sx={{ flexGrow: 1, p: 3, overflow: 'auto' }}>
           <DrawerHeader />
           <Outlet />
         </Box>

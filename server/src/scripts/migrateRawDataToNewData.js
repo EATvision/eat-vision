@@ -16,7 +16,7 @@ const workingHours = require(('../../src/data/raw/working_hours.json'))
 const sizes = require(('../../src/data/raw/sizes.json'))
 const dishes = require(('../../src/data/raw/dishes.json'))
 const foodGroups = require(('../../src/data/raw/foodGroups.json'))
-const recipes = require(('../../src/data/raw/recipes.json'))
+const compositions = require(('../../src/data/raw/recipes.json'))
 const choices_ingredients = require(('../../src/data/raw/choices_ingredients.json'))
 const choices_subdishes = require(('../../src/data/raw/choices_subdishes.json'))
 const allergens = require(('../../src/data/raw/allergens.json'))
@@ -72,16 +72,16 @@ const modifiedIngredients = ingredients.map(ing => {
 })
 
 
-const recipesById = keyBy(recipes, 'id')
+const compositionsById = keyBy(compositions, 'id')
 const choicesIngredientsById = keyBy(choices_ingredients, 'id')
 const choicesSubDishesById = keyBy(choices_subdishes, 'id')
 
 const modifiedDishes = dishes.map(dish => {
-  const dishRecipe = recipesById[get(dish, 'recipe[0]')]
-  const choicesInDish = get(dishRecipe, 'Choice_ingredients', []).map(choiceId => choicesIngredientsById[choiceId])
-  const choiceSubDishes = get(choicesSubDishesById, `[${get(dishRecipe, 'Choice_side_dish[0]')}]`, {})
-  const addableIngredients = get(choicesIngredientsById, `[${get(dishRecipe, 'addable_ingridients[0]')}]`, {})
-  const addableDishes = get(choicesSubDishesById, `[${get(dishRecipe, 'addable_dishs[0]')}]`, {})
+  const dishComposition = compositionsById[get(dish, 'recipe[0]')]
+  const choicesInDish = get(dishComposition, 'Choice_ingredients', []).map(choiceId => choicesIngredientsById[choiceId])
+  const choiceSubDishes = get(choicesSubDishesById, `[${get(dishComposition, 'Choice_side_dish[0]')}]`, {})
+  const addableIngredients = get(choicesIngredientsById, `[${get(dishComposition, 'addable_ingridients[0]')}]`, {})
+  const addableDishes = get(choicesSubDishesById, `[${get(dishComposition, 'addable_dishs[0]')}]`, {})
 
   const sizesObject = sizesById[dish?.sizes?.[0]]
   const sizes = [
@@ -110,10 +110,10 @@ const modifiedDishes = dishes.map(dish => {
     kitchenId: dish?.kitchenIds?.[0],
     dishType: dish?.dishType?.[0]?.trim(),
     sizes,
-    recipe: {
-      mandatory: get(dishRecipe, 'mandatory_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
-      excludable: get(dishRecipe, 'excludable_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
-      putaside: get(dishRecipe, 'putaside_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
+    composition: {
+      mandatory: get(dishComposition, 'mandatory_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
+      excludable: get(dishComposition, 'excludable_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
+      putaside: get(dishComposition, 'putaside_ingredients', []).map(ing => ({ type: 'ingredient', id: ing })),
       choice: choicesInDish.map(choiceIngredients => {
         return ([
           choiceIngredients.ingredient1 && {

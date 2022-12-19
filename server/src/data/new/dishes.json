@@ -5,7 +5,7 @@
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec8RW5156UY8jwkn" }],
       "excludable": [],
       "putaside": [],
@@ -23,7 +23,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }],
       "excludable": [
         { "type": "ingredient", "id": "recuk6HVjWlSQCx5A" },
@@ -52,7 +52,7 @@
     "name": "SHAKSHUKA",
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -70,7 +70,7 @@
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recMCZi16bbdiVf5Y" },
         { "type": "ingredient", "id": "recnFLqc0j6PwBoId" },
@@ -102,7 +102,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recHqSkhnerYb9TIK" },
         { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
@@ -152,7 +152,7 @@
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
         { "type": "ingredient", "id": "rec6s9tr5zrz8OSLd" },
@@ -178,7 +178,7 @@
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" },
         { "type": "ingredient", "id": "recMFUVFV3g4va9rT" },
@@ -232,7 +232,7 @@
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recBny3WGlNIP75xY" },
         { "type": "ingredient", "id": "rectpruVKWS17nE2z" },
@@ -258,7 +258,7 @@
     "price": 23,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }],
       "excludable": [
         { "type": "ingredient", "id": "recuk6HVjWlSQCx5A" },
@@ -316,7 +316,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recBny3WGlNIP75xY" }],
       "excludable": [
         { "type": "ingredient", "id": "rect9ABfT374nMZgS" },
@@ -370,7 +370,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recl9mdmUabTJtza3" }],
       "excludable": [
         { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
@@ -430,7 +430,7 @@
     "price": 10,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec58z3WKNqNbhNpL" },
         { "type": "ingredient", "id": "recI53Niy1Y0C0Lmr" },
@@ -463,7 +463,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [
         { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
@@ -529,7 +529,7 @@
     },
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
         { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
@@ -569,7 +569,7 @@
     "price": 6,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
         { "type": "ingredient", "id": "rec8pKfAEwucwp78c" }
@@ -590,7 +590,7 @@
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recpIiQLboizMe8J9" }],
       "excludable": [],
       "putaside": [],
@@ -607,7 +607,7 @@
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -625,7 +625,7 @@
     "price": 6,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -648,7 +648,7 @@
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec8pKfAEwucwp78c" }],
       "excludable": [],
       "putaside": [],
@@ -666,7 +666,7 @@
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -683,7 +683,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -728,7 +728,7 @@
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec7Pju2AnCtLRNnr" },
         { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
@@ -786,7 +786,7 @@
     "price": 21,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
         { "type": "ingredient", "id": "rec7Pju2AnCtLRNnr" },
@@ -834,7 +834,7 @@
     "price": 21,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recFt3oORAr8oG1pU" },
         { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
@@ -890,7 +890,7 @@
     "price": 23,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [{ "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }],
       "putaside": [{ "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }],
@@ -941,7 +941,7 @@
     "price": 24,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recT5zWE8WnXzNB0M" },
         { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
@@ -1000,7 +1000,7 @@
     "price": 10,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec3cWtI5IJ1NQmzj" },
         { "type": "ingredient", "id": "rec7McfKijNyP27Ek" }
@@ -1048,7 +1048,7 @@
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rectxf7uOgyy3slB7" },
         { "type": "ingredient", "id": "recl9mdmUabTJtza3" },
@@ -1065,7 +1065,7 @@
   {
     "id": "recN8Gh67VA2650b2",
     "name": "PINO’S BURGER",
-    "description": "our butcher’s secret burger recipe with 12 Chairs dressing on a brioche bun, served with sweet potato fries.  ",
+    "description": "our butcher’s secret burger composition with 12 Chairs dressing on a brioche bun, served with sweet potato fries.  ",
     "longDescription": "signature dry-aged (28 days) burger from our butcher. ground beef topped with lettuce, tomato, thousand island dressing, in a bun with red onions on the side. Served with sweet potato fries. Can be substituted for any other side. recommended temp - medium ",
     "categories": ["recbFw1ys85l8Oafh"],
     "image": {
@@ -1097,7 +1097,7 @@
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recig8x6sbqMdadF5" },
         { "type": "ingredient", "id": "recMhKoAOVculymV0" },
@@ -1130,7 +1130,7 @@
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recUaUNY4Qbrl5nk4" },
         { "type": "ingredient", "id": "rec5iz7wE8n3SbeoG" },
@@ -1154,7 +1154,7 @@
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
         { "type": "ingredient", "id": "recWA0TQq7oqiNr0u" },
@@ -1176,7 +1176,7 @@
     "price": 20,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -1221,7 +1221,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
         { "type": "ingredient", "id": "rechw2XjIz7JHZRjI" },
@@ -1280,7 +1280,7 @@
     "price": 10,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
         { "type": "ingredient", "id": "recHhc5yZWsQTO185" },
@@ -1333,7 +1333,7 @@
     },
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
         { "type": "ingredient", "id": "recUgu4VS97xmblmv" },
@@ -1355,7 +1355,7 @@
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -1372,7 +1372,7 @@
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -1389,7 +1389,7 @@
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -1406,7 +1406,7 @@
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -1423,7 +1423,7 @@
     "price": 1.5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -1440,7 +1440,7 @@
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -1457,7 +1457,7 @@
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recxTy9PBcvwiDAqC" }],
       "excludable": [],
       "putaside": [],
@@ -1479,7 +1479,7 @@
     "price": 13,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -1496,7 +1496,7 @@
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec8RW5156UY8jwkn" },
         { "type": "ingredient", "id": "rec6s9tr5zrz8OSLd" }
@@ -1543,7 +1543,7 @@
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recXS6pQMaJExzdXe" },
         { "type": "ingredient", "id": "recoql0cf50gaWgBT" },
@@ -1608,7 +1608,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec1rgKdljBKDDBYx" }],
       "excludable": [
         { "type": "ingredient", "id": "recfidZyVXAu01ney" },
@@ -1659,7 +1659,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec3cWtI5IJ1NQmzj" },
         { "type": "ingredient", "id": "recfidZyVXAu01ney" },
@@ -1709,7 +1709,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recvYxeuh92qkRxXF" },
         { "type": "ingredient", "id": "rec9m2rVoYlzSVfcw" },
@@ -1733,7 +1733,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [{ "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }],
       "putaside": [{ "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }],
@@ -1778,7 +1778,7 @@
     "price": 21,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
         { "type": "ingredient", "id": "recuFLsNpIMHWdQWr" }
@@ -1826,7 +1826,7 @@
     "price": 23,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recznqv7a1CC0kJ1V" }],
       "excludable": [
         { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
@@ -1876,7 +1876,7 @@
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
@@ -1929,7 +1929,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recsRHWevxSClszJ4" },
         { "type": "ingredient", "id": "recnMB0taIeRVMdYD" },
@@ -1979,7 +1979,7 @@
     "price": 22,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recsRHWevxSClszJ4" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
@@ -2029,7 +2029,7 @@
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" },
         { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
@@ -2083,7 +2083,7 @@
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
@@ -2137,7 +2137,7 @@
     "price": 18,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
@@ -2189,7 +2189,7 @@
     "price": 19,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
         { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
@@ -2222,7 +2222,7 @@
     "price": 18,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recrk3Z9EOZRQebiR" },
         { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
@@ -2255,7 +2255,7 @@
     "price": 17,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recPEdYqY74ppMqX0" },
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
@@ -2311,7 +2311,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
         { "type": "ingredient", "id": "recE5Ayeth06z4mvS" },
@@ -2368,7 +2368,7 @@
     "price": 15,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recMIkUWGt2ygmHKJ" },
         { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
@@ -2424,7 +2424,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
         { "type": "ingredient", "id": "recS41bu2AuBTyIVC" },
@@ -2461,7 +2461,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }],
       "excludable": [],
       "putaside": [],
@@ -2478,7 +2478,7 @@
     "price": 6,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recsRHWevxSClszJ4" }],
       "excludable": [],
       "putaside": [],
@@ -2521,7 +2521,7 @@
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }],
       "excludable": [],
       "putaside": [],
@@ -2538,7 +2538,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
         { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
@@ -2560,7 +2560,7 @@
     "price": 18,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
         { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
@@ -2582,7 +2582,7 @@
     "price": 4,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recZz3ZEyxjBzhMGp" },
         { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
@@ -2613,7 +2613,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec1rgKdljBKDDBYx" },
         { "type": "ingredient", "id": "recobGXVv3fz5bP46" },
@@ -2663,7 +2663,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recztS4lW5RFFwLMB" },
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
@@ -2712,7 +2712,7 @@
     "price": 6,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
         { "type": "ingredient", "id": "recMFUVFV3g4va9rT" },
@@ -2763,7 +2763,7 @@
     "price": 5,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recmNtRCtvDngyb6B" }],
       "excludable": [],
       "putaside": [],
@@ -2812,7 +2812,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
         { "type": "ingredient", "id": "recyArPfI772NjBbP" },
@@ -2835,7 +2835,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recI53Niy1Y0C0Lmr" },
         { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
@@ -2884,7 +2884,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec22WY65XYvEccUt" },
         { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
@@ -2933,7 +2933,7 @@
     "price": 13,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recY83MTZPwMKGyvk" },
         { "type": "ingredient", "id": "recledEGghurGJUyt" },
@@ -2982,7 +2982,7 @@
     "price": 12,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recJo42Me9nZPNvzD" },
         { "type": "ingredient", "id": "rec9DRYPPZG1CJWQB" },
@@ -3032,7 +3032,7 @@
     "price": 14,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recS03dOUhwyat3Kd" },
         { "type": "ingredient", "id": "recII3r5eg52cdYtQ" },
@@ -3061,7 +3061,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec9gZKAf9Mq7Rcop" },
         { "type": "ingredient", "id": "recBzIbp85Ur8hApu" },
@@ -3110,7 +3110,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recHdsvNHQgPr3m5h" },
         { "type": "ingredient", "id": "recAeUdJprwtRSDxN" },
@@ -3139,7 +3139,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rechbVK49tGp8ZqyS" },
         { "type": "ingredient", "id": "recxt55r2ne6n00Hd" },
@@ -3164,7 +3164,7 @@
     "price": 16,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [
         { "type": "ingredient", "id": "recHmrzDcl8w7Mo8Z" },
@@ -3214,7 +3214,7 @@
     "price": 7,
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recXS6pQMaJExzdXe" },
         { "type": "ingredient", "id": "recoql0cf50gaWgBT" },
@@ -3239,7 +3239,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [
         { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
@@ -3264,7 +3264,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [
         { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
@@ -3313,7 +3313,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" }],
       "excludable": [
         { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
@@ -3372,7 +3372,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
         { "type": "ingredient", "id": "rec1IABrfNV7Yyge6" },
@@ -3406,7 +3406,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recYf5xe43NVO2sk4" },
         { "type": "ingredient", "id": "recqhHExlwejWiOaw" },
@@ -3461,7 +3461,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reccL5Yr2nEB5Oijf" },
         { "type": "ingredient", "id": "recmNtRCtvDngyb6B" },
@@ -3485,7 +3485,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recig8x6sbqMdadF5" },
         { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" },
@@ -3538,7 +3538,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recT5zWE8WnXzNB0M" },
         { "type": "ingredient", "id": "rectNxFPxTgnZXOua" },
@@ -3588,7 +3588,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recglV0UGjl0Vxop7" },
         { "type": "ingredient", "id": "recSvjLrmp9KKltut" },
@@ -3638,7 +3638,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [
         { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
@@ -3674,7 +3674,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recx4CLKcuF4kX4va" },
         { "type": "ingredient", "id": "recCkeQ0yHl7XkNdc" },
@@ -3698,7 +3698,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recKP9gmvdeBVd3PC" },
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
@@ -3724,7 +3724,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recfwRZdciPcwb2ov" },
         { "type": "ingredient", "id": "recKd4PBy4dI8BUrL" },
@@ -3775,7 +3775,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recpVpLmRjrO3zCaa" },
         { "type": "ingredient", "id": "recmu1qoz418LVjYq" },
@@ -3799,7 +3799,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rechbVK49tGp8ZqyS" },
         { "type": "ingredient", "id": "recgvghScthJnyUV6" },
@@ -3854,7 +3854,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recig8x6sbqMdadF5" }],
       "excludable": [
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
@@ -3920,7 +3920,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recig8x6sbqMdadF5" }],
       "excludable": [
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
@@ -3986,7 +3986,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec6X0hBxBaz2cmCE" },
         { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" },
@@ -4044,7 +4044,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recT5zWE8WnXzNB0M" },
         { "type": "ingredient", "id": "recgrWHvGBRpQOvSI" },
@@ -4100,7 +4100,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reccL5Yr2nEB5Oijf" },
         { "type": "ingredient", "id": "recmNtRCtvDngyb6B" },
@@ -4150,7 +4150,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recglV0UGjl0Vxop7" },
         { "type": "ingredient", "id": "recSvjLrmp9KKltut" },
@@ -4204,7 +4204,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recfRMIV40lwlhncK" },
         { "type": "ingredient", "id": "recI53Niy1Y0C0Lmr" }
@@ -4258,7 +4258,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" }],
       "excludable": [
         { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
@@ -4291,7 +4291,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recdKBsFmuHKYa9pf" },
         { "type": "ingredient", "id": "recfRMIV40lwlhncK" }
@@ -4342,7 +4342,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recdKBsFmuHKYa9pf" },
         { "type": "ingredient", "id": "recShJc6HNFiHeqkU" }
@@ -4398,7 +4398,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recceg3QUSjeszXto" },
         { "type": "ingredient", "id": "recfRMIV40lwlhncK" },
@@ -4450,7 +4450,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec8HNDoAlkIKr78L" },
         { "type": "ingredient", "id": "rec1IABrfNV7Yyge6" },
@@ -4510,7 +4510,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
         { "type": "ingredient", "id": "recsepskOrCOCMoo9" }
@@ -4568,7 +4568,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
         { "type": "ingredient", "id": "rec1IABrfNV7Yyge6" },
@@ -4628,7 +4628,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rechBgxLcjcuvNPx2" },
         { "type": "ingredient", "id": "recHhc5yZWsQTO185" },
@@ -4685,7 +4685,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec23XQwifRDsV1hK" }],
       "excludable": [
         { "type": "ingredient", "id": "recQFER5YwOd9emrb" },
@@ -4742,7 +4742,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [
         { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
@@ -4804,7 +4804,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
         { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
@@ -4855,7 +4855,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" },
         { "type": "ingredient", "id": "recMUYWFSwTybo3yY" },
@@ -4919,7 +4919,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec6X0hBxBaz2cmCE" },
         { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" }
@@ -4972,7 +4972,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recZLkyMtKoCwB77p" }],
       "excludable": [],
       "putaside": [],
@@ -5022,7 +5022,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
         { "type": "ingredient", "id": "rec0KdUIbGbJYD3aX" },
@@ -5073,7 +5073,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recKP9gmvdeBVd3PC" },
         { "type": "ingredient", "id": "recMsABfcQ3F7CcIz" },
@@ -5132,7 +5132,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec1rgKdljBKDDBYx" }],
       "excludable": [
         { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
@@ -5194,7 +5194,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recpVpLmRjrO3zCaa" },
         { "type": "ingredient", "id": "recmu1qoz418LVjYq" },
@@ -5216,7 +5216,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -5234,7 +5234,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -5258,7 +5258,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recvr8kIqxedjZztj" },
         { "type": "ingredient", "id": "rec8pKfAEwucwp78c" }
@@ -5279,7 +5279,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recycSnqXC75byJ6Q" }],
       "excludable": [],
       "putaside": [],
@@ -5298,7 +5298,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -5316,7 +5316,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recvr8kIqxedjZztj" }],
       "excludable": [],
       "putaside": [],
@@ -5337,7 +5337,7 @@
       { "type": "Small", "price": 0 },
       { "type": "Large", "price": 28 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -5358,7 +5358,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 435 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "receBfrzAxvsil8VO" }],
       "excludable": [],
       "putaside": [],
@@ -5379,7 +5379,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 435 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec5OBRlM9zOt49VI" }],
       "excludable": [],
       "putaside": [],
@@ -5397,7 +5397,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recJYHQzAqMqWgYa6" }],
       "excludable": [],
       "putaside": [],
@@ -5415,7 +5415,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "receBfrzAxvsil8VO" }
@@ -5436,7 +5436,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "recJsdVCukz895F4D" }
@@ -5458,7 +5458,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "rectUeCjeASqIkEIj" }
@@ -5479,7 +5479,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "recVyW6Xpoet0zd1b" }
@@ -5500,7 +5500,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "recWakRKhpIdhFMKR" }
@@ -5521,7 +5521,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recmoRmXeBxzQYIZa" }],
       "excludable": [],
       "putaside": [],
@@ -5539,7 +5539,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -5563,7 +5563,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recyoa7YkJ2PlsUew" }],
       "excludable": [],
       "putaside": [],
@@ -5581,7 +5581,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recZSr9UtfG96s5EL" }],
       "excludable": [],
       "putaside": [],
@@ -5603,7 +5603,7 @@
       { "type": "bottle", "price": 0 },
       { "type": "glass", "price": 25 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reck7H2MMliapJcWA" }],
       "excludable": [],
       "putaside": [],
@@ -5622,7 +5622,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recDOvd26ZmbAL7jm" }],
       "excludable": [],
       "putaside": [],
@@ -5640,7 +5640,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recT2jgGc2G7TViL6" }],
       "excludable": [],
       "putaside": [],
@@ -5658,7 +5658,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reccrLVzyykuHGtZx" }],
       "excludable": [],
       "putaside": [],
@@ -5680,7 +5680,7 @@
       { "type": "glass", "price": 0 },
       { "type": "pitcher", "price": 63 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reckx60aIYyiSIaCG" }],
       "excludable": [],
       "putaside": [],
@@ -5698,7 +5698,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recbsiIhRZ6m4dw2a" }],
       "excludable": [],
       "putaside": [],
@@ -5717,7 +5717,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recmkM4kgt3jpCz3l" }],
       "excludable": [],
       "putaside": [],
@@ -5735,7 +5735,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recQJr0srHNh8eEHr" },
         { "type": "ingredient", "id": "recKzibs119a7JAF5" },
@@ -5763,7 +5763,7 @@
       { "type": "glass", "price": 0 },
       { "type": "pitcher", "price": 77 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recoVgXacOe9yyMr0" }],
       "excludable": [],
       "putaside": [],
@@ -5781,7 +5781,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recYWXOXDt8tNVjOb" }],
       "excludable": [],
       "putaside": [],
@@ -5800,7 +5800,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recaKZImETk7eSXwE" }],
       "excludable": [],
       "putaside": [],
@@ -5821,7 +5821,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 535 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recAM6HWVtg5jFMpt" }],
       "excludable": [],
       "putaside": [],
@@ -5840,7 +5840,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recMKNHLSDQMvbpop" }],
       "excludable": [],
       "putaside": [],
@@ -5858,7 +5858,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recrdnNwG6KIy9YtQ" }],
       "excludable": [],
       "putaside": [],
@@ -5876,7 +5876,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recyvD3XAbh1v2Hth" }],
       "excludable": [],
       "putaside": [],
@@ -5894,7 +5894,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recQzEWkHpORJkLjm" }],
       "excludable": [],
       "putaside": [],
@@ -5912,7 +5912,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recRyy8szmMSR7Rlh" }],
       "excludable": [],
       "putaside": [],
@@ -5930,7 +5930,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recRCwYXNXpVAO8xP" }],
       "excludable": [],
       "putaside": [],
@@ -5952,7 +5952,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 495 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recRFfGOcMlJC73XP" }],
       "excludable": [],
       "putaside": [],
@@ -5971,7 +5971,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recRoA13I3fD5iYdX" }],
       "excludable": [],
       "putaside": [],
@@ -5990,7 +5990,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recTLCV68dv1FD69t" }],
       "excludable": [],
       "putaside": [],
@@ -6009,7 +6009,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recTM8wZDEskgtVfD" }],
       "excludable": [],
       "putaside": [],
@@ -6027,7 +6027,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recUV393mAjfqGFyd" }],
       "excludable": [],
       "putaside": [],
@@ -6045,7 +6045,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recUxOir0HO26E2iv" }],
       "excludable": [],
       "putaside": [],
@@ -6066,7 +6066,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 133 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recEGNxR4jeMtiBQJ" }],
       "excludable": [],
       "putaside": [],
@@ -6087,7 +6087,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 133 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recJVn67ELgPwKOkt" }],
       "excludable": [],
       "putaside": [],
@@ -6108,7 +6108,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 171 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recJEHEMNZwttME56" }],
       "excludable": [],
       "putaside": [],
@@ -6126,7 +6126,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "recoVI8FOsAdsrAGS" }
@@ -6147,7 +6147,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recoxS9cd9E0HBwnw" }],
       "excludable": [],
       "putaside": [],
@@ -6165,7 +6165,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recOFloggqRzQEjds" }],
       "excludable": [],
       "putaside": [],
@@ -6183,7 +6183,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recoHenG9P0FOodFL" }],
       "excludable": [],
       "putaside": [],
@@ -6201,7 +6201,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -6222,7 +6222,7 @@
       { "type": "bottle", "price": 0 },
       { "type": "bottle", "price": 129 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recFmxRKkYqopLoeJ" }],
       "excludable": [],
       "putaside": [],
@@ -6240,7 +6240,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recH0bKdSkn3zTu9h" }],
       "excludable": [],
       "putaside": [],
@@ -6261,7 +6261,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 133 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recGJ3ivdQTnU86Sk" }],
       "excludable": [],
       "putaside": [],
@@ -6282,7 +6282,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 133 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recGJ3ivdQTnU86Sk" }],
       "excludable": [],
       "putaside": [],
@@ -6300,7 +6300,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recom2n2FIHHlF2Sq" }],
       "excludable": [],
       "putaside": [],
@@ -6318,7 +6318,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recpzaNGXinzHUSZU" }],
       "excludable": [],
       "putaside": [],
@@ -6336,7 +6336,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recp6FqwMk8n2y4Jn" }],
       "excludable": [],
       "putaside": [],
@@ -6354,7 +6354,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recrqPkkGQ9dH6eU3" }],
       "excludable": [],
       "putaside": [],
@@ -6372,7 +6372,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recrlJlsE1kEuznZr" }],
       "excludable": [],
       "putaside": [],
@@ -6393,7 +6393,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 445 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recsD32IIxJnuHh1d" }],
       "excludable": [],
       "putaside": [],
@@ -6415,7 +6415,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 685 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recsazkO823aMOqUq" }],
       "excludable": [],
       "putaside": [],
@@ -6436,7 +6436,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 685 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recsi9v8rCBdeEdZf" },
         { "type": "ingredient", "id": "recvADVUt8c0YlUZV" }
@@ -6458,7 +6458,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recuR02Rlu0BWVvRL" }],
       "excludable": [],
       "putaside": [],
@@ -6477,7 +6477,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recuEUzUFoiqMSGav" }],
       "excludable": [],
       "putaside": [],
@@ -6499,7 +6499,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 590 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recvHTpZCcxhCxtHj" }],
       "excludable": [],
       "putaside": [],
@@ -6520,7 +6520,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 710 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recvKjZaRPBdJg9Y4" }],
       "excludable": [],
       "putaside": [],
@@ -6539,7 +6539,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recv5dP3rNxy5eRVj" }],
       "excludable": [],
       "putaside": [],
@@ -6558,7 +6558,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recviJa7ROTdOBYNb" }],
       "excludable": [],
       "putaside": [],
@@ -6577,7 +6577,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recxsVKYdfQ5PaKe7" }],
       "excludable": [],
       "putaside": [],
@@ -6599,7 +6599,7 @@
       { "type": "shot", "price": 0 },
       { "type": "bottle", "price": 810 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recxi8ifhj5zCJLeL" }],
       "excludable": [],
       "putaside": [],
@@ -6617,7 +6617,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reczq2EHHezfYSctf" }],
       "excludable": [],
       "putaside": [],
@@ -6635,7 +6635,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reclMoDfvTOhrWbMW" }],
       "excludable": [],
       "putaside": [],
@@ -6656,7 +6656,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 133 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reczrqilI5oneytWa" }],
       "excludable": [],
       "putaside": [],
@@ -6677,7 +6677,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 138 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reczkKZIRa0b3EOb3" }],
       "excludable": [],
       "putaside": [],
@@ -6698,7 +6698,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 189 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recF4OPVfkh7Zc3Xb" }],
       "excludable": [],
       "putaside": [],
@@ -6719,7 +6719,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 189 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recJNnZMYs7UTaz0L" }],
       "excludable": [],
       "putaside": [],
@@ -6740,7 +6740,7 @@
       { "type": "glass", "price": 0 },
       { "type": "bottle", "price": 133 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recJeFtOPXzYAEx3W" }],
       "excludable": [],
       "putaside": [],
@@ -6759,7 +6759,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recCpEHMnCe4qFMsW" },
         { "type": "ingredient", "id": "recJRSfXW0NfRFpb5" },
@@ -6783,7 +6783,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "recCybMhEFpg7LFgZ" },
@@ -6806,7 +6806,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "rec5qqpo1HWIuSRQp" },
@@ -6831,7 +6831,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "recJRSfXW0NfRFpb5" },
@@ -6854,7 +6854,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "reco9dbAt2nXBUlkB" },
@@ -6879,7 +6879,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "recdgu5RLqBlNC0il" },
@@ -6903,7 +6903,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recXcLIAOrRGAMMKB" },
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
@@ -6927,7 +6927,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
         { "type": "ingredient", "id": "recnJSPZvEgh3w2Tj" },
@@ -6950,7 +6950,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -6974,7 +6974,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recm7TjOYNV3ijh44" }],
       "excludable": [],
       "putaside": [],
@@ -6992,7 +6992,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recwvNsKBWFAyWheP" }],
       "excludable": [],
       "putaside": [],
@@ -7010,7 +7010,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recHPSya6wEE087rJ" }],
       "excludable": [],
       "putaside": [],
@@ -7028,7 +7028,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
         { "type": "ingredient", "id": "recRxY1kG8elmfgx8" },
@@ -7054,7 +7054,7 @@
       { "type": "glass", "price": 0 },
       { "type": "pitcher", "price": 41 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7079,7 +7079,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7103,7 +7103,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7129,7 +7129,7 @@
       { "type": "Small", "price": 0 },
       { "type": "Large", "price": 28 }
     ],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7147,7 +7147,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7197,7 +7197,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
         { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
@@ -7257,7 +7257,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec22WY65XYvEccUt" },
         { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
@@ -7288,7 +7288,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recHwZkEjcXSvWne2" }],
       "excludable": [
         { "type": "ingredient", "id": "recmnCyCx2QLL3COB" },
@@ -7319,7 +7319,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recBny3WGlNIP75xY" },
         { "type": "ingredient", "id": "recxUS9nha9pG4UV0" },
@@ -7369,7 +7369,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
         { "type": "ingredient", "id": "rec1qcxzRZqxG61QI" },
@@ -7392,7 +7392,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7411,7 +7411,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recY2aw3bRozW0rr4" },
         { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
@@ -7438,7 +7438,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recVGUtW7tgIJnRqR" },
         { "type": "ingredient", "id": "reclxcnZSbbtBwiBh" },
@@ -7466,7 +7466,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7482,7 +7482,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7498,7 +7498,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7514,7 +7514,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7530,7 +7530,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7546,7 +7546,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7562,7 +7562,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7581,7 +7581,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" }],
       "excludable": [
         { "type": "ingredient", "id": "reco5tKjgYPwabN8R" },
@@ -7609,7 +7609,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recfOc9bh9nkK728W" },
         { "type": "ingredient", "id": "recfHUWtiUN9WH783" },
@@ -7644,7 +7644,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recZUCAcvUznPzspa" },
         { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
@@ -7667,7 +7667,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recH3XvCUoJF5lS63" }],
       "excludable": [],
       "putaside": [],
@@ -7685,7 +7685,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rectxf7uOgyy3slB7" },
         { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
@@ -7713,7 +7713,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recPR6VPIPvpowg6A" }],
       "excludable": [],
       "putaside": [{ "type": "ingredient", "id": "recen8e7SyQCPXznx" }],
@@ -7732,7 +7732,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recPR6VPIPvpowg6A" }],
       "excludable": [],
       "putaside": [{ "type": "ingredient", "id": "recen8e7SyQCPXznx" }],
@@ -7751,7 +7751,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reczkx8wE48NKnrIe" },
         { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
@@ -7780,7 +7780,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7798,7 +7798,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec8uiLapioI9ebIt" },
         { "type": "ingredient", "id": "recQewXbyKlFOqkWT" },
@@ -7829,7 +7829,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7847,7 +7847,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7866,7 +7866,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec8HNDoAlkIKr78L" },
         { "type": "ingredient", "id": "recYY4CMOn1ZiyZTt" },
@@ -7892,7 +7892,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
         { "type": "ingredient", "id": "recp7fNhhlPENrUOX" },
@@ -7920,7 +7920,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec1rgKdljBKDDBYx" },
         { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
@@ -7951,7 +7951,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7968,7 +7968,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -7985,7 +7985,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8003,7 +8003,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8022,7 +8022,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recktgbNKfstLrqUU" }],
       "excludable": [
         { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
@@ -8050,7 +8050,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recktgbNKfstLrqUU" }],
       "excludable": [
         { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
@@ -8077,7 +8077,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rech5ZnW3A9yu6SeN" },
         { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
@@ -8100,7 +8100,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rech5ZnW3A9yu6SeN" },
         { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
@@ -8126,7 +8126,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reccJhziGTnbUbIEd" }],
       "excludable": [
         { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
@@ -8153,7 +8153,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recVGUtW7tgIJnRqR" },
         { "type": "ingredient", "id": "rec23XQwifRDsV1hK" },
@@ -8179,7 +8179,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recVGUtW7tgIJnRqR" },
         { "type": "ingredient", "id": "rec23XQwifRDsV1hK" },
@@ -8205,7 +8205,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" }
@@ -8234,7 +8234,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" }
@@ -8263,7 +8263,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
         { "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" },
@@ -8295,7 +8295,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
         { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
@@ -8327,7 +8327,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec78dcogqTb5pncv" },
         { "type": "ingredient", "id": "recoplktAmVagJ46S" },
@@ -8351,7 +8351,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8368,7 +8368,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec1rgKdljBKDDBYx" },
         { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
@@ -8392,7 +8392,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec1rgKdljBKDDBYx" },
         { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
@@ -8416,7 +8416,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec3cWtI5IJ1NQmzj" },
         { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
@@ -8440,7 +8440,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec3cWtI5IJ1NQmzj" },
         { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
@@ -8463,7 +8463,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
         { "type": "ingredient", "id": "recRxY1kG8elmfgx8" },
@@ -8486,7 +8486,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
         { "type": "ingredient", "id": "recRxY1kG8elmfgx8" },
@@ -8508,7 +8508,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
         { "type": "ingredient", "id": "recE5Ayeth06z4mvS" },
@@ -8530,7 +8530,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }],
       "excludable": [
         { "type": "ingredient", "id": "recXOqFWWOVV4iyHd" },
@@ -8553,7 +8553,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }],
       "excludable": [
         { "type": "ingredient", "id": "recXOqFWWOVV4iyHd" },
@@ -8574,7 +8574,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recDxAxCP7peMhg2Y" },
         { "type": "ingredient", "id": "recXS6pQMaJExzdXe" },
@@ -8605,7 +8605,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
         { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
@@ -8627,7 +8627,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
         { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
@@ -8650,7 +8650,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recYkUyBPCXYLcBOM" },
         { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
@@ -8676,7 +8676,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recYkUyBPCXYLcBOM" },
         { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
@@ -8702,7 +8702,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
         { "type": "ingredient", "id": "recNB3sJpbzujpFXy" },
@@ -8729,7 +8729,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
         { "type": "ingredient", "id": "recNB3sJpbzujpFXy" },
@@ -8755,7 +8755,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recppvTDsSIPvvRPG" }],
       "excludable": [
         { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
@@ -8781,7 +8781,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recppvTDsSIPvvRPG" }],
       "excludable": [
         { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
@@ -8807,7 +8807,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8824,7 +8824,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
@@ -8853,7 +8853,7 @@
     "kitchenId": "recLz9mL6RCu3NIrK",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
@@ -8881,7 +8881,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8898,7 +8898,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8916,7 +8916,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8934,7 +8934,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8951,7 +8951,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8969,7 +8969,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -8986,7 +8986,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recuR02Rlu0BWVvRL" }],
       "excludable": [],
       "putaside": [],
@@ -9003,7 +9003,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recvHTpZCcxhCxtHj" }],
       "excludable": [],
       "putaside": [],
@@ -9020,7 +9020,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recvKjZaRPBdJg9Y4" }],
       "excludable": [],
       "putaside": [],
@@ -9037,7 +9037,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recuEUzUFoiqMSGav" }],
       "excludable": [],
       "putaside": [],
@@ -9054,7 +9054,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recviJa7ROTdOBYNb" }],
       "excludable": [],
       "putaside": [],
@@ -9071,7 +9071,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9088,7 +9088,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recJsdVCukz895F4D" }],
       "excludable": [],
       "putaside": [],
@@ -9105,7 +9105,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rectUeCjeASqIkEIj" }],
       "excludable": [],
       "putaside": [],
@@ -9122,7 +9122,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9139,7 +9139,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recyoa7YkJ2PlsUew" }],
       "excludable": [],
       "putaside": [],
@@ -9156,7 +9156,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recaKZImETk7eSXwE" }],
       "excludable": [],
       "putaside": [],
@@ -9173,7 +9173,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recAM6HWVtg5jFMpt" }],
       "excludable": [],
       "putaside": [],
@@ -9190,7 +9190,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9207,7 +9207,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recZSr9UtfG96s5EL" }],
       "excludable": [],
       "putaside": [],
@@ -9224,7 +9224,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recsD32IIxJnuHh1d" }],
       "excludable": [],
       "putaside": [],
@@ -9241,7 +9241,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9258,7 +9258,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recUV393mAjfqGFyd" }],
       "excludable": [],
       "putaside": [],
@@ -9275,7 +9275,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9292,7 +9292,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9309,7 +9309,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9326,7 +9326,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9343,7 +9343,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9360,7 +9360,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9377,7 +9377,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9394,7 +9394,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9411,7 +9411,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reckx60aIYyiSIaCG" }],
       "excludable": [],
       "putaside": [],
@@ -9430,7 +9430,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rectxf7uOgyy3slB7" },
         { "type": "ingredient", "id": "recF0p1gJUlLyMoXQ" },
@@ -9458,7 +9458,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9475,7 +9475,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9492,7 +9492,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9509,7 +9509,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9526,7 +9526,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9543,7 +9543,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9560,7 +9560,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9577,7 +9577,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9594,7 +9594,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9611,7 +9611,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9628,7 +9628,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9645,7 +9645,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9662,7 +9662,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9679,7 +9679,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9696,7 +9696,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9713,7 +9713,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9730,7 +9730,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9747,7 +9747,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9764,7 +9764,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9781,7 +9781,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9798,7 +9798,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9816,7 +9816,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9834,7 +9834,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9852,7 +9852,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9870,7 +9870,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9888,7 +9888,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9906,7 +9906,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9924,7 +9924,7 @@
     "kitchenId": "recnsNrn3KakAcOX5",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -9969,7 +9969,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recBdn2nY3QkRtToi" }],
       "excludable": [
         { "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" },
@@ -9995,7 +9995,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recKP9gmvdeBVd3PC" }],
       "excludable": [
         { "type": "ingredient", "id": "recTXYb7Jev6hShYb" },
@@ -10052,7 +10052,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec6X0hBxBaz2cmCE" },
         { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
@@ -10083,7 +10083,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recWQN9KKufUJeGN4" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
@@ -10138,7 +10138,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
         { "type": "ingredient", "id": "recF4kNRSYYyYeq44" },
@@ -10206,7 +10206,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recct6n6WQDV0QYSp" },
         { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
@@ -10265,7 +10265,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
         { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
@@ -10334,7 +10334,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec7DQGrmbaI4iO4U" },
         { "type": "ingredient", "id": "recoTNIRKrnmcP6wQ" },
@@ -10392,7 +10392,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recIpthm9hHhvbgtc" },
         { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
@@ -10447,7 +10447,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" },
         { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
@@ -10504,7 +10504,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
         { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
@@ -10565,7 +10565,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recIpthm9hHhvbgtc" },
         { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
@@ -10623,7 +10623,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recIpthm9hHhvbgtc" },
         { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
@@ -10681,7 +10681,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rechGKYjWvFXIi0Il" },
         { "type": "ingredient", "id": "recht4SRULunnZo2l" },
@@ -10736,7 +10736,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recn8p2X4kIaoZip9" },
         { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
@@ -10791,7 +10791,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recn8p2X4kIaoZip9" },
         { "type": "ingredient", "id": "recCkeQ0yHl7XkNdc" },
@@ -10848,7 +10848,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recn8p2X4kIaoZip9" },
         { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
@@ -10906,7 +10906,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recn8p2X4kIaoZip9" },
         { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
@@ -10963,7 +10963,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recs74fFImDpvVdAd" },
         { "type": "ingredient", "id": "recWA0TQq7oqiNr0u" }
@@ -11028,7 +11028,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recwbEA6Q73sbjjNr" },
         { "type": "ingredient", "id": "recSGWptHcUJPavx1" },
@@ -11092,7 +11092,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rechbVK49tGp8ZqyS" },
         { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
@@ -11145,7 +11145,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recwh0UOukgRNYabT" },
         { "type": "ingredient", "id": "rechbVK49tGp8ZqyS" },
@@ -11198,7 +11198,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reczkx8wE48NKnrIe" }],
       "excludable": [
         { "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" },
@@ -11253,7 +11253,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -11303,7 +11303,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" },
         { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" }
@@ -11358,7 +11358,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recIpthm9hHhvbgtc" },
         { "type": "ingredient", "id": "reccJhziGTnbUbIEd" },
@@ -11417,7 +11417,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec6uUJokMTLHcu0T" },
         { "type": "ingredient", "id": "recat7Yw4co0QeCHO" },
@@ -11476,7 +11476,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recho15TgzK0515n6" },
         { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
@@ -11531,7 +11531,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -11581,7 +11581,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recgxRM2HMFyw9JeP" }],
       "excludable": [],
       "putaside": [],
@@ -11625,7 +11625,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -11669,7 +11669,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rechw2XjIz7JHZRjI" }],
       "excludable": [],
       "putaside": [],
@@ -11714,7 +11714,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" }],
       "excludable": [{ "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }],
       "putaside": [{ "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }],
@@ -11758,7 +11758,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recMhKoAOVculymV0" },
         { "type": "ingredient", "id": "recQr7n4Kr7f24oao" },
@@ -11807,7 +11807,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recWm1DUJ1I7W0Pck" }],
       "excludable": [],
       "putaside": [],
@@ -11851,7 +11851,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -11899,7 +11899,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recbsSPiwb4BbiaO2" },
         { "type": "ingredient", "id": "recdTTtfNie3icfb2" },
@@ -11948,7 +11948,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recFKr51aCdkKdGt1" },
         { "type": "ingredient", "id": "rec4aD5k30rHhmtn6" },
@@ -11976,7 +11976,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec2jduQ0rTiOmavg" },
         { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
@@ -12007,7 +12007,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recbNg6uFZdHijt4P" },
         { "type": "ingredient", "id": "recz1Ptz4YXYpQ6yz" },
@@ -12056,7 +12056,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
         { "type": "ingredient", "id": "recxUS9nha9pG4UV0" },
@@ -12109,7 +12109,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "rec2jduQ0rTiOmavg" },
         { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
@@ -12137,7 +12137,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
         { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
@@ -12189,7 +12189,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12234,7 +12234,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "reckxH7rsRDZ9JvnT" }],
       "excludable": [],
       "putaside": [],
@@ -12252,7 +12252,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12297,7 +12297,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recRc4iwA4f2J46Ej" }],
       "excludable": [],
       "putaside": [],
@@ -12341,7 +12341,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12386,7 +12386,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recho15TgzK0515n6" }],
       "excludable": [],
       "putaside": [],
@@ -12404,7 +12404,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12448,7 +12448,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12466,7 +12466,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12510,7 +12510,7 @@
     "kitchenId": "recKS2OTdorMHdMhF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12525,7 +12525,7 @@
     "longDescription": " פרימיטיבו רוזאטו, מאסריה בורגו די טרולי, פוליה, איטליה  \n\nהיין מיוצר מענבי פרימיטיבו שהוא הענב האדום השולט של האזור ומגיע ממחוז סולנטו שבחבל פוליה בדרום מזרח איטליה . יין רוזה קל לשתייה עם חמיצות נעימה וריחות של פרי אדום מתוק ומגרה אפשר להגיד אפילו קצת כמו מיץ פטל למבוגרים.  מתאים לכל שעה ביום ובכל מצב . \n\nבקבוק (750 מ\"ל) - 70 ₪ ",
     "kitchenId": "recKS2OTdorMHdMhF",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12541,7 +12541,7 @@
     "price": 267,
     "kitchenId": "recKS2OTdorMHdMhF",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12560,7 +12560,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recNB3sJpbzujpFXy" },
         { "type": "ingredient", "id": "rect9ABfT374nMZgS" },
@@ -12584,7 +12584,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [
         { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
         { "type": "ingredient", "id": "recVCl8aEg5fQfaXr" },
@@ -12612,7 +12612,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12632,7 +12632,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12652,7 +12652,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12671,7 +12671,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12690,7 +12690,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12709,7 +12709,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12728,7 +12728,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12747,7 +12747,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12766,7 +12766,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12785,7 +12785,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12804,7 +12804,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12823,7 +12823,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12842,7 +12842,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12861,7 +12861,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12880,7 +12880,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12899,7 +12899,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12918,7 +12918,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12937,7 +12937,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12956,7 +12956,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12974,7 +12974,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -12993,7 +12993,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13011,7 +13011,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13029,7 +13029,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13047,7 +13047,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "desert",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13065,7 +13065,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13084,7 +13084,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13103,7 +13103,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13122,7 +13122,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13141,7 +13141,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13160,7 +13160,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13179,7 +13179,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13198,7 +13198,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13217,7 +13217,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13236,7 +13236,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13255,7 +13255,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13274,7 +13274,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13293,7 +13293,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13311,7 +13311,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13330,7 +13330,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13349,7 +13349,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13368,7 +13368,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13387,7 +13387,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13406,7 +13406,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13425,7 +13425,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13444,7 +13444,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13463,7 +13463,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13482,7 +13482,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13501,7 +13501,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13520,7 +13520,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13539,7 +13539,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13558,7 +13558,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13577,7 +13577,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13596,7 +13596,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13615,7 +13615,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13634,7 +13634,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13653,7 +13653,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13672,7 +13672,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13691,7 +13691,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13710,7 +13710,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13729,7 +13729,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13748,7 +13748,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13767,7 +13767,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13786,7 +13786,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13803,7 +13803,7 @@
     "kitchenId": "rec1nrezZLK3Rk9n9",
     "dishType": "drink",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [],
       "excludable": [],
       "putaside": [],
@@ -13821,7 +13821,7 @@
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
-    "recipe": {
+    "composition": {
       "mandatory": [{ "type": "ingredient", "id": "recT5zWE8WnXzNB0M" }],
       "excludable": [
         { "type": "ingredient", "id": "rechw2XjIz7JHZRjI" },

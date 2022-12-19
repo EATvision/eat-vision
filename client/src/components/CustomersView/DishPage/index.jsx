@@ -139,13 +139,13 @@ function DishPage() {
             </Stack>
 
             <IngredientsInput
-              name="recipe.mandatory"
+              name="composition.mandatory"
               showAddIngredient
               label={t('mandatory_ingredients')}
             />
             <Divider />
             <IngredientsInput
-              name="recipe.addable"
+              name="composition.addable"
               showAddDish
               showAddIngredient
               label={t('addable_ingredients')}
@@ -155,14 +155,14 @@ function DishPage() {
             <Divider />
             <IngredientsInput
               showAddIngredient
-              name="recipe.excludible"
+              name="composition.excludible"
               label={t('excludible_ingredients')}
             />
             <Divider />
             <IngredientsInput
               showAddDish
               showAddIngredient
-              name="recipe.choice"
+              name="composition.choice"
               label={t('choice_ingredients')}
             />
             <Divider />

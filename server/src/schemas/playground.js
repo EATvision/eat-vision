@@ -20,7 +20,7 @@ const dishes = [
     description: '',
     image_url: '',
     category: '<category_id>', // if no category, not displayed in menu!
-    recipe: {
+    composition: {
       mandatory:
         [
           { type: ('ingredient' || 'dish'), _id: '<_id>', price: 0 }

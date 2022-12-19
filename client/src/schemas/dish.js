@@ -1,6 +1,6 @@
 import yup from 'schemas/yup'
 
-const recipeItemSchema = yup
+const compositionItemSchema = yup
   .object()
   .shape({
     id: yup.string().required(),
@@ -19,13 +19,13 @@ const dishValidationSchema = yup.object({
   }),
   price: yup.number().min(0).required('Price is required'),
   categories: yup.array().of(yup.string()).required('Categories are required'),
-  recipe: yup
+  composition: yup
     .object()
     .shape({
-      addable: yup.array().of(recipeItemSchema),
-      mandatory: yup.array().of(recipeItemSchema),
-      excludible: yup.array().of(recipeItemSchema),
-      choice: yup.array().of(recipeItemSchema),
+      addable: yup.array().of(compositionItemSchema),
+      mandatory: yup.array().of(compositionItemSchema),
+      excludible: yup.array().of(compositionItemSchema),
+      choice: yup.array().of(compositionItemSchema),
     })
     .default(undefined),
 })

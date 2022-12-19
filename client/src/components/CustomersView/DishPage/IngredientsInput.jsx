@@ -102,7 +102,7 @@ const IngredientsInput = ({
               color="warning"
               startIcon={<AddIcon />}
             >
-              Dish
+              {t('dish')}
             </Button>
           )}
           {showAddIngredient && (
@@ -113,7 +113,7 @@ const IngredientsInput = ({
               color="info"
               startIcon={<AddIcon />}
             >
-              Ingredient
+              {t('ingredient')}
             </Button>
           )}
         </Stack>

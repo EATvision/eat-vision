@@ -17,7 +17,7 @@ const LTRTypography = styled(Typography)`
   direction: ltr;
 `
 
-export default function DishRecipeChips({ data, label }) {
+export default function DishCompositionChips({ data, label }) {
   const theme = useTheme()
   const { kitchenId } = useParams()
   const { kitchen } = useV1KitchenById(kitchenId)

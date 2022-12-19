@@ -205,7 +205,7 @@ base('tblLnh1hSZ8GTznfy')
       longDescription: r.get('long_description'),
       image: r.get('image_url'),
       category: r.get('category'),
-      recipe: r.get('recipe'),
+      composition: r.get('recipe'),
       price: r.get('Price'),
       kitchenIds: r.get('kitchenId'),
       dishType: r.get('Dish_type'),

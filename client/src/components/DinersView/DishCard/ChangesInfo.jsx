@@ -19,20 +19,20 @@ function ChangesInfo({ data }) {
   const theme = useTheme()
   const getComponentLabel = useGetComponentLabel()
   const relevantIds = [
-    ...data.recipe.putaside.map((c) => c.id),
-    ...data.recipe.excludable.map((c) => c.id),
+    ...data.composition.putaside.map((c) => c.id),
+    ...data.composition.excludable.map((c) => c.id),
   ]
   const { ingredients } = useV1IngredientsByIds(relevantIds)
   const ingredientsById = _keyBy(ingredients, 'id')
 
   const ingredientsSummary = {}
-  data.recipe.putaside.forEach((component) => {
+  data.composition.putaside.forEach((component) => {
     ingredientsSummary[component.id] = {
       ...(ingredientsSummary[component.id] || {}),
       putaside: true,
     }
   })
-  data.recipe.excludable.forEach((component) => {
+  data.composition.excludable.forEach((component) => {
     ingredientsSummary[component.id] = {
       ...(ingredientsSummary[component.id] || {}),
       excludable: true,
