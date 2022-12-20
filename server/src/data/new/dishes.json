@@ -6,7 +6,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec8RW5156UY8jwkn" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -24,23 +24,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recuk6HVjWlSQCx5A" },
-        { "type": "ingredient", "id": "rec4eW2Ua5voGsif7" },
-        { "type": "ingredient", "id": "rec1LdXAfrLDQG3lm" },
-        { "type": "ingredient", "id": "recz8yh8Klz5SUcaZ" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recuk6HVjWlSQCx5A" },
-        { "type": "ingredient", "id": "rec4eW2Ua5voGsif7" },
-        { "type": "ingredient", "id": "rec1LdXAfrLDQG3lm" },
-        { "type": "ingredient", "id": "recz8yh8Klz5SUcaZ" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -71,25 +57,12 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recMCZi16bbdiVf5Y" },
-        { "type": "ingredient", "id": "recnFLqc0j6PwBoId" },
-        { "type": "ingredient", "id": "recukhz99Vj6NKI6v" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recSSSR1YZZQWbPIw" }],
-      "putaside": [{ "type": "ingredient", "id": "recSSSR1YZZQWbPIw" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "recKIVOGtD7svnu62", "price": 3 }
-      ],
+      "sideDish": [],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -103,19 +76,13 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recHqSkhnerYb9TIK" },
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "rec1p0KIsdbhxd48P" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
-      "addableDishes": [
-        { "type": "dish", "id": "recB4HUxKVZ37IwqC", "price": 9 }
-      ]
+      "addableDishes": []
     }
   },
   {
@@ -153,20 +120,13 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "rec6s9tr5zrz8OSLd" },
-        { "type": "ingredient", "id": "recJvlpMhsCndGl3v" },
-        { "type": "ingredient", "id": "recAeOWZp2x6n9uMZ" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
-      "addableDishes": [
-        { "type": "dish", "id": "recB4HUxKVZ37IwqC", "price": 8 }
-      ]
+      "addableDishes": []
     }
   },
   {
@@ -179,23 +139,13 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" },
-        { "type": "ingredient", "id": "recMFUVFV3g4va9rT" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recJvlpMhsCndGl3v" },
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
-      "addableDishes": [
-        { "type": "dish", "id": "recB4HUxKVZ37IwqC", "price": 8 }
-      ]
+      "addableDishes": []
     }
   },
   {
@@ -233,16 +183,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recBny3WGlNIP75xY" },
-        { "type": "ingredient", "id": "rectpruVKWS17nE2z" },
-        { "type": "ingredient", "id": "recEsLLi7WO3oBS0I" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "rect9ABfT374nMZgS" }],
-      "putaside": [
-        { "type": "ingredient", "id": "rect9ABfT374nMZgS" },
-        { "type": "ingredient", "id": "recRi0bGGxdU4BImt" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -259,23 +202,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recuk6HVjWlSQCx5A" },
-        { "type": "ingredient", "id": "rec4eW2Ua5voGsif7" },
-        { "type": "ingredient", "id": "rec1LdXAfrLDQG3lm" },
-        { "type": "ingredient", "id": "recz8yh8Klz5SUcaZ" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recuk6HVjWlSQCx5A" },
-        { "type": "ingredient", "id": "rec4eW2Ua5voGsif7" },
-        { "type": "ingredient", "id": "rec1LdXAfrLDQG3lm" },
-        { "type": "ingredient", "id": "recz8yh8Klz5SUcaZ" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -317,20 +246,10 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recBny3WGlNIP75xY" }],
-      "excludable": [
-        { "type": "ingredient", "id": "rect9ABfT374nMZgS" },
-        { "type": "ingredient", "id": "recYgBjxkw5hDf5uD" }
-      ],
-      "putaside": [{ "type": "ingredient", "id": "rect9ABfT374nMZgS" }],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recAtYeYefI0zfKI0", "price": 0 },
-          { "type": "ingredient", "id": "rec7gP8w1nrbNtaPJ", "price": 0 },
-          { "type": "ingredient", "id": "recytcl1q7dGlVF7r", "price": 0 },
-          { "type": "ingredient", "id": "recYJXFMyC7DOmEqo", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -371,29 +290,13 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recl9mdmUabTJtza3" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }
-      ],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recj1X6W9ye9jD5Lo", "price": 0 },
-          { "type": "ingredient", "id": "rec42PxFVJuTc7YAg", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb", "price": 4 },
-        { "type": "ingredient", "id": "recZUCAcvUznPzspa", "price": 4 }
-      ],
-      "addableDishes": [
-        { "type": "dish", "id": "recB4HUxKVZ37IwqC", "price": 8 }
-      ]
+      "addableIngredients": [],
+      "addableDishes": []
     }
   },
   {
@@ -431,28 +334,13 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec58z3WKNqNbhNpL" },
-        { "type": "ingredient", "id": "recI53Niy1Y0C0Lmr" },
-        { "type": "ingredient", "id": "recrk3Z9EOZRQebiR" },
-        { "type": "ingredient", "id": "recat7Yw4co0QeCHO" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recT75pPiLq4ZQ7vR" },
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recT75pPiLq4ZQ7vR" },
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
-      "addableDishes": [
-        { "type": "dish", "id": "recB4HUxKVZ37IwqC", "price": 8 }
-      ]
+      "addableDishes": []
     }
   },
   {
@@ -465,34 +353,12 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }
-      ],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recj1X6W9ye9jD5Lo", "price": 0 },
-          { "type": "ingredient", "id": "rec42PxFVJuTc7YAg", "price": 0 }
-        ],
-        [
-          { "type": "ingredient", "id": "rechxTbqAb2qWZcaD", "price": 0 },
-          { "type": "ingredient", "id": "rechSJFTGdBREzxPP", "price": 0 },
-          { "type": "ingredient", "id": "recEQ5B0J5OHNRK3T", "price": 0 },
-          { "type": "ingredient", "id": "recrk3Z9EOZRQebiR", "price": 0 }
-        ]
-      ],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb", "price": 4 },
-        { "type": "ingredient", "id": "rec8XL84tXFiyXG8a", "price": 4 }
-      ],
-      "addableDishes": [
-        { "type": "dish", "id": "recB4HUxKVZ37IwqC", "price": 11 }
-      ]
+      "addableIngredients": [],
+      "addableDishes": []
     }
   },
   {
@@ -530,36 +396,13 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recmKAIA290556k9l" },
-        { "type": "ingredient", "id": "rechSJFTGdBREzxPP" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recjrIxMfEL3ZTdD5" },
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }
-      ],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recj1X6W9ye9jD5Lo", "price": 0 },
-          { "type": "ingredient", "id": "rec42PxFVJuTc7YAg", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rechSJFTGdBREzxPP", "price": 5 },
-        { "type": "ingredient", "id": "recEQ5B0J5OHNRK3T", "price": 5 },
-        { "type": "ingredient", "id": "recrk3Z9EOZRQebiR", "price": 5 },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb", "price": 4 }
-      ],
-      "addableDishes": [
-        { "type": "dish", "id": "recB4HUxKVZ37IwqC", "price": 11 }
-      ]
+      "addableIngredients": [],
+      "addableDishes": []
     }
   },
   {
@@ -570,10 +413,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -591,7 +431,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recpIiQLboizMe8J9" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -629,13 +469,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recJRSfXW0NfRFpb5", "price": 0 },
-          { "type": "ingredient", "id": "recpIiQLboizMe8J9", "price": 0 },
-          { "type": "ingredient", "id": "recJDcBSFboCJJiZv", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -649,7 +483,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec8pKfAEwucwp78c" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -729,24 +563,11 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec7Pju2AnCtLRNnr" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recachbxXxghviR5P" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -787,13 +608,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "rec7Pju2AnCtLRNnr" },
-        { "type": "ingredient", "id": "recGUiFVIMdB1ZEyj" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recoql0cf50gaWgBT" }],
-      "putaside": [{ "type": "ingredient", "id": "recoql0cf50gaWgBT" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -835,22 +652,11 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recFt3oORAr8oG1pU" },
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -892,17 +698,10 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [{ "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }],
-      "putaside": [{ "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -942,27 +741,12 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recT5zWE8WnXzNB0M" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }],
-      "putaside": [{ "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "recpVpLmRjrO3zCaa", "price": 6 },
-        { "type": "ingredient", "id": "recrk3Z9EOZRQebiR", "price": 6 },
-        { "type": "ingredient", "id": "rec1LdXAfrLDQG3lm", "price": 6 },
-        { "type": "ingredient", "id": "recztS4lW5RFFwLMB", "price": 6 }
-      ],
+      "sideDish": [],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -1001,12 +785,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec3cWtI5IJ1NQmzj" },
-        { "type": "ingredient", "id": "rec7McfKijNyP27Ek" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }],
-      "putaside": [{ "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1049,11 +830,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rectxf7uOgyy3slB7" },
-        { "type": "ingredient", "id": "recl9mdmUabTJtza3" },
-        { "type": "ingredient", "id": "recgvghScthJnyUV6" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1065,7 +842,7 @@
   {
     "id": "recN8Gh67VA2650b2",
     "name": "PINO’S BURGER",
-    "description": "our butcher’s secret burger composition with 12 Chairs dressing on a brioche bun, served with sweet potato fries.  ",
+    "description": "our butcher’s secret burger recipe with 12 Chairs dressing on a brioche bun, served with sweet potato fries.  ",
     "longDescription": "signature dry-aged (28 days) burger from our butcher. ground beef topped with lettuce, tomato, thousand island dressing, in a bun with red onions on the side. Served with sweet potato fries. Can be substituted for any other side. recommended temp - medium ",
     "categories": ["recbFw1ys85l8Oafh"],
     "image": {
@@ -1098,27 +875,12 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recig8x6sbqMdadF5" },
-        { "type": "ingredient", "id": "recMhKoAOVculymV0" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recLBiDIydgzE6tzf" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "rec7O6th1UojW4jyh" }],
-      "putaside": [{ "type": "ingredient", "id": "rec7O6th1UojW4jyh" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rec8XL84tXFiyXG8a", "price": 2 }
-      ],
+      "sideDish": [],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -1131,13 +893,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recUaUNY4Qbrl5nk4" },
-        { "type": "ingredient", "id": "rec5iz7wE8n3SbeoG" },
-        { "type": "ingredient", "id": "recnFLqc0j6PwBoId" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "rectxf7uOgyy3slB7" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1155,12 +911,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recWA0TQq7oqiNr0u" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "recnFLqc0j6PwBoId" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1222,25 +973,11 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
-        { "type": "ingredient", "id": "rechw2XjIz7JHZRjI" },
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recHhc5yZWsQTO185" },
-        { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
-        { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -1281,16 +1018,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recHhc5yZWsQTO185" },
-        { "type": "ingredient", "id": "recdjJ3UBHRFo1rHV" },
-        { "type": "ingredient", "id": "recUgu4VS97xmblmv" },
-        { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
-        { "type": "ingredient", "id": "recXS6pQMaJExzdXe" },
-        { "type": "ingredient", "id": "rec4Z0VGDLRpPDxYm" },
-        { "type": "ingredient", "id": "recgvghScthJnyUV6" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1334,12 +1062,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "recUgu4VS97xmblmv" },
-        { "type": "ingredient", "id": "recJvlpMhsCndGl3v" },
-        { "type": "ingredient", "id": "recHhc5yZWsQTO185" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1458,15 +1181,10 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recxTy9PBcvwiDAqC" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recAtYeYefI0zfKI0", "price": 0 },
-          { "type": "ingredient", "id": "recvr8kIqxedjZztj", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -1497,10 +1215,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec8RW5156UY8jwkn" },
-        { "type": "ingredient", "id": "rec6s9tr5zrz8OSLd" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1544,30 +1259,10 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recXS6pQMaJExzdXe" },
-        { "type": "ingredient", "id": "recoql0cf50gaWgBT" },
-        { "type": "ingredient", "id": "rec0weF62jSDjd9Sa" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "rec4fuSB0KGxzxuDt" },
-        { "type": "ingredient", "id": "recachbxXxghviR5P" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "rec4fuSB0KGxzxuDt" },
-        { "type": "ingredient", "id": "recachbxXxghviR5P" }
-      ],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recmR5d6CfuL3IQUk", "price": 0 },
-          { "type": "ingredient", "id": "recztS4lW5RFFwLMB", "price": 0 },
-          { "type": "ingredient", "id": "recqswSfYeKZ37VmO", "price": 0 }
-        ],
-        [
-          { "type": "ingredient", "id": "recm2QBme7jDrV5Sw", "price": 0 },
-          { "type": "ingredient", "id": "recHI4ikK7GY9Vtg1", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -1609,15 +1304,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec1rgKdljBKDDBYx" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recfidZyVXAu01ney" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recfidZyVXAu01ney" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1660,14 +1349,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec3cWtI5IJ1NQmzj" },
-        { "type": "ingredient", "id": "recfidZyVXAu01ney" },
-        { "type": "ingredient", "id": "rec5iz7wE8n3SbeoG" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recK2UvDCJ5i4JrJT" }],
-      "putaside": [{ "type": "ingredient", "id": "recK2UvDCJ5i4JrJT" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1710,12 +1394,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recvYxeuh92qkRxXF" },
-        { "type": "ingredient", "id": "rec9m2rVoYlzSVfcw" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1735,8 +1414,8 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [{ "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }],
-      "putaside": [{ "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1779,12 +1458,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recuFLsNpIMHWdQWr" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }],
-      "putaside": [{ "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1827,15 +1503,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recznqv7a1CC0kJ1V" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -1877,16 +1547,8 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recMFUVFV3g4va9rT" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recavzWke43rQNEIS" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -1930,13 +1592,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recsRHWevxSClszJ4" },
-        { "type": "ingredient", "id": "recnMB0taIeRVMdYD" },
-        { "type": "ingredient", "id": "recyyDZlTMnc3j9jZ" },
-        { "type": "ingredient", "id": "rec4FgBC6dd5MtrcE" },
-        { "type": "ingredient", "id": "recwb99EU1ZyqWc8F" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -1980,15 +1636,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recsRHWevxSClszJ4" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recT5zWE8WnXzNB0M" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }],
-      "putaside": [{ "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -2030,22 +1680,12 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recWR6cyGBEkMmKWR" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "recrf44xmq1p0m7j4", "price": 6 },
-        { "type": "ingredient", "id": "recrk3Z9EOZRQebiR", "price": 6 },
-        { "type": "ingredient", "id": "rec1LdXAfrLDQG3lm", "price": 6 },
-        { "type": "ingredient", "id": "recztS4lW5RFFwLMB", "price": 6 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -2084,17 +1724,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recmKAIA290556k9l" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recvYxeuh92qkRxXF" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2138,14 +1768,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recfidZyVXAu01ney" },
-        { "type": "ingredient", "id": "recJ0AluXY6CKkE1y" },
-        { "type": "ingredient", "id": "recJvlpMhsCndGl3v" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2190,26 +1813,12 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "recT75pPiLq4ZQ7vR" },
-        { "type": "ingredient", "id": "recYY4CMOn1ZiyZTt" },
-        { "type": "ingredient", "id": "recHmrzDcl8w7Mo8Z" },
-        { "type": "ingredient", "id": "recmWdomviQSMRchB" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "recpVpLmRjrO3zCaa", "price": 6 },
-        { "type": "ingredient", "id": "recrf44xmq1p0m7j4", "price": 6 },
-        { "type": "ingredient", "id": "recrk3Z9EOZRQebiR", "price": 6 },
-        { "type": "ingredient", "id": "rec1LdXAfrLDQG3lm", "price": 6 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -2223,26 +1832,11 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recrk3Z9EOZRQebiR" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recJo42Me9nZPNvzD" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recT75pPiLq4ZQ7vR" },
-        { "type": "ingredient", "id": "recPEdYqY74ppMqX0" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -2256,22 +1850,11 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recPEdYqY74ppMqX0" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recHfL5hxAlbLKiJl" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -2312,24 +1895,11 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "recE5Ayeth06z4mvS" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "recachbxXxghviR5P" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -2369,22 +1939,11 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recMIkUWGt2ygmHKJ" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "recachbxXxghviR5P" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -2425,31 +1984,11 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "recS41bu2AuBTyIVC" },
-        { "type": "ingredient", "id": "recJvlpMhsCndGl3v" },
-        { "type": "ingredient", "id": "rec6s9tr5zrz8OSLd" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "recYY4CMOn1ZiyZTt" },
-        { "type": "ingredient", "id": "recachbxXxghviR5P" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "recHmrzDcl8w7Mo8Z" },
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "recnFLqc0j6PwBoId" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "reccr5lz5idD0b28d", "price": 0 },
-        { "type": "dish", "id": "recMD2brzuiimYUkc", "price": 0 },
-        { "type": "dish", "id": "rec20pznK9fG4F3A4", "price": 0 },
-        { "type": "dish", "id": "recqXKNSmUUw5PvNg", "price": 0 },
-        { "type": "dish", "id": "receTCXptOYmSrnLm", "price": 0 },
-        { "type": "dish", "id": "recP8qLhvvqNvhUTJ", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -2462,7 +2001,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2479,7 +2018,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recsRHWevxSClszJ4" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2522,7 +2061,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recWR6cyGBEkMmKWR" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2539,12 +2078,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
-        { "type": "ingredient", "id": "recAtYeYefI0zfKI0" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2561,12 +2095,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recuaPPyJEdti905z" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2583,10 +2112,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recZz3ZEyxjBzhMGp" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2614,13 +2140,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec1rgKdljBKDDBYx" },
-        { "type": "ingredient", "id": "recobGXVv3fz5bP46" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recJgv6UgURqUhTeC" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2664,12 +2184,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recztS4lW5RFFwLMB" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2713,14 +2228,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "recMFUVFV3g4va9rT" },
-        { "type": "ingredient", "id": "recGxHofdzGGrSR9t" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recLNIkYf1Lh0LBME" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2764,15 +2272,10 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recmNtRCtvDngyb6B" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recm2QBme7jDrV5Sw", "price": 0 },
-          { "type": "ingredient", "id": "recHI4ikK7GY9Vtg1", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -2813,11 +2316,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recyArPfI772NjBbP" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2836,14 +2335,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recI53Niy1Y0C0Lmr" },
-        { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
-        { "type": "ingredient", "id": "recyGj20FN5EygziV" },
-        { "type": "ingredient", "id": "recEKGy7G0vBdw84j" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "rect9ABfT374nMZgS" }],
-      "putaside": [{ "type": "ingredient", "id": "rect9ABfT374nMZgS" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -2885,14 +2379,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec22WY65XYvEccUt" },
-        { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
-        { "type": "ingredient", "id": "recf4yKjQW9oo7RuY" },
-        { "type": "ingredient", "id": "recyGj20FN5EygziV" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "rect9ABfT374nMZgS" }],
-      "putaside": [{ "type": "ingredient", "id": "rect9ABfT374nMZgS" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -2934,12 +2423,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recY83MTZPwMKGyvk" },
-        { "type": "ingredient", "id": "recledEGghurGJUyt" },
-        { "type": "ingredient", "id": "recCpEHMnCe4qFMsW" },
-        { "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -2983,13 +2467,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recJo42Me9nZPNvzD" },
-        { "type": "ingredient", "id": "rec9DRYPPZG1CJWQB" },
-        { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
-        { "type": "ingredient", "id": "recCpEHMnCe4qFMsW" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3033,20 +2511,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recS03dOUhwyat3Kd" },
-        { "type": "ingredient", "id": "recII3r5eg52cdYtQ" },
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
-        { "type": "ingredient", "id": "recnyRoPL7wAntZF9" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recqhHExlwejWiOaw" },
-        { "type": "ingredient", "id": "recJ0AluXY6CKkE1y" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recqhHExlwejWiOaw" },
-        { "type": "ingredient", "id": "recJ0AluXY6CKkE1y" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3062,12 +2529,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec9gZKAf9Mq7Rcop" },
-        { "type": "ingredient", "id": "recBzIbp85Ur8hApu" },
-        { "type": "ingredient", "id": "recJ0AluXY6CKkE1y" },
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3111,19 +2573,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recHdsvNHQgPr3m5h" },
-        { "type": "ingredient", "id": "recAeUdJprwtRSDxN" },
-        { "type": "ingredient", "id": "recn2OJJxhThBuzQ0" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "rec4aD5k30rHhmtn6" },
-        { "type": "ingredient", "id": "recJ0AluXY6CKkE1y" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "rec4aD5k30rHhmtn6" },
-        { "type": "ingredient", "id": "recJ0AluXY6CKkE1y" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3140,14 +2592,7 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rechbVK49tGp8ZqyS" },
-        { "type": "ingredient", "id": "recxt55r2ne6n00Hd" },
-        { "type": "ingredient", "id": "recwRbGY89z4mVLv3" },
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "recGB9ZN7CY5Y6PXc" },
-        { "type": "ingredient", "id": "recHmrzDcl8w7Mo8Z" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3166,14 +2611,8 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [
-        { "type": "ingredient", "id": "recHmrzDcl8w7Mo8Z" },
-        { "type": "ingredient", "id": "recPy1c2KkLSqKAoA" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recHmrzDcl8w7Mo8Z" },
-        { "type": "ingredient", "id": "recPy1c2KkLSqKAoA" }
-      ],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3215,17 +2654,9 @@
     "kitchenId": "recipajs7uV1pWw1h",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recXS6pQMaJExzdXe" },
-        { "type": "ingredient", "id": "recoql0cf50gaWgBT" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recm2QBme7jDrV5Sw" }],
-      "putaside": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "recHmrzDcl8w7Mo8Z" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3241,14 +2672,7 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "recHpqpxNchhnr7jS" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recJViSTBnD2qrDj0" },
-        { "type": "ingredient", "id": "recYY4CMOn1ZiyZTt" }
-      ],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -3266,14 +2690,7 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "recHpqpxNchhnr7jS" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recJViSTBnD2qrDj0" },
-        { "type": "ingredient", "id": "recYY4CMOn1ZiyZTt" }
-      ],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -3314,23 +2731,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" }],
-      "excludable": [
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recgYp8kqH19JNZKj" },
-        { "type": "ingredient", "id": "recYEH8B7edSdRO70" },
-        { "type": "ingredient", "id": "recVZxN3B2NszkT03" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recgYp8kqH19JNZKj" },
-        { "type": "ingredient", "id": "recYEH8B7edSdRO70" },
-        { "type": "ingredient", "id": "recVZxN3B2NszkT03" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3373,24 +2776,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
-        { "type": "ingredient", "id": "rec1IABrfNV7Yyge6" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recdINQKOqItu2Egq" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recP7Yp3fLx8zsLQj" },
-        { "type": "ingredient", "id": "rec7IA12t3QqvhYC8" },
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" },
-        { "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recqXdm01Ey8kAUWu" },
-        { "type": "ingredient", "id": "recP7Yp3fLx8zsLQj" },
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" },
-        { "type": "ingredient", "id": "rec7IA12t3QqvhYC8" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3407,17 +2795,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recYf5xe43NVO2sk4" },
-        { "type": "ingredient", "id": "recqhHExlwejWiOaw" },
-        { "type": "ingredient", "id": "recoql0cf50gaWgBT" },
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
-        { "type": "ingredient", "id": "rec3K9vwPFgzvtjaz" },
-        { "type": "ingredient", "id": "recqnDva5HocsoMPo" },
-        { "type": "ingredient", "id": "recuFLsNpIMHWdQWr" },
-        { "type": "ingredient", "id": "reclxcnZSbbtBwiBh" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3462,12 +2840,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reccL5Yr2nEB5Oijf" },
-        { "type": "ingredient", "id": "recmNtRCtvDngyb6B" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "recbe3KkShCBenMmL" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3486,17 +2859,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recig8x6sbqMdadF5" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" },
-        { "type": "ingredient", "id": "recWm1DUJ1I7W0Pck" },
-        { "type": "ingredient", "id": "recZz3ZEyxjBzhMGp" },
-        { "type": "ingredient", "id": "recJlMioMSTxpOOWU" },
-        { "type": "ingredient", "id": "recgYp8kqH19JNZKj" },
-        { "type": "ingredient", "id": "rec6s9tr5zrz8OSLd" },
-        { "type": "ingredient", "id": "recFFPBn3NZDNU3p4" },
-        { "type": "ingredient", "id": "recachbxXxghviR5P" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3539,14 +2902,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recT5zWE8WnXzNB0M" },
-        { "type": "ingredient", "id": "rectNxFPxTgnZXOua" },
-        { "type": "ingredient", "id": "rec23XQwifRDsV1hK" },
-        { "type": "ingredient", "id": "recuCnEG3zZNCvQGz" },
-        { "type": "ingredient", "id": "recFBu7s3RHulU06u" },
-        { "type": "ingredient", "id": "rectPDlhHQFV2a0O6" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3589,12 +2945,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recglV0UGjl0Vxop7" },
-        { "type": "ingredient", "id": "recSvjLrmp9KKltut" },
-        { "type": "ingredient", "id": "recoKsqTUvXZ17C3u" },
-        { "type": "ingredient", "id": "recFBu7s3RHulU06u" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3640,25 +2991,8 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [
-        { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recmM6AfoaKQQ78RP" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
-        { "type": "ingredient", "id": "recWq6iDyhEVIJb2R" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recmM6AfoaKQQ78RP" }
-      ],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3675,12 +3009,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recx4CLKcuF4kX4va" },
-        { "type": "ingredient", "id": "recCkeQ0yHl7XkNdc" },
-        { "type": "ingredient", "id": "recyGj20FN5EygziV" },
-        { "type": "ingredient", "id": "recGJ3ivdQTnU86Sk" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3699,16 +3028,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recKP9gmvdeBVd3PC" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "recHtp7feIuyKBefx" },
-        { "type": "ingredient", "id": "recOtCA1zVlI5DJJU" },
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" }
-      ],
+      "mandatory": [],
       "excludable": [],
-      "putaside": [{ "type": "ingredient", "id": "recYCcUAwSqKnZFCz" }],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3725,13 +3047,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recfwRZdciPcwb2ov" },
-        { "type": "ingredient", "id": "recKd4PBy4dI8BUrL" },
-        { "type": "ingredient", "id": "recpG0jMbz12VM11O" },
-        { "type": "ingredient", "id": "recDG2H7zaSfddBT8" },
-        { "type": "ingredient", "id": "rectpruVKWS17nE2z" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3776,14 +3092,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recpVpLmRjrO3zCaa" },
-        { "type": "ingredient", "id": "recmu1qoz418LVjYq" },
-        { "type": "ingredient", "id": "recFRI4NEU6fjQ4SY" },
-        { "type": "ingredient", "id": "recI53Niy1Y0C0Lmr" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recbkZ4Zdt639ldkL" }],
-      "putaside": [{ "type": "ingredient", "id": "recbkZ4Zdt639ldkL" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3800,13 +3111,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rechbVK49tGp8ZqyS" },
-        { "type": "ingredient", "id": "recgvghScthJnyUV6" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recachbxXxghviR5P" },
-        { "type": "ingredient", "id": "rectPDlhHQFV2a0O6" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -3855,29 +3160,12 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recig8x6sbqMdadF5" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "rectPDlhHQFV2a0O6" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "rectPDlhHQFV2a0O6" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "recYEH8B7edSdRO70", "price": 7 },
-        { "type": "ingredient", "id": "recNVO3WXe8vdLegx", "price": 7 },
-        { "type": "ingredient", "id": "rec0md0zPk2XkGAzt", "price": 7 },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq", "price": 7 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -3921,25 +3209,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recig8x6sbqMdadF5" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rectPDlhHQFV2a0O6" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "recqwACzjmWAG17qY" },
-        { "type": "ingredient", "id": "recdWi50BqABCsZR2" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rectPDlhHQFV2a0O6" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "recqwACzjmWAG17qY" },
-        { "type": "ingredient", "id": "recdWi50BqABCsZR2" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -3987,28 +3259,19 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec6X0hBxBaz2cmCE" },
-        { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb", "price": 7 },
-        { "type": "ingredient", "id": "rec0md0zPk2XkGAzt", "price": 7 },
-        { "type": "ingredient", "id": "recNVO3WXe8vdLegx", "price": 7 },
-        { "type": "ingredient", "id": "recYEH8B7edSdRO70", "price": 7 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
   {
     "id": "recdQTvbUdLN4IKwY",
     "name": "שניצלונים וצ'יפס",
-    "description": "שניצלונים מחזה עוף אמיתי מצופים פירורי זהב קריספיים, מגיעים עם תוספת לבחירה אורז/ צ'יפס.",
+    "description": "שניצלונים מחזה עוף אמיתי מצופים פירורי זהב קריספיים, מגיעים עם תוספת לבחירה",
     "categories": [
       "recbszxblMsGh4bbq",
       "rec9eW8LSa8PrYyDQ",
@@ -4045,21 +3308,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recT5zWE8WnXzNB0M" },
-        { "type": "ingredient", "id": "recgrWHvGBRpQOvSI" },
-        { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
-        { "type": "ingredient", "id": "rec22WY65XYvEccUt" },
-        { "type": "ingredient", "id": "recHtp7feIuyKBefx" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "rechw2XjIz7JHZRjI", "price": 0 },
-          { "type": "ingredient", "id": "recWm1DUJ1I7W0Pck", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -4101,12 +3353,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reccL5Yr2nEB5Oijf" },
-        { "type": "ingredient", "id": "recmNtRCtvDngyb6B" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "recbe3KkShCBenMmL" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -4151,14 +3398,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recglV0UGjl0Vxop7" },
-        { "type": "ingredient", "id": "recSvjLrmp9KKltut" },
-        { "type": "ingredient", "id": "recWm1DUJ1I7W0Pck" },
-        { "type": "ingredient", "id": "rec0weF62jSDjd9Sa" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }],
-      "putaside": [{ "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4205,20 +3447,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recfRMIV40lwlhncK" },
-        { "type": "ingredient", "id": "recI53Niy1Y0C0Lmr" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recC5TY1OMfSmGKmC" },
-        { "type": "ingredient", "id": "rec6ssgpR61glkkla" },
-        { "type": "ingredient", "id": "recGBGHbizVMrwzF2" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "rec6ssgpR61glkkla" },
-        { "type": "ingredient", "id": "recGBGHbizVMrwzF2" },
-        { "type": "ingredient", "id": "recC5TY1OMfSmGKmC" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4259,23 +3490,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "rectPDlhHQFV2a0O6" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" },
-        { "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "rectPDlhHQFV2a0O6" },
-        { "type": "ingredient", "id": "recwzUqc8oxDIMRh6" },
-        { "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4285,21 +3502,15 @@
   {
     "id": "recsNOAkYg4mysNub",
     "name": "באן עננים",
-    "description": "לחמניות סיניות מאודות, אסאדו מפורק בבישול ארוך של 8 שעות, מיקס שורשים, נבטים אסייתים ואיולי לימון.\nבתוספת של  7₪ ל DEAL",
+    "description": "לחמניות סיניות מאודות, אסאדו מפורק בבישול ארוך של 8 שעות, מיקס שורשים, נבטים אסייתים ואיולי לימון.\nבתוספת של  ₪7 ל DEAL",
     "categories": ["recngW5z4xCeLl6J6", "rec6rvS1EB1YuMUK8"],
     "price": 54,
     "kitchenId": "recCtQEnXUUqDHBfF",
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recdKBsFmuHKYa9pf" },
-        { "type": "ingredient", "id": "recfRMIV40lwlhncK" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recoKsqTUvXZ17C3u" },
-        { "type": "ingredient", "id": "recR7z1AdPpoU1MKG" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -4343,20 +3554,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recdKBsFmuHKYa9pf" },
-        { "type": "ingredient", "id": "recShJc6HNFiHeqkU" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4366,7 +3566,7 @@
   {
     "id": "reccFlrS2XKsdo0x3",
     "name": "בטטה טריפ",
-    "description": "צ'יפס בטטה עם בשר אסאדו מפורק, מוגש עם רוטב דיינר'ס אמריקאי וחלפיניו.\nבתוספת של  7₪ ל DEAL",
+    "description": "צ'יפס בטטה עם בשר אסאדו מפורק, מוגש עם רוטב דיינר'ס אמריקאי וחלפיניו.\nבתוספת של  ₪7 ל DEAL",
     "categories": ["recngW5z4xCeLl6J6", "rec6rvS1EB1YuMUK8"],
     "image": {
       "id": "att2aRVt1PLBeS5ug",
@@ -4399,15 +3599,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recceg3QUSjeszXto" },
-        { "type": "ingredient", "id": "recfRMIV40lwlhncK" },
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recpOlGS2Oc8LhggD" },
-        { "type": "ingredient", "id": "rec9m2rVoYlzSVfcw" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -4451,24 +3644,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec8HNDoAlkIKr78L" },
-        { "type": "ingredient", "id": "rec1IABrfNV7Yyge6" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recP7Yp3fLx8zsLQj" },
-        { "type": "ingredient", "id": "rec3JP2ZPysvm6FwJ" },
-        { "type": "ingredient", "id": "recmM6AfoaKQQ78RP" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recmM6AfoaKQQ78RP" },
-        { "type": "ingredient", "id": "rec3JP2ZPysvm6FwJ" },
-        { "type": "ingredient", "id": "recP7Yp3fLx8zsLQj" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4511,22 +3689,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "recsepskOrCOCMoo9" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recpJJLz8OPjS33PL" },
-        { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "rechBgxLcjcuvNPx2" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recpJJLz8OPjS33PL" },
-        { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "rechBgxLcjcuvNPx2" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4536,7 +3701,7 @@
   {
     "id": "recUKWnHtfi6KyO7N",
     "name": "טרטר יאסו",
-    "description": "טרטר דג ים עם בורגול, צנונית, מיקס ירוקים,\nנגיעת סחוג, מונח על שמנת חמוצה וסומק\nבתוספת של  7₪ ל DEAL",
+    "description": "טרטר דג ים עם בורגול, צנונית, מיקס ירוקים,\nנגיעת סחוג, מונח על שמנת חמוצה וסומק\nבתוספת של  ₪7 ל DEAL",
     "categories": ["recngW5z4xCeLl6J6", "rec6rvS1EB1YuMUK8"],
     "image": {
       "id": "attKZThxrLlAXxVLr",
@@ -4569,24 +3734,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
-        { "type": "ingredient", "id": "rec1IABrfNV7Yyge6" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recdINQKOqItu2Egq" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recP7Yp3fLx8zsLQj" },
-        { "type": "ingredient", "id": "rec7IA12t3QqvhYC8" },
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" },
-        { "type": "ingredient", "id": "recgh1YTV1tfRjGVe" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recqXdm01Ey8kAUWu" },
-        { "type": "ingredient", "id": "recP7Yp3fLx8zsLQj" },
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" },
-        { "type": "ingredient", "id": "rec7IA12t3QqvhYC8" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4629,20 +3779,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rechBgxLcjcuvNPx2" },
-        { "type": "ingredient", "id": "recHhc5yZWsQTO185" },
-        { "type": "ingredient", "id": "rec92S0OxwmFOhxud" },
-        { "type": "ingredient", "id": "rec0KdUIbGbJYD3aX" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recOAcqO0V1g9aZk6" },
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recpJJLz8OPjS33PL" },
-        { "type": "ingredient", "id": "recLA5Vp11LKlGRSL" },
-        { "type": "ingredient", "id": "recgYp8kqH19JNZKj" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -4686,22 +3824,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec23XQwifRDsV1hK" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recQFER5YwOd9emrb" },
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recfjrYhZBwc1nPmv", "price": 0 },
-          { "type": "ingredient", "id": "recmM6AfoaKQQ78RP", "price": 0 }
-        ],
-        [
-          { "type": "ingredient", "id": "reczbtlOF1pBTA39R", "price": 0 },
-          { "type": "ingredient", "id": "rectpZHKSyKnbUYSb", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -4744,25 +3870,8 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [
-        { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recmM6AfoaKQQ78RP" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
-        { "type": "ingredient", "id": "recWq6iDyhEVIJb2R" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recmM6AfoaKQQ78RP" }
-      ],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4805,13 +3914,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "recjlzojv8SK2HKVz" },
-        { "type": "ingredient", "id": "recYY4CMOn1ZiyZTt" },
-        { "type": "ingredient", "id": "recupRXUoSHN2ci3y" },
-        { "type": "ingredient", "id": "recKCQYSnVMRIP8Lz" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -4856,28 +3959,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" },
-        { "type": "ingredient", "id": "recMUYWFSwTybo3yY" },
-        { "type": "ingredient", "id": "recQfDpGxN0czUKnQ" },
-        { "type": "ingredient", "id": "recJYPX2ECdHz97gP" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recgYp8kqH19JNZKj" },
-        { "type": "ingredient", "id": "recYEH8B7edSdRO70" },
-        { "type": "ingredient", "id": "recVZxN3B2NszkT03" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recgYp8kqH19JNZKj" },
-        { "type": "ingredient", "id": "recYEH8B7edSdRO70" },
-        { "type": "ingredient", "id": "recVZxN3B2NszkT03" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -4887,7 +3971,7 @@
   {
     "id": "rec7J32KI1UosYP5H",
     "name": "פיצה WOW",
-    "description": "בתוספת מיקס עשבים, עלי רוקט, שום קונפי ושבבי פרמז'ן.\n\nבתוספת של 9₪ ל DEAL",
+    "description": "בתוספת מיקס עשבים, עלי רוקט, שום קונפי ושבבי פרמז'ן.\n\nבתוספת של ₪9 ל DEAL",
     "categories": ["recngW5z4xCeLl6J6", "rec6rvS1EB1YuMUK8"],
     "image": {
       "id": "attusa7N7e1IJSuSZ",
@@ -4920,16 +4004,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec6X0hBxBaz2cmCE" },
-        { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "rec0md0zPk2XkGAzt" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -4973,15 +4049,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recZLkyMtKoCwB77p" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recEbpGvSvveLkLQD", "price": 0 },
-          { "type": "ingredient", "id": "recqhVzDwRGhFTH2k", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -5023,13 +4094,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" },
-        { "type": "ingredient", "id": "rec0KdUIbGbJYD3aX" },
-        { "type": "ingredient", "id": "rechw2XjIz7JHZRjI" },
-        { "type": "ingredient", "id": "recroCzi7x0mtxdO5" },
-        { "type": "ingredient", "id": "recmu1qoz418LVjYq" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5041,7 +4106,7 @@
   {
     "id": "recUbTYSAkdOc4OZI",
     "name": "קרפצ'ו בקר",
-    "description": "סינטה פרוסה, בלסמי מצומצם, רוטב ויניגרט,\nשמן זית, שום קונפי, צנונית, אורוגולה,\nפרמז'ן וטוסטונים\n\nבתוספת של  7₪ ל DEAL",
+    "description": "סינטה פרוסה, בלסמי מצומצם, רוטב ויניגרט,\nשמן זית, שום קונפי, צנונית, אורוגולה,\nפרמז'ן וטוסטונים\n\nבתוספת של  ₪7 ל DEAL",
     "categories": ["recngW5z4xCeLl6J6", "rec6rvS1EB1YuMUK8"],
     "image": {
       "id": "attrvo5PACg9dCXsN",
@@ -5074,23 +4139,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recKP9gmvdeBVd3PC" },
-        { "type": "ingredient", "id": "recMsABfcQ3F7CcIz" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recQr7n4Kr7f24oao" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "rec1FkdXoP3QlkFfT" },
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" },
-        { "type": "ingredient", "id": "rec0md0zPk2XkGAzt" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "rec0md0zPk2XkGAzt" },
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -5133,23 +4184,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec1rgKdljBKDDBYx" }],
-      "excludable": [
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
-        { "type": "ingredient", "id": "rec0kpM82GnTvoxl7" },
-        { "type": "ingredient", "id": "rec3h2cOtYw0uVEAv" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "rec3h2cOtYw0uVEAv" },
-        { "type": "ingredient", "id": "rec0kpM82GnTvoxl7" },
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" }
-      ],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "rectpZHKSyKnbUYSb", "price": 0 },
-          { "type": "ingredient", "id": "recjlzojv8SK2HKVz", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -5195,14 +4233,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recpVpLmRjrO3zCaa" },
-        { "type": "ingredient", "id": "recmu1qoz418LVjYq" },
-        { "type": "ingredient", "id": "recFRI4NEU6fjQ4SY" },
-        { "type": "ingredient", "id": "recI53Niy1Y0C0Lmr" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recbkZ4Zdt639ldkL" }],
-      "putaside": [{ "type": "ingredient", "id": "recbkZ4Zdt639ldkL" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -5238,12 +4271,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recKH5wZl8gsZH7a4", "price": 0 },
-          { "type": "ingredient", "id": "rectCnGpWfYXBEVVK", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -5259,10 +4287,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recvr8kIqxedjZztj" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5280,7 +4305,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recycSnqXC75byJ6Q" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5317,7 +4342,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recvr8kIqxedjZztj" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5359,7 +4384,7 @@
       { "type": "bottle", "price": 435 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "receBfrzAxvsil8VO" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5380,7 +4405,7 @@
       { "type": "bottle", "price": 435 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec5OBRlM9zOt49VI" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5398,7 +4423,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recJYHQzAqMqWgYa6" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5416,10 +4441,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "receBfrzAxvsil8VO" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5437,10 +4459,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recJsdVCukz895F4D" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5459,10 +4478,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "rectUeCjeASqIkEIj" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5480,10 +4496,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recVyW6Xpoet0zd1b" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5501,10 +4514,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recWakRKhpIdhFMKR" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5522,7 +4532,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recmoRmXeBxzQYIZa" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5543,13 +4553,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "rec9S2Gj4CVD92QG0", "price": 0 },
-          { "type": "ingredient", "id": "rec9Unv1NoPxQFFyo", "price": 0 },
-          { "type": "ingredient", "id": "recmhvUUPQYgxszGZ", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -5564,7 +4568,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recyoa7YkJ2PlsUew" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5582,7 +4586,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recZSr9UtfG96s5EL" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5604,7 +4608,7 @@
       { "type": "glass", "price": 25 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reck7H2MMliapJcWA" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5623,7 +4627,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recDOvd26ZmbAL7jm" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5641,7 +4645,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recT2jgGc2G7TViL6" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5659,7 +4663,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reccrLVzyykuHGtZx" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5681,7 +4685,7 @@
       { "type": "pitcher", "price": 63 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reckx60aIYyiSIaCG" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5699,7 +4703,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recbsiIhRZ6m4dw2a" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5718,7 +4722,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recmkM4kgt3jpCz3l" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5736,14 +4740,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recQJr0srHNh8eEHr" },
-        { "type": "ingredient", "id": "recKzibs119a7JAF5" },
-        { "type": "ingredient", "id": "recc6knKmjy3mFt0P" },
-        { "type": "ingredient", "id": "recyydYtAC5UzzYQC" },
-        { "type": "ingredient", "id": "rec9765BycwVV8I9r" },
-        { "type": "ingredient", "id": "recNLQ82fGUEc4Rs5" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5764,7 +4761,7 @@
       { "type": "pitcher", "price": 77 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recoVgXacOe9yyMr0" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5782,7 +4779,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recYWXOXDt8tNVjOb" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5801,7 +4798,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recaKZImETk7eSXwE" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5822,7 +4819,7 @@
       { "type": "bottle", "price": 535 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recAM6HWVtg5jFMpt" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5841,7 +4838,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recMKNHLSDQMvbpop" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5859,7 +4856,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recrdnNwG6KIy9YtQ" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5877,7 +4874,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recyvD3XAbh1v2Hth" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5895,7 +4892,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recQzEWkHpORJkLjm" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5913,7 +4910,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recRyy8szmMSR7Rlh" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5931,7 +4928,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recRCwYXNXpVAO8xP" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5953,7 +4950,7 @@
       { "type": "bottle", "price": 495 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recRFfGOcMlJC73XP" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5972,7 +4969,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recRoA13I3fD5iYdX" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -5991,7 +4988,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recTLCV68dv1FD69t" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6010,7 +5007,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recTM8wZDEskgtVfD" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6028,7 +5025,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recUV393mAjfqGFyd" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6046,7 +5043,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recUxOir0HO26E2iv" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6067,7 +5064,7 @@
       { "type": "bottle", "price": 133 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recEGNxR4jeMtiBQJ" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6088,7 +5085,7 @@
       { "type": "bottle", "price": 133 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recJVn67ELgPwKOkt" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6109,7 +5106,7 @@
       { "type": "bottle", "price": 171 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recJEHEMNZwttME56" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6127,10 +5124,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recoVI8FOsAdsrAGS" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6148,7 +5142,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recoxS9cd9E0HBwnw" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6166,7 +5160,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recOFloggqRzQEjds" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6184,7 +5178,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recoHenG9P0FOodFL" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6223,7 +5217,7 @@
       { "type": "bottle", "price": 129 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recFmxRKkYqopLoeJ" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6241,7 +5235,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "bottle", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recH0bKdSkn3zTu9h" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6262,7 +5256,7 @@
       { "type": "bottle", "price": 133 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recGJ3ivdQTnU86Sk" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6283,7 +5277,7 @@
       { "type": "bottle", "price": 133 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recGJ3ivdQTnU86Sk" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6301,7 +5295,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recom2n2FIHHlF2Sq" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6319,7 +5313,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recpzaNGXinzHUSZU" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6337,7 +5331,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recp6FqwMk8n2y4Jn" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6355,7 +5349,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recrqPkkGQ9dH6eU3" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6373,7 +5367,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recrlJlsE1kEuznZr" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6394,7 +5388,7 @@
       { "type": "bottle", "price": 445 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recsD32IIxJnuHh1d" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6416,7 +5410,7 @@
       { "type": "bottle", "price": 685 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recsazkO823aMOqUq" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6437,10 +5431,7 @@
       { "type": "bottle", "price": 685 }
     ],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recsi9v8rCBdeEdZf" },
-        { "type": "ingredient", "id": "recvADVUt8c0YlUZV" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6459,7 +5450,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recuR02Rlu0BWVvRL" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6478,7 +5469,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recuEUzUFoiqMSGav" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6500,7 +5491,7 @@
       { "type": "bottle", "price": 590 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recvHTpZCcxhCxtHj" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6521,7 +5512,7 @@
       { "type": "bottle", "price": 710 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recvKjZaRPBdJg9Y4" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6540,7 +5531,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recv5dP3rNxy5eRVj" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6559,7 +5550,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recviJa7ROTdOBYNb" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6578,7 +5569,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recxsVKYdfQ5PaKe7" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6600,7 +5591,7 @@
       { "type": "bottle", "price": 810 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recxi8ifhj5zCJLeL" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6618,7 +5609,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reczq2EHHezfYSctf" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6636,7 +5627,7 @@
     "dishType": "drink",
     "sizes": [{ "type": "shot", "price": 0 }],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reclMoDfvTOhrWbMW" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6657,7 +5648,7 @@
       { "type": "bottle", "price": 133 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reczrqilI5oneytWa" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6678,7 +5669,7 @@
       { "type": "bottle", "price": 138 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reczkKZIRa0b3EOb3" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6699,7 +5690,7 @@
       { "type": "bottle", "price": 189 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recF4OPVfkh7Zc3Xb" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6720,7 +5711,7 @@
       { "type": "bottle", "price": 189 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recJNnZMYs7UTaz0L" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6741,7 +5732,7 @@
       { "type": "bottle", "price": 133 }
     ],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recJeFtOPXzYAEx3W" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6760,12 +5751,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recCpEHMnCe4qFMsW" },
-        { "type": "ingredient", "id": "recJRSfXW0NfRFpb5" },
-        { "type": "ingredient", "id": "rec5qqpo1HWIuSRQp" },
-        { "type": "ingredient", "id": "recsD32IIxJnuHh1d" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6784,11 +5770,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recCybMhEFpg7LFgZ" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6807,13 +5789,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "rec5qqpo1HWIuSRQp" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "recpIiQLboizMe8J9" },
-        { "type": "ingredient", "id": "recJDcBSFboCJJiZv" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6832,11 +5808,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recJRSfXW0NfRFpb5" },
-        { "type": "ingredient", "id": "rec6s9tr5zrz8OSLd" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6855,13 +5827,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "reco9dbAt2nXBUlkB" },
-        { "type": "ingredient", "id": "recOtCA1zVlI5DJJU" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "rec6s9tr5zrz8OSLd" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6880,12 +5846,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recdgu5RLqBlNC0il" },
-        { "type": "ingredient", "id": "recCybMhEFpg7LFgZ" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6904,12 +5865,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recXcLIAOrRGAMMKB" },
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recHdsvNHQgPr3m5h" },
-        { "type": "ingredient", "id": "recQQTWbnpiPNVQ4l" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6928,12 +5884,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec5rtRKRDimBWzLl" },
-        { "type": "ingredient", "id": "recnJSPZvEgh3w2Tj" },
-        { "type": "ingredient", "id": "rec8NQp1w9MXaW6qg" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6954,12 +5905,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recKH5wZl8gsZH7a4", "price": 0 },
-          { "type": "ingredient", "id": "rectCnGpWfYXBEVVK", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -6975,7 +5921,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recm7TjOYNV3ijh44" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -6993,7 +5939,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recwvNsKBWFAyWheP" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7011,7 +5957,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recHPSya6wEE087rJ" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7029,12 +5975,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
-        { "type": "ingredient", "id": "recRxY1kG8elmfgx8" },
-        { "type": "ingredient", "id": "recFuO6I7MwihsFFs" },
-        { "type": "ingredient", "id": "rec8RW5156UY8jwkn" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7058,13 +5999,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recJRSfXW0NfRFpb5", "price": 0 },
-          { "type": "ingredient", "id": "recpIiQLboizMe8J9", "price": 0 },
-          { "type": "ingredient", "id": "recJDcBSFboCJJiZv", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -7083,13 +6018,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recdy7agCRVy28NsG", "price": 0 },
-          { "type": "ingredient", "id": "recCpEHMnCe4qFMsW", "price": 0 },
-          { "type": "ingredient", "id": "recrVd5wAPB1bOnVu", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -7107,12 +6036,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "rec8cIRgxiBEibIFf", "price": 0 },
-          { "type": "ingredient", "id": "recFFI26d806duXDz", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -7151,12 +6075,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recHOvfVrdmPqOemm", "price": 0 },
-          { "type": "ingredient", "id": "recDhXiCipEs8OE3k", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -7198,25 +6117,10 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
-        { "type": "ingredient", "id": "recyGj20FN5EygziV" },
-        { "type": "ingredient", "id": "recbudne5tV5rX5O8" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recwxGBxuV90yEt7B" },
-        { "type": "ingredient", "id": "recmnCyCx2QLL3COB" },
-        { "type": "ingredient", "id": "recwpXePUgDGx1FPf" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recwpXePUgDGx1FPf", "price": 0 },
-          { "type": "ingredient", "id": "reccDbOjubrceiSS6", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -7258,22 +6162,10 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec22WY65XYvEccUt" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
-        { "type": "ingredient", "id": "recuFLsNpIMHWdQWr" },
-        { "type": "ingredient", "id": "recYgBjxkw5hDf5uD" },
-        { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recFKr51aCdkKdGt1", "price": 0 },
-          { "type": "ingredient", "id": "recWiDJ3H4VotgnHQ", "price": 0 },
-          { "type": "ingredient", "id": "recYetEQbFIrkE7R1", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -7289,21 +6181,9 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recHwZkEjcXSvWne2" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recmnCyCx2QLL3COB" },
-        { "type": "ingredient", "id": "recwpXePUgDGx1FPf" },
-        { "type": "ingredient", "id": "recwxGBxuV90yEt7B" },
-        { "type": "ingredient", "id": "recWiDJ3H4VotgnHQ" },
-        { "type": "ingredient", "id": "recFKr51aCdkKdGt1" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recmnCyCx2QLL3COB" },
-        { "type": "ingredient", "id": "recwpXePUgDGx1FPf" },
-        { "type": "ingredient", "id": "recwxGBxuV90yEt7B" },
-        { "type": "ingredient", "id": "recWiDJ3H4VotgnHQ" },
-        { "type": "ingredient", "id": "recFKr51aCdkKdGt1" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -7320,12 +6200,7 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recBny3WGlNIP75xY" },
-        { "type": "ingredient", "id": "recxUS9nha9pG4UV0" },
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
-        { "type": "ingredient", "id": "recmnCyCx2QLL3COB" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7370,14 +6245,7 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
-        { "type": "ingredient", "id": "rec1qcxzRZqxG61QI" },
-        { "type": "ingredient", "id": "rec22WY65XYvEccUt" },
-        { "type": "ingredient", "id": "rec2DQIY6S2EzRPTv" },
-        { "type": "ingredient", "id": "recOnawNdpWSvyZmr" },
-        { "type": "ingredient", "id": "rec21hubarbHAsCQZ" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7412,15 +6280,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recY2aw3bRozW0rr4" },
-        { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recqnDva5HocsoMPo" },
-        { "type": "ingredient", "id": "recMUYWFSwTybo3yY" },
-        { "type": "ingredient", "id": "recuEfat9FZlR4brm" },
-        { "type": "ingredient", "id": "recxNWSgnvfpdiZFq" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7439,23 +6299,12 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recVGUtW7tgIJnRqR" },
-        { "type": "ingredient", "id": "reclxcnZSbbtBwiBh" },
-        { "type": "ingredient", "id": "recJViSTBnD2qrDj0" },
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "recXSSiomIsjcnGHB" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recNdEkPs65ibAD7J" },
-        { "type": "ingredient", "id": "recmWdomviQSMRchB" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rectZFqNQsObZWzdx", "price": 20 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -7582,16 +6431,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" }],
-      "excludable": [
-        { "type": "ingredient", "id": "reco5tKjgYPwabN8R" },
-        { "type": "ingredient", "id": "recoplktAmVagJ46S" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recfidZyVXAu01ney" },
-        { "type": "ingredient", "id": "recWm1DUJ1I7W0Pck" },
-        { "type": "ingredient", "id": "recJlMioMSTxpOOWU" },
-        { "type": "ingredient", "id": "recBnnaRcaiUcK20o" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -7610,25 +6451,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recfOc9bh9nkK728W" },
-        { "type": "ingredient", "id": "recfHUWtiUN9WH783" },
-        { "type": "ingredient", "id": "recnFLqc0j6PwBoId" },
-        { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
-        { "type": "ingredient", "id": "recAkh3I6DVuzZN6l" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recJlMioMSTxpOOWU" },
-        { "type": "ingredient", "id": "recQr7n4Kr7f24oao" },
-        { "type": "ingredient", "id": "recukEv4z95uIZqBx" },
-        { "type": "ingredient", "id": "recyljnPmldIlL0RZ" },
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" }
-      ],
+      "mandatory": [],
       "excludable": [],
-      "putaside": [
-        { "type": "ingredient", "id": "rec9roCnBtOB9PKrU" },
-        { "type": "ingredient", "id": "reccU93rwdb7EC5Ne" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" }
-      ],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -7645,12 +6470,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recZUCAcvUznPzspa" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recyljnPmldIlL0RZ" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7668,7 +6488,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recH3XvCUoJF5lS63" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7686,18 +6506,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rectxf7uOgyy3slB7" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recQewXbyKlFOqkWT" },
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "reczZxPObmm6McdHg" },
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
-        { "type": "ingredient", "id": "recfidZyVXAu01ney" },
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recen8e7SyQCPXznx" }],
-      "putaside": [{ "type": "ingredient", "id": "recen8e7SyQCPXznx" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -7714,11 +6525,11 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recPR6VPIPvpowg6A" }],
+      "mandatory": [],
       "excludable": [],
-      "putaside": [{ "type": "ingredient", "id": "recen8e7SyQCPXznx" }],
+      "putaside": [],
       "choice": [],
-      "sideDish": [{ "type": "dish", "id": "recbTjeaNcqU44MpI", "price": 0 }],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -7733,11 +6544,11 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recPR6VPIPvpowg6A" }],
+      "mandatory": [],
       "excludable": [],
-      "putaside": [{ "type": "ingredient", "id": "recen8e7SyQCPXznx" }],
+      "putaside": [],
       "choice": [],
-      "sideDish": [{ "type": "dish", "id": "recbTjeaNcqU44MpI", "price": 0 }],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -7752,18 +6563,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reczkx8wE48NKnrIe" },
-        { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recYY4CMOn1ZiyZTt" },
-        { "type": "ingredient", "id": "rec8ZUgyVbqES75bw" },
-        { "type": "ingredient", "id": "reciKnGs1VNwHzgMu" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recen8e7SyQCPXznx" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recoplktAmVagJ46S" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7799,23 +6599,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec8uiLapioI9ebIt" },
-        { "type": "ingredient", "id": "recQewXbyKlFOqkWT" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "rechw2XjIz7JHZRjI" },
-        { "type": "ingredient", "id": "reczZxPObmm6McdHg" },
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
-        { "type": "ingredient", "id": "recfidZyVXAu01ney" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "reciU0S1tp7lgENK6", "price": 0 },
-          { "type": "ingredient", "id": "recen8e7SyQCPXznx", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -7867,16 +6654,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec8HNDoAlkIKr78L" },
-        { "type": "ingredient", "id": "recYY4CMOn1ZiyZTt" },
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recoplktAmVagJ46S" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "reciU0S1tp7lgENK6" }],
-      "putaside": [{ "type": "ingredient", "id": "reciU0S1tp7lgENK6" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -7893,16 +6673,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
-        { "type": "ingredient", "id": "recp7fNhhlPENrUOX" },
-        { "type": "ingredient", "id": "recoplktAmVagJ46S" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recJViSTBnD2qrDj0" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recfY7zuiP4jB3LnD" },
-        { "type": "ingredient", "id": "recukEv4z95uIZqBx" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -7921,25 +6692,12 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec1rgKdljBKDDBYx" },
-        { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
-        { "type": "ingredient", "id": "recJViSTBnD2qrDj0" },
-        { "type": "ingredient", "id": "reczZxPObmm6McdHg" },
-        { "type": "ingredient", "id": "recppvTDsSIPvvRPG" },
-        { "type": "ingredient", "id": "recoplktAmVagJ46S" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recfidZyVXAu01ney" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rec1yFSKghcG6Z3WR", "price": 10 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -8023,19 +6781,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recktgbNKfstLrqUU" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
-      ],
-      "putaside": [{ "type": "ingredient", "id": "recqkZ7ml0XKKctjX" }],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recPLDzBzlW7gd5QJ", "price": 0 },
-          { "type": "ingredient", "id": "reciU0S1tp7lgENK6", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -8051,19 +6800,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recktgbNKfstLrqUU" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
-      ],
-      "putaside": [{ "type": "ingredient", "id": "recqkZ7ml0XKKctjX" }],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recPLDzBzlW7gd5QJ", "price": 0 },
-          { "type": "ingredient", "id": "reciU0S1tp7lgENK6", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -8078,11 +6818,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rech5ZnW3A9yu6SeN" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recsfWgW36ds1mCNx" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8101,15 +6837,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rech5ZnW3A9yu6SeN" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "recyljnPmldIlL0RZ" },
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" }
-      ],
+      "mandatory": [],
       "excludable": [],
-      "putaside": [{ "type": "ingredient", "id": "rec0kpM82GnTvoxl7" }],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -8127,16 +6857,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reccJhziGTnbUbIEd" }],
-      "excludable": [
-        { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
-        { "type": "ingredient", "id": "recyljnPmldIlL0RZ" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -8154,14 +6876,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recVGUtW7tgIJnRqR" },
-        { "type": "ingredient", "id": "rec23XQwifRDsV1hK" },
-        { "type": "ingredient", "id": "recukEv4z95uIZqBx" },
-        { "type": "ingredient", "id": "rec4FgBC6dd5MtrcE" },
-        { "type": "ingredient", "id": "recM0IEOvEHWdExSV" },
-        { "type": "ingredient", "id": "rec13FdjaMaGhkFdV" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8180,14 +6895,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recVGUtW7tgIJnRqR" },
-        { "type": "ingredient", "id": "rec23XQwifRDsV1hK" },
-        { "type": "ingredient", "id": "recukEv4z95uIZqBx" },
-        { "type": "ingredient", "id": "rec4FgBC6dd5MtrcE" },
-        { "type": "ingredient", "id": "recM0IEOvEHWdExSV" },
-        { "type": "ingredient", "id": "rec13FdjaMaGhkFdV" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8206,19 +6914,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recukEv4z95uIZqBx" },
-        { "type": "ingredient", "id": "recQr7n4Kr7f24oao" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "rec9roCnBtOB9PKrU" }
-      ],
-      "putaside": [{ "type": "ingredient", "id": "rectpZHKSyKnbUYSb" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -8235,19 +6933,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recukEv4z95uIZqBx" },
-        { "type": "ingredient", "id": "recQr7n4Kr7f24oao" },
-        { "type": "ingredient", "id": "recUSiFQ5KWOcJ5Tk" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "rec9roCnBtOB9PKrU" }
-      ],
-      "putaside": [{ "type": "ingredient", "id": "rectpZHKSyKnbUYSb" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -8264,20 +6952,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" },
-        { "type": "ingredient", "id": "reczNV3SyERPbAnQX" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
-        { "type": "ingredient", "id": "recQewXbyKlFOqkWT" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recGBGHbizVMrwzF2" },
-        { "type": "ingredient", "id": "recyljnPmldIlL0RZ" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -8296,21 +6972,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recm2QBme7jDrV5Sw" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
-        { "type": "ingredient", "id": "recfY7zuiP4jB3LnD" },
-        { "type": "ingredient", "id": "reczZxPObmm6McdHg" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recen8e7SyQCPXznx" },
-        { "type": "ingredient", "id": "recfY7zuiP4jB3LnD" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recen8e7SyQCPXznx" },
-        { "type": "ingredient", "id": "recfY7zuiP4jB3LnD" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -8328,13 +6992,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec78dcogqTb5pncv" },
-        { "type": "ingredient", "id": "recoplktAmVagJ46S" },
-        { "type": "ingredient", "id": "recJ0AluXY6CKkE1y" },
-        { "type": "ingredient", "id": "rec13FdjaMaGhkFdV" },
-        { "type": "ingredient", "id": "recUmBfpXVOw2hC5p" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8369,13 +7027,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec1rgKdljBKDDBYx" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recxZ1iasWtCP65h4" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8393,13 +7045,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec1rgKdljBKDDBYx" },
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recxZ1iasWtCP65h4" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8417,12 +7063,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec3cWtI5IJ1NQmzj" },
-        { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
-        { "type": "ingredient", "id": "recoplktAmVagJ46S" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8441,12 +7082,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec3cWtI5IJ1NQmzj" },
-        { "type": "ingredient", "id": "reclJK4TANPTWSTV7" },
-        { "type": "ingredient", "id": "recoplktAmVagJ46S" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8464,11 +7100,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recRxY1kG8elmfgx8" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8487,11 +7119,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recRxY1kG8elmfgx8" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8509,11 +7137,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "reciU0S1tp7lgENK6" },
-        { "type": "ingredient", "id": "recE5Ayeth06z4mvS" },
-        { "type": "ingredient", "id": "rec7LIrXaMukwp1Cx" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8531,12 +7155,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recXOqFWWOVV4iyHd" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recMAmvgN9rP95bS5" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -8554,12 +7174,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recXOqFWWOVV4iyHd" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recMAmvgN9rP95bS5" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -8575,23 +7191,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recDxAxCP7peMhg2Y" },
-        { "type": "ingredient", "id": "recXS6pQMaJExzdXe" },
-        { "type": "ingredient", "id": "recoql0cf50gaWgBT" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recxZ1iasWtCP65h4" },
-        { "type": "ingredient", "id": "recyxKNABRVILX1WL" },
-        { "type": "ingredient", "id": "recvYxeuh92qkRxXF" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -8606,12 +7208,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recGBGHbizVMrwzF2" },
-        { "type": "ingredient", "id": "recvYxeuh92qkRxXF" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8628,12 +7225,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recvYxeuh92qkRxXF" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8651,16 +7243,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recYkUyBPCXYLcBOM" },
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recxZ1iasWtCP65h4" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recF0p1gJUlLyMoXQ" },
-        { "type": "ingredient", "id": "rec8ZUgyVbqES75bw" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8677,16 +7260,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recYkUyBPCXYLcBOM" },
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recxZ1iasWtCP65h4" },
-        { "type": "ingredient", "id": "recCW9WUJc8yDnzZ7" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recF0p1gJUlLyMoXQ" },
-        { "type": "ingredient", "id": "rec8ZUgyVbqES75bw" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8703,16 +7277,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "recNB3sJpbzujpFXy" },
-        { "type": "ingredient", "id": "recMJ2atl9RmHOM0z" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "recMAmvgN9rP95bS5" },
-        { "type": "ingredient", "id": "recfY7zuiP4jB3LnD" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8730,16 +7295,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "recNB3sJpbzujpFXy" },
-        { "type": "ingredient", "id": "recMJ2atl9RmHOM0z" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "recMAmvgN9rP95bS5" },
-        { "type": "ingredient", "id": "recfY7zuiP4jB3LnD" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -8756,18 +7312,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recppvTDsSIPvvRPG" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recUolcTNGduopgul" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "reciU0S1tp7lgENK6", "price": 0 },
-          { "type": "ingredient", "id": "recNB3sJpbzujpFXy", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -8782,18 +7330,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recppvTDsSIPvvRPG" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recUolcTNGduopgul" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "reciU0S1tp7lgENK6", "price": 0 },
-          { "type": "ingredient", "id": "recNB3sJpbzujpFXy", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -8826,22 +7366,11 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh", "price": 0 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -8855,22 +7384,11 @@
     "sizes": [],
     "composition": {
       "mandatory": [],
-      "excludable": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "rec8XVBp65VqRHpiK" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh", "price": 0 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -8987,7 +7505,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recuR02Rlu0BWVvRL" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9004,7 +7522,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recvHTpZCcxhCxtHj" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9021,7 +7539,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recvKjZaRPBdJg9Y4" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9038,7 +7556,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recuEUzUFoiqMSGav" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9055,7 +7573,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recviJa7ROTdOBYNb" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9089,7 +7607,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recJsdVCukz895F4D" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9106,7 +7624,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rectUeCjeASqIkEIj" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9140,7 +7658,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recyoa7YkJ2PlsUew" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9157,7 +7675,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recaKZImETk7eSXwE" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9174,7 +7692,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recAM6HWVtg5jFMpt" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9208,7 +7726,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recZSr9UtfG96s5EL" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9225,7 +7743,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recsD32IIxJnuHh1d" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9259,7 +7777,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recUV393mAjfqGFyd" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9412,7 +7930,7 @@
     "dishType": "drink",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reckx60aIYyiSIaCG" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -9431,22 +7949,11 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rectxf7uOgyy3slB7" },
-        { "type": "ingredient", "id": "recF0p1gJUlLyMoXQ" },
-        { "type": "ingredient", "id": "recqkZ7ml0XKKctjX" },
-        { "type": "ingredient", "id": "recvyskNhuZyanrR1" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "recpQT9Hzx6Waitfo", "price": 0 },
-        { "type": "dish", "id": "rec2Kzp6cbEuRX89m", "price": 0 },
-        { "type": "dish", "id": "recNx5jWptwm2tves", "price": 0 },
-        { "type": "dish", "id": "recoIlFxMgXxwqSuu", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -9970,15 +8477,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recBdn2nY3QkRtToi" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recGBGHbizVMrwzF2" },
-        { "type": "ingredient", "id": "recjA6WfuqGEQpHEf" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "rec0md0zPk2XkGAzt" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -9996,20 +8496,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recKP9gmvdeBVd3PC" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recTXYb7Jev6hShYb" },
-        { "type": "ingredient", "id": "recuVzDJmexZODfGR" },
-        { "type": "ingredient", "id": "reclduOWzTIpO3pXL" },
-        { "type": "ingredient", "id": "recXVDmuCph7L8giZ" },
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "recHtp7feIuyKBefx" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "recTXYb7Jev6hShYb" },
-        { "type": "ingredient", "id": "recuVzDJmexZODfGR" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -10053,19 +8542,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec6X0hBxBaz2cmCE" },
-        { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
-        { "type": "ingredient", "id": "recledEGghurGJUyt" },
-        { "type": "ingredient", "id": "recJo42Me9nZPNvzD" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recKSASF1pOY5YyJE" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "recL6nWezrcnaFFHu" },
-        { "type": "ingredient", "id": "rec7xylEWFzraaYWF" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -10084,16 +8561,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recWQN9KKufUJeGN4" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "recYF9oLRygw5LlQW" },
-        { "type": "ingredient", "id": "recQr7n4Kr7f24oao" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "rec94BZ9WXxBHtkTf" },
-        { "type": "ingredient", "id": "recdbDQxQOxgcKhZT" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -10139,32 +8607,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recF4kNRSYYyYeq44" },
-        { "type": "ingredient", "id": "recVGUtW7tgIJnRqR" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recvYxeuh92qkRxXF" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recBM04SMj0GL352q" },
-        { "type": "ingredient", "id": "recw0nalpMU6oLXX1" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" }
-      ],
-      "putaside": [
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" }
-      ],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recBdn2nY3QkRtToi", "price": 0 },
-          { "type": "ingredient", "id": "recfAvmhZuKMfNzdj", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10207,24 +8653,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recct6n6WQDV0QYSp" },
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recJViSTBnD2qrDj0" },
-        { "type": "ingredient", "id": "recQr7n4Kr7f24oao" },
-        { "type": "ingredient", "id": "recw1vMYHYBX1SoC7" },
-        { "type": "ingredient", "id": "recNvPtYTTk8p5zGd" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recMsABfcQ3F7CcIz", "price": 0 },
-          { "type": "ingredient", "id": "recDKhYJBiCpWgdTO", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10266,33 +8698,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" },
-        { "type": "ingredient", "id": "recqxARDw9YU3hhtf" },
-        { "type": "ingredient", "id": "recWhT3UQO9QarKQG" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "reccBjf9jB1M1wVEU" },
-        { "type": "ingredient", "id": "recT75pPiLq4ZQ7vR" },
-        { "type": "ingredient", "id": "recUgu4VS97xmblmv" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "rec1AM31aRHTt44cU" },
-        { "type": "ingredient", "id": "recRRvPzQBW8i3H37" }
-      ],
-      "putaside": [{ "type": "ingredient", "id": "reccBjf9jB1M1wVEU" }],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "rec3KQOVljYF5IemU", "price": 0 },
-          { "type": "ingredient", "id": "recQV08wksomr9liE", "price": 0 }
-        ],
-        [
-          { "type": "ingredient", "id": "recRRvPzQBW8i3H37", "price": 0 },
-          { "type": "ingredient", "id": "rec7B5O4yjGWigO6D", "price": 0 }
-        ]
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10335,21 +8744,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec7DQGrmbaI4iO4U" },
-        { "type": "ingredient", "id": "recoTNIRKrnmcP6wQ" },
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "rec966AOc3ZkXrWMJ" },
-        { "type": "ingredient", "id": "rec0AdK4RqBoVSPgE" },
-        { "type": "ingredient", "id": "rec0KdUIbGbJYD3aX" },
-        { "type": "ingredient", "id": "recfbcuvxkNDs1ASt" },
-        { "type": "ingredient", "id": "recUbXDwTIVaajLp9" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recyljnPmldIlL0RZ" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -10393,20 +8789,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recIpthm9hHhvbgtc" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10448,21 +8834,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "rec1NCGTr5NKTH2J5" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10505,25 +8880,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "recfLEO1sMdyDqlbV" },
-        { "type": "ingredient", "id": "recbS00Xr4iIvuZIr" },
-        { "type": "ingredient", "id": "rechGKYjWvFXIi0Il" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "rec7O6th1UojW4jyh" },
-        { "type": "ingredient", "id": "rec9nzkNGPE3RbNEq" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10566,23 +8926,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recIpthm9hHhvbgtc" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recuVzDJmexZODfGR" },
-        { "type": "ingredient", "id": "rec0md0zPk2XkGAzt" },
-        { "type": "ingredient", "id": "recJRhExtWgXRAkG2" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "rectpZHKSyKnbUYSb" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10624,23 +8971,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recIpthm9hHhvbgtc" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recLSoIDFKA5OZTKy" },
-        { "type": "ingredient", "id": "recJZpJOBjVQ1o3pj" },
-        { "type": "ingredient", "id": "rec0md0zPk2XkGAzt" },
-        { "type": "ingredient", "id": "recJRhExtWgXRAkG2" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recyljnPmldIlL0RZ" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10682,20 +9016,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rechGKYjWvFXIi0Il" },
-        { "type": "ingredient", "id": "recht4SRULunnZo2l" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10737,20 +9061,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recn8p2X4kIaoZip9" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recKSASF1pOY5YyJE" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "rec15mZUmLZenWcC7" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10792,22 +9106,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recn8p2X4kIaoZip9" },
-        { "type": "ingredient", "id": "recCkeQ0yHl7XkNdc" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recKSASF1pOY5YyJE" },
-        { "type": "ingredient", "id": "rec1NCGTr5NKTH2J5" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "rec790UdQSjJXmK6w" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10849,23 +9151,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recn8p2X4kIaoZip9" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recKSASF1pOY5YyJE" },
-        { "type": "ingredient", "id": "rec4LVXb7GGhLztEV" },
-        { "type": "ingredient", "id": "rec1Pf7Uwum74Gt31" },
-        { "type": "ingredient", "id": "recAkh3I6DVuzZN6l" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10907,22 +9196,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recn8p2X4kIaoZip9" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" },
-        { "type": "ingredient", "id": "recKSASF1pOY5YyJE" },
-        { "type": "ingredient", "id": "recht4SRULunnZo2l" },
-        { "type": "ingredient", "id": "recYEH8B7edSdRO70" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recyljnPmldIlL0RZ" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -10964,29 +9241,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recs74fFImDpvVdAd" },
-        { "type": "ingredient", "id": "recWA0TQq7oqiNr0u" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recvb7VMw1uZ7ULX7" },
-        { "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recM4o8dbmIrf083U", "price": 0 },
-          { "type": "ingredient", "id": "recrBswS2lEanbFwz", "price": 0 },
-          { "type": "ingredient", "id": "rechw2XjIz7JHZRjI", "price": 0 },
-          { "type": "ingredient", "id": "recWm1DUJ1I7W0Pck", "price": 0 }
-        ],
-        [
-          { "type": "ingredient", "id": "recM4o8dbmIrf083U", "price": 0 },
-          { "type": "ingredient", "id": "recrBswS2lEanbFwz", "price": 0 },
-          { "type": "ingredient", "id": "recBdn2nY3QkRtToi", "price": 0 },
-          { "type": "ingredient", "id": "recWm1DUJ1I7W0Pck", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -11029,29 +9287,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recwbEA6Q73sbjjNr" },
-        { "type": "ingredient", "id": "recSGWptHcUJPavx1" },
-        { "type": "ingredient", "id": "recTsKDNcZ5sMNpLK" },
-        { "type": "ingredient", "id": "recLflBv3FnTuDdZ9" },
-        { "type": "ingredient", "id": "recat7Yw4co0QeCHO" },
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" },
-        { "type": "ingredient", "id": "recdxVjgKTICHb8rj" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recWhT3UQO9QarKQG" },
-        { "type": "ingredient", "id": "recZJfvU5nHoOfO7h" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recM4o8dbmIrf083U", "price": 0 },
-          { "type": "ingredient", "id": "recrBswS2lEanbFwz", "price": 0 },
-          { "type": "ingredient", "id": "recBdn2nY3QkRtToi", "price": 0 },
-          { "type": "ingredient", "id": "recWm1DUJ1I7W0Pck", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -11093,14 +9332,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rechbVK49tGp8ZqyS" },
-        { "type": "ingredient", "id": "reco4QENFZZfn59Rv" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recyljnPmldIlL0RZ" },
-        { "type": "ingredient", "id": "recfMnz7uKq89tTVS" },
-        { "type": "ingredient", "id": "recamPbxsPWkEj6Ep" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -11146,16 +9378,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recwh0UOukgRNYabT" },
-        { "type": "ingredient", "id": "rechbVK49tGp8ZqyS" },
-        { "type": "ingredient", "id": "recnyRoPL7wAntZF9" },
-        { "type": "ingredient", "id": "recHtp7feIuyKBefx" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "rectNxFPxTgnZXOua" },
-        { "type": "ingredient", "id": "recMSNZrkidx5INqd" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -11199,20 +9423,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reczkx8wE48NKnrIe" }],
-      "excludable": [
-        { "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" },
-        { "type": "ingredient", "id": "reclduOWzTIpO3pXL" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recM4o8dbmIrf083U", "price": 0 },
-          { "type": "ingredient", "id": "recrBswS2lEanbFwz", "price": 0 },
-          { "type": "ingredient", "id": "rechw2XjIz7JHZRjI", "price": 0 },
-          { "type": "ingredient", "id": "recWm1DUJ1I7W0Pck", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -11257,12 +9471,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "rec9OBCvHdcJ5Ybli", "price": 0 },
-          { "type": "ingredient", "id": "recXhvhnNDcFPTa72", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -11304,22 +9513,12 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec6JuKZrj1Dz6X7X" },
-        { "type": "ingredient", "id": "rec85vHYHO9z7w0oP" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recXeP1xYyxAkCH3C" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recXhvhnNDcFPTa72", "price": 0 },
-          { "type": "ingredient", "id": "recRc4iwA4f2J46Ej", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My", "price": 0 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -11359,25 +9558,12 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recIpthm9hHhvbgtc" },
-        { "type": "ingredient", "id": "reccJhziGTnbUbIEd" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "rec9OBCvHdcJ5Ybli", "price": 0 },
-          { "type": "ingredient", "id": "recXhvhnNDcFPTa72", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
-      "addableIngredients": [
-        { "type": "ingredient", "id": "recnyRoPL7wAntZF9", "price": 0 }
-      ],
+      "addableIngredients": [],
       "addableDishes": []
     }
   },
@@ -11418,24 +9604,10 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec6uUJokMTLHcu0T" },
-        { "type": "ingredient", "id": "recat7Yw4co0QeCHO" },
-        { "type": "ingredient", "id": "recunwwkCTGfBX5yn" },
-        { "type": "ingredient", "id": "recp7fNhhlPENrUOX" },
-        { "type": "ingredient", "id": "recOKQe2BPlJ4MaOt" },
-        { "type": "ingredient", "id": "recCkeQ0yHl7XkNdc" },
-        { "type": "ingredient", "id": "recdxVjgKTICHb8rj" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recD8fJHpyFJqPQBD", "price": 0 },
-          { "type": "ingredient", "id": "recXhvhnNDcFPTa72", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -11477,19 +9649,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recho15TgzK0515n6" },
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
-        { "type": "ingredient", "id": "recXGvropqPDJGRwa" },
-        { "type": "ingredient", "id": "recJo42Me9nZPNvzD" },
-        { "type": "ingredient", "id": "recat7Yw4co0QeCHO" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" },
-        { "type": "ingredient", "id": "rect1LNJrFb1vNeo9" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" },
-        { "type": "ingredient", "id": "recYXHwcwPu6dWAs7" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -11535,12 +9696,7 @@
       "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "rec9OBCvHdcJ5Ybli", "price": 0 },
-          { "type": "ingredient", "id": "recXhvhnNDcFPTa72", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -11582,7 +9738,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recgxRM2HMFyw9JeP" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -11670,7 +9826,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rechw2XjIz7JHZRjI" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -11715,9 +9871,9 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "rec3hAsPvgqEcLiZC" }],
-      "excludable": [{ "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }],
-      "putaside": [{ "type": "ingredient", "id": "recPLDzBzlW7gd5QJ" }],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
       "choice": [],
       "sideDish": [],
       "addableIngredients": [],
@@ -11759,12 +9915,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recMhKoAOVculymV0" },
-        { "type": "ingredient", "id": "recQr7n4Kr7f24oao" },
-        { "type": "ingredient", "id": "rec790UdQSjJXmK6w" },
-        { "type": "ingredient", "id": "recbkZ4Zdt639ldkL" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -11808,7 +9959,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recWm1DUJ1I7W0Pck" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -11856,10 +10007,7 @@
       "excludable": [],
       "putaside": [],
       "choice": [],
-      "sideDish": [
-        { "type": "dish", "id": "rec8P9SCSLRblTXEA", "price": 0 },
-        { "type": "dish", "id": "recmyTMEQRxGKgcsM", "price": 0 }
-      ],
+      "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
     }
@@ -11900,11 +10048,7 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recbsSPiwb4BbiaO2" },
-        { "type": "ingredient", "id": "recdTTtfNie3icfb2" },
-        { "type": "ingredient", "id": "recMsmdWNqXCrnd4Q" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -11949,19 +10093,10 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recFKr51aCdkKdGt1" },
-        { "type": "ingredient", "id": "rec4aD5k30rHhmtn6" },
-        { "type": "ingredient", "id": "recYXHwcwPu6dWAs7" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
-      "choice": [
-        [
-          { "type": "ingredient", "id": "recOB2hz9AamdAWsb", "price": 0 },
-          { "type": "ingredient", "id": "recf2ayEScMCC01SM", "price": 0 }
-        ]
-      ],
+      "choice": [],
       "sideDish": [],
       "addableIngredients": [],
       "addableDishes": []
@@ -11977,19 +10112,7 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec2jduQ0rTiOmavg" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
-        { "type": "ingredient", "id": "rec9DRYPPZG1CJWQB" },
-        { "type": "ingredient", "id": "recyGj20FN5EygziV" },
-        { "type": "ingredient", "id": "recXeFEPeNz9MTGnu" },
-        { "type": "ingredient", "id": "recxUS9nha9pG4UV0" },
-        { "type": "ingredient", "id": "recat7Yw4co0QeCHO" },
-        { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
-        { "type": "ingredient", "id": "recYXHwcwPu6dWAs7" },
-        { "type": "ingredient", "id": "recbudne5tV5rX5O8" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -12008,11 +10131,7 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recbNg6uFZdHijt4P" },
-        { "type": "ingredient", "id": "recz1Ptz4YXYpQ6yz" },
-        { "type": "ingredient", "id": "recZEdi8EE0w9BpHJ" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -12057,15 +10176,7 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
-        { "type": "ingredient", "id": "recxUS9nha9pG4UV0" },
-        { "type": "ingredient", "id": "reczWOjwDSvwMfeXV" },
-        { "type": "ingredient", "id": "recAeOWZp2x6n9uMZ" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
-        { "type": "ingredient", "id": "recat7Yw4co0QeCHO" },
-        { "type": "ingredient", "id": "recKV3zqkL3jphrWd" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -12110,16 +10221,7 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "rec2jduQ0rTiOmavg" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
-        { "type": "ingredient", "id": "recCRoe0ToF3uKWW3" },
-        { "type": "ingredient", "id": "recat7Yw4co0QeCHO" },
-        { "type": "ingredient", "id": "recIbkWPi00dUqb15" },
-        { "type": "ingredient", "id": "recScprK0nZqVeQQ9" },
-        { "type": "ingredient", "id": "recpoZnCZGMR9xumC" },
-        { "type": "ingredient", "id": "recxS4At9DlgkoJep" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -12138,15 +10240,7 @@
     "dishType": "desert",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recnav4IGBhqWGFbB" },
-        { "type": "ingredient", "id": "recYetEQbFIrkE7R1" },
-        { "type": "ingredient", "id": "recV32ATO1E8lqGEJ" },
-        { "type": "ingredient", "id": "rec8pKfAEwucwp78c" },
-        { "type": "ingredient", "id": "recAeUdJprwtRSDxN" },
-        { "type": "ingredient", "id": "recxbypHGqW7xanz1" },
-        { "type": "ingredient", "id": "recpNLk4146tpNVy6" }
-      ],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -12235,7 +10329,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "reckxH7rsRDZ9JvnT" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -12298,7 +10392,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recRc4iwA4f2J46Ej" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -12387,7 +10481,7 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recho15TgzK0515n6" }],
+      "mandatory": [],
       "excludable": [],
       "putaside": [],
       "choice": [],
@@ -12561,12 +10655,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recNB3sJpbzujpFXy" },
-        { "type": "ingredient", "id": "rect9ABfT374nMZgS" },
-        { "type": "ingredient", "id": "recEsLLi7WO3oBS0I" }
-      ],
-      "excludable": [{ "type": "ingredient", "id": "recquk7qXdyYYgOCd" }],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -12585,16 +10675,8 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [
-        { "type": "ingredient", "id": "recY6diacYlNLzEg0" },
-        { "type": "ingredient", "id": "recVCl8aEg5fQfaXr" },
-        { "type": "ingredient", "id": "recXeP1xYyxAkCH3C" }
-      ],
-      "excludable": [
-        { "type": "ingredient", "id": "rec0OnKP0IIRt69My" },
-        { "type": "ingredient", "id": "rec8P2dycNC4N38GD" },
-        { "type": "ingredient", "id": "recugVQQ7NrtTBDCu" }
-      ],
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
@@ -12605,7 +10687,7 @@
   {
     "id": "reccIs9HFipSq8cZL",
     "name": "מוזלי סגול",
-    "description": "\u0015סורבה אסאי, אוכמניות, בננה\nוחלב קוקוס / על בסיס\u0015 יוגורט בקר 4.5% שומן\u0013",
+    "description": "סורבה אסאי, אוכמניות, בננה",
     "longDescription": "המכיל אסאי, אוכמניות, בננה, שיבולת שועל על בסיס חלב קוקוס. מעל גרנולה, זרעי צ'יה ,קוקוס קלוי ואוכמניות\n",
     "categories": ["reccwqdiBtb45Ph0h"],
     "price": 39,
@@ -12625,7 +10707,7 @@
   {
     "id": "rec47oAjml91UqLTL",
     "name": "מוזלי אדום",
-    "description": "סורבה תות, מייפל, תותים, פירות יער\nוחלב קוקוס / על בסיס יוגורט בקר %5.4 שומן",
+    "description": "סורבה תות, מייפל, תותים, פירות יער",
     "longDescription": "המכיל תותים, פירות יער, סורבה תות, רוטב מייפל, שיבולת שועל על בסיס חלב קוקוס. מעל גרנולה, זרעי צ'יה , קוקוס קלוי. מוגש עם תותים",
     "categories": ["reccwqdiBtb45Ph0h"],
     "price": 39,
@@ -12645,7 +10727,7 @@
   {
     "id": "rec041FZRqNve1pdH",
     "name": "מוזלי צהוב",
-    "description": "בננה, אננס, מנגו\nוחלב קוקוס / על בסיס יוגורט בקר %5.4 שומן",
+    "description": "בננה, אננס, מנגו",
     "longDescription": "מכיל מנגו, בננה , אננס, על שיבולת שועל בסיס חלב קוקוס. מעל גרנולה, זרעי צ'יה , קוקוס קלוי. מוגש עם בננות טריות\n",
     "categories": ["reccwqdiBtb45Ph0h"],
     "price": 39,
@@ -12665,7 +10747,7 @@
   {
     "id": "rec2UohgivHnTdSH3",
     "name": "כריך טונה",
-    "description": "חסה, עגבנייה, מלפפון\u0013 חמוץ\u0004, ביצה קשה, גרידת לימון\nוסלט טונה. לחם\u001a לבחירה[לחם מחמצת / לבן\u0013 / דגנים\u001a. או ללא גלוטן\u0013]",
+    "description": "חסה, עגבנייה, מלפפון חמוץ, ביצה קשה, גרידת לימון\nוסלט טונה",
     "categories": ["recIODPVlpy9e16FC"],
     "price": 49,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -12684,7 +10766,7 @@
   {
     "id": "recYxJoEKyyizo4jj",
     "name": "כריך בריאות",
-    "description": "מוגש בלחם\u001aדגנים\u001aמלא. חביתת ירק, טחינה, עגבנייה,\nעלים\u001a ירוקים\u001a ומלפפונים\u0013 חמוצים. > אפשרות לחביתת ירק טבעונית",
+    "description": "מוגש בלחם דגנים מלא. חביתת ירק, טחינה, עגבנייה,\nעלים ירוקים ומלפפון חמוץ",
     "categories": ["recIODPVlpy9e16FC"],
     "price": 49,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -12703,7 +10785,7 @@
   {
     "id": "recHfoRMLrunmxyW4",
     "name": "קרואסון חלומי ופרמז'ן",
-    "description": "חלומי קריספי בזילוף דבש, ביצת עין\u0013 הפוכה רכה ועלי ארוגולה",
+    "description": "חלומי קריספי בזילוף דבש, ביצת עין הפוכה רכה ועלי ארוגולה",
     "categories": ["recIODPVlpy9e16FC"],
     "price": 49,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -12722,7 +10804,7 @@
   {
     "id": "rec1jA7GFd7UMeMML",
     "name": "כריך עזים",
-    "description": "שמנת פסטו וסילאן\u0013, פלפלי\u001a קלויי\u001a, זיתי קלמטה,\nמטבעות גבינת סנט מור ועלי רוקט\nלחם\u001aלבחירה [לחם מחמצת> לבן\u0013 / דגנים. או ללא גלוטן]",
+    "description": "שמנת פסטו וסילאן, פלפלים קלויים, זיתי קלמטה,\nמטבעות גבינת סנט מור ועלי רוקט\n",
     "categories": ["recIODPVlpy9e16FC", "recEbYbuwGtvCsKsZ"],
     "price": 49,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -12741,7 +10823,7 @@
   {
     "id": "recSwL3Z4OrszSD0L",
     "name": "כריך אנטיפסטי טבעוני",
-    "description": "טפנד פלפלים, חצילי\u001a אפויי\u001a, זוקיני וכרובית מטוגנים\nטחינה ירוקה, תרד טרי, ארוגולה וצ׳ילי חריף\nלחם לבחירה [לחם מחמצת> לבן / דגנים. או ללא גלוטן]",
+    "description": "טפנד פלפלים, חצילים אפויים, זוקיני וכרובית מטוגנים\nטחינה ירוקה, תרד טרי, ארוגולה וצ׳ילי חריף",
     "categories": ["recIODPVlpy9e16FC", "recEbYbuwGtvCsKsZ"],
     "price": 49,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -12817,7 +10899,7 @@
   {
     "id": "recHkVmc1gtit2HgK",
     "name": "פריטטה פלורנטין ",
-    "description": "אומלט אפוי עם ביצים, תרד, גבינת צ׳דר, מוצרלה,\nורוטב שמנת תרד\nמוגש עם לחם מחמצת > לבן / דגנים. או ללא גלוטן\nסלט גן\u0013, טפנד פלפלים, סלסת עגבניות וגבינת שמנת",
+    "description": "אומלט אפוי עם ביצים, מנגולד, גבינת פטה, מוצרלה, ורוטב שמנת תרד. סלט גן, טפנד פלפלים, סלסת עגבניות וגבינת שמנת",
     "categories": ["recSQKAqdcMyhAZtF"],
     "price": 62,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -12874,7 +10956,7 @@
   {
     "id": "recv8W5tOGGXSKcDF",
     "name": "סבתא דינה הכינה לנו עיג'ה",
-    "description": "לביבות עיג׳ה טבעוניות, תפוח אדמה, זוקיני, עשבי תיבול וגזר.\nטורטיה פריכה, טחינה ירוקה, צ׳ילי וסלט עשבי\u001a עם אגוזי מלך\n",
+    "description": "לביבות עיג׳ה טבעוניות, תפוח אדמה, זוקיני, עשבי תיבול וגזר.\nטורטיה פריכה, טחינה ירוקה, צ׳ילי וסלט עשבים עם אגוזי מלך\n",
     "categories": ["recSQKAqdcMyhAZtF"],
     "price": 55,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -12912,7 +10994,7 @@
   {
     "id": "recQvrfUDsTcPqJ51",
     "name": "ברוסקטת ביצים עלומות",
-    "description": "חלת בריוש חמימה, ״שניצל״ צפתית, פלפלי\u001a קלויי,\nפטריות צלויות ורוטב הולנדייז",
+    "description": "חלת בריוש חמימה, ״שניצל״ צפתית, פלפלים קלויים, פטריות צלויות ורוטב הולנדייז",
     "categories": ["recSQKAqdcMyhAZtF"],
     "price": 62,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -12931,7 +11013,7 @@
   {
     "id": "recrN0Tld0qGur281",
     "name": "הכריך המפוזר מכפר אז\"ר",
-    "description": "לחם פרנה פתוח, גבינת שמנת, סלמון\u0013 מעושן, ביצת עין ,\nאספרגוס\u0015 ועירית, מוגש לצד סלט רוקט, עגבניות שרי,\nבצל סגול, שמן זית ובלסמי מצומצם",
+    "description": "לחם פרנה פתוח, גבינת שמנת, סלמון מעושן, ביצת עין ,\nאספרגוס ועירית, מוגש לצד סלט רוקט, עגבניות שרי,\nבצל סגול, שמן זית ובלסמי מצומצם",
     "categories": ["recSQKAqdcMyhAZtF"],
     "price": 62,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -13097,7 +11179,7 @@
   {
     "id": "recI8Wthyir6mZYCX",
     "name": "פוקצ׳ה פיצה ירוקים טבעונית",
-    "description": "רוטב פסטו, ירוקים עונתיים, מוצרלה ופטה טבעונית,\nעלי ארוגולה ותרד טרי.",
+    "description": "רוטב פסטו, ירוקים עונתיים, מוצרלה ופטה טבעונית, עלי ארוגולה ותרד טרי.",
     "categories": ["recEw4nZ56QQmTVcS"],
     "price": 69,
     "kitchenId": "rec1nrezZLK3Rk9n9",
@@ -13822,11 +11904,113 @@
     "dishType": "food",
     "sizes": [],
     "composition": {
-      "mandatory": [{ "type": "ingredient", "id": "recT5zWE8WnXzNB0M" }],
-      "excludable": [
-        { "type": "ingredient", "id": "rechw2XjIz7JHZRjI" },
-        { "type": "ingredient", "id": "rec5iz7wE8n3SbeoG" }
-      ],
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recz7Ry6P5O3bH1U6",
+    "sizes": [],
+    "composition": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recYeOXEtCvBPc1cN",
+    "name": "סלט גן",
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "dishType": "food",
+    "sizes": [],
+    "composition": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "reclxYMcWwR5mAEyU",
+    "name": "סלט קצוץ",
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "sizes": [],
+    "composition": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recWMf03hKwBuu65p",
+    "kitchenId": "rec1nrezZLK3Rk9n9",
+    "sizes": [],
+    "composition": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "receYcToiSSktBU8I",
+    "name": "תערובת עדשים וקינואה",
+    "dishType": "food",
+    "sizes": [],
+    "composition": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recgF361VWlTvzudD",
+    "name": "סלט רוקט",
+    "price": 0,
+    "dishType": "food",
+    "sizes": [],
+    "composition": {
+      "mandatory": [],
+      "excludable": [],
+      "putaside": [],
+      "choice": [],
+      "sideDish": [],
+      "addableIngredients": [],
+      "addableDishes": []
+    }
+  },
+  {
+    "id": "recSVwxr9bBPZv5oR",
+    "name": "סלט סלק ועשבים",
+    "price": 0,
+    "dishType": "food",
+    "sizes": [],
+    "composition": {
+      "mandatory": [],
+      "excludable": [],
       "putaside": [],
       "choice": [],
       "sideDish": [],
