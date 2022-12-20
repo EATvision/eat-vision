@@ -31,19 +31,64 @@
       }
     ],
     "website": "https://bustannyc.com/",
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "menus": ["rec7R2UglfNyQj2uM"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "menus": [
+      "rec7R2UglfNyQj2uM"
+    ],
     "currency": "$",
     "locale": "en-US"
   },
   {
     "id": "recipajs7uV1pWw1h",
-    "name": "breakfast",
+    "name": "12chairs",
+    "image": [
+      {
+        "id": "attEwgHBGfXSAOxBm",
+        "width": 220,
+        "height": 220,
+        "url": "https://dl.airtable.com/.attachments/3e8247f78322112c9ad12340b422b4a0/20b4ff8b/logo_220X220BLK.jpg",
+        "filename": "logo_220X220BLK.jpg",
+        "size": 18789,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4317a80cb5bdc6e45f6cf4391142febb/9624d3d3",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/20e27a13826d477a4ecb1ad9410ba0c1/e67325eb",
+            "width": 220,
+            "height": 220
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/8e7d4ddc49d7e76d3e79afd45dc477e0/626a3e21",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "website": "https://12chairscafe.com/brooklyn/menu/",
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "location": ["recVKDYGF5Z5jp7fz"],
-    "workingHours": ["recsOApPfuoqg065a", "reclLWEiXq2Kkmwlx"],
-    "menus": ["recyO7hcKchjbzIJ1"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recVKDYGF5Z5jp7fz"
+    ],
+    "workingHours": [
+      "recsOApPfuoqg065a",
+      "reclLWEiXq2Kkmwlx"
+    ],
+    "menus": [
+      "recyO7hcKchjbzIJ1"
+    ],
     "currency": "$",
     "locale": "en-US"
   },
@@ -79,10 +124,21 @@
       }
     ],
     "website": "https://www.haachim.co.il/",
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "location": ["recNg4hzEgtdK7S7T"],
-    "workingHours": ["recfn3FiKEpe7QwIx"],
-    "menus": ["recjlbno2inHuMHZf", "recqNn2ltXmve4Eh5"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recNg4hzEgtdK7S7T"
+    ],
+    "workingHours": [
+      "recfn3FiKEpe7QwIx"
+    ],
+    "menus": [
+      "recjlbno2inHuMHZf",
+      "recqNn2ltXmve4Eh5"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
@@ -118,7 +174,9 @@
       }
     ],
     "website": "https://www.landwercafe.co.il/",
-    "menus": ["recCGTRXNQCMOpc3E"],
+    "menus": [
+      "recCGTRXNQCMOpc3E"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
@@ -154,10 +212,23 @@
       }
     ],
     "website": "https://www.pow-wow.co.il/",
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "location": ["recJNjpkJnJmuhG8P"],
-    "workingHours": ["recAGERuhNI8tYyRH", "recA42k6lnuz9sD2K"],
-    "menus": ["recE7KpeDFYeEp7Ka", "recNuJVSBD6eGMqXH", "recxAMejHBnZFrC0T"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "location": [
+      "recJNjpkJnJmuhG8P"
+    ],
+    "workingHours": [
+      "recAGERuhNI8tYyRH",
+      "recA42k6lnuz9sD2K"
+    ],
+    "menus": [
+      "recE7KpeDFYeEp7Ka",
+      "recNuJVSBD6eGMqXH",
+      "recxAMejHBnZFrC0T"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
@@ -193,9 +264,16 @@
       }
     ],
     "website": "https://www.fattal.co.il/",
-    "intentions": ["Dine-in"],
-    "workingHours": ["rec3OkNeMfar0Sc2u"],
-    "menus": ["recLlYO0QzHNhc0r1", "recwKgdI7MsvRFBQJ"],
+    "intentions": [
+      "Dine-in"
+    ],
+    "workingHours": [
+      "rec3OkNeMfar0Sc2u"
+    ],
+    "menus": [
+      "recLlYO0QzHNhc0r1",
+      "recwKgdI7MsvRFBQJ"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
@@ -230,9 +308,17 @@
         }
       }
     ],
-    "intentions": ["Dine-in", "Takeout", "Delivery"],
-    "workingHours": ["recwHhxBDqZt4r7o0"],
-    "menus": ["recEB97PL9uMjrqE9"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery"
+    ],
+    "workingHours": [
+      "recwHhxBDqZt4r7o0"
+    ],
+    "menus": [
+      "recEB97PL9uMjrqE9"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
@@ -268,12 +354,28 @@
       }
     ],
     "website": "https://www.gansipur.co.il/",
-    "intentions": ["Dine-in", "Takeout", "Delivery", "Catering"],
-    "location": ["recgSQuO7meuCAczQ"],
-    "workingHours": ["recSt1iwQPypHMOlC", "recNlhYZFVvQofGxh"],
-    "menus": ["recYBff7oS6WWZn7S", "recZr1ZDEbud2Fxht"],
+    "intentions": [
+      "Dine-in",
+      "Takeout",
+      "Delivery",
+      "Catering"
+    ],
+    "location": [
+      "recgSQuO7meuCAczQ"
+    ],
+    "workingHours": [
+      "recSt1iwQPypHMOlC",
+      "recNlhYZFVvQofGxh"
+    ],
+    "menus": [
+      "recYBff7oS6WWZn7S",
+      "recZr1ZDEbud2Fxht"
+    ],
     "currency": "₪",
     "locale": "he-IL"
   },
-  { "id": "recY0m3qlyr5aEDIb", "locale": "en-US" }
+  {
+    "id": "recY0m3qlyr5aEDIb",
+    "locale": "en-US"
+  }
 ]
