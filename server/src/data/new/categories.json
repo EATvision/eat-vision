@@ -1183,18 +1183,8 @@
   { "id": "recpUWl8Tg7h0e2rf", "name": "wine" },
   { "id": "recKGhqTx4bO1Vdq2", "name": "ילדים" },
   { "id": "rec3lQUQPesFI7H42", "name": "עיקריות" },
-  {
-    "id": "rece6O5lc0wm0fQbP",
-    "name": "הקדמה",
-    "position": 1,
-    "description": "מתאים\u000e להתחלה או נשנוש."
-  },
-  {
-    "id": "recIODPVlpy9e16FC",
-    "name": "שיח כריכים",
-    "position": 2,
-    "description": "מוגש בליווי סלט גן"
-  },
+  { "id": "rece6O5lc0wm0fQbP", "name": "הקדמה", "position": 1 },
+  { "id": "recIODPVlpy9e16FC", "name": "שיח כריכים", "position": 2 },
   { "id": "reccU4tPR8hovYqAI", "name": "שאר ירקות", "position": 3 },
   {
     "id": "reccwqdiBtb45Ph0h",
@@ -1204,30 +1194,12 @@
   },
   { "id": "recSQKAqdcMyhAZtF", "name": "תפנית בעלילה ", "position": 5 },
   { "id": "rec0pirssFiV5R3Sq", "name": "היה היתה שקשוקה", "position": 6 },
-  {
-    "id": "recEw4nZ56QQmTVcS",
-    "name": "מעשיות מהתנור",
-    "position": 7,
-    "description": "מוגש בליווי\u001bסלט גן"
-  },
+  { "id": "recEw4nZ56QQmTVcS", "name": "מעשיות מהתנור", "position": 7 },
   { "id": "recqEeeUYOh5Vz5xF", "name": "ממתק" },
-  {
-    "id": "recatIF25Lr7geCWc",
-    "name": "כספיון",
-    "position": 8,
-    "description": "דגים טריים"
-  },
+  { "id": "recatIF25Lr7geCWc", "name": "כספיון", "position": 8 },
   { "id": "recHLxI9F9wkhh8Aa", "name": "פסטות מספרות" },
-  {
-    "id": "recEbYbuwGtvCsKsZ",
-    "name": "מוטיב הבצק",
-    "description": "מוגש בליווי\u001bסלט גן"
-  },
-  {
-    "id": "recu1NIRPqYxvkJIx",
-    "name": "הקדמה",
-    "description": "מתאים להתחלה או נשנוש"
-  },
+  { "id": "recEbYbuwGtvCsKsZ", "name": "מוטיב הבצק" },
+  { "id": "recu1NIRPqYxvkJIx", "name": "הקדמה" },
   { "id": "recwCSeFTRATDYLVz", "name": "משקאות קרים" },
   { "id": "rec4zAWBFdQJ7ScTA", "name": "מיצים טבעיים" },
   { "id": "recPaFjrZdJAGp5Lj", "name": "משקאות קפואים" },
