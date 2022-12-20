@@ -223,8 +223,8 @@ base('tblLnh1hSZ8GTznfy')
     })
   })
 
-//recipes
-let recipes = []
+//compositions
+let compositions = []
 base('tblrTZOqWSoDnXJK4')
   .select({ view: 'Grid view' })
   .all((_err, records) => {
@@ -238,9 +238,9 @@ base('tblrTZOqWSoDnXJK4')
       addable_ingridients: r.get('addable_ingridients'),
       addable_dishs: r.get('addable_dishs'),
     }))
-    recipes = data
-    fs.writeFileSync('./src/data/raw/recipes.json', JSON.stringify(recipes))
-    console.log('finished recipes')
+    compositions = data
+    fs.writeFileSync('./src/data/raw/compositions.json', JSON.stringify(compositions))
+    console.log('finished compositions')
 
   })
 

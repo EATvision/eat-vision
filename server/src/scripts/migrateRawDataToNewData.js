@@ -16,7 +16,7 @@ const workingHours = require(('../../src/data/raw/working_hours.json'))
 const sizes = require(('../../src/data/raw/sizes.json'))
 const dishes = require(('../../src/data/raw/dishes.json'))
 const foodGroups = require(('../../src/data/raw/foodGroups.json'))
-const compositions = require(('../../src/data/raw/recipes.json'))
+const compositions = require(('../../src/data/raw/compositions.json'))
 const choices_ingredients = require(('../../src/data/raw/choices_ingredients.json'))
 const choices_subdishes = require(('../../src/data/raw/choices_subdishes.json'))
 const allergens = require(('../../src/data/raw/allergens.json'))
@@ -77,7 +77,7 @@ const choicesIngredientsById = keyBy(choices_ingredients, 'id')
 const choicesSubDishesById = keyBy(choices_subdishes, 'id')
 
 const modifiedDishes = dishes.map(dish => {
-  const dishComposition = compositionsById[get(dish, 'recipe[0]')]
+  const dishComposition = compositionsById[get(dish, 'composition[0]')]
   const choicesInDish = get(dishComposition, 'Choice_ingredients', []).map(choiceId => choicesIngredientsById[choiceId])
   const choiceSubDishes = get(choicesSubDishesById, `[${get(dishComposition, 'Choice_side_dish[0]')}]`, {})
   const addableIngredients = get(choicesIngredientsById, `[${get(dishComposition, 'addable_ingridients[0]')}]`, {})
